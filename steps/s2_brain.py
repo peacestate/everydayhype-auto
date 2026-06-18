@@ -51,7 +51,9 @@ HARD RULES:
   time", "changing everything", "mind-blowing", "you won't believe", "proactive", "cutting-edge",
   "next-level", "transforming", "unlocking potential", "the power of AI". No empty hype.
 - Slide 1 = the single most SHOCKING concrete fact as the hook (think: "AI READ 2M LINES OF CODE AND
-  FOUND THE BUG IN 4 MINUTES"). Slides 2-4 = specific details/numbers/names. Slide 5 = takeaway + follow CTA.
+  FOUND THE BUG IN 4 MINUTES"). Slides 2-4 = specific details/numbers/names. Slide 5 = takeaway that
+  states the SIGNIFICANCE with a concrete fact or sharp implication (e.g. "AND IT RUNS ON ONE GPU",
+  "AT 1/10TH THE COST") + the follow CTA. The banned-words rule applies to ALL 5 slides AND the caption.
 - Headlines SHORT, UPPERCASE-ready, each with 1-2 highlight words ('hl', a substring of the headline).
 - Caption = 1-2 punchy sentences with the KEY fact + 8-12 relevant hashtags. No fluff.
 - 5 image prompts, each a DISTINCT subject (never repeat a motif), >=1 human/people shot, cohesive with
@@ -77,7 +79,14 @@ def make_plan(candidates):
     article = _fetch_article(story["url"])
     print(f"[s2] article chars: {len(article)}")
 
-    # STAGE 3 — write fact-grounded copy + varied visuals
+    # STAGE 3 — write fact-grounded copy + varied visuals (with a deterministic anti-fluff guard)
+    BANNED = ["revolutioniz", "game-chang", "game chang", "the future is here", "in record time",
+              "changing everything", "mind-blow", "you won't believe", "proactive", "cutting-edge",
+              "cutting edge", "next-level", "next level", "unlocking", "the power of ai", "groundbreaking",
+              "seamless", "redefin", "stay tuned", "discover more", "the future of"]
+    def _fluff(p):
+        blob = (p.get("caption", "") + " " + " ".join(s["headline"] + " " + s.get("sub", "") for s in p["slides"])).lower()
+        return [w for w in BANNED if w in blob]
     user = {
         "story_title": story["title"], "story_url": story["url"], "article_text": article or "(article unavailable — use only the headline; still avoid all banned fluff words)",
         "avoid_recent_palettes": _recent(ledger, "palette"), "avoid_recent_art_styles": _recent(ledger, "art_style"),
@@ -85,9 +94,19 @@ def make_plan(candidates):
         "palette_pool": [p["name"] for p in C.PALETTES], "art_style_pool": C.ART_STYLES, "layout_pool": C.LAYOUTS, "pills": C.PILLS,
         "schema": {"palette": "name not in avoid", "art_style": "from pool not in avoid", "layout": "from pool not in avoid",
                    "caption": "", "slides": [{"pill": "", "headline": "", "hl": "", "sub": "", "image_prompt": ""}]}}
-    plan = json.loads(client.chat.completions.create(
-        model=C.OPENAI_MODEL, response_format={"type": "json_object"}, temperature=0.7,
-        messages=[{"role": "system", "content": WRITE_SYS}, {"role": "user", "content": json.dumps(user)}]).choices[0].message.content)
+    msgs = [{"role": "system", "content": WRITE_SYS}, {"role": "user", "content": json.dumps(user)}]
+    plan = None
+    for attempt in range(3):
+        plan = json.loads(client.chat.completions.create(
+            model=C.OPENAI_MODEL, response_format={"type": "json_object"}, temperature=0.7,
+            messages=msgs).choices[0].message.content)
+        bad = _fluff(plan)
+        if not bad:
+            break
+        print(f"[s2] fluff guard caught {bad} -> rewriting (attempt {attempt+1})")
+        msgs.append({"role": "assistant", "content": json.dumps(plan)})
+        msgs.append({"role": "user", "content": f"REWRITE: remove these BANNED fluff phrases {bad}. "
+                     "Replace each with a concrete fact from the article or a sharp factual statement. Keep JSON schema."})
 
     assert len(plan["slides"]) == 5, "need 5 slides"
     plan["story"] = {"title": story["title"], "url": story["url"]}
