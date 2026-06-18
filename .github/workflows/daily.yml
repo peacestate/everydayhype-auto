@@ -1,8 +1,9 @@
 name: daily-carousel
 
 on:
-  schedule:
-    - cron: "30 6 * * *"      # 06:30 UTC daily (adjust to your audience)
+  # schedule PAUSED while tuning the brain — re-enable when content quality is approved
+  # schedule:
+  #   - cron: "30 6 * * *"      # 06:30 UTC daily (adjust to your audience)
   workflow_dispatch:           # manual run button
     inputs:
       dry_run:

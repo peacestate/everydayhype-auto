@@ -1,87 +1,104 @@
-"""Step 2 — the BRAIN (OpenAI). Ranks candidates, picks the best fresh story, plans a
-varied palette/style/layout (avoiding recent days), and writes the 5-slide copy with
-5 DISTINCT image prompts (no repeated motif, >=1 human shot). Returns a plan dict or None (skip day)."""
-import json, datetime
-from pathlib import Path
+"""Step 2 — the BRAIN (OpenAI), now FACT-GROUNDED.
+(1) pick the best AI/tech story, (2) FETCH the actual article text, (3) write copy built from real
+facts (numbers/names/dates) with hard anti-fluff rules, + plan varied palette/style/layout.
+Returns a plan dict or None (skip day)."""
+import json, datetime, re, urllib.request
 from openai import OpenAI
 import config as C
 
 LEDGER = C.STATE / "style_ledger.json"
 HISTORY = C.STATE / "posted_history.json"
+UA = {"User-Agent": "Mozilla/5.0 (compatible; everydayhypehq-bot/1.0)"}
 
 def _load(p, default): return json.loads(p.read_text()) if p.exists() else default
+def _recent(ledger, key, days=C.AVOID_DAYS): return [e[key] for e in ledger[-days:] if key in e]
 
-def _recent(ledger, key, days=C.AVOID_DAYS):
-    return [e[key] for e in ledger[-days:] if key in e]
+def _fetch_article(url, limit=3000):
+    """Pull clean article text. Jina Reader (r.jina.ai) bypasses most bot-blocking; fall back to raw."""
+    # 1) Jina Reader proxy -> clean markdown text
+    try:
+        txt = urllib.request.urlopen(urllib.request.Request("https://r.jina.ai/" + url, headers=UA), timeout=30).read().decode("utf-8", "replace")
+        txt = re.sub(r"\s+", " ", txt).strip()
+        if len(txt) > 400:
+            return txt[:limit]
+    except Exception as e:
+        print("[s2] jina fetch failed:", e)
+    # 2) raw fetch fallback
+    try:
+        html = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20).read().decode("utf-8", "replace")
+        html = re.sub(r"(?is)<(script|style|nav|header|footer|aside).*?</\1>", " ", html)
+        paras = re.findall(r"(?is)<p[^>]*>(.*?)</p>", html)
+        text = re.sub(r"\s+", " ", " ".join(re.sub(r"(?is)<[^>]+>", " ", p) for p in paras)).strip()
+        return text[:limit]
+    except Exception as e:
+        print("[s2] raw fetch failed:", e); return ""
 
-SYSTEM = """You are the editor + art director for @everydayhypehq, a bold AI/tech news Instagram
-carousel brand. You write punchy, accurate, curiosity-driven copy and plan striking, VARIED visuals.
-Rules you MUST follow:
-- TOPIC: the story MUST be about AI or frontier tech — new AI models/products, robotics, chips,
-  major tech-company AI moves, AI breakthroughs, AI safety/security. REJECT generic politics, energy,
-  finance, or meta-discussion-about-AI unless it's a concrete AI development. If nothing qualifies, skip.
-- Pick ONE story that is genuinely trending, recent, real. Reject clickbait/rumor; prefer a known outlet.
-- HEADLINES must be BOLD and SHOCKING with a curiosity gap — concrete, specific, ideally with a number
-  or a surprising claim. Slide 1 is the HOOK. GOOD: "SCIENTISTS JUST BUILT AN AI THAT CODES ITSELF",
-  "THIS AI FOUND A 27-YEAR-OLD FLAW IN SECONDS". BAD/vague: "WHAT IT MEANS FOR US", "THE POWER OF AI".
-- 5 slides, each headline SHORT + UPPERCASE-ready with 1-2 highlight words ('hl', a substring of headline).
-- The 5 image prompts must each be a DISTINCT subject — NEVER repeat a motif (no padlock twice, etc.).
-- Include at least ONE human/people shot. Vary scene types (object, environment, people, concept).
-- Keep imagery cohesive with the chosen palette + art style, but tonally varied slide to slide.
-Return STRICT JSON only."""
+PICK_SYS = """You are the editor of @everydayhypehq (AI/tech news). From the candidate headlines, pick the
+ONE best story: must be about AI or frontier tech (new models/products, robotics, chips, big AI moves,
+breakthroughs, AI safety/security), genuinely trending, recent, real — NOT generic politics/finance or
+meta-discussion. Avoid anything similar to already_posted. If nothing qualifies, skip. Return JSON:
+{"skip":bool,"confidence":0-100,"index":int (into candidates),"why":""}"""
+
+WRITE_SYS = """You are the editor + art director for @everydayhypehq. Write a 5-slide carousel that is
+SPECIFIC and FACTUAL, built from the ARTICLE text provided — never generic.
+HARD RULES:
+- EVERY slide must contain a CONCRETE specific pulled from the article: a number, %, name, company,
+  date, or hard fact. If the article gives stats, USE them.
+- NEVER FABRICATE. Only use numbers/names/dates/facts that LITERALLY appear in article_text. If the
+  article is empty or sparse, write truthfully from the headline and stay factual — do NOT invent any
+  statistic, percentage, or detail. A true-but-general line beats a made-up specific.
+- BANNED (do not write these): "revolutionizing", "game-changer", "the future is here", "in record
+  time", "changing everything", "mind-blowing", "you won't believe", "proactive", "cutting-edge",
+  "next-level", "transforming", "unlocking potential", "the power of AI". No empty hype.
+- Slide 1 = the single most SHOCKING concrete fact as the hook (think: "AI READ 2M LINES OF CODE AND
+  FOUND THE BUG IN 4 MINUTES"). Slides 2-4 = specific details/numbers/names. Slide 5 = takeaway + follow CTA.
+- Headlines SHORT, UPPERCASE-ready, each with 1-2 highlight words ('hl', a substring of the headline).
+- Caption = 1-2 punchy sentences with the KEY fact + 8-12 relevant hashtags. No fluff.
+- 5 image prompts, each a DISTINCT subject (never repeat a motif), >=1 human/people shot, cohesive with
+  the chosen palette + art_style but tonally varied.
+Return STRICT JSON matching the given schema."""
 
 def make_plan(candidates):
     client = OpenAI(api_key=C.OPENAI_API_KEY)
-    ledger  = _load(LEDGER, [])
-    history = _load(HISTORY, [])
-    avoid = {
-        "palettes": _recent(ledger, "palette"),
-        "art_styles": _recent(ledger, "art_style"),
-        "layouts": _recent(ledger, "layout"),
-        "past_titles": [h["title"] for h in history[-30:]],
-    }
-    user = {
-        "candidates": [{"title": c["title"], "src": c["src"], "score": c["score"]} for c in candidates],
-        "avoid_recent_palettes": avoid["palettes"],
-        "avoid_recent_art_styles": avoid["art_styles"],
-        "avoid_recent_layouts": avoid["layouts"],
-        "already_posted_last_30d": avoid["past_titles"],
-        "palette_pool": [p["name"] for p in C.PALETTES],
-        "art_style_pool": C.ART_STYLES,
-        "layout_pool": C.LAYOUTS,
-        "pills": C.PILLS,
-        "output_schema": {
-            "skip": "bool (true if no candidate is strong/fresh enough -> we post nothing today)",
-            "confidence": "0-100",
-            "story": {"title": "", "url": "", "why_it_matters": ""},
-            "palette": "one name from palette_pool (not in avoid list)",
-            "art_style": "one from art_style_pool (not in avoid list)",
-            "layout": "one of layout_pool (not in avoid list)",
-            "caption": "the IG post caption with 8-12 hashtags",
-            "slides": [
-                {"pill": "", "headline": "", "hl": "highlighted words (substring of headline)",
-                 "sub": "", "image_prompt": "distinct subject, fits palette+art_style"}
-            ],
-        },
-    }
-    r = client.chat.completions.create(
-        model=C.OPENAI_MODEL, response_format={"type": "json_object"}, temperature=0.8,
-        messages=[{"role": "system", "content": SYSTEM},
-                  {"role": "user", "content": json.dumps(user)}])
-    plan = json.loads(r.choices[0].message.content)
+    ledger, history = _load(LEDGER, []), _load(HISTORY, [])
 
-    if plan.get("skip") or plan.get("confidence", 0) < 60:
-        print(f"[s2] skip day (confidence={plan.get('confidence')})"); return None
-    assert len(plan["slides"]) == 5, "need exactly 5 slides"
+    # STAGE 1 — pick the story (titles only)
+    pick = json.loads(client.chat.completions.create(
+        model=C.OPENAI_MODEL, response_format={"type": "json_object"}, temperature=0.4,
+        messages=[{"role": "system", "content": PICK_SYS}, {"role": "user", "content": json.dumps({
+            "candidates": [{"i": i, "title": c["title"], "src": c["src"], "score": c["score"]} for i, c in enumerate(candidates)],
+            "already_posted": [h["title"] for h in history[-30:]]})}]).choices[0].message.content)
+    if pick.get("skip") or pick.get("confidence", 0) < 60:
+        print(f"[s2] skip day (confidence={pick.get('confidence')})"); return None
+    story = candidates[int(pick["index"])]
+    print(f"[s2] picked: {story['title']}")
+
+    # STAGE 2 — fetch the real article
+    article = _fetch_article(story["url"])
+    print(f"[s2] article chars: {len(article)}")
+
+    # STAGE 3 — write fact-grounded copy + varied visuals
+    user = {
+        "story_title": story["title"], "story_url": story["url"], "article_text": article or "(article unavailable — use only the headline; still avoid all banned fluff words)",
+        "avoid_recent_palettes": _recent(ledger, "palette"), "avoid_recent_art_styles": _recent(ledger, "art_style"),
+        "avoid_recent_layouts": _recent(ledger, "layout"),
+        "palette_pool": [p["name"] for p in C.PALETTES], "art_style_pool": C.ART_STYLES, "layout_pool": C.LAYOUTS, "pills": C.PILLS,
+        "schema": {"palette": "name not in avoid", "art_style": "from pool not in avoid", "layout": "from pool not in avoid",
+                   "caption": "", "slides": [{"pill": "", "headline": "", "hl": "", "sub": "", "image_prompt": ""}]}}
+    plan = json.loads(client.chat.completions.create(
+        model=C.OPENAI_MODEL, response_format={"type": "json_object"}, temperature=0.7,
+        messages=[{"role": "system", "content": WRITE_SYS}, {"role": "user", "content": json.dumps(user)}]).choices[0].message.content)
+
+    assert len(plan["slides"]) == 5, "need 5 slides"
+    plan["story"] = {"title": story["title"], "url": story["url"]}
     plan["date"] = datetime.date.today().isoformat()
-    print(f'[s2] story: {plan["story"]["title"]}  | {plan["palette"]}/{plan["art_style"][:18]}/{plan["layout"]}')
+    print(f'[s2] {plan["palette"]}/{plan["art_style"][:18]}/{plan["layout"]} | {plan["slides"][0]["headline"]}')
     return plan
 
 def commit_ledger(plan):
-    ledger = _load(LEDGER, []); history = _load(HISTORY, [])
-    ledger.append({"date": plan["date"], "palette": plan["palette"],
-                   "art_style": plan["art_style"], "layout": plan["layout"],
-                   "motifs": [s["image_prompt"][:40] for s in plan["slides"]]})
+    ledger, history = _load(LEDGER, []), _load(HISTORY, [])
+    ledger.append({"date": plan["date"], "palette": plan["palette"], "art_style": plan["art_style"],
+                   "layout": plan["layout"], "motifs": [s["image_prompt"][:40] for s in plan["slides"]]})
     history.append({"date": plan["date"], "title": plan["story"]["title"]})
     LEDGER.write_text(json.dumps(ledger[-60:], indent=2))
     HISTORY.write_text(json.dumps(history[-200:], indent=2))
