@@ -29,14 +29,15 @@ def _slide_html(i, s, accent, bg_b64, n=5):
     if hl and hl in headline:
         headline = headline.replace(hl, f'<span class="hl">{hl}</span>', 1)
     pill_alert = "alert" if i in (0, n-1) else ""
-    dots = "".join(f'<i class="{"on" if j==i else ""}"></i>' for j in range(n))
     arrow = '<div class="arrow">›</div>' if i == 0 else ""
+    # No baked-in dots: Instagram draws its own native carousel indicator, so
+    # an in-image dot row just duplicates it. Let IG handle slide position.
     return f'''<section class="slide">
       <img class="bg" src="{bg_b64}"><div class="scrim"></div>
       <div class="pill {pill_alert}">{html.escape(s["pill"])}</div>
       <div class="content"><h1>{headline}</h1><p class="sub">{html.escape(s["sub"])}</p></div>
       <div class="logo"></div><div class="handle">{C.BRAND}</div>
-      <div class="dots">{dots}</div>{arrow}</section>'''
+      {arrow}</section>'''
 
 def build_html(plan, bg_dir):
     pal = next(p for p in C.PALETTES if p["name"] == plan["palette"])
