@@ -85,8 +85,14 @@ def make_plan(candidates):
               "cutting edge", "next-level", "next level", "unlocking", "the power of ai", "groundbreaking",
               "seamless", "redefin", "stay tuned", "discover more", "the future of"]
     def _fluff(p):
-        blob = (p.get("caption", "") + " " + " ".join(s["headline"] + " " + s.get("sub", "") for s in p["slides"])).lower()
+        slides = p.get("slides") or []
+        blob = (p.get("caption", "") + " " + " ".join(
+            (s.get("headline", "") + " " + s.get("sub", "")) for s in slides if isinstance(s, dict))).lower()
         return [w for w in BANNED if w in blob]
+    def _valid(p):
+        s = p.get("slides")
+        return isinstance(s, list) and len(s) == 5 and all(
+            isinstance(x, dict) and x.get("headline") for x in s)
     user = {
         "story_title": story["title"], "story_url": story["url"], "article_text": article or "(article unavailable — use only the headline; still avoid all banned fluff words)",
         "avoid_recent_palettes": _recent(ledger, "palette"), "avoid_recent_art_styles": _recent(ledger, "art_style"),
@@ -101,14 +107,21 @@ def make_plan(candidates):
             model=C.OPENAI_MODEL, response_format={"type": "json_object"}, temperature=0.7,
             messages=msgs).choices[0].message.content)
         bad = _fluff(plan)
-        if not bad:
+        if _valid(plan) and not bad:
             break
-        print(f"[s2] fluff guard caught {bad} -> rewriting (attempt {attempt+1})")
+        problems = []
+        if not _valid(plan):
+            problems.append("return EXACTLY 5 slides as a JSON array, each an object with non-empty "
+                            "'pill','headline','hl','sub','image_prompt' fields per the schema")
+        if bad:
+            problems.append(f"remove these BANNED fluff phrases {bad}, replacing each with a concrete "
+                            "fact from the article or a sharp factual statement")
+        print(f"[s2] guard retry (attempt {attempt+1}): valid={_valid(plan)} fluff={bad}")
         msgs.append({"role": "assistant", "content": json.dumps(plan)})
-        msgs.append({"role": "user", "content": f"REWRITE: remove these BANNED fluff phrases {bad}. "
-                     "Replace each with a concrete fact from the article or a sharp factual statement. Keep JSON schema."})
+        msgs.append({"role": "user", "content": "REWRITE strictly as JSON, keeping the schema: " + "; ".join(problems) + "."})
 
-    assert len(plan["slides"]) == 5, "need 5 slides"
+    if not _valid(plan):
+        raise ValueError(f"s2 brain returned malformed plan after retries (slides={type(plan.get('slides')).__name__})")
     plan["story"] = {"title": story["title"], "url": story["url"]}
     plan["date"] = datetime.date.today().isoformat()
     print(f'[s2] {plan["palette"]}/{plan["art_style"][:18]}/{plan["layout"]} | {plan["slides"][0]["headline"]}')
