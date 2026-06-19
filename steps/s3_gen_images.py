@@ -36,7 +36,7 @@ def _kaggle(*args):
 def generate(plan):
     if shutil.rmtree(BG, ignore_errors=True) or True: BG.mkdir(parents=True, exist_ok=True)
     KDIR.mkdir(parents=True, exist_ok=True)
-    style = f", {plan['art_style']}, dark cinematic, the lower third darker and emptier with space for text, no text, no watermark"
+    style = f", {plan['art_style']}, dark cinematic, the lower third darker and emptier with space for text, absolutely no text, no letters, no numbers, no charts, no graphs, no logos, no UI screens, no signage, no watermark"
     prompts = {str(i+1): s["image_prompt"] for i, s in enumerate(plan["slides"])}
     (KDIR/"gen_flux.py").write_text(KERNEL_TMPL % {"hf": C.HF_TOKEN, "style": style, "prompts": prompts})
     (KDIR/"kernel-metadata.json").write_text(json.dumps({

@@ -58,6 +58,11 @@ HARD RULES:
 - Caption = 1-2 punchy sentences with the KEY fact + 8-12 relevant hashtags. No fluff.
 - 5 image prompts, each a DISTINCT subject (never repeat a motif), >=1 human/people shot, cohesive with
   the chosen palette + art_style but tonally varied.
+- CRITICAL: every image prompt MUST be a pure PHOTOGRAPHIC scene with NO readable elements. NEVER depict
+  text, words, numbers, charts, graphs, stock tickers, dashboards, comparison tables, logos, brand marks,
+  screens/monitors showing UI, signage, or labels — the image model renders these as garbled melted
+  gibberish (and invents fake numbers). Instead describe people, faces, hands, hardware, places,
+  objects, environments, lighting and mood. All real text/data belongs in the overlay, never in the image.
 Return STRICT JSON matching the given schema."""
 
 def make_plan(candidates):
