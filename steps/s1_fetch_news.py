@@ -7,6 +7,20 @@ from datetime import datetime, timezone, timedelta
 UA = {"User-Agent": "Mozilla/5.0 (compatible; everydayhypehq-bot/1.0)"}
 MAX_AGE_DAYS = 4
 
+# Satire / parody / humor sources — NEVER post these as real news (HN surfaces them often).
+SATIRE_DOMAINS = (
+    "aiclambake.com", "theonion.com", "babylonbee.com", "clickhole.com",
+    "reductress.com", "thehardtimes.net", "thedailymash.co.uk", "newsthump.com",
+    "thebeaverton.com", "waterfordwhispersnews.com", "private-eye.co.uk",
+    "hard-drive.net", "thingstheonionjustdid.com", "betootaadvocate.com",
+)
+# Title cues that scream satire even off-domain.
+SATIRE_TITLE_CUES = ("satire", "parody", "the onion", "babylon bee")
+
+def _is_satire(url, title):
+    u = (url or "").lower(); t = (title or "").lower()
+    return any(d in u for d in SATIRE_DOMAINS) or any(c in t for c in SATIRE_TITLE_CUES)
+
 def _get(url, parse="json"):
     data = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30).read().decode("utf-8", "replace")
     return json.loads(data) if parse == "json" else data
@@ -63,12 +77,14 @@ def from_rss():
 
 def fetch_candidates():
     cands = from_hn() + from_rss()
-    seen, uniq = set(), []
+    seen, uniq, dropped = set(), [], 0
     for c in sorted(cands, key=lambda x: -x["score"]):
+        if _is_satire(c["url"], c["title"]):
+            dropped += 1; continue
         k = c["title"].lower()[:60]
         if k not in seen and c["url"]:
             seen.add(k); uniq.append(c)
-    print(f"[s1] {len(uniq)} fresh unique candidates")
+    print(f"[s1] {len(uniq)} fresh unique candidates ({dropped} satire dropped)")
     return uniq[:45]
 
 if __name__ == "__main__":
