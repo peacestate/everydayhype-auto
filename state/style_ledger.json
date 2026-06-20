@@ -50,5 +50,18 @@
       "An outdoor setting where people are coll",
       "A futuristic cityscape at night, illumin"
     ]
+  },
+  {
+    "date": "2026-06-20",
+    "palette": "amber",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "motifs": [
+      "A close-up of a hand playing a video gam",
+      "A side-by-side shot of two gaming setups",
+      "An intense gaming scene showing a player",
+      "A person analyzing game statistics on a ",
+      "A group of diverse gamers discussing str"
+    ]
   }
 ]
