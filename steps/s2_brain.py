@@ -44,6 +44,11 @@ SPECIFIC and FACTUAL, built from the ARTICLE text provided — never generic.
 HARD RULES:
 - EVERY slide must contain a CONCRETE specific pulled from the article: a number, %, name, company,
   date, or hard fact. If the article gives stats, USE them.
+- NAME THE PROTAGONIST: identify the main actor of the story (the company, lab, person, or product
+  that DID the thing) and name them EXPLICITLY on slide 1 AND in the caption — e.g. "OPENAI", "GOOGLE
+  DEEPMIND", a named researcher or product. A reader must know WHO this is about from the first slide.
+  Do NOT bury or omit the protagonist. NEVER let an unrelated competitor be the only company named, and
+  only mention a rival company if the article does AND the protagonist is named more prominently.
 - NEVER FABRICATE. Only use numbers/names/dates/facts that LITERALLY appear in article_text. If the
   article is empty or sparse, write truthfully from the headline and stay factual — do NOT invent any
   statistic, percentage, or detail. A true-but-general line beats a made-up specific.
