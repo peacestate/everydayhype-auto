@@ -51,7 +51,9 @@ HARD RULES:
   time", "changing everything", "mind-blowing", "you won't believe", "proactive", "cutting-edge",
   "next-level", "transforming", "unlocking potential", "the power of AI". No empty hype.
 - Slide 1 = the single most SHOCKING concrete fact as the hook (think: "AI READ 2M LINES OF CODE AND
-  FOUND THE BUG IN 4 MINUTES"). Slides 2-4 = specific details/numbers/names. Slide 5 = takeaway that
+  FOUND THE BUG IN 4 MINUTES"), and it must make clear WHO the story is about: name the main actor
+  (the company, lab, person, or product that DID the thing — e.g. OpenAI, Google DeepMind, a named
+  researcher) inside slide 1's headline or sub. Slides 2-4 = specific details/numbers/names. Slide 5 = takeaway that
   states the SIGNIFICANCE with a concrete fact or sharp implication (e.g. "AND IT RUNS ON ONE GPU",
   "AT 1/10TH THE COST") + the follow CTA. The banned-words rule applies to ALL 5 slides AND the caption.
 - Headlines SHORT, UPPERCASE-ready, each with 1-2 highlight words ('hl', a substring of the headline).
@@ -59,7 +61,8 @@ HARD RULES:
   number, date, or consequence from the article — a complete thought that stands on its own. NEVER a
   2-4 word fragment or trailing tail (BAD: "on board" / "every major OS" / "since 1999"; GOOD:
   "Apple, Google and JPMorgan have already deployed the scanner across their systems").
-- Caption = 1-2 punchy sentences with the KEY fact + 8-12 relevant hashtags. No fluff.
+- Caption = 1-2 punchy sentences with the KEY fact and the story's main actor named + 8-12 relevant
+  hashtags. No fluff. Only name a rival company if the article does, and keep the protagonist primary.
 - 5 image prompts, each a DISTINCT subject (never repeat a motif), >=1 human/people shot, cohesive with
   the chosen palette + art_style but tonally varied.
 - CRITICAL: every image prompt MUST be a pure PHOTOGRAPHIC scene with NO readable elements. NEVER depict
@@ -114,7 +117,7 @@ def make_plan(candidates):
                    "caption": "", "slides": [{"pill": "", "headline": "", "hl": "", "sub": "", "image_prompt": ""}]}}
     msgs = [{"role": "system", "content": WRITE_SYS}, {"role": "user", "content": json.dumps(user)}]
     plan = None
-    for attempt in range(3):
+    for attempt in range(4):
         plan = json.loads(client.chat.completions.create(
             model=C.OPENAI_MODEL, response_format={"type": "json_object"}, temperature=0.7,
             messages=msgs).choices[0].message.content)
@@ -124,8 +127,9 @@ def make_plan(candidates):
             break
         problems = []
         if not _valid(plan):
-            problems.append("return EXACTLY 5 slides as a JSON array, each an object with non-empty "
-                            "'pill','headline','hl','sub','image_prompt' fields per the schema")
+            problems.append("the top-level 'slides' key MUST be a JSON array of EXACTLY 5 objects, each with "
+                            "non-empty 'pill','headline','hl','sub','image_prompt' — do not omit 'slides', "
+                            "rename it, or nest it under another key")
         if bad:
             problems.append(f"remove these BANNED fluff phrases {bad}, replacing each with a concrete "
                             "fact from the article or a sharp factual statement")
@@ -134,7 +138,10 @@ def make_plan(candidates):
                             "supporting sentence adding a second concrete fact, not a fragment or tail")
         print(f"[s2] guard retry (attempt {attempt+1}): valid={_valid(plan)} fluff={bad} thin={thin}")
         msgs.append({"role": "assistant", "content": json.dumps(plan)})
-        msgs.append({"role": "user", "content": "REWRITE strictly as JSON, keeping the schema: " + "; ".join(problems) + "."})
+        msgs.append({"role": "user", "content":
+                     "REWRITE as a SINGLE strict JSON object EXACTLY matching this schema "
+                     "(top-level keys: palette, art_style, layout, caption, and a 'slides' array of 5 objects) — "
+                     + json.dumps(user["schema"]) + ". Fix: " + "; ".join(problems) + "."})
 
     if not _valid(plan):
         raise ValueError(f"s2 brain returned malformed plan after retries (slides={type(plan.get('slides')).__name__})")
