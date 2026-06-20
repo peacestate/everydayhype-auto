@@ -55,6 +55,10 @@ HARD RULES:
   states the SIGNIFICANCE with a concrete fact or sharp implication (e.g. "AND IT RUNS ON ONE GPU",
   "AT 1/10TH THE COST") + the follow CTA. The banned-words rule applies to ALL 5 slides AND the caption.
 - Headlines SHORT, UPPERCASE-ready, each with 1-2 highlight words ('hl', a substring of the headline).
+- The 'sub' line is a FULL supporting sentence of 8-14 words that adds a SECOND concrete fact, name,
+  number, date, or consequence from the article — a complete thought that stands on its own. NEVER a
+  2-4 word fragment or trailing tail (BAD: "on board" / "every major OS" / "since 1999"; GOOD:
+  "Apple, Google and JPMorgan have already deployed the scanner across their systems").
 - Caption = 1-2 punchy sentences with the KEY fact + 8-12 relevant hashtags. No fluff.
 - 5 image prompts, each a DISTINCT subject (never repeat a motif), >=1 human/people shot, cohesive with
   the chosen palette + art_style but tonally varied.
@@ -98,6 +102,9 @@ def make_plan(candidates):
         s = p.get("slides")
         return isinstance(s, list) and len(s) == 5 and all(
             isinstance(x, dict) and x.get("headline") for x in s)
+    def _thin(p):  # slide numbers whose 'sub' is a fragment, not a full supporting line
+        return [i + 1 for i, x in enumerate(p.get("slides") or [])
+                if isinstance(x, dict) and len(str(x.get("sub", "")).split()) < 7]
     user = {
         "story_title": story["title"], "story_url": story["url"], "article_text": article or "(article unavailable — use only the headline; still avoid all banned fluff words)",
         "avoid_recent_palettes": _recent(ledger, "palette"), "avoid_recent_art_styles": _recent(ledger, "art_style"),
@@ -112,7 +119,8 @@ def make_plan(candidates):
             model=C.OPENAI_MODEL, response_format={"type": "json_object"}, temperature=0.7,
             messages=msgs).choices[0].message.content)
         bad = _fluff(plan)
-        if _valid(plan) and not bad:
+        thin = _thin(plan)
+        if _valid(plan) and not bad and not thin:
             break
         problems = []
         if not _valid(plan):
@@ -121,7 +129,10 @@ def make_plan(candidates):
         if bad:
             problems.append(f"remove these BANNED fluff phrases {bad}, replacing each with a concrete "
                             "fact from the article or a sharp factual statement")
-        print(f"[s2] guard retry (attempt {attempt+1}): valid={_valid(plan)} fluff={bad}")
+        if thin:
+            problems.append(f"slides {thin} have a too-short 'sub' — rewrite each as a FULL 8-14 word "
+                            "supporting sentence adding a second concrete fact, not a fragment or tail")
+        print(f"[s2] guard retry (attempt {attempt+1}): valid={_valid(plan)} fluff={bad} thin={thin}")
         msgs.append({"role": "assistant", "content": json.dumps(plan)})
         msgs.append({"role": "user", "content": "REWRITE strictly as JSON, keeping the schema: " + "; ".join(problems) + "."})
 
