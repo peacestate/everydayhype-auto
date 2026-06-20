@@ -30,11 +30,14 @@ def _slide_html(i, s, accent, bg_b64, n=5):
         headline = headline.replace(hl, f'<span class="hl">{hl}</span>', 1)
     pill_alert = "alert" if i in (0, n-1) else ""
     arrow = '<div class="arrow">›</div>' if i == 0 else ""
+    # Pills are positional brand labels — use the canonical pool, NOT the LLM's
+    # pill string (which can carry stray control/ANSI chars). Falls back if pool short.
+    pill = C.PILLS[i] if i < len(C.PILLS) else s.get("pill", "")
     # No baked-in dots: Instagram draws its own native carousel indicator, so
     # an in-image dot row just duplicates it. Let IG handle slide position.
     return f'''<section class="slide">
       <img class="bg" src="{bg_b64}"><div class="scrim"></div>
-      <div class="pill {pill_alert}">{html.escape(s["pill"])}</div>
+      <div class="pill {pill_alert}">{html.escape(pill)}</div>
       <div class="content"><h1>{headline}</h1><p class="sub">{html.escape(s["sub"])}</p></div>
       <div class="logo"></div><div class="handle">{C.BRAND}</div>
       {arrow}</section>'''

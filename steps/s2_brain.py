@@ -138,6 +138,17 @@ def make_plan(candidates):
 
     if not _valid(plan):
         raise ValueError(f"s2 brain returned malformed plan after retries (slides={type(plan.get('slides')).__name__})")
+    # Sanitize LLM text: strip ANSI escape sequences + stray control chars (the model
+    # has injected raw \x1b[31m into fields), so nothing garbled reaches slides or the IG caption.
+    _ANSI = re.compile(r"\x1b\[[0-9;]*[A-Za-z]")
+    def _clean(x):
+        if not isinstance(x, str): return x
+        return "".join(c for c in _ANSI.sub("", x) if c >= " " or c in "\n\t").strip()
+    plan["caption"] = _clean(plan.get("caption", ""))
+    for sl in plan["slides"]:
+        for k in ("pill", "headline", "hl", "sub", "image_prompt"):
+            if k in sl:
+                sl[k] = _clean(sl[k])
     plan["story"] = {"title": story["title"], "url": story["url"]}
     plan["date"] = datetime.date.today().isoformat()
     print(f'[s2] {plan["palette"]}/{plan["art_style"][:18]}/{plan["layout"]} | {plan["slides"][0]["headline"]}')
