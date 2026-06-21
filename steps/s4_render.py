@@ -73,15 +73,18 @@ def _slide_html(i, s, bg_path, n=5):
       <div class="brand"><span class="ava"></span><span class="handle">{C.BRAND}</span></div>
       </section>'''
 
-def _hero_cover_html(s, hero, n=5):
-    """Cut-out-CEO cover: license-free photo (bg removed) on a designed bg + logo + multi-highlight."""
-    acc = _bg_accent(hero["raw"])
+def _hero_cover_html(s, hero, n=5, bg_path=None):
+    """Cut-out-CEO cover: license-free photo (bg removed) over the story's FLUX scene (darkened)
+    + company logo + bg-matched multi-highlight headline."""
+    acc = _bg_accent(bg_path) if bg_path and Path(bg_path).exists() else _bg_accent(hero["raw"])
     headline = _mark(html.escape(s["headline"]).upper(), _hls(s))
     logo = f'<img class="hlogo" src="{_b64(hero["logo"])}">' if hero.get("logo") else ""
     cred = f'<div class="hcred">📷 {html.escape(_clean(hero.get("credit","")))}</div>' if hero.get("credit") else ""
     pill = C.PILLS[0]   # our own "BREAKING 🔴" pill (day1/day2 brand), not a borrowed tag/wording
+    backdrop = (f'<img class="hbg" src="{_b64(bg_path)}"><div class="hbgvig"></div>'
+                if bg_path and Path(bg_path).exists() else '<div class="hgrid"></div>')
     return f'''<section class="slide hslide" style="--accent:{acc}">
-      <div class="hglow"></div><div class="hgrid"></div>
+      {backdrop}<div class="hglow"></div>
       <img class="hhero" src="{_b64(hero["cut"])}">
       <div class="hscrim"></div>{logo}
       <div class="pill alert">{html.escape(pill)}</div>
@@ -95,7 +98,7 @@ def build_html(plan, bg_dir, hero=None):
     parts = []
     for i, s in enumerate(plan["slides"]):
         if i == 0 and hero:
-            parts.append(_hero_cover_html(s, hero, len(plan["slides"])))
+            parts.append(_hero_cover_html(s, hero, len(plan["slides"]), Path(bg_dir)/"1.png"))
         else:
             parts.append(_slide_html(i, s, Path(bg_dir)/f"{i+1}.png", len(plan["slides"])))
     slides = "\n".join(parts)
@@ -123,7 +126,9 @@ def build_html(plan, bg_dir, hero=None):
     .arrow{{position:absolute;right:40px;top:50%;transform:translateY(-50%);z-index:3;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.32);font-size:40px;color:#fff}}
     /* ---- hero cut-out cover ---- */
     .hslide{{background:#06070d}}
-    .hglow{{position:absolute;right:-10%;top:5%;width:85%;height:65%;z-index:1;background:radial-gradient(circle at 60% 40%,var(--accent) 0%,transparent 60%);opacity:.33;filter:blur(20px)}}
+    .hbg{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;filter:brightness(.5) saturate(1.15) blur(2px)}}
+    .hbgvig{{position:absolute;inset:0;z-index:1;background:radial-gradient(125% 100% at 68% 32%,transparent 0%,rgba(4,5,11,.5) 70%,rgba(4,5,11,.82) 100%)}}
+    .hglow{{position:absolute;right:-8%;top:6%;width:80%;height:60%;z-index:1;background:radial-gradient(circle at 60% 42%,var(--accent) 0%,transparent 60%);opacity:.28;filter:blur(26px);mix-blend-mode:screen}}
     .hgrid{{position:absolute;inset:0;z-index:1;opacity:.08;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:64px 64px}}
     .hhero{{position:absolute;right:-3%;bottom:280px;height:76%;z-index:2;filter:drop-shadow(0 20px 50px rgba(0,0,0,.65))}}
     .hscrim{{position:absolute;inset:0;z-index:3;background:linear-gradient(0deg,rgba(4,5,11,.98)0%,rgba(4,5,11,.9)24%,rgba(4,5,11,0)52%),linear-gradient(180deg,rgba(4,5,11,.65)0%,transparent 16%)}}
