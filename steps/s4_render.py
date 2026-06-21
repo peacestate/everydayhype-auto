@@ -84,7 +84,7 @@ def _hero_cover_html(s, hero, n=5, bg_path=None):
     backdrop = (f'<img class="hbg" src="{_b64(bg_path)}"><div class="hbgvig"></div>'
                 if bg_path and Path(bg_path).exists() else '<div class="hgrid"></div>')
     return f'''<section class="slide hslide" style="--accent:{acc}">
-      {backdrop}<div class="hglow"></div>
+      {backdrop}<div class="hglow"></div><div class="hspot"></div>
       <img class="hhero" src="{_b64(hero["cut"])}">
       <div class="hscrim"></div>{logo}
       <div class="pill alert">{html.escape(pill)}</div>
@@ -130,7 +130,8 @@ def build_html(plan, bg_dir, hero=None):
     .hbgvig{{position:absolute;inset:0;z-index:1;background:radial-gradient(125% 100% at 68% 32%,transparent 0%,rgba(4,5,11,.5) 70%,rgba(4,5,11,.82) 100%)}}
     .hglow{{position:absolute;right:-8%;top:6%;width:80%;height:60%;z-index:1;background:radial-gradient(circle at 60% 42%,var(--accent) 0%,transparent 60%);opacity:.28;filter:blur(26px);mix-blend-mode:screen}}
     .hgrid{{position:absolute;inset:0;z-index:1;opacity:.08;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:64px 64px}}
-    .hhero{{position:absolute;right:-3%;bottom:280px;height:76%;z-index:2;filter:drop-shadow(0 20px 50px rgba(0,0,0,.65))}}
+    .hhero{{position:absolute;right:-3%;bottom:280px;height:76%;z-index:2;filter:drop-shadow(0 10px 30px rgba(0,0,0,.9)) drop-shadow(0 0 30px var(--accent)) drop-shadow(0 26px 60px rgba(0,0,0,.7))}}
+    .hspot{{position:absolute;right:-3%;bottom:240px;width:78%;height:80%;z-index:1;background:radial-gradient(ellipse 55% 60% at 62% 45%,rgba(0,0,0,.55) 0%,transparent 70%)}}
     .hscrim{{position:absolute;inset:0;z-index:3;background:linear-gradient(0deg,rgba(4,5,11,.98)0%,rgba(4,5,11,.9)24%,rgba(4,5,11,0)52%),linear-gradient(180deg,rgba(4,5,11,.65)0%,transparent 16%)}}
     .hlogo{{position:absolute;top:54px;right:54px;z-index:4;width:120px;height:120px;object-fit:contain;border-radius:24px;background:#fff;padding:16px;border:1px solid rgba(255,255,255,.25)}}
     .hhead{{position:absolute;left:54px;right:54px;bottom:190px;z-index:4}}
