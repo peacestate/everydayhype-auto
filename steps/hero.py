@@ -24,7 +24,9 @@ def person_photo(name):
                "&iiprop=extmetadata&titles=" + urllib.parse.quote("File:" + fn))
         md = list(_jget(api)["query"]["pages"].values())[0].get("imageinfo", [{}])[0].get("extmetadata", {})
         lic = md.get("LicenseShortName", {}).get("value", "")
-        art = re.sub("<[^>]+>", "", md.get("Artist", {}).get("value", "")).strip()[:40]
+        art = re.sub("<[^>]+>", "", md.get("Artist", {}).get("value", "")).strip()
+        art = re.sub(r"(?i)^photographe?r:?\s*", "", art).strip()   # drop "Photographer:" prefix
+        if len(art) > 60: art = art[:60].rsplit(" ", 1)[0] + "…"     # never cut mid-word
         if lic and ("cc" in lic.lower() or "public" in lic.lower()):   # free licenses only
             return _get(img), art, lic
         return None

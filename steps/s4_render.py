@@ -80,14 +80,14 @@ def _hero_cover_html(s, hero, n=5):
     headline = _mark(html.escape(s["headline"]).upper(), _hls(s))
     logo = f'<img class="hlogo" src="{_b64(hero["logo"])}">' if hero.get("logo") else ""
     cred = f'<div class="hcred">📷 {html.escape(_clean(hero.get("credit","")))}</div>' if hero.get("credit") else ""
+    pill = C.PILLS[0]   # our own "BREAKING 🔴" pill (day1/day2 brand), not a borrowed tag/wording
     return f'''<section class="slide hslide" style="--accent:{acc}">
       <div class="hglow"></div><div class="hgrid"></div>
       <img class="hhero" src="{_b64(hero["cut"])}">
       <div class="hscrim"></div>{logo}
-      <div class="htag">TECHNOLOGY</div>
+      <div class="pill alert">{html.escape(pill)}</div>
       <div class="hhead"><h1>{headline}</h1><p class="sub">{html.escape(s["sub"])}</p></div>
       {_dots(0, n)}
-      <div class="hswipe">SWIPE FOR MORE ➤</div>
       <div class="brand"><span class="ava"></span><span class="handle">{C.BRAND}</span></div>
       {cred}</section>'''
 
@@ -130,10 +130,8 @@ def build_html(plan, bg_dir, hero=None):
     .hhero{{position:absolute;right:-3%;bottom:280px;height:76%;z-index:2;filter:drop-shadow(0 20px 50px rgba(0,0,0,.65))}}
     .hscrim{{position:absolute;inset:0;z-index:3;background:linear-gradient(0deg,rgba(4,5,11,.98)0%,rgba(4,5,11,.9)24%,rgba(4,5,11,0)52%),linear-gradient(180deg,rgba(4,5,11,.65)0%,transparent 16%)}}
     .hlogo{{position:absolute;top:54px;right:54px;z-index:4;width:120px;height:120px;object-fit:contain;border-radius:24px;background:#fff;padding:16px;border:1px solid rgba(255,255,255,.25)}}
-    .htag{{position:absolute;left:50%;transform:translateX(-50%);top:572px;z-index:4;font-weight:800;font-size:24px;letter-spacing:.22em;color:var(--accent)}}
     .hhead{{position:absolute;left:54px;right:54px;bottom:190px;z-index:4}}
     .hhead h1{{font-size:80px;line-height:1.0}}
-    .hswipe{{position:absolute;left:48px;bottom:54px;z-index:4;background:rgba(255,39,64,.92);padding:11px 20px;border-radius:8px;font-weight:800;font-size:22px;letter-spacing:.04em}}
     .hcred{{position:absolute;left:48px;bottom:24px;z-index:4;font-size:16px;color:rgba(255,255,255,.5)}}
     """
     doc = f"""<!DOCTYPE html><html><head><meta charset="utf-8">
