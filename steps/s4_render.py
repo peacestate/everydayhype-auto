@@ -63,16 +63,15 @@ def _clean(t):
 def _slide_html(i, s, bg_path, n=5):
     headline = _mark(html.escape(s["headline"]).upper(), _hls(s))
     pill_alert = "alert" if i in (0, n-1) else ""
-    arrow = '<div class="arrow">›</div>' if i == 0 else ""
     pill = C.PILLS[i] if i < len(C.PILLS) else s.get("pill", "")
     acc = _bg_accent(bg_path)   # highlight color matches THIS slide's background
+    # No baked swipe-arrow / dots: Instagram draws its own native swipe + position indicator.
     return f'''<section class="slide" style="--accent:{acc}">
       <img class="bg" src="{_b64(bg_path)}"><div class="scrim"></div>
       <div class="pill {pill_alert}">{html.escape(pill)}</div>
       <div class="content"><h1>{headline}</h1><p class="sub">{html.escape(s["sub"])}</p></div>
-      {_dots(i, n)}
       <div class="brand"><span class="ava"></span><span class="handle">{C.BRAND}</span></div>
-      {arrow}</section>'''
+      </section>'''
 
 def _hero_cover_html(s, hero, n=5):
     """Cut-out-CEO cover: license-free photo (bg removed) on a designed bg + logo + multi-highlight."""
@@ -87,7 +86,6 @@ def _hero_cover_html(s, hero, n=5):
       <div class="hscrim"></div>{logo}
       <div class="pill alert">{html.escape(pill)}</div>
       <div class="hhead"><h1>{headline}</h1><p class="sub">{html.escape(s["sub"])}</p></div>
-      {_dots(0, n)}
       <div class="brand"><span class="ava"></span><span class="handle">{C.BRAND}</span></div>
       {cred}</section>'''
 
