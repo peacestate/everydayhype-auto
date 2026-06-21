@@ -1,0 +1,40 @@
+name: ingest-examples
+on:
+  schedule:
+    - cron: "0 */3 * * *"    # every 3 hours — read screenshots you sent the bot
+  workflow_dispatch:
+
+permissions:
+  contents: write              # commit examples.md + offset back
+
+concurrency:
+  group: ingest               # never run two ingests at once (Telegram getUpdates allows one reader)
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Deps (light — just openai + requests)
+        run: pip install -q openai requests
+
+      - name: Read Telegram screenshots -> examples.md
+        env:
+          OPENAI_API_KEY:     ${{ secrets.OPENAI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -c "import sys; sys.path.insert(0,'.'); from steps import ingest; ingest.run()"
+
+      - name: Commit new examples
+        run: |
+          git config user.name  "everydayhype-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add examples.md state/tg_offset.txt 2>/dev/null || true
+          git commit -m "ingest: telegram examples $(date -u +%F-%H%M)" || echo "no new examples"
+          git push || echo "push skipped"
