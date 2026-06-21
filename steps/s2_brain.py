@@ -56,11 +56,22 @@ HARD RULES:
   researcher) inside slide 1's headline or sub. Slides 2-4 = specific details/numbers/names. Slide 5 = takeaway that
   states the SIGNIFICANCE with a concrete fact or sharp implication (e.g. "AND IT RUNS ON ONE GPU",
   "AT 1/10TH THE COST") + the follow CTA. The banned-words rule applies to ALL 5 slides AND the caption.
-- Headlines SHORT, UPPERCASE-ready, each with 1-2 highlight words ('hl', a substring of the headline).
-- The 'sub' line is a FULL supporting sentence of 8-14 words that adds a SECOND concrete fact, name,
-  number, date, or consequence from the article — a complete thought that stands on its own. NEVER a
-  2-4 word fragment or trailing tail (BAD: "on board" / "every major OS" / "since 1999"; GOOD:
-  "Apple, Google and JPMorgan have already deployed the scanner across their systems").
+- Each 'headline' is a PUNCHY FULL-SENTENCE HOOK of 7-13 words, UPPERCASE-ready, written like a viral
+  carousel cover — NOT a 2-4 word label. Models the day1/day2 style EXACTLY, e.g.
+  "SCIENTISTS JUST CREATED AI THAT DIAGNOSED DEMENTIA WITH 90% ACCURACY",
+  "UF RESEARCHERS JUST SOLVED THE DEMENTIA PROBLEM — AI CAN NOW CATCH IT EARLY",
+  "AI ISN'T REPLACING DOCTORS — IT'S GIVING THEM SUPERPOWERS TO SAVE MORE LIVES".
+  BAD (too short, do NOT do this): "NOBEL PRIZE WINNER", "TALENT EXODUS", "JOHN JUMPER LEAVES DEEPMIND".
+- 'hl' = the 2-4 word PAYOFF phrase of that headline (the punchline you'd color), and it MUST be an
+  exact substring of the headline (e.g. headline "...WITH 90% ACCURACY" -> hl "WITH 90% ACCURACY";
+  "...CATCH IT EARLY" -> hl "CATCH IT EARLY"; "...SUPERPOWERS TO SAVE MORE LIVES" -> hl "SUPERPOWERS").
+  Never leave 'hl' empty and never make it the whole headline.
+- 'sub' lines by position (day1/day2 pattern): SLIDE 1 = a SHORT curiosity hook of 3-5 words
+  (e.g. "Here's the breakthrough", "Here's what you need to know", "This changes everything").
+  SLIDES 2-4 = a FULL supporting sentence of 8-14 words adding a SECOND concrete fact/name/number/date
+  /consequence from the article (NEVER a 2-4 word fragment; GOOD: "Apple, Google and JPMorgan have
+  already deployed the scanner across their systems"). SLIDE 5 = the follow CTA, exactly:
+  "Follow @everydayhypehq for daily AI + Tech breakthroughs".
 - Caption = 1-2 punchy sentences with the KEY fact and the story's main actor named + 8-12 relevant
   hashtags. No fluff. Only name a rival company if the article does, and keep the protagonist primary.
 - 5 image prompts, each a DISTINCT subject (never repeat a motif), >=1 human/people shot, cohesive with
@@ -105,9 +116,10 @@ def make_plan(candidates):
         s = p.get("slides")
         return isinstance(s, list) and len(s) == 5 and all(
             isinstance(x, dict) and x.get("headline") for x in s)
-    def _thin(p):  # slide numbers whose 'sub' is a fragment, not a full supporting line
-        return [i + 1 for i, x in enumerate(p.get("slides") or [])
-                if isinstance(x, dict) and len(str(x.get("sub", "")).split()) < 7]
+    def _thin(p):  # only slides 2-4 need a full sub; slide 1 = short hook, slide 5 = CTA (exempt)
+        sl = p.get("slides") or []
+        return [i + 1 for i, x in enumerate(sl)
+                if i in (1, 2, 3) and isinstance(x, dict) and len(str(x.get("sub", "")).split()) < 7]
     user = {
         "story_title": story["title"], "story_url": story["url"], "article_text": article or "(article unavailable — use only the headline; still avoid all banned fluff words)",
         "avoid_recent_palettes": _recent(ledger, "palette"), "avoid_recent_art_styles": _recent(ledger, "art_style"),
