@@ -63,9 +63,14 @@ def build_hero(person, company, outdir):
     raw, credit, lic = pp
     (outdir / "hero_raw.jpg").write_bytes(raw)
     try:
-        from rembg import remove
-        from PIL import Image
-        remove(Image.open(outdir / "hero_raw.jpg").convert("RGBA")).save(outdir / "hero_cut.png")
+        from rembg import remove, new_session
+        from PIL import Image, ImageFilter
+        # isnet-general-use = cleaner edges than the default u2net (less jagged around hands/arms)
+        sess = new_session("isnet-general-use")
+        cut = remove(Image.open(outdir / "hero_raw.jpg").convert("RGBA"), session=sess)
+        r, g, b, a = cut.split()
+        a = a.filter(ImageFilter.GaussianBlur(1.3))   # feather the alpha so it isn't hard-cropped
+        Image.merge("RGBA", (r, g, b, a)).save(outdir / "hero_cut.png")
     except Exception:
         return None
     logo = company_logo(company) if company else None
