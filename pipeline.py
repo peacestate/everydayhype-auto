@@ -5,7 +5,7 @@ Run: python pipeline.py            (full: generate + publish)
 import sys, json
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 import config as C
-from steps import s1_fetch_news, s2_brain, s3_gen_images, s4_render, s5_upload, s6_publish, hero
+from steps import s1_fetch_news, s2_brain, s3_gen_images, s4_render, s5_upload, s6_publish, hero, review
 
 def run(dry_run=False):
     print("=== everydayhypehq carousel pipeline ===")
@@ -28,8 +28,16 @@ def run(dry_run=False):
 
     slides = s4_render.render(plan, bg_dir, hero_asset)
 
+    # Art-director QA agent: a vision model checks the carousel against brand rules before posting.
+    verdict = review.review([str(p) for p in slides])
+    (C.WORK / "review.json").write_text(json.dumps(verdict, indent=2))
+    print(f"[review] verdict={verdict.get('verdict')} score={verdict.get('score')} issues={verdict.get('issues')}")
+
     if dry_run:
         print(f"[dry-run] slides ready in {slides[0].parent} — NOT posting."); return
+
+    if verdict.get("verdict") == "skip":
+        print("[review] ❌ art director rejected the carousel -> NOT posting today (quality gate)."); return
 
     urls = s5_upload.upload(slides)
     media_id = s6_publish.publish(urls, plan["caption"])
