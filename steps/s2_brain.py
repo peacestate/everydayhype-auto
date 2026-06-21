@@ -41,6 +41,9 @@ meta-discussion. Avoid anything similar to already_posted. If nothing qualifies,
 
 WRITE_SYS = """You are the editor + art director for @everydayhypehq. Write a 5-slide carousel that is
 SPECIFIC and FACTUAL, built from the ARTICLE text provided — never generic.
+LEARN FROM WINNERS: if 'winning_examples' are provided, STUDY them first — copy the hook shapes,
+headline structures, caption rhythm, and the kinds of topics/angles that perform. Match that proven
+style (do NOT copy their exact words/facts — apply the PATTERN to today's story).
 HARD RULES:
 - EVERY slide must contain a CONCRETE specific pulled from the article: a number, %, name, company,
   date, or hard fact. If the article gives stats, USE them.
@@ -129,8 +132,11 @@ def make_plan(candidates):
         sl = p.get("slides") or []
         return [i + 1 for i, x in enumerate(sl)
                 if i in (1, 2, 3) and isinstance(x, dict) and len(str(x.get("sub", "")).split()) < 7]
+    EXAMPLES_FILE = C.ROOT / "examples.md"
+    examples = EXAMPLES_FILE.read_text(encoding="utf-8")[:4000] if EXAMPLES_FILE.exists() else ""
     user = {
         "story_title": story["title"], "story_url": story["url"], "article_text": article or "(article unavailable — use only the headline; still avoid all banned fluff words)",
+        "winning_examples": examples or "(none yet — use your own best judgment)",
         "avoid_recent_palettes": _recent(ledger, "palette"), "avoid_recent_art_styles": _recent(ledger, "art_style"),
         "avoid_recent_layouts": _recent(ledger, "layout"),
         "palette_pool": [p["name"] for p in C.PALETTES], "art_style_pool": C.ART_STYLES, "layout_pool": C.LAYOUTS, "pills": C.PILLS,
