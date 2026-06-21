@@ -1,58 +1,115 @@
-"""Telegram example-ingest agent: you send screenshots of top-performing posts to the bot; this
-reads each with a vision model, extracts the reusable WINNING PATTERN (topic/hook/headline/why),
-and appends it to examples.md — so you 'train' the writer just by forwarding screenshots, no typing.
-Runs on a cron in GitHub Actions (laptop off). Tracks a Telegram update offset so nothing is double-read."""
-import json, base64, requests
+"""Telegram ingest agent — TRAIN THE WRITER BY SENDING THE BOT ANYTHING:
+  • IMAGES (screenshots of top posts)  → vision reads them
+  • TEXT (paste a post / an idea)       → LLM shapes it
+  • FILES (txt / md / csv / json / pdf — e.g. Apify exports) → extracted & learned
+Each is distilled into a reusable WINNING PATTERN (topic/hook/headline/why) and appended to
+examples.md, which the writer studies. No typing required. Runs on a cron in GitHub Actions
+(laptop off). Tracks a Telegram offset so nothing is read twice."""
+import json, base64, io, requests
 from openai import OpenAI
 import config as C
 
 OFFSET_FILE = C.STATE / "tg_offset.txt"
 EXAMPLES = C.ROOT / "examples.md"
 
+SYS = ("You curate a content-style library for the Instagram brand @everydayhypehq. From the given "
+       "post(s) / notes / data, extract the REUSABLE winning PATTERN(S) — capture the STYLE, never copy "
+       "exact wording or facts. For EACH distinct post return a markdown block exactly like:\n"
+       "- TOPIC: <short>\n  HOOK: \"<grabby opener style>\"\n  HEADLINE STYLE: \"<bold CAPS shape>\"\n"
+       "  WHY IT WORKS: <one line>\nReturn 1-5 blocks. If the input is just an idea/note, still shape it "
+       "into one block. Output ONLY the blocks, nothing else.")
+
 def _api(method, **kw):
     return requests.post(f"https://api.telegram.org/bot{C.TG_TOKEN}/{method}", data=kw, timeout=60).json()
 
-def _download(file_id):
+def _file(file_id):
     fp = _api("getFile", file_id=file_id)["result"]["file_path"]
-    return requests.get(f"https://api.telegram.org/file/bot{C.TG_TOKEN}/{fp}", timeout=60).content
+    return requests.get(f"https://api.telegram.org/file/bot{C.TG_TOKEN}/{fp}", timeout=90).content
 
-def _extract(img_bytes):
+def _llm(content):
     client = OpenAI(api_key=C.OPENAI_API_KEY)
-    b64 = "data:image/jpeg;base64," + base64.b64encode(img_bytes).decode()
-    sys = ("You analyze a screenshot of a high-performing social/news post and extract its REUSABLE "
-           "pattern for a content library (capture the STYLE, never copy exact wording/facts). "
-           "Return ONLY a markdown block exactly like:\n"
-           "- TOPIC: <short>\n  HOOK: \"<grabby opener style>\"\n  HEADLINE STYLE: \"<bold CAPS shape>\"\n"
-           "  WHY IT WORKS: <one line>")
-    r = client.chat.completions.create(model="gpt-4o-mini", temperature=0.2, messages=[
-        {"role": "system", "content": sys},
-        {"role": "user", "content": [{"type": "text", "text": "Extract the winning pattern:"},
-                                     {"type": "image_url", "image_url": {"url": b64, "detail": "low"}}]}])
+    r = client.chat.completions.create(model="gpt-4o-mini", temperature=0.2,
+        messages=[{"role": "system", "content": SYS}, {"role": "user", "content": content}])
     return r.choices[0].message.content.strip()
+
+def _from_image(b):
+    b64 = "data:image/jpeg;base64," + base64.b64encode(b).decode()
+    return _llm([{"type": "text", "text": "Extract the winning pattern(s) from this post screenshot:"},
+                 {"type": "image_url", "image_url": {"url": b64, "detail": "low"}}])
+
+def _from_text(t):
+    t = (t or "").strip()
+    return _llm("Extract the winning pattern(s) from this:\n\n" + t[:8000]) if t else None
+
+def _pdf_text(b):
+    try:
+        from pypdf import PdfReader
+        return "\n".join((p.extract_text() or "") for p in PdfReader(io.BytesIO(b)).pages)[:8000]
+    except Exception:
+        return ""
+
+def _excel_text(b):
+    try:
+        from openpyxl import load_workbook
+        wb = load_workbook(io.BytesIO(b), read_only=True, data_only=True)
+        rows = []
+        for ws in wb.worksheets:
+            for row in ws.iter_rows(values_only=True):
+                rows.append(" ".join(str(c) for c in row if c is not None))
+        return "\n".join(rows)[:8000]
+    except Exception:
+        return ""
+
+def _printable_ratio(t):
+    if not t:
+        return 0.0
+    return sum(1 for c in t if c.isprintable() or c in "\n\t\r") / len(t)
+
+def _handle(msg):
+    """Return extracted markdown block(s) for one message, or None if nothing usable.
+    Accepts: image, plain text, and ANY file — code (.py/.java/.js…), data (.csv/.json),
+    .txt/.md, PDF, Excel. Pure-binary files (zip/exe/video) can't be learned from -> None."""
+    if msg.get("photo"):                                  # image
+        return _from_image(_file(msg["photo"][-1]["file_id"]))
+    doc = msg.get("document")
+    if doc:                                               # any file
+        b = _file(doc["file_id"])
+        mime = (doc.get("mime_type") or "").lower()
+        name = (doc.get("file_name") or "").lower()
+        if mime.startswith("image/"):
+            return _from_image(b)
+        if mime == "application/pdf" or name.endswith(".pdf"):
+            return _from_text(_pdf_text(b))
+        if name.endswith((".xlsx", ".xlsm")) or "spreadsheet" in mime:
+            return _from_text(_excel_text(b))
+        text = b.decode("utf-8", "ignore")                # code / data / text of any extension
+        return _from_text(text) if _printable_ratio(text) > 0.85 else None
+    txt = (msg.get("text") or msg.get("caption") or "").strip()   # plain text / image caption
+    if txt and not txt.startswith("/"):                  # ignore bot commands like /start
+        return _from_text(txt)
+    return None
 
 def run():
     if not C.TG_TOKEN:
         print("[ingest] no telegram token"); return
     offset = int(OFFSET_FILE.read_text().strip()) if OFFSET_FILE.exists() else 0
-    upd = _api("getUpdates", offset=offset, allowed_updates=json.dumps(["message"]))
-    updates = upd.get("result", [])
+    updates = _api("getUpdates", offset=offset, allowed_updates=json.dumps(["message"])).get("result", [])
     added, last = 0, offset
     for u in updates:
         last = u["update_id"] + 1
-        msg = u.get("message", {})
-        photos = msg.get("photo")
-        chat = (msg.get("chat") or {}).get("id")
-        if not photos:
-            continue
+        msg = u.get("message", {}); chat = (msg.get("chat") or {}).get("id")
         try:
-            block = _extract(_download(photos[-1]["file_id"]))   # largest size
-            with open(EXAMPLES, "a", encoding="utf-8") as f:
-                f.write("\n\n" + block + "\n")
-            added += 1
-            if chat:
-                _api("sendMessage", chat_id=chat, text="✅ Learned from your example — added to the library.")
+            block = _handle(msg)
+            if block:
+                with open(EXAMPLES, "a", encoding="utf-8") as f:
+                    f.write("\n\n" + block + "\n")
+                added += 1
+                if chat:
+                    _api("sendMessage", chat_id=chat, text="✅ Learned from that — added to the library.")
         except Exception as e:
             print("[ingest] one failed:", e)
+            if chat:
+                _api("sendMessage", chat_id=chat, text="⚠️ Couldn't read that one, sorry — try another.")
     if last != offset:
         OFFSET_FILE.write_text(str(last))
     print(f"[ingest] {len(updates)} updates, {added} new examples added")
