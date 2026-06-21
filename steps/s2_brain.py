@@ -72,8 +72,10 @@ HARD RULES:
   /consequence from the article (NEVER a 2-4 word fragment; GOOD: "Apple, Google and JPMorgan have
   already deployed the scanner across their systems"). SLIDE 5 = the follow CTA, exactly:
   "Follow @everydayhypehq for daily AI + Tech breakthroughs".
-- Caption = 1-2 punchy sentences with the KEY fact and the story's main actor named + 8-12 relevant
-  hashtags. No fluff. Only name a rival company if the article does, and keep the protagonist primary.
+- Caption = top-account style: 2-3 SHORT factual paragraphs (1-2 sentences each, a few relevant emojis)
+  summarizing the story, then an ENGAGEMENT QUESTION on its own line (e.g. "Should more CEOs do this?"),
+  then a "Sources: <real outlets>" line naming the actual publications behind the facts, then 8-12
+  relevant hashtags. Name the main actor. No fabricated facts. (A photo-credit line is appended later.)
 - 5 image prompts, each a DISTINCT subject (never repeat a motif), >=1 human/people shot, cohesive with
   the chosen palette + art_style but tonally varied.
 - CRITICAL: every image prompt MUST be a pure PHOTOGRAPHIC scene with NO readable elements. NEVER depict
@@ -81,6 +83,13 @@ HARD RULES:
   screens/monitors showing UI, signage, or labels — the image model renders these as garbled melted
   gibberish (and invents fake numbers). Instead describe people, faces, hands, hardware, places,
   objects, environments, lighting and mood. All real text/data belongs in the overlay, never in the image.
+- ENTITY (for a real cover photo): set "person" = the ONE real, well-known individual the story centers on,
+  as their full real name for a Wikipedia lookup (e.g. "Sundar Pichai", "Dario Amodei", "Jensen Huang") —
+  ONLY if the story is genuinely about that named person and they're famous enough to have a Wikipedia page;
+  otherwise "". Set "company" = the main organization's common name for a logo lookup (e.g. "OpenAI",
+  "Google", "Nvidia"), else "". These pick the cover image; never invent a person who isn't in the story.
+- "hl" may be ONE punchline phrase OR (better) "hls" = a list of 1-2 short punchline phrases, each an exact
+  substring of that slide's headline, to color. Keep them short (2-4 words each).
 Return STRICT JSON matching the given schema."""
 
 def make_plan(candidates):
@@ -126,7 +135,8 @@ def make_plan(candidates):
         "avoid_recent_layouts": _recent(ledger, "layout"),
         "palette_pool": [p["name"] for p in C.PALETTES], "art_style_pool": C.ART_STYLES, "layout_pool": C.LAYOUTS, "pills": C.PILLS,
         "schema": {"palette": "name not in avoid", "art_style": "from pool not in avoid", "layout": "from pool not in avoid",
-                   "caption": "", "slides": [{"pill": "", "headline": "", "hl": "", "sub": "", "image_prompt": ""}]}}
+                   "person": "main person full name or ''", "company": "main org name or ''",
+                   "caption": "", "slides": [{"pill": "", "headline": "", "hl": "", "hls": ["",""], "sub": "", "image_prompt": ""}]}}
     msgs = [{"role": "system", "content": WRITE_SYS}, {"role": "user", "content": json.dumps(user)}]
     plan = None
     for attempt in range(4):
@@ -164,10 +174,14 @@ def make_plan(candidates):
         if not isinstance(x, str): return x
         return "".join(c for c in _ANSI.sub("", x) if c >= " " or c in "\n\t").strip()
     plan["caption"] = _clean(plan.get("caption", ""))
+    plan["person"] = _clean(plan.get("person", ""))
+    plan["company"] = _clean(plan.get("company", ""))
     for sl in plan["slides"]:
         for k in ("pill", "headline", "hl", "sub", "image_prompt"):
             if k in sl:
                 sl[k] = _clean(sl[k])
+        if isinstance(sl.get("hls"), list):
+            sl["hls"] = [_clean(x) for x in sl["hls"] if _clean(x)]
     plan["story"] = {"title": story["title"], "url": story["url"]}
     plan["date"] = datetime.date.today().isoformat()
     print(f'[s2] {plan["palette"]}/{plan["art_style"][:18]}/{plan["layout"]} | {plan["slides"][0]["headline"]}')

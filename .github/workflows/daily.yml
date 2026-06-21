@@ -31,6 +31,12 @@ jobs:
       - name: Python deps
         run: pip install -r requirements.txt
 
+      - name: Cache u2net model (rembg cut-outs)
+        uses: actions/cache@v4
+        with:
+          path: ~/.u2net
+          key: u2net-model-v1
+
       - name: Kaggle auth (KGAT access token)
         run: |
           mkdir -p ~/.kaggle

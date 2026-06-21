@@ -5,7 +5,7 @@ Run: python pipeline.py            (full: generate + publish)
 import sys, json
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 import config as C
-from steps import s1_fetch_news, s2_brain, s3_gen_images, s4_render, s5_upload, s6_publish
+from steps import s1_fetch_news, s2_brain, s3_gen_images, s4_render, s5_upload, s6_publish, hero
 
 def run(dry_run=False):
     print("=== everydayhypehq carousel pipeline ===")
@@ -16,7 +16,17 @@ def run(dry_run=False):
     (C.WORK / "plan.json").write_text(json.dumps(plan, indent=2))
 
     bg_dir = s3_gen_images.generate(plan)
-    slides = s4_render.render(plan, bg_dir)
+
+    # Person-centric story -> real license-free cut-out cover (Wikimedia photo + Wikidata logo).
+    # Graceful: any failure -> hero_asset None -> normal FLUX cover.
+    hero_asset = None
+    if plan.get("person"):
+        hero_asset = hero.build_hero(plan["person"], plan.get("company", ""), C.WORK / "hero")
+        print(f"[hero] {plan['person']} / {plan.get('company','')} -> {'cut-out cover' if hero_asset else 'no free photo, FLUX cover'}")
+        if hero_asset and hero_asset.get("credit"):
+            plan["caption"] = (plan.get("caption", "") + f"\n\n\U0001F4F7 Cover photo: {hero_asset['credit']}").strip()
+
+    slides = s4_render.render(plan, bg_dir, hero_asset)
 
     if dry_run:
         print(f"[dry-run] slides ready in {slides[0].parent} — NOT posting."); return

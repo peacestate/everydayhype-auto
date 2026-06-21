@@ -42,31 +42,65 @@ LAYOUT_CSS = {
     "c": ".content{left:54px;right:380px;bottom:150px}",
 }
 
+def _hls(s):
+    """Highlight phrases for a slide: supports a list ('hls') or a single ('hl')."""
+    raw = s.get("hls") or ([s.get("hl")] if s.get("hl") else [])
+    return [str(h).upper().strip() for h in raw if h]
+
+def _mark(headline_upper, hls):
+    for p in hls:
+        p = html.escape(p)
+        if p and p in headline_upper:
+            headline_upper = headline_upper.replace(p, f'<span class="hl">{p}</span>', 1)
+    return headline_upper
+
+def _dots(i, n):
+    return '<div class="dots">' + "".join(f'<i class="{"on" if j==i else ""}"></i>' for j in range(n)) + '</div>'
+
+def _clean(t):
+    return "".join(c for c in str(t) if c >= " " or c == "\n").strip()
+
 def _slide_html(i, s, bg_path, n=5):
-    headline = html.escape(s["headline"]).upper()
-    hl = html.escape(s.get("hl", "")).upper()
-    if hl and hl in headline:
-        headline = headline.replace(hl, f'<span class="hl">{hl}</span>', 1)
+    headline = _mark(html.escape(s["headline"]).upper(), _hls(s))
     pill_alert = "alert" if i in (0, n-1) else ""
     arrow = '<div class="arrow">›</div>' if i == 0 else ""
-    # Pills are positional brand labels — use the canonical pool, NOT the LLM's
-    # pill string (which can carry stray control/ANSI chars). Falls back if pool short.
     pill = C.PILLS[i] if i < len(C.PILLS) else s.get("pill", "")
     acc = _bg_accent(bg_path)   # highlight color matches THIS slide's background
-    dots = '<div class="dots">' + "".join(f'<i class="{"on" if j==i else ""}"></i>' for j in range(n)) + '</div>'
     return f'''<section class="slide" style="--accent:{acc}">
       <img class="bg" src="{_b64(bg_path)}"><div class="scrim"></div>
       <div class="pill {pill_alert}">{html.escape(pill)}</div>
       <div class="content"><h1>{headline}</h1><p class="sub">{html.escape(s["sub"])}</p></div>
-      {dots}
+      {_dots(i, n)}
       <div class="brand"><span class="ava"></span><span class="handle">{C.BRAND}</span></div>
       {arrow}</section>'''
 
-def build_html(plan, bg_dir):
+def _hero_cover_html(s, hero, n=5):
+    """Cut-out-CEO cover: license-free photo (bg removed) on a designed bg + logo + multi-highlight."""
+    acc = _bg_accent(hero["raw"])
+    headline = _mark(html.escape(s["headline"]).upper(), _hls(s))
+    logo = f'<img class="hlogo" src="{_b64(hero["logo"])}">' if hero.get("logo") else ""
+    cred = f'<div class="hcred">📷 {html.escape(_clean(hero.get("credit","")))}</div>' if hero.get("credit") else ""
+    return f'''<section class="slide hslide" style="--accent:{acc}">
+      <div class="hglow"></div><div class="hgrid"></div>
+      <img class="hhero" src="{_b64(hero["cut"])}">
+      <div class="hscrim"></div>{logo}
+      <div class="htag">TECHNOLOGY</div>
+      <div class="hhead"><h1>{headline}</h1><p class="sub">{html.escape(s["sub"])}</p></div>
+      {_dots(0, n)}
+      <div class="hswipe">SWIPE FOR MORE ➤</div>
+      <div class="brand"><span class="ava"></span><span class="handle">{C.BRAND}</span></div>
+      {cred}</section>'''
+
+def build_html(plan, bg_dir, hero=None):
     pal = next(p for p in C.PALETTES if p["name"] == plan["palette"])
     layout = LAYOUT_CSS.get(plan["layout"], LAYOUT_CSS["a"])
-    slides = "\n".join(_slide_html(i, s, Path(bg_dir)/f"{i+1}.png")
-                       for i, s in enumerate(plan["slides"]))
+    parts = []
+    for i, s in enumerate(plan["slides"]):
+        if i == 0 and hero:
+            parts.append(_hero_cover_html(s, hero, len(plan["slides"])))
+        else:
+            parts.append(_slide_html(i, s, Path(bg_dir)/f"{i+1}.png", len(plan["slides"])))
+    slides = "\n".join(parts)
     css = f"""
     :root{{--accent:#19e3ff}}
     *{{margin:0;padding:0;box-sizing:border-box}}
@@ -89,6 +123,18 @@ def build_html(plan, bg_dir):
     .brand .ava{{width:50px;height:50px;border-radius:50%;background:conic-gradient(from 220deg,var(--accent),#b16cff,var(--accent));box-shadow:0 0 0 2px rgba(255,255,255,.25)}}
     .brand .handle{{font-weight:800;font-size:30px;text-shadow:0 2px 14px rgba(0,0,0,.85)}}
     .arrow{{position:absolute;right:40px;top:50%;transform:translateY(-50%);z-index:3;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.32);font-size:40px;color:#fff}}
+    /* ---- hero cut-out cover ---- */
+    .hslide{{background:#06070d}}
+    .hglow{{position:absolute;right:-10%;top:5%;width:85%;height:65%;z-index:1;background:radial-gradient(circle at 60% 40%,var(--accent) 0%,transparent 60%);opacity:.33;filter:blur(20px)}}
+    .hgrid{{position:absolute;inset:0;z-index:1;opacity:.08;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:64px 64px}}
+    .hhero{{position:absolute;right:-3%;bottom:280px;height:76%;z-index:2;filter:drop-shadow(0 20px 50px rgba(0,0,0,.65))}}
+    .hscrim{{position:absolute;inset:0;z-index:3;background:linear-gradient(0deg,rgba(4,5,11,.98)0%,rgba(4,5,11,.9)24%,rgba(4,5,11,0)52%),linear-gradient(180deg,rgba(4,5,11,.65)0%,transparent 16%)}}
+    .hlogo{{position:absolute;top:54px;right:54px;z-index:4;width:120px;height:120px;object-fit:contain;border-radius:24px;background:#fff;padding:16px;border:1px solid rgba(255,255,255,.25)}}
+    .htag{{position:absolute;left:50%;transform:translateX(-50%);top:572px;z-index:4;font-weight:800;font-size:24px;letter-spacing:.22em;color:var(--accent)}}
+    .hhead{{position:absolute;left:54px;right:54px;bottom:190px;z-index:4}}
+    .hhead h1{{font-size:80px;line-height:1.0}}
+    .hswipe{{position:absolute;left:48px;bottom:54px;z-index:4;background:rgba(255,39,64,.92);padding:11px 20px;border-radius:8px;font-weight:800;font-size:22px;letter-spacing:.04em}}
+    .hcred{{position:absolute;left:48px;bottom:24px;z-index:4;font-size:16px;color:rgba(255,255,255,.5)}}
     """
     doc = f"""<!DOCTYPE html><html><head><meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@800;900&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -96,9 +142,9 @@ def build_html(plan, bg_dir):
     out = C.WORK / "carousel.html"; out.write_text(doc, encoding="utf-8")
     return out
 
-def render(plan, bg_dir):
+def render(plan, bg_dir, hero=None):
     shutil.rmtree(SLIDES, ignore_errors=True); SLIDES.mkdir(parents=True, exist_ok=True)
-    page = build_html(plan, bg_dir)
+    page = build_html(plan, bg_dir, hero)
     full = C.WORK / "_full.png"
     n = len(plan["slides"])
     win_h = PAD*2 + n*C.CANVAS_H + (n-1)*GAP
