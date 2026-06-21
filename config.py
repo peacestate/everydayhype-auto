@@ -21,6 +21,8 @@ KAGGLE_ACCESS_TOKEN = os.environ.get("KAGGLE_ACCESS_TOKEN", "")  # KGAT image-ac
 CLOUDINARY_URL      = os.environ.get("CLOUDINARY_URL", "")       # cloudinary://key:secret@cloud
 IG_TOKEN            = os.environ.get("IG_ACCESS_TOKEN", "")
 IG_USER_ID          = os.environ.get("IG_USER_ID", "")           # IG Business Account ID
+TG_TOKEN            = os.environ.get("TELEGRAM_BOT_TOKEN", "")    # @BotFather bot token (daily preview DM)
+TG_CHAT             = os.environ.get("TELEGRAM_CHAT_ID", "")      # your Telegram chat id
 
 # --- model / kaggle ---
 OPENAI_MODEL = "gpt-4o-mini"                                  # brain: rank + copy + image-judge

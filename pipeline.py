@@ -5,7 +5,7 @@ Run: python pipeline.py            (full: generate + publish)
 import sys, json
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 import config as C
-from steps import s1_fetch_news, s2_brain, s3_gen_images, s4_render, s5_upload, s6_publish, hero, review
+from steps import s1_fetch_news, s2_brain, s3_gen_images, s4_render, s5_upload, s6_publish, hero, review, telegram
 
 def run(dry_run=False):
     print("=== everydayhypehq carousel pipeline ===")
@@ -33,15 +33,21 @@ def run(dry_run=False):
     (C.WORK / "review.json").write_text(json.dumps(verdict, indent=2))
     print(f"[review] verdict={verdict.get('verdict')} score={verdict.get('score')} issues={verdict.get('issues')}")
 
+    paths = [str(p) for p in slides]
+    cap = plan.get("caption", "")
+
     if dry_run:
+        telegram.notify(paths, cap, verdict)   # preview to phone
         print(f"[dry-run] slides ready in {slides[0].parent} — NOT posting."); return
 
     if verdict.get("verdict") == "skip":
+        telegram.notify(paths, cap, verdict)   # tell you it was skipped + why
         print("[review] ❌ art director rejected the carousel -> NOT posting today (quality gate)."); return
 
     urls = s5_upload.upload(slides)
-    media_id = s6_publish.publish(urls, plan["caption"])
+    media_id = s6_publish.publish(urls, cap)
     s2_brain.commit_ledger(plan)          # only record after a successful post
+    telegram.notify(paths, cap, verdict, media_id)   # confirm what posted
     print(f"=== DONE — posted carousel {media_id} for '{plan['story']['title']}' ===")
 
 if __name__ == "__main__":
