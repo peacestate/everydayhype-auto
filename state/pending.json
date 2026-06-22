@@ -1,72 +1,70 @@
 {
   "status": "pending",
-  "created_at": "2026-06-22T10:39:38.000000Z",
+  "created_at": "2026-06-22T11:02:01.864943Z",
   "deadline_min": 120,
-  "caption": "The Swiss AI Initiative has unveiled Apertus, a fully open foundation model designed for sovereign AI. This innovative model complies with EU AI Act requirements and supports multilingual capabilities across 1000+ languages.\n\nHow will open models like Apertus impact AI development?\n\nSources: Swiss AI Initiative, Apertus Official Site\n#Apertus #AI #OpenAI #SwissAI #Innovation #MachineLearning #Technology #EUAI #MultilingualAI #DataPrivacy",
+  "caption": "Apertus, developed by the Swiss AI Initiative, is a fully open foundation model for Sovereign AI. It complies with EU AI Act requirements and is designed for performance with multilingual capabilities across 1000+ languages. 0d93f2a50\n\nAre open models essential for ethical AI? \n\nSources: APERTUS, Swiss AI Initiative",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782118922/everydayhypehq/2026-06-22/slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782118923/everydayhypehq/2026-06-22/slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782118925/everydayhypehq/2026-06-22/slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782118926/everydayhypehq/2026-06-22/slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782118926/everydayhypehq/2026-06-22/slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782126112/everydayhypehq/2026-06-22/slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782126113/everydayhypehq/2026-06-22/slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782126115/everydayhypehq/2026-06-22/slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782126115/everydayhypehq/2026-06-22/slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782126116/everydayhypehq/2026-06-22/slide_5.png"
   ],
   "plan": {
     "palette": "blue",
-    "art_style": "double-exposure, silhouette blended with data",
-    "layout": "b",
-    "caption": "The Swiss AI Initiative has unveiled Apertus, a fully open foundation model designed for sovereign AI. This innovative model complies with EU AI Act requirements and supports multilingual capabilities across 1000+ languages.\n\nHow will open models like Apertus impact AI development?\n\nSources: Swiss AI Initiative, Apertus Official Site\n#Apertus #AI #OpenAI #SwissAI #Innovation #MachineLearning #Technology #EUAI #MultilingualAI #DataPrivacy",
+    "art_style": "isometric miniature diorama, tilt-shift",
+    "layout": "a",
+    "caption": "Apertus, developed by the Swiss AI Initiative, is a fully open foundation model for Sovereign AI. It complies with EU AI Act requirements and is designed for performance with multilingual capabilities across 1000+ languages. 0d93f2a50\n\nAre open models essential for ethical AI? \n\nSources: APERTUS, Swiss AI Initiative",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
+        "pill": "BREAKING 534",
         "headline": "APERTUS IS A FULLY OPEN FOUNDATION MODEL FOR SOVEREIGN AI",
-        "hl": "OPEN FOUNDATION MODEL",
+        "hl": "FULLY OPEN FOUNDATION MODEL",
         "hls": [],
-        "sub": "Here's what you need to know about Apertus.",
-        "image_prompt": "A diverse group of researchers collaborating in a bright, modern lab, surrounded by AI technology and data visualizations."
+        "sub": "Here's the collaborative initiative.",
+        "image_prompt": "A vibrant, collaborative workspace with diverse researchers discussing AI models, surrounded by computers and whiteboards."
       },
       {
-        "pill": "",
-        "headline": "DEVELOPED BY SWISS AI INITIATIVE WITH EPFL, ETH ZURICH, AND CSCS",
-        "hl": "SWISS AI INITIATIVE",
+        "pill": "WHAT HAPPENED 6a1",
+        "headline": "SWISS AI INITIATIVE DEVELOPED APERTUS WITH EPFL AND ETH ZURICH",
+        "hl": "SWISS AI INITIATIVE DEVELOPED",
         "hls": [],
-        "sub": "Collaboration among leading Swiss institutions fosters significant advancements in AI.",
-        "image_prompt": "Close-up of a researcher working on a computer, with AI algorithms visible on the screen."
+        "sub": "This collaboration aims to make AI accessible and ethical.",
+        "image_prompt": "A close-up of a group of researchers from different backgrounds working together on AI technology."
       },
       {
-        "pill": "",
-        "headline": "COMPETITIVE WITH 8B AND 70B PARAMETERS, TRAINED IN 1000+ LANGUAGES",
-        "hl": "TRAINED IN 1000+ LANGUAGES",
+        "pill": "WHY IT MATTERS 0d93f2a50",
+        "headline": "APERTUS MEETS EU AI ACT REQUIREMENTS FOR DATA PRIVACY",
+        "hl": "MEETS EU AI ACT REQUIREMENTS",
         "hls": [],
-        "sub": "Apertus offers multilingual support right from its initial launch.",
-        "image_prompt": "A split image showing diverse text in various languages, symbolizing multilingual capabilities."
+        "sub": "It respects opt-outs and removes personally identifiable information.",
+        "image_prompt": "An illustration of a secure digital lock, symbolizing data privacy, with a backdrop of European landmarks."
       },
       {
-        "pill": "",
-        "headline": "BUILT TO MEET EU AI ACT REQUIREMENTS FOR DATA PRIVACY",
-        "hl": "DATA PRIVACY",
+        "pill": "THE IMPACT 5a8",
+        "headline": "APERTUS COMPETES WITH TOP MODELS AT 8B AND 70B PARAMETERS",
+        "hl": "COMPETES WITH TOP MODELS",
         "hls": [],
-        "sub": "Apertus respects user opt-outs and prevents the memorization of personal data.",
-        "image_prompt": "A person using a smartphone with a shield symbolizing data protection and privacy."
+        "sub": "It's multilingual from day one, trained on 1000+ languages.",
+        "image_prompt": "An animated globe surrounded by diverse language scripts, showcasing global communication."
       },
       {
-        "pill": "THE TAKEAWAY 🔥",
-        "headline": "APERTUS PROVIDES A GLOBAL FOUNDATION FOR AI DEVELOPMENT",
-        "hl": "GLOBAL FOUNDATION",
-        "hls": [
-          "AI DEVELOPMENT"
-        ],
+        "pill": "THE TAKEAWAY 525",
+        "headline": "APERTUS PROMISES A GLOBAL FOUNDATION FOR AI DEVELOPMENT",
+        "hl": "A GLOBAL FOUNDATION",
+        "hls": [],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic cityscape at sunset, representing the future of technology and innovation."
+        "image_prompt": "A futuristic city skyline with digital elements representing AI innovation."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Apertus – Open Foundation Model for Sovereign AI",
+      "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
       "url": "https://apertvs.ai/"
     },
     "date": "2026-06-22"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 25
+  "control_msg_id": 31
 }
