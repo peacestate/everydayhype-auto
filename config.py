@@ -23,6 +23,11 @@ IG_TOKEN            = os.environ.get("IG_ACCESS_TOKEN", "")
 IG_USER_ID          = os.environ.get("IG_USER_ID", "")           # IG Business Account ID
 TG_TOKEN            = os.environ.get("TELEGRAM_BOT_TOKEN", "")    # @BotFather bot token (daily preview DM)
 TG_CHAT             = os.environ.get("TELEGRAM_CHAT_ID", "")      # your Telegram chat id
+GH_PAT              = os.environ.get("GH_PAT", "")               # optional PAT — lets 🔄 Redo re-dispatch daily.yml
+GH_REPO             = os.environ.get("GH_REPO", "kiAnukal/everydayhype-auto")
+
+# minutes a queued post waits for your decision before auto-posting (the "almost 2 hours" rule)
+APPROVAL_DEADLINE_MIN = int(os.environ.get("APPROVAL_DEADLINE_MIN", "120"))
 
 # --- model / kaggle ---
 OPENAI_MODEL = "gpt-4o-mini"                                  # brain: rank + copy + image-judge

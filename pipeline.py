@@ -5,7 +5,7 @@ Run: python pipeline.py            (full: generate + publish)
 import sys, json
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
 import config as C
-from steps import s1_fetch_news, s2_brain, s3_gen_images, s4_render, s5_upload, s6_publish, hero, review, telegram
+from steps import s1_fetch_news, s2_brain, s3_gen_images, s4_render, s5_upload, s6_publish, hero, review, telegram, pending
 
 def run(dry_run=False):
     print("=== everydayhypehq carousel pipeline ===")
@@ -44,11 +44,16 @@ def run(dry_run=False):
         telegram.notify(paths, cap, verdict)   # tell you it was skipped + why
         print("[review] ❌ art director rejected the carousel -> NOT posting today (quality gate)."); return
 
+    # QUEUE FOR APPROVAL — don't post here. Upload now (so the agent can publish later with just
+    # URLs), then DM the slides + Approve/Reject/Redo buttons. The agent (steps/agent.py) publishes
+    # on your tap, applies any caption edits you reply with, or auto-posts after the deadline.
     urls = s5_upload.upload(slides)
-    media_id = s6_publish.publish(urls, cap)
-    s2_brain.commit_ledger(plan)          # only record after a successful post
-    telegram.notify(paths, cap, verdict, media_id)   # confirm what posted
-    print(f"=== DONE — posted carousel {media_id} for '{plan['story']['title']}' ===")
+    chat_id, ctrl_id = telegram.send_for_approval(paths, cap, verdict, C.APPROVAL_DEADLINE_MIN)
+    if not ctrl_id:
+        print("[pipeline] ⚠️ could not reach Telegram — NOT queuing (would never auto-resolve)."); return
+    pending.create(cap, urls, plan, chat_id, ctrl_id, C.APPROVAL_DEADLINE_MIN)
+    print(f"=== QUEUED for approval — '{plan['story']['title']}' "
+          f"(auto-posts in ~{C.APPROVAL_DEADLINE_MIN//60}h if no response) ===")
 
 if __name__ == "__main__":
     run(dry_run="--dry-run" in sys.argv)
