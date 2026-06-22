@@ -59,25 +59,27 @@ def _edit_caption(p, instruction):
     print("[agent] caption edited per user instruction")
 
 def _redispatch(p, status, working_msg, ok_msg):
-    """Discard the queued post and re-trigger the daily pipeline (needs GH_PAT). Used by both
-    🔄 Redo and ✨ Improve — the daily run always runs the auto-improve loop toward IMPROVE_TARGET."""
-    pending.mark(status)
-    if p.get("control_msg_id"):
-        tg.edit_text(p["control_msg_id"], working_msg,
-                     chat_id=p.get("chat_id"), reply_markup={"inline_keyboard": []})
+    """Re-trigger the daily pipeline (needs GH_PAT) for 🔄 Redo / ✨ Improve. If GH_PAT isn't
+    configured we DON'T discard the queued post — it stays pending (still approvable / auto-posts)
+    so a missing token can never lose your carousel."""
     if not (C.GH_PAT and C.GH_REPO):
-        tg.send_text("…but auto-redispatch isn't configured (no GH_PAT secret). "
-                     "I'll produce a fresh, score-optimized carousel on the next daily run.",
+        tg.send_text("⚠️ I can't auto-regenerate yet — the GH_PAT token isn't set. Your current "
+                     "carousel is ALREADY score-optimized and still waiting: tap ✅ to post it, ❌ to "
+                     "cancel, or it auto-posts in ~2h. (Set GH_PAT to make this button work instantly.)",
                      chat_id=p.get("chat_id"))
-        print(f"[agent] {status} requested but GH_PAT/GH_REPO unset"); return
+        print(f"[agent] {status} requested but GH_PAT/GH_REPO unset — kept post pending"); return
     r = requests.post(f"https://api.github.com/repos/{C.GH_REPO}/actions/workflows/daily.yml/dispatches",
                       headers={"Authorization": f"Bearer {C.GH_PAT}",
                                "Accept": "application/vnd.github+json"},
                       json={"ref": "main", "inputs": {"dry_run": False}}, timeout=30)
     if r.status_code in (201, 204):
+        pending.mark(status)                          # only discard once the new run is on its way
+        if p.get("control_msg_id"):
+            tg.edit_text(p["control_msg_id"], working_msg,
+                         chat_id=p.get("chat_id"), reply_markup={"inline_keyboard": []})
         tg.send_text(ok_msg, chat_id=p.get("chat_id"))
     else:
-        tg.send_text(f"Couldn't auto-trigger (HTTP {r.status_code}). Run the daily workflow manually.",
+        tg.send_text(f"Couldn't auto-trigger (HTTP {r.status_code}) — your post is still here to approve.",
                      chat_id=p.get("chat_id"))
     print(f"[agent] {status} dispatch -> {r.status_code}")
 
