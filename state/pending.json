@@ -1,0 +1,85 @@
+{
+  "status": "pending",
+  "created_at": "2026-06-22T07:00:02.885556Z",
+  "deadline_min": 120,
+  "caption": "The Swiss AI Initiative just launched Apertus, a fully open foundation model for sovereign AI. Developed in collaboration with EPFL, ETH Zurich, and CSCS, it prioritizes transparency with open data, code, and methods. This model is built to comply with EU AI Act requirements, ensuring privacy and data security. \n\nWhat do you think about open-source AI? \n\nSources: Swiss AI Initiative, Apertus website.",
+  "image_urls": [
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782111595/everydayhypehq/2026-06-22/slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782111596/everydayhypehq/2026-06-22/slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782111597/everydayhypehq/2026-06-22/slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782111597/everydayhypehq/2026-06-22/slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782111598/everydayhypehq/2026-06-22/slide_5.png"
+  ],
+  "plan": {
+    "palette": "blue",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "a",
+    "person": "",
+    "company": "Swiss AI Initiative",
+    "caption": "The Swiss AI Initiative just launched Apertus, a fully open foundation model for sovereign AI. Developed in collaboration with EPFL, ETH Zurich, and CSCS, it prioritizes transparency with open data, code, and methods. This model is built to comply with EU AI Act requirements, ensuring privacy and data security. \n\nWhat do you think about open-source AI? \n\nSources: Swiss AI Initiative, Apertus website.",
+    "slides": [
+      {
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "APERTUS IS A FULLY OPEN FOUNDATION MODEL FOR SOVEREIGN AI",
+        "hl": "FULLY OPEN FOUNDATION MODEL",
+        "hls": [
+          "FULLY OPEN",
+          "FOUNDATION MODEL"
+        ],
+        "sub": "Here's what you need to know",
+        "image_prompt": "A group of diverse researchers collaborating in a modern lab, with computers displaying codes and AI models in the background."
+      },
+      {
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "APERTUS COMPLIES WITH EU AI ACT REQUIREMENTS FOR PRIVACY",
+        "hl": "COMPLIES WITH EU AI ACT",
+        "hls": [
+          "EU AI ACT",
+          "PRIVACY"
+        ],
+        "sub": "This model respects opt-outs and removes PII effectively.",
+        "image_prompt": "A close-up of a digital screen showing complex data visuals, with a thoughtful researcher examining the information."
+      },
+      {
+        "pill": "THE IMPACT \ud83d\udd07",
+        "headline": "APERTUS IS COMPETITIVE WITH TOP MODELS AT 8B AND 70B PARAMETERS",
+        "hl": "COMPETITIVE WITH TOP MODELS",
+        "hls": [
+          "8B",
+          "70B PARAMETERS"
+        ],
+        "sub": "It is multilingual, trained on over 1000 languages from day one.",
+        "image_prompt": "An open workspace with team members from different backgrounds discussing AI data, surrounded by language maps and tech resources."
+      },
+      {
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "APERTUS PROMISES TRANSPARENCY WITH OPEN DATA AND METHODS",
+        "hl": "TRANSPARENCY WITH OPEN DATA",
+        "hls": [
+          "TRANSPARENCY",
+          "OPEN DATA"
+        ],
+        "sub": "This foundation model sets a new standard for open science.",
+        "image_prompt": "A panoramic view of a modern office space with a large screen displaying the Apertus logo, engaged team members brainstorming."
+      },
+      {
+        "pill": "",
+        "headline": "FOLLOWS OPEN-SOURCE PRINCIPLES TO EMPOWER AI INNOVATION",
+        "hl": "OPEN-SOURCE PRINCIPLES",
+        "hls": [
+          "OPEN-SOURCE",
+          "EMPOWER AI"
+        ],
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "An inspiring outdoor scene of a diverse group of people working together on laptops, with a backdrop of nature and technology."
+      }
+    ],
+    "story": {
+      "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
+      "url": "https://apertvs.ai/"
+    },
+    "date": "2026-06-22"
+  },
+  "chat_id": 8692339206,
+  "control_msg_id": 13
+}
