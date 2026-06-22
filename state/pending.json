@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "rejected",
   "created_at": "2026-06-22T07:00:02.885556Z",
   "deadline_min": 120,
   "caption": "The Swiss AI Initiative just launched Apertus, a fully open foundation model for sovereign AI. Developed in collaboration with EPFL, ETH Zurich, and CSCS, it prioritizes transparency with open data, code, and methods. This model is built to comply with EU AI Act requirements, ensuring privacy and data security. \n\nWhat do you think about open-source AI? \n\nSources: Swiss AI Initiative, Apertus website.",
@@ -81,5 +81,6 @@
     "date": "2026-06-22"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 13
+  "control_msg_id": 13,
+  "resolved_at": "manual-reject"
 }
