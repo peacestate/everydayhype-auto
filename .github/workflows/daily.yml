@@ -69,6 +69,14 @@ jobs:
         run: |
           git config user.name  "everydayhype-bot"
           git config user.email "bot@users.noreply.github.com"
-          git pull --rebase --autostash origin main || true
-          git add state/ && git commit -m "queue: $(date -u +%F)" || echo "no changes"
-          git push || echo "push skipped"
+          git add state/
+          git commit -m "queue: $(date -u +%F)" || echo "no changes"
+          # The freshly generated post is authoritative. Bring in remote history but keep OUR
+          # state/*.json whenever it conflicts — this stops the old --autostash rebase from
+          # committing <<<<<< merge-conflict markers when the Telegram worker wrote pending.json
+          # at the same instant (that corruption was breaking every button tap afterwards).
+          for i in 1 2 3; do
+            git fetch origin main || true
+            git merge -X ours --no-edit origin/main || { git merge --abort || true; }
+            git push && break || { echo "push race; retrying in 5s"; sleep 5; }
+          done
