@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "improve",
   "created_at": "2026-06-22T07:34:32.075355Z",
   "deadline_min": 120,
   "caption": "Apertus is a fully open foundation model developed by the Swiss AI Initiative, collaborating with EPFL and ETH Zurich. It aims to meet EU AI Act requirements while being multilingual, trained on over 1000 languages. \n\nWhat do you think about open-source AI? \n\nSources: Swiss AI Initiative, EPFL, ETH Zurich\n\n#Apertus #OpenAI #AI #EuropeanUnion #TechInnovation #AIResearch #OpenSource #ArtificialIntelligence #MultilingualAI #AICompliance #SwissAI",
@@ -19,7 +19,7 @@
     "caption": "Apertus is a fully open foundation model developed by the Swiss AI Initiative, collaborating with EPFL and ETH Zurich. It aims to meet EU AI Act requirements while being multilingual, trained on over 1000 languages. \n\nWhat do you think about open-source AI? \n\nSources: Swiss AI Initiative, EPFL, ETH Zurich\n\n#Apertus #OpenAI #AI #EuropeanUnion #TechInnovation #AIResearch #OpenSource #ArtificialIntelligence #MultilingualAI #AICompliance #SwissAI",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "APERTUS IS A FULLY OPEN FOUNDATION MODEL FOR SOVEREIGN AI",
         "hl": "FULLY OPEN FOUNDATION MODEL",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A vibrant scene depicting a world map with language symbols overlay, representing multilingual capabilities in technology."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "APERTUS PROVIDES A GLOBAL FOUNDATION FOR AI DEVELOPMENT",
         "hl": "GLOBAL FOUNDATION",
         "hls": [
@@ -74,7 +74,7 @@
       }
     ],
     "story": {
-      "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
+      "title": "Apertus – Open Foundation Model for Sovereign AI",
       "url": "https://apertvs.ai/"
     },
     "date": "2026-06-22"
