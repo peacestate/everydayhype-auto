@@ -1,77 +1,76 @@
 {
-  "status": "rejected",
-  "created_at": "2026-06-22T07:00:02.885556Z",
+  "status": "pending",
+  "created_at": "2026-06-22T07:34:32.075355Z",
   "deadline_min": 120,
-  "caption": "The Swiss AI Initiative just launched Apertus, a fully open foundation model for sovereign AI. Developed in collaboration with EPFL, ETH Zurich, and CSCS, it prioritizes transparency with open data, code, and methods. This model is built to comply with EU AI Act requirements, ensuring privacy and data security. \n\nWhat do you think about open-source AI? \n\nSources: Swiss AI Initiative, Apertus website.",
+  "caption": "Apertus is a fully open foundation model developed by the Swiss AI Initiative, collaborating with EPFL and ETH Zurich. It aims to meet EU AI Act requirements while being multilingual, trained on over 1000 languages. \n\nWhat do you think about open-source AI? \n\nSources: Swiss AI Initiative, EPFL, ETH Zurich\n\n#Apertus #OpenAI #AI #EuropeanUnion #TechInnovation #AIResearch #OpenSource #ArtificialIntelligence #MultilingualAI #AICompliance #SwissAI",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782111595/everydayhypehq/2026-06-22/slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782111596/everydayhypehq/2026-06-22/slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782111597/everydayhypehq/2026-06-22/slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782111597/everydayhypehq/2026-06-22/slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782111598/everydayhypehq/2026-06-22/slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782113663/everydayhypehq/2026-06-22/slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782113664/everydayhypehq/2026-06-22/slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782113665/everydayhypehq/2026-06-22/slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782113666/everydayhypehq/2026-06-22/slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782113667/everydayhypehq/2026-06-22/slide_5.png"
   ],
   "plan": {
     "palette": "blue",
     "art_style": "double-exposure, silhouette blended with data",
-    "layout": "a",
+    "layout": "c",
     "person": "",
     "company": "Swiss AI Initiative",
-    "caption": "The Swiss AI Initiative just launched Apertus, a fully open foundation model for sovereign AI. Developed in collaboration with EPFL, ETH Zurich, and CSCS, it prioritizes transparency with open data, code, and methods. This model is built to comply with EU AI Act requirements, ensuring privacy and data security. \n\nWhat do you think about open-source AI? \n\nSources: Swiss AI Initiative, Apertus website.",
+    "caption": "Apertus is a fully open foundation model developed by the Swiss AI Initiative, collaborating with EPFL and ETH Zurich. It aims to meet EU AI Act requirements while being multilingual, trained on over 1000 languages. \n\nWhat do you think about open-source AI? \n\nSources: Swiss AI Initiative, EPFL, ETH Zurich\n\n#Apertus #OpenAI #AI #EuropeanUnion #TechInnovation #AIResearch #OpenSource #ArtificialIntelligence #MultilingualAI #AICompliance #SwissAI",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
         "headline": "APERTUS IS A FULLY OPEN FOUNDATION MODEL FOR SOVEREIGN AI",
         "hl": "FULLY OPEN FOUNDATION MODEL",
         "hls": [
-          "FULLY OPEN",
-          "FOUNDATION MODEL"
+          "OPEN FOUNDATION",
+          "SOVEREIGN AI"
         ],
-        "sub": "Here's what you need to know",
-        "image_prompt": "A group of diverse researchers collaborating in a modern lab, with computers displaying codes and AI models in the background."
-      },
-      {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "APERTUS COMPLIES WITH EU AI ACT REQUIREMENTS FOR PRIVACY",
-        "hl": "COMPLIES WITH EU AI ACT",
-        "hls": [
-          "EU AI ACT",
-          "PRIVACY"
-        ],
-        "sub": "This model respects opt-outs and removes PII effectively.",
-        "image_prompt": "A close-up of a digital screen showing complex data visuals, with a thoughtful researcher examining the information."
-      },
-      {
-        "pill": "THE IMPACT \ud83d\udd07",
-        "headline": "APERTUS IS COMPETITIVE WITH TOP MODELS AT 8B AND 70B PARAMETERS",
-        "hl": "COMPETITIVE WITH TOP MODELS",
-        "hls": [
-          "8B",
-          "70B PARAMETERS"
-        ],
-        "sub": "It is multilingual, trained on over 1000 languages from day one.",
-        "image_prompt": "An open workspace with team members from different backgrounds discussing AI data, surrounded by language maps and tech resources."
-      },
-      {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "APERTUS PROMISES TRANSPARENCY WITH OPEN DATA AND METHODS",
-        "hl": "TRANSPARENCY WITH OPEN DATA",
-        "hls": [
-          "TRANSPARENCY",
-          "OPEN DATA"
-        ],
-        "sub": "This foundation model sets a new standard for open science.",
-        "image_prompt": "A panoramic view of a modern office space with a large screen displaying the Apertus logo, engaged team members brainstorming."
+        "sub": "Here's what you need to know.",
+        "image_prompt": "A diverse group of researchers collaborating around a table, with laptops and papers filled with data, in a modern office space."
       },
       {
         "pill": "",
-        "headline": "FOLLOWS OPEN-SOURCE PRINCIPLES TO EMPOWER AI INNOVATION",
-        "hl": "OPEN-SOURCE PRINCIPLES",
+        "headline": "DEVELOPED BY SWISS AI INITIATIVE WITH EPFL AND ETH ZURICH",
+        "hl": "SWISS AI INITIATIVE",
         "hls": [
-          "OPEN-SOURCE",
-          "EMPOWER AI"
+          "EPFL",
+          "ETH ZURICH"
+        ],
+        "sub": "The collaboration emphasizes transparency in AI development.",
+        "image_prompt": "A close-up shot of a team working together with a large screen displaying code and data visualization in the background."
+      },
+      {
+        "pill": "",
+        "headline": "COMPLIANT WITH EU AI ACT REQUIREMENTS FOR DATA PRIVACY",
+        "hl": "EU AI ACT REQUIREMENTS",
+        "hls": [
+          "DATA PRIVACY",
+          "COMPLIANT"
+        ],
+        "sub": "Apertus ensures opt-outs and removes personally identifiable information.",
+        "image_prompt": "An office environment with a digital screen showing compliance metrics and privacy symbols, alongside professionals discussing regulations."
+      },
+      {
+        "pill": "",
+        "headline": "TRAINED ON OVER 1000 LANGUAGES WITH 8B AND 70B PARAMETERS",
+        "hl": "TRAINED ON OVER 1000 LANGUAGES",
+        "hls": [
+          "8B PARAMETERS",
+          "70B PARAMETERS"
+        ],
+        "sub": "The model is competitive with top open models available today.",
+        "image_prompt": "A vibrant scene depicting a world map with language symbols overlay, representing multilingual capabilities in technology."
+      },
+      {
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "APERTUS PROVIDES A GLOBAL FOUNDATION FOR AI DEVELOPMENT",
+        "hl": "GLOBAL FOUNDATION",
+        "hls": [
+          "AI DEVELOPMENT"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "An inspiring outdoor scene of a diverse group of people working together on laptops, with a backdrop of nature and technology."
+        "image_prompt": "A panoramic view of a futuristic city skyline, symbolizing technological advancement, with people interacting with digital devices."
       }
     ],
     "story": {
@@ -81,6 +80,5 @@
     "date": "2026-06-22"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 13,
-  "resolved_at": "manual-reject"
+  "control_msg_id": 19
 }
