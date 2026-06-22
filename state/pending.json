@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-06-22T11:02:01.864943Z",
   "deadline_min": 120,
   "caption": "Apertus, developed by the Swiss AI Initiative, is a fully open foundation model for Sovereign AI. It complies with EU AI Act requirements and is designed for performance with multilingual capabilities across 1000+ languages. 0d93f2a50\n\nAre open models essential for ethical AI? \n\nSources: APERTUS, Swiss AI Initiative",
@@ -60,11 +60,12 @@
     "person": "",
     "company": "",
     "story": {
-      "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
+      "title": "Apertus – Open Foundation Model for Sovereign AI",
       "url": "https://apertvs.ai/"
     },
     "date": "2026-06-22"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 31
+  "control_msg_id": 31,
+  "resolved_at": "2026-06-22T11:03:01.807Z"
 }
