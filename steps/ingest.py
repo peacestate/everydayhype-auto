@@ -65,6 +65,40 @@ def _printable_ratio(t):
         return 0.0
     return sum(1 for c in t if c.isprintable() or c in "\n\t\r") / len(t)
 
+def _apify_text(b, top=15):
+    """Apify Instagram scrapers export a JSON array of post objects. Instead of feeding raw JSON,
+    pull each post's caption + engagement, rank by likes+comments, and hand the LLM only the
+    TOP performers' captions — so it learns the style of what actually works, not metadata noise.
+    Returns None if this doesn't look like such an export (caller falls back to raw text)."""
+    try:
+        data = json.loads(b.decode("utf-8", "ignore"))
+    except Exception:
+        return None
+    if isinstance(data, dict):                       # some exports wrap the list under a key
+        for k in ("items", "data", "results", "posts"):
+            if isinstance(data.get(k), list):
+                data = data[k]; break
+    if not isinstance(data, list) or not data or not isinstance(data[0], dict):
+        return None
+    posts = []
+    for d in data:
+        if not isinstance(d, dict):
+            continue
+        cap = d.get("caption") or d.get("text") or d.get("title") or ""
+        if not isinstance(cap, str) or len(cap.strip()) < 15:
+            continue
+        eng = (d.get("likesCount") or d.get("likes") or 0) + (d.get("commentsCount") or d.get("comments") or 0)
+        try:
+            eng = int(eng)
+        except Exception:
+            eng = 0
+        posts.append((eng, cap.strip()))
+    if not posts:
+        return None
+    posts.sort(key=lambda x: x[0], reverse=True)
+    lines = [f"[{e} engagement] {c[:400]}" for e, c in posts[:top]]
+    return "TOP-PERFORMING posts (ranked by likes+comments) — learn the STYLE only:\n\n" + "\n\n".join(lines)
+
 def _handle(msg):
     """Return extracted markdown block(s) for one message, or None if nothing usable.
     Accepts: image, plain text, and ANY file — code (.py/.java/.js…), data (.csv/.json),
@@ -82,6 +116,10 @@ def _handle(msg):
             return _from_text(_pdf_text(b))
         if name.endswith((".xlsx", ".xlsm")) or "spreadsheet" in mime:
             return _from_text(_excel_text(b))
+        if name.endswith(".json") or mime == "application/json":
+            apify = _apify_text(b)                         # Apify IG export -> top-post captions
+            if apify:
+                return _from_text(apify)
         text = b.decode("utf-8", "ignore")                # code / data / text of any extension
         return _from_text(text) if _printable_ratio(text) > 0.85 else None
     txt = (msg.get("text") or msg.get("caption") or "").strip()   # plain text / image caption
