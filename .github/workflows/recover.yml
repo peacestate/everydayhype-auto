@@ -1,0 +1,48 @@
+name: recover-432
+# One-off: republish the exact 4:32 PM IST carousel the user approved (control_msg 31),
+# using the ORIGINAL slides recovered from daily-carousel run 27947084732's artifact.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read           # download-artifact from another run
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Download approved 4:32 slides (daily run 27947084732)
+        uses: actions/download-artifact@v4
+        with:
+          name: carousel-slides
+          run-id: 27947084732
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: recover_slides
+
+      - name: Deps
+        run: pip install -q cloudinary requests
+
+      - name: Re-upload originals + publish the approved carousel
+        env:
+          CLOUDINARY_URL:  ${{ secrets.CLOUDINARY_URL }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID:      ${{ secrets.IG_USER_ID }}
+        run: python -c "import sys; sys.path.insert(0,'.'); from steps import recover_publish"
+
+      - name: Persist ledger
+        run: |
+          git config user.name  "everydayhype-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add state/ && git commit -m "recover: republished 4:32 approved carousel with original images" || echo "no changes"
+          git push || echo "push skipped"
