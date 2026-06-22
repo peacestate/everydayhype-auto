@@ -1,0 +1,36 @@
+name: publish-approved
+on:
+  workflow_dispatch:   # dispatched by the Cloudflare Worker the instant you tap ✅ Approve
+
+permissions:
+  contents: write       # commit ledger / cleared pending back
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Deps
+        run: pip install -q openai requests
+      - name: Publish the approved carousel to Instagram
+        env:
+          OPENAI_API_KEY:     ${{ secrets.OPENAI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          IG_ACCESS_TOKEN:    ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID:         ${{ secrets.IG_USER_ID }}
+        run: python -c "import sys; sys.path.insert(0,'.'); from steps import agent; agent.publish_approved()"
+      - name: Persist ledger / cleared pending
+        run: |
+          git config user.name  "everydayhype-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add state/ && git commit -m "publish: $(date -u +%F-%H%M)" || echo "no changes"
+          git push || echo "push skipped"

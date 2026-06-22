@@ -1,34 +1,27 @@
-"""Telegram agent — the single getUpdates reader (Telegram allows only one).
+"""GitHub-side helper for the Telegram WEBHOOK architecture.
 
-Runs on a short cron (every ~15 min, laptop off) and does THREE things in one pass:
+The Cloudflare Worker (worker/worker.js) is the instant Telegram brain — it owns all live Telegram
+updates and handles taps/edits in ~1s. This module does the heavy / scheduled work GitHub is better
+at, and NEVER calls getUpdates (the webhook owns that now):
 
-  1. TRAIN  — any image / text / file you DM (when no post is awaiting you) is distilled into
-              a reusable winning pattern and appended to examples.md  (steps/ingest._handle).
-  2. DECIDE — button taps on a queued post:
-                ✅ approve -> publish to Instagram now
-                ❌ reject  -> discard, post nothing
-                🔄 regen   -> discard + re-trigger the daily pipeline (fresh visuals)
-              and free-text replies WHILE a post is pending are treated as EDIT instructions
-              (e.g. "shorten the caption") — the caption is revised and re-previewed.
-  3. AUTO   — if a queued post sits unanswered for >= deadline_min (default 120), it is
-              auto-published so the channel never misses a day.
-
-Telegram offset is tracked in state/tg_offset.txt so nothing is read twice."""
-import json, requests
-from openai import OpenAI
+  • publish_approved() — dispatched (publish.yml) the instant you tap ✅: posts the approved carousel
+                         to Instagram, records the ledger, confirms back.
+  • maintain()         — cron (every ~15 min): drains training messages the Worker stashed in
+                         state/tg_queue.json into examples.md, and AUTO-POSTS a pending post once it
+                         passes the deadline (the "almost 2 hours" safety net)."""
+import json
 import config as C
 from steps import ingest, telegram as tg, pending, s6_publish, s2_brain
 
-OFFSET_FILE = C.STATE / "tg_offset.txt"
+QUEUE_FILE = C.STATE / "tg_queue.json"
 
 def _publish(p, reason):
-    """Publish a pending post to Instagram, record the ledger, report back. Idempotent-ish:
-    flips status to 'posting' first so a crash mid-publish won't silently re-queue."""
+    """Publish a pending/approved post to Instagram, record the ledger, report back."""
     pending.mark("posting")
     try:
         media_id = s6_publish.publish(p["image_urls"], p["caption"])
     except Exception as e:
-        pending.mark("pending")  # leave it queued so a later run / manual fix can retry
+        pending.mark("approved")  # leave it so a retry can pick it up
         tg.send_text(f"❌ Instagram post FAILED ({reason}): {e}", chat_id=p.get("chat_id"))
         print(f"[agent] publish failed: {e}"); return
     s2_brain.commit_ledger(p["plan"])
@@ -39,109 +32,43 @@ def _publish(p, reason):
     tg.send_text(f"✅ Posted carousel {media_id} — {reason}.", chat_id=p.get("chat_id"))
     print(f"[agent] PUBLISHED {media_id} ({reason})")
 
-def _edit_caption(p, instruction):
-    """Apply a free-text change request to the caption via the LLM, then re-preview."""
-    client = OpenAI(api_key=C.OPENAI_API_KEY)
-    sys = ("You edit Instagram captions for @everydayhypehq. Apply the user's requested change to "
-           "the caption. Keep it on-brand (short factual paragraphs, an engagement question, "
-           "'Sources:' line, 8-12 hashtags) unless they ask otherwise. Return ONLY the revised caption.")
-    r = client.chat.completions.create(model=C.OPENAI_MODEL, temperature=0.5, messages=[
-        {"role": "system", "content": sys},
-        {"role": "user", "content": f"CURRENT CAPTION:\n{p['caption']}\n\nCHANGE REQUESTED:\n{instruction}"}])
-    p["caption"] = r.choices[0].message.content.strip()
-    pending.save(p)
-    pending.touch_deadline()                       # active editing -> restart the auto-post timer
-    if p.get("control_msg_id"):
-        body = ("📝 Updated caption:\n" + p["caption"][:3500] +
-                "\n\n⏳ Timer reset. Tap ✅ to post, ❌ to cancel, 🔄 to redo visuals, "
-                "or reply with another change.")
-        tg.edit_text(p["control_msg_id"], body, chat_id=p.get("chat_id"), reply_markup=tg.APPROVE_KB)
-    print("[agent] caption edited per user instruction")
-
-def _redispatch(p, status, working_msg, ok_msg):
-    """Re-trigger the daily pipeline (needs GH_PAT) for 🔄 Redo / ✨ Improve. If GH_PAT isn't
-    configured we DON'T discard the queued post — it stays pending (still approvable / auto-posts)
-    so a missing token can never lose your carousel."""
-    if not (C.GH_PAT and C.GH_REPO):
-        tg.send_text("⚠️ I can't auto-regenerate yet — the GH_PAT token isn't set. Your current "
-                     "carousel is ALREADY score-optimized and still waiting: tap ✅ to post it, ❌ to "
-                     "cancel, or it auto-posts in ~2h. (Set GH_PAT to make this button work instantly.)",
-                     chat_id=p.get("chat_id"))
-        print(f"[agent] {status} requested but GH_PAT/GH_REPO unset — kept post pending"); return
-    r = requests.post(f"https://api.github.com/repos/{C.GH_REPO}/actions/workflows/daily.yml/dispatches",
-                      headers={"Authorization": f"Bearer {C.GH_PAT}",
-                               "Accept": "application/vnd.github+json"},
-                      json={"ref": "main", "inputs": {"dry_run": False}}, timeout=30)
-    if r.status_code in (201, 204):
-        pending.mark(status)                          # only discard once the new run is on its way
-        if p.get("control_msg_id"):
-            tg.edit_text(p["control_msg_id"], working_msg,
-                         chat_id=p.get("chat_id"), reply_markup={"inline_keyboard": []})
-        tg.send_text(ok_msg, chat_id=p.get("chat_id"))
-    else:
-        tg.send_text(f"Couldn't auto-trigger (HTTP {r.status_code}) — your post is still here to approve.",
-                     chat_id=p.get("chat_id"))
-    print(f"[agent] {status} dispatch -> {r.status_code}")
-
-def _handle_callback(cb):
-    data = cb.get("data")
-    tg.answer_callback(cb["id"])
+def publish_approved():
+    """Run by publish.yml right after you tap ✅ (Worker set status='approved')."""
     p = pending.load()
-    if not p or p.get("status") != "pending":
-        tg.answer_callback(cb["id"], "Nothing pending — already handled."); return
-    if data == "approve":
-        _publish(p, "you approved")
-    elif data == "reject":
-        pending.mark("rejected")
-        if p.get("control_msg_id"):
-            tg.edit_text(p["control_msg_id"], "❌ Rejected — nothing posted.",
-                         chat_id=p.get("chat_id"), reply_markup={"inline_keyboard": []})
-    elif data == "improve":
-        _redispatch(p, "improve", "✨ Pushing for a higher score — rebuilding & re-reviewing…",
-                    "✨ Improving — a higher-scored carousel will arrive shortly.")
-    elif data == "regen":
-        _redispatch(p, "regen", "🔄 Discarded — regenerating a fresh carousel…",
-                    "🔄 Regenerating — a new carousel will arrive shortly.")
+    if not p or p.get("status") != "approved":
+        print(f"[agent] nothing to publish (status={p and p.get('status')})"); return
+    _publish(p, "you approved")
 
-def run():
-    if not C.TG_TOKEN:
-        print("[agent] no telegram token"); return
-    offset = int(OFFSET_FILE.read_text().strip()) if OFFSET_FILE.exists() else 0
-    updates = tg.api("getUpdates", offset=offset,
-                     allowed_updates=json.dumps(["message", "callback_query"])).json().get("result", [])
-    last, learned = offset, 0
-    for u in updates:
-        last = u["update_id"] + 1
+def _drain_queue():
+    """Process training messages the Worker stashed (images/files/ideas) into examples.md."""
+    if not QUEUE_FILE.exists():
+        return 0
+    try:
+        msgs = json.loads(QUEUE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        msgs = []
+    learned = 0
+    for msg in msgs:
         try:
-            if "callback_query" in u:
-                _handle_callback(u["callback_query"]); continue
-            msg = u.get("message", {})
-            chat = (msg.get("chat") or {}).get("id")
-            p = pending.load()
-            is_text = bool((msg.get("text") or "").strip()) and not msg.get("photo") and not msg.get("document")
-            cmd = (msg.get("text") or "").strip().startswith("/")
-            if p and p.get("status") == "pending" and is_text and not cmd:
-                _edit_caption(p, msg["text"].strip())          # reply = edit the queued post
-            else:
-                block = ingest._handle(msg)                    # otherwise = training example
-                if block:
-                    with open(ingest.EXAMPLES, "a", encoding="utf-8") as f:
-                        f.write("\n\n" + block + "\n")
-                    learned += 1
-                    if chat:
-                        tg.send_text("✅ Learned from that — added to the library.", chat_id=chat)
+            block = ingest._handle(msg)
+            if block:
+                with open(ingest.EXAMPLES, "a", encoding="utf-8") as f:
+                    f.write("\n\n" + block + "\n")
+                learned += 1
         except Exception as e:
-            print("[agent] one update failed:", e)
-    if last != offset:
-        OFFSET_FILE.write_text(str(last))
+            print("[agent] one training msg failed:", e)
+    QUEUE_FILE.write_text("[]", encoding="utf-8")   # clear the queue
+    if learned and (chat := C.TG_CHAT):
+        tg.send_text(f"📚 Learned {learned} new style example(s) from what you sent.", chat_id=chat)
+    return learned
 
-    # auto-post deadline
+def maintain():
+    """Cron entry (every ~15 min): drain training queue + enforce the auto-post deadline."""
+    learned = _drain_queue()
     p = pending.load()
     if p and pending.expired(p):
         _publish(p, f"no response in {p.get('deadline_min',120)//60}h")
-
-    print(f"[agent] {len(updates)} updates, {learned} examples learned, "
-          f"pending={'yes' if pending.is_pending() else 'no'}")
+    print(f"[agent] maintain: learned={learned}, pending={'yes' if pending.is_pending() else 'no'}")
 
 if __name__ == "__main__":
-    run()
+    maintain()

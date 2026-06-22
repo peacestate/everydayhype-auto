@@ -1,0 +1,12 @@
+name = "everydayhype-bot"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Secrets are NOT set here (they're secret). After `npm i -g wrangler` and `wrangler login`, set them:
+#   wrangler secret put TELEGRAM_BOT_TOKEN
+#   wrangler secret put TELEGRAM_CHAT_ID
+#   wrangler secret put OPENAI_API_KEY
+#   wrangler secret put GH_PAT
+#   wrangler secret put GH_REPO          # value: kiAnukal/everydayhype-auto
+#   wrangler secret put WEBHOOK_SECRET   # any long random string you invent
+# Then: wrangler deploy

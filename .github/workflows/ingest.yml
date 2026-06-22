@@ -1,19 +1,18 @@
-name: telegram-agent
+name: telegram-maintain
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 min — read DMs, handle approve/reject/edit, auto-post on deadline
+    - cron: "*/15 * * * *"   # every 15 min — drain training queue + enforce auto-post deadline
   workflow_dispatch:
 
 permissions:
-  contents: write              # commit examples.md / pending.json / offset back
-  actions: write               # (only used if GH_PAT regen path is enabled)
+  contents: write              # commit examples.md / pending.json back
 
 concurrency:
-  group: telegram-agent        # NEVER run two at once — Telegram getUpdates allows one reader
+  group: telegram-maintain
   cancel-in-progress: false
 
 jobs:
-  agent:
+  maintain:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -25,22 +24,20 @@ jobs:
       - name: Deps (openai + requests + file parsers)
         run: pip install -q openai requests pypdf openpyxl
 
-      - name: Run telegram agent (train + approve/edit + auto-post)
+      - name: Drain training queue + auto-post on deadline
         env:
           OPENAI_API_KEY:     ${{ secrets.OPENAI_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
           IG_ACCESS_TOKEN:    ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID:         ${{ secrets.IG_USER_ID }}
-          GH_PAT:             ${{ secrets.GH_PAT }}
-          GH_REPO:            ${{ github.repository }}
-        run: python -c "import sys; sys.path.insert(0,'.'); from steps import agent; agent.run()"
+        run: python -c "import sys; sys.path.insert(0,'.'); from steps import agent; agent.maintain()"
 
-      - name: Persist state (examples / pending / offset / ledger)
+      - name: Persist state (examples / pending / queue)
         run: |
           git config user.name  "everydayhype-bot"
           git config user.email "bot@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
           git add examples.md state/ 2>/dev/null || true
-          git commit -m "agent: telegram state $(date -u +%F-%H%M)" || echo "no changes"
+          git commit -m "maintain: telegram state $(date -u +%F-%H%M)" || echo "no changes"
           git push || echo "push skipped"
