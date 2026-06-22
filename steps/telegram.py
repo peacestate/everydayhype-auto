@@ -17,7 +17,8 @@ BASE = f"https://api.telegram.org/bot{C.TG_TOKEN}"
 APPROVE_KB = {"inline_keyboard": [
     [{"text": "✅ Approve & Post", "callback_data": "approve"},
      {"text": "❌ Reject",         "callback_data": "reject"}],
-    [{"text": "🔄 Redo visuals",   "callback_data": "regen"}],
+    [{"text": "✨ Improve to 100",  "callback_data": "improve"},
+     {"text": "🔄 Redo visuals",   "callback_data": "regen"}],
 ]}
 
 def _check(resp, what):
@@ -91,7 +92,7 @@ def send_for_approval(slide_paths, caption, verdict, deadline_min=120):
     _send_slides(slide_paths, _head(verdict) + "🕒 awaiting your decision")
     body = ("📝 Caption:\n" + (caption or "") +
             f"\n\n⏳ Auto-posts in ~{deadline_min//60}h if you don't respond.\n"
-            "• Tap ✅ to post now, ❌ to cancel, 🔄 to regenerate the visuals.\n"
+            "• ✅ post now · ❌ cancel · ✨ push for a higher art-director score · 🔄 fresh visuals.\n"
             "• Or just reply with a change (e.g. \"shorten the caption\", \"make it punchier\", "
             "\"add a question at the end\") and I'll revise it.")
     res = send_text(body, reply_markup=APPROVE_KB)

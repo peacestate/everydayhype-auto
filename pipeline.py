@@ -33,6 +33,25 @@ def run(dry_run=False):
     (C.WORK / "review.json").write_text(json.dumps(verdict, indent=2))
     print(f"[review] verdict={verdict.get('verdict')} score={verdict.get('score')} issues={verdict.get('issues')}")
 
+    # AUTO-IMPROVE LOOP — chase a high art-director score before you ever see it: while the score is
+    # below target, the brain rewrites the weak copy/prompts to fix the flagged issues and we re-render
+    # + re-review, keeping the best-scoring version. (Copy-only revision, so each re-render is cheap.)
+    best = (verdict.get("score", 0), slides, plan, verdict)
+    tries = 0
+    while best[0] < C.IMPROVE_TARGET and tries < C.IMPROVE_TRIES and verdict.get("issues"):
+        tries += 1
+        print(f"[improve] score {best[0]} < {C.IMPROVE_TARGET} — revising (try {tries}/{C.IMPROVE_TRIES})…")
+        plan = s2_brain.revise_copy(best[2], best[3].get("issues", []))
+        (C.WORK / "plan.json").write_text(json.dumps(plan, indent=2))
+        slides = s4_render.render(plan, bg_dir, hero_asset)
+        verdict = review.review([str(p) for p in slides])
+        print(f"[improve] -> score={verdict.get('score')} verdict={verdict.get('verdict')}")
+        if verdict.get("score", 0) > best[0]:
+            best = (verdict.get("score", 0), slides, plan, verdict)
+    slides, plan, verdict = best[1], best[2], best[3]
+    (C.WORK / "review.json").write_text(json.dumps(verdict, indent=2))
+    print(f"[improve] final score={best[0]} after {tries} revision(s)")
+
     paths = [str(p) for p in slides]
     cap = plan.get("caption", "")
 

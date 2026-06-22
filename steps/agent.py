@@ -58,26 +58,28 @@ def _edit_caption(p, instruction):
         tg.edit_text(p["control_msg_id"], body, chat_id=p.get("chat_id"), reply_markup=tg.APPROVE_KB)
     print("[agent] caption edited per user instruction")
 
-def _regen(p):
-    """Discard the queued post and re-trigger the daily pipeline for fresh visuals (needs GH_PAT)."""
-    pending.mark("regen")
+def _redispatch(p, status, working_msg, ok_msg):
+    """Discard the queued post and re-trigger the daily pipeline (needs GH_PAT). Used by both
+    🔄 Redo and ✨ Improve — the daily run always runs the auto-improve loop toward IMPROVE_TARGET."""
+    pending.mark(status)
     if p.get("control_msg_id"):
-        tg.edit_text(p["control_msg_id"], "🔄 Discarded — regenerating a fresh carousel…",
+        tg.edit_text(p["control_msg_id"], working_msg,
                      chat_id=p.get("chat_id"), reply_markup={"inline_keyboard": []})
     if not (C.GH_PAT and C.GH_REPO):
-        tg.send_text("🔄 Regen requested, but auto-redispatch isn't configured (no GH_PAT). "
-                     "I'll pick a fresh story on the next daily run.", chat_id=p.get("chat_id"))
-        print("[agent] regen requested but GH_PAT/GH_REPO unset"); return
+        tg.send_text("…but auto-redispatch isn't configured (no GH_PAT secret). "
+                     "I'll produce a fresh, score-optimized carousel on the next daily run.",
+                     chat_id=p.get("chat_id"))
+        print(f"[agent] {status} requested but GH_PAT/GH_REPO unset"); return
     r = requests.post(f"https://api.github.com/repos/{C.GH_REPO}/actions/workflows/daily.yml/dispatches",
                       headers={"Authorization": f"Bearer {C.GH_PAT}",
                                "Accept": "application/vnd.github+json"},
                       json={"ref": "main", "inputs": {"dry_run": False}}, timeout=30)
     if r.status_code in (201, 204):
-        tg.send_text("🔄 Regenerating — a new carousel will arrive shortly.", chat_id=p.get("chat_id"))
+        tg.send_text(ok_msg, chat_id=p.get("chat_id"))
     else:
-        tg.send_text(f"🔄 Couldn't auto-regenerate (HTTP {r.status_code}). Run the daily workflow manually.",
+        tg.send_text(f"Couldn't auto-trigger (HTTP {r.status_code}). Run the daily workflow manually.",
                      chat_id=p.get("chat_id"))
-    print(f"[agent] regen dispatch -> {r.status_code}")
+    print(f"[agent] {status} dispatch -> {r.status_code}")
 
 def _handle_callback(cb):
     data = cb.get("data")
@@ -92,8 +94,12 @@ def _handle_callback(cb):
         if p.get("control_msg_id"):
             tg.edit_text(p["control_msg_id"], "❌ Rejected — nothing posted.",
                          chat_id=p.get("chat_id"), reply_markup={"inline_keyboard": []})
+    elif data == "improve":
+        _redispatch(p, "improve", "✨ Pushing for a higher score — rebuilding & re-reviewing…",
+                    "✨ Improving — a higher-scored carousel will arrive shortly.")
     elif data == "regen":
-        _regen(p)
+        _redispatch(p, "regen", "🔄 Discarded — regenerating a fresh carousel…",
+                    "🔄 Regenerating — a new carousel will arrive shortly.")
 
 def run():
     if not C.TG_TOKEN:

@@ -193,6 +193,36 @@ def make_plan(candidates):
     print(f'[s2] {plan["palette"]}/{plan["art_style"][:18]}/{plan["layout"]} | {plan["slides"][0]["headline"]}')
     return plan
 
+REVISE_SYS = (
+    "You are fixing an Instagram carousel for @everydayhypehq that an art director scored below 100. "
+    "Given the current plan and the art director's specific ISSUES, rewrite ONLY the text fields to fix "
+    "them — keep the same story and facts. Common fixes: shorten/tighten headlines so they're fully "
+    "readable; pick 1-2 strong 'hls' highlight words that actually appear in each headline; make the "
+    "LAST slide a clear follow CTA (e.g. headline 'FOLLOW FOR MORE', sub inviting a follow); ensure each "
+    "'sub' is a full 8-14 word factual sentence; no fluff. If an issue is about IMAGE quality (melted "
+    "faces, fake text, distortion), improve that slide's 'image_prompt' to steer clear of it. "
+    "Return the SAME JSON object (palette, art_style, layout, person, company, caption, slides[5]) with "
+    "fields revised. Do NOT change palette/art_style/layout/person/company.")
+
+def revise_copy(plan, issues):
+    """Rewrite the plan's text (and image prompts) to address the art-director's issues. Copy-only —
+    palette/layout/person stay fixed so a re-render is cheap. Returns a revised plan (best-effort)."""
+    client = OpenAI(api_key=C.OPENAI_API_KEY)
+    keep = {k: plan.get(k) for k in ("palette", "art_style", "layout", "person", "company", "story", "date")}
+    try:
+        r = client.chat.completions.create(
+            model=C.OPENAI_MODEL, response_format={"type": "json_object"}, temperature=0.5,
+            messages=[{"role": "system", "content": REVISE_SYS},
+                      {"role": "user", "content": json.dumps({"plan": plan, "issues": issues})}])
+        rev = json.loads(r.choices[0].message.content)
+    except Exception as e:
+        print(f"[s2] revise_copy failed, keeping current plan: {e}"); return plan
+    if not (isinstance(rev.get("slides"), list) and len(rev["slides"]) == 5):
+        print("[s2] revise_copy returned malformed slides, keeping current plan"); return plan
+    rev.update(keep)                 # never let a revision drift the visual identity / story
+    print("[s2] revised copy to address art-director issues")
+    return rev
+
 def commit_ledger(plan):
     ledger, history = _load(LEDGER, []), _load(HISTORY, [])
     ledger.append({"date": plan["date"], "palette": plan["palette"], "art_style": plan["art_style"],
