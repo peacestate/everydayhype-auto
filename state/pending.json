@@ -1,70 +1,85 @@
 {
   "status": "pending",
-  "created_at": "2026-06-23T09:41:57.410027Z",
+  "created_at": "2026-06-23T09:59:57.465140Z",
   "deadline_min": 120,
-  "caption": "Subquadratic claims to have solved a mathematical bottleneck hindering large language models (LLMs) for nearly a decade. Their new model, SubQ, reportedly processes up to 12 times more text compared to other models, while maintaining performance similar to leading competitors like Google DeepMind and OpenAI. \n\nIs Subquadratic's breakthrough the real deal or just hype? \n\nSources: MIT Technology Review, Subquadratic, Appen \n\n#AI #TechNews #LanguageModels #Subquadratic #Innovation #MachineLearning #DeepLearning #ArtificialIntelligence #Startups #TechBreakthroughs",
+  "caption": "Anthropic and Micron have formed a strategic agreement to advance AI infrastructure. The partnership focuses on developing memory architectures, with Micron supplying High-Bandwidth Memory and other products. This collaboration aims to enhance performance and energy efficiency in AI workloads. 1\n\nHow will this impact AI technology?\n\nSources: The Decoder, Globe Newswire\n#AI #TechNews #Micron #Anthropic #MemoryArchitecture #Claude #Innovation #AIInfrastructure #TechPartnerships #DataCenter #HighBandwidthMemory #AIWorkloads",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207709/everydayhypehq/2026-06-23/094149_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207710/everydayhypehq/2026-06-23/094149_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207711/everydayhypehq/2026-06-23/094149_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207712/everydayhypehq/2026-06-23/094149_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207713/everydayhypehq/2026-06-23/094149_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782208789/everydayhypehq/2026-06-23/095949_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782208790/everydayhypehq/2026-06-23/095949_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782208791/everydayhypehq/2026-06-23/095949_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782208791/everydayhypehq/2026-06-23/095949_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782208792/everydayhypehq/2026-06-23/095949_slide_5.png"
   ],
   "plan": {
     "palette": "magenta",
-    "art_style": "double-exposure, silhouette blended with data",
-    "layout": "b",
-    "caption": "Subquadratic claims to have solved a mathematical bottleneck hindering large language models (LLMs) for nearly a decade. Their new model, SubQ, reportedly processes up to 12 times more text compared to other models, while maintaining performance similar to leading competitors like Google DeepMind and OpenAI. \n\nIs Subquadratic's breakthrough the real deal or just hype? \n\nSources: MIT Technology Review, Subquadratic, Appen \n\n#AI #TechNews #LanguageModels #Subquadratic #Innovation #MachineLearning #DeepLearning #ArtificialIntelligence #Startups #TechBreakthroughs",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "caption": "Anthropic and Micron have formed a strategic agreement to advance AI infrastructure. The partnership focuses on developing memory architectures, with Micron supplying High-Bandwidth Memory and other products. This collaboration aims to enhance performance and energy efficiency in AI workloads. 1\n\nHow will this impact AI technology?\n\nSources: The Decoder, Globe Newswire\n#AI #TechNews #Micron #Anthropic #MemoryArchitecture #Claude #Innovation #AIInfrastructure #TechPartnerships #DataCenter #HighBandwidthMemory #AIWorkloads",
     "slides": [
       {
-        "pill": "BREAKING 0",
-        "headline": "SUBQUADRATIC CLAIMS IT HAS SOLVED A DECADE-OLD LLM BOTTLENECK",
-        "hl": "SOLVED A DECADE-OLD LLM BOTTLENECK",
-        "hls": [],
-        "sub": "Here's the breakthrough to watch as the AI field evolves.",
-        "image_prompt": "A silhouette of a person standing in front of a large screen displaying abstract data visualizations, with a city skyline in the background."
+        "pill": "BREAKING",
+        "headline": "ANTHROPIC AND MICRON JUST ANNOUNCED AN AI MEMORY DEAL",
+        "hl": "AI MEMORY DEAL",
+        "hls": [
+          "AI MEMORY",
+          "MICRON"
+        ],
+        "sub": "This agreement was announced on June 22, 2026.",
+        "image_prompt": "A close-up of two engineers discussing plans over a table, papers and blueprints spread out, with a high-tech environment in the background, soft lighting."
       },
       {
-        "pill": "WHAT HAPPENED 00",
-        "headline": "SUBQUADRATIC'S SUBQ PROCESSES UP TO 12 TIMES MORE TEXT AT ONCE",
-        "hl": "12 TIMES MORE TEXT",
-        "hls": [],
-        "sub": "This allows for analyzing hundreds of documents efficiently.",
-        "image_prompt": "A close-up of hands typing on a laptop with code and data visualizations reflected on the screen, soft lighting creating a focused atmosphere."
+        "pill": "",
+        "headline": "THE DEAL INCLUDES A MULTI-YEAR SUPPLY CONTRACT FOR MEMORY PRODUCTS",
+        "hl": "MULTI-YEAR SUPPLY CONTRACT",
+        "hls": [
+          "SUPPLY CONTRACT",
+          "MEMORY PRODUCTS"
+        ],
+        "sub": "Micron will provide High-Bandwidth Memory, DRAM, and SSDs.",
+        "image_prompt": "An array of memory chips displayed on a table, highlighting various high-tech components, with engineers in the background working on a computer."
       },
       {
-        "pill": "WHY IT MATTERS 00",
-        "headline": "SUBQ MATCHES TOP MODELS BY GOOGLE DEEPMIND AND OPENAI IN KEY TASKS",
-        "hl": "MATCHES TOP MODELS",
-        "hls": [],
-        "sub": "This performance level is crucial for competitive AI applications.",
-        "image_prompt": "A group of diverse engineers collaborating around a table with laptops open, discussing AI technology with visual data charts on a wall."
+        "pill": "",
+        "headline": "CLAUDE WILL BE ROLLED OUT INSIDE MICRON FOR AUTOMATION TASKS",
+        "hl": "ROLLED OUT INSIDE MICRON",
+        "hls": [
+          "ROLLED OUT",
+          "AUTOMATION TASKS"
+        ],
+        "sub": "Claude is used internally by Micron for coding and manufacturing processes.",
+        "image_prompt": "A technician programming a machine in a manufacturing plant, with advanced machinery and screens displaying data, daylight streaming through windows."
       },
       {
-        "pill": "THE IMPACT 00",
-        "headline": "SKEPTICS REMAIN, BUT INDEPENDENT TESTS SHOW PROMISING RESULTS",
-        "hl": "INDEPENDENT TESTS SHOW PROMISING RESULTS",
-        "hls": [],
-        "sub": "The third-party evaluations could shift perceptions about SubQ's capabilities.",
-        "image_prompt": "An engineer analyzing performance metrics on a large screen, with a thoughtful expression under warm lighting."
+        "pill": "",
+        "headline": "CRITICS RAISE CONCERNS ABOUT POTENTIAL CIRCULAR ARRANGEMENTS",
+        "hl": "POTENTIAL CIRCULAR ARRANGEMENTS",
+        "hls": [
+          "CIRCULAR ARRANGEMENTS",
+          "CRITICS RAISE CONCERNS"
+        ],
+        "sub": "Micron's investment in Anthropic raises questions about conflicts of interest.",
+        "image_prompt": "A concerned group of analysts discussing over a conference table, charts and graphs projected on a screen, with serious expressions."
       },
       {
-        "pill": "THE TAKEAWAY 00",
-        "headline": "SUBQUADRATIC'S TECH COULD BE A MAJOR AI BREAKTHROUGH",
-        "hl": "MAJOR AI BREAKTHROUGH",
-        "hls": [],
-        "sub": "Subquadratic's upcoming releases may significantly impact the AI landscape.",
-        "image_prompt": "A futuristic workspace with AI interfaces displayed on multiple screens, showing a vision of advanced technology."
+        "pill": "THE TAKEAWAY 1",
+        "headline": "THIS DEAL COULD SIGNIFICANTLY IMPACT AI MEMORY ARCHITECTURE",
+        "hl": "IMPACT AI MEMORY ARCHITECTURE",
+        "hls": [
+          "IMPACT",
+          "AI MEMORY"
+        ],
+        "sub": "Micron's stock has surged over 1,000% in the past year.",
+        "image_prompt": "A bustling tech office environment with people collaborating, computer screens showing data, and a sense of innovation in the air."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "A startup claims it broke through a bottleneck that\u2019s holding back LLMs",
-      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/"
+      "title": "Anthropic and Micron want to co-design AI memory architecture",
+      "url": "https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/"
     },
     "date": "2026-06-23"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 44
+  "control_msg_id": 50
 }
