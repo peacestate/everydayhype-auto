@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-06-23T09:59:57.465140Z",
   "deadline_min": 120,
   "caption": "Anthropic and Micron have formed a strategic agreement to advance AI infrastructure. The partnership focuses on developing memory architectures, with Micron supplying High-Bandwidth Memory and other products. This collaboration aims to enhance performance and energy efficiency in AI workloads. 1\n\nHow will this impact AI technology?\n\nSources: The Decoder, Globe Newswire\n#AI #TechNews #Micron #Anthropic #MemoryArchitecture #Claude #Innovation #AIInfrastructure #TechPartnerships #DataCenter #HighBandwidthMemory #AIWorkloads",
@@ -81,5 +81,6 @@
     "date": "2026-06-23"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 50
+  "control_msg_id": 50,
+  "resolved_at": "2026-06-23T10:02:10.793Z"
 }
