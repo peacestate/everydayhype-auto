@@ -72,7 +72,7 @@ def run(dry_run=False):
         print("[pipeline] ⚠️ could not reach Telegram — NOT queuing (would never auto-resolve)."); return
     pending.create(cap, urls, plan, chat_id, ctrl_id, C.APPROVAL_DEADLINE_MIN)
     print(f"=== QUEUED for approval — '{plan['story']['title']}' "
-          f"(auto-posts in ~{C.APPROVAL_DEADLINE_MIN//60}h if no response) ===")
+          f"(approve before noon -> posts at 12:00 PM IST; nothing posts unless approved) ===")
 
 if __name__ == "__main__":
     run(dry_run="--dry-run" in sys.argv)

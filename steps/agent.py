@@ -9,11 +9,20 @@ at, and NEVER calls getUpdates (the webhook owns that now):
   • maintain()         — cron (every ~15 min): drains training messages the Worker stashed in
                          state/tg_queue.json into examples.md, and AUTO-POSTS a pending post once it
                          passes the deadline (the "almost 2 hours" safety net)."""
-import json
+import json, datetime
 import config as C
 from steps import ingest, telegram as tg, pending, s6_publish, s2_brain
 
 QUEUE_FILE = C.STATE / "tg_queue.json"
+
+# noon IST = 06:30 UTC. The Cloudflare Worker's 06:30-UTC cron is the PUNCTUAL primary publisher;
+# this */15 cron is only a BACKUP — it publishes an approved post a touch later (>= 06:45 UTC /
+# 12:15 IST) so it never races the worker's noon run, and it also catches approvals made after noon.
+NOON_BACKUP_UTC_MIN = 6 * 60 + 45
+
+def _utc_minutes_now():
+    n = datetime.datetime.utcnow()
+    return n.hour * 60 + n.minute
 
 def _publish(p, reason):
     """Publish a pending/approved post to Instagram, record the ledger, report back."""
@@ -63,12 +72,16 @@ def _drain_queue():
     return learned
 
 def maintain():
-    """Cron entry (every ~15 min): drain training queue + enforce the auto-post deadline."""
+    """Cron entry (every ~15 min): drain training queue + BACKUP noon publisher.
+
+    Posting is approval-gated now: nothing auto-posts on a timer. A post only goes out if you tap
+    ✅ Approve, and then only at noon IST. The Cloudflare Worker's 06:30-UTC cron is the punctual
+    primary publisher; this is the safety net (worker missed, or you approved after noon)."""
     learned = _drain_queue()
     p = pending.load()
-    if p and pending.expired(p):
-        _publish(p, f"no response in {p.get('deadline_min',120)//60}h")
-    print(f"[agent] maintain: learned={learned}, pending={'yes' if pending.is_pending() else 'no'}")
+    if p and p.get("status") == "approved" and _utc_minutes_now() >= NOON_BACKUP_UTC_MIN:
+        _publish(p, "approved — noon post (backup)")
+    print(f"[agent] maintain: learned={learned}, status={p and p.get('status')}")
 
 if __name__ == "__main__":
     maintain()

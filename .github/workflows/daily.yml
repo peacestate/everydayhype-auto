@@ -1,9 +1,11 @@
 name: daily-carousel
 
 on:
-  schedule:
-    - cron: "30 6 * * *"      # 06:30 UTC daily (adjust to your audience)
-  workflow_dispatch:           # manual run button
+  # NOTE: no `schedule:` here on purpose. GitHub's scheduled cron is heavily delayed (a "06:30"
+  # run was landing ~12:33 UTC), which broke the "draft in the morning" goal. Instead the
+  # Cloudflare Worker's punctual cron (wrangler.toml [triggers], 03:40 UTC / 09:10 IST)
+  # dispatches this workflow — and workflow_dispatch runs start promptly.
+  workflow_dispatch:           # manual run button + Worker/agent dispatch target
     inputs:
       dry_run:
         description: "Generate only, do not post"

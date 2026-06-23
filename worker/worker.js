@@ -5,7 +5,7 @@
  * waiting for the 15-min GitHub poll. The Worker is lightweight: it acknowledges instantly, updates
  * the queued-post state (state/pending.json in the repo, via the GitHub API), and hands the heavy /
  * slow work to GitHub Actions:
- *   ✅ approve  -> mark pending 'approved' + dispatch publish.yml (which posts to Instagram)
+ *   ✅ approve  -> mark pending 'approved' (does NOT post now — the 12:00 PM IST cron posts it)
  *   ❌ reject   -> mark pending 'rejected'  (done — nothing posts)
  *   ✨ improve / 🔄 regen -> dispatch daily.yml for a fresh, score-optimized carousel
  *   text reply while a post is pending -> revise the caption via OpenAI + re-show it
@@ -35,6 +35,37 @@ export default {
     }
     return new Response("ok"); // always 200 so Telegram doesn't retry-storm
   },
+
+  /**
+   * Cron triggers (see wrangler.toml [triggers]). Cloudflare fires these on the dot and we turn
+   * each into a GitHub workflow_dispatch — dispatched runs start promptly, so we hit real clock
+   * times that GitHub's own (heavily delayed) schedule cron never could.
+   *   03:40 UTC / 09:10 IST -> daily.yml   -> builds + DMs the draft (lands ~09:30 IST)
+   *   06:30 UTC / 12:00 IST -> publish.yml -> posts the carousel IF you've approved it
+   */
+  async scheduled(event, env, ctx) {
+    try {
+      if (event.cron === "40 3 * * *") {
+        const ok = await ghDispatch(env, "daily.yml", { dry_run: "false" });
+        console.log("cron 09:10 IST -> daily.yml dispatch:", ok);
+      } else if (event.cron === "30 6 * * *") {
+        // publish.yml's publish_approved() no-ops unless pending.json status === 'approved',
+        // so firing this at noon is safe whether or not you approved.
+        const ok = await ghDispatch(env, "publish.yml", {});
+        console.log("cron 12:00 IST -> publish.yml dispatch:", ok);
+        // courtesy heads-up if nothing was approved in time
+        try {
+          const { obj: p } = await ghGetFile(env, "state/pending.json");
+          if (p && p.status !== "approved" && p.status !== "posted" && p.status !== "posting") {
+            await sendText(env, env.TELEGRAM_CHAT_ID,
+              "🕛 It's 12:00 PM IST — no carousel was approved, so nothing is posting today. Tap ✅ on a draft before noon to schedule it.");
+          }
+        } catch {}
+      }
+    } catch (e) {
+      console.log("scheduled error:", e && e.stack || e);
+    }
+  },
 };
 
 /* ---------------- Telegram helpers ---------------- */
@@ -51,7 +82,7 @@ const editText = (env, chat, mid, text, kb) => tg(env, "editMessageText", { chat
 
 const KB = {
   inline_keyboard: [
-    [{ text: "✅ Approve & Post", callback_data: "approve" }, { text: "❌ Reject", callback_data: "reject" }],
+    [{ text: "✅ Approve (post at noon)", callback_data: "approve" }, { text: "❌ Reject", callback_data: "reject" }],
     [{ text: "✨ Improve to 100", callback_data: "improve" }, { text: "🔄 Redo visuals", callback_data: "regen" }],
   ],
 };
@@ -105,8 +136,9 @@ async function handleCallback(cb, env) {
   if (data === "approve") {
     p.status = "approved"; p.resolved_at = new Date().toISOString();
     await ghPutFile(env, "state/pending.json", p, sha, "approve via telegram (worker)");
-    if (mid) await editText(env, chat, mid, "✅ Approved — publishing to Instagram now (about a minute)…");
-    await ghDispatch(env, "publish.yml", {}); // GitHub does the actual (slow) IG publish
+    // DON'T post now — approval just schedules it. The 12:00 PM IST cron (and a */15 backup)
+    // publishes the approved carousel, regardless of what time you approved.
+    if (mid) await editText(env, chat, mid, "✅ Approved — scheduled to post at 12:00 PM IST.");
     return;
   }
   if (data === "improve" || data === "regen") {

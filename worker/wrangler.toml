@@ -2,6 +2,14 @@ name = "everydayhype-bot"
 main = "worker.js"
 compatibility_date = "2024-11-01"
 
+# Cron triggers (UTC). Cloudflare fires these PUNCTUALLY and the worker turns each into a GitHub
+# workflow_dispatch — and dispatched runs start promptly (only GitHub *schedule* events get delayed).
+# That's how we hit real clock times that GitHub's own cron never could.
+#   "40 3 * * *" = 03:40 UTC = 09:10 IST  -> dispatch daily.yml  (draft lands ~09:30 IST)
+#   "30 6 * * *" = 06:30 UTC = 12:00 IST  -> dispatch publish.yml (posts the APPROVED carousel)
+[triggers]
+crons = ["40 3 * * *", "30 6 * * *"]
+
 # Secrets are NOT set here (they're secret). After `npm i -g wrangler` and `wrangler login`, set them:
 #   wrangler secret put TELEGRAM_BOT_TOKEN
 #   wrangler secret put TELEGRAM_CHAT_ID
