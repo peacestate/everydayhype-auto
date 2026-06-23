@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "improve",
   "created_at": "2026-06-23T09:41:57.410027Z",
   "deadline_min": 120,
   "caption": "Subquadratic claims to have solved a mathematical bottleneck hindering large language models (LLMs) for nearly a decade. Their new model, SubQ, reportedly processes up to 12 times more text compared to other models, while maintaining performance similar to leading competitors like Google DeepMind and OpenAI. \n\nIs Subquadratic's breakthrough the real deal or just hype? \n\nSources: MIT Technology Review, Subquadratic, Appen \n\n#AI #TechNews #LanguageModels #Subquadratic #Innovation #MachineLearning #DeepLearning #ArtificialIntelligence #Startups #TechBreakthroughs",
@@ -60,7 +60,7 @@
     "person": "",
     "company": "",
     "story": {
-      "title": "A startup claims it broke through a bottleneck that\u2019s holding back LLMs",
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
       "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/"
     },
     "date": "2026-06-23"
