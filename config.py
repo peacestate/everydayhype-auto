@@ -29,8 +29,10 @@ GH_REPO             = os.environ.get("GH_REPO", "kiAnukal/everydayhype-auto")
 # minutes a queued post waits for your decision before auto-posting (the "almost 2 hours" rule)
 APPROVAL_DEADLINE_MIN = int(os.environ.get("APPROVAL_DEADLINE_MIN", "120"))
 
-# auto-improve loop: keep revising+re-rendering until the art-director score hits this, up to N tries
-IMPROVE_TARGET = int(os.environ.get("IMPROVE_TARGET", "90"))
+# auto-improve loop: keep revising+re-rendering until the art-director score hits this, up to N tries.
+# Target is 82 (= the 'post' threshold in review.py) — reachable, so the loop stops once the carousel
+# is genuinely clean instead of burning re-renders chasing an unreachable 90.
+IMPROVE_TARGET = int(os.environ.get("IMPROVE_TARGET", "82"))
 IMPROVE_TRIES  = int(os.environ.get("IMPROVE_TRIES", "2"))
 
 # --- model / kaggle ---
