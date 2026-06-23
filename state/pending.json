@@ -1,71 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-06-22T11:02:01.864943Z",
+  "status": "pending",
+  "created_at": "2026-06-23T09:41:57.410027Z",
   "deadline_min": 120,
-  "caption": "Apertus, developed by the Swiss AI Initiative, is a fully open foundation model for Sovereign AI. It complies with EU AI Act requirements and is designed for performance with multilingual capabilities across 1000+ languages. 0d93f2a50\n\nAre open models essential for ethical AI? \n\nSources: APERTUS, Swiss AI Initiative",
+  "caption": "Subquadratic claims to have solved a mathematical bottleneck hindering large language models (LLMs) for nearly a decade. Their new model, SubQ, reportedly processes up to 12 times more text compared to other models, while maintaining performance similar to leading competitors like Google DeepMind and OpenAI. \n\nIs Subquadratic's breakthrough the real deal or just hype? \n\nSources: MIT Technology Review, Subquadratic, Appen \n\n#AI #TechNews #LanguageModels #Subquadratic #Innovation #MachineLearning #DeepLearning #ArtificialIntelligence #Startups #TechBreakthroughs",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782126112/everydayhypehq/2026-06-22/slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782126113/everydayhypehq/2026-06-22/slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782126115/everydayhypehq/2026-06-22/slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782126115/everydayhypehq/2026-06-22/slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782126116/everydayhypehq/2026-06-22/slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207709/everydayhypehq/2026-06-23/094149_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207710/everydayhypehq/2026-06-23/094149_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207711/everydayhypehq/2026-06-23/094149_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207712/everydayhypehq/2026-06-23/094149_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207713/everydayhypehq/2026-06-23/094149_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "isometric miniature diorama, tilt-shift",
-    "layout": "a",
-    "caption": "Apertus, developed by the Swiss AI Initiative, is a fully open foundation model for Sovereign AI. It complies with EU AI Act requirements and is designed for performance with multilingual capabilities across 1000+ languages. 0d93f2a50\n\nAre open models essential for ethical AI? \n\nSources: APERTUS, Swiss AI Initiative",
+    "palette": "magenta",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "b",
+    "caption": "Subquadratic claims to have solved a mathematical bottleneck hindering large language models (LLMs) for nearly a decade. Their new model, SubQ, reportedly processes up to 12 times more text compared to other models, while maintaining performance similar to leading competitors like Google DeepMind and OpenAI. \n\nIs Subquadratic's breakthrough the real deal or just hype? \n\nSources: MIT Technology Review, Subquadratic, Appen \n\n#AI #TechNews #LanguageModels #Subquadratic #Innovation #MachineLearning #DeepLearning #ArtificialIntelligence #Startups #TechBreakthroughs",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "APERTUS IS A FULLY OPEN FOUNDATION MODEL FOR SOVEREIGN AI",
-        "hl": "FULLY OPEN FOUNDATION MODEL",
+        "pill": "BREAKING 0",
+        "headline": "SUBQUADRATIC CLAIMS IT HAS SOLVED A DECADE-OLD LLM BOTTLENECK",
+        "hl": "SOLVED A DECADE-OLD LLM BOTTLENECK",
         "hls": [],
-        "sub": "Here's the collaborative initiative.",
-        "image_prompt": "A vibrant, collaborative workspace with diverse researchers discussing AI models, surrounded by computers and whiteboards."
+        "sub": "Here's the breakthrough to watch as the AI field evolves.",
+        "image_prompt": "A silhouette of a person standing in front of a large screen displaying abstract data visualizations, with a city skyline in the background."
       },
       {
-        "pill": "WHAT HAPPENED 6a1",
-        "headline": "SWISS AI INITIATIVE DEVELOPED APERTUS WITH EPFL AND ETH ZURICH",
-        "hl": "SWISS AI INITIATIVE DEVELOPED",
+        "pill": "WHAT HAPPENED 00",
+        "headline": "SUBQUADRATIC'S SUBQ PROCESSES UP TO 12 TIMES MORE TEXT AT ONCE",
+        "hl": "12 TIMES MORE TEXT",
         "hls": [],
-        "sub": "This collaboration aims to make AI accessible and ethical.",
-        "image_prompt": "A close-up of a group of researchers from different backgrounds working together on AI technology."
+        "sub": "This allows for analyzing hundreds of documents efficiently.",
+        "image_prompt": "A close-up of hands typing on a laptop with code and data visualizations reflected on the screen, soft lighting creating a focused atmosphere."
       },
       {
-        "pill": "WHY IT MATTERS 0d93f2a50",
-        "headline": "APERTUS MEETS EU AI ACT REQUIREMENTS FOR DATA PRIVACY",
-        "hl": "MEETS EU AI ACT REQUIREMENTS",
+        "pill": "WHY IT MATTERS 00",
+        "headline": "SUBQ MATCHES TOP MODELS BY GOOGLE DEEPMIND AND OPENAI IN KEY TASKS",
+        "hl": "MATCHES TOP MODELS",
         "hls": [],
-        "sub": "It respects opt-outs and removes personally identifiable information.",
-        "image_prompt": "An illustration of a secure digital lock, symbolizing data privacy, with a backdrop of European landmarks."
+        "sub": "This performance level is crucial for competitive AI applications.",
+        "image_prompt": "A group of diverse engineers collaborating around a table with laptops open, discussing AI technology with visual data charts on a wall."
       },
       {
-        "pill": "THE IMPACT 5a8",
-        "headline": "APERTUS COMPETES WITH TOP MODELS AT 8B AND 70B PARAMETERS",
-        "hl": "COMPETES WITH TOP MODELS",
+        "pill": "THE IMPACT 00",
+        "headline": "SKEPTICS REMAIN, BUT INDEPENDENT TESTS SHOW PROMISING RESULTS",
+        "hl": "INDEPENDENT TESTS SHOW PROMISING RESULTS",
         "hls": [],
-        "sub": "It's multilingual from day one, trained on 1000+ languages.",
-        "image_prompt": "An animated globe surrounded by diverse language scripts, showcasing global communication."
+        "sub": "The third-party evaluations could shift perceptions about SubQ's capabilities.",
+        "image_prompt": "An engineer analyzing performance metrics on a large screen, with a thoughtful expression under warm lighting."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "APERTUS PROMISES A GLOBAL FOUNDATION FOR AI DEVELOPMENT",
-        "hl": "A GLOBAL FOUNDATION",
+        "pill": "THE TAKEAWAY 00",
+        "headline": "SUBQUADRATIC'S TECH COULD BE A MAJOR AI BREAKTHROUGH",
+        "hl": "MAJOR AI BREAKTHROUGH",
         "hls": [],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic city skyline with digital elements representing AI innovation."
+        "sub": "Subquadratic's upcoming releases may significantly impact the AI landscape.",
+        "image_prompt": "A futuristic workspace with AI interfaces displayed on multiple screens, showing a vision of advanced technology."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Apertus \u2013 Open Foundation Model for Sovereign AI",
-      "url": "https://apertvs.ai/"
+      "title": "A startup claims it broke through a bottleneck that\u2019s holding back LLMs",
+      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/"
     },
-    "date": "2026-06-22"
+    "date": "2026-06-23"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 31,
-  "resolved_at": "2026-06-22T14:36:56.003184Z"
+  "control_msg_id": 44
 }
