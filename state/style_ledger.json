@@ -76,5 +76,18 @@
       "An animated globe surrounded by diverse ",
       "A futuristic city skyline with digital e"
     ]
+  },
+  {
+    "date": "2026-06-23",
+    "palette": "magenta",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A close-up of two engineers discussing p",
+      "An array of memory chips displayed on a ",
+      "A technician programming a machine in a ",
+      "A concerned group of analysts discussing",
+      "A bustling tech office environment with "
+    ]
   }
 ]
