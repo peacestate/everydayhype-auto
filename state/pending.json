@@ -1,86 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-06-24T06:13:31.577205Z",
+  "status": "pending",
+  "created_at": "2026-06-24T20:37:48.402972Z",
   "deadline_min": 120,
-  "caption": "OpenAI's latest release, GPT-5.5-Cyber, is making waves in cybersecurity. This specialized model is part of an expanded initiative that includes a robust Codex Security plugin. With over 30 million scanned commits and a partner network of 25 security firms, OpenAI is addressing the growing challenges in cybersecurity.\n\nWhat do you think about AI's role in cybersecurity?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Cybersecurity #GPT5 #AI #TechNews #Innovation #CyberDefense #Technology #MachineLearning #Security #SoftwareDevelopment #AIinCybersecurity",
+  "caption": "OpenAI and Broadcom have unveiled the \"Jalape\u00f1o\" chip, designed specifically for large language model inference. Expected to launch at scale by late 2026, this custom hardware marks OpenAI's first foray into specialized silicon after years of model development. The collaborative effort aims to enhance efficiency and performance in AI applications.\n\nHow do you think custom chips will impact AI development?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Broadcom #AI #TechNews #Jalape\u00f1o #CustomHardware #Silicon #Innovation #LLM #MachineLearning #AIResearch #FutureTech\n\n\ud83d\udcf7 Cover photo: \u9996\u76f8\u5b98\u90b8\u30db\u30fc\u30e0\u30da\u30fc\u30b8 \u00b7 CC BY 4.0",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782281602/everydayhypehq/2026-06-24/061321_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782281602/everydayhypehq/2026-06-24/061321_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782281603/everydayhypehq/2026-06-24/061321_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782281604/everydayhypehq/2026-06-24/061321_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782281605/everydayhypehq/2026-06-24/061321_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782333458/everydayhypehq/2026-06-24/203738_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782333459/everydayhypehq/2026-06-24/203738_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782333461/everydayhypehq/2026-06-24/203738_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782333462/everydayhypehq/2026-06-24/203738_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782333463/everydayhypehq/2026-06-24/203738_slide_5.png"
   ],
   "plan": {
-    "palette": "cyan",
-    "art_style": "sleek 3D render, octane, glossy materials",
-    "layout": "b",
-    "person": "",
+    "palette": "red",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "c",
+    "person": "Sam Altman",
     "company": "OpenAI",
-    "caption": "OpenAI's latest release, GPT-5.5-Cyber, is making waves in cybersecurity. This specialized model is part of an expanded initiative that includes a robust Codex Security plugin. With over 30 million scanned commits and a partner network of 25 security firms, OpenAI is addressing the growing challenges in cybersecurity.\n\nWhat do you think about AI's role in cybersecurity?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Cybersecurity #GPT5 #AI #TechNews #Innovation #CyberDefense #Technology #MachineLearning #Security #SoftwareDevelopment #AIinCybersecurity",
+    "caption": "OpenAI and Broadcom have unveiled the \"Jalape\u00f1o\" chip, designed specifically for large language model inference. Expected to launch at scale by late 2026, this custom hardware marks OpenAI's first foray into specialized silicon after years of model development. The collaborative effort aims to enhance efficiency and performance in AI applications.\n\nHow do you think custom chips will impact AI development?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Broadcom #AI #TechNews #Jalape\u00f1o #CustomHardware #Silicon #Innovation #LLM #MachineLearning #AIResearch #FutureTech\n\n\ud83d\udcf7 Cover photo: \u9996\u76f8\u5b98\u90b8\u30db\u30fc\u30e0\u30da\u30fc\u30b8 \u00b7 CC BY 4.0",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "OPENAI'S GPT-5.5-CYBER OUTPERFORMS ANTHROPIC'S MYTHOS ON KEY BENCHMARKS",
-        "hl": "OUTPERFORMS ANTHROPIC'S MYTHOS",
-        "hls": [
-          "OUTPERFORMS",
-          "KEY BENCHMARKS"
-        ],
-        "sub": "This new model sets records in cybersecurity evaluations.",
-        "image_prompt": "A sleek, modern office environment with cybersecurity professionals collaborating around a computer, displaying an abstract digital security dashboard in the background."
+        "headline": "OPENAI JUST UNVEILED A CUSTOM CHIP CALLED \"JALAPE\u00d1O\"",
+        "hl": "CALLED \"JALAPE\u00d1O\"",
+        "hls": [],
+        "sub": "Here's what you need to know.",
+        "image_prompt": "A close-up of a sleek, modern chip on a workbench, with engineers discussing in the background."
       },
       {
         "pill": "",
-        "headline": "THE CODING PLUGIN HAS SCANNED OVER 30 MILLION COMMITS",
-        "hl": "30 MILLION COMMITS",
-        "hls": [
-          "SCANNED",
-          "OVER 30 MILLION"
-        ],
-        "sub": "It flags vulnerabilities and automates patch generation.",
-        "image_prompt": "A close-up shot of a computer screen with lines of code, with a programmer analyzing and discussing findings with a colleague."
+        "headline": "\"JALAPE\u00d1O\" IS TAILORED FOR LARGE LANGUAGE MODEL INFERENCE",
+        "hl": "LARGE LANGUAGE MODEL INFERENCE",
+        "hls": [],
+        "sub": "It was co-developed with Broadcom and designed from scratch.",
+        "image_prompt": "Engineers examining a silicon wafer in a high-tech lab, with focused expressions."
       },
       {
         "pill": "",
-        "headline": "OPENAI PARTNERS WITH MORE THAN 25 SECURITY FIRMS",
-        "hl": "MORE THAN 25 SECURITY FIRMS",
-        "hls": [
-          "PARTNERS",
-          "MORE THAN 25"
-        ],
-        "sub": "This partnership aims to enhance cybersecurity measures globally.",
-        "image_prompt": "A group of diverse cybersecurity experts in a meeting, brainstorming strategies with digital security graphics projected on a screen."
+        "headline": "DESIGN TO TAPE-OUT TOOK JUST NINE MONTHS",
+        "hl": "JUST NINE MONTHS",
+        "hls": [],
+        "sub": "This is claimed to be the fastest ASIC development cycle known.",
+        "image_prompt": "A team of engineers in a meeting room, with blueprints and digital schematics displayed on screens."
       },
       {
         "pill": "",
-        "headline": "GPT-5.5-CYBER IS THE MOST CAPABLE MODEL FOR PATCHING FLAWS",
-        "hl": "MOST CAPABLE MODEL",
-        "hls": [
-          "MOST CAPABLE",
-          "PATCHING FLAWS"
-        ],
-        "sub": "It leads in all key cybersecurity benchmark tests.",
-        "image_prompt": "An abstract representation of cybersecurity, featuring digital locks and shields, symbolizing advanced protection and security."
+        "headline": "DEPLOYMENT PLANNED FOR LATE 2026 AT GIGAWATT SCALE",
+        "hl": "LATE 2026 AT GIGAWATT SCALE",
+        "hls": [],
+        "sub": "This will be a significant step for OpenAI's hardware ambitions.",
+        "image_prompt": "A futuristic server room with rows of high-performance computing hardware and glowing lights."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "AI IS NOW CRUCIAL IN PATCHING SOFTWARE FLAWS EFFICIENTLY",
-        "hl": "CRUCIAL IN PATCHING",
-        "hls": [
-          "CRUCIAL",
-          "PATCHING"
-        ],
-        "sub": "This advancement underscores AI's role in cybersecurity.",
-        "image_prompt": "A futuristic portrayal of AI technology at work, with glowing circuits and data streams representing intelligence and security."
+        "headline": "THIS CHIP COULD ENHANCE AI PERFORMANCE AND EFFICIENCY",
+        "hl": "ENHANCE AI PERFORMANCE",
+        "hls": [],
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A conceptual image of AI technology integrating seamlessly into everyday life, with diverse people interacting with devices."
       }
     ],
     "story": {
-      "title": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark",
-      "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/"
+      "title": "OpenAI and Broadcom unveil \"Jalape\u00f1o,\" a custom chip built for LLM inference",
+      "url": "https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference/"
     },
     "date": "2026-06-24"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 87,
-  "resolved_at": "2026-06-24T06:30:53.721811Z"
+  "control_msg_id": 102
 }
