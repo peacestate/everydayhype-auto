@@ -1,70 +1,86 @@
 {
-  "status": "improve",
-  "created_at": "2026-06-23T09:41:57.410027Z",
+  "status": "posted",
+  "created_at": "2026-06-24T06:13:31.577205Z",
   "deadline_min": 120,
-  "caption": "Subquadratic claims to have solved a mathematical bottleneck hindering large language models (LLMs) for nearly a decade. Their new model, SubQ, reportedly processes up to 12 times more text compared to other models, while maintaining performance similar to leading competitors like Google DeepMind and OpenAI. \n\nIs Subquadratic's breakthrough the real deal or just hype? \n\nSources: MIT Technology Review, Subquadratic, Appen \n\n#AI #TechNews #LanguageModels #Subquadratic #Innovation #MachineLearning #DeepLearning #ArtificialIntelligence #Startups #TechBreakthroughs",
+  "caption": "OpenAI's latest release, GPT-5.5-Cyber, is making waves in cybersecurity. This specialized model is part of an expanded initiative that includes a robust Codex Security plugin. With over 30 million scanned commits and a partner network of 25 security firms, OpenAI is addressing the growing challenges in cybersecurity.\n\nWhat do you think about AI's role in cybersecurity?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Cybersecurity #GPT5 #AI #TechNews #Innovation #CyberDefense #Technology #MachineLearning #Security #SoftwareDevelopment #AIinCybersecurity",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207709/everydayhypehq/2026-06-23/094149_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207710/everydayhypehq/2026-06-23/094149_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207711/everydayhypehq/2026-06-23/094149_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207712/everydayhypehq/2026-06-23/094149_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782207713/everydayhypehq/2026-06-23/094149_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782281602/everydayhypehq/2026-06-24/061321_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782281602/everydayhypehq/2026-06-24/061321_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782281603/everydayhypehq/2026-06-24/061321_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782281604/everydayhypehq/2026-06-24/061321_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782281605/everydayhypehq/2026-06-24/061321_slide_5.png"
   ],
   "plan": {
-    "palette": "magenta",
-    "art_style": "double-exposure, silhouette blended with data",
+    "palette": "cyan",
+    "art_style": "sleek 3D render, octane, glossy materials",
     "layout": "b",
-    "caption": "Subquadratic claims to have solved a mathematical bottleneck hindering large language models (LLMs) for nearly a decade. Their new model, SubQ, reportedly processes up to 12 times more text compared to other models, while maintaining performance similar to leading competitors like Google DeepMind and OpenAI. \n\nIs Subquadratic's breakthrough the real deal or just hype? \n\nSources: MIT Technology Review, Subquadratic, Appen \n\n#AI #TechNews #LanguageModels #Subquadratic #Innovation #MachineLearning #DeepLearning #ArtificialIntelligence #Startups #TechBreakthroughs",
+    "person": "",
+    "company": "OpenAI",
+    "caption": "OpenAI's latest release, GPT-5.5-Cyber, is making waves in cybersecurity. This specialized model is part of an expanded initiative that includes a robust Codex Security plugin. With over 30 million scanned commits and a partner network of 25 security firms, OpenAI is addressing the growing challenges in cybersecurity.\n\nWhat do you think about AI's role in cybersecurity?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Cybersecurity #GPT5 #AI #TechNews #Innovation #CyberDefense #Technology #MachineLearning #Security #SoftwareDevelopment #AIinCybersecurity",
     "slides": [
       {
-        "pill": "BREAKING 0",
-        "headline": "SUBQUADRATIC CLAIMS IT HAS SOLVED A DECADE-OLD LLM BOTTLENECK",
-        "hl": "SOLVED A DECADE-OLD LLM BOTTLENECK",
-        "hls": [],
-        "sub": "Here's the breakthrough to watch as the AI field evolves.",
-        "image_prompt": "A silhouette of a person standing in front of a large screen displaying abstract data visualizations, with a city skyline in the background."
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "OPENAI'S GPT-5.5-CYBER OUTPERFORMS ANTHROPIC'S MYTHOS ON KEY BENCHMARKS",
+        "hl": "OUTPERFORMS ANTHROPIC'S MYTHOS",
+        "hls": [
+          "OUTPERFORMS",
+          "KEY BENCHMARKS"
+        ],
+        "sub": "This new model sets records in cybersecurity evaluations.",
+        "image_prompt": "A sleek, modern office environment with cybersecurity professionals collaborating around a computer, displaying an abstract digital security dashboard in the background."
       },
       {
-        "pill": "WHAT HAPPENED 00",
-        "headline": "SUBQUADRATIC'S SUBQ PROCESSES UP TO 12 TIMES MORE TEXT AT ONCE",
-        "hl": "12 TIMES MORE TEXT",
-        "hls": [],
-        "sub": "This allows for analyzing hundreds of documents efficiently.",
-        "image_prompt": "A close-up of hands typing on a laptop with code and data visualizations reflected on the screen, soft lighting creating a focused atmosphere."
+        "pill": "",
+        "headline": "THE CODING PLUGIN HAS SCANNED OVER 30 MILLION COMMITS",
+        "hl": "30 MILLION COMMITS",
+        "hls": [
+          "SCANNED",
+          "OVER 30 MILLION"
+        ],
+        "sub": "It flags vulnerabilities and automates patch generation.",
+        "image_prompt": "A close-up shot of a computer screen with lines of code, with a programmer analyzing and discussing findings with a colleague."
       },
       {
-        "pill": "WHY IT MATTERS 00",
-        "headline": "SUBQ MATCHES TOP MODELS BY GOOGLE DEEPMIND AND OPENAI IN KEY TASKS",
-        "hl": "MATCHES TOP MODELS",
-        "hls": [],
-        "sub": "This performance level is crucial for competitive AI applications.",
-        "image_prompt": "A group of diverse engineers collaborating around a table with laptops open, discussing AI technology with visual data charts on a wall."
+        "pill": "",
+        "headline": "OPENAI PARTNERS WITH MORE THAN 25 SECURITY FIRMS",
+        "hl": "MORE THAN 25 SECURITY FIRMS",
+        "hls": [
+          "PARTNERS",
+          "MORE THAN 25"
+        ],
+        "sub": "This partnership aims to enhance cybersecurity measures globally.",
+        "image_prompt": "A group of diverse cybersecurity experts in a meeting, brainstorming strategies with digital security graphics projected on a screen."
       },
       {
-        "pill": "THE IMPACT 00",
-        "headline": "SKEPTICS REMAIN, BUT INDEPENDENT TESTS SHOW PROMISING RESULTS",
-        "hl": "INDEPENDENT TESTS SHOW PROMISING RESULTS",
-        "hls": [],
-        "sub": "The third-party evaluations could shift perceptions about SubQ's capabilities.",
-        "image_prompt": "An engineer analyzing performance metrics on a large screen, with a thoughtful expression under warm lighting."
+        "pill": "",
+        "headline": "GPT-5.5-CYBER IS THE MOST CAPABLE MODEL FOR PATCHING FLAWS",
+        "hl": "MOST CAPABLE MODEL",
+        "hls": [
+          "MOST CAPABLE",
+          "PATCHING FLAWS"
+        ],
+        "sub": "It leads in all key cybersecurity benchmark tests.",
+        "image_prompt": "An abstract representation of cybersecurity, featuring digital locks and shields, symbolizing advanced protection and security."
       },
       {
-        "pill": "THE TAKEAWAY 00",
-        "headline": "SUBQUADRATIC'S TECH COULD BE A MAJOR AI BREAKTHROUGH",
-        "hl": "MAJOR AI BREAKTHROUGH",
-        "hls": [],
-        "sub": "Subquadratic's upcoming releases may significantly impact the AI landscape.",
-        "image_prompt": "A futuristic workspace with AI interfaces displayed on multiple screens, showing a vision of advanced technology."
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "AI IS NOW CRUCIAL IN PATCHING SOFTWARE FLAWS EFFICIENTLY",
+        "hl": "CRUCIAL IN PATCHING",
+        "hls": [
+          "CRUCIAL",
+          "PATCHING"
+        ],
+        "sub": "This advancement underscores AI's role in cybersecurity.",
+        "image_prompt": "A futuristic portrayal of AI technology at work, with glowing circuits and data streams representing intelligence and security."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
-      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/"
+      "title": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark",
+      "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/"
     },
-    "date": "2026-06-23"
+    "date": "2026-06-24"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 44
+  "control_msg_id": 87,
+  "resolved_at": "2026-06-24T06:30:53.721811Z"
 }

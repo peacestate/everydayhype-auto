@@ -76,5 +76,31 @@
       "An animated globe surrounded by diverse ",
       "A futuristic city skyline with digital e"
     ]
+  },
+  {
+    "date": "2026-06-23",
+    "palette": "magenta",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A close-up of two engineers discussing p",
+      "An array of memory chips displayed on a ",
+      "A technician programming a machine in a ",
+      "A concerned group of analysts discussing",
+      "A bustling tech office environment with "
+    ]
+  },
+  {
+    "date": "2026-06-24",
+    "palette": "cyan",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "b",
+    "motifs": [
+      "A sleek, modern office environment with ",
+      "A close-up shot of a computer screen wit",
+      "A group of diverse cybersecurity experts",
+      "An abstract representation of cybersecur",
+      "A futuristic portrayal of AI technology "
+    ]
   }
 ]
