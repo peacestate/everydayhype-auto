@@ -84,6 +84,7 @@ const KB = {
   inline_keyboard: [
     [{ text: "✅ Approve (post at noon)", callback_data: "approve" }, { text: "❌ Reject", callback_data: "reject" }],
     [{ text: "✨ Improve to 100", callback_data: "improve" }, { text: "🔄 Redo visuals", callback_data: "regen" }],
+    [{ text: "🧊 Isometric 3D", callback_data: "style_iso" }, { text: "💎 Glossy 3D", callback_data: "style_glossy" }],
   ],
 };
 
@@ -141,13 +142,16 @@ async function handleCallback(cb, env) {
     if (mid) await editText(env, chat, mid, "✅ Approved — scheduled to post at 12:00 PM IST.");
     return;
   }
-  if (data === "improve" || data === "regen") {
-    const ok = await ghDispatch(env, "daily.yml", { dry_run: "false" });
+  // 🔄 redo visuals (fresh rotation) · ✨ improve · 🧊/💎 redo in a forced 3D style
+  if (data === "improve" || data === "regen" || data === "style_iso" || data === "style_glossy") {
+    const force = data === "style_iso" ? "iso" : data === "style_glossy" ? "glossy" : "";
+    const ok = await ghDispatch(env, "daily.yml", { dry_run: "false", force_style: force });
     if (ok) {
       p.status = data; await ghPutFile(env, "state/pending.json", p, sha, `${data} via telegram (worker)`);
-      const msg = data === "improve"
-        ? "✨ Rebuilding for a higher score — a new carousel will arrive shortly."
-        : "🔄 Regenerating — a fresh carousel will arrive shortly.";
+      const msg = data === "improve"  ? "✨ Rebuilding for a higher score — a new carousel will arrive shortly."
+                : data === "style_iso"    ? "🧊 Regenerating in isometric 3D diorama — a fresh carousel will arrive shortly."
+                : data === "style_glossy" ? "💎 Regenerating in glossy 3D render — a fresh carousel will arrive shortly."
+                : "🔄 Regenerating — a fresh carousel will arrive shortly.";
       if (mid) await editText(env, chat, mid, msg);
     } else if (mid) {
       await editText(env, chat, mid, "⚠️ Couldn't start a new run (check GH_PAT). Your post is still here to approve.", KB);
@@ -179,7 +183,18 @@ async function handleMessage(msg, env) {
     }
     return;
   }
-  if (isCmd) { await sendText(env, chat, "👋 Send me a top-post screenshot, an idea, or an Apify export and I'll learn its style. When a carousel is waiting, tap the buttons or reply to edit it."); return; }
+  // /draftcarousel — build a carousel RIGHT NOW, regardless of the daily schedule.
+  // Optional style arg: "/draftcarousel iso" or "/draftcarousel glossy" forces a 3D look.
+  if (/^\/draft(carousel)?\b/i.test(text)) {
+    const arg = text.split(/\s+/)[1]?.toLowerCase() || "";
+    const force = arg === "iso" || arg === "glossy" ? arg : "";
+    const ok = await ghDispatch(env, "daily.yml", { dry_run: "false", force_style: force });
+    await sendText(env, chat, ok
+      ? `🛠️ Building a fresh carousel now${force ? ` in ${force === "iso" ? "isometric 3D" : "glossy 3D"}` : ""} — it'll arrive in a few minutes with the approve buttons.`
+      : "⚠️ Couldn't start a run (check GH_PAT).");
+    return;
+  }
+  if (isCmd) { await sendText(env, chat, "👋 Send me a top-post screenshot, an idea, or an Apify export and I'll learn its style. When a carousel is waiting, tap the buttons or reply to edit it.\n\nTip: /draftcarousel builds one now (add `iso` or `glossy` for a 3D look)."); return; }
 
   // otherwise it's a TRAINING example -> stash for the GitHub drainer (heavy parsing stays in Python)
   const { obj: q, sha: qsha } = await ghGetFile(env, "state/tg_queue.json");

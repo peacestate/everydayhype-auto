@@ -11,6 +11,10 @@ on:
         description: "Generate only, do not post"
         type: boolean
         default: false
+      force_style:
+        description: "Force art style: iso (isometric 3D diorama) | glossy (octane 3D) | '' = normal rotation"
+        type: string
+        default: ""
 
 permissions:
   contents: write              # to commit updated state/ ledger back
@@ -55,6 +59,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
           CHROME_BIN:       /usr/bin/google-chrome
+          FORCE_STYLE:      ${{ inputs.force_style }}
         run: python pipeline.py ${{ (inputs.dry_run && '--dry-run') || '' }}
 
       - name: Upload preview slides

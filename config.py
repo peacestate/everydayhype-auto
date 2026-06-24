@@ -61,5 +61,14 @@ ART_STYLES = [
 LAYOUTS = ["a", "b", "c"]        # template html variants
 AVOID_DAYS = 6                    # don't reuse a palette/style/layout within this many days
 
+# --- forced art-style override (set by a Telegram "redo as 3D" button -> daily.yml input) ---
+# When FORCE_STYLE matches a key below, the rotation is bypassed and the carousel is rendered
+# in that exact style. Empty/unknown = normal daily rotation. See worker.js style_* buttons.
+FORCE_STYLE = os.environ.get("FORCE_STYLE", "").strip().lower()
+STYLE_ALIASES = {
+    "iso":    "isometric miniature diorama, tilt-shift",     # the 2026-06-22 "3D" look
+    "glossy": "sleek 3D render, octane, glossy materials",
+}
+
 # section pill labels per slide position (emoji rotates a bit; brain may tweak)
 PILLS = ["BREAKING 🔴", "WHAT HAPPENED ⚡", "WHY IT MATTERS 🌍", "THE IMPACT 🔐", "THE TAKEAWAY 🔥"]

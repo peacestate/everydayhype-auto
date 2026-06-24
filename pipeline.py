@@ -13,6 +13,15 @@ def run(dry_run=False):
     plan  = s2_brain.make_plan(cands)
     if plan is None:
         print("No strong story today -> skipping (quality gate)."); return
+
+    # Forced 3D style from a Telegram "redo as Isometric / Glossy 3D" button (daily.yml force_style
+    # input -> FORCE_STYLE env). Overrides the daily rotation; s3 appends plan['art_style'] to every
+    # image prompt, so this single override re-skins the whole carousel.
+    forced = C.STYLE_ALIASES.get(C.FORCE_STYLE)
+    if forced:
+        print(f"[pipeline] FORCE_STYLE={C.FORCE_STYLE!r} -> art_style overridden to {forced!r}")
+        plan["art_style"] = forced
+
     (C.WORK / "plan.json").write_text(json.dumps(plan, indent=2))
 
     bg_dir = s3_gen_images.generate(plan)

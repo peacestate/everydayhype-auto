@@ -19,6 +19,8 @@ APPROVE_KB = {"inline_keyboard": [
      {"text": "❌ Reject",         "callback_data": "reject"}],
     [{"text": "✨ Improve to 100",  "callback_data": "improve"},
      {"text": "🔄 Redo visuals",   "callback_data": "regen"}],
+    [{"text": "🧊 Isometric 3D",   "callback_data": "style_iso"},
+     {"text": "💎 Glossy 3D",      "callback_data": "style_glossy"}],
 ]}
 
 def _check(resp, what):
@@ -92,7 +94,8 @@ def send_for_approval(slide_paths, caption, verdict, deadline_min=120):
     _send_slides(slide_paths, _head(verdict) + "🕒 awaiting your decision")
     body = ("📝 Caption:\n" + (caption or "") +
             "\n\n🕛 Approve any time before noon — it posts at 12:00 PM IST. Nothing posts unless you ✅ approve.\n"
-            "• ✅ approve (post at noon) · ❌ cancel · ✨ push for a higher art-director score · 🔄 fresh visuals.\n"
+            "• ✅ approve (post at noon) · ❌ cancel · ✨ higher art-director score · 🔄 fresh visuals.\n"
+            "• Don't like the look? 🧊 redo in isometric 3D diorama · 💎 redo in glossy 3D render.\n"
             "• Or just reply with a change (e.g. \"shorten the caption\", \"make it punchier\", "
             "\"add a question at the end\") and I'll revise it.")
     res = send_text(body, reply_markup=APPROVE_KB)
