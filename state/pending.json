@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "regen",
   "created_at": "2026-06-24T05:04:48.457044Z",
   "deadline_min": 120,
-  "caption": "OpenAI has expanded its cybersecurity capabilities with the new GPT-5.5-Cyber model, designed to outperform competitors like Anthropic's Mythos on key benchmarks. The updated Codex Security plugin enhances vulnerability detection and patching processes, demonstrating significant advancements in cybersecurity technology. \ud83d\udd12\ud83d\udcbb\n\nWhat impacts will this have on cybersecurity practices?\n\nSources: The Decoder\n\n#OpenAI #GPT5 #Cybersecurity #AI #TechInnovation #VulnerabilityManagement #CodexSecurity #CyberDefense #TechNews #AIResearch #MachineLearning #DataSecurity",
+  "caption": "OpenAI has expanded its cybersecurity capabilities with the new GPT-5.5-Cyber model, designed to outperform competitors like Anthropic's Mythos on key benchmarks. The updated Codex Security plugin enhances vulnerability detection and patching processes, demonstrating significant advancements in cybersecurity technology. 🔒💻\n\nWhat impacts will this have on cybersecurity practices?\n\nSources: The Decoder\n\n#OpenAI #GPT5 #Cybersecurity #AI #TechInnovation #VulnerabilityManagement #CodexSecurity #CyberDefense #TechNews #AIResearch #MachineLearning #DataSecurity",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782277477/everydayhypehq/2026-06-24/050436_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782277478/everydayhypehq/2026-06-24/050436_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "b",
     "person": "",
     "company": "OpenAI",
-    "caption": "OpenAI has expanded its cybersecurity capabilities with the new GPT-5.5-Cyber model, designed to outperform competitors like Anthropic's Mythos on key benchmarks. The updated Codex Security plugin enhances vulnerability detection and patching processes, demonstrating significant advancements in cybersecurity technology. \ud83d\udd12\ud83d\udcbb\n\nWhat impacts will this have on cybersecurity practices?\n\nSources: The Decoder\n\n#OpenAI #GPT5 #Cybersecurity #AI #TechInnovation #VulnerabilityManagement #CodexSecurity #CyberDefense #TechNews #AIResearch #MachineLearning #DataSecurity",
+    "caption": "OpenAI has expanded its cybersecurity capabilities with the new GPT-5.5-Cyber model, designed to outperform competitors like Anthropic's Mythos on key benchmarks. The updated Codex Security plugin enhances vulnerability detection and patching processes, demonstrating significant advancements in cybersecurity technology. 🔒💻\n\nWhat impacts will this have on cybersecurity practices?\n\nSources: The Decoder\n\n#OpenAI #GPT5 #Cybersecurity #AI #TechInnovation #VulnerabilityManagement #CodexSecurity #CyberDefense #TechNews #AIResearch #MachineLearning #DataSecurity",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "OPENAI'S NEW GPT-5.5-CYBER OUTPERFORMS ANTHROPIC'S MYTHOS IN SECURITY BENCHMARKS",
         "hl": "OUTPERFORMS ANTHROPIC'S MYTHOS",
         "hls": [],
@@ -51,7 +51,7 @@
         "image_prompt": "A group of diverse professionals discussing cybersecurity strategies in a conference room, with a whiteboard filled with diagrams."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "GPT-5.5-CYBER COULD CHANGE HOW VULNERABILITIES ARE PATCHED",
         "hl": "CHANGE HOW VULNERABILITIES ARE PATCHED",
         "hls": [],
