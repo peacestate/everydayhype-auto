@@ -1,86 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-06-23T09:59:57.465140Z",
+  "status": "pending",
+  "created_at": "2026-06-24T03:56:21.988116Z",
   "deadline_min": 120,
-  "caption": "Anthropic and Micron have formed a strategic agreement to advance AI infrastructure. The partnership focuses on developing memory architectures, with Micron supplying High-Bandwidth Memory and other products. This collaboration aims to enhance performance and energy efficiency in AI workloads. 1\n\nHow will this impact AI technology?\n\nSources: The Decoder, Globe Newswire\n#AI #TechNews #Micron #Anthropic #MemoryArchitecture #Claude #Innovation #AIInfrastructure #TechPartnerships #DataCenter #HighBandwidthMemory #AIWorkloads",
+  "caption": "OpenAI has launched GPT-5.5-Cyber, outperforming Anthropic's Mythos on key cybersecurity benchmarks. This model is part of a broader initiative to enhance cybersecurity through innovative tools. 4a51f6a5e0f \n\nHow do you think AI will reshape cybersecurity? \n\nSources: The Decoder",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782208789/everydayhypehq/2026-06-23/095949_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782208790/everydayhypehq/2026-06-23/095949_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782208791/everydayhypehq/2026-06-23/095949_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782208791/everydayhypehq/2026-06-23/095949_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782208792/everydayhypehq/2026-06-23/095949_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782273374/everydayhypehq/2026-06-24/035613_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782273375/everydayhypehq/2026-06-24/035613_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782273375/everydayhypehq/2026-06-24/035613_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782273376/everydayhypehq/2026-06-24/035613_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782273377/everydayhypehq/2026-06-24/035613_slide_5.png"
   ],
   "plan": {
-    "palette": "magenta",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "caption": "Anthropic and Micron have formed a strategic agreement to advance AI infrastructure. The partnership focuses on developing memory architectures, with Micron supplying High-Bandwidth Memory and other products. This collaboration aims to enhance performance and energy efficiency in AI workloads. 1\n\nHow will this impact AI technology?\n\nSources: The Decoder, Globe Newswire\n#AI #TechNews #Micron #Anthropic #MemoryArchitecture #Claude #Innovation #AIInfrastructure #TechPartnerships #DataCenter #HighBandwidthMemory #AIWorkloads",
+    "palette": "cyan",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "b",
+    "caption": "OpenAI has launched GPT-5.5-Cyber, outperforming Anthropic's Mythos on key cybersecurity benchmarks. This model is part of a broader initiative to enhance cybersecurity through innovative tools. 4a51f6a5e0f \n\nHow do you think AI will reshape cybersecurity? \n\nSources: The Decoder",
     "slides": [
       {
-        "pill": "BREAKING",
-        "headline": "ANTHROPIC AND MICRON JUST ANNOUNCED AN AI MEMORY DEAL",
-        "hl": "AI MEMORY DEAL",
-        "hls": [
-          "AI MEMORY",
-          "MICRON"
-        ],
-        "sub": "This agreement was announced on June 22, 2026.",
-        "image_prompt": "A close-up of two engineers discussing plans over a table, papers and blueprints spread out, with a high-tech environment in the background, soft lighting."
+        "pill": "BREAKING 1f534",
+        "headline": "OPENAI'S GPT-5.5-CYBER OUTPERFORMS ANTHROPIC'S MYTHOS IN SECURITY",
+        "hl": "OUTPERFORMS ANTHROPIC'S MYTHOS",
+        "hls": [],
+        "sub": "Here's the latest achievement in AI.",
+        "image_prompt": "A high-tech cybersecurity lab with people working on computers, analyzing data on screens, and discussing strategies, with a focus on a diverse group of professionals."
       },
       {
         "pill": "",
-        "headline": "THE DEAL INCLUDES A MULTI-YEAR SUPPLY CONTRACT FOR MEMORY PRODUCTS",
-        "hl": "MULTI-YEAR SUPPLY CONTRACT",
-        "hls": [
-          "SUPPLY CONTRACT",
-          "MEMORY PRODUCTS"
-        ],
-        "sub": "Micron will provide High-Bandwidth Memory, DRAM, and SSDs.",
-        "image_prompt": "An array of memory chips displayed on a table, highlighting various high-tech components, with engineers in the background working on a computer."
+        "headline": "GPT-5.5-CYBER SCORED HIGHEST ON KEY SECURITY BENCHMARKS",
+        "hl": "HIGHEST ON KEY SECURITY BENCHMARKS",
+        "hls": [],
+        "sub": "OpenAI's new model leads in CyberGym and SEC-bench Pro tests.",
+        "image_prompt": "A detailed view of a computer screen displaying cybersecurity metrics and performance graphs, with a bright and focused atmosphere."
       },
       {
         "pill": "",
-        "headline": "CLAUDE WILL BE ROLLED OUT INSIDE MICRON FOR AUTOMATION TASKS",
-        "hl": "ROLLED OUT INSIDE MICRON",
-        "hls": [
-          "ROLLED OUT",
-          "AUTOMATION TASKS"
-        ],
-        "sub": "Claude is used internally by Micron for coding and manufacturing processes.",
-        "image_prompt": "A technician programming a machine in a manufacturing plant, with advanced machinery and screens displaying data, daylight streaming through windows."
+        "headline": "OVER 30 MILLION COMMITS SCANNED BY CODING SECURITY PLUGIN",
+        "hl": "30 MILLION COMMITS SCANNED",
+        "hls": [],
+        "sub": "The updated plugin flagged 500,000 issues as fixed automatically.",
+        "image_prompt": "A developer examining code with a magnifying glass, highlighting specific lines of code on a screen, showcasing attention to detail."
       },
       {
         "pill": "",
-        "headline": "CRITICS RAISE CONCERNS ABOUT POTENTIAL CIRCULAR ARRANGEMENTS",
-        "hl": "POTENTIAL CIRCULAR ARRANGEMENTS",
-        "hls": [
-          "CIRCULAR ARRANGEMENTS",
-          "CRITICS RAISE CONCERNS"
-        ],
-        "sub": "Micron's investment in Anthropic raises questions about conflicts of interest.",
-        "image_prompt": "A concerned group of analysts discussing over a conference table, charts and graphs projected on a screen, with serious expressions."
+        "headline": "PARTNER NETWORK INCLUDES OVER 25 SECURITY FIRMS",
+        "hl": "OVER 25 SECURITY FIRMS",
+        "hls": [],
+        "sub": "OpenAI collaborates with various firms and governments for cybersecurity.",
+        "image_prompt": "A conference room setting with representatives from different companies discussing cybersecurity strategies around a table, with charts and laptops."
       },
       {
-        "pill": "THE TAKEAWAY 1",
-        "headline": "THIS DEAL COULD SIGNIFICANTLY IMPACT AI MEMORY ARCHITECTURE",
-        "hl": "IMPACT AI MEMORY ARCHITECTURE",
-        "hls": [
-          "IMPACT",
-          "AI MEMORY"
-        ],
-        "sub": "Micron's stock has surged over 1,000% in the past year.",
-        "image_prompt": "A bustling tech office environment with people collaborating, computer screens showing data, and a sense of innovation in the air."
+        "pill": "THE TAKEAWAY 1f525",
+        "headline": "GPT-5.5-CYBER BRIDGES THE GAP IN CYBERSECURITY PATCHING",
+        "hl": "BRIDGES THE GAP IN CYBERSECURITY PATCHING",
+        "hls": [],
+        "sub": "And it integrates with existing vulnerability management systems.",
+        "image_prompt": "A close-up of hands typing on a keyboard, with a digital interface illustrating patching processes and security protocols."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Anthropic and Micron want to co-design AI memory architecture",
-      "url": "https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/"
+      "title": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark",
+      "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/"
     },
-    "date": "2026-06-23"
+    "date": "2026-06-24"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 50,
-  "resolved_at": "2026-06-23T10:10:14.893199Z"
+  "control_msg_id": 57
 }
