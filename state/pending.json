@@ -1,79 +1,64 @@
 {
   "status": "pending",
-  "created_at": "2026-06-24T04:45:49.804115Z",
+  "created_at": "2026-06-24T05:04:48.457044Z",
   "deadline_min": 120,
-  "caption": "OpenAI has launched the GPT-5.5-Cyber model, which surpasses Anthropic's Mythos in cybersecurity benchmarks. This initiative includes a new Codex Security plugin and a partnership with over 25 security firms. 68012\n\nHow will this impact cybersecurity?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Cybersecurity #AI #TechNews #Innovation #GPT55 #Mythos #CodexSecurity #Partnership #CyberDefense #AIModels",
+  "caption": "OpenAI has expanded its cybersecurity capabilities with the new GPT-5.5-Cyber model, designed to outperform competitors like Anthropic's Mythos on key benchmarks. The updated Codex Security plugin enhances vulnerability detection and patching processes, demonstrating significant advancements in cybersecurity technology. \ud83d\udd12\ud83d\udcbb\n\nWhat impacts will this have on cybersecurity practices?\n\nSources: The Decoder\n\n#OpenAI #GPT5 #Cybersecurity #AI #TechInnovation #VulnerabilityManagement #CodexSecurity #CyberDefense #TechNews #AIResearch #MachineLearning #DataSecurity",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782276342/everydayhypehq/2026-06-24/044542_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782276343/everydayhypehq/2026-06-24/044542_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782276343/everydayhypehq/2026-06-24/044542_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782276344/everydayhypehq/2026-06-24/044542_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782276345/everydayhypehq/2026-06-24/044542_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782277477/everydayhypehq/2026-06-24/050436_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782277478/everydayhypehq/2026-06-24/050436_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782277480/everydayhypehq/2026-06-24/050436_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782277482/everydayhypehq/2026-06-24/050436_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782277482/everydayhypehq/2026-06-24/050436_slide_5.png"
   ],
   "plan": {
     "palette": "cyan",
     "art_style": "sleek 3D render, octane, glossy materials",
     "layout": "b",
-    "caption": "OpenAI has launched the GPT-5.5-Cyber model, which surpasses Anthropic's Mythos in cybersecurity benchmarks. This initiative includes a new Codex Security plugin and a partnership with over 25 security firms. 68012\n\nHow will this impact cybersecurity?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Cybersecurity #AI #TechNews #Innovation #GPT55 #Mythos #CodexSecurity #Partnership #CyberDefense #AIModels",
+    "person": "",
+    "company": "OpenAI",
+    "caption": "OpenAI has expanded its cybersecurity capabilities with the new GPT-5.5-Cyber model, designed to outperform competitors like Anthropic's Mythos on key benchmarks. The updated Codex Security plugin enhances vulnerability detection and patching processes, demonstrating significant advancements in cybersecurity technology. \ud83d\udd12\ud83d\udcbb\n\nWhat impacts will this have on cybersecurity practices?\n\nSources: The Decoder\n\n#OpenAI #GPT5 #Cybersecurity #AI #TechInnovation #VulnerabilityManagement #CodexSecurity #CyberDefense #TechNews #AIResearch #MachineLearning #DataSecurity",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "OPENAI'S GPT-5.5-CYBER OUTPERFORMS ANTHROPIC'S MYTHOS IN SECURITY TESTS",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "OPENAI'S NEW GPT-5.5-CYBER OUTPERFORMS ANTHROPIC'S MYTHOS IN SECURITY BENCHMARKS",
         "hl": "OUTPERFORMS ANTHROPIC'S MYTHOS",
-        "hls": [
-          "OUTPERFORMS",
-          "MYTHOS"
-        ],
-        "sub": "This new model sets records on key cybersecurity benchmarks.",
-        "image_prompt": "A sleek modern cybersecurity operation room with glowing screens, displaying complex data analysis, a diverse team of cybersecurity experts collaborating, and high-tech equipment."
+        "hls": [],
+        "sub": "Here's how it sets new industry standards.",
+        "image_prompt": "A cybersecurity expert analyzing code on a laptop in a modern office, with multiple screens displaying code and security alerts."
       },
       {
         "pill": "",
-        "headline": "OVER 30 MILLION COMMITS SCANNED BY CODX SECURITY PLUGIN",
-        "hl": "30 MILLION COMMITS SCANNED",
-        "hls": [
-          "30 MILLION",
-          "SCANNED"
-        ],
-        "sub": "The plugin flagged over 500,000 findings as fixed automatically.",
-        "image_prompt": "A close-up of a developer's hands typing on a laptop, surrounded by code snippets on the screen and a coffee cup, showcasing a focused work environment."
+        "headline": "GPT-5.5-CYBER EXCELLS IN ALL KEY CYBERSECURITY BENCHMARKS",
+        "hl": "EXCELLS IN ALL KEY BENCHMARKS",
+        "hls": [],
+        "sub": "It leads in CyberGym, ExploitGym, and SEC-bench Pro tests.",
+        "image_prompt": "A close-up of a computer screen showing cybersecurity software in action, with graphs and performance metrics visible."
       },
       {
         "pill": "",
-        "headline": "OPENAI PARTNERS WITH 25 SECURITY FIRMS FOR BETTER PROTECTION",
-        "hl": "25 SECURITY FIRMS",
-        "hls": [
-          "25 SECURITY",
-          "PROTECTION"
-        ],
-        "sub": "The partner network aims to enhance cybersecurity across various sectors.",
-        "image_prompt": "A diverse group of professionals in a meeting room, discussing cybersecurity strategies with charts and graphs on a screen, highlighting teamwork and collaboration."
+        "headline": "THE UPDATED CODEX SECURITY PLUGIN HAS SCANNED 30 MILLION COMMITS",
+        "hl": "SCANNED 30 MILLION COMMITS",
+        "hls": [],
+        "sub": "This plugin has flagged over 500,000 vulnerabilities as fixed.",
+        "image_prompt": "A developer's workspace cluttered with notes and books, focused on a laptop displaying code with a coffee cup beside it."
       },
       {
         "pill": "",
-        "headline": "NEW DEEP SCANS AND PATCH GENERATION AUTOMATION INTRODUCED",
-        "hl": "PATCH GENERATION AUTOMATION",
-        "hls": [
-          "PATCH GENERATION",
-          "AUTOMATION"
-        ],
-        "sub": "The updated Codex plugin automates patch creation and verification.",
-        "image_prompt": "A futuristic workspace with advanced technology, showing a large screen displaying cybersecurity analytics and a person analyzing data with a thoughtful expression."
+        "headline": "OPENAI PARTNERS WITH OVER 25 SECURITY FIRMS AND GOVERNMENTS",
+        "hl": "OVER 25 SECURITY FIRMS",
+        "hls": [],
+        "sub": "The initiative aims to enhance collaboration in cybersecurity.",
+        "image_prompt": "A group of diverse professionals discussing cybersecurity strategies in a conference room, with a whiteboard filled with diagrams."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "GPT-5.5-CYBER COULD SIGNIFICANTLY IMPROVE PATCHING EFFICIENCY",
-        "hl": "SIGNIFICANTLY IMPROVE PATCHING",
-        "hls": [
-          "SIGNIFICANTLY",
-          "PATCHING"
-        ],
-        "sub": "This model enhances the process of finding and fixing software flaws.",
-        "image_prompt": "A conceptual image of a digital shield representing cybersecurity, with flowing data streams and binary code in the background, symbolizing protection and technology."
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "GPT-5.5-CYBER COULD CHANGE HOW VULNERABILITIES ARE PATCHED",
+        "hl": "CHANGE HOW VULNERABILITIES ARE PATCHED",
+        "hls": [],
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A futuristic office environment with people collaborating over cybersecurity strategies, showcasing advanced technology and teamwork."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
       "title": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark",
       "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/"
@@ -81,5 +66,5 @@
     "date": "2026-06-24"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 63
+  "control_msg_id": 69
 }
