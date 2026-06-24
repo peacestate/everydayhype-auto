@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-06-24T06:13:31.577205Z",
   "deadline_min": 120,
   "caption": "OpenAI's latest release, GPT-5.5-Cyber, is making waves in cybersecurity. This specialized model is part of an expanded initiative that includes a robust Codex Security plugin. With over 30 million scanned commits and a partner network of 25 security firms, OpenAI is addressing the growing challenges in cybersecurity.\n\nWhat do you think about AI's role in cybersecurity?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Cybersecurity #GPT5 #AI #TechNews #Innovation #CyberDefense #Technology #MachineLearning #Security #SoftwareDevelopment #AIinCybersecurity",
@@ -19,7 +19,7 @@
     "caption": "OpenAI's latest release, GPT-5.5-Cyber, is making waves in cybersecurity. This specialized model is part of an expanded initiative that includes a robust Codex Security plugin. With over 30 million scanned commits and a partner network of 25 security firms, OpenAI is addressing the growing challenges in cybersecurity.\n\nWhat do you think about AI's role in cybersecurity?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Cybersecurity #GPT5 #AI #TechNews #Innovation #CyberDefense #Technology #MachineLearning #Security #SoftwareDevelopment #AIinCybersecurity",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "OPENAI'S GPT-5.5-CYBER OUTPERFORMS ANTHROPIC'S MYTHOS ON KEY BENCHMARKS",
         "hl": "OUTPERFORMS ANTHROPIC'S MYTHOS",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "An abstract representation of cybersecurity, featuring digital locks and shields, symbolizing advanced protection and security."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AI IS NOW CRUCIAL IN PATCHING SOFTWARE FLAWS EFFICIENTLY",
         "hl": "CRUCIAL IN PATCHING",
         "hls": [
@@ -81,5 +81,6 @@
     "date": "2026-06-24"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 87
+  "control_msg_id": 87,
+  "resolved_at": "2026-06-24T06:13:55.397Z"
 }
