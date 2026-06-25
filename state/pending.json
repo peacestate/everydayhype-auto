@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-06-24T20:37:48.402972Z",
   "deadline_min": 120,
-  "caption": "OpenAI and Broadcom have unveiled the \"Jalape\u00f1o\" chip, designed specifically for large language model inference. Expected to launch at scale by late 2026, this custom hardware marks OpenAI's first foray into specialized silicon after years of model development. The collaborative effort aims to enhance efficiency and performance in AI applications.\n\nHow do you think custom chips will impact AI development?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Broadcom #AI #TechNews #Jalape\u00f1o #CustomHardware #Silicon #Innovation #LLM #MachineLearning #AIResearch #FutureTech\n\n\ud83d\udcf7 Cover photo: \u9996\u76f8\u5b98\u90b8\u30db\u30fc\u30e0\u30da\u30fc\u30b8 \u00b7 CC BY 4.0",
+  "caption": "OpenAI and Broadcom have unveiled the \"Jalapeño\" chip, designed specifically for large language model inference. Expected to launch at scale by late 2026, this custom hardware marks OpenAI's first foray into specialized silicon after years of model development. The collaborative effort aims to enhance efficiency and performance in AI applications.\n\nHow do you think custom chips will impact AI development?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Broadcom #AI #TechNews #Jalapeño #CustomHardware #Silicon #Innovation #LLM #MachineLearning #AIResearch #FutureTech\n\n📷 Cover photo: 首相官邸ホームページ · CC BY 4.0",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782333458/everydayhypehq/2026-06-24/203738_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782333459/everydayhypehq/2026-06-24/203738_slide_2.png",
@@ -16,19 +16,19 @@
     "layout": "c",
     "person": "Sam Altman",
     "company": "OpenAI",
-    "caption": "OpenAI and Broadcom have unveiled the \"Jalape\u00f1o\" chip, designed specifically for large language model inference. Expected to launch at scale by late 2026, this custom hardware marks OpenAI's first foray into specialized silicon after years of model development. The collaborative effort aims to enhance efficiency and performance in AI applications.\n\nHow do you think custom chips will impact AI development?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Broadcom #AI #TechNews #Jalape\u00f1o #CustomHardware #Silicon #Innovation #LLM #MachineLearning #AIResearch #FutureTech\n\n\ud83d\udcf7 Cover photo: \u9996\u76f8\u5b98\u90b8\u30db\u30fc\u30e0\u30da\u30fc\u30b8 \u00b7 CC BY 4.0",
+    "caption": "OpenAI and Broadcom have unveiled the \"Jalapeño\" chip, designed specifically for large language model inference. Expected to launch at scale by late 2026, this custom hardware marks OpenAI's first foray into specialized silicon after years of model development. The collaborative effort aims to enhance efficiency and performance in AI applications.\n\nHow do you think custom chips will impact AI development?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #Broadcom #AI #TechNews #Jalapeño #CustomHardware #Silicon #Innovation #LLM #MachineLearning #AIResearch #FutureTech\n\n📷 Cover photo: 首相官邸ホームページ · CC BY 4.0",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "OPENAI JUST UNVEILED A CUSTOM CHIP CALLED \"JALAPE\u00d1O\"",
-        "hl": "CALLED \"JALAPE\u00d1O\"",
+        "pill": "BREAKING 🔴",
+        "headline": "OPENAI JUST UNVEILED A CUSTOM CHIP CALLED \"JALAPEÑO\"",
+        "hl": "CALLED \"JALAPEÑO\"",
         "hls": [],
         "sub": "Here's what you need to know.",
         "image_prompt": "A close-up of a sleek, modern chip on a workbench, with engineers discussing in the background."
       },
       {
         "pill": "",
-        "headline": "\"JALAPE\u00d1O\" IS TAILORED FOR LARGE LANGUAGE MODEL INFERENCE",
+        "headline": "\"JALAPEÑO\" IS TAILORED FOR LARGE LANGUAGE MODEL INFERENCE",
         "hl": "LARGE LANGUAGE MODEL INFERENCE",
         "hls": [],
         "sub": "It was co-developed with Broadcom and designed from scratch.",
@@ -51,7 +51,7 @@
         "image_prompt": "A futuristic server room with rows of high-performance computing hardware and glowing lights."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "THIS CHIP COULD ENHANCE AI PERFORMANCE AND EFFICIENCY",
         "hl": "ENHANCE AI PERFORMANCE",
         "hls": [],
@@ -60,11 +60,12 @@
       }
     ],
     "story": {
-      "title": "OpenAI and Broadcom unveil \"Jalape\u00f1o,\" a custom chip built for LLM inference",
+      "title": "OpenAI and Broadcom unveil \"Jalapeño,\" a custom chip built for LLM inference",
       "url": "https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference/"
     },
     "date": "2026-06-24"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 102
+  "control_msg_id": 102,
+  "resolved_at": "2026-06-25T03:54:07.009Z"
 }
