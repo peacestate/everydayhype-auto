@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "style_iso",
   "created_at": "2026-06-25T03:57:25.836079Z",
   "deadline_min": 120,
-  "caption": "OpenAI has partnered with Broadcom to unveil the 'Jalape\u00f1o' chip, designed specifically for large language model inference. This custom chip is expected to run at gigawatt scale by late 2026. The collaboration signifies OpenAI's first major step into custom hardware production. \ud83d\udd0d\ud83d\ude80  \n\nWhat are your thoughts on custom AI hardware?  \n\nSources: The Decoder, OpenAI  \n\n#OpenAI #Broadcom #AI #TechNews #ChipDesign #Jalapeno #Innovation #Semiconductors #MachineLearning #LargeLanguageModels #CustomHardware\n\n\ud83d\udcf7 Cover photo: \u9996\u76f8\u5b98\u90b8\u30db\u30fc\u30e0\u30da\u30fc\u30b8 \u00b7 CC BY 4.0",
+  "caption": "OpenAI has partnered with Broadcom to unveil the 'Jalapeño' chip, designed specifically for large language model inference. This custom chip is expected to run at gigawatt scale by late 2026. The collaboration signifies OpenAI's first major step into custom hardware production. 🔍🚀  \n\nWhat are your thoughts on custom AI hardware?  \n\nSources: The Decoder, OpenAI  \n\n#OpenAI #Broadcom #AI #TechNews #ChipDesign #Jalapeno #Innovation #Semiconductors #MachineLearning #LargeLanguageModels #CustomHardware\n\n📷 Cover photo: 首相官邸ホームページ · CC BY 4.0",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782359837/everydayhypehq/2026-06-25/035716_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782359837/everydayhypehq/2026-06-25/035716_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "a",
     "person": "Sam Altman",
     "company": "OpenAI",
-    "caption": "OpenAI has partnered with Broadcom to unveil the 'Jalape\u00f1o' chip, designed specifically for large language model inference. This custom chip is expected to run at gigawatt scale by late 2026. The collaboration signifies OpenAI's first major step into custom hardware production. \ud83d\udd0d\ud83d\ude80  \n\nWhat are your thoughts on custom AI hardware?  \n\nSources: The Decoder, OpenAI  \n\n#OpenAI #Broadcom #AI #TechNews #ChipDesign #Jalapeno #Innovation #Semiconductors #MachineLearning #LargeLanguageModels #CustomHardware\n\n\ud83d\udcf7 Cover photo: \u9996\u76f8\u5b98\u90b8\u30db\u30fc\u30e0\u30da\u30fc\u30b8 \u00b7 CC BY 4.0",
+    "caption": "OpenAI has partnered with Broadcom to unveil the 'Jalapeño' chip, designed specifically for large language model inference. This custom chip is expected to run at gigawatt scale by late 2026. The collaboration signifies OpenAI's first major step into custom hardware production. 🔍🚀  \n\nWhat are your thoughts on custom AI hardware?  \n\nSources: The Decoder, OpenAI  \n\n#OpenAI #Broadcom #AI #TechNews #ChipDesign #Jalapeno #Innovation #Semiconductors #MachineLearning #LargeLanguageModels #CustomHardware\n\n📷 Cover photo: 首相官邸ホームページ · CC BY 4.0",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "OPENAI AND BROADCOM JUST UNVEILED A CUSTOM CHIP FOR LLM INFERENCE",
         "hl": "CUSTOM CHIP FOR LLM INFERENCE",
         "hls": [
@@ -31,7 +31,7 @@
       },
       {
         "pill": "",
-        "headline": "THE 'JALAPE\u00d1O' CHIP IS BUILT FROM SCRATCH FOR OPTIMIZED PERFORMANCE",
+        "headline": "THE 'JALAPEÑO' CHIP IS BUILT FROM SCRATCH FOR OPTIMIZED PERFORMANCE",
         "hl": "BUILT FROM SCRATCH",
         "hls": [],
         "sub": "This chip focuses exclusively on large language model tasks.",
@@ -39,7 +39,7 @@
       },
       {
         "pill": "",
-        "headline": "FIRST DEPLOYMENT OF 'JALAPE\u00d1O' SCHEDULED FOR LATE 2026 AT GIGAWATT SCALE",
+        "headline": "FIRST DEPLOYMENT OF 'JALAPEÑO' SCHEDULED FOR LATE 2026 AT GIGAWATT SCALE",
         "hl": "LATE 2026 AT GIGAWATT SCALE",
         "hls": [],
         "sub": "Broadcom and OpenAI plan to deliver substantial power for AI workloads.",
@@ -54,7 +54,7 @@
         "image_prompt": "A group of engineers in a brainstorming session, surrounded by digital screens showing chip designs and data analysis."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "OPENAI IS TAKING CONTROL OF ITS HARDWARE STACK FOR BETTER PERFORMANCE",
         "hl": "CONTROL OF ITS HARDWARE STACK",
         "hls": [],
