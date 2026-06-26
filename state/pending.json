@@ -1,8 +1,8 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-06-26T03:55:54.410458Z",
   "deadline_min": 120,
-  "caption": "Anthropic's Claude is capturing the attention of paid AI consumers, outpacing ChatGPT in specific segments. Data shows a significant 75% increase in Claude's paying consumers since January 2026. 📈🤖\n\nIs this the beginning of a shift in the AI landscape?\n\nSources: TechCrunch, Indagari, DataCamp\n#AI #Anthropic #Claude #ChatGPT #TechNews #DataTrends #ConsumerInsights #AIAdoption",
+  "caption": "Anthropic's Claude is capturing the attention of paid AI consumers, outpacing ChatGPT in specific segments. Data shows a significant 75% increase in Claude's paying consumers since January 2026. \ud83d\udcc8\ud83e\udd16\n\nIs this the beginning of a shift in the AI landscape?\n\nSources: TechCrunch, Indagari, DataCamp\n#AI #Anthropic #Claude #ChatGPT #TechNews #DataTrends #ConsumerInsights #AIAdoption",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782446147/everydayhypehq/2026-06-26/035547_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782446148/everydayhypehq/2026-06-26/035547_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "c",
     "person": "",
     "company": "Anthropic",
-    "caption": "Anthropic's Claude is capturing the attention of paid AI consumers, outpacing ChatGPT in specific segments. Data shows a significant 75% increase in Claude's paying consumers since January 2026. 📈🤖\n\nIs this the beginning of a shift in the AI landscape?\n\nSources: TechCrunch, Indagari, DataCamp\n#AI #Anthropic #Claude #ChatGPT #TechNews #DataTrends #ConsumerInsights #AIAdoption",
+    "caption": "Anthropic's Claude is capturing the attention of paid AI consumers, outpacing ChatGPT in specific segments. Data shows a significant 75% increase in Claude's paying consumers since January 2026. \ud83d\udcc8\ud83e\udd16\n\nIs this the beginning of a shift in the AI landscape?\n\nSources: TechCrunch, Indagari, DataCamp\n#AI #Anthropic #Claude #ChatGPT #TechNews #DataTrends #ConsumerInsights #AIAdoption",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
+        "pill": "BREAKING \ud83d\udd34",
         "headline": "CLAUDE'S PAID CONSUMERS GREW 75% SINCE JANUARY 2026",
         "hl": "75% SINCE JANUARY 2026",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A futuristic cityscape at night, illuminated with bright neon lights, symbolizing the technological advancement and competition in AI."
       },
       {
-        "pill": "THE TAKEAWAY 🔥",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
         "headline": "IS CLAUDE THE NEXT BIG PLAYER IN AI CONSUMER MARKET?",
         "hl": "NEXT BIG PLAYER IN AI",
         "hls": [
@@ -75,12 +75,12 @@
       }
     ],
     "story": {
-      "title": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT",
+      "title": "Anthropic\u2019s Claude is winning over paid consumers, a market owned by ChatGPT",
       "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/"
     },
     "date": "2026-06-26"
   },
   "chat_id": 8692339206,
   "control_msg_id": 130,
-  "resolved_at": "2026-06-26T23:00:41.667Z"
+  "resolved_at": "2026-06-26T23:22:02.370171Z"
 }
