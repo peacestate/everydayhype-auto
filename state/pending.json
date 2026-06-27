@@ -1,74 +1,79 @@
 {
-  "status": "rejected",
-  "created_at": "2026-06-27T03:57:19.444691Z",
+  "status": "pending",
+  "created_at": "2026-06-27T18:43:58.522199Z",
   "deadline_min": 120,
-  "caption": "Anthropic has accused Alibaba of illicitly extracting its Claude AI model capabilities. This allegation raises significant concerns about intellectual property rights in the AI sector. 🤖💼  \n\nWhat are the implications for tech companies and their innovations?  \n\nSources: Reuters, TechCrunch, The Verge  \n#AI #TechNews #Innovation #IntellectualProperty #Alibaba #Anthropic #ClaudeAI #Technology #Business #Ethics #DataSecurity #ArtificialIntelligence",
+  "caption": "Anthropic has accused Alibaba of illicitly extracting the capabilities of its Claude AI model. This allegation raises serious concerns about the protection of AI technologies and intellectual property rights. As both companies are key players in the AI market, the implications of this dispute could significantly impact their reputations and operations.\n\nShould companies strengthen their AI model protections?\n\nSources: Reuters\n#AI #Anthropic #Alibaba #ClaudeAI #TechNews #IntellectualProperty #AIModel #Innovation #LegalIssues #Technology #Ethics #Business",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532631/everydayhypehq/2026-06-27/035711_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532632/everydayhypehq/2026-06-27/035711_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532633/everydayhypehq/2026-06-27/035711_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532633/everydayhypehq/2026-06-27/035711_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532634/everydayhypehq/2026-06-27/035711_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782585830/everydayhypehq/2026-06-27/184350_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782585831/everydayhypehq/2026-06-27/184350_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782585832/everydayhypehq/2026-06-27/184350_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782585833/everydayhypehq/2026-06-27/184350_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782585833/everydayhypehq/2026-06-27/184350_slide_5.png"
   ],
   "plan": {
     "palette": "amber",
     "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "b",
-    "person": "",
-    "company": "Anthropic",
-    "caption": "Anthropic has accused Alibaba of illicitly extracting its Claude AI model capabilities. This allegation raises significant concerns about intellectual property rights in the AI sector. 🤖💼  \n\nWhat are the implications for tech companies and their innovations?  \n\nSources: Reuters, TechCrunch, The Verge  \n#AI #TechNews #Innovation #IntellectualProperty #Alibaba #Anthropic #ClaudeAI #Technology #Business #Ethics #DataSecurity #ArtificialIntelligence",
+    "caption": "Anthropic has accused Alibaba of illicitly extracting the capabilities of its Claude AI model. This allegation raises serious concerns about the protection of AI technologies and intellectual property rights. As both companies are key players in the AI market, the implications of this dispute could significantly impact their reputations and operations.\n\nShould companies strengthen their AI model protections?\n\nSources: Reuters\n#AI #Anthropic #Alibaba #ClaudeAI #TechNews #IntellectualProperty #AIModel #Innovation #LegalIssues #Technology #Ethics #Business",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
-        "headline": "ANTHROPIC ACCUSES ALIBABA OF ILLEGALLY ACCESSING CLAUDE AI MODEL",
-        "hl": "ILLEGALLY ACCESSING",
+        "pill": "BREAKING 534",
+        "headline": "ANTHROPIC JUST ACCUSED ALIBABA OF ILLEGALLY EXTRACTING CLAUDE AI CAPABILITIES",
+        "hl": "ILLEGALLY EXTRACTING",
         "hls": [
-          "ILLEGALLY ACCESSING"
+          "ILLEGALLY",
+          "EXTRACTING"
         ],
-        "sub": "Here's what you need to know",
-        "image_prompt": "A tense corporate meeting room with executives discussing serious issues, a projector displaying AI-related graphics, focused expressions."
+        "sub": "Here's the serious allegation that could shake the tech industry.",
+        "image_prompt": "A dramatic office scene with two business professionals engaged in a heated discussion, with expression of concern on their faces. The room is filled with modern tech gadgets and a large screen displaying AI-related data in a blurred background."
       },
       {
-        "pill": "WHAT HAPPENED ⚡",
-        "headline": "THE ACCUSATION CAME ON JUNE 24, 2026, AMIDST GROWING AI COMPETITION",
-        "hl": "GROWING AI COMPETITION",
+        "pill": "WHAT HAPPENED 6a1",
+        "headline": "Anthropic claims Alibaba sourced Claude's capabilities without permission",
+        "hl": "SOURCED CLAUDE'S CAPABILITIES",
         "hls": [
-          "GROWING AI COMPETITION"
+          "SOURCED",
+          "CAPABILITIES"
         ],
-        "sub": "Anthropic is raising alarms in the highly competitive AI landscape.",
-        "image_prompt": "A close-up of an AI model interface on a computer screen, with hands manipulating the data, showing intricate details of the AI."
+        "sub": "This claim could lead to significant legal battles over intellectual property rights.",
+        "image_prompt": "A close-up of a hand holding a tablet displaying complex algorithms, with a concerned expression on the person's face. The background shows a tech-focused workspace."
       },
       {
-        "pill": "WHY IT MATTERS 🌍",
-        "headline": "THIS CLAIM COULD IMPACT FUTURE AI COLLABORATIONS AND REGULATIONS",
-        "hl": "IMPACT FUTURE AI COLLABORATIONS",
+        "pill": "WHY IT MATTERS 30d",
+        "headline": "Intellectual property rights are critical in AI development today",
+        "hl": "INTELLECTUAL PROPERTY RIGHTS",
         "hls": [
-          "IMPACT FUTURE AI COLLABORATIONS"
+          "INTELLECTUAL PROPERTY",
+          "RIGHTS"
         ],
-        "sub": "The tech industry is watching closely as this unfolds.",
-        "image_prompt": "A group of diverse tech professionals collaborating over laptops and documents, with a city skyline in the background."
+        "sub": "This situation emphasizes the need for stronger protections in tech innovations.",
+        "image_prompt": "An abstract representation of a digital lock on a circuit board, symbolizing security and intellectual property in technology. The lighting is dramatic to emphasize the concept."
       },
       {
-        "pill": "THE IMPACT 🔐",
-        "headline": "IT RAISES QUESTIONS ABOUT INTELLECTUAL PROPERTY IN AI DEVELOPMENT",
-        "hl": "INTELLECTUAL PROPERTY",
+        "pill": "THE IMPACT 4d1",
+        "headline": "A successful claim could set a precedent in the AI industry",
+        "hl": "SET A PRECEDENT",
         "hls": [
-          "INTELLECTUAL PROPERTY"
+          "SET",
+          "PRECEDENT"
         ],
-        "sub": "Protecting innovations becomes crucial as AI evolves.",
-        "image_prompt": "A symbolic image of a locked digital vault, with visual representations of data and AI technology surrounding it."
+        "sub": "The outcome may influence how future AI collaborations are structured.",
+        "image_prompt": "A futuristic image of a group of diverse professionals in a boardroom discussing AI strategy, with visual aids and prototypes around them."
       },
       {
-        "pill": "THE TAKEAWAY 🔥",
-        "headline": "AND IT SPOTLIGHTS THE NEED FOR STRONGER AI REGULATIONS",
-        "hl": "STRONGER AI REGULATIONS",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "AND IT COULD AFFECT HOW AI COMPANIES PROTECT THEIR WORK",
+        "hl": "AFFECT HOW AI COMPANIES",
         "hls": [
-          "STRONGER AI REGULATIONS"
+          "AFFECT",
+          "PROTECT"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A diverse group of lawmakers in a legislative chamber discussing technology policies, with a digital display in the background."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs and news.",
+        "image_prompt": "A vibrant image of a busy tech exhibition with booths showcasing AI technologies, highlighting innovation and collaboration in the industry."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
       "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
       "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
@@ -76,6 +81,5 @@
     "date": "2026-06-27"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 137,
-  "resolved_at": "2026-06-27T04:45:11.817Z"
+  "control_msg_id": 145
 }
