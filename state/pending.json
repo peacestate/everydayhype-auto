@@ -1,86 +1,80 @@
 {
-  "status": "posted",
-  "created_at": "2026-06-26T03:55:54.410458Z",
+  "status": "pending",
+  "created_at": "2026-06-27T03:57:19.444691Z",
   "deadline_min": 120,
-  "caption": "Anthropic's Claude is capturing the attention of paid AI consumers, outpacing ChatGPT in specific segments. Data shows a significant 75% increase in Claude's paying consumers since January 2026. \ud83d\udcc8\ud83e\udd16\n\nIs this the beginning of a shift in the AI landscape?\n\nSources: TechCrunch, Indagari, DataCamp\n#AI #Anthropic #Claude #ChatGPT #TechNews #DataTrends #ConsumerInsights #AIAdoption",
+  "caption": "Anthropic has accused Alibaba of illicitly extracting its Claude AI model capabilities. This allegation raises significant concerns about intellectual property rights in the AI sector. \ud83e\udd16\ud83d\udcbc  \n\nWhat are the implications for tech companies and their innovations?  \n\nSources: Reuters, TechCrunch, The Verge  \n#AI #TechNews #Innovation #IntellectualProperty #Alibaba #Anthropic #ClaudeAI #Technology #Business #Ethics #DataSecurity #ArtificialIntelligence",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782446147/everydayhypehq/2026-06-26/035547_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782446148/everydayhypehq/2026-06-26/035547_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782446149/everydayhypehq/2026-06-26/035547_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782446149/everydayhypehq/2026-06-26/035547_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782446150/everydayhypehq/2026-06-26/035547_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532631/everydayhypehq/2026-06-27/035711_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532632/everydayhypehq/2026-06-27/035711_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532633/everydayhypehq/2026-06-27/035711_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532633/everydayhypehq/2026-06-27/035711_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532634/everydayhypehq/2026-06-27/035711_slide_5.png"
   ],
   "plan": {
-    "palette": "green",
-    "art_style": "neon glow synthwave, bloom, dark background",
-    "layout": "c",
+    "palette": "amber",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
     "person": "",
     "company": "Anthropic",
-    "caption": "Anthropic's Claude is capturing the attention of paid AI consumers, outpacing ChatGPT in specific segments. Data shows a significant 75% increase in Claude's paying consumers since January 2026. \ud83d\udcc8\ud83e\udd16\n\nIs this the beginning of a shift in the AI landscape?\n\nSources: TechCrunch, Indagari, DataCamp\n#AI #Anthropic #Claude #ChatGPT #TechNews #DataTrends #ConsumerInsights #AIAdoption",
+    "caption": "Anthropic has accused Alibaba of illicitly extracting its Claude AI model capabilities. This allegation raises significant concerns about intellectual property rights in the AI sector. \ud83e\udd16\ud83d\udcbc  \n\nWhat are the implications for tech companies and their innovations?  \n\nSources: Reuters, TechCrunch, The Verge  \n#AI #TechNews #Innovation #IntellectualProperty #Alibaba #Anthropic #ClaudeAI #Technology #Business #Ethics #DataSecurity #ArtificialIntelligence",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "CLAUDE'S PAID CONSUMERS GREW 75% SINCE JANUARY 2026",
-        "hl": "75% SINCE JANUARY 2026",
+        "headline": "ANTHROPIC ACCUSES ALIBABA OF ILLEGALLY ACCESSING CLAUDE AI MODEL",
+        "hl": "ILLEGALLY ACCESSING",
         "hls": [
-          "PAID CONSUMERS",
-          "GREW 75%"
+          "ILLEGALLY ACCESSING"
         ],
-        "sub": "Here's the significant growth trend in paid AI users.",
-        "image_prompt": "A close-up of a person's hand holding a smartphone, showing a vibrant app interface related to AI, with neon lights reflecting off the glass surface."
+        "sub": "Here's what you need to know",
+        "image_prompt": "A tense corporate meeting room with executives discussing serious issues, a projector displaying AI-related graphics, focused expressions."
       },
       {
-        "pill": "",
-        "headline": "CONSUMERS ON DATACAMP SEARCHING FOR 'CLAUDE' MORE THAN 'AI'",
-        "hl": "SEARCHING FOR 'CLAUDE'",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "THE ACCUSATION CAME ON JUNE 24, 2026, AMIDST GROWING AI COMPETITION",
+        "hl": "GROWING AI COMPETITION",
         "hls": [
-          "'CLAUDE'",
-          "'AI'"
+          "GROWING AI COMPETITION"
         ],
-        "sub": "Claude is now the most searched term on DataCamp.",
-        "image_prompt": "A group of diverse individuals engaged in an online learning environment, with laptops open, focused and interacting with educational content."
+        "sub": "Anthropic is raising alarms in the highly competitive AI landscape.",
+        "image_prompt": "A close-up of an AI model interface on a computer screen, with hands manipulating the data, showing intricate details of the AI."
       },
       {
-        "pill": "",
-        "headline": "DEMAND FOR CLAUDE COURSES SOARED 18X IN 30 DAYS",
-        "hl": "SOARED 18X IN 30 DAYS",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "THIS CLAIM COULD IMPACT FUTURE AI COLLABORATIONS AND REGULATIONS",
+        "hl": "IMPACT FUTURE AI COLLABORATIONS",
         "hls": [
-          "DEMAND FOR CLAUDE",
-          "18X IN 30 DAYS"
+          "IMPACT FUTURE AI COLLABORATIONS"
         ],
-        "sub": "Interest in learning about Claude is rapidly increasing.",
-        "image_prompt": "An instructor in a modern classroom setting, pointing at a digital board displaying analytics data, with engaged students in the foreground."
+        "sub": "The tech industry is watching closely as this unfolds.",
+        "image_prompt": "A group of diverse tech professionals collaborating over laptops and documents, with a city skyline in the background."
       },
       {
-        "pill": "",
-        "headline": "CLAUDE CONTINUES TO GROW DESPITE CHATGPT'S DOMINANCE",
-        "hl": "GROW DESPITE CHATGPT'S DOMINANCE",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "IT RAISES QUESTIONS ABOUT INTELLECTUAL PROPERTY IN AI DEVELOPMENT",
+        "hl": "INTELLECTUAL PROPERTY",
         "hls": [
-          "CONTINUES TO GROW",
-          "CHATGPT'S DOMINANCE"
+          "INTELLECTUAL PROPERTY"
         ],
-        "sub": "Claude's growth signals a shift in consumer preferences.",
-        "image_prompt": "A futuristic cityscape at night, illuminated with bright neon lights, symbolizing the technological advancement and competition in AI."
+        "sub": "Protecting innovations becomes crucial as AI evolves.",
+        "image_prompt": "A symbolic image of a locked digital vault, with visual representations of data and AI technology surrounding it."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "IS CLAUDE THE NEXT BIG PLAYER IN AI CONSUMER MARKET?",
-        "hl": "NEXT BIG PLAYER IN AI",
+        "headline": "AND IT SPOTLIGHTS THE NEED FOR STRONGER AI REGULATIONS",
+        "hl": "STRONGER AI REGULATIONS",
         "hls": [
-          "NEXT BIG PLAYER",
-          "AI CONSUMER MARKET"
+          "STRONGER AI REGULATIONS"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A thoughtful person looking at a digital display of AI-related charts and graphs in a tech lab, pondering the future of AI."
+        "image_prompt": "A diverse group of lawmakers in a legislative chamber discussing technology policies, with a digital display in the background."
       }
     ],
     "story": {
-      "title": "Anthropic\u2019s Claude is winning over paid consumers, a market owned by ChatGPT",
-      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/"
+      "title": "Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "url": "https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/"
     },
-    "date": "2026-06-26"
+    "date": "2026-06-27"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 130,
-  "resolved_at": "2026-06-26T23:22:02.370171Z"
+  "control_msg_id": 137
 }
