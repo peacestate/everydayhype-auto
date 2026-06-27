@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "rejected",
   "created_at": "2026-06-27T03:57:19.444691Z",
   "deadline_min": 120,
-  "caption": "Anthropic has accused Alibaba of illicitly extracting its Claude AI model capabilities. This allegation raises significant concerns about intellectual property rights in the AI sector. \ud83e\udd16\ud83d\udcbc  \n\nWhat are the implications for tech companies and their innovations?  \n\nSources: Reuters, TechCrunch, The Verge  \n#AI #TechNews #Innovation #IntellectualProperty #Alibaba #Anthropic #ClaudeAI #Technology #Business #Ethics #DataSecurity #ArtificialIntelligence",
+  "caption": "Anthropic has accused Alibaba of illicitly extracting its Claude AI model capabilities. This allegation raises significant concerns about intellectual property rights in the AI sector. 🤖💼  \n\nWhat are the implications for tech companies and their innovations?  \n\nSources: Reuters, TechCrunch, The Verge  \n#AI #TechNews #Innovation #IntellectualProperty #Alibaba #Anthropic #ClaudeAI #Technology #Business #Ethics #DataSecurity #ArtificialIntelligence",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532631/everydayhypehq/2026-06-27/035711_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782532632/everydayhypehq/2026-06-27/035711_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "b",
     "person": "",
     "company": "Anthropic",
-    "caption": "Anthropic has accused Alibaba of illicitly extracting its Claude AI model capabilities. This allegation raises significant concerns about intellectual property rights in the AI sector. \ud83e\udd16\ud83d\udcbc  \n\nWhat are the implications for tech companies and their innovations?  \n\nSources: Reuters, TechCrunch, The Verge  \n#AI #TechNews #Innovation #IntellectualProperty #Alibaba #Anthropic #ClaudeAI #Technology #Business #Ethics #DataSecurity #ArtificialIntelligence",
+    "caption": "Anthropic has accused Alibaba of illicitly extracting its Claude AI model capabilities. This allegation raises significant concerns about intellectual property rights in the AI sector. 🤖💼  \n\nWhat are the implications for tech companies and their innovations?  \n\nSources: Reuters, TechCrunch, The Verge  \n#AI #TechNews #Innovation #IntellectualProperty #Alibaba #Anthropic #ClaudeAI #Technology #Business #Ethics #DataSecurity #ArtificialIntelligence",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "ANTHROPIC ACCUSES ALIBABA OF ILLEGALLY ACCESSING CLAUDE AI MODEL",
         "hl": "ILLEGALLY ACCESSING",
         "hls": [
@@ -29,7 +29,7 @@
         "image_prompt": "A tense corporate meeting room with executives discussing serious issues, a projector displaying AI-related graphics, focused expressions."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "THE ACCUSATION CAME ON JUNE 24, 2026, AMIDST GROWING AI COMPETITION",
         "hl": "GROWING AI COMPETITION",
         "hls": [
@@ -39,7 +39,7 @@
         "image_prompt": "A close-up of an AI model interface on a computer screen, with hands manipulating the data, showing intricate details of the AI."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "THIS CLAIM COULD IMPACT FUTURE AI COLLABORATIONS AND REGULATIONS",
         "hl": "IMPACT FUTURE AI COLLABORATIONS",
         "hls": [
@@ -49,7 +49,7 @@
         "image_prompt": "A group of diverse tech professionals collaborating over laptops and documents, with a city skyline in the background."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "IT RAISES QUESTIONS ABOUT INTELLECTUAL PROPERTY IN AI DEVELOPMENT",
         "hl": "INTELLECTUAL PROPERTY",
         "hls": [
@@ -59,7 +59,7 @@
         "image_prompt": "A symbolic image of a locked digital vault, with visual representations of data and AI technology surrounding it."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AND IT SPOTLIGHTS THE NEED FOR STRONGER AI REGULATIONS",
         "hl": "STRONGER AI REGULATIONS",
         "hls": [
@@ -76,5 +76,6 @@
     "date": "2026-06-27"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 137
+  "control_msg_id": 137,
+  "resolved_at": "2026-06-27T04:45:11.817Z"
 }
