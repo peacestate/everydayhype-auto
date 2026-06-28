@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-06-28T05:20:28.596739Z",
   "deadline_min": 120,
   "caption": "The U.S. government has permitted Anthropic to introduce its powerful AI model, Mythos, to select trusted organizations across the country. This move marks a significant step in AI deployment for government-approved companies. \n\nWhat's your take on the implications of this release? \n\nSources: Semafor",
@@ -19,7 +19,7 @@
     "caption": "The U.S. government has permitted Anthropic to introduce its powerful AI model, Mythos, to select trusted organizations across the country. This move marks a significant step in AI deployment for government-approved companies. \n\nWhat's your take on the implications of this release? \n\nSources: Semafor",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "U.S. GOVERNMENT JUST LET ANTHROPIC RELEASE MYTHOS AI TO SELECT COMPANIES",
         "hl": "RELEASE MYTHOS AI",
         "hls": [],
@@ -27,7 +27,7 @@
         "image_prompt": "A close-up of a diverse group of professionals discussing technology in a modern office setting, with a focus on collaboration and innovation."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "MYTHOS AI WILL BE AVAILABLE TO 'TRUSTED' ORGANIZATIONS IN THE U.S.",
         "hl": "TRUSTED ORGANIZATIONS",
         "hls": [],
@@ -35,7 +35,7 @@
         "image_prompt": "An aerial view of a high-tech cityscape at dusk, showcasing advancements in technology and architecture with vibrant city lights."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "THIS RELEASE COULD TRANSFORM HOW COMPANIES USE AI IN THEIR OPERATIONS",
         "hl": "TRANSFORM HOW COMPANIES USE AI",
         "hls": [],
@@ -43,7 +43,7 @@
         "image_prompt": "An office environment with individuals engaging with AI technology, such as virtual reality headsets or AI-based tools, capturing a sense of innovation."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "MYTHOS AI IS EXPECTED TO INFLUENCE MULTIPLE SECTORS IN THE U.S.",
         "hl": "INFLUENCE MULTIPLE SECTORS",
         "hls": [],
@@ -51,7 +51,7 @@
         "image_prompt": "A futuristic workspace with advanced AI interfaces and people collaborating, emphasizing a blend of technology and teamwork."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AND IT COULD SET A PRECEDENT FOR FUTURE AI REGULATIONS",
         "hl": "SET A PRECEDENT",
         "hls": [],
@@ -66,5 +66,6 @@
     "date": "2026-06-28"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 157
+  "control_msg_id": 157,
+  "resolved_at": "2026-06-28T05:24:25.287Z"
 }
