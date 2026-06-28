@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "style_iso",
   "created_at": "2026-06-28T03:56:28.887726Z",
   "deadline_min": 120,
-  "caption": "The U.S. government has officially permitted Anthropic to release its advanced AI model, Mythos, to select trusted organizations. This model is expected to enhance AI-driven tasks in various sectors. \ud83c\udf10\ud83e\udd16\n\nWhat could this mean for AI development?\n\nSources: Semafor\n\n#AI #Anthropic #Mythos #Technology #Innovation #USGovernment #AIDevelopment #TrustedAI #MachineLearning #FutureTech #TechNews",
+  "caption": "The U.S. government has officially permitted Anthropic to release its advanced AI model, Mythos, to select trusted organizations. This model is expected to enhance AI-driven tasks in various sectors. 🌐🤖\n\nWhat could this mean for AI development?\n\nSources: Semafor\n\n#AI #Anthropic #Mythos #Technology #Innovation #USGovernment #AIDevelopment #TrustedAI #MachineLearning #FutureTech #TechNews",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782618981/everydayhypehq/2026-06-28/035621_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782618982/everydayhypehq/2026-06-28/035621_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "b",
     "person": "",
     "company": "Anthropic",
-    "caption": "The U.S. government has officially permitted Anthropic to release its advanced AI model, Mythos, to select trusted organizations. This model is expected to enhance AI-driven tasks in various sectors. \ud83c\udf10\ud83e\udd16\n\nWhat could this mean for AI development?\n\nSources: Semafor\n\n#AI #Anthropic #Mythos #Technology #Innovation #USGovernment #AIDevelopment #TrustedAI #MachineLearning #FutureTech #TechNews",
+    "caption": "The U.S. government has officially permitted Anthropic to release its advanced AI model, Mythos, to select trusted organizations. This model is expected to enhance AI-driven tasks in various sectors. 🌐🤖\n\nWhat could this mean for AI development?\n\nSources: Semafor\n\n#AI #Anthropic #Mythos #Technology #Innovation #USGovernment #AIDevelopment #TrustedAI #MachineLearning #FutureTech #TechNews",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "U.S. JUST APPROVED ANTHROPIC'S MYTHOS AI FOR SELECT ORGANIZATIONS",
         "hl": "MYTHOS AI",
         "hls": [
@@ -30,7 +30,7 @@
         "image_prompt": "A close-up shot of a group of diverse professionals discussing AI technology in a modern office environment."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "MYTHOS AI WILL BE RELEASED TO A LIMITED NUMBER OF TRUSTED US COMPANIES",
         "hl": "LIMITED NUMBER",
         "hls": [
@@ -41,7 +41,7 @@
         "image_prompt": "An aerial view of a bustling city skyline with tech company buildings and a clear blue sky."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "THIS RELEASE COULD CHANGE HOW COMPANIES DEPLOY AI TECHNOLOGIES",
         "hl": "DEPLOY AI TECHNOLOGIES",
         "hls": [
@@ -52,7 +52,7 @@
         "image_prompt": "A vibrant shot of a team brainstorming around a table filled with laptops and digital devices."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "MYTHOS AI IS EXPECTED TO BOOST EFFICIENCY IN VARIOUS INDUSTRIES",
         "hl": "BOOST EFFICIENCY",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A well-lit healthcare lab with researchers analyzing data on screens and interacting with AI interfaces."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "THIS MOVE SIGNALS A NEW ERA FOR AI REGULATIONS IN THE U.S.",
         "hl": "NEW ERA",
         "hls": [
@@ -75,7 +75,7 @@
       }
     ],
     "story": {
-      "title": "U.S. allows Anthropic to release Mythos AI to \u2018trusted\u2019 US organizations",
+      "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
       "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies"
     },
     "date": "2026-06-28"
