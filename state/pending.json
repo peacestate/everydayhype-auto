@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "improve",
   "created_at": "2026-06-29T09:46:05.985012Z",
   "deadline_min": 120,
   "caption": "The U.S. government is set to oversee the deployment of OpenAI's latest AI model, requiring approval for new users. This move comes as the Trump administration emphasizes national security concerns in AI technology. 4cc916\n\nIs this a necessary measure for safety? \n\nSources: Washington Post, Reuters\n\n#AI #OpenAI #GovernmentPolicy #Technology #NationalSecurity #Innovation #AIEthics #TechNews #GPT5.6 #AIRegulation #OpenAIApproval",
@@ -25,7 +25,7 @@
         "image_prompt": "A silhouette of a government building with a digital overlay of AI data streams, reflecting a sense of oversight and regulation."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "NEW RULE REQUIRES OPENAI TO APPROVE EVERY NEW CUSTOMER",
         "hl": "APPROVE EVERY NEW CUSTOMER",
         "hls": [],
@@ -41,7 +41,7 @@
         "image_prompt": "A dramatic view of a city skyline at dusk, with digital elements representing AI technology hovering above."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "OPENAI EXPRESSES CONCERNS ABOUT INCREASED GOVERNMENT OVERSIGHT",
         "hl": "INCREASED GOVERNMENT OVERSIGHT",
         "hls": [],
@@ -49,7 +49,7 @@
         "image_prompt": "A thoughtful individual gazing at a computer screen, reflecting on the implications of government oversight in technology."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "THIS DECISION COULD LIMIT ACCESS TO ADVANCED AI TECHNOLOGY",
         "hl": "LIMIT ACCESS TO ADVANCED AI TECHNOLOGY",
         "hls": [],
