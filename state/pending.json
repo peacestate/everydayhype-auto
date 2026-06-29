@@ -1,71 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-06-28T05:20:28.596739Z",
+  "status": "pending",
+  "created_at": "2026-06-29T03:56:21.704106Z",
   "deadline_min": 120,
-  "caption": "The U.S. government has permitted Anthropic to introduce its powerful AI model, Mythos, to select trusted organizations across the country. This move marks a significant step in AI deployment for government-approved companies. \n\nWhat's your take on the implications of this release? \n\nSources: Semafor",
+  "caption": "The U.S. government has granted Anthropic permission to release its advanced AI model, Mythos, to select organizations. This decision marks a significant step in the deployment of powerful AI technology under controlled conditions. \u007f\n\nHow do you think this will impact AI development in the U.S.?\n\nSources: Semafor\n\n#AI #Anthropic #Mythos #USGovernment #TechNews #ArtificialIntelligence #Innovation #AIRegulation",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782624021/everydayhypehq/2026-06-28/052021_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782624022/everydayhypehq/2026-06-28/052021_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782624023/everydayhypehq/2026-06-28/052021_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782624023/everydayhypehq/2026-06-28/052021_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782624024/everydayhypehq/2026-06-28/052021_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782705374/everydayhypehq/2026-06-29/035613_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782705375/everydayhypehq/2026-06-29/035613_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782705375/everydayhypehq/2026-06-29/035613_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782705376/everydayhypehq/2026-06-29/035613_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782705377/everydayhypehq/2026-06-29/035613_slide_5.png"
   ],
   "plan": {
-    "palette": "amber",
-    "art_style": "isometric miniature diorama, tilt-shift",
-    "layout": "b",
-    "person": "",
-    "company": "Anthropic",
-    "caption": "The U.S. government has permitted Anthropic to introduce its powerful AI model, Mythos, to select trusted organizations across the country. This move marks a significant step in AI deployment for government-approved companies. \n\nWhat's your take on the implications of this release? \n\nSources: Semafor",
+    "palette": "blue",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "a",
+    "caption": "The U.S. government has granted Anthropic permission to release its advanced AI model, Mythos, to select organizations. This decision marks a significant step in the deployment of powerful AI technology under controlled conditions. \u007f\n\nHow do you think this will impact AI development in the U.S.?\n\nSources: Semafor\n\n#AI #Anthropic #Mythos #USGovernment #TechNews #ArtificialIntelligence #Innovation #AIRegulation",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "U.S. GOVERNMENT JUST LET ANTHROPIC RELEASE MYTHOS AI TO SELECT COMPANIES",
-        "hl": "RELEASE MYTHOS AI",
+        "pill": "BREAKING \u007f",
+        "headline": "US GOVERNMENT JUST APPROVED ANTHROPIC TO RELEASE MYTHOS AI MODEL",
+        "hl": "MYTHOS AI MODEL",
         "hls": [],
-        "sub": "Here's what you need to know",
-        "image_prompt": "A close-up of a diverse group of professionals discussing technology in a modern office setting, with a focus on collaboration and innovation."
+        "sub": "Here's how it affects trusted US organizations.",
+        "image_prompt": "A close-up of a person interacting with advanced AI technology, surrounded by digital data streams and silhouettes."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "MYTHOS AI WILL BE AVAILABLE TO 'TRUSTED' ORGANIZATIONS IN THE U.S.",
-        "hl": "TRUSTED ORGANIZATIONS",
+        "pill": "",
+        "headline": "MYTHOS AI WILL BE AVAILABLE TO SELECTED US COMPANIES ONLY",
+        "hl": "SELECTED US COMPANIES",
         "hls": [],
-        "sub": "Anthropic has received clearance for this substantial AI model.",
-        "image_prompt": "An aerial view of a high-tech cityscape at dusk, showcasing advancements in technology and architecture with vibrant city lights."
+        "sub": "Access is limited to organizations deemed 'trusted' by the government.",
+        "image_prompt": "A modern office environment showing a team of professionals discussing AI technology, with a focus on collaboration and data analysis."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "THIS RELEASE COULD TRANSFORM HOW COMPANIES USE AI IN THEIR OPERATIONS",
-        "hl": "TRANSFORM HOW COMPANIES USE AI",
+        "pill": "",
+        "headline": "THIS RELEASE MARKS A TURNING POINT IN AI REGULATION",
+        "hl": "TURNING POINT",
         "hls": [],
-        "sub": "The implications for industries are profound and far-reaching.",
-        "image_prompt": "An office environment with individuals engaging with AI technology, such as virtual reality headsets or AI-based tools, capturing a sense of innovation."
+        "sub": "It reflects the government's cautious approach to powerful AI systems.",
+        "image_prompt": "A silhouette of a person pondering over AI regulations, with a backdrop of city skyline and digital overlays."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "MYTHOS AI IS EXPECTED TO INFLUENCE MULTIPLE SECTORS IN THE U.S.",
-        "hl": "INFLUENCE MULTIPLE SECTORS",
+        "pill": "",
+        "headline": "ANTHROPIC'S MYTHOS COULD IMPACT AI USE IN GOVERNMENT",
+        "hl": "IMPACT AI USE",
         "hls": [],
-        "sub": "Expect major shifts in productivity and efficiency across industries.",
-        "image_prompt": "A futuristic workspace with advanced AI interfaces and people collaborating, emphasizing a blend of technology and teamwork."
+        "sub": "This model may set new standards for AI use in sensitive sectors.",
+        "image_prompt": "A futuristic government building with digital interfaces and AI technology visible, blending human presence and digital innovation."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "AND IT COULD SET A PRECEDENT FOR FUTURE AI REGULATIONS",
-        "hl": "SET A PRECEDENT",
+        "pill": "THE TAKEAWAY \u007f",
+        "headline": "AND IT COULD SET NEW STANDARDS FOR AI REGULATION",
+        "hl": "SET NEW STANDARDS",
         "hls": [],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A thoughtful individual analyzing data on multiple digital screens, representing the intersection of AI and strategic decision-making."
+        "image_prompt": "An expansive view of a bustling tech hub with people engaged in AI development, showcasing innovation and progress."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
       "title": "U.S. allows Anthropic to release Mythos AI to \u2018trusted\u2019 US organizations",
       "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies"
     },
-    "date": "2026-06-28"
+    "date": "2026-06-29"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 157,
-  "resolved_at": "2026-06-28T06:31:09.880091Z"
+  "control_msg_id": 164
 }
