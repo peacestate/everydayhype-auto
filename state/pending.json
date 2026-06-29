@@ -1,70 +1,80 @@
 {
   "status": "pending",
-  "created_at": "2026-06-29T09:46:05.985012Z",
+  "created_at": "2026-06-29T10:02:43.459933Z",
   "deadline_min": 120,
-  "caption": "The U.S. government is set to oversee the deployment of OpenAI's latest AI model, requiring approval for new users. This move comes as the Trump administration emphasizes national security concerns in AI technology. 4cc916\n\nIs this a necessary measure for safety? \n\nSources: Washington Post, Reuters\n\n#AI #OpenAI #GovernmentPolicy #Technology #NationalSecurity #Innovation #AIEthics #TechNews #GPT5.6 #AIRegulation #OpenAIApproval",
+  "caption": "The U.S. government has authorized Anthropic to release its AI model, Mythos, to select organizations. This move is a significant step in AI development and regulation. 9f09e0 \n\nWhat do you think about the U.S. allowing AI access to trusted organizations? \n\nSources: Semafor, TechCrunch, The Verge\n#AI #Anthropic #Mythos #USGovernment #TechNews #ArtificialIntelligence #Innovation #PolicyChange",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782726357/everydayhypehq/2026-06-29/094556_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782726358/everydayhypehq/2026-06-29/094556_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782726359/everydayhypehq/2026-06-29/094556_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782726360/everydayhypehq/2026-06-29/094556_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782726360/everydayhypehq/2026-06-29/094556_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782727355/everydayhypehq/2026-06-29/100234_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782727356/everydayhypehq/2026-06-29/100234_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782727356/everydayhypehq/2026-06-29/100234_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782727357/everydayhypehq/2026-06-29/100234_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782727358/everydayhypehq/2026-06-29/100234_slide_5.png"
   ],
   "plan": {
     "palette": "blue",
     "art_style": "double-exposure, silhouette blended with data",
-    "layout": "b",
-    "caption": "The U.S. government is set to oversee the deployment of OpenAI's latest AI model, requiring approval for new users. This move comes as the Trump administration emphasizes national security concerns in AI technology. 4cc916\n\nIs this a necessary measure for safety? \n\nSources: Washington Post, Reuters\n\n#AI #OpenAI #GovernmentPolicy #Technology #NationalSecurity #Innovation #AIEthics #TechNews #GPT5.6 #AIRegulation #OpenAIApproval",
+    "layout": "a",
+    "caption": "The U.S. government has authorized Anthropic to release its AI model, Mythos, to select organizations. This move is a significant step in AI development and regulation. 9f09e0 \n\nWhat do you think about the U.S. allowing AI access to trusted organizations? \n\nSources: Semafor, TechCrunch, The Verge\n#AI #Anthropic #Mythos #USGovernment #TechNews #ArtificialIntelligence #Innovation #PolicyChange",
     "slides": [
       {
         "pill": "BREAKING 534",
-        "headline": "TRUMP ADMINISTRATION WILL VET USERS OF OPENAI'S GPT-5.6",
-        "hl": "VET USERS",
-        "hls": [],
+        "headline": "U.S. JUST ALLOWED ANTHROPIC TO RELEASE MYTHOS AI TO TRUSTED ORGANIZATIONS",
+        "hl": "MYTHOS AI",
+        "hls": [
+          "MYTHOS AI"
+        ],
         "sub": "Here's what you need to know",
-        "image_prompt": "A silhouette of a government building with a digital overlay of AI data streams, reflecting a sense of oversight and regulation."
+        "image_prompt": "A diverse group of professionals in a modern office, discussing AI technology, with a backdrop of a large screen showing abstract data visualizations."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "NEW RULE REQUIRES OPENAI TO APPROVE EVERY NEW CUSTOMER",
-        "hl": "APPROVE EVERY NEW CUSTOMER",
-        "hls": [],
-        "sub": "This policy targets Anthropic and OpenAI's powerful AI technologies.",
-        "image_prompt": "A close-up of a person reviewing documents with a laptop open, highlighting the process of approval and scrutiny."
+        "pill": "WHAT HAPPENED 6a1",
+        "headline": "MYTHOS AI RELEASED TO SELECT US COMPANIES AS OF JUNE 26, 2026",
+        "hl": "SELECT US COMPANIES",
+        "hls": [
+          "SELECT US COMPANIES"
+        ],
+        "sub": "This release marks a pivotal moment in AI governance.",
+        "image_prompt": "A close-up of a hand interacting with a futuristic touchscreen interface showcasing AI features, with a soft-focus background of an office setting."
       },
       {
         "pill": "WHY IT MATTERS 30d",
-        "headline": "THIS MOVE REFLECTS GROWING CONCERNS OVER AI SAFETY",
-        "hl": "GROWING CONCERNS OVER AI SAFETY",
-        "hls": [],
-        "sub": "The government prioritizes national security in AI deployment.",
-        "image_prompt": "A dramatic view of a city skyline at dusk, with digital elements representing AI technology hovering above."
+        "headline": "ONLY TRUSTED ORGANIZATIONS WILL HAVE ACCESS TO MYTHOS AI",
+        "hl": "TRUSTED ORGANIZATIONS",
+        "hls": [
+          "TRUSTED ORGANIZATIONS"
+        ],
+        "sub": "This controlled rollout aims to ensure responsible use of AI technology.",
+        "image_prompt": "A silhouette of a city skyline at dusk, with glowing data streams flowing between buildings, symbolizing technological advancement."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "OPENAI EXPRESSES CONCERNS ABOUT INCREASED GOVERNMENT OVERSIGHT",
-        "hl": "INCREASED GOVERNMENT OVERSIGHT",
-        "hls": [],
-        "sub": "This could shape AI innovation in the U.S.",
-        "image_prompt": "A thoughtful individual gazing at a computer screen, reflecting on the implications of government oversight in technology."
+        "pill": "THE TAKEAWAY 525",
+        "headline": "MYTHOS AI COULD SET A PRECEDENT FOR FUTURE AI REGULATIONS",
+        "hl": "FUTURE AI REGULATIONS",
+        "hls": [
+          "FUTURE AI REGULATIONS"
+        ],
+        "sub": "Expect more oversight in AI deployments moving forward.",
+        "image_prompt": "A thoughtful individual sitting at a desk with a laptop, surrounded by books about technology and ethics, contemplating the implications of AI."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "THIS DECISION COULD LIMIT ACCESS TO ADVANCED AI TECHNOLOGY",
-        "hl": "LIMIT ACCESS TO ADVANCED AI TECHNOLOGY",
-        "hls": [],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A collage of diverse individuals interacting with technology, symbolizing the broad implications of AI access."
+        "pill": "THE IMPACT 910",
+        "headline": "ANTHROPIC'S MYTHOS AI IS A SIGNIFICANT MOVE IN AI REGULATION",
+        "hl": "SIGNIFICANT MOVE",
+        "hls": [
+          "SIGNIFICANT MOVE"
+        ],
+        "sub": "This decision may influence future AI policy frameworks.",
+        "image_prompt": "A group of policymakers in a conference room, engaged in a discussion about technology regulations, with charts and papers on the table."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "U.S. government will decide who gets to use GPT-5.6",
-      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/"
+      "title": "U.S. allows Anthropic to release Mythos AI to \u2018trusted\u2019 US organizations",
+      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies"
     },
     "date": "2026-06-29"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 172
+  "control_msg_id": 178
 }
