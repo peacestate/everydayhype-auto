@@ -1,5 +1,5 @@
 openai>=1.40
-kaggle>=1.6
+kaggle==2.2.2   # 2.2.3 is broken on PyPI (ModuleNotFoundError: kagglesdk.competitions.legacy, hit 2026-07-01)
 cloudinary>=1.40
 requests>=2.31
 Pillow>=10.0
