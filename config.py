@@ -70,5 +70,10 @@ STYLE_ALIASES = {
     "glossy": "sleek 3D render, octane, glossy materials",
 }
 
+# set by the Telegram "🔁 Different story" button (daily.yml avoid_title input) — the title of
+# whatever carousel is currently on-screen, so s2_brain rules it out even though it was never
+# actually posted (and so isn't in posted_history.json yet).
+AVOID_TITLE = os.environ.get("AVOID_TITLE", "").strip()
+
 # section pill labels per slide position (emoji rotates a bit; brain may tweak)
 PILLS = ["BREAKING 🔴", "WHAT HAPPENED ⚡", "WHY IT MATTERS 🌍", "THE IMPACT 🔐", "THE TAKEAWAY 🔥"]

@@ -10,7 +10,7 @@ from steps import s1_fetch_news, s2_brain, s3_gen_images, s4_render, s5_upload, 
 def run(dry_run=False):
     print("=== everydayhypehq carousel pipeline ===")
     cands = s1_fetch_news.fetch_candidates()
-    plan  = s2_brain.make_plan(cands)
+    plan  = s2_brain.make_plan(cands, extra_avoid=[C.AVOID_TITLE] if C.AVOID_TITLE else None)
     if plan is None:
         print("No strong story today -> skipping (quality gate)."); return
 

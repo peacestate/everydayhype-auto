@@ -85,6 +85,7 @@ const KB = {
     [{ text: "✅ Approve (post at noon)", callback_data: "approve" }, { text: "❌ Reject", callback_data: "reject" }],
     [{ text: "✨ Improve to 100", callback_data: "improve" }, { text: "🔄 Redo visuals", callback_data: "regen" }],
     [{ text: "🧊 Isometric 3D", callback_data: "style_iso" }, { text: "💎 Glossy 3D", callback_data: "style_glossy" }],
+    [{ text: "🔁 Different story", callback_data: "new_story" }],
   ],
 };
 
@@ -140,6 +141,18 @@ async function handleCallback(cb, env) {
     // DON'T post now — approval just schedules it. The 12:00 PM IST cron (and a */15 backup)
     // publishes the approved carousel, regardless of what time you approved.
     if (mid) await editText(env, chat, mid, "✅ Approved — scheduled to post at 12:00 PM IST.");
+    return;
+  }
+  // 🔁 different story — this one's a repeat/stale, rule it out and pick a fresh one.
+  if (data === "new_story") {
+    const avoidTitle = p.plan?.story?.title || "";
+    const ok = await ghDispatch(env, "daily.yml", { dry_run: "false", avoid_title: avoidTitle });
+    if (ok) {
+      p.status = "new_story"; await ghPutFile(env, "state/pending.json", p, sha, "new_story via telegram (worker)");
+      if (mid) await editText(env, chat, mid, "🔁 Picking a different story — this one's ruled out, a fresh carousel will arrive shortly.");
+    } else if (mid) {
+      await editText(env, chat, mid, "⚠️ Couldn't start a new run (check GH_PAT). Your post is still here to approve.", KB);
+    }
     return;
   }
   // 🔄 redo visuals (fresh rotation) · ✨ improve · 🧊/💎 redo in a forced 3D style

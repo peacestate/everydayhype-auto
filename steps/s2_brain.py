@@ -3,15 +3,34 @@
 facts (numbers/names/dates) with hard anti-fluff rules, + plan varied palette/style/layout.
 Returns a plan dict or None (skip day)."""
 import json, datetime, re, urllib.request
+from difflib import SequenceMatcher
 from openai import OpenAI
 import config as C
 
 LEDGER = C.STATE / "style_ledger.json"
 HISTORY = C.STATE / "posted_history.json"
 UA = {"User-Agent": "Mozilla/5.0 (compatible; everydayhypehq-bot/1.0)"}
+DUP_SIMILARITY = 0.75   # title-match ratio above which a candidate is treated as already-posted
 
 def _load(p, default): return json.loads(p.read_text()) if p.exists() else default
 def _recent(ledger, key, days=C.AVOID_DAYS): return [e[key] for e in ledger[-days:] if key in e]
+
+def _drop_reposts(candidates, history):
+    """Hard filter: the LLM's 'avoid already_posted' instruction is only a soft nudge, and stories
+    stay in the s1 candidate pool for days (MAX_AGE_DAYS=4) — so a still-trending story can get
+    re-picked verbatim (happened 2026-07-01, 3x in a row with the same S.Korea story). Strip any
+    candidate whose title closely matches a recent post BEFORE the model ever sees it."""
+    recent_titles = [h["title"].lower() for h in history[-30:]]
+    kept, dropped = [], []
+    for c in candidates:
+        t = c["title"].lower()
+        if any(SequenceMatcher(None, t, h).ratio() >= DUP_SIMILARITY for h in recent_titles):
+            dropped.append(c["title"])
+        else:
+            kept.append(c)
+    if dropped:
+        print(f"[s2] dropped {len(dropped)} already-posted repost candidate(s): {dropped}")
+    return kept
 
 def _fetch_article(url, limit=3000):
     """Pull clean article text. Jina Reader (r.jina.ai) bypasses most bot-blocking; fall back to raw."""
@@ -95,9 +114,17 @@ HARD RULES:
   substring of that slide's headline, to color. Keep them short (2-4 words each).
 Return STRICT JSON matching the given schema."""
 
-def make_plan(candidates):
+def make_plan(candidates, extra_avoid=None):
+    """extra_avoid: optional list of titles to force-exclude on top of posted_history — used by the
+    Telegram '🔁 Different story' button to rule out whatever's currently on-screen (it isn't in
+    posted_history yet since it was never actually posted)."""
     client = OpenAI(api_key=C.OPENAI_API_KEY)
     ledger, history = _load(LEDGER, []), _load(HISTORY, [])
+    if extra_avoid:
+        history = history + [{"title": t} for t in extra_avoid]
+    candidates = _drop_reposts(candidates, history)
+    if not candidates:
+        print("[s2] skip day (all candidates already posted recently)"); return None
 
     # STAGE 1 — pick the story (titles only)
     pick = json.loads(client.chat.completions.create(

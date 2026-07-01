@@ -15,6 +15,10 @@ on:
         description: "Force art style: iso (isometric 3D diorama) | glossy (octane 3D) | '' = normal rotation"
         type: string
         default: ""
+      avoid_title:
+        description: "Story title to rule out (from the '🔁 Different story' button) | '' = no extra exclusion"
+        type: string
+        default: ""
 
 permissions:
   contents: write              # to commit updated state/ ledger back
@@ -60,6 +64,7 @@ jobs:
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
           CHROME_BIN:       /usr/bin/google-chrome
           FORCE_STYLE:      ${{ inputs.force_style }}
+          AVOID_TITLE:      ${{ inputs.avoid_title }}
         run: python pipeline.py ${{ (inputs.dry_run && '--dry-run') || '' }}
 
       - name: Upload preview slides
