@@ -1,81 +1,80 @@
 {
-  "status": "posted",
-  "created_at": "2026-06-30T03:57:20.907499Z",
+  "status": "pending",
+  "created_at": "2026-07-01T19:01:37.257016Z",
   "deadline_min": 120,
-  "caption": "South Korea is committing $1 trillion to enhance its memory chip production and develop humanoid robots by 2028. This initiative aims to secure a leading position in AI and semiconductor technology amidst increasing global demand. 1f01f79164c8\n\nIs this investment enough to ensure South Korea stays ahead in the tech race?\n\nSources: Ars Technica, BBC News, Reuters\n#SouthKorea #AI #TechInvestment #MemoryChips #HumanoidRobots #BostonDynamics #Samsung #SKHynix #FutureTech\n\n\ud83d\udcf7 Cover photo: \ud50c\ub9ac\ucee4 / \ub300\ud55c\ubbfc\uad6d \uccad\uc640\ub300 \u00b7 CC BY 4.0",
+  "caption": "Anthropic has unveiled Claude Science, a product designed to enhance scientific research capabilities, similar to what Claude Code does for software engineering. This new tool is now available to all paid subscribers and aims to support drug development and computational biology. 3311f4a1\n\nWill AI tools like Claude Science transform research in life sciences?\n\nSources: Technology Review, Bloomberg\n\n#ClaudeScience #Anthropic #AI #LifeSciences #DrugDevelopment #Biotech #ComputationalBiology #Innovation #Technology",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782791831/everydayhypehq/2026-06-30/035711_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782791832/everydayhypehq/2026-06-30/035711_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782791833/everydayhypehq/2026-06-30/035711_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782791834/everydayhypehq/2026-06-30/035711_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782791835/everydayhypehq/2026-06-30/035711_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782932489/everydayhypehq/2026-07-01/190128_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782932489/everydayhypehq/2026-07-01/190128_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782932490/everydayhypehq/2026-07-01/190128_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782932491/everydayhypehq/2026-07-01/190128_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782932492/everydayhypehq/2026-07-01/190128_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "double-exposure, silhouette blended with data",
-    "layout": "c",
-    "person": "Lee Jae Myung",
-    "company": "South Korea",
-    "caption": "South Korea is committing $1 trillion to enhance its memory chip production and develop humanoid robots by 2028. This initiative aims to secure a leading position in AI and semiconductor technology amidst increasing global demand. 1f01f79164c8\n\nIs this investment enough to ensure South Korea stays ahead in the tech race?\n\nSources: Ars Technica, BBC News, Reuters\n#SouthKorea #AI #TechInvestment #MemoryChips #HumanoidRobots #BostonDynamics #Samsung #SKHynix #FutureTech\n\n\ud83d\udcf7 Cover photo: \ud50c\ub9ac\ucee4 / \ub300\ud55c\ubbfc\uad6d \uccad\uc640\ub300 \u00b7 CC BY 4.0",
+    "palette": "magenta",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "caption": "Anthropic has unveiled Claude Science, a product designed to enhance scientific research capabilities, similar to what Claude Code does for software engineering. This new tool is now available to all paid subscribers and aims to support drug development and computational biology. 3311f4a1\n\nWill AI tools like Claude Science transform research in life sciences?\n\nSources: Technology Review, Bloomberg\n\n#ClaudeScience #Anthropic #AI #LifeSciences #DrugDevelopment #Biotech #ComputationalBiology #Innovation #Technology",
     "slides": [
       {
         "pill": "BREAKING 534",
-        "headline": "SOUTH KOREA WILL SPEND $1 TRILLION ON MEMORY CHIPS AND ROBOTS",
-        "hl": "$1 TRILLION",
+        "headline": "ANTHROPIC JUST UNVEILED CLAUDE SCIENCE FOR SCIENTIFIC RESEARCH",
+        "hl": "CLAUDE SCIENCE",
         "hls": [
-          "$1 TRILLION"
+          "CLAUDE SCIENCE"
         ],
-        "sub": "Here's the ambitious investment plan.",
-        "image_prompt": "A bustling tech hub in South Korea with futuristic architecture and busy engineers in high-tech environments."
+        "sub": "Here's the breakthrough for scientific research.",
+        "image_prompt": "A group of scientists at a conference, engaged in discussion, surrounded by modern technology and research materials."
       },
       {
-        "pill": "WHAT HAPPENED 26a1",
-        "headline": "SAMSUNG AND SK HYNIX COMMIT $585 BILLION TO NEW CHIP PLANTS",
-        "hl": "$585 BILLION",
+        "pill": "",
+        "headline": "CLAUDE SCIENCE IS NOW AVAILABLE TO ALL PAID SUBSCRIBERS",
+        "hl": "NOW AVAILABLE",
         "hls": [
-          "$585 BILLION"
+          "NOW AVAILABLE"
         ],
-        "sub": "This will double DRAM production in five years.",
-        "image_prompt": "Large semiconductor manufacturing facility with engineers inspecting machinery and chips."
+        "sub": "This full-featured product supports drug development and computational biology.",
+        "image_prompt": "Close-up of a researcher using a laptop in a lab, analyzing data with focused expression."
       },
       {
-        "pill": "WHY IT MATTERS 1f0d",
-        "headline": "HYUNDAI IS RACING TO MASS MANUFACTURE HUMANOID ROBOTS",
-        "hl": "HUMANOID ROBOTS",
+        "pill": "",
+        "headline": "ANTHROPIC AIMS TO DEVELOP DRUGS FOR RARE DISEASES WITH CLAUDE SCIENCE",
+        "hl": "RARE DISEASES",
         "hls": [
-          "HUMANOID ROBOTS"
+          "RARE DISEASES"
         ],
-        "sub": "These robots will perform laborious tasks in factories.",
-        "image_prompt": "A humanoid robot performing tasks in an automotive assembly line, with workers observing."
+        "sub": "The company is serious about applying AI to the life sciences.",
+        "image_prompt": "A pharmaceutical lab with researchers collaborating on drug formulations, showcasing a vibrant work environment."
       },
       {
-        "pill": "THE IMPACT 1f10",
-        "headline": "PRESIDENT LEE JAE MYUNG PROMISES TO SECURE AI LEADERSHIP",
-        "hl": "SECURE AI LEADERSHIP",
+        "pill": "",
+        "headline": "ERIC KAUDERER-ABRAMS CALLS IT A SIGNIFICANT PRODUCT FOR ANTHROPIC",
+        "hl": "SIGNIFICANT PRODUCT",
         "hls": [
-          "SECURE AI LEADERSHIP"
+          "SIGNIFICANT PRODUCT"
         ],
-        "sub": "This is crucial for global competitiveness and innovation.",
-        "image_prompt": "President Lee Jae Myung giving a speech at a technology conference."
+        "sub": "This product emphasizes AI\u2019s role in enhancing human well-being.",
+        "image_prompt": "A portrait of Eric Kauderer-Abrams speaking at a technology event, with an audience engaged in the background."
       },
       {
-        "pill": "THE TAKEAWAY 1f25",
-        "headline": "THIS INITIATIVE COULD BOOST MEMORY CHIP SUPPLY AND AI DEVELOPMENT",
-        "hl": "BOOST MEMORY CHIP SUPPLY",
+        "pill": "THE TAKEAWAY f25",
+        "headline": "ANTHROPIC IS POSITIONED TO LEAD IN AI FOR SCIENCE",
+        "hl": "LEAD IN AI",
         "hls": [
-          "BOOST MEMORY CHIP SUPPLY"
+          "LEAD IN AI"
         ],
-        "sub": "And the world will be watching closely.",
-        "image_prompt": "A panoramic view of a futuristic city skyline with digital overlays of technology and innovation."
+        "sub": "This could reshape the landscape of scientific research.",
+        "image_prompt": "A wide shot of a vibrant city skyline at sunset, symbolizing innovation and future possibilities."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
-      "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/"
+      "title": "Claude Science is Anthropic\u2019s newest flagship product",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     },
-    "date": "2026-06-30"
+    "date": "2026-07-01"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 198,
-  "resolved_at": "2026-06-30T06:31:09.002397Z"
+  "control_msg_id": 217
 }
