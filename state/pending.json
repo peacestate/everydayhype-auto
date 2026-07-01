@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-07-01T19:01:37.257016Z",
   "deadline_min": 120,
   "caption": "Anthropic has unveiled Claude Science, a product designed to enhance scientific research capabilities, similar to what Claude Code does for software engineering. This new tool is now available to all paid subscribers and aims to support drug development and computational biology. 3311f4a1\n\nWill AI tools like Claude Science transform research in life sciences?\n\nSources: Technology Review, Bloomberg\n\n#ClaudeScience #Anthropic #AI #LifeSciences #DrugDevelopment #Biotech #ComputationalBiology #Innovation #Technology",
@@ -53,7 +53,7 @@
         "hls": [
           "SIGNIFICANT PRODUCT"
         ],
-        "sub": "This product emphasizes AI’s role in enhancing human well-being.",
+        "sub": "This product emphasizes AI\u2019s role in enhancing human well-being.",
         "image_prompt": "A portrait of Eric Kauderer-Abrams speaking at a technology event, with an audience engaged in the background."
       },
       {
@@ -70,12 +70,12 @@
     "person": "",
     "company": "",
     "story": {
-      "title": "Claude Science is Anthropic’s newest flagship product",
+      "title": "Claude Science is Anthropic\u2019s newest flagship product",
       "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     },
     "date": "2026-07-01"
   },
   "chat_id": 8692339206,
   "control_msg_id": 217,
-  "resolved_at": "2026-07-01T19:02:01.151Z"
+  "resolved_at": "2026-07-01T20:15:57.557810Z"
 }

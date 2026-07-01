@@ -167,5 +167,18 @@
       "President Lee Jae Myung giving a speech ",
       "A panoramic view of a futuristic city sk"
     ]
+  },
+  {
+    "date": "2026-07-01",
+    "palette": "magenta",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A group of scientists at a conference, e",
+      "Close-up of a researcher using a laptop ",
+      "A pharmaceutical lab with researchers co",
+      "A portrait of Eric Kauderer-Abrams speak",
+      "A wide shot of a vibrant city skyline at"
+    ]
   }
 ]
