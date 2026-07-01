@@ -31,7 +31,10 @@ print("ALL DONE",flush=True)
 
 def _kaggle(*args):
     env = dict(os.environ, PYTHONUTF8="1", PYTHONIOENCODING="utf-8")
-    return subprocess.run(["kaggle", *args], capture_output=True, text=True, env=env).stdout
+    r = subprocess.run(["kaggle", *args], capture_output=True, text=True, env=env)
+    if r.returncode != 0:
+        raise RuntimeError(f"kaggle {' '.join(args)} failed (rc={r.returncode}): {r.stderr.strip()}")
+    return r.stdout
 
 def generate(plan):
     if shutil.rmtree(BG, ignore_errors=True) or True: BG.mkdir(parents=True, exist_ok=True)
@@ -45,13 +48,14 @@ def generate(plan):
         "enable_gpu": True, "enable_internet": True,
         "dataset_sources": [], "competition_sources": [], "kernel_sources": [], "model_sources": []}))
 
-    print("[s3] pushing FLUX kernel...")
-    print(_kaggle("kernels", "push", "-p", str(KDIR)))
-    # poll
-    for _ in range(60):
+    print("[s3] pushing FLUX kernel...", flush=True)
+    print(_kaggle("kernels", "push", "-p", str(KDIR)), flush=True)
+    # poll — cold start (pip installs + full FLUX weight download) can run long on Kaggle's
+    # free GPU queue, so give it generous headroom (100 min) rather than the old 60.
+    for _ in range(100):
         time.sleep(60)
         st = _kaggle("kernels", "status", C.KAGGLE_KERNEL)
-        print("[s3]", st.strip())
+        print("[s3]", st.strip(), flush=True)
         if "COMPLETE" in st: break
         if "ERROR" in st: raise RuntimeError("FLUX kernel ERROR:\n" + st)
     else:
