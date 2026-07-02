@@ -1,81 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-01T19:01:37.257016Z",
+  "status": "pending",
+  "created_at": "2026-07-02T03:56:56.870279Z",
   "deadline_min": 120,
-  "caption": "Anthropic has unveiled Claude Science, a product designed to enhance scientific research capabilities, similar to what Claude Code does for software engineering. This new tool is now available to all paid subscribers and aims to support drug development and computational biology. 3311f4a1\n\nWill AI tools like Claude Science transform research in life sciences?\n\nSources: Technology Review, Bloomberg\n\n#ClaudeScience #Anthropic #AI #LifeSciences #DrugDevelopment #Biotech #ComputationalBiology #Innovation #Technology",
+  "caption": "Meta is making strides in brain-to-text technology with its non-invasive AI, which has demonstrated significant improvements over previous methods. The latest model, Brain2Qwerty v2, shows a word error rate of just 39% compared to 55% in earlier versions. This breakthrough comes from recording extensive brain activity, allowing the AI to decode sentences more accurately than ever.\n\nAre you excited about the possibilities of brain-to-text technology?\n\nSources: The Decoder, TechCrunch\n\n#Meta #BrainToText #AI #Neuroscience #TechInnovation #MachineLearning #DeepLearning #FutureTech #ResearchBreakthroughs #BrainSignals #LanguageModel #AIResearch",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782932489/everydayhypehq/2026-07-01/190128_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782932489/everydayhypehq/2026-07-01/190128_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782932490/everydayhypehq/2026-07-01/190128_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782932491/everydayhypehq/2026-07-01/190128_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782932492/everydayhypehq/2026-07-01/190128_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782964609/everydayhypehq/2026-07-02/035649_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782964610/everydayhypehq/2026-07-02/035649_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782964610/everydayhypehq/2026-07-02/035649_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782964611/everydayhypehq/2026-07-02/035649_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782964612/everydayhypehq/2026-07-02/035649_slide_5.png"
   ],
   "plan": {
-    "palette": "magenta",
+    "palette": "cyan",
     "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "caption": "Anthropic has unveiled Claude Science, a product designed to enhance scientific research capabilities, similar to what Claude Code does for software engineering. This new tool is now available to all paid subscribers and aims to support drug development and computational biology. 3311f4a1\n\nWill AI tools like Claude Science transform research in life sciences?\n\nSources: Technology Review, Bloomberg\n\n#ClaudeScience #Anthropic #AI #LifeSciences #DrugDevelopment #Biotech #ComputationalBiology #Innovation #Technology",
+    "layout": "b",
+    "person": "",
+    "company": "Meta",
+    "caption": "Meta is making strides in brain-to-text technology with its non-invasive AI, which has demonstrated significant improvements over previous methods. The latest model, Brain2Qwerty v2, shows a word error rate of just 39% compared to 55% in earlier versions. This breakthrough comes from recording extensive brain activity, allowing the AI to decode sentences more accurately than ever.\n\nAre you excited about the possibilities of brain-to-text technology?\n\nSources: The Decoder, TechCrunch\n\n#Meta #BrainToText #AI #Neuroscience #TechInnovation #MachineLearning #DeepLearning #FutureTech #ResearchBreakthroughs #BrainSignals #LanguageModel #AIResearch",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "ANTHROPIC JUST UNVEILED CLAUDE SCIENCE FOR SCIENTIFIC RESEARCH",
-        "hl": "CLAUDE SCIENCE",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "META'S NEW AI DECODES BRAIN SIGNALS WITH 39% ERROR RATE",
+        "hl": "39% ERROR RATE",
         "hls": [
-          "CLAUDE SCIENCE"
+          "39%",
+          "ERROR RATE"
         ],
-        "sub": "Here's the breakthrough for scientific research.",
-        "image_prompt": "A group of scientists at a conference, engaged in discussion, surrounded by modern technology and research materials."
+        "sub": "This breakthrough brings us closer to real-time brain-to-text conversion.",
+        "image_prompt": "A close-up of a researcher analyzing brain activity data, with equipment in the background."
       },
       {
-        "pill": "",
-        "headline": "CLAUDE SCIENCE IS NOW AVAILABLE TO ALL PAID SUBSCRIBERS",
-        "hl": "NOW AVAILABLE",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "BRAIN2QWERTY V2 USES TEN TIMES MORE DATA FOR IMPROVED ACCURACY",
+        "hl": "TEN TIMES MORE DATA",
         "hls": [
-          "NOW AVAILABLE"
+          "TEN TIMES",
+          "MORE DATA"
         ],
-        "sub": "This full-featured product supports drug development and computational biology.",
-        "image_prompt": "Close-up of a researcher using a laptop in a lab, analyzing data with focused expression."
+        "sub": "The model processed 22,000 sentences from nine volunteers during the study.",
+        "image_prompt": "A group of volunteers participating in a brain activity study, with sensors attached."
       },
       {
-        "pill": "",
-        "headline": "ANTHROPIC AIMS TO DEVELOP DRUGS FOR RARE DISEASES WITH CLAUDE SCIENCE",
-        "hl": "RARE DISEASES",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "NEW AI MODEL COVERS CHARACTERS, WORDS, AND SENTENCES EFFECTIVELY",
+        "hl": "CHARACTERS, WORDS, AND SENTENCES",
         "hls": [
-          "RARE DISEASES"
+          "CHARACTERS",
+          "WORDS"
         ],
-        "sub": "The company is serious about applying AI to the life sciences.",
-        "image_prompt": "A pharmaceutical lab with researchers collaborating on drug formulations, showcasing a vibrant work environment."
+        "sub": "Deep learning techniques replaced older recognition methods for better results.",
+        "image_prompt": "A digital representation of brain signals translating into text, with an abstract background."
       },
       {
-        "pill": "",
-        "headline": "ERIC KAUDERER-ABRAMS CALLS IT A SIGNIFICANT PRODUCT FOR ANTHROPIC",
-        "hl": "SIGNIFICANT PRODUCT",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "BRAIN2QWERTY V2 CAN PERFECTLY DECODE 28% OF SENTENCES",
+        "hl": "28% OF SENTENCES",
         "hls": [
-          "SIGNIFICANT PRODUCT"
+          "28%",
+          "PERFECTLY DECODE"
         ],
-        "sub": "This product emphasizes AI\u2019s role in enhancing human well-being.",
-        "image_prompt": "A portrait of Eric Kauderer-Abrams speaking at a technology event, with an audience engaged in the background."
+        "sub": "This accuracy rate signals a major leap in non-invasive brain tech.",
+        "image_prompt": "A researcher smiling, looking at a computer screen showing decoded sentences."
       },
       {
-        "pill": "THE TAKEAWAY f25",
-        "headline": "ANTHROPIC IS POSITIONED TO LEAD IN AI FOR SCIENCE",
-        "hl": "LEAD IN AI",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "META'S TECH COULD REPLACE SURGICAL IMPLANTS IN THE FUTURE",
+        "hl": "REPLACE SURGICAL IMPLANTS",
         "hls": [
-          "LEAD IN AI"
+          "REPLACE",
+          "SURGICAL IMPLANTS"
         ],
-        "sub": "This could reshape the landscape of scientific research.",
-        "image_prompt": "A wide shot of a vibrant city skyline at sunset, symbolizing innovation and future possibilities."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "An imaginative scene depicting a future where brain-to-text technology is widely used."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Claude Science is Anthropic\u2019s newest flagship product",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+      "title": "Meta's non-invasive brain-to-text AI is closing the gap with surgical implants",
+      "url": "https://the-decoder.com/metas-non-invasive-brain-to-text-ai-is-closing-the-gap-with-surgical-implants/"
     },
-    "date": "2026-07-01"
+    "date": "2026-07-02"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 217,
-  "resolved_at": "2026-07-01T20:15:57.557810Z"
+  "control_msg_id": 224
 }
