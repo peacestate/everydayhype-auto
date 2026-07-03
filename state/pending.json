@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-07-03T03:56:33.575753Z",
   "deadline_min": 120,
   "caption": "Anthropic is exploring a partnership with Samsung to create custom AI chips. This move comes as the company emphasizes the ongoing importance of existing chips from major players like Nvidia and Google. As AI infrastructure grows, custom silicon could significantly impact revenue streams.\n\nWhat do you think about tech companies pursuing custom chips?\n\nSources: The Decoder, The Information",
@@ -19,7 +19,7 @@
     "caption": "Anthropic is exploring a partnership with Samsung to create custom AI chips. This move comes as the company emphasizes the ongoing importance of existing chips from major players like Nvidia and Google. As AI infrastructure grows, custom silicon could significantly impact revenue streams.\n\nWhat do you think about tech companies pursuing custom chips?\n\nSources: The Decoder, The Information",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
+        "pill": "BREAKING \ud83d\udd34",
         "headline": "ANTHROPIC IS IN TALKS WITH SAMSUNG FOR CUSTOM AI CHIP",
         "hl": "CUSTOM AI CHIP",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A futuristic server room filled with advanced AI hardware, illuminated by ambient lights."
       },
       {
-        "pill": "WHY IT MATTERS 🌍",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
         "headline": "CUSTOM AI CHIPS COULD CHANGE ANTHROPIC'S STRATEGY SIGNIFICANTLY",
         "hl": "CHANGE ANTHROPIC'S STRATEGY",
         "hls": [
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 231,
-  "resolved_at": "2026-07-03T05:30:00.766Z"
+  "resolved_at": "2026-07-03T06:31:24.376888Z"
 }
