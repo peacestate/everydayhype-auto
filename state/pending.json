@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-02T03:56:56.870279Z",
+  "status": "pending",
+  "created_at": "2026-07-03T03:56:33.575753Z",
   "deadline_min": 120,
-  "caption": "Meta is making strides in brain-to-text technology with its non-invasive AI, which has demonstrated significant improvements over previous methods. The latest model, Brain2Qwerty v2, shows a word error rate of just 39% compared to 55% in earlier versions. This breakthrough comes from recording extensive brain activity, allowing the AI to decode sentences more accurately than ever.\n\nAre you excited about the possibilities of brain-to-text technology?\n\nSources: The Decoder, TechCrunch\n\n#Meta #BrainToText #AI #Neuroscience #TechInnovation #MachineLearning #DeepLearning #FutureTech #ResearchBreakthroughs #BrainSignals #LanguageModel #AIResearch",
+  "caption": "Anthropic is exploring a partnership with Samsung to create custom AI chips. This move comes as the company emphasizes the ongoing importance of existing chips from major players like Nvidia and Google. As AI infrastructure grows, custom silicon could significantly impact revenue streams.\n\nWhat do you think about tech companies pursuing custom chips?\n\nSources: The Decoder, The Information",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782964609/everydayhypehq/2026-07-02/035649_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782964610/everydayhypehq/2026-07-02/035649_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782964610/everydayhypehq/2026-07-02/035649_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782964611/everydayhypehq/2026-07-02/035649_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1782964612/everydayhypehq/2026-07-02/035649_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783050985/everydayhypehq/2026-07-03/035624_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783050986/everydayhypehq/2026-07-03/035624_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783050987/everydayhypehq/2026-07-03/035624_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783050987/everydayhypehq/2026-07-03/035624_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783050988/everydayhypehq/2026-07-03/035624_slide_5.png"
   ],
   "plan": {
-    "palette": "cyan",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
+    "palette": "red",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "a",
     "person": "",
-    "company": "Meta",
-    "caption": "Meta is making strides in brain-to-text technology with its non-invasive AI, which has demonstrated significant improvements over previous methods. The latest model, Brain2Qwerty v2, shows a word error rate of just 39% compared to 55% in earlier versions. This breakthrough comes from recording extensive brain activity, allowing the AI to decode sentences more accurately than ever.\n\nAre you excited about the possibilities of brain-to-text technology?\n\nSources: The Decoder, TechCrunch\n\n#Meta #BrainToText #AI #Neuroscience #TechInnovation #MachineLearning #DeepLearning #FutureTech #ResearchBreakthroughs #BrainSignals #LanguageModel #AIResearch",
+    "company": "Anthropic",
+    "caption": "Anthropic is exploring a partnership with Samsung to create custom AI chips. This move comes as the company emphasizes the ongoing importance of existing chips from major players like Nvidia and Google. As AI infrastructure grows, custom silicon could significantly impact revenue streams.\n\nWhat do you think about tech companies pursuing custom chips?\n\nSources: The Decoder, The Information",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "META'S NEW AI DECODES BRAIN SIGNALS WITH 39% ERROR RATE",
-        "hl": "39% ERROR RATE",
+        "headline": "ANTHROPIC IS IN TALKS WITH SAMSUNG FOR CUSTOM AI CHIP",
+        "hl": "CUSTOM AI CHIP",
         "hls": [
-          "39%",
-          "ERROR RATE"
+          "CUSTOM",
+          "AI CHIP"
         ],
-        "sub": "This breakthrough brings us closer to real-time brain-to-text conversion.",
-        "image_prompt": "A close-up of a researcher analyzing brain activity data, with equipment in the background."
+        "sub": "Here's what you need to know",
+        "image_prompt": "A close-up of a modern tech workspace with a Samsung logo subtly visible, featuring engineers discussing a chip design."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "BRAIN2QWERTY V2 USES TEN TIMES MORE DATA FOR IMPROVED ACCURACY",
-        "hl": "TEN TIMES MORE DATA",
+        "pill": "",
+        "headline": "THE PROJECT IS IN ITS EARLY STAGES WITH NO DESIGN YET",
+        "hl": "EARLY STAGES",
         "hls": [
-          "TEN TIMES",
-          "MORE DATA"
+          "EARLY",
+          "STAGES"
         ],
-        "sub": "The model processed 22,000 sentences from nine volunteers during the study.",
-        "image_prompt": "A group of volunteers participating in a brain activity study, with sensors attached."
+        "sub": "Anthropic is still determining the chip's purpose and power requirements.",
+        "image_prompt": "A group of engineers brainstorming around a table, with sketches of chip designs and AI concepts displayed."
+      },
+      {
+        "pill": "",
+        "headline": "CLIVE CHAN IS JOINING TO LEAD ANTHROPIC'S CHIP DEVELOPMENT TEAM",
+        "hl": "CHIP DEVELOPMENT TEAM",
+        "hls": [
+          "CHIP",
+          "DEVELOPMENT"
+        ],
+        "sub": "Chan has a history with Tesla and OpenAI's chip teams.",
+        "image_prompt": "An engineer working at a workstation, focusing on a complex circuit board, with tools and components scattered around."
+      },
+      {
+        "pill": "",
+        "headline": "CUSTOM CHIPS ARE CRUCIAL FOR CHEAPER AI INFRASTRUCTURE REVENUE",
+        "hl": "CHEAPER AI INFRASTRUCTURE",
+        "hls": [
+          "CHEAPER",
+          "INFRASTRUCTURE"
+        ],
+        "sub": "OpenAI and others are already leveraging custom silicon for AI workloads.",
+        "image_prompt": "A futuristic server room filled with advanced AI hardware, illuminated by ambient lights."
       },
       {
         "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "NEW AI MODEL COVERS CHARACTERS, WORDS, AND SENTENCES EFFECTIVELY",
-        "hl": "CHARACTERS, WORDS, AND SENTENCES",
+        "headline": "CUSTOM AI CHIPS COULD CHANGE ANTHROPIC'S STRATEGY SIGNIFICANTLY",
+        "hl": "CHANGE ANTHROPIC'S STRATEGY",
         "hls": [
-          "CHARACTERS",
-          "WORDS"
-        ],
-        "sub": "Deep learning techniques replaced older recognition methods for better results.",
-        "image_prompt": "A digital representation of brain signals translating into text, with an abstract background."
-      },
-      {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "BRAIN2QWERTY V2 CAN PERFECTLY DECODE 28% OF SENTENCES",
-        "hl": "28% OF SENTENCES",
-        "hls": [
-          "28%",
-          "PERFECTLY DECODE"
-        ],
-        "sub": "This accuracy rate signals a major leap in non-invasive brain tech.",
-        "image_prompt": "A researcher smiling, looking at a computer screen showing decoded sentences."
-      },
-      {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "META'S TECH COULD REPLACE SURGICAL IMPLANTS IN THE FUTURE",
-        "hl": "REPLACE SURGICAL IMPLANTS",
-        "hls": [
-          "REPLACE",
-          "SURGICAL IMPLANTS"
+          "CHANGE",
+          "STRATEGY"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "An imaginative scene depicting a future where brain-to-text technology is widely used."
+        "image_prompt": "A visionary shot of a skyline with technology-themed elements, symbolizing the future of AI."
       }
     ],
     "story": {
-      "title": "Meta's non-invasive brain-to-text AI is closing the gap with surgical implants",
-      "url": "https://the-decoder.com/metas-non-invasive-brain-to-text-ai-is-closing-the-gap-with-surgical-implants/"
+      "title": "Anthropic reportedly explores custom chip manufacturing with Samsung while insisting Nvidia still matters",
+      "url": "https://the-decoder.com/anthropic-reportedly-explores-custom-chip-manufacturing-with-samsung-while-insisting-nvidia-still-matters/"
     },
-    "date": "2026-07-02"
+    "date": "2026-07-03"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 224,
-  "resolved_at": "2026-07-02T06:31:13.821303Z"
+  "control_msg_id": 231
 }
