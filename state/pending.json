@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-07-04T03:56:24.287440Z",
   "deadline_min": 120,
   "caption": "Microsoft is set to launch an overhauled version of Copilot in August 2026, combining consumer and enterprise features for enhanced productivity. This update will introduce AI agents called \"AutoPilot\" to assist with tasks like scheduling. The new app aims to focus on real work outcomes rather than unnecessary intelligence.\n\nHow do you think this will affect productivity in businesses?\n\nSources: The Information, The Decoder, Microsoft press releases\n\n#AI #Microsoft #Copilot #AutoPilot #TechNews #Productivity #Innovation #BusinessAutomation #ArtificialIntelligence",
@@ -19,7 +19,7 @@
     "caption": "Microsoft is set to launch an overhauled version of Copilot in August 2026, combining consumer and enterprise features for enhanced productivity. This update will introduce AI agents called \"AutoPilot\" to assist with tasks like scheduling. The new app aims to focus on real work outcomes rather than unnecessary intelligence.\n\nHow do you think this will affect productivity in businesses?\n\nSources: The Information, The Decoder, Microsoft press releases\n\n#AI #Microsoft #Copilot #AutoPilot #TechNews #Productivity #Innovation #BusinessAutomation #ArtificialIntelligence",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
+        "pill": "BREAKING \ud83d\udd34",
         "headline": "MICROSOFT IS LAUNCHING A NEW VERSION OF COPILOT IN AUGUST 2026",
         "hl": "NEW VERSION OF COPILOT",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "An overhead shot of a workspace with multiple screens displaying AI-driven applications."
       },
       {
-        "pill": "THE TAKEAWAY 🔥",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
         "headline": "MICROSOFT IS ADAPTING TO COMPETE WITH ANTHROPIC AND OPENAI",
         "hl": "COMPETE WITH ANTHROPIC AND OPENAI",
         "hls": [
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 238,
-  "resolved_at": "2026-07-04T05:27:45.811Z"
+  "resolved_at": "2026-07-04T06:31:17.967088Z"
 }
