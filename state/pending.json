@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-04T03:56:24.287440Z",
+  "status": "pending",
+  "created_at": "2026-07-05T03:56:34.708493Z",
   "deadline_min": 120,
-  "caption": "Microsoft is set to launch an overhauled version of Copilot in August 2026, combining consumer and enterprise features for enhanced productivity. This update will introduce AI agents called \"AutoPilot\" to assist with tasks like scheduling. The new app aims to focus on real work outcomes rather than unnecessary intelligence.\n\nHow do you think this will affect productivity in businesses?\n\nSources: The Information, The Decoder, Microsoft press releases\n\n#AI #Microsoft #Copilot #AutoPilot #TechNews #Productivity #Innovation #BusinessAutomation #ArtificialIntelligence",
+  "caption": "Mistral AI has unveiled Leanstral 1.5, an open-source model designed for formal verification in programming. The model achieved a perfect score on miniF2F and solved 587 out of 672 problems on the PutnamBench. It's been effective in identifying bugs in existing code as well. \u2699\ufe0f\n\nCould this model change the landscape of code verification?\n\nSources: The Decoder, Mistral AI\n\n#MistralAI #Leanstral #OpenSource #AI #FormalVerification #MathBenchmarks #Coding #Software #Innovation #Technology #Programming #Bugs",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783137376/everydayhypehq/2026-07-04/035616_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783137377/everydayhypehq/2026-07-04/035616_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783137378/everydayhypehq/2026-07-04/035616_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783137378/everydayhypehq/2026-07-04/035616_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783137379/everydayhypehq/2026-07-04/035616_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223785/everydayhypehq/2026-07-05/035625_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223786/everydayhypehq/2026-07-05/035625_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223787/everydayhypehq/2026-07-05/035625_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223788/everydayhypehq/2026-07-05/035625_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223789/everydayhypehq/2026-07-05/035625_slide_5.png"
   ],
   "plan": {
-    "palette": "purple",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "palette": "green",
+    "art_style": "dramatic macro close-up, shallow depth",
     "layout": "a",
     "person": "",
-    "company": "Microsoft",
-    "caption": "Microsoft is set to launch an overhauled version of Copilot in August 2026, combining consumer and enterprise features for enhanced productivity. This update will introduce AI agents called \"AutoPilot\" to assist with tasks like scheduling. The new app aims to focus on real work outcomes rather than unnecessary intelligence.\n\nHow do you think this will affect productivity in businesses?\n\nSources: The Information, The Decoder, Microsoft press releases\n\n#AI #Microsoft #Copilot #AutoPilot #TechNews #Productivity #Innovation #BusinessAutomation #ArtificialIntelligence",
+    "company": "Mistral AI",
+    "caption": "Mistral AI has unveiled Leanstral 1.5, an open-source model designed for formal verification in programming. The model achieved a perfect score on miniF2F and solved 587 out of 672 problems on the PutnamBench. It's been effective in identifying bugs in existing code as well. \u2699\ufe0f\n\nCould this model change the landscape of code verification?\n\nSources: The Decoder, Mistral AI\n\n#MistralAI #Leanstral #OpenSource #AI #FormalVerification #MathBenchmarks #Coding #Software #Innovation #Technology #Programming #Bugs",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "MICROSOFT IS LAUNCHING A NEW VERSION OF COPILOT IN AUGUST 2026",
-        "hl": "NEW VERSION OF COPILOT",
+        "headline": "MISTRAL AI'S LEANSTRAL 1.5 ACHIEVED 100% ON MINIF2F BENCHMARK",
+        "hl": "100% ON MINIF2F",
         "hls": [
-          "NEW VERSION",
-          "COPILOT"
+          "100%",
+          "MINIF2F"
         ],
-        "sub": "Here's what you need to know.",
-        "image_prompt": "A close-up of a person working on a laptop, with notes and a coffee cup on the table, bright office setting."
+        "sub": "This performance sets a new standard in formal verification.",
+        "image_prompt": "A close-up shot of a computer screen displaying code, with a thoughtful programmer analyzing the output, deep focus on their hands and the screen."
       },
       {
-        "pill": "",
-        "headline": "THE OVERHAUL WILL MERGE CONSUMER AND ENTERPRISE APPS INTO ONE",
-        "hl": "MERGE CONSUMER AND ENTERPRISE",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "LEANSTRAL 1.5 SOLVED 587 OF 672 PROBLEMS ON PUTNAMBENCH",
+        "hl": "SOLVED 587 OF 672",
         "hls": [
-          "MERGE",
-          "ENTERPRISE"
+          "SOLVED 587",
+          "PUTNAMBENCH"
         ],
-        "sub": "This aims to streamline features and improve user experience.",
-        "image_prompt": "A team meeting in a modern office, discussing technology on a digital whiteboard."
+        "sub": "This marks it as a leader among open-source models.",
+        "image_prompt": "A macro image of mathematical equations on a chalkboard, with a hand writing a complex formula."
       },
       {
-        "pill": "",
-        "headline": "NEW AUTO-PILOT AGENTS WILL HANDLE TASKS LIKE SCHEDULING",
-        "hl": "HANDLE TASKS LIKE SCHEDULING",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "LEANSTRAL 1.5 CAUGHT 5 UNKNOWN BUGS IN OPEN-SOURCE CODE",
+        "hl": "CAUGHT 5 UNKNOWN BUGS",
         "hls": [
-          "HANDLE TASKS",
-          "SCHEDULING"
+          "CAUGHT 5",
+          "UNKNOWN BUGS"
         ],
-        "sub": "These AI agents will work in the background to assist users.",
-        "image_prompt": "A person interacting with a digital assistant on a tablet, showing user-friendly interface."
+        "sub": "This includes an overflow bug in the Rust library varinteger.",
+        "image_prompt": "A close-up of a developer's desk cluttered with programming books, a laptop open to a bug report, and a cup of coffee."
       },
       {
-        "pill": "",
-        "headline": "CUSTOMERS WILL PAY EXTRA FOR THE ADDED FEATURES IN COPILOT",
-        "hl": "PAY EXTRA FOR ADDED FEATURES",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "LEANSTRAL 1.5 IS TRAINED FOR BOTH MATH AND CODE VERIFICATION",
+        "hl": "TRAINED FOR MATH AND CODE",
         "hls": [
-          "PAY EXTRA",
-          "ADDED FEATURES"
+          "MATH",
+          "CODE VERIFICATION"
         ],
-        "sub": "This reflects a shift towards monetizing advanced AI functionalities.",
-        "image_prompt": "An overhead shot of a workspace with multiple screens displaying AI-driven applications."
+        "sub": "It combines supervised fine-tuning and reinforcement learning.",
+        "image_prompt": "A detailed shot of a person using a laptop, with visible lines of code and a diagram on the screen."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "MICROSOFT IS ADAPTING TO COMPETE WITH ANTHROPIC AND OPENAI",
-        "hl": "COMPETE WITH ANTHROPIC AND OPENAI",
+        "headline": "LEANSTRAL 1.5 COULD TRANSFORM CODE VERIFICATION EFFORTS",
+        "hl": "TRANSFORM CODE VERIFICATION",
         "hls": [
-          "COMPETE",
-          "OPENAI"
+          "TRANSFORM",
+          "CODE VERIFICATION"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic workspace with people collaborating around advanced technology and screens."
+        "sub": "And it\u2019s available for free through Hugging Face.",
+        "image_prompt": "A focus shot of a diverse group of developers collaborating around a table, looking at a laptop with code on the screen."
       }
     ],
     "story": {
-      "title": "Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents",
-      "url": "https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/"
+      "title": "Mistral's open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code",
+      "url": "https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/"
     },
-    "date": "2026-07-04"
+    "date": "2026-07-05"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 238,
-  "resolved_at": "2026-07-04T06:31:17.967088Z"
+  "control_msg_id": 245
 }
