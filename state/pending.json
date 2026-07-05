@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-07-05T03:56:34.708493Z",
   "deadline_min": 120,
-  "caption": "Mistral AI has unveiled Leanstral 1.5, an open-source model designed for formal verification in programming. The model achieved a perfect score on miniF2F and solved 587 out of 672 problems on the PutnamBench. It's been effective in identifying bugs in existing code as well. \u2699\ufe0f\n\nCould this model change the landscape of code verification?\n\nSources: The Decoder, Mistral AI\n\n#MistralAI #Leanstral #OpenSource #AI #FormalVerification #MathBenchmarks #Coding #Software #Innovation #Technology #Programming #Bugs",
+  "caption": "Mistral AI has unveiled Leanstral 1.5, an open-source model designed for formal verification in programming. The model achieved a perfect score on miniF2F and solved 587 out of 672 problems on the PutnamBench. It's been effective in identifying bugs in existing code as well. ⚙️\n\nCould this model change the landscape of code verification?\n\nSources: The Decoder, Mistral AI\n\n#MistralAI #Leanstral #OpenSource #AI #FormalVerification #MathBenchmarks #Coding #Software #Innovation #Technology #Programming #Bugs",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223785/everydayhypehq/2026-07-05/035625_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223786/everydayhypehq/2026-07-05/035625_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "a",
     "person": "",
     "company": "Mistral AI",
-    "caption": "Mistral AI has unveiled Leanstral 1.5, an open-source model designed for formal verification in programming. The model achieved a perfect score on miniF2F and solved 587 out of 672 problems on the PutnamBench. It's been effective in identifying bugs in existing code as well. \u2699\ufe0f\n\nCould this model change the landscape of code verification?\n\nSources: The Decoder, Mistral AI\n\n#MistralAI #Leanstral #OpenSource #AI #FormalVerification #MathBenchmarks #Coding #Software #Innovation #Technology #Programming #Bugs",
+    "caption": "Mistral AI has unveiled Leanstral 1.5, an open-source model designed for formal verification in programming. The model achieved a perfect score on miniF2F and solved 587 out of 672 problems on the PutnamBench. It's been effective in identifying bugs in existing code as well. ⚙️\n\nCould this model change the landscape of code verification?\n\nSources: The Decoder, Mistral AI\n\n#MistralAI #Leanstral #OpenSource #AI #FormalVerification #MathBenchmarks #Coding #Software #Innovation #Technology #Programming #Bugs",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "MISTRAL AI'S LEANSTRAL 1.5 ACHIEVED 100% ON MINIF2F BENCHMARK",
         "hl": "100% ON MINIF2F",
         "hls": [
@@ -30,7 +30,7 @@
         "image_prompt": "A close-up shot of a computer screen displaying code, with a thoughtful programmer analyzing the output, deep focus on their hands and the screen."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "LEANSTRAL 1.5 SOLVED 587 OF 672 PROBLEMS ON PUTNAMBENCH",
         "hl": "SOLVED 587 OF 672",
         "hls": [
@@ -41,7 +41,7 @@
         "image_prompt": "A macro image of mathematical equations on a chalkboard, with a hand writing a complex formula."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "LEANSTRAL 1.5 CAUGHT 5 UNKNOWN BUGS IN OPEN-SOURCE CODE",
         "hl": "CAUGHT 5 UNKNOWN BUGS",
         "hls": [
@@ -52,7 +52,7 @@
         "image_prompt": "A close-up of a developer's desk cluttered with programming books, a laptop open to a bug report, and a cup of coffee."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "LEANSTRAL 1.5 IS TRAINED FOR BOTH MATH AND CODE VERIFICATION",
         "hl": "TRAINED FOR MATH AND CODE",
         "hls": [
@@ -63,14 +63,14 @@
         "image_prompt": "A detailed shot of a person using a laptop, with visible lines of code and a diagram on the screen."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "LEANSTRAL 1.5 COULD TRANSFORM CODE VERIFICATION EFFORTS",
         "hl": "TRANSFORM CODE VERIFICATION",
         "hls": [
           "TRANSFORM",
           "CODE VERIFICATION"
         ],
-        "sub": "And it\u2019s available for free through Hugging Face.",
+        "sub": "And it’s available for free through Hugging Face.",
         "image_prompt": "A focus shot of a diverse group of developers collaborating around a table, looking at a laptop with code on the screen."
       }
     ],
@@ -81,5 +81,6 @@
     "date": "2026-07-05"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 245
+  "control_msg_id": 245,
+  "resolved_at": "2026-07-05T04:48:09.615Z"
 }
