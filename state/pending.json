@@ -1,86 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-05T03:56:34.708493Z",
+  "status": "pending",
+  "created_at": "2026-07-06T03:56:24.844281Z",
   "deadline_min": 120,
-  "caption": "Mistral AI has unveiled Leanstral 1.5, an open-source model designed for formal verification in programming. The model achieved a perfect score on miniF2F and solved 587 out of 672 problems on the PutnamBench. It's been effective in identifying bugs in existing code as well. \u2699\ufe0f\n\nCould this model change the landscape of code verification?\n\nSources: The Decoder, Mistral AI\n\n#MistralAI #Leanstral #OpenSource #AI #FormalVerification #MathBenchmarks #Coding #Software #Innovation #Technology #Programming #Bugs",
+  "caption": "A new report reveals that serious vulnerabilities in software surged significantly following the release of the Claude Mythos Preview. Specifically, a staggering 3.5 times increase in disclosed CVEs was recorded, highlighting the hidden risks associated with new technologies. 6a0e0f\n\nAre companies doing enough to address these vulnerabilities? \n\nSources: Epoch AI",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223785/everydayhypehq/2026-07-05/035625_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223786/everydayhypehq/2026-07-05/035625_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223787/everydayhypehq/2026-07-05/035625_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223788/everydayhypehq/2026-07-05/035625_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783223789/everydayhypehq/2026-07-05/035625_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783310177/everydayhypehq/2026-07-06/035617_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783310178/everydayhypehq/2026-07-06/035617_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783310179/everydayhypehq/2026-07-06/035617_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783310179/everydayhypehq/2026-07-06/035617_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783310180/everydayhypehq/2026-07-06/035617_slide_5.png"
   ],
   "plan": {
-    "palette": "green",
-    "art_style": "dramatic macro close-up, shallow depth",
+    "palette": "amber",
+    "art_style": "neon glow synthwave, bloom, dark background",
     "layout": "a",
-    "person": "",
-    "company": "Mistral AI",
-    "caption": "Mistral AI has unveiled Leanstral 1.5, an open-source model designed for formal verification in programming. The model achieved a perfect score on miniF2F and solved 587 out of 672 problems on the PutnamBench. It's been effective in identifying bugs in existing code as well. \u2699\ufe0f\n\nCould this model change the landscape of code verification?\n\nSources: The Decoder, Mistral AI\n\n#MistralAI #Leanstral #OpenSource #AI #FormalVerification #MathBenchmarks #Coding #Software #Innovation #Technology #Programming #Bugs",
+    "caption": "A new report reveals that serious vulnerabilities in software surged significantly following the release of the Claude Mythos Preview. Specifically, a staggering 3.5 times increase in disclosed CVEs was recorded, highlighting the hidden risks associated with new technologies. 6a0e0f\n\nAre companies doing enough to address these vulnerabilities? \n\nSources: Epoch AI",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "MISTRAL AI'S LEANSTRAL 1.5 ACHIEVED 100% ON MINIF2F BENCHMARK",
-        "hl": "100% ON MINIF2F",
-        "hls": [
-          "100%",
-          "MINIF2F"
-        ],
-        "sub": "This performance sets a new standard in formal verification.",
-        "image_prompt": "A close-up shot of a computer screen displaying code, with a thoughtful programmer analyzing the output, deep focus on their hands and the screen."
+        "pill": "BREAKING 534",
+        "headline": "SERIOUS VULNERABILITIES SPIKED 3.5d7 AFTER CLAUDE MYTHOS RELEASE",
+        "hl": "3.5d7",
+        "hls": [],
+        "sub": "Here's the alarming trend in software security.",
+        "image_prompt": "A close-up of a computer screen displaying complex code and security alerts, with a person in the background looking concerned."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "LEANSTRAL 1.5 SOLVED 587 OF 672 PROBLEMS ON PUTNAMBENCH",
-        "hl": "SOLVED 587 OF 672",
-        "hls": [
-          "SOLVED 587",
-          "PUTNAMBENCH"
-        ],
-        "sub": "This marks it as a leader among open-source models.",
-        "image_prompt": "A macro image of mathematical equations on a chalkboard, with a hand writing a complex formula."
+        "pill": "",
+        "headline": "THE NUMBER OF DISCLOSED CVEs JUMPED SIGNIFICANTLY IN A SHORT TIME",
+        "hl": "DISCLOSED CVEs JUMPED",
+        "hls": [],
+        "sub": "This spike raises concerns about software safety practices.",
+        "image_prompt": "An overhead shot of a busy tech office with programmers working intensely, screens filled with code."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "LEANSTRAL 1.5 CAUGHT 5 UNKNOWN BUGS IN OPEN-SOURCE CODE",
-        "hl": "CAUGHT 5 UNKNOWN BUGS",
-        "hls": [
-          "CAUGHT 5",
-          "UNKNOWN BUGS"
-        ],
-        "sub": "This includes an overflow bug in the Rust library varinteger.",
-        "image_prompt": "A close-up of a developer's desk cluttered with programming books, a laptop open to a bug report, and a cup of coffee."
+        "pill": "",
+        "headline": "EPOCH AI DOCUMENTED THIS TREND IN THEIR LATEST REPORT",
+        "hl": "LATEST REPORT",
+        "hls": [],
+        "sub": "The findings spotlight urgent issues in cybersecurity.",
+        "image_prompt": "A person reading a security report on a tablet in a modern office environment."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "LEANSTRAL 1.5 IS TRAINED FOR BOTH MATH AND CODE VERIFICATION",
-        "hl": "TRAINED FOR MATH AND CODE",
-        "hls": [
-          "MATH",
-          "CODE VERIFICATION"
-        ],
-        "sub": "It combines supervised fine-tuning and reinforcement learning.",
-        "image_prompt": "A detailed shot of a person using a laptop, with visible lines of code and a diagram on the screen."
+        "pill": "",
+        "headline": "COMPANIES NEED TO ADDRESS THESE RISKS IMMEDIATELY",
+        "hl": "ADDRESS THESE RISKS IMMEDIATELY",
+        "hls": [],
+        "sub": "Timely action is essential to protect systems.",
+        "image_prompt": "A team of cybersecurity experts discussing strategies in a conference room, with charts and graphs on a screen."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "LEANSTRAL 1.5 COULD TRANSFORM CODE VERIFICATION EFFORTS",
-        "hl": "TRANSFORM CODE VERIFICATION",
-        "hls": [
-          "TRANSFORM",
-          "CODE VERIFICATION"
-        ],
-        "sub": "And it\u2019s available for free through Hugging Face.",
-        "image_prompt": "A focus shot of a diverse group of developers collaborating around a table, looking at a laptop with code on the screen."
+        "pill": "",
+        "headline": "AND THIS COULD AFFECT THOUSANDS OF USERS WORLDWIDE",
+        "hl": "AFFECT THOUSANDS OF USERS",
+        "hls": [],
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A global map illuminated by digital connections, indicating the worldwide impact of technology."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "Mistral's open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code",
-      "url": "https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/"
+      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+      "url": "https://epoch.ai/data-insights/cve-severity-spike"
     },
-    "date": "2026-07-05"
+    "date": "2026-07-06"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 245,
-  "resolved_at": "2026-07-05T06:31:17.606529Z"
+  "control_msg_id": 252
 }
