@@ -1,75 +1,75 @@
 {
   "status": "pending",
-  "created_at": "2026-07-07T03:57:24.543858Z",
+  "created_at": "2026-07-07T06:19:54.952543Z",
   "deadline_min": 120,
-  "caption": "AMD has launched the Ryzen AI Halo, a mini-PC designed specifically for AI development. Priced at $3,999.99, it features a 16-core processor and 128 GB of unified memory. 4bb4a1\n\nWhat do you think of this new AI development kit?\n\nSources: LTT Labs, AMD\n\n#AMD #RyzenAI #AIDevelopment #TechNews #Innovations #MiniPC #AI #Hardware #TechLaunch #Gadgets #FutureTech",
+  "caption": "AMD just launched the Ryzen AI Halo, a mini-PC for AI development priced at $3,999.99. It features the powerful Zen 5 Ryzen AI Max+ 395 processor, equipped with integrated Radeon 8060S graphics. This system is designed to streamline AI learning with robust memory and storage capabilities.\n\nAre you excited about this new development kit?\n\nSources: LTT Labs, AMD\n\n#AMD #RyzenAI #AI #TechNews #DevKit #Innovation #MiniPC #AIHardware #Gaming #TechLaunch #ArtificialIntelligence #Hardware",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783396638/everydayhypehq/2026-07-07/035718_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783396638/everydayhypehq/2026-07-07/035718_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783396639/everydayhypehq/2026-07-07/035718_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783396639/everydayhypehq/2026-07-07/035718_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783396640/everydayhypehq/2026-07-07/035718_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783405185/everydayhypehq/2026-07-07/061944_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783405186/everydayhypehq/2026-07-07/061944_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783405187/everydayhypehq/2026-07-07/061944_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783405188/everydayhypehq/2026-07-07/061944_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783405189/everydayhypehq/2026-07-07/061944_slide_5.png"
   ],
   "plan": {
     "palette": "blue",
-    "art_style": "neon glow synthwave, bloom, dark background",
+    "art_style": "isometric miniature diorama, tilt-shift",
     "layout": "c",
-    "caption": "AMD has launched the Ryzen AI Halo, a mini-PC designed specifically for AI development. Priced at $3,999.99, it features a 16-core processor and 128 GB of unified memory. 4bb4a1\n\nWhat do you think of this new AI development kit?\n\nSources: LTT Labs, AMD\n\n#AMD #RyzenAI #AIDevelopment #TechNews #Innovations #MiniPC #AI #Hardware #TechLaunch #Gadgets #FutureTech",
+    "caption": "AMD just launched the Ryzen AI Halo, a mini-PC for AI development priced at $3,999.99. It features the powerful Zen 5 Ryzen AI Max+ 395 processor, equipped with integrated Radeon 8060S graphics. This system is designed to streamline AI learning with robust memory and storage capabilities.\n\nAre you excited about this new development kit?\n\nSources: LTT Labs, AMD\n\n#AMD #RyzenAI #AI #TechNews #DevKit #Innovation #MiniPC #AIHardware #Gaming #TechLaunch #ArtificialIntelligence #Hardware",
     "slides": [
       {
         "pill": "BREAKING 534",
-        "headline": "AMD JUST RELEASED A $4K AI DEV KIT BUILT ON ZEN 5 ARCHITECTURE",
-        "hl": "$4K AI DEV KIT",
+        "headline": "AMD JUST LAUNCHED A $4,000 DEV KIT FOR AI DEVELOPMENT",
+        "hl": "$4,000",
         "hls": [
-          "$4K",
-          "AI DEV KIT"
+          "$4,000",
+          "DEV KIT"
         ],
         "sub": "Here's what you need to know",
-        "image_prompt": "A sleek mini-PC setup with glowing lights, showcasing the AMD Ryzen AI Halo in a modern workspace."
+        "image_prompt": "A sleek mini-PC setup on a modern desk, illuminated by soft blue light, with a close-up of the AMD Ryzen AI Halo device, showcasing its compact design."
       },
       {
-        "pill": "WHAT HAPPENED 6a1",
-        "headline": "THE RYZEN AI HALO INCLUDES A 16-CORE, 32-THREAD AMD RYZEN AI MAX+ 395",
-        "hl": "16-CORE, 32-THREAD",
+        "pill": "",
+        "headline": "IT'S POWERED BY A 16-CORE ZEN 5 PROCESSOR FOR HIGH PERFORMANCE",
+        "hl": "16-CORE ZEN 5",
         "hls": [
           "16-CORE",
-          "32-THREAD"
+          "ZEN 5"
         ],
-        "sub": "This powerful processor is designed for streamlined AI development.",
-        "image_prompt": "Close-up of the Ryzen AI Max+ 395 processor with intricate details and lighting."
+        "sub": "The Ryzen AI Max+ 395 handles demanding AI tasks efficiently.",
+        "image_prompt": "A focused developer working at a computer, with the AMD Ryzen AI Halo prominently displayed on the desk, surrounded by AI coding materials."
       },
       {
-        "pill": "WHY IT MATTERS 1f09a0",
-        "headline": "IT COMES WITH 128 GB OF LPDDR5x MEMORY AND 2 TB SSD STORAGE",
+        "pill": "",
+        "headline": "IT OFFERS 128 GB OF LPDDR5X MEMORY AND 2 TB STORAGE",
         "hl": "128 GB OF MEMORY",
         "hls": [
           "128 GB",
-          "2 TB SSD"
+          "2 TB STORAGE"
         ],
-        "sub": "Ample storage for local models and efficient performance.",
-        "image_prompt": "An organized desk with the Ryzen AI Halo, laptop, and AI development tools."
+        "sub": "This configuration supports multiple AI model setups.",
+        "image_prompt": "An overhead shot of a workspace with various tech gadgets, emphasizing the 2 TB SSD and memory modules, hinting at the hardware's capabilities."
       },
       {
-        "pill": "THE IMPACT 4c8",
-        "headline": "AMD OFFERS THE HALO PRELOADED WITH WINDOWS 11 PRO OR LINUX",
-        "hl": "WINDOWS 11 PRO OR LINUX",
+        "pill": "",
+        "headline": "AVAILABLE FOR $3,999.99, PRELOADED WITH WINDOWS OR LINUX",
+        "hl": "$3,999.99",
         "hls": [
-          "WINDOWS 11",
-          "LINUX"
+          "$3,999.99",
+          "WINDOWS OR LINUX"
         ],
-        "sub": "Users can customize their OS once the kit is in hand.",
-        "image_prompt": "A person interacting with the Ryzen AI Halo, showcasing the interface of the OS."
+        "sub": "Custom OS installation options are also available.",
+        "image_prompt": "A close-up of the AMD Ryzen AI Halo's interface on a monitor, showcasing the software environment, with a user interacting with the device."
       },
       {
         "pill": "THE TAKEAWAY 525",
-        "headline": "AND IT'S AIMED AT AI DEVELOPERS FOR JUST $3,999.99",
-        "hl": "$3,999.99",
+        "headline": "AMD'S AI HALO BOOSTS AI DEVELOPMENT WITH POWERFUL HARDWARE",
+        "hl": "BOOSTS AI DEVELOPMENT",
         "hls": [
-          "AI DEVELOPERS",
-          "$3,999.99"
+          "BOOSTS",
+          "AI DEVELOPMENT"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic workspace setup with ambient lighting highlighting the Ryzen AI Halo."
+        "image_prompt": "A futuristic tech environment with diverse developers collaborating, inspired by the possibilities of the AMD Ryzen AI Halo, highlighting teamwork and innovation."
       }
     ],
     "person": "",
@@ -81,5 +81,5 @@
     "date": "2026-07-07"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 265
+  "control_msg_id": 271
 }
