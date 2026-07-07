@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-07-07T06:19:54.952543Z",
   "deadline_min": 120,
   "caption": "AMD just launched the Ryzen AI Halo, a mini-PC for AI development priced at $3,999.99. It features the powerful Zen 5 Ryzen AI Max+ 395 processor, equipped with integrated Radeon 8060S graphics. This system is designed to streamline AI learning with robust memory and storage capabilities.\n\nAre you excited about this new development kit?\n\nSources: LTT Labs, AMD\n\n#AMD #RyzenAI #AI #TechNews #DevKit #Innovation #MiniPC #AIHardware #Gaming #TechLaunch #ArtificialIntelligence #Hardware",
@@ -81,5 +81,6 @@
     "date": "2026-07-07"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 271
+  "control_msg_id": 271,
+  "resolved_at": "2026-07-07T06:20:17.618Z"
 }
