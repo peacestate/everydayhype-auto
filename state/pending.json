@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "style_iso",
   "created_at": "2026-07-07T03:57:24.543858Z",
   "deadline_min": 120,
   "caption": "AMD has launched the Ryzen AI Halo, a mini-PC designed specifically for AI development. Priced at $3,999.99, it features a 16-core processor and 128 GB of unified memory. 4bb4a1\n\nWhat do you think of this new AI development kit?\n\nSources: LTT Labs, AMD\n\n#AMD #RyzenAI #AIDevelopment #TechNews #Innovations #MiniPC #AI #Hardware #TechLaunch #Gadgets #FutureTech",
@@ -75,7 +75,7 @@
     "person": "",
     "company": "",
     "story": {
-      "title": "AMD Ryzen AI Halo \u2013 $4k AI Dev Kit",
+      "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
       "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo"
     },
     "date": "2026-07-07"
