@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-06T04:13:50.390273Z",
+  "status": "pending",
+  "created_at": "2026-07-07T03:57:24.543858Z",
   "deadline_min": 120,
-  "caption": "A new report shows a staggering 3.5x increase in serious vulnerabilities disclosed following the release of Claude Mythos Preview. This spike raises important questions about software security in AI systems. \ud83d\udea8\n\nAre companies prepared for such vulnerabilities?\n\nSources: Epoch AI",
+  "caption": "AMD has launched the Ryzen AI Halo, a mini-PC designed specifically for AI development. Priced at $3,999.99, it features a 16-core processor and 128 GB of unified memory. 4bb4a1\n\nWhat do you think of this new AI development kit?\n\nSources: LTT Labs, AMD\n\n#AMD #RyzenAI #AIDevelopment #TechNews #Innovations #MiniPC #AI #Hardware #TechLaunch #Gadgets #FutureTech",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783311223/everydayhypehq/2026-07-06/041342_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783311223/everydayhypehq/2026-07-06/041342_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783311224/everydayhypehq/2026-07-06/041342_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783311225/everydayhypehq/2026-07-06/041342_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783311225/everydayhypehq/2026-07-06/041342_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783396638/everydayhypehq/2026-07-07/035718_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783396638/everydayhypehq/2026-07-07/035718_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783396639/everydayhypehq/2026-07-07/035718_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783396639/everydayhypehq/2026-07-07/035718_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783396640/everydayhypehq/2026-07-07/035718_slide_5.png"
   ],
   "plan": {
-    "palette": "amber",
-    "art_style": "isometric miniature diorama, tilt-shift",
+    "palette": "blue",
+    "art_style": "neon glow synthwave, bloom, dark background",
     "layout": "c",
-    "person": "",
-    "company": "Epoch AI",
-    "caption": "A new report shows a staggering 3.5x increase in serious vulnerabilities disclosed following the release of Claude Mythos Preview. This spike raises important questions about software security in AI systems. \ud83d\udea8\n\nAre companies prepared for such vulnerabilities?\n\nSources: Epoch AI",
+    "caption": "AMD has launched the Ryzen AI Halo, a mini-PC designed specifically for AI development. Priced at $3,999.99, it features a 16-core processor and 128 GB of unified memory. 4bb4a1\n\nWhat do you think of this new AI development kit?\n\nSources: LTT Labs, AMD\n\n#AMD #RyzenAI #AIDevelopment #TechNews #Innovations #MiniPC #AI #Hardware #TechLaunch #Gadgets #FutureTech",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "SERIOUS VULNERABILITIES SPIKED 3.5X AFTER CLAUDE MYTHOS RELEASE",
-        "hl": "3.5X AFTER CLAUDE MYTHOS RELEASE",
+        "pill": "BREAKING 534",
+        "headline": "AMD JUST RELEASED A $4K AI DEV KIT BUILT ON ZEN 5 ARCHITECTURE",
+        "hl": "$4K AI DEV KIT",
         "hls": [
-          "3.5X",
-          "CLAUDE MYTHOS"
+          "$4K",
+          "AI DEV KIT"
         ],
-        "sub": "Here's how the AI landscape changed dramatically.",
-        "image_prompt": "A close-up of a computer screen displaying cybersecurity code with a person analyzing it, focused expression, dimly lit room."
+        "sub": "Here's what you need to know",
+        "image_prompt": "A sleek mini-PC setup with glowing lights, showcasing the AMD Ryzen AI Halo in a modern workspace."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "4,000+ newly disclosed CVEs were reported in the last month.",
-        "hl": "4,000+ newly disclosed CVEs",
+        "pill": "WHAT HAPPENED 6a1",
+        "headline": "THE RYZEN AI HALO INCLUDES A 16-CORE, 32-THREAD AMD RYZEN AI MAX+ 395",
+        "hl": "16-CORE, 32-THREAD",
         "hls": [
-          "4,000+",
-          "newly disclosed CVEs"
+          "16-CORE",
+          "32-THREAD"
         ],
-        "sub": "This surge indicates a critical time for software security measures.",
-        "image_prompt": "An office environment with various tech devices and people discussing cybersecurity, papers and laptops scattered around."
+        "sub": "This powerful processor is designed for streamlined AI development.",
+        "image_prompt": "Close-up of the Ryzen AI Max+ 395 processor with intricate details and lighting."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "Companies must address vulnerabilities to protect user data and trust.",
-        "hl": "PROTECT USER DATA AND TRUST",
+        "pill": "WHY IT MATTERS 1f09a0",
+        "headline": "IT COMES WITH 128 GB OF LPDDR5x MEMORY AND 2 TB SSD STORAGE",
+        "hl": "128 GB OF MEMORY",
         "hls": [
-          "PROTECT USER DATA",
-          "AND TRUST"
+          "128 GB",
+          "2 TB SSD"
         ],
-        "sub": "Failure to do so can lead to significant breaches.",
-        "image_prompt": "A serious meeting in a conference room with people discussing cybersecurity strategies, charts and graphs visible on a screen."
+        "sub": "Ample storage for local models and efficient performance.",
+        "image_prompt": "An organized desk with the Ryzen AI Halo, laptop, and AI development tools."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "This spike follows major AI advancements and releases like Claude Mythos.",
-        "hl": "MAJOR AI ADVANCEMENTS",
+        "pill": "THE IMPACT 4c8",
+        "headline": "AMD OFFERS THE HALO PRELOADED WITH WINDOWS 11 PRO OR LINUX",
+        "hl": "WINDOWS 11 PRO OR LINUX",
         "hls": [
-          "MAJOR AI",
-          "ADVANCEMENTS"
+          "WINDOWS 11",
+          "LINUX"
         ],
-        "sub": "The link between AI development and security issues is crucial.",
-        "image_prompt": "A futuristic workspace showcasing advanced technology, with a focus on AI interfaces and security tools."
+        "sub": "Users can customize their OS once the kit is in hand.",
+        "image_prompt": "A person interacting with the Ryzen AI Halo, showcasing the interface of the OS."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "PREPARING FOR SECURITY RISKS IS MORE IMPORTANT THAN EVER.",
-        "hl": "MORE IMPORTANT THAN EVER",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "AND IT'S AIMED AT AI DEVELOPERS FOR JUST $3,999.99",
+        "hl": "$3,999.99",
         "hls": [
-          "SECURITY RISKS",
-          "IMPORTANT"
+          "AI DEVELOPERS",
+          "$3,999.99"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A person looking at a digital security dashboard, surrounded by glowing screens, conveying urgency and focus."
+        "image_prompt": "A futuristic workspace setup with ambient lighting highlighting the Ryzen AI Halo."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
-      "url": "https://epoch.ai/data-insights/cve-severity-spike"
+      "title": "AMD Ryzen AI Halo \u2013 $4k AI Dev Kit",
+      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo"
     },
-    "date": "2026-07-06"
+    "date": "2026-07-07"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 258,
-  "resolved_at": "2026-07-06T06:31:20.586454Z"
+  "control_msg_id": 265
 }
