@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-07T06:19:54.952543Z",
+  "status": "pending",
+  "created_at": "2026-07-08T03:57:50.440683Z",
   "deadline_min": 120,
-  "caption": "AMD just launched the Ryzen AI Halo, a mini-PC for AI development priced at $3,999.99. It features the powerful Zen 5 Ryzen AI Max+ 395 processor, equipped with integrated Radeon 8060S graphics. This system is designed to streamline AI learning with robust memory and storage capabilities.\n\nAre you excited about this new development kit?\n\nSources: LTT Labs, AMD\n\n#AMD #RyzenAI #AI #TechNews #DevKit #Innovation #MiniPC #AIHardware #Gaming #TechLaunch #ArtificialIntelligence #Hardware",
+  "caption": "Small AI models are increasingly being adopted in regions with unreliable networks. These models are critical in pharmaceuticals and healthcare settings, proving their worth in life-saving applications. 30d4a1 \n\nThe growth of these models signifies a shift towards more accessible technology where traditional systems may fail.\n\nShould we invest more in small AI models for global health? \n\nSources: IEEE Spectrum, Spectrum News\n#AI #HealthTech #SmallModels #Pharmaceuticals #Innovation #TechForGood #GlobalHealth #MachineLearning",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783405185/everydayhypehq/2026-07-07/061944_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783405186/everydayhypehq/2026-07-07/061944_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783405187/everydayhypehq/2026-07-07/061944_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783405188/everydayhypehq/2026-07-07/061944_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783405189/everydayhypehq/2026-07-07/061944_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783483063/everydayhypehq/2026-07-08/035742_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783483064/everydayhypehq/2026-07-08/035742_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783483064/everydayhypehq/2026-07-08/035742_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783483065/everydayhypehq/2026-07-08/035742_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783483065/everydayhypehq/2026-07-08/035742_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "isometric miniature diorama, tilt-shift",
-    "layout": "c",
-    "caption": "AMD just launched the Ryzen AI Halo, a mini-PC for AI development priced at $3,999.99. It features the powerful Zen 5 Ryzen AI Max+ 395 processor, equipped with integrated Radeon 8060S graphics. This system is designed to streamline AI learning with robust memory and storage capabilities.\n\nAre you excited about this new development kit?\n\nSources: LTT Labs, AMD\n\n#AMD #RyzenAI #AI #TechNews #DevKit #Innovation #MiniPC #AIHardware #Gaming #TechLaunch #ArtificialIntelligence #Hardware",
+    "palette": "magenta",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "a",
+    "caption": "Small AI models are increasingly being adopted in regions with unreliable networks. These models are critical in pharmaceuticals and healthcare settings, proving their worth in life-saving applications. 30d4a1 \n\nThe growth of these models signifies a shift towards more accessible technology where traditional systems may fail.\n\nShould we invest more in small AI models for global health? \n\nSources: IEEE Spectrum, Spectrum News\n#AI #HealthTech #SmallModels #Pharmaceuticals #Innovation #TechForGood #GlobalHealth #MachineLearning",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "AMD JUST LAUNCHED A $4,000 DEV KIT FOR AI DEVELOPMENT",
-        "hl": "$4,000",
+        "pill": "",
+        "headline": "SMALL AI MODELS ARE RESHAPING HEALTHCARE IN UNRELIABLE NETWORKS",
+        "hl": "RESHAPING HEALTHCARE",
         "hls": [
-          "$4,000",
-          "DEV KIT"
+          "SMALL AI MODELS",
+          "UNRELIABLE NETWORKS"
         ],
-        "sub": "Here's what you need to know",
-        "image_prompt": "A sleek mini-PC setup on a modern desk, illuminated by soft blue light, with a close-up of the AMD Ryzen AI Halo device, showcasing its compact design."
+        "sub": "These models are proving essential in life-saving applications worldwide.",
+        "image_prompt": "A group of healthcare professionals discussing in a dimly lit room, surrounded by medical equipment, with a sense of urgency."
       },
       {
         "pill": "",
-        "headline": "IT'S POWERED BY A 16-CORE ZEN 5 PROCESSOR FOR HIGH PERFORMANCE",
-        "hl": "16-CORE ZEN 5",
+        "headline": "PHARMACEUTICALS ARE LEVERAGING SMALL AI MODELS EFFECTIVELY",
+        "hl": "LEVERAGING SMALL AI MODELS",
         "hls": [
-          "16-CORE",
-          "ZEN 5"
+          "PHARMACEUTICALS",
+          "EFFECTIVELY"
         ],
-        "sub": "The Ryzen AI Max+ 395 handles demanding AI tasks efficiently.",
-        "image_prompt": "A focused developer working at a computer, with the AMD Ryzen AI Halo prominently displayed on the desk, surrounded by AI coding materials."
+        "sub": "Innovative solutions are being developed to enhance drug discovery processes.",
+        "image_prompt": "A laboratory scene with a researcher examining test tubes and small AI devices, immersed in their work."
       },
       {
         "pill": "",
-        "headline": "IT OFFERS 128 GB OF LPDDR5X MEMORY AND 2 TB STORAGE",
-        "hl": "128 GB OF MEMORY",
+        "headline": "LIFE-SAVING DECISIONS ARE POWERED BY SMALL AI TECHNOLOGY",
+        "hl": "POWERED BY SMALL AI TECHNOLOGY",
         "hls": [
-          "128 GB",
-          "2 TB STORAGE"
+          "LIFE-SAVING DECISIONS",
+          "POWERED BY"
         ],
-        "sub": "This configuration supports multiple AI model setups.",
-        "image_prompt": "An overhead shot of a workspace with various tech gadgets, emphasizing the 2 TB SSD and memory modules, hinting at the hardware's capabilities."
+        "sub": "These systems are crucial in remote areas facing connectivity challenges.",
+        "image_prompt": "A remote clinic with a healthcare worker using a tablet, interacting with patients in a rural setting."
       },
       {
         "pill": "",
-        "headline": "AVAILABLE FOR $3,999.99, PRELOADED WITH WINDOWS OR LINUX",
-        "hl": "$3,999.99",
+        "headline": "SMALL AI MODELS HELP OVERCOME CONNECTIVITY ISSUES",
+        "hl": "OVERCOME CONNECTIVITY ISSUES",
         "hls": [
-          "$3,999.99",
-          "WINDOWS OR LINUX"
+          "HELP OVERCOME",
+          "CONNECTIVITY ISSUES"
         ],
-        "sub": "Custom OS installation options are also available.",
-        "image_prompt": "A close-up of the AMD Ryzen AI Halo's interface on a monitor, showcasing the software environment, with a user interacting with the device."
+        "sub": "They are designed to function effectively even in low-bandwidth environments.",
+        "image_prompt": "An outdoor health camp with people receiving care, showcasing a blend of technology and community."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "AMD'S AI HALO BOOSTS AI DEVELOPMENT WITH POWERFUL HARDWARE",
-        "hl": "BOOSTS AI DEVELOPMENT",
+        "pill": "",
+        "headline": "THE RISE OF SMALL AI MODELS IS CRUCIAL FOR HEALTHCARE ACCESS",
+        "hl": "CRUCIAL FOR HEALTHCARE ACCESS",
         "hls": [
-          "BOOSTS",
-          "AI DEVELOPMENT"
+          "RISE OF SMALL AI",
+          "HEALTHCARE ACCESS"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic tech environment with diverse developers collaborating, inspired by the possibilities of the AMD Ryzen AI Halo, highlighting teamwork and innovation."
+        "sub": "This trend emphasizes the importance of accessible technology for global health.",
+        "image_prompt": "A visual metaphor of a small AI model depicted in a cloud of data, symbolizing its impact on healthcare."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "AMD Ryzen AI Halo \u2013 $4k AI Dev Kit",
-      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo"
+      "title": "Small AI Models Gain Traction In places with unreliable networks",
+      "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals"
     },
-    "date": "2026-07-07"
+    "date": "2026-07-08"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 271,
-  "resolved_at": "2026-07-07T06:31:31.235865Z"
+  "control_msg_id": 278
 }
