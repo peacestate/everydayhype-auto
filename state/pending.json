@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-07-08T16:56:50.151210Z",
   "deadline_min": 120,
   "caption": "Mistral AI has launched Robostral Navigate, an 8B model enabling robots to autonomously navigate using just a single RGB camera. This innovative model achieved a 76.6% success rate on unseen benchmarks while outperforming multi-sensor systems. 31f916\n\nHow do you think AI will change robotics?\n\nSources: Mistral AI, TechCrunch\n#MistralAI #Robotics #AI #Technology #Innovation #RobostralNavigate #ArtificialIntelligence #Automation #TechNews #MachineLearning",
@@ -66,5 +66,6 @@
     "date": "2026-07-08"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 284
+  "control_msg_id": 284,
+  "resolved_at": "2026-07-08T16:57:13.737Z"
 }
