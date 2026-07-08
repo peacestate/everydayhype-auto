@@ -1,85 +1,70 @@
 {
   "status": "pending",
-  "created_at": "2026-07-08T03:57:50.440683Z",
+  "created_at": "2026-07-08T16:56:50.151210Z",
   "deadline_min": 120,
-  "caption": "Small AI models are increasingly being adopted in regions with unreliable networks. These models are critical in pharmaceuticals and healthcare settings, proving their worth in life-saving applications. 30d4a1 \n\nThe growth of these models signifies a shift towards more accessible technology where traditional systems may fail.\n\nShould we invest more in small AI models for global health? \n\nSources: IEEE Spectrum, Spectrum News\n#AI #HealthTech #SmallModels #Pharmaceuticals #Innovation #TechForGood #GlobalHealth #MachineLearning",
+  "caption": "Mistral AI has launched Robostral Navigate, an 8B model enabling robots to autonomously navigate using just a single RGB camera. This innovative model achieved a 76.6% success rate on unseen benchmarks while outperforming multi-sensor systems. 31f916\n\nHow do you think AI will change robotics?\n\nSources: Mistral AI, TechCrunch\n#MistralAI #Robotics #AI #Technology #Innovation #RobostralNavigate #ArtificialIntelligence #Automation #TechNews #MachineLearning",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783483063/everydayhypehq/2026-07-08/035742_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783483064/everydayhypehq/2026-07-08/035742_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783483064/everydayhypehq/2026-07-08/035742_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783483065/everydayhypehq/2026-07-08/035742_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783483065/everydayhypehq/2026-07-08/035742_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783529802/everydayhypehq/2026-07-08/165642_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783529803/everydayhypehq/2026-07-08/165642_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783529804/everydayhypehq/2026-07-08/165642_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783529804/everydayhypehq/2026-07-08/165642_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783529805/everydayhypehq/2026-07-08/165642_slide_5.png"
   ],
   "plan": {
     "palette": "magenta",
-    "art_style": "double-exposure, silhouette blended with data",
+    "art_style": "neon glow synthwave, bloom, dark background",
     "layout": "a",
-    "caption": "Small AI models are increasingly being adopted in regions with unreliable networks. These models are critical in pharmaceuticals and healthcare settings, proving their worth in life-saving applications. 30d4a1 \n\nThe growth of these models signifies a shift towards more accessible technology where traditional systems may fail.\n\nShould we invest more in small AI models for global health? \n\nSources: IEEE Spectrum, Spectrum News\n#AI #HealthTech #SmallModels #Pharmaceuticals #Innovation #TechForGood #GlobalHealth #MachineLearning",
+    "caption": "Mistral AI has launched Robostral Navigate, an 8B model enabling robots to autonomously navigate using just a single RGB camera. This innovative model achieved a 76.6% success rate on unseen benchmarks while outperforming multi-sensor systems. 31f916\n\nHow do you think AI will change robotics?\n\nSources: Mistral AI, TechCrunch\n#MistralAI #Robotics #AI #Technology #Innovation #RobostralNavigate #ArtificialIntelligence #Automation #TechNews #MachineLearning",
     "slides": [
       {
-        "pill": "",
-        "headline": "SMALL AI MODELS ARE RESHAPING HEALTHCARE IN UNRELIABLE NETWORKS",
-        "hl": "RESHAPING HEALTHCARE",
-        "hls": [
-          "SMALL AI MODELS",
-          "UNRELIABLE NETWORKS"
-        ],
-        "sub": "These models are proving essential in life-saving applications worldwide.",
-        "image_prompt": "A group of healthcare professionals discussing in a dimly lit room, surrounded by medical equipment, with a sense of urgency."
+        "pill": "BREAKING 534",
+        "headline": "MISTRAL AI JUST LAUNCHED ROBOSTRAL NAVIGATE WITH 76.6% SUCCESS RATE",
+        "hl": "76.6% SUCCESS RATE",
+        "hls": [],
+        "sub": "Here's the breakthrough in robotics navigation.",
+        "image_prompt": "A robot navigating a complex environment with people in the background, vibrant colors, neon glow effects."
       },
       {
         "pill": "",
-        "headline": "PHARMACEUTICALS ARE LEVERAGING SMALL AI MODELS EFFECTIVELY",
-        "hl": "LEVERAGING SMALL AI MODELS",
-        "hls": [
-          "PHARMACEUTICALS",
-          "EFFECTIVELY"
-        ],
-        "sub": "Innovative solutions are being developed to enhance drug discovery processes.",
-        "image_prompt": "A laboratory scene with a researcher examining test tubes and small AI devices, immersed in their work."
+        "headline": "IT USES ONLY ONE RGB CAMERA, NO DEPTH SENSORS REQUIRED",
+        "hl": "ONLY ONE RGB CAMERA",
+        "hls": [],
+        "sub": "Robostral Navigate outperforms multi-sensor approaches while being more efficient.",
+        "image_prompt": "Close-up of an RGB camera mounted on a robot, showcasing advanced technology, glowing lights."
       },
       {
         "pill": "",
-        "headline": "LIFE-SAVING DECISIONS ARE POWERED BY SMALL AI TECHNOLOGY",
-        "hl": "POWERED BY SMALL AI TECHNOLOGY",
-        "hls": [
-          "LIFE-SAVING DECISIONS",
-          "POWERED BY"
-        ],
-        "sub": "These systems are crucial in remote areas facing connectivity challenges.",
-        "image_prompt": "A remote clinic with a healthcare worker using a tablet, interacting with patients in a rural setting."
+        "headline": "OUTPERFORMING THE BEST SINGLE-CAMERA APPROACH BY 9.7 POINTS",
+        "hl": "OUTPERFORMING SINGLE-CAMERA",
+        "hls": [],
+        "sub": "The model achieved a 76.6% success rate on unseen benchmarks.",
+        "image_prompt": "A side view of a robot successfully navigating through office obstacles, with dynamic lighting."
       },
       {
         "pill": "",
-        "headline": "SMALL AI MODELS HELP OVERCOME CONNECTIVITY ISSUES",
-        "hl": "OVERCOME CONNECTIVITY ISSUES",
-        "hls": [
-          "HELP OVERCOME",
-          "CONNECTIVITY ISSUES"
-        ],
-        "sub": "They are designed to function effectively even in low-bandwidth environments.",
-        "image_prompt": "An outdoor health camp with people receiving care, showcasing a blend of technology and community."
+        "headline": "DESIGNED FOR ROBOTIC NAVIGATION IN DIVERSE ENVIRONMENTS",
+        "hl": "DIVERSE ENVIRONMENTS",
+        "hls": [],
+        "sub": "Robostral Navigate adapts to offices, homes, and outdoor settings.",
+        "image_prompt": "An outdoor scene where a robot is navigating through a park with people walking by."
       },
       {
-        "pill": "",
-        "headline": "THE RISE OF SMALL AI MODELS IS CRUCIAL FOR HEALTHCARE ACCESS",
-        "hl": "CRUCIAL FOR HEALTHCARE ACCESS",
-        "hls": [
-          "RISE OF SMALL AI",
-          "HEALTHCARE ACCESS"
-        ],
-        "sub": "This trend emphasizes the importance of accessible technology for global health.",
-        "image_prompt": "A visual metaphor of a small AI model depicted in a cloud of data, symbolizing its impact on healthcare."
+        "pill": "THE TAKEAWAY 625",
+        "headline": "THIS MODEL PAVES THE WAY FOR UNIFIED EMBODIED AI IN ROBOTICS",
+        "hl": "UNIFIED EMBODIED AI",
+        "hls": [],
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A futuristic setting showcasing various types of robots in action, with vibrant neon lighting."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Small AI Models Gain Traction In places with unreliable networks",
-      "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals"
+      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
+      "url": "https://mistral.ai/news/robostral-navigate/"
     },
     "date": "2026-07-08"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 278
+  "control_msg_id": 284
 }
