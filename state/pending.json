@@ -1,85 +1,70 @@
 {
   "status": "pending",
-  "created_at": "2026-07-09T03:57:35.154612Z",
+  "created_at": "2026-07-10T03:59:22.737083Z",
   "deadline_min": 120,
-  "caption": "Mistral has launched Robostral Navigate, an innovative AI model for robot navigation that operates using just one RGB camera. This 8B model achieved a success rate of 79.4% on the R2R-CE benchmark, outperforming other methods. 680916\n\nHow do you see AI enhancing robotics in the future?\n\nSources: The Decoder\n#Mistral #Robotics #AI #RobostralNavigate #Innovation #TechNews #RobotNavigation #ArtificialIntelligence #Benchmark #R2RCE #AIModels #Technology",
+  "caption": "OpenAI has just launched its latest models, including the powerful GPT-5.6, designed for coding, enterprise work, and cybersecurity. CEO Sam Altman claims that the new models are significantly more efficient than previous versions. How will these advancements shape the AI landscape? \n\nShould businesses adopt these new models? \n\nSources: TechCrunch, CNBC\n\n#OpenAI #GPT56 #AI #technology #innovation #coding #cybersecurity #enterprise #SamAltman #TechNews #AIModels\n\n\ud83d\udcf7 Cover photo: \u9996\u76f8\u5b98\u90b8\u30db\u30fc\u30e0\u30da\u30fc\u30b8 \u00b7 CC BY 4.0",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783569447/everydayhypehq/2026-07-09/035727_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783569448/everydayhypehq/2026-07-09/035727_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783569449/everydayhypehq/2026-07-09/035727_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783569449/everydayhypehq/2026-07-09/035727_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783569450/everydayhypehq/2026-07-09/035727_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655953/everydayhypehq/2026-07-10/035913_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655954/everydayhypehq/2026-07-10/035913_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655955/everydayhypehq/2026-07-10/035913_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655956/everydayhypehq/2026-07-10/035913_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655956/everydayhypehq/2026-07-10/035913_slide_5.png"
   ],
   "plan": {
     "palette": "cyan",
     "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "b",
-    "caption": "Mistral has launched Robostral Navigate, an innovative AI model for robot navigation that operates using just one RGB camera. This 8B model achieved a success rate of 79.4% on the R2R-CE benchmark, outperforming other methods. 680916\n\nHow do you see AI enhancing robotics in the future?\n\nSources: The Decoder\n#Mistral #Robotics #AI #RobostralNavigate #Innovation #TechNews #RobotNavigation #ArtificialIntelligence #Benchmark #R2RCE #AIModels #Technology",
+    "person": "Sam Altman",
+    "company": "OpenAI",
+    "caption": "OpenAI has just launched its latest models, including the powerful GPT-5.6, designed for coding, enterprise work, and cybersecurity. CEO Sam Altman claims that the new models are significantly more efficient than previous versions. How will these advancements shape the AI landscape? \n\nShould businesses adopt these new models? \n\nSources: TechCrunch, CNBC\n\n#OpenAI #GPT56 #AI #technology #innovation #coding #cybersecurity #enterprise #SamAltman #TechNews #AIModels\n\n\ud83d\udcf7 Cover photo: \u9996\u76f8\u5b98\u90b8\u30db\u30fc\u30e0\u30da\u30fc\u30b8 \u00b7 CC BY 4.0",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "MISTRAL JUST UNVEILED AN 8B MODEL THAT NAVIGATES ROBOTS WITH ONE CAMERA",
-        "hl": "NAVIGATES ROBOTS WITH ONE CAMERA",
-        "hls": [
-          "MISTRAL JUST UNVEILED",
-          "AN 8B MODEL"
-        ],
-        "sub": "Here's the breakthrough in robotics navigation.",
-        "image_prompt": "A robotic arm navigating through a complex indoor environment, illuminated with soft lighting, showcasing advanced technology."
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "OPENAI JUST LAUNCHED GPT-5.6 WITH 54% MORE TOKEN EFFICIENCY",
+        "hl": "54% MORE TOKEN EFFICIENCY",
+        "hls": [],
+        "sub": "This efficiency boosts performance significantly in AI coding tasks.",
+        "image_prompt": "A close-up of an AI model in an office setting, with a focus on a computer screen displaying code, and a person analyzing the screen in a thoughtful manner."
       },
       {
         "pill": "",
-        "headline": "THE ROBOSTRAL NAVIGATE ACHIEVES A 79.4% SUCCESS RATE ON R2R-CE",
-        "hl": "79.4% SUCCESS RATE",
-        "hls": [
-          "SUCCESS RATE",
-          "R2R-CE"
-        ],
-        "sub": "It exceeds both single-camera and depth sensor systems.",
-        "image_prompt": "A close-up of a robot equipped with a single camera, analyzing its surroundings in a dynamic outdoor setting."
+        "headline": "GPT-5.6 COMES IN THREE VARIANTS: SOL, TERRA, AND LUNA",
+        "hl": "THREE VARIANTS: SOL, TERRA, AND LUNA",
+        "hls": [],
+        "sub": "These variants cater to different user needs and budgets effectively.",
+        "image_prompt": "A visually engaging workspace featuring three distinct AI model representations, with a person discussing features with colleagues."
       },
       {
         "pill": "",
-        "headline": "BUILT IN-HOUSE WITH 400,000 RECORDED PATHS IN SIMULATED ENVIRONMENTS",
-        "hl": "400,000 RECORDED PATHS",
-        "hls": [
-          "BUILT IN-HOUSE",
-          "RECORDED PATHS"
-        ],
-        "sub": "The model was trained in 6,000 different virtual spaces.",
-        "image_prompt": "A computer screen showing simulation software with virtual paths, while a developer observes in the background."
+        "headline": "IT'S NOW OPENAI'S STRONGEST CYBERSECURITY MODEL YET",
+        "hl": "STRONGEST CYBERSECURITY MODEL YET",
+        "hls": [],
+        "sub": "It achieves impressive performance while using significantly fewer tokens overall.",
+        "image_prompt": "A cybersecurity team in a modern office setting, analyzing data on screens, with focus on real-time threat monitoring."
       },
       {
         "pill": "",
-        "headline": "MISTRAL PLANS TO CONTINUE IMPROVING THE MODEL FOR ROBOTICS",
-        "hl": "CONTINUE IMPROVING",
-        "hls": [
-          "MISTRAL PLANS",
-          "FOR ROBOTICS"
-        ],
-        "sub": "Reinforcement learning boosted the success rate by 3.2 percentage points.",
-        "image_prompt": "A team of engineers discussing and analyzing data on a large screen, with robot prototypes in the background."
+        "headline": "GPT-5.6 SUPPORTS DEFENSIVE ACTIVITIES LIKE CODE REVIEW",
+        "hl": "DEFENSIVE ACTIVITIES LIKE CODE REVIEW",
+        "hls": [],
+        "sub": "This model includes advanced threat modeling and blue teaming capabilities.",
+        "image_prompt": "A group of IT professionals engaged in a blue teaming exercise, with data diagrams and cybersecurity elements surrounding them."
       },
       {
-        "pill": "THE TAKEAWAY 625",
-        "headline": "AND IT HITS A 79.4% SUCCESS RATE ON R2R-CE",
-        "hl": "79.4% SUCCESS RATE",
-        "hls": [
-          "HITS A",
-          "SUCCESS RATE"
-        ],
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "AND IT RIVALS COMPETITORS LIKE ANTHROPIC IN PERFORMANCE",
+        "hl": "RIVALS COMPETITORS LIKE ANTHROPIC",
+        "hls": [],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic scene showcasing various types of robots (wheeled, legged, flying) working together harmoniously in a smart city."
+        "image_prompt": "A competitive tech environment with representatives from OpenAI and Anthropic discussing their models, with a tense yet collaborative atmosphere."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Mistral enters robotics with Robostral Navigate, an 8B model that steers robots using just one camera",
-      "url": "https://the-decoder.com/mistral-enters-robotics-with-robostral-navigate-an-8b-model-that-steers-robots-using-just-one-camera/"
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"
     },
-    "date": "2026-07-09"
+    "date": "2026-07-10"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 291
+  "control_msg_id": 297
 }
