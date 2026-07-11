@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "style_iso",
   "created_at": "2026-07-10T03:59:22.737083Z",
   "deadline_min": 120,
-  "caption": "OpenAI has just launched its latest models, including the powerful GPT-5.6, designed for coding, enterprise work, and cybersecurity. CEO Sam Altman claims that the new models are significantly more efficient than previous versions. How will these advancements shape the AI landscape? \n\nShould businesses adopt these new models? \n\nSources: TechCrunch, CNBC\n\n#OpenAI #GPT56 #AI #technology #innovation #coding #cybersecurity #enterprise #SamAltman #TechNews #AIModels\n\n\ud83d\udcf7 Cover photo: \u9996\u76f8\u5b98\u90b8\u30db\u30fc\u30e0\u30da\u30fc\u30b8 \u00b7 CC BY 4.0",
+  "caption": "OpenAI has just launched its latest models, including the powerful GPT-5.6, designed for coding, enterprise work, and cybersecurity. CEO Sam Altman claims that the new models are significantly more efficient than previous versions. How will these advancements shape the AI landscape? \n\nShould businesses adopt these new models? \n\nSources: TechCrunch, CNBC\n\n#OpenAI #GPT56 #AI #technology #innovation #coding #cybersecurity #enterprise #SamAltman #TechNews #AIModels\n\n📷 Cover photo: 首相官邸ホームページ · CC BY 4.0",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655953/everydayhypehq/2026-07-10/035913_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655954/everydayhypehq/2026-07-10/035913_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "b",
     "person": "Sam Altman",
     "company": "OpenAI",
-    "caption": "OpenAI has just launched its latest models, including the powerful GPT-5.6, designed for coding, enterprise work, and cybersecurity. CEO Sam Altman claims that the new models are significantly more efficient than previous versions. How will these advancements shape the AI landscape? \n\nShould businesses adopt these new models? \n\nSources: TechCrunch, CNBC\n\n#OpenAI #GPT56 #AI #technology #innovation #coding #cybersecurity #enterprise #SamAltman #TechNews #AIModels\n\n\ud83d\udcf7 Cover photo: \u9996\u76f8\u5b98\u90b8\u30db\u30fc\u30e0\u30da\u30fc\u30b8 \u00b7 CC BY 4.0",
+    "caption": "OpenAI has just launched its latest models, including the powerful GPT-5.6, designed for coding, enterprise work, and cybersecurity. CEO Sam Altman claims that the new models are significantly more efficient than previous versions. How will these advancements shape the AI landscape? \n\nShould businesses adopt these new models? \n\nSources: TechCrunch, CNBC\n\n#OpenAI #GPT56 #AI #technology #innovation #coding #cybersecurity #enterprise #SamAltman #TechNews #AIModels\n\n📷 Cover photo: 首相官邸ホームページ · CC BY 4.0",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "OPENAI JUST LAUNCHED GPT-5.6 WITH 54% MORE TOKEN EFFICIENCY",
         "hl": "54% MORE TOKEN EFFICIENCY",
         "hls": [],
@@ -51,7 +51,7 @@
         "image_prompt": "A group of IT professionals engaged in a blue teaming exercise, with data diagrams and cybersecurity elements surrounding them."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AND IT RIVALS COMPETITORS LIKE ANTHROPIC IN PERFORMANCE",
         "hl": "RIVALS COMPETITORS LIKE ANTHROPIC",
         "hls": [],
