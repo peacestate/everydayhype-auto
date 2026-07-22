@@ -1,70 +1,29 @@
 {
-  "status": "style_iso",
-  "created_at": "2026-07-10T03:59:22.737083Z",
-  "deadline_min": 120,
-  "caption": "OpenAI has just launched its latest models, including the powerful GPT-5.6, designed for coding, enterprise work, and cybersecurity. CEO Sam Altman claims that the new models are significantly more efficient than previous versions. How will these advancements shape the AI landscape? \n\nShould businesses adopt these new models? \n\nSources: TechCrunch, CNBC\n\n#OpenAI #GPT56 #AI #technology #innovation #coding #cybersecurity #enterprise #SamAltman #TechNews #AIModels\n\n📷 Cover photo: 首相官邸ホームページ · CC BY 4.0",
+  "status": "approved",
+  "created_at": "2026-07-21T03:57:13Z",
+  "resolved_at": "2026-07-23T00:00:00Z",
+  "caption": "Google is reportedly developing a custom chip \u2014 codenamed \"Frozen v2\" \u2014 that bakes Gemini's model architecture directly into the silicon.\n\nInstead of running the AI on general-purpose accelerators, hard-wiring its structure into the hardware could reportedly make it 6 to 10\u00d7 more efficient at Gemini workloads.\n\nIf it ships, it could sharply cut the cost and energy of serving AI at Google's scale \u2014 and squeeze rivals still leaning on off-the-shelf GPUs.\n\nWould a model-specific chip give Google a real edge, or lock it into today's architecture? \ud83d\udc47\n\nSources: tech industry reports\n\n#Google #Gemini #AIchips #FrozenV2 #semiconductors #AI #machinelearning #technology #innovation #JeffDean #TechNews #hardware",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655953/everydayhypehq/2026-07-10/035913_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655954/everydayhypehq/2026-07-10/035913_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655955/everydayhypehq/2026-07-10/035913_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655956/everydayhypehq/2026-07-10/035913_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1783655956/everydayhypehq/2026-07-10/035913_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_5.png"
   ],
   "plan": {
+    "date": "2026-07-21",
     "palette": "cyan",
     "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "b",
-    "person": "Sam Altman",
-    "company": "OpenAI",
-    "caption": "OpenAI has just launched its latest models, including the powerful GPT-5.6, designed for coding, enterprise work, and cybersecurity. CEO Sam Altman claims that the new models are significantly more efficient than previous versions. How will these advancements shape the AI landscape? \n\nShould businesses adopt these new models? \n\nSources: TechCrunch, CNBC\n\n#OpenAI #GPT56 #AI #technology #innovation #coding #cybersecurity #enterprise #SamAltman #TechNews #AIModels\n\n📷 Cover photo: 首相官邸ホームページ · CC BY 4.0",
+    "person": "Jeff Dean",
+    "company": "Google",
+    "story": { "title": "Google's \"Frozen v2\" chip reportedly bakes Gemini's architecture directly into silicon for efficiency gains" },
     "slides": [
-      {
-        "pill": "BREAKING 🔴",
-        "headline": "OPENAI JUST LAUNCHED GPT-5.6 WITH 54% MORE TOKEN EFFICIENCY",
-        "hl": "54% MORE TOKEN EFFICIENCY",
-        "hls": [],
-        "sub": "This efficiency boosts performance significantly in AI coding tasks.",
-        "image_prompt": "A close-up of an AI model in an office setting, with a focus on a computer screen displaying code, and a person analyzing the screen in a thoughtful manner."
-      },
-      {
-        "pill": "",
-        "headline": "GPT-5.6 COMES IN THREE VARIANTS: SOL, TERRA, AND LUNA",
-        "hl": "THREE VARIANTS: SOL, TERRA, AND LUNA",
-        "hls": [],
-        "sub": "These variants cater to different user needs and budgets effectively.",
-        "image_prompt": "A visually engaging workspace featuring three distinct AI model representations, with a person discussing features with colleagues."
-      },
-      {
-        "pill": "",
-        "headline": "IT'S NOW OPENAI'S STRONGEST CYBERSECURITY MODEL YET",
-        "hl": "STRONGEST CYBERSECURITY MODEL YET",
-        "hls": [],
-        "sub": "It achieves impressive performance while using significantly fewer tokens overall.",
-        "image_prompt": "A cybersecurity team in a modern office setting, analyzing data on screens, with focus on real-time threat monitoring."
-      },
-      {
-        "pill": "",
-        "headline": "GPT-5.6 SUPPORTS DEFENSIVE ACTIVITIES LIKE CODE REVIEW",
-        "hl": "DEFENSIVE ACTIVITIES LIKE CODE REVIEW",
-        "hls": [],
-        "sub": "This model includes advanced threat modeling and blue teaming capabilities.",
-        "image_prompt": "A group of IT professionals engaged in a blue teaming exercise, with data diagrams and cybersecurity elements surrounding them."
-      },
-      {
-        "pill": "THE TAKEAWAY 🔥",
-        "headline": "AND IT RIVALS COMPETITORS LIKE ANTHROPIC IN PERFORMANCE",
-        "hl": "RIVALS COMPETITORS LIKE ANTHROPIC",
-        "hls": [],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A competitive tech environment with representatives from OpenAI and Anthropic discussing their models, with a tense yet collaborative atmosphere."
-      }
-    ],
-    "story": {
-      "title": "OpenAI launches its new family of models with GPT-5.6",
-      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"
-    },
-    "date": "2026-07-10"
-  },
-  "chat_id": 8692339206,
-  "control_msg_id": 297
+      { "image_prompt": "Frozen v2 chip macro, Gemini architecture etched into silicon" },
+      { "image_prompt": "data center TPU racks, cyan volumetric light" },
+      { "image_prompt": "wafer with AI circuit motifs, double exposure" },
+      { "image_prompt": "engineer inspecting custom AI accelerator" },
+      { "image_prompt": "Google logo over glowing silicon die" }
+    ]
+  }
 }
