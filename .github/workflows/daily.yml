@@ -76,12 +76,15 @@ jobs:
 
       - name: Upload preview slides
         if: always()
+        continue-on-error: true      # a non-essential preview must NEVER fail the run and
+                                     # skip the queue-commit below (storage-quota errors did
+                                     # exactly that, freezing pending.json since 2026-07-10)
         uses: actions/upload-artifact@v4
         with:
           name: carousel-slides
           path: work/slides/*.png
           if-no-files-found: warn
-          retention-days: 7
+          retention-days: 1
 
       - name: Persist queued post (state/pending.json)
         if: ${{ !inputs.dry_run }}
