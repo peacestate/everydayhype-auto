@@ -28,6 +28,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 75
     steps:
+      # Open the repo to public for the whole draft + Telegram-approval window.
+      # publish.yml flips it back to private the moment the Instagram post lands.
+      - name: Make repo public (draft/approval window open)
+        env:
+          GH_TOKEN: ${{ secrets.ADMIN_PAT }}
+        run: gh api -X PATCH "repos/${{ github.repository }}" -F private=false
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5

@@ -46,3 +46,12 @@ jobs:
           git pull --rebase --autostash origin main || true
           git add state/ && git commit -m "publish: $(date -u +%F-%H%M)" || echo "no changes"
           git push || echo "push skipped"
+
+      # Post is live -> close the repo back to private. Runs only if the publish
+      # step above succeeded (a failed/aborted post leaves the repo public so you
+      # can inspect/retry).
+      - name: Make repo private (post is live)
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.ADMIN_PAT }}
+        run: gh api -X PATCH "repos/${{ github.repository }}" -F private=true
