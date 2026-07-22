@@ -41,8 +41,8 @@ jobs:
 
       - name: Persist ledger
         run: |
-          git config user.name  "everydayhype-bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.name  "peacestate"
+          git config user.email "229365184+peacestate@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
           git add state/ && git commit -m "recover: republished 4:32 approved carousel with original images" || echo "no changes"
           git push || echo "push skipped"

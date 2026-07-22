@@ -35,8 +35,8 @@ jobs:
 
       - name: Persist state (examples / pending / queue)
         run: |
-          git config user.name  "everydayhype-bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.name  "peacestate"
+          git config user.email "229365184+peacestate@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
           git add examples.md state/ 2>/dev/null || true
           git commit -m "maintain: telegram state $(date -u +%F-%H%M)" || echo "no changes"

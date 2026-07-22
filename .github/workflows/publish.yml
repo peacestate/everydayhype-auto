@@ -41,8 +41,8 @@ jobs:
           python -c "import sys; sys.path.insert(0,'.'); from steps import agent; agent.publish_approved()"
       - name: Persist ledger / cleared pending
         run: |
-          git config user.name  "everydayhype-bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.name  "peacestate"
+          git config user.email "229365184+peacestate@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
           git add state/ && git commit -m "publish: $(date -u +%F-%H%M)" || echo "no changes"
           git push || echo "push skipped"

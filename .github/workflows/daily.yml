@@ -79,8 +79,8 @@ jobs:
       - name: Persist queued post (state/pending.json)
         if: ${{ !inputs.dry_run }}
         run: |
-          git config user.name  "everydayhype-bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.name  "peacestate"
+          git config user.email "229365184+peacestate@users.noreply.github.com"
           git add state/
           git commit -m "queue: $(date -u +%F)" || echo "no changes"
           # The freshly generated post is authoritative. Bring in remote history but keep OUR
