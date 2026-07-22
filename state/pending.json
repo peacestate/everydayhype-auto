@@ -1,7 +1,7 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-07-21T03:57:13Z",
-  "resolved_at": "2026-07-23T00:00:00Z",
+  "resolved_at": "2026-07-22T22:44:36.901735Z",
   "caption": "Google is reportedly developing a custom chip \u2014 codenamed \"Frozen v2\" \u2014 that bakes Gemini's model architecture directly into the silicon.\n\nInstead of running the AI on general-purpose accelerators, hard-wiring its structure into the hardware could reportedly make it 6 to 10\u00d7 more efficient at Gemini workloads.\n\nIf it ships, it could sharply cut the cost and energy of serving AI at Google's scale \u2014 and squeeze rivals still leaning on off-the-shelf GPUs.\n\nWould a model-specific chip give Google a real edge, or lock it into today's architecture? \ud83d\udc47\n\nSources: tech industry reports\n\n#Google #Gemini #AIchips #FrozenV2 #semiconductors #AI #machinelearning #technology #innovation #JeffDean #TechNews #hardware",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_1.png",
@@ -17,13 +17,25 @@
     "layout": "b",
     "person": "Jeff Dean",
     "company": "Google",
-    "story": { "title": "Google's \"Frozen v2\" chip reportedly bakes Gemini's architecture directly into silicon for efficiency gains" },
+    "story": {
+      "title": "Google's \"Frozen v2\" chip reportedly bakes Gemini's architecture directly into silicon for efficiency gains"
+    },
     "slides": [
-      { "image_prompt": "Frozen v2 chip macro, Gemini architecture etched into silicon" },
-      { "image_prompt": "data center TPU racks, cyan volumetric light" },
-      { "image_prompt": "wafer with AI circuit motifs, double exposure" },
-      { "image_prompt": "engineer inspecting custom AI accelerator" },
-      { "image_prompt": "Google logo over glowing silicon die" }
+      {
+        "image_prompt": "Frozen v2 chip macro, Gemini architecture etched into silicon"
+      },
+      {
+        "image_prompt": "data center TPU racks, cyan volumetric light"
+      },
+      {
+        "image_prompt": "wafer with AI circuit motifs, double exposure"
+      },
+      {
+        "image_prompt": "engineer inspecting custom AI accelerator"
+      },
+      {
+        "image_prompt": "Google logo over glowing silicon die"
+      }
     ]
   }
 }

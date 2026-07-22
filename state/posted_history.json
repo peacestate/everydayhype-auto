@@ -87,5 +87,9 @@
   {
     "date": "2026-07-08",
     "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "Google's \"Frozen v2\" chip reportedly bakes Gemini's architecture directly into silicon for efficiency gains"
   }
 ]
