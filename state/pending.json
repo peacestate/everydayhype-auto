@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-07-23T16:36:14.224534Z",
   "deadline_min": 120,
   "caption": "Anthropic is set to deploy an impressive 2 gigawatts of AMD GPUs worth up to $5 billion. This deal marks a significant step for AMD in the AI space, allowing them to compete closely with Nvidia. The first phase of this rollout is expected to kick off in the first half of 2027. 9164a1\n\nWhat do you think about this partnership?\n\nSources: The Decoder\n\n#AI #AMD #Anthropic #GPUs #Claude #TechNews #Partnership #Innovation #MachineLearning #AIResearch #TechTrends",
@@ -81,5 +81,6 @@
     "date": "2026-07-23"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 388
+  "control_msg_id": 388,
+  "resolved_at": "2026-07-23T16:37:32.779Z"
 }
