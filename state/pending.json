@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "regen",
   "created_at": "2026-07-23T15:54:56.491245Z",
   "deadline_min": 120,
-  "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs, valued at up to $5 billion, to enhance its Claude models. This significant investment will kick off with the first gigawatt phase starting in early 2027. \ud83d\udcbb\ud83d\udd0b\n\nWill this deal position AMD as a leading GPU supplier for AI?\n\nSources: The Decoder\n#AMD #Anthropic #AI #GPUs #Claude #Investment #TechNews #Innovation #MachineLearning #DataScience #AIModels #TechDeals",
+  "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs, valued at up to $5 billion, to enhance its Claude models. This significant investment will kick off with the first gigawatt phase starting in early 2027. 💻🔋\n\nWill this deal position AMD as a leading GPU supplier for AI?\n\nSources: The Decoder\n#AMD #Anthropic #AI #GPUs #Claude #Investment #TechNews #Innovation #MachineLearning #DataScience #AIModels #TechDeals",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784822083/everydayhypehq/2026-07-23/155442_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784822084/everydayhypehq/2026-07-23/155442_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "b",
     "person": "",
     "company": "Anthropic",
-    "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs, valued at up to $5 billion, to enhance its Claude models. This significant investment will kick off with the first gigawatt phase starting in early 2027. \ud83d\udcbb\ud83d\udd0b\n\nWill this deal position AMD as a leading GPU supplier for AI?\n\nSources: The Decoder\n#AMD #Anthropic #AI #GPUs #Claude #Investment #TechNews #Innovation #MachineLearning #DataScience #AIModels #TechDeals",
+    "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs, valued at up to $5 billion, to enhance its Claude models. This significant investment will kick off with the first gigawatt phase starting in early 2027. 💻🔋\n\nWill this deal position AMD as a leading GPU supplier for AI?\n\nSources: The Decoder\n#AMD #Anthropic #AI #GPUs #Claude #Investment #TechNews #Innovation #MachineLearning #DataScience #AIModels #TechDeals",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "ANTHROPIC WILL DEPLOY 2 GIGAWATTS OF AMD GPUS WORTH $5 BILLION",
         "hl": "2 GIGAWATTS OF AMD GPUS",
         "hls": [
@@ -53,7 +53,7 @@
         "image_prompt": "An AMD logo displayed prominently in a corporate setting, with a focus on innovation and technology."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AND AMD WILL USE CLAUDE INTERNALLY ACROSS DEV TEAMS.",
         "hl": "USE CLAUDE INTERNALLY",
         "hls": [],
