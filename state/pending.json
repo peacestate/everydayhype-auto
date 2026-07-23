@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "style_iso",
   "created_at": "2026-07-23T03:57:19.868294Z",
   "deadline_min": 120,
-  "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs in a deal valued at up to $5 billion. The partnership aims to enhance its Claude models with advanced hardware. The first phase of this deal will kick off in 2027! \ud83d\udcbb\ud83d\udd0b\n\nHow will this impact the AI landscape?\n\nSources: The Decoder, AMD\n\n#AI #AMD #Anthropic #Claude #GPUs #TechNews #Partnership #Innovation #ArtificialIntelligence",
+  "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs in a deal valued at up to $5 billion. The partnership aims to enhance its Claude models with advanced hardware. The first phase of this deal will kick off in 2027! 💻🔋\n\nHow will this impact the AI landscape?\n\nSources: The Decoder, AMD\n\n#AI #AMD #Anthropic #Claude #GPUs #TechNews #Partnership #Innovation #ArtificialIntelligence",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784779030/everydayhypehq/2026-07-23/035710_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784779031/everydayhypehq/2026-07-23/035710_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "b",
     "person": "",
     "company": "Anthropic",
-    "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs in a deal valued at up to $5 billion. The partnership aims to enhance its Claude models with advanced hardware. The first phase of this deal will kick off in 2027! \ud83d\udcbb\ud83d\udd0b\n\nHow will this impact the AI landscape?\n\nSources: The Decoder, AMD\n\n#AI #AMD #Anthropic #Claude #GPUs #TechNews #Partnership #Innovation #ArtificialIntelligence",
+    "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs in a deal valued at up to $5 billion. The partnership aims to enhance its Claude models with advanced hardware. The first phase of this deal will kick off in 2027! 💻🔋\n\nHow will this impact the AI landscape?\n\nSources: The Decoder, AMD\n\n#AI #AMD #Anthropic #Claude #GPUs #TechNews #Partnership #Innovation #ArtificialIntelligence",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "ANTHROPIC IS DEPLOYING 2 GIGAWATTS OF AMD GPUs WORTH UP TO $5 BILLION",
         "hl": "2 GIGAWATTS OF AMD GPUs",
         "hls": [
