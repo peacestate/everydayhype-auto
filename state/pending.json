@@ -1,64 +1,72 @@
 {
   "status": "pending",
-  "created_at": "2026-07-23T15:54:56.491245Z",
+  "created_at": "2026-07-23T16:15:37.251510Z",
   "deadline_min": 120,
-  "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs, valued at up to $5 billion, to enhance its Claude models. This significant investment will kick off with the first gigawatt phase starting in early 2027. \ud83d\udcbb\ud83d\udd0b\n\nWill this deal position AMD as a leading GPU supplier for AI?\n\nSources: The Decoder\n#AMD #Anthropic #AI #GPUs #Claude #Investment #TechNews #Innovation #MachineLearning #DataScience #AIModels #TechDeals",
+  "caption": "\ud83d\ude80 Anthropic is set to deploy 2 gigawatts of AMD GPUs, marking a significant investment worth up to $5 billion. This strategic partnership aims to enhance their Claude models using advanced hardware. The first phase of deployment is scheduled for early 2027. \ud83d\udca1\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Press Release\n#Anthropic #AMD #GPUs #AI #Claude #TechInvestment #MachineLearning #Innovation",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784822083/everydayhypehq/2026-07-23/155442_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784822084/everydayhypehq/2026-07-23/155442_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784822086/everydayhypehq/2026-07-23/155442_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784822087/everydayhypehq/2026-07-23/155442_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784822088/everydayhypehq/2026-07-23/155442_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784823322/everydayhypehq/2026-07-23/161521_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784823323/everydayhypehq/2026-07-23/161521_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784823325/everydayhypehq/2026-07-23/161521_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784823326/everydayhypehq/2026-07-23/161521_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784823327/everydayhypehq/2026-07-23/161521_slide_5.png"
   ],
   "plan": {
     "palette": "red",
-    "art_style": "isometric miniature diorama, tilt-shift",
+    "art_style": "dramatic macro close-up, shallow depth",
     "layout": "b",
     "person": "",
     "company": "Anthropic",
-    "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs, valued at up to $5 billion, to enhance its Claude models. This significant investment will kick off with the first gigawatt phase starting in early 2027. \ud83d\udcbb\ud83d\udd0b\n\nWill this deal position AMD as a leading GPU supplier for AI?\n\nSources: The Decoder\n#AMD #Anthropic #AI #GPUs #Claude #Investment #TechNews #Innovation #MachineLearning #DataScience #AIModels #TechDeals",
+    "caption": "\ud83d\ude80 Anthropic is set to deploy 2 gigawatts of AMD GPUs, marking a significant investment worth up to $5 billion. This strategic partnership aims to enhance their Claude models using advanced hardware. The first phase of deployment is scheduled for early 2027. \ud83d\udca1\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Press Release\n#Anthropic #AMD #GPUs #AI #Claude #TechInvestment #MachineLearning #Innovation",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "ANTHROPIC WILL DEPLOY 2 GIGAWATTS OF AMD GPUS WORTH $5 BILLION",
-        "hl": "2 GIGAWATTS OF AMD GPUS",
+        "headline": "ANTHROPIC IS DEPLOYING 2 GIGAWATTS OF AMD GPUs WORTH $5 BILLION",
+        "hl": "2 GIGAWATTS OF AMD GPUs",
         "hls": [
           "$5 BILLION"
         ],
-        "sub": "Here's the major investment announcement.",
-        "image_prompt": "A high-tech server room with advanced GPUs and glowing server racks, showcasing a futuristic technology environment."
+        "sub": "Here's what you need to know",
+        "image_prompt": "A close-up of advanced AMD GPUs in a high-tech server environment, showcasing intricate hardware details."
       },
       {
         "pill": "",
-        "headline": "THE FIRST GIGAWATT PHASE STARTS IN EARLY 2027.",
-        "hl": "FIRST GIGAWATT PHASE",
-        "hls": [],
-        "sub": "This marks a new chapter for AMD and Anthropic.",
-        "image_prompt": "A close-up of an AMD Instinct MI450 GPU, focusing on its intricate design and advanced components."
+        "headline": "THE FIRST PHASE STARTS IN EARLY 2027 WITH 1 GIGAWATT DEPLOYMENT",
+        "hl": "STARTS IN EARLY 2027",
+        "hls": [
+          "1 GIGAWATT DEPLOYMENT"
+        ],
+        "sub": "Deployment will enhance Claude models in Helios server systems.",
+        "image_prompt": "An engineer working on a server rack filled with high-performance computing hardware, focused on installation."
       },
       {
         "pill": "",
-        "headline": "AMD GPUS WILL SUPPORT ANTHROPIC'S CLAUDE MODELS AND SOFTWARE.",
-        "hl": "SUPPORT ANTHROPIC'S CLAUDE MODELS",
-        "hls": [],
-        "sub": "Both companies aim to enhance AMD's ROCm software platform.",
-        "image_prompt": "A developer team in an office, collaborating over laptops with AI-related visuals on screen."
+        "headline": "ANTHROPIC PLANS TO IMPROVE AMD'S ROCm SOFTWARE PLATFORM",
+        "hl": "IMPROVE AMD'S ROCm SOFTWARE",
+        "hls": [
+          "PLANS TO IMPROVE"
+        ],
+        "sub": "Collaboration aims to optimize GPU workloads for AI applications.",
+        "image_prompt": "A collaborative meeting with engineers discussing GPU technologies, focused on charts and performance metrics."
       },
       {
         "pill": "",
-        "headline": "THIS DEAL PUSHES AMD TO RIVAL NVIDIA IN AI GPU SUPPLY.",
-        "hl": "RIVAL NVIDIA IN AI GPU SUPPLY",
-        "hls": [],
-        "sub": "AMD hopes to establish a strong position in AI technology.",
-        "image_prompt": "An AMD logo displayed prominently in a corporate setting, with a focus on innovation and technology."
+        "headline": "THIS DEAL POSITION AMD AS A KEY PLAYER IN AI HARDWARE SUPPLY",
+        "hl": "KEY PLAYER IN AI HARDWARE",
+        "hls": [
+          "THIS DEAL POSITION AMD"
+        ],
+        "sub": "AMD aims to compete directly with Nvidia for AI market share.",
+        "image_prompt": "A dynamic shot of AMD branding in a tech trade show setting, with people engaging with the latest technologies."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "AND AMD WILL USE CLAUDE INTERNALLY ACROSS DEV TEAMS.",
-        "hl": "USE CLAUDE INTERNALLY",
-        "hls": [],
+        "headline": "AMD'S $5 BILLION INVESTMENT IN ANTHROPIC COULD CHANGE AI DEVELOPMENT",
+        "hl": "CHANGE AI DEVELOPMENT",
+        "hls": [
+          "$5 BILLION INVESTMENT"
+        ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic workspace with engineers working on AI projects, surrounded by screens and data visualizations."
+        "image_prompt": "A futuristic vision of AI technology in action, blending human interaction with robotic systems."
       }
     ],
     "story": {
@@ -68,5 +76,5 @@
     "date": "2026-07-23"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 376
+  "control_msg_id": 382
 }
