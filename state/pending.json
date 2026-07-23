@@ -1,41 +1,73 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-21T03:57:13Z",
-  "resolved_at": "2026-07-22T22:44:36.901735Z",
-  "caption": "Google is reportedly developing a custom chip \u2014 codenamed \"Frozen v2\" \u2014 that bakes Gemini's model architecture directly into the silicon.\n\nInstead of running the AI on general-purpose accelerators, hard-wiring its structure into the hardware could reportedly make it 6 to 10\u00d7 more efficient at Gemini workloads.\n\nIf it ships, it could sharply cut the cost and energy of serving AI at Google's scale \u2014 and squeeze rivals still leaning on off-the-shelf GPUs.\n\nWould a model-specific chip give Google a real edge, or lock it into today's architecture? \ud83d\udc47\n\nSources: tech industry reports\n\n#Google #Gemini #AIchips #FrozenV2 #semiconductors #AI #machinelearning #technology #innovation #JeffDean #TechNews #hardware",
+  "status": "pending",
+  "created_at": "2026-07-23T03:57:19.868294Z",
+  "deadline_min": 120,
+  "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs in a deal valued at up to $5 billion. The partnership aims to enhance its Claude models with advanced hardware. The first phase of this deal will kick off in 2027! \ud83d\udcbb\ud83d\udd0b\n\nHow will this impact the AI landscape?\n\nSources: The Decoder, AMD\n\n#AI #AMD #Anthropic #Claude #GPUs #TechNews #Partnership #Innovation #ArtificialIntelligence",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/everydayhypehq/2026-07-21/035706_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784779030/everydayhypehq/2026-07-23/035710_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784779031/everydayhypehq/2026-07-23/035710_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784779032/everydayhypehq/2026-07-23/035710_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784779032/everydayhypehq/2026-07-23/035710_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784779033/everydayhypehq/2026-07-23/035710_slide_5.png"
   ],
   "plan": {
-    "date": "2026-07-21",
-    "palette": "cyan",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "palette": "red",
+    "art_style": "dramatic macro close-up, shallow depth",
     "layout": "b",
-    "person": "Jeff Dean",
-    "company": "Google",
-    "story": {
-      "title": "Google's \"Frozen v2\" chip reportedly bakes Gemini's architecture directly into silicon for efficiency gains"
-    },
+    "person": "",
+    "company": "Anthropic",
+    "caption": "Anthropic is set to deploy 2 gigawatts of AMD GPUs in a deal valued at up to $5 billion. The partnership aims to enhance its Claude models with advanced hardware. The first phase of this deal will kick off in 2027! \ud83d\udcbb\ud83d\udd0b\n\nHow will this impact the AI landscape?\n\nSources: The Decoder, AMD\n\n#AI #AMD #Anthropic #Claude #GPUs #TechNews #Partnership #Innovation #ArtificialIntelligence",
     "slides": [
       {
-        "image_prompt": "Frozen v2 chip macro, Gemini architecture etched into silicon"
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "ANTHROPIC IS DEPLOYING 2 GIGAWATTS OF AMD GPUs WORTH UP TO $5 BILLION",
+        "hl": "2 GIGAWATTS OF AMD GPUs",
+        "hls": [
+          "2 GIGAWATTS",
+          "UP TO $5 BILLION"
+        ],
+        "sub": "Here's the massive investment in AI infrastructure.",
+        "image_prompt": "A close-up shot of AMD GPUs stacked in a modern data center, illuminated with cool lighting."
       },
       {
-        "image_prompt": "data center TPU racks, cyan volumetric light"
+        "pill": "",
+        "headline": "THE FIRST GIGAWATT PHASE BEGINS IN THE FIRST HALF OF 2027",
+        "hl": "FIRST HALF OF 2027",
+        "hls": [],
+        "sub": "Deployment will elevate the performance of Claude models significantly.",
+        "image_prompt": "A futuristic server room with technicians working on advanced computing hardware."
       },
       {
-        "image_prompt": "wafer with AI circuit motifs, double exposure"
+        "pill": "",
+        "headline": "ANTHROPIC WILL USE AMD MI450 GPUs IN HELIOS SERVER SYSTEMS",
+        "hl": "MI450 GPUs IN HELIOS",
+        "hls": [],
+        "sub": "This partnership aims to improve AI performance and efficiency.",
+        "image_prompt": "A sleek Helios server system showcasing its internal components and vibrant LEDs."
       },
       {
-        "image_prompt": "engineer inspecting custom AI accelerator"
+        "pill": "",
+        "headline": "AMD PLANS A MULTI-YEAR EFFORT TO IMPROVE ROCm SOFTWARE PLATFORM",
+        "hl": "MULTI-YEAR EFFORT",
+        "hls": [],
+        "sub": "Collaboration focuses on optimizing GPU workloads for better AI processing.",
+        "image_prompt": "A group of engineers discussing a strategy over a table filled with hardware prototypes."
       },
       {
-        "image_prompt": "Google logo over glowing silicon die"
+        "pill": "",
+        "headline": "THIS DEAL COULD PLACE AMD ALONGSIDE NVIDIA AS A KEY AI SUPPLIER",
+        "hl": "KEY AI SUPPLIER",
+        "hls": [],
+        "sub": "The competition in the AI hardware market is heating up!",
+        "image_prompt": "A competitive tech landscape showing AMD and NVIDIA logos with dynamic visuals."
       }
-    ]
-  }
+    ],
+    "story": {
+      "title": "Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion",
+      "url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/"
+    },
+    "date": "2026-07-23"
+  },
+  "chat_id": 8692339206,
+  "control_msg_id": 370
 }
