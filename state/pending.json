@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "improve",
   "created_at": "2026-07-23T16:15:37.251510Z",
   "deadline_min": 120,
-  "caption": "\ud83d\ude80 Anthropic is set to deploy 2 gigawatts of AMD GPUs, marking a significant investment worth up to $5 billion. This strategic partnership aims to enhance their Claude models using advanced hardware. The first phase of deployment is scheduled for early 2027. \ud83d\udca1\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Press Release\n#Anthropic #AMD #GPUs #AI #Claude #TechInvestment #MachineLearning #Innovation",
+  "caption": "🚀 Anthropic is set to deploy 2 gigawatts of AMD GPUs, marking a significant investment worth up to $5 billion. This strategic partnership aims to enhance their Claude models using advanced hardware. The first phase of deployment is scheduled for early 2027. 💡\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Press Release\n#Anthropic #AMD #GPUs #AI #Claude #TechInvestment #MachineLearning #Innovation",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784823322/everydayhypehq/2026-07-23/161521_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784823323/everydayhypehq/2026-07-23/161521_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "b",
     "person": "",
     "company": "Anthropic",
-    "caption": "\ud83d\ude80 Anthropic is set to deploy 2 gigawatts of AMD GPUs, marking a significant investment worth up to $5 billion. This strategic partnership aims to enhance their Claude models using advanced hardware. The first phase of deployment is scheduled for early 2027. \ud83d\udca1\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Press Release\n#Anthropic #AMD #GPUs #AI #Claude #TechInvestment #MachineLearning #Innovation",
+    "caption": "🚀 Anthropic is set to deploy 2 gigawatts of AMD GPUs, marking a significant investment worth up to $5 billion. This strategic partnership aims to enhance their Claude models using advanced hardware. The first phase of deployment is scheduled for early 2027. 💡\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Press Release\n#Anthropic #AMD #GPUs #AI #Claude #TechInvestment #MachineLearning #Innovation",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "ANTHROPIC IS DEPLOYING 2 GIGAWATTS OF AMD GPUs WORTH $5 BILLION",
         "hl": "2 GIGAWATTS OF AMD GPUs",
         "hls": [
@@ -59,7 +59,7 @@
         "image_prompt": "A dynamic shot of AMD branding in a tech trade show setting, with people engaging with the latest technologies."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AMD'S $5 BILLION INVESTMENT IN ANTHROPIC COULD CHANGE AI DEVELOPMENT",
         "hl": "CHANGE AI DEVELOPMENT",
         "hls": [
