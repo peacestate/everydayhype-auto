@@ -1,86 +1,83 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-23T16:36:14.224534Z",
+  "status": "pending",
+  "created_at": "2026-07-24T03:57:54.058755Z",
   "deadline_min": 120,
-  "caption": "Anthropic is set to deploy an impressive 2 gigawatts of AMD GPUs worth up to $5 billion. This deal marks a significant step for AMD in the AI space, allowing them to compete closely with Nvidia. The first phase of this rollout is expected to kick off in the first half of 2027. 9164a1\n\nWhat do you think about this partnership?\n\nSources: The Decoder\n\n#AI #AMD #Anthropic #GPUs #Claude #TechNews #Partnership #Innovation #MachineLearning #AIResearch #TechTrends",
+  "caption": "DARPA and the U.S. Air Force have successfully flown an AI-controlled F-16 fighter jet for testing at Eglin Air Force Base. This marks a significant step in developing autonomous air combat capabilities through the VENOM program. \u007f\u2708\ufe0f\ud83e\udd16 \n\nCould this shift aerial warfare? \n\nSources: DARPA, U.S. Air Force, TechCrunch\n\n#DARPA #AirForce #AI #F16 #Aerospace #AutonomousVehicles #TechInnovation #MilitaryTech #VENOM #AerialCombat",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784824566/everydayhypehq/2026-07-23/163605_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784824567/everydayhypehq/2026-07-23/163605_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784824568/everydayhypehq/2026-07-23/163605_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784824568/everydayhypehq/2026-07-23/163605_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784824569/everydayhypehq/2026-07-23/163605_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784865466/everydayhypehq/2026-07-24/035746_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784865467/everydayhypehq/2026-07-24/035746_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784865468/everydayhypehq/2026-07-24/035746_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784865468/everydayhypehq/2026-07-24/035746_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784865469/everydayhypehq/2026-07-24/035746_slide_5.png"
   ],
   "plan": {
     "palette": "red",
-    "art_style": "sleek 3D render, octane, glossy materials",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "b",
-    "caption": "Anthropic is set to deploy an impressive 2 gigawatts of AMD GPUs worth up to $5 billion. This deal marks a significant step for AMD in the AI space, allowing them to compete closely with Nvidia. The first phase of this rollout is expected to kick off in the first half of 2027. 9164a1\n\nWhat do you think about this partnership?\n\nSources: The Decoder\n\n#AI #AMD #Anthropic #GPUs #Claude #TechNews #Partnership #Innovation #MachineLearning #AIResearch #TechTrends",
+    "caption": "DARPA and the U.S. Air Force have successfully flown an AI-controlled F-16 fighter jet for testing at Eglin Air Force Base. This marks a significant step in developing autonomous air combat capabilities through the VENOM program. \u007f\u2708\ufe0f\ud83e\udd16 \n\nCould this shift aerial warfare? \n\nSources: DARPA, U.S. Air Force, TechCrunch\n\n#DARPA #AirForce #AI #F16 #Aerospace #AutonomousVehicles #TechInnovation #MilitaryTech #VENOM #AerialCombat",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "ANTHROPIC WILL DEPLOY 2 GIGAWATTS OF AMD GPUS WORTH $5 BILLION",
-        "hl": "2 GIGAWATTS",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "DARPA AND U.S. AIR FORCE JUST FLEW AN AI-CONTROLLED F-16 JET",
+        "hl": "AI-CONTROLLED F-16 JET",
         "hls": [
-          "AMD GPUS",
-          "$5 BILLION"
+          "AI-CONTROLLED",
+          "F-16 JET"
         ],
-        "sub": "Here's the partnership announcement.",
-        "image_prompt": "A vibrant, sleek 3D render of AMD GPUs stacked in a futuristic setup, showcasing their powerful design."
+        "sub": "Here's what you need to know",
+        "image_prompt": "A striking image of an F-16 fighter jet soaring through the sky, showcasing its sleek design against a bright blue backdrop with clouds."
       },
       {
         "pill": "",
-        "headline": "ANTHROPIC PLANS TO USE AMD INSTINCT MI450 GPUS FOR CLAUDE MODELS",
-        "hl": "MI450 GPUS",
+        "headline": "THE F-16 WAS MODIFIED UNDER THE VENOM PROGRAM FOR AUTONOMOUS TESTING",
+        "hl": "VENOM PROGRAM",
         "hls": [
-          "CLAUDE MODELS",
-          "AMD INSTINCT"
+          "VENOM PROGRAM"
         ],
-        "sub": "The deployment will enhance AI training and performance.",
-        "image_prompt": "A close-up of a person working on a high-tech server, with glowing AMD hardware in the background."
+        "sub": "This program enables rapid combat AI development across military forces.",
+        "image_prompt": "Close-up of the F-16 cockpit with high-tech control systems, emphasizing the complexity of its modifications."
       },
       {
         "pill": "",
-        "headline": "FIRST GIGAWATT PHASE STARTS IN EARLY 2027, EXPANDING AMD'S MARKET PRESENCE",
-        "hl": "EARLY 2027",
+        "headline": "FLIGHT TESTS DEMONSTRATE THE U.S. CAPABILITY FOR AI-PILOTED COMBAT",
+        "hl": "AI-PILOTED COMBAT",
         "hls": [
-          "FIRST GIGAWATT",
-          "MARKET PRESENCE"
+          "AI-PILOTED",
+          "COMBAT"
         ],
-        "sub": "This collaboration is a major move against Nvidia's dominance.",
-        "image_prompt": "A wide shot of a busy tech office, with engineers discussing plans and AMD hardware visible."
+        "sub": "These tests pave the way for future autonomous flight operations.",
+        "image_prompt": "A pilot in a flight suit, observing flight data on a tablet, illustrating the human role in AI-assisted operations."
       },
       {
         "pill": "",
-        "headline": "AMD AND ANTHROPIC TO IMPROVE ROCM SOFTWARE THROUGH COLLABORATION",
-        "hl": "IMPROVE ROCM SOFTWARE",
+        "headline": "THE VENOM AUTONOMY KIT ENABLES AI CONTROL WITH A SIMPLE SWITCH",
+        "hl": "AI CONTROL",
         "hls": [
-          "COLLABORATION",
-          "ANTHROPIC"
+          "AI CONTROL"
         ],
-        "sub": "This effort aims to optimize GPU workloads for AI applications.",
-        "image_prompt": "An abstract representation of data flowing between AMD and Anthropic, symbolizing collaboration."
+        "sub": "This ensures a safe environment for human experimentation alongside AI.",
+        "image_prompt": "An engineer working on the F-16, demonstrating the installation of the VENOM Autonomy Kit with tools and tech equipment."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "THIS DEAL COULD CHANGE THE LANDSCAPE OF AI HARDWARE SUPPLY",
-        "hl": "CHANGE THE LANDSCAPE",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "THIS INITIATIVE COULD TRANSFORM AIR COMBAT OPERATIONS",
+        "hl": "TRANSFORM AIR COMBAT",
         "hls": [
-          "AI HARDWARE SUPPLY",
-          "$5 BILLION"
+          "TRANSFORM AIR",
+          "COMBAT"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic city skyline, representing technological advancement and innovation."
+        "image_prompt": "A panoramic view of the Eglin Air Force Base with several F-16s lined up, under a sunset sky, symbolizing future advancements."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion",
-      "url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/"
+      "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
+      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16"
     },
-    "date": "2026-07-23"
+    "date": "2026-07-24"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 388,
-  "resolved_at": "2026-07-23T16:43:47.533456Z"
+  "control_msg_id": 395
 }
