@@ -310,5 +310,18 @@
       "An engineer working on the F-16, demonst",
       "A panoramic view of the Eglin Air Force "
     ]
+  },
+  {
+    "date": "2026-07-25",
+    "palette": "green",
+    "art_style": "dramatic macro close-up, shallow depth",
+    "layout": "a",
+    "motifs": [
+      "A dramatic close-up of an AI system inte",
+      "A close-up of a technician examining adv",
+      "A focused shot of a person using a high-",
+      "An up-close image of an engineer program",
+      "A macro shot of an AI model's visual rep"
+    ]
   }
 ]
