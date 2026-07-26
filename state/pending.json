@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-07-26T03:58:50.460949Z",
   "deadline_min": 120,
   "caption": "BFL has launched FLUX 3, a new multimodal foundation model that integrates video-action capabilities. The collaboration with Mimic Robotics has resulted in FLUX-mimic, a model tested in real-world scenarios at Audi. This advancement paves the way for robots to learn and predict actions in complex environments. 9164a1\n\nShould robots be capable of predicting actions autonomously?\n\nSources: BFL.ai, Mimic Robotics\n\n#AI #Robotics #VideoActionModels #MachineLearning #FLUX3 #Innovation #TechNews #BFL #MimicRobotics",
@@ -81,5 +81,6 @@
     "date": "2026-07-26"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 409
+  "control_msg_id": 409,
+  "resolved_at": "2026-07-26T05:33:46.708Z"
 }
