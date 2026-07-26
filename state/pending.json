@@ -1,83 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-25T03:56:55.524140Z",
+  "status": "pending",
+  "created_at": "2026-07-26T03:58:50.460949Z",
   "deadline_min": 120,
-  "caption": "Anthropic has launched Claude Opus 5, a model delivering performance close to Claude Fable 5 at half the cost. This advancement positions Anthropic to better compete against GPT-5.6 Sol and other rivals. \ud83d\udcca\ud83d\udca1\n\nHow will this impact the AI landscape? \n\nSources: The Decoder, TechCrunch, Wired",
+  "caption": "BFL has launched FLUX 3, a new multimodal foundation model that integrates video-action capabilities. The collaboration with Mimic Robotics has resulted in FLUX-mimic, a model tested in real-world scenarios at Audi. This advancement paves the way for robots to learn and predict actions in complex environments. 9164a1\n\nShould robots be capable of predicting actions autonomously?\n\nSources: BFL.ai, Mimic Robotics\n\n#AI #Robotics #VideoActionModels #MachineLearning #FLUX3 #Innovation #TechNews #BFL #MimicRobotics",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784951805/everydayhypehq/2026-07-25/035644_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784951806/everydayhypehq/2026-07-25/035644_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784951807/everydayhypehq/2026-07-25/035644_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784951809/everydayhypehq/2026-07-25/035644_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1784951810/everydayhypehq/2026-07-25/035644_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785038323/everydayhypehq/2026-07-26/035842_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785038323/everydayhypehq/2026-07-26/035842_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785038324/everydayhypehq/2026-07-26/035842_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785038324/everydayhypehq/2026-07-26/035842_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785038325/everydayhypehq/2026-07-26/035842_slide_5.png"
   ],
   "plan": {
-    "palette": "green",
-    "art_style": "dramatic macro close-up, shallow depth",
+    "palette": "amber",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "a",
-    "person": "",
-    "company": "Anthropic",
-    "caption": "Anthropic has launched Claude Opus 5, a model delivering performance close to Claude Fable 5 at half the cost. This advancement positions Anthropic to better compete against GPT-5.6 Sol and other rivals. \ud83d\udcca\ud83d\udca1\n\nHow will this impact the AI landscape? \n\nSources: The Decoder, TechCrunch, Wired",
+    "caption": "BFL has launched FLUX 3, a new multimodal foundation model that integrates video-action capabilities. The collaboration with Mimic Robotics has resulted in FLUX-mimic, a model tested in real-world scenarios at Audi. This advancement paves the way for robots to learn and predict actions in complex environments. 9164a1\n\nShould robots be capable of predicting actions autonomously?\n\nSources: BFL.ai, Mimic Robotics\n\n#AI #Robotics #VideoActionModels #MachineLearning #FLUX3 #Innovation #TechNews #BFL #MimicRobotics",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "ANTHROPIC'S OPUS 5 DELIVERS NEAR-FABLE 5 PERFORMANCE AT HALF THE PRICE",
-        "hl": "HALF THE PRICE",
+        "pill": "BREAKING 534",
+        "headline": "FLUX 3 CAN PREDICT ROBOT ACTIONS WITH 95% TRAINING COST IN VIDEO",
+        "hl": "95% TRAINING COST",
         "hls": [
-          "NEAR-FABLE 5 PERFORMANCE",
-          "HALF THE PRICE"
+          "PREDICT ROBOT ACTIONS",
+          "95%"
         ],
-        "sub": "Here's the breakthrough in AI pricing.",
-        "image_prompt": "A dramatic close-up of an AI system interface, showcasing intricate circuitry and glowing components, with a human hand adjusting settings."
+        "sub": "BFL's FLUX 3 model is enhancing video-action capabilities.",
+        "image_prompt": "A futuristic robot in an industrial setting, interacting with various objects, showcasing advanced movement and action."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "CLAUDE OPUS 5 COSTS $5 PER MILLION INPUT TOKENS, $25 OUTPUT TOKENS",
-        "hl": "$5 PER MILLION INPUT TOKENS",
+        "pill": "WHAT HAPPENED 26a1",
+        "headline": "BFL PARTNERED WITH MIMIC ROBOTICS TO DEVELOP FLUX-MIMIC",
+        "hl": "DEVELOP FLUX-MIMIC",
         "hls": [
-          "$5 PER MILLION",
-          "$25 OUTPUT TOKENS"
+          "PARTNERED WITH MIMIC",
+          "FLUX-MIMIC"
         ],
-        "sub": "This pricing is significantly lower than its competitor, Fable 5.",
-        "image_prompt": "A close-up of a technician examining advanced AI hardware, with a focus on the glowing interface and tools."
+        "sub": "This collaboration resulted in sophisticated models tested at Audi.",
+        "image_prompt": "Two engineers in a lab, discussing over a robotic arm, with computer screens displaying data and designs."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "FAST MODE INCREASES SPEED BY 2.5X BUT DOUBLES THE COST",
-        "hl": "INCREASES SPEED BY 2.5X",
+        "pill": "WHY IT MATTERS 1f0d",
+        "headline": "FLUX 3 INTEGRATES AUDIO-VISUAL CONTENT AND ROBOTICS",
+        "hl": "AUDIO-VISUAL CONTENT",
         "hls": [
-          "DOUBLES THE COST"
+          "INTEGRATES AUDIO-VISUAL",
+          "ROBOTICS"
         ],
-        "sub": "Users can choose between speed and cost efficiency.",
-        "image_prompt": "A focused shot of a person using a high-tech computer, deep in thought, with glowing screens around them."
+        "sub": "This integration allows for better understanding of physical interactions.",
+        "image_prompt": "A close-up of a robotic hand manipulating a physical object, with visual effects illustrating motion."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "OPUS 5 PROMISES BETTER VALUE AT EVERY EFFORT LEVEL SETTING",
-        "hl": "BETTER VALUE AT EVERY EFFORT LEVEL",
+        "pill": "THE IMPACT 1f11",
+        "headline": "OVER 90% OF COMPUTE COSTS FOCUS ON VIDEO PREDICTION",
+        "hl": "VIDEO PREDICTION",
         "hls": [
-          "EVERY EFFORT LEVEL"
+          "90% OF COMPUTE COSTS",
+          "VIDEO PREDICTION"
         ],
-        "sub": "Anthropic claims improved performance across all tasks.",
-        "image_prompt": "An up-close image of an engineer programming AI algorithms, with a backdrop of multiple screens displaying code."
+        "sub": "Learning video behavior is crucial for realistic robot actions.",
+        "image_prompt": "A visualization of data processing, with streams of video and audio flowing into a central AI model."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "CLAUDE OPUS 5 COULD CHANGE THE AI PRICING LANDSCAPE SIGNIFICANTLY",
-        "hl": "CHANGE THE AI PRICING LANDSCAPE",
+        "pill": "THE TAKEAWAY 1f25",
+        "headline": "FLUX 3 IS A MULTIMODAL MODEL ENABLING ROBOTIC LEARNING",
+        "hl": "MULTIMODAL MODEL",
         "hls": [
-          "SIGNIFICANTLY"
+          "ROBOTIC LEARNING",
+          "MULTIMODAL"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A macro shot of an AI model's visual representation, with data streams flowing around it."
+        "sub": "This model runs on robots tested at Audi to improve action prediction.",
+        "image_prompt": "A dynamic scene of robots in an urban environment, showcasing various interactions and movements."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "Anthropic claims its new Claude Opus 5 delivers near-Fable 5 performance at half the token price",
-      "url": "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/"
+      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
+      "url": "https://bfl.ai/blog/flux-3-mimic"
     },
-    "date": "2026-07-25"
+    "date": "2026-07-26"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 402,
-  "resolved_at": "2026-07-25T06:31:40.033301Z"
+  "control_msg_id": 409
 }
