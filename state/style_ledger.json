@@ -323,5 +323,18 @@
       "An up-close image of an engineer program",
       "A macro shot of an AI model's visual rep"
     ]
+  },
+  {
+    "date": "2026-07-26",
+    "palette": "amber",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A futuristic robot in an industrial sett",
+      "Two engineers in a lab, discussing over ",
+      "A close-up of a robotic hand manipulatin",
+      "A visualization of data processing, with",
+      "A dynamic scene of robots in an urban en"
+    ]
   }
 ]
