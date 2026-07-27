@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-07-27T03:58:39.603594Z",
   "deadline_min": 120,
   "caption": "Anthropic's Opus 5 has set a new benchmark in AI performance, scoring 30.2% on the ARC-AGI-3. This score eclipses the previous record of 7.8% held by OpenAI's GPT-5.6 Sol. The model's advanced reasoning capabilities have enabled it to solve five previously unsolved environments, with four solutions at or above human level. 680916\n\nWhat do you think this means for AI development?\n\nSources: The Decoder, ARC Prize\n#AI #Anthropic #Opus5 #GPT5 #MachineLearning #Innovation #TechNews #ArtificialIntelligence #Benchmarking #ARCAGI",
@@ -66,5 +66,6 @@
     "date": "2026-07-27"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 416
+  "control_msg_id": 416,
+  "resolved_at": "2026-07-27T11:24:31.260Z"
 }
