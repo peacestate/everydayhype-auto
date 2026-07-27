@@ -45,3 +45,9 @@
 ## TOPICS THAT TEND TO POP
 # AI job loss/layoffs, CEO pay & statements, new model/product launches, AI vs jobs, big-tech rivalries,
 # AI safety/bans, underdog builders, shocking benchmark numbers.
+
+
+- TOPIC: Greeting
+  HOOK: "Hey there, friend!"
+  HEADLINE STYLE: "WELCOME TO THE COMMUNITY!"
+  WHY IT WORKS: It creates an inviting atmosphere and encourages engagement.
