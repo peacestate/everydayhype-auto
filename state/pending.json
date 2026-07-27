@@ -1,86 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-26T03:58:50.460949Z",
+  "status": "pending",
+  "created_at": "2026-07-27T03:58:39.603594Z",
   "deadline_min": 120,
-  "caption": "BFL has launched FLUX 3, a new multimodal foundation model that integrates video-action capabilities. The collaboration with Mimic Robotics has resulted in FLUX-mimic, a model tested in real-world scenarios at Audi. This advancement paves the way for robots to learn and predict actions in complex environments. 9164a1\n\nShould robots be capable of predicting actions autonomously?\n\nSources: BFL.ai, Mimic Robotics\n\n#AI #Robotics #VideoActionModels #MachineLearning #FLUX3 #Innovation #TechNews #BFL #MimicRobotics",
+  "caption": "Anthropic's Opus 5 has set a new benchmark in AI performance, scoring 30.2% on the ARC-AGI-3. This score eclipses the previous record of 7.8% held by OpenAI's GPT-5.6 Sol. The model's advanced reasoning capabilities have enabled it to solve five previously unsolved environments, with four solutions at or above human level. 680916\n\nWhat do you think this means for AI development?\n\nSources: The Decoder, ARC Prize\n#AI #Anthropic #Opus5 #GPT5 #MachineLearning #Innovation #TechNews #ArtificialIntelligence #Benchmarking #ARCAGI",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785038323/everydayhypehq/2026-07-26/035842_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785038323/everydayhypehq/2026-07-26/035842_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785038324/everydayhypehq/2026-07-26/035842_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785038324/everydayhypehq/2026-07-26/035842_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785038325/everydayhypehq/2026-07-26/035842_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785124711/everydayhypehq/2026-07-27/035831_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785124712/everydayhypehq/2026-07-27/035831_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785124713/everydayhypehq/2026-07-27/035831_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785124713/everydayhypehq/2026-07-27/035831_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785124714/everydayhypehq/2026-07-27/035831_slide_5.png"
   ],
   "plan": {
-    "palette": "amber",
+    "palette": "purple",
     "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "caption": "BFL has launched FLUX 3, a new multimodal foundation model that integrates video-action capabilities. The collaboration with Mimic Robotics has resulted in FLUX-mimic, a model tested in real-world scenarios at Audi. This advancement paves the way for robots to learn and predict actions in complex environments. 9164a1\n\nShould robots be capable of predicting actions autonomously?\n\nSources: BFL.ai, Mimic Robotics\n\n#AI #Robotics #VideoActionModels #MachineLearning #FLUX3 #Innovation #TechNews #BFL #MimicRobotics",
+    "layout": "c",
+    "person": "",
+    "company": "Anthropic",
+    "caption": "Anthropic's Opus 5 has set a new benchmark in AI performance, scoring 30.2% on the ARC-AGI-3. This score eclipses the previous record of 7.8% held by OpenAI's GPT-5.6 Sol. The model's advanced reasoning capabilities have enabled it to solve five previously unsolved environments, with four solutions at or above human level. 680916\n\nWhat do you think this means for AI development?\n\nSources: The Decoder, ARC Prize\n#AI #Anthropic #Opus5 #GPT5 #MachineLearning #Innovation #TechNews #ArtificialIntelligence #Benchmarking #ARCAGI",
     "slides": [
       {
         "pill": "BREAKING 534",
-        "headline": "FLUX 3 CAN PREDICT ROBOT ACTIONS WITH 95% TRAINING COST IN VIDEO",
-        "hl": "95% TRAINING COST",
-        "hls": [
-          "PREDICT ROBOT ACTIONS",
-          "95%"
-        ],
-        "sub": "BFL's FLUX 3 model is enhancing video-action capabilities.",
-        "image_prompt": "A futuristic robot in an industrial setting, interacting with various objects, showcasing advanced movement and action."
+        "headline": "ANTHROPIC'S OPUS 5 SCORED 30.2% ON ARC-AGI-3 BENCHMARK",
+        "hl": "SCORED 30.2%",
+        "hls": [],
+        "sub": "This marks a significant leap in AI reasoning capabilities.",
+        "image_prompt": "A close-up of a researcher analyzing AI performance metrics on a computer screen, with a thoughtful expression, in a modern lab environment."
       },
       {
-        "pill": "WHAT HAPPENED 26a1",
-        "headline": "BFL PARTNERED WITH MIMIC ROBOTICS TO DEVELOP FLUX-MIMIC",
-        "hl": "DEVELOP FLUX-MIMIC",
-        "hls": [
-          "PARTNERED WITH MIMIC",
-          "FLUX-MIMIC"
-        ],
-        "sub": "This collaboration resulted in sophisticated models tested at Audi.",
-        "image_prompt": "Two engineers in a lab, discussing over a robotic arm, with computer screens displaying data and designs."
+        "pill": "",
+        "headline": "OPUS 5 OUTPERFORMED GPT-5.6 SOL BY 22.4 PERCENTAGE POINTS",
+        "hl": "OUTPERFORMED GPT-5.6 SOL",
+        "hls": [],
+        "sub": "The previous record was only 7.8% set by OpenAI's model.",
+        "image_prompt": "A vibrant scene of engineers collaborating in a futuristic office, discussing AI advancements and showcasing a digital interface."
       },
       {
-        "pill": "WHY IT MATTERS 1f0d",
-        "headline": "FLUX 3 INTEGRATES AUDIO-VISUAL CONTENT AND ROBOTICS",
-        "hl": "AUDIO-VISUAL CONTENT",
-        "hls": [
-          "INTEGRATES AUDIO-VISUAL",
-          "ROBOTICS"
-        ],
-        "sub": "This integration allows for better understanding of physical interactions.",
-        "image_prompt": "A close-up of a robotic hand manipulating a physical object, with visual effects illustrating motion."
+        "pill": "",
+        "headline": "IT SOLVED FIVE UNSOLVED ENVIRONMENTS, FOUR AT HUMAN LEVEL",
+        "hl": "FOUR AT HUMAN LEVEL",
+        "hls": [],
+        "sub": "This showcases its advanced logical reasoning and exploration abilities.",
+        "image_prompt": "An AI model visual representation interacting with complex data inputs in a high-tech environment, illuminated with colorful lights."
       },
       {
-        "pill": "THE IMPACT 1f11",
-        "headline": "OVER 90% OF COMPUTE COSTS FOCUS ON VIDEO PREDICTION",
-        "hl": "VIDEO PREDICTION",
-        "hls": [
-          "90% OF COMPUTE COSTS",
-          "VIDEO PREDICTION"
-        ],
-        "sub": "Learning video behavior is crucial for realistic robot actions.",
-        "image_prompt": "A visualization of data processing, with streams of video and audio flowing into a central AI model."
+        "pill": "",
+        "headline": "ARC PRIZE FOUND OPUS 5 SHOWED UNPRECEDENTED BEHAVIOR",
+        "hl": "UNPRECEDENTED BEHAVIOR",
+        "hls": [],
+        "sub": "It translated tasks into algebraic notation autonomously.",
+        "image_prompt": "An abstract visual of AI translating complex tasks into equations, with a glowing digital backdrop symbolizing advanced technology."
       },
       {
-        "pill": "THE TAKEAWAY 1f25",
-        "headline": "FLUX 3 IS A MULTIMODAL MODEL ENABLING ROBOTIC LEARNING",
-        "hl": "MULTIMODAL MODEL",
-        "hls": [
-          "ROBOTIC LEARNING",
-          "MULTIMODAL"
-        ],
-        "sub": "This model runs on robots tested at Audi to improve action prediction.",
-        "image_prompt": "A dynamic scene of robots in an urban environment, showcasing various interactions and movements."
+        "pill": "THE TAKEAWAY 625",
+        "headline": "THIS COULD IMPACT FUTURE AGI SYSTEMS SIGNIFICANTLY",
+        "hl": "IMPACT FUTURE AGI SYSTEMS",
+        "hls": [],
+        "sub": "Opus 5's performance sets new standards in AI benchmarks.",
+        "image_prompt": "A stunning view of a futuristic city skyline at dusk, symbolizing the advancement of technology and AI in society."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
-      "url": "https://bfl.ai/blog/flux-3-mimic"
+      "title": "Anthropic's Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
+      "url": "https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence/"
     },
-    "date": "2026-07-26"
+    "date": "2026-07-27"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 409,
-  "resolved_at": "2026-07-26T06:31:37.407888Z"
+  "control_msg_id": 416
 }
