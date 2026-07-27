@@ -1,0 +1,20 @@
+[
+  {
+    "message_id": 418,
+    "from": {
+      "id": 8692339206,
+      "is_bot": false,
+      "first_name": "Arag",
+      "username": "Kianukal",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": 8692339206,
+      "first_name": "Arag",
+      "username": "Kianukal",
+      "type": "private"
+    },
+    "date": 1785183697,
+    "text": "Hlo"
+  }
+]
