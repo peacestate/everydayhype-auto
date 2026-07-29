@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-07-29T03:57:35.524103Z",
   "deadline_min": 120,
-  "caption": "Anthropic's AI model Claude Mythos has uncovered vulnerabilities in key cryptographic algorithms. This could change the way we think about internet security! \ud83d\udd10\ud83d\udcbb\n\nHow significant do you think this discovery is?\n\nSources: The Decoder, Anthropic",
+  "caption": "Anthropic's AI model Claude Mythos has uncovered vulnerabilities in key cryptographic algorithms. This could change the way we think about internet security! 🔐💻\n\nHow significant do you think this discovery is?\n\nSources: The Decoder, Anthropic",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785297447/everydayhypehq/2026-07-29/035726_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785297447/everydayhypehq/2026-07-29/035726_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "a",
     "person": "",
     "company": "Anthropic",
-    "caption": "Anthropic's AI model Claude Mythos has uncovered vulnerabilities in key cryptographic algorithms. This could change the way we think about internet security! \ud83d\udd10\ud83d\udcbb\n\nHow significant do you think this discovery is?\n\nSources: The Decoder, Anthropic",
+    "caption": "Anthropic's AI model Claude Mythos has uncovered vulnerabilities in key cryptographic algorithms. This could change the way we think about internet security! 🔐💻\n\nHow significant do you think this discovery is?\n\nSources: The Decoder, Anthropic",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "ANTHROPIC'S MYTHOS FOUND VULNERABILITIES IN CRYPTOGRAPHIC ALGORITHMS",
         "hl": "VULNERABILITIES IN CRYPTOGRAPHIC ALGORITHMS",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A close-up of a hand operating a digital tablet, with visual representations of cryptographic attacks and data flow diagrams displayed."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "AI COULD CHALLENGE CORE ASSUMPTIONS IN INTERNET SECURITY",
         "hl": "CHALLENGE CORE ASSUMPTIONS",
         "hls": [
@@ -81,5 +81,6 @@
     "date": "2026-07-29"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 433
+  "control_msg_id": 433,
+  "resolved_at": "2026-07-29T06:43:57.412Z"
 }
