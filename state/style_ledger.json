@@ -362,5 +362,18 @@
       "An aerial view of Gatwick Airport showin",
       "A futuristic vision of an airport with r"
     ]
+  },
+  {
+    "date": "2026-07-29",
+    "palette": "cyan",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A close-up of a computer screen displayi",
+      "A researcher in a lab setting, studying ",
+      "An overhead view of a research team brai",
+      "A close-up of a hand operating a digital",
+      "A futuristic cityscape representing digi"
+    ]
   }
 ]
