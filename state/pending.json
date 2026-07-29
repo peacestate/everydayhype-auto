@@ -1,81 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-28T03:58:07.345449Z",
+  "status": "pending",
+  "created_at": "2026-07-29T03:57:35.524103Z",
   "deadline_min": 120,
-  "caption": "London Gatwick Airport has introduced a robotic parking service that promises to streamline the travel experience. The service utilizes robots developed by Stanley Robotics to park vehicles efficiently. Travelers can now drop off their cars and let the robots handle the rest! \ud83e\udd16\u2708\ufe0f  \n\nHow do you feel about robotic services in airports?  \n\nSources: Aerospace Global News  \n#GatwickAirport #Robotics #AirportInnovation #TravelTech #StanleyRobotics #ParkingSolutions #AI #Automation #TravelTrends #SmartAirport",
+  "caption": "Anthropic's AI model Claude Mythos has uncovered vulnerabilities in key cryptographic algorithms. This could change the way we think about internet security! \ud83d\udd10\ud83d\udcbb\n\nHow significant do you think this discovery is?\n\nSources: The Decoder, Anthropic",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785211078/everydayhypehq/2026-07-28/035757_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785211079/everydayhypehq/2026-07-28/035757_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785211079/everydayhypehq/2026-07-28/035757_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785211080/everydayhypehq/2026-07-28/035757_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785211081/everydayhypehq/2026-07-28/035757_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785297447/everydayhypehq/2026-07-29/035726_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785297447/everydayhypehq/2026-07-29/035726_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785297448/everydayhypehq/2026-07-29/035726_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785297449/everydayhypehq/2026-07-29/035726_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785297450/everydayhypehq/2026-07-29/035726_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "double-exposure, silhouette blended with data",
+    "palette": "cyan",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "a",
     "person": "",
-    "company": "London Gatwick Airport",
-    "caption": "London Gatwick Airport has introduced a robotic parking service that promises to streamline the travel experience. The service utilizes robots developed by Stanley Robotics to park vehicles efficiently. Travelers can now drop off their cars and let the robots handle the rest! \ud83e\udd16\u2708\ufe0f  \n\nHow do you feel about robotic services in airports?  \n\nSources: Aerospace Global News  \n#GatwickAirport #Robotics #AirportInnovation #TravelTech #StanleyRobotics #ParkingSolutions #AI #Automation #TravelTrends #SmartAirport",
+    "company": "Anthropic",
+    "caption": "Anthropic's AI model Claude Mythos has uncovered vulnerabilities in key cryptographic algorithms. This could change the way we think about internet security! \ud83d\udd10\ud83d\udcbb\n\nHow significant do you think this discovery is?\n\nSources: The Decoder, Anthropic",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "LONDON GATWICK AIRPORT JUST LAUNCHED ROBOTIC PARKING SERVICE",
-        "hl": "ROBOTIC PARKING SERVICE",
+        "headline": "ANTHROPIC'S MYTHOS FOUND VULNERABILITIES IN CRYPTOGRAPHIC ALGORITHMS",
+        "hl": "VULNERABILITIES IN CRYPTOGRAPHIC ALGORITHMS",
         "hls": [
-          "ROBOTIC PARKING"
+          "VULNERABILITIES",
+          "MYTHOS FOUND"
         ],
-        "sub": "This innovative service was introduced on July 24, 2026.",
-        "image_prompt": "A busy airport parking lot with a robotic parking assistant in action, blending into the environment."
+        "sub": "Here's the breakthrough in digital security.",
+        "image_prompt": "A close-up of a computer screen displaying cryptographic code, with a researcher analyzing the data. The room is dimly lit, focusing on the screen's glow."
       },
       {
         "pill": "",
-        "headline": "TRAVELERS CAN NOW DROP OFF CARS FOR ROBOTS TO PARK",
-        "hl": "ROBOTS TO PARK",
+        "headline": "MYTHOS IDENTIFIED A NEW ATTACK ON AES IN HOURS",
+        "hl": "NEW ATTACK ON AES",
         "hls": [
-          "DROP OFF CARS"
+          "IDENTIFIED",
+          "NEW ATTACK"
         ],
-        "sub": "Stanley Robotics developed the robots to increase parking efficiency.",
-        "image_prompt": "A traveler interacting with a robotic assistant at an airport drop-off point, showcasing excitement."
+        "sub": "The model found flaws in AES-128 almost entirely on its own.",
+        "image_prompt": "A researcher in a lab setting, studying cryptographic algorithms on multiple screens, with notes and coffee on the desk."
       },
       {
         "pill": "",
-        "headline": "THE SYSTEM PROMISES TO REDUCE WAIT TIMES FOR CUSTOMERS",
-        "hl": "REDUCE WAIT TIMES",
+        "headline": "HAWK ATTACK TOOK 60 HOURS AND $100,000 TO DISCOVER",
+        "hl": "60 HOURS AND $100,000",
         "hls": [
-          "WAIT TIMES"
+          "60 HOURS",
+          "$100,000"
         ],
-        "sub": "Early reports indicate a 30% reduction in customer wait times.",
-        "image_prompt": "A close-up of a digital display at an airport showing reduced wait times with happy travelers in the background."
+        "sub": "Human experts spent over two years on HAWK without success.",
+        "image_prompt": "An overhead view of a research team brainstorming around a table, with papers, laptops, and a digital whiteboard filled with complex equations."
       },
       {
         "pill": "",
-        "headline": "THIS INITIATIVE IS PART OF GATWICK'S SMART AIRPORT STRATEGY",
-        "hl": "SMART AIRPORT STRATEGY",
+        "headline": "MYTHOS IMPROVES ATTACKS BY 200 TO 800 TIMES",
+        "hl": "200 TO 800 TIMES",
         "hls": [
-          "SMART AIRPORT"
+          "IMPROVES ATTACKS",
+          "800 TIMES"
         ],
-        "sub": "Gatwick aims to leverage technology to enhance passenger experience.",
-        "image_prompt": "An aerial view of Gatwick Airport showing various technological advancements in infrastructure."
+        "sub": "New fingerprinting method enhances attack efficiency significantly.",
+        "image_prompt": "A close-up of a hand operating a digital tablet, with visual representations of cryptographic attacks and data flow diagrams displayed."
       },
       {
         "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "ROBOTIC PARKING COULD TRANSFORM AIRPORT OPERATIONS",
-        "hl": "TRANSFORM AIRPORT OPERATIONS",
+        "headline": "AI COULD CHALLENGE CORE ASSUMPTIONS IN INTERNET SECURITY",
+        "hl": "CHALLENGE CORE ASSUMPTIONS",
         "hls": [
-          "TRANSFORM OPERATIONS"
+          "CHALLENGE",
+          "CORE ASSUMPTIONS"
         ],
-        "sub": "This could set a precedent for airports worldwide. Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic vision of an airport with robotic systems integrated into operations, emphasizing innovation."
+        "sub": "This discovery prompts a reevaluation of digital security standards.",
+        "image_prompt": "A futuristic cityscape representing digital security, with glowing network lines and encrypted data flowing through a virtual network."
       }
     ],
     "story": {
-      "title": "London Gatwick has launched a robotic airport parking service",
-      "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/"
+      "title": "Anthropic says its Mythos model found vulnerabilities in cryptographic algorithms that secure the internet",
+      "url": "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/"
     },
-    "date": "2026-07-28"
+    "date": "2026-07-29"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 426,
-  "resolved_at": "2026-07-28T13:01:27.106678Z"
+  "control_msg_id": 433
 }
