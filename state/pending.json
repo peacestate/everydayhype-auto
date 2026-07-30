@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-07-30T03:57:33.469196Z",
   "deadline_min": 120,
   "caption": "A recent analysis reveals alarming vulnerabilities in Microsoft Word's Copilot that could allow document-borne AI worms to self-propagate. These findings show how malicious instructions can be embedded in documents and spread through users' workflows. \n\nWith a 144-day coordination period involving Microsoft, the implications are significant for document security. \n\nShould companies take more precautions? \n\nSources: Enklypesalt, Microsoft Security Response Center\n\n#Microsoft #AI #CyberSecurity #Word #Copilot #DocumentSecurity #Vulnerability #TechNews #AIWorms #Malware #Infosec",
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 440,
-  "resolved_at": "2026-07-30T06:15:29.499Z"
+  "resolved_at": "2026-07-30T06:31:57.923139Z"
 }
