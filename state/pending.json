@@ -1,71 +1,75 @@
 {
   "status": "pending",
-  "created_at": "2026-07-31T11:04:14.471883Z",
+  "created_at": "2026-07-31T11:22:22.002193Z",
   "deadline_min": 120,
-  "caption": "DeepMind's Gemini Robotics 2 introduces advanced capabilities for robots, enabling intelligent whole-body control and fine dexterity for complex tasks. 4a1916  \n\nWhat do you think the future holds for robot teamwork?  \nSources: DeepMind Blog  \n#DeepMind #Robotics #AI #GeminiRobotics #Innovation #Technology #Automation #FutureOfWork #Robots #AIAdvancements #TechTrends #MachineLearning",
+  "caption": "DeepMind introduces Gemini Robotics 2, enhancing robots with whole-body intelligence and dexterity. This marks a significant leap in robotics, allowing for complex tasks and teamwork among robots. 3fc916\n\nCould this change our interactions with robots?\n\nSources: DeepMind Blog, TechCrunch, Wired\n#DeepMind #Robotics #AI #GeminiRobotics2 #Innovation #Technology #Automation #FutureTech",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785495847/everydayhypehq/2026-07-31/110406_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785495847/everydayhypehq/2026-07-31/110406_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785495848/everydayhypehq/2026-07-31/110406_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785495849/everydayhypehq/2026-07-31/110406_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785495849/everydayhypehq/2026-07-31/110406_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785496934/everydayhypehq/2026-07-31/112213_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785496934/everydayhypehq/2026-07-31/112213_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785496935/everydayhypehq/2026-07-31/112213_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785496935/everydayhypehq/2026-07-31/112213_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785496936/everydayhypehq/2026-07-31/112213_slide_5.png"
   ],
   "plan": {
     "palette": "red",
-    "art_style": "isometric miniature diorama, tilt-shift",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "b",
-    "caption": "DeepMind's Gemini Robotics 2 introduces advanced capabilities for robots, enabling intelligent whole-body control and fine dexterity for complex tasks. 4a1916  \n\nWhat do you think the future holds for robot teamwork?  \nSources: DeepMind Blog  \n#DeepMind #Robotics #AI #GeminiRobotics #Innovation #Technology #Automation #FutureOfWork #Robots #AIAdvancements #TechTrends #MachineLearning",
+    "caption": "DeepMind introduces Gemini Robotics 2, enhancing robots with whole-body intelligence and dexterity. This marks a significant leap in robotics, allowing for complex tasks and teamwork among robots. 3fc916\n\nCould this change our interactions with robots?\n\nSources: DeepMind Blog, TechCrunch, Wired\n#DeepMind #Robotics #AI #GeminiRobotics2 #Innovation #Technology #Automation #FutureTech",
     "slides": [
       {
         "pill": "BREAKING 534",
-        "headline": "DEEP MIND'S GEMINI ROBOTICS 2 ENABLES INTELLIGENT WHOLE-BODY CONTROL",
-        "hl": "WHOLE-BODY CONTROL",
+        "headline": "DEEP MIND JUST ANNOUNCED ROBOTS WITH WHOLE-BODY INTELLIGENCE",
+        "hl": "WHOLE-BODY INTELLIGENCE",
         "hls": [
-          "INTELLIGENT",
-          "WHOLE-BODY"
+          "WHOLE-BODY",
+          "INTELLIGENCE"
         ],
-        "sub": "Here's the breakthrough in robotics.",
-        "image_prompt": "A dynamic scene of a humanoid robot performing various movements, including walking and crouching, in a cluttered room."
+        "sub": "Here's the latest on Gemini Robotics 2.",
+        "image_prompt": "A humanoid robot with articulated limbs, navigating through a cluttered room, demonstrating dexterity and movement."
       },
       {
         "pill": "",
-        "headline": "THIS ADVANCEMENT ENABLES ROBOTS TO TEAM UP EFFECTIVELY",
-        "hl": "TEAM UP EFFECTIVELY",
+        "headline": "GEMINI ROBOTICS 2 ENABLES HUMANOID ROBOTS TO WALK, CROUCH, AND STRETCH",
+        "hl": "WALK, CROUCH, AND STRETCH",
         "hls": [
-          "EFFECTIVELY"
+          "WALK",
+          "CROUCH"
         ],
-        "sub": "Robots can now collaborate to finish tasks faster and more efficiently.",
-        "image_prompt": "Two robots working together in a bright, modern workspace, showcasing teamwork and collaboration."
+        "sub": "This model allows for advanced movement and manipulation of objects.",
+        "image_prompt": "A close-up of a humanoid robot's hands manipulating various objects, showcasing fine dexterity."
       },
       {
         "pill": "",
-        "headline": "GEMINI ROBOTICS 2 LEARNS NEW TASKS IN JUST HOURS",
-        "hl": "LEARNS NEW TASKS",
+        "headline": "ROBOTS CAN NOW TEAM UP TO COMPLETE TASKS FASTER THAN EVER",
+        "hl": "TEAM UP TO COMPLETE TASKS",
         "hls": [
-          "NEW TASKS"
+          "TEAM UP",
+          "COMPLETE TASKS"
         ],
-        "sub": "The AI can adapt to new robotic bodies within just a few hours.",
-        "image_prompt": "A robot seamlessly transitioning from one task to another, highlighting its adaptability."
+        "sub": "Collaboration between robots enhances efficiency in task execution.",
+        "image_prompt": "Two humanoid robots working together to clean up a space, showcasing teamwork."
       },
       {
         "pill": "",
-        "headline": "THREE ADVANCED MODELS POWER THIS ROBOTIC INTELLIGENCE",
-        "hl": "POWER THIS ROBOTIC INTELLIGENCE",
+        "headline": "GEMINI ROBOTICS 2 CAN ADAPT TO NEW ROBOTIC BODIES IN HOURS",
+        "hl": "ADAPT TO NEW ROBOTIC BODIES",
         "hls": [
-          "ADVANCED MODELS"
+          "ADAPT",
+          "NEW ROBOTIC BODIES"
         ],
-        "sub": "These include models for vision-language-action and embodied reasoning capabilities.",
-        "image_prompt": "An artistic representation of the three models of robots, each demonstrating different capabilities."
+        "sub": "This adaptability represents a breakthrough in robotic intelligence.",
+        "image_prompt": "A setting showing multiple types of robots in a workshop, with tools and parts around them."
       },
       {
         "pill": "THE TAKEAWAY 525",
-        "headline": "THIS COULD CHANGE HOW WE INTERACT WITH ROBOTS",
-        "hl": "INTERACT WITH ROBOTS",
+        "headline": "THIS ADVANCE ENABLES ROBOTS TO PERFORM A BROAD RANGE OF TASKS",
+        "hl": "ENABLES ROBOTS TO PERFORM",
         "hls": [
-          "CHANGE HOW"
+          "ENABLES",
+          "PERFORM"
         ],
-        "sub": "These advancements enable robots to handle complex tasks safely and efficiently. Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic scene depicting humans and robots interacting in a harmonious and productive environment."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A futuristic environment with various robots performing tasks, illustrating advanced technology in action."
       }
     ],
     "person": "",
@@ -77,5 +81,5 @@
     "date": "2026-07-31"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 447
+  "control_msg_id": 453
 }
