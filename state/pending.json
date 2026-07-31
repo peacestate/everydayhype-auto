@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-07-31T11:22:22.002193Z",
   "deadline_min": 120,
   "caption": "DeepMind introduces Gemini Robotics 2, enhancing robots with whole-body intelligence and dexterity. This marks a significant leap in robotics, allowing for complex tasks and teamwork among robots. 3fc916\n\nCould this change our interactions with robots?\n\nSources: DeepMind Blog, TechCrunch, Wired\n#DeepMind #Robotics #AI #GeminiRobotics2 #Innovation #Technology #Automation #FutureTech",
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 453,
-  "resolved_at": "2026-07-31T13:24:31.175Z"
+  "resolved_at": "2026-07-31T14:44:42.580188Z"
 }

@@ -388,5 +388,18 @@
       "An image of a Microsoft office with empl",
       "A dramatic shot of a digital security lo"
     ]
+  },
+  {
+    "date": "2026-07-31",
+    "palette": "red",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "motifs": [
+      "A humanoid robot with articulated limbs,",
+      "A close-up of a humanoid robot's hands m",
+      "Two humanoid robots working together to ",
+      "A setting showing multiple types of robo",
+      "A futuristic environment with various ro"
+    ]
   }
 ]
