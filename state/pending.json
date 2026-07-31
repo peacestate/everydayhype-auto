@@ -1,86 +1,81 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-30T03:57:33.469196Z",
+  "status": "pending",
+  "created_at": "2026-07-31T11:04:14.471883Z",
   "deadline_min": 120,
-  "caption": "A recent analysis reveals alarming vulnerabilities in Microsoft Word's Copilot that could allow document-borne AI worms to self-propagate. These findings show how malicious instructions can be embedded in documents and spread through users' workflows. \n\nWith a 144-day coordination period involving Microsoft, the implications are significant for document security. \n\nShould companies take more precautions? \n\nSources: Enklypesalt, Microsoft Security Response Center\n\n#Microsoft #AI #CyberSecurity #Word #Copilot #DocumentSecurity #Vulnerability #TechNews #AIWorms #Malware #Infosec",
+  "caption": "DeepMind's Gemini Robotics 2 introduces advanced capabilities for robots, enabling intelligent whole-body control and fine dexterity for complex tasks. 4a1916  \n\nWhat do you think the future holds for robot teamwork?  \nSources: DeepMind Blog  \n#DeepMind #Robotics #AI #GeminiRobotics #Innovation #Technology #Automation #FutureOfWork #Robots #AIAdvancements #TechTrends #MachineLearning",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785383845/everydayhypehq/2026-07-30/035724_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785383846/everydayhypehq/2026-07-30/035724_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785383846/everydayhypehq/2026-07-30/035724_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785383847/everydayhypehq/2026-07-30/035724_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785383848/everydayhypehq/2026-07-30/035724_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785495847/everydayhypehq/2026-07-31/110406_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785495847/everydayhypehq/2026-07-31/110406_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785495848/everydayhypehq/2026-07-31/110406_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785495849/everydayhypehq/2026-07-31/110406_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785495849/everydayhypehq/2026-07-31/110406_slide_5.png"
   ],
   "plan": {
-    "palette": "magenta",
-    "art_style": "sleek 3D render, octane, glossy materials",
-    "layout": "a",
-    "caption": "A recent analysis reveals alarming vulnerabilities in Microsoft Word's Copilot that could allow document-borne AI worms to self-propagate. These findings show how malicious instructions can be embedded in documents and spread through users' workflows. \n\nWith a 144-day coordination period involving Microsoft, the implications are significant for document security. \n\nShould companies take more precautions? \n\nSources: Enklypesalt, Microsoft Security Response Center\n\n#Microsoft #AI #CyberSecurity #Word #Copilot #DocumentSecurity #Vulnerability #TechNews #AIWorms #Malware #Infosec",
+    "palette": "red",
+    "art_style": "isometric miniature diorama, tilt-shift",
+    "layout": "b",
+    "caption": "DeepMind's Gemini Robotics 2 introduces advanced capabilities for robots, enabling intelligent whole-body control and fine dexterity for complex tasks. 4a1916  \n\nWhat do you think the future holds for robot teamwork?  \nSources: DeepMind Blog  \n#DeepMind #Robotics #AI #GeminiRobotics #Innovation #Technology #Automation #FutureOfWork #Robots #AIAdvancements #TechTrends #MachineLearning",
     "slides": [
       {
-        "pill": "BREAKING",
-        "headline": "AI WORMING THROUGH WORD CAN SELF-PROPAGATE IN DOCUMENTS",
-        "hl": "SELF-PROPAGATE IN DOCUMENTS",
+        "pill": "BREAKING 534",
+        "headline": "DEEP MIND'S GEMINI ROBOTICS 2 ENABLES INTELLIGENT WHOLE-BODY CONTROL",
+        "hl": "WHOLE-BODY CONTROL",
         "hls": [
-          "AI WORMING",
-          "SELF-PROPAGATE"
+          "INTELLIGENT",
+          "WHOLE-BODY"
         ],
-        "sub": "This could lead to widespread document manipulation across workflows.",
-        "image_prompt": "A close-up shot of a person working on a laptop, focusing on a document with visible text and code snippets, in a modern office environment."
+        "sub": "Here's the breakthrough in robotics.",
+        "image_prompt": "A dynamic scene of a humanoid robot performing various movements, including walking and crouching, in a cluttered room."
       },
       {
-        "pill": "WHAT HAPPENED",
-        "headline": "MALICIOUS INSTRUCTIONS CAN SPREAD THROUGH COPILOT-GENERATED DOCUMENTS",
-        "hl": "SPREAD THROUGH COPILOT-GENERATED DOCUMENTS",
+        "pill": "",
+        "headline": "THIS ADVANCEMENT ENABLES ROBOTS TO TEAM UP EFFECTIVELY",
+        "hl": "TEAM UP EFFECTIVELY",
         "hls": [
-          "MALICIOUS INSTRUCTIONS",
-          "COPILOT-GENERATED"
+          "EFFECTIVELY"
         ],
-        "sub": "Attackers can hide instructions in documents shared with others, impacting many users.",
-        "image_prompt": "An over-the-shoulder view of a person sharing a document on a computer screen, with a focused expression, in a collaborative workspace."
+        "sub": "Robots can now collaborate to finish tasks faster and more efficiently.",
+        "image_prompt": "Two robots working together in a bright, modern workspace, showcasing teamwork and collaboration."
       },
       {
-        "pill": "WHY IT MATTERS",
-        "headline": "THIS IS ONE OF THE FIRST DEMONSTRATIONS OF AI-WORM PROPAGATION",
-        "hl": "FIRST DEMONSTRATIONS",
+        "pill": "",
+        "headline": "GEMINI ROBOTICS 2 LEARNS NEW TASKS IN JUST HOURS",
+        "hl": "LEARNS NEW TASKS",
         "hls": [
-          "FIRST",
-          "AI-WORM PROPAGATION"
+          "NEW TASKS"
         ],
-        "sub": "This scenario demonstrates a new method for compromising document-based systems.",
-        "image_prompt": "A digital representation of interconnected documents, symbolizing data flows and security risks, set against a dark, tech-inspired background."
+        "sub": "The AI can adapt to new robotic bodies within just a few hours.",
+        "image_prompt": "A robot seamlessly transitioning from one task to another, highlighting its adaptability."
       },
       {
-        "pill": "THE IMPACT",
-        "headline": "COORDINATION WITH MICROSOFT LASTED 144 DAYS BEFORE DISCLOSURE",
-        "hl": "144 DAYS BEFORE DISCLOSURE",
+        "pill": "",
+        "headline": "THREE ADVANCED MODELS POWER THIS ROBOTIC INTELLIGENCE",
+        "hl": "POWER THIS ROBOTIC INTELLIGENCE",
         "hls": [
-          "COORDINATION WITH MICROSOFT",
-          "144 DAYS"
+          "ADVANCED MODELS"
         ],
-        "sub": "This extended timeframe emphasizes the critical nature of these security vulnerabilities.",
-        "image_prompt": "An image of a Microsoft office with employees discussing security measures around a table, with documents and laptops in view."
+        "sub": "These include models for vision-language-action and embodied reasoning capabilities.",
+        "image_prompt": "An artistic representation of the three models of robots, each demonstrating different capabilities."
       },
       {
-        "pill": "THE TAKEAWAY",
-        "headline": "DOCUMENT SECURITY IS AT RISK FROM AI WORM ATTACKS",
-        "hl": "AT RISK FROM AI WORM ATTACKS",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "THIS COULD CHANGE HOW WE INTERACT WITH ROBOTS",
+        "hl": "INTERACT WITH ROBOTS",
         "hls": [
-          "DOCUMENT SECURITY",
-          "AI WORM ATTACKS"
+          "CHANGE HOW"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A dramatic shot of a digital security lock on a document, representing the need for enhanced security measures, against a backdrop of code."
+        "sub": "These advancements enable robots to handle complex tasks safely and efficiently. Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A futuristic scene depicting humans and robots interacting in a harmonious and productive environment."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Document-borne AI worms can self-propagate through Copilot for Word",
-      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/"
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
     },
-    "date": "2026-07-30"
+    "date": "2026-07-31"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 440,
-  "resolved_at": "2026-07-30T06:31:57.923139Z"
+  "control_msg_id": 447
 }
