@@ -1,86 +1,72 @@
 {
-  "status": "posted",
-  "created_at": "2026-07-31T11:22:22.002193Z",
+  "status": "pending",
+  "created_at": "2026-08-01T03:58:31.510016Z",
   "deadline_min": 120,
-  "caption": "DeepMind introduces Gemini Robotics 2, enhancing robots with whole-body intelligence and dexterity. This marks a significant leap in robotics, allowing for complex tasks and teamwork among robots. 3fc916\n\nCould this change our interactions with robots?\n\nSources: DeepMind Blog, TechCrunch, Wired\n#DeepMind #Robotics #AI #GeminiRobotics2 #Innovation #Technology #Automation #FutureTech",
+  "caption": "Google Deepmind has unveiled Gemini Robotics 2, their most advanced vision-language-action model. This new technology enables robots to manage everything from fine motor tasks to full-body movement. \n\nWhat are your thoughts on robotics advancements?\n\nSources: The Decoder\n\n#Google #Deepmind #Robotics #AI #Technology #Innovation #GeminiRobotics #Automation #TechNews #AIModels",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785496934/everydayhypehq/2026-07-31/112213_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785496934/everydayhypehq/2026-07-31/112213_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785496935/everydayhypehq/2026-07-31/112213_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785496935/everydayhypehq/2026-07-31/112213_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785496936/everydayhypehq/2026-07-31/112213_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785556703/everydayhypehq/2026-08-01/035823_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785556704/everydayhypehq/2026-08-01/035823_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785556704/everydayhypehq/2026-08-01/035823_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785556705/everydayhypehq/2026-08-01/035823_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785556706/everydayhypehq/2026-08-01/035823_slide_5.png"
   ],
   "plan": {
-    "palette": "red",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "palette": "green",
+    "art_style": "dramatic macro close-up, shallow depth",
     "layout": "b",
-    "caption": "DeepMind introduces Gemini Robotics 2, enhancing robots with whole-body intelligence and dexterity. This marks a significant leap in robotics, allowing for complex tasks and teamwork among robots. 3fc916\n\nCould this change our interactions with robots?\n\nSources: DeepMind Blog, TechCrunch, Wired\n#DeepMind #Robotics #AI #GeminiRobotics2 #Innovation #Technology #Automation #FutureTech",
+    "person": "",
+    "company": "Google Deepmind",
+    "caption": "Google Deepmind has unveiled Gemini Robotics 2, their most advanced vision-language-action model. This new technology enables robots to manage everything from fine motor tasks to full-body movement. \n\nWhat are your thoughts on robotics advancements?\n\nSources: The Decoder\n\n#Google #Deepmind #Robotics #AI #Technology #Innovation #GeminiRobotics #Automation #TechNews #AIModels",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "DEEP MIND JUST ANNOUNCED ROBOTS WITH WHOLE-BODY INTELLIGENCE",
-        "hl": "WHOLE-BODY INTELLIGENCE",
+        "pill": "BREAKING 4",
+        "headline": "GOOGLE DEEPMIND JUST UNVEILED GEMINI ROBOTICS 2 FOR ADAPTIVE ROBOTS",
+        "hl": "GEMINI ROBOTICS 2",
         "hls": [
-          "WHOLE-BODY",
-          "INTELLIGENCE"
+          "ADAPTIVE ROBOTS"
         ],
-        "sub": "Here's the latest on Gemini Robotics 2.",
-        "image_prompt": "A humanoid robot with articulated limbs, navigating through a cluttered room, demonstrating dexterity and movement."
+        "sub": "This model combines image recognition, language processing, and action control.",
+        "image_prompt": "A close-up of a robotic arm manipulating small objects on a tabletop, showcasing intricate mechanics and technology."
       },
       {
-        "pill": "",
-        "headline": "GEMINI ROBOTICS 2 ENABLES HUMANOID ROBOTS TO WALK, CROUCH, AND STRETCH",
-        "hl": "WALK, CROUCH, AND STRETCH",
-        "hls": [
-          "WALK",
-          "CROUCH"
-        ],
-        "sub": "This model allows for advanced movement and manipulation of objects.",
-        "image_prompt": "A close-up of a humanoid robot's hands manipulating various objects, showcasing fine dexterity."
+        "pill": "WHAT HAPPENED 601",
+        "headline": "GEMINI ROBOTICS 2 CAN CONTROL FULL-BODY HUMANOID ROBOTS EASILY",
+        "hl": "FULL-BODY HUMANOID ROBOTS",
+        "hls": [],
+        "sub": "Developers can apply for early access through a dedicated waitlist.",
+        "image_prompt": "A humanoid robot in action, performing tasks in a physical environment, with a focus on its sophisticated design."
       },
       {
-        "pill": "",
-        "headline": "ROBOTS CAN NOW TEAM UP TO COMPLETE TASKS FASTER THAN EVER",
-        "hl": "TEAM UP TO COMPLETE TASKS",
-        "hls": [
-          "TEAM UP",
-          "COMPLETE TASKS"
-        ],
-        "sub": "Collaboration between robots enhances efficiency in task execution.",
-        "image_prompt": "Two humanoid robots working together to clean up a space, showcasing teamwork."
+        "pill": "WHY IT MATTERS 030",
+        "headline": "NEW MODEL CAN COORDINATE MULTIPLE ROBOTS FOR COMPLEX TASKS",
+        "hl": "COORDINATE MULTIPLE ROBOTS",
+        "hls": [],
+        "sub": "Gemini Robotics ER 2 is designed for embodied reasoning in robotics.",
+        "image_prompt": "A group of robots working together in a collaborative setting, highlighting teamwork and advanced technology."
       },
       {
-        "pill": "",
-        "headline": "GEMINI ROBOTICS 2 CAN ADAPT TO NEW ROBOTIC BODIES IN HOURS",
-        "hl": "ADAPT TO NEW ROBOTIC BODIES",
-        "hls": [
-          "ADAPT",
-          "NEW ROBOTIC BODIES"
-        ],
-        "sub": "This adaptability represents a breakthrough in robotic intelligence.",
-        "image_prompt": "A setting showing multiple types of robots in a workshop, with tools and parts around them."
+        "pill": "THE IMPACT 000",
+        "headline": "GEMINI ROBOTICS 2 SERVES AS AN INTELLIGENCE LAYER FOR ROBOTS",
+        "hl": "INTELLIGENCE LAYER FOR ROBOTS",
+        "hls": [],
+        "sub": "The technology enhances robots' ability to perform fine motor tasks and full-body movements.",
+        "image_prompt": "A futuristic lab environment with engineers programming robots, emphasizing innovation and collaboration."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "THIS ADVANCE ENABLES ROBOTS TO PERFORM A BROAD RANGE OF TASKS",
-        "hl": "ENABLES ROBOTS TO PERFORM",
-        "hls": [
-          "ENABLES",
-          "PERFORM"
-        ],
+        "pill": "THE TAKEAWAY cf",
+        "headline": "AND IT CAN MANAGE FINE MOTOR TASKS WITH PRECISION",
+        "hl": "FINE MOTOR TASKS",
+        "hls": [],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic environment with various robots performing tasks, illustrating advanced technology in action."
+        "image_prompt": "A close-up of a robotic hand delicately handling small objects, showcasing precision engineering."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+      "title": "Google Deepmind unveils Gemini Robotics 2 to power robots of all shapes from tabletop arms to humanoids",
+      "url": "https://the-decoder.com/google-deepmind-unveils-gemini-robotics-2-to-power-robots-of-all-shapes-from-tabletop-arms-to-humanoids/"
     },
-    "date": "2026-07-31"
+    "date": "2026-08-01"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 453,
-  "resolved_at": "2026-07-31T14:44:42.580188Z"
+  "control_msg_id": 460
 }
