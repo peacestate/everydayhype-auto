@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-02T05:37:00.577878Z",
   "deadline_min": 120,
   "caption": "OpenAI has officially announced its new model, Astra, which has solved ten previously unsolved math problems. These breakthroughs span various fields, including group theory and quantum complexity. This significant accomplishment could impact the landscape of automated mathematical reasoning. 4d04a1\n\nWhat do you think about AI tackling complex math problems?\n\nSources: The Decoder, OpenAI, University of Manchester\n#OpenAI #AI #Mathematics #Astra #Innovation #TechNews #ScientificResearch #GroupTheory #QuantumComplexity #AutomatedReasoning #MathSolutions #TechBreakthrough",
@@ -81,5 +81,6 @@
     "date": "2026-08-02"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 479
+  "control_msg_id": 479,
+  "resolved_at": "2026-08-02T05:37:26.146Z"
 }
