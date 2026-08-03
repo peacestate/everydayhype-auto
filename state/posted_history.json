@@ -135,5 +135,9 @@
   {
     "date": "2026-08-02",
     "title": "OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack"
   }
 ]

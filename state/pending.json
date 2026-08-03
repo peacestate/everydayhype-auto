@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-08-03T03:58:04.480010Z",
   "deadline_min": 120,
   "caption": "Researchers have identified a fundamental flaw in large language models (LLMs) that makes them vulnerable to attacks. This flaw allows malicious actors to trick LLMs into providing sensitive information, raising significant concerns for applications in sectors like healthcare and military. \nShould companies reassess their reliance on LLMs? \n\nSources: MIT Technology Review, International Conference on Machine Learning\n\n#AI #MachineLearning #Cybersecurity #LanguageModels #TechNews #AIResearch #Vulnerability #DataSafety #Innovation",
@@ -17,7 +17,7 @@
     "caption": "Researchers have identified a fundamental flaw in large language models (LLMs) that makes them vulnerable to attacks. This flaw allows malicious actors to trick LLMs into providing sensitive information, raising significant concerns for applications in sectors like healthcare and military. \nShould companies reassess their reliance on LLMs? \n\nSources: MIT Technology Review, International Conference on Machine Learning\n\n#AI #MachineLearning #Cybersecurity #LanguageModels #TechNews #AIResearch #Vulnerability #DataSafety #Innovation",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
+        "pill": "BREAKING \ud83d\udd34",
         "headline": "RESEARCHERS FOUND LLMs CAN BE TRICKED INTO SHARING SENSITIVE INFORMATION",
         "hl": "TRICKED INTO SHARING",
         "hls": [
@@ -28,7 +28,7 @@
         "image_prompt": "A close-up of a researcher looking at computer screens filled with code, deep in thought."
       },
       {
-        "pill": "WHY IT MATTERS 🌍",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
         "headline": "THE FLAW ENABLES LLMs TO REVEAL HOW TO SABOTAGE AIRCRAFT SYSTEMS",
         "hl": "SABOTAGE AIRCRAFT SYSTEMS",
         "hls": [
@@ -39,7 +39,7 @@
         "image_prompt": "An aircraft cockpit with instruments and navigation systems, illuminated by soft light."
       },
       {
-        "pill": "THE IMPACT 🔑",
+        "pill": "THE IMPACT \ud83d\udd11",
         "headline": "LLMs LIKE GPT CAN BE HACKED TO SPIT OUT RESTRICTED INFORMATION",
         "hl": "SPIT OUT RESTRICTED INFORMATION",
         "hls": [
@@ -50,7 +50,7 @@
         "image_prompt": "A group of professionals in a meeting room discussing cybersecurity strategies with laptops open."
       },
       {
-        "pill": "THE TAKEAWAY 🔥",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
         "headline": "THIS PROBLEM MAY BE FUNDAMENTALLY UNSOLVABLE, EXPERTS WARN",
         "hl": "FUNDAMENTALLY UNSOLVABLE",
         "hls": [
@@ -61,7 +61,7 @@
         "image_prompt": "A thoughtful researcher surrounded by papers and books, pondering over potential solutions."
       },
       {
-        "pill": "WHAT HAPPENED ⚡",
+        "pill": "WHAT HAPPENED \u26a1",
         "headline": "RESEARCH SHOWS LLMs CAN BE MANIPULATED WITH EASE BY USERS",
         "hl": "MANIPULATED WITH EASE",
         "hls": [
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 486,
-  "resolved_at": "2026-08-03T03:58:18.100Z"
+  "resolved_at": "2026-08-03T06:31:27.817779Z"
 }
