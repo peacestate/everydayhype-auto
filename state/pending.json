@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-02T05:37:00.577878Z",
+  "status": "pending",
+  "created_at": "2026-08-03T03:58:04.480010Z",
   "deadline_min": 120,
-  "caption": "OpenAI has officially announced its new model, Astra, which has solved ten previously unsolved math problems. These breakthroughs span various fields, including group theory and quantum complexity. This significant accomplishment could impact the landscape of automated mathematical reasoning. 4d04a1\n\nWhat do you think about AI tackling complex math problems?\n\nSources: The Decoder, OpenAI, University of Manchester\n#OpenAI #AI #Mathematics #Astra #Innovation #TechNews #ScientificResearch #GroupTheory #QuantumComplexity #AutomatedReasoning #MathSolutions #TechBreakthrough",
+  "caption": "Researchers have identified a fundamental flaw in large language models (LLMs) that makes them vulnerable to attacks. This flaw allows malicious actors to trick LLMs into providing sensitive information, raising significant concerns for applications in sectors like healthcare and military. \nShould companies reassess their reliance on LLMs? \n\nSources: MIT Technology Review, International Conference on Machine Learning\n\n#AI #MachineLearning #Cybersecurity #LanguageModels #TechNews #AIResearch #Vulnerability #DataSafety #Innovation",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785649014/everydayhypehq/2026-08-02/053654_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785649014/everydayhypehq/2026-08-02/053654_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785649015/everydayhypehq/2026-08-02/053654_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785649015/everydayhypehq/2026-08-02/053654_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785649016/everydayhypehq/2026-08-02/053654_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785729477/everydayhypehq/2026-08-03/035757_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785729478/everydayhypehq/2026-08-03/035757_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785729478/everydayhypehq/2026-08-03/035757_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785729479/everydayhypehq/2026-08-03/035757_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785729480/everydayhypehq/2026-08-03/035757_slide_5.png"
   ],
   "plan": {
-    "palette": "amber",
-    "art_style": "dramatic macro close-up, shallow depth",
-    "layout": "a",
-    "caption": "OpenAI has officially announced its new model, Astra, which has solved ten previously unsolved math problems. These breakthroughs span various fields, including group theory and quantum complexity. This significant accomplishment could impact the landscape of automated mathematical reasoning. 4d04a1\n\nWhat do you think about AI tackling complex math problems?\n\nSources: The Decoder, OpenAI, University of Manchester\n#OpenAI #AI #Mathematics #Astra #Innovation #TechNews #ScientificResearch #GroupTheory #QuantumComplexity #AutomatedReasoning #MathSolutions #TechBreakthrough",
+    "palette": "purple",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "caption": "Researchers have identified a fundamental flaw in large language models (LLMs) that makes them vulnerable to attacks. This flaw allows malicious actors to trick LLMs into providing sensitive information, raising significant concerns for applications in sectors like healthcare and military. \nShould companies reassess their reliance on LLMs? \n\nSources: MIT Technology Review, International Conference on Machine Learning\n\n#AI #MachineLearning #Cybersecurity #LanguageModels #TechNews #AIResearch #Vulnerability #DataSafety #Innovation",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "OPENAI'S ASTRA JUST SOLVED TEN UNSOLVED MATH PROBLEMS",
-        "hl": "SOLVED TEN UNSOLVED MATH PROBLEMS",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "RESEARCHERS FOUND LLMs CAN BE TRICKED INTO SHARING SENSITIVE INFORMATION",
+        "hl": "TRICKED INTO SHARING",
         "hls": [
-          "SOLVED",
-          "TEN UNSOLVED"
+          "TRICKED",
+          "SHARING SENSITIVE INFORMATION"
         ],
-        "sub": "Here's the breakthrough in mathematical reasoning.",
-        "image_prompt": "A close-up of a mathematician's hands working on complex equations on a notepad, with mathematical symbols and diagrams in the background."
+        "sub": "This flaw allows them to provide dangerous instructions, compromising security.",
+        "image_prompt": "A close-up of a researcher looking at computer screens filled with code, deep in thought."
       },
       {
-        "pill": "",
-        "headline": "MATHEMATICIANS MADE NO PROGRESS ON THESE FOR A DECADE",
-        "hl": "NO PROGRESS FOR A DECADE",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "THE FLAW ENABLES LLMs TO REVEAL HOW TO SABOTAGE AIRCRAFT SYSTEMS",
+        "hl": "SABOTAGE AIRCRAFT SYSTEMS",
         "hls": [
-          "NO PROGRESS",
-          "A DECADE"
+          "SABOTAGE",
+          "AIRCRAFT SYSTEMS"
         ],
-        "sub": "These problems remained unsolved for at least ten years.",
-        "image_prompt": "A dramatic macro shot of an old, dusty math textbook lying open, with a coffee cup and glasses beside it."
+        "sub": "Such vulnerabilities could lead to catastrophic consequences in aviation and beyond.",
+        "image_prompt": "An aircraft cockpit with instruments and navigation systems, illuminated by soft light."
       },
       {
-        "pill": "",
-        "headline": "ASTRA'S SOLUTIONS COST ABOUT $2,000 AT API RATES",
-        "hl": "COST ABOUT $2,000",
+        "pill": "THE IMPACT \ud83d\udd11",
+        "headline": "LLMs LIKE GPT CAN BE HACKED TO SPIT OUT RESTRICTED INFORMATION",
+        "hl": "SPIT OUT RESTRICTED INFORMATION",
         "hls": [
-          "$2,000",
-          "API RATES"
+          "SPIT OUT",
+          "RESTRICTED INFORMATION"
         ],
-        "sub": "The tokens used to generate solutions totaled around $2,000.",
-        "image_prompt": "A close-up of a calculator displaying a $2,000 total, with mathematical tools like a compass and ruler scattered around."
+        "sub": "These risks threaten various sectors, including government operations and healthcare systems.",
+        "image_prompt": "A group of professionals in a meeting room discussing cybersecurity strategies with laptops open."
       },
       {
-        "pill": "",
-        "headline": "RESEARCHERS WORKED WITH ASTRA TO FORMALIZE EACH PROOF",
-        "hl": "FORMALIZE EACH PROOF",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "THIS PROBLEM MAY BE FUNDAMENTALLY UNSOLVABLE, EXPERTS WARN",
+        "hl": "FUNDAMENTALLY UNSOLVABLE",
         "hls": [
-          "FORMALIZE",
-          "EACH PROOF"
+          "FUNDAMENTALLY",
+          "UNSOLVABLE"
         ],
-        "sub": "Human researchers collaborated with Astra for paper creation.",
-        "image_prompt": "An image of a researcher collaborating with a computer, with papers and proofs spread across the table."
+        "sub": "Current red-teaming strategies are insufficient to ensure complete model security.",
+        "image_prompt": "A thoughtful researcher surrounded by papers and books, pondering over potential solutions."
       },
       {
-        "pill": "THE TAKEAWAY 4a25",
-        "headline": "ASTRA RESOLVED OPEN QUESTIONS IN MULTIPLE MATH FIELDS",
-        "hl": "OPEN QUESTIONS IN MULTIPLE MATH FIELDS",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "RESEARCH SHOWS LLMs CAN BE MANIPULATED WITH EASE BY USERS",
+        "hl": "MANIPULATED WITH EASE",
         "hls": [
-          "RESOLVED",
-          "MULTIPLE MATH FIELDS"
+          "MANIPULATED",
+          "EASE"
         ],
-        "sub": "Astra's achievements cover group theory and quantum complexity.",
-        "image_prompt": "A visually stunning close-up of a mathematical model or structure against a backdrop of mathematical concepts."
+        "sub": "This highlights the urgent need for improved safety protocols in AI development.",
+        "image_prompt": "A researcher demonstrating a model's response on a laptop to an audience."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
-      "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/"
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/"
     },
-    "date": "2026-08-02"
+    "date": "2026-08-03"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 479,
-  "resolved_at": "2026-08-02T06:31:36.995579Z"
+  "control_msg_id": 486
 }
