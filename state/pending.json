@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-03T03:58:04.480010Z",
+  "status": "pending",
+  "created_at": "2026-08-04T04:12:16.889865Z",
   "deadline_min": 120,
-  "caption": "Researchers have identified a fundamental flaw in large language models (LLMs) that makes them vulnerable to attacks. This flaw allows malicious actors to trick LLMs into providing sensitive information, raising significant concerns for applications in sectors like healthcare and military. \nShould companies reassess their reliance on LLMs? \n\nSources: MIT Technology Review, International Conference on Machine Learning\n\n#AI #MachineLearning #Cybersecurity #LanguageModels #TechNews #AIResearch #Vulnerability #DataSafety #Innovation",
+  "caption": "Introducing Qwen 3.8-Max, now with 2.4 trillion parameters! This model brings significant advancements in coding and complex task automation. The open-source weights are set to be released next week. 680\n\nHow do you think AI will change the landscape of coding?\n\nSources: Qwen.ai, GitHub\n\n#AI #Coding #Innovation #OpenSource #TechNews #Qwen #MachineLearning #Automation #TechBreakthroughs",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785729477/everydayhypehq/2026-08-03/035757_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785729478/everydayhypehq/2026-08-03/035757_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785729478/everydayhypehq/2026-08-03/035757_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785729479/everydayhypehq/2026-08-03/035757_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785729480/everydayhypehq/2026-08-03/035757_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785816728/everydayhypehq/2026-08-04/041208_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785816729/everydayhypehq/2026-08-04/041208_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785816729/everydayhypehq/2026-08-04/041208_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785816730/everydayhypehq/2026-08-04/041208_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785816732/everydayhypehq/2026-08-04/041208_slide_5.png"
   ],
   "plan": {
-    "palette": "purple",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "caption": "Researchers have identified a fundamental flaw in large language models (LLMs) that makes them vulnerable to attacks. This flaw allows malicious actors to trick LLMs into providing sensitive information, raising significant concerns for applications in sectors like healthcare and military. \nShould companies reassess their reliance on LLMs? \n\nSources: MIT Technology Review, International Conference on Machine Learning\n\n#AI #MachineLearning #Cybersecurity #LanguageModels #TechNews #AIResearch #Vulnerability #DataSafety #Innovation",
+    "palette": "blue",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "c",
+    "caption": "Introducing Qwen 3.8-Max, now with 2.4 trillion parameters! This model brings significant advancements in coding and complex task automation. The open-source weights are set to be released next week. 680\n\nHow do you think AI will change the landscape of coding?\n\nSources: Qwen.ai, GitHub\n\n#AI #Coding #Innovation #OpenSource #TechNews #Qwen #MachineLearning #Automation #TechBreakthroughs",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "RESEARCHERS FOUND LLMs CAN BE TRICKED INTO SHARING SENSITIVE INFORMATION",
-        "hl": "TRICKED INTO SHARING",
+        "pill": "BREAKING 534",
+        "headline": "QWEN JUST UNVEILED A MODEL WITH 2.4 TRILLION PARAMETERS",
+        "hl": "2.4 TRILLION PARAMETERS",
         "hls": [
-          "TRICKED",
-          "SHARING SENSITIVE INFORMATION"
+          "2.4 trillion",
+          "Qwen"
         ],
-        "sub": "This flaw allows them to provide dangerous instructions, compromising security.",
-        "image_prompt": "A close-up of a researcher looking at computer screens filled with code, deep in thought."
+        "sub": "This new model exceeds all previous benchmarks in coding tasks.",
+        "image_prompt": "A dynamic workspace with people collaborating on coding projects, surrounded by modern tech tools, with a focus on screens displaying code."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "THE FLAW ENABLES LLMs TO REVEAL HOW TO SABOTAGE AIRCRAFT SYSTEMS",
-        "hl": "SABOTAGE AIRCRAFT SYSTEMS",
+        "pill": "WHAT HAPPENED 4a1",
+        "headline": "OPEN-SOURCE WEIGHTS OF QWEN 3.8-MAX RELEASE NEXT WEEK",
+        "hl": "OPEN-SOURCE WEIGHTS",
         "hls": [
-          "SABOTAGE",
-          "AIRCRAFT SYSTEMS"
+          "open-source",
+          "release next week"
         ],
-        "sub": "Such vulnerabilities could lead to catastrophic consequences in aviation and beyond.",
-        "image_prompt": "An aircraft cockpit with instruments and navigation systems, illuminated by soft light."
+        "sub": "Developers will have access to advanced coding capabilities for free.",
+        "image_prompt": "A close-up of hands typing on a laptop, with code visible on the screen, in a bright, tech-inspired environment."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd11",
-        "headline": "LLMs LIKE GPT CAN BE HACKED TO SPIT OUT RESTRICTED INFORMATION",
-        "hl": "SPIT OUT RESTRICTED INFORMATION",
+        "pill": "WHY IT MATTERS 30d",
+        "headline": "QWEN 3.8-MAX COMPLETED A 10+ DAY CODING PROJECT AUTONOMOUSLY",
+        "hl": "10+ DAY CODING PROJECT",
         "hls": [
-          "SPIT OUT",
-          "RESTRICTED INFORMATION"
+          "10+ days",
+          "autonomously"
         ],
-        "sub": "These risks threaten various sectors, including government operations and healthcare systems.",
-        "image_prompt": "A group of professionals in a meeting room discussing cybersecurity strategies with laptops open."
+        "sub": "It demonstrated self-evolution through feedback loops without human help.",
+        "image_prompt": "A screenshot of a GitHub repository with code snippets and project details, highlighting collaboration and coding progress."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "THIS PROBLEM MAY BE FUNDAMENTALLY UNSOLVABLE, EXPERTS WARN",
-        "hl": "FUNDAMENTALLY UNSOLVABLE",
+        "pill": "THE IMPACT 4a2",
+        "headline": "THIS MODEL OFFERS DEPENDABLE DELIVERABLES FOR COMPLEX TASKS",
+        "hl": "DEPENDABLE DELIVERABLES",
         "hls": [
-          "FUNDAMENTALLY",
-          "UNSOLVABLE"
+          "dependable deliverables",
+          "complex tasks"
         ],
-        "sub": "Current red-teaming strategies are insufficient to ensure complete model security.",
-        "image_prompt": "A thoughtful researcher surrounded by papers and books, pondering over potential solutions."
+        "sub": "Qwen 3.8-Max is set to enhance how coding is approached.",
+        "image_prompt": "An abstract representation of data flow and coding processes, with vibrant colors symbolizing innovation and progress."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "RESEARCH SHOWS LLMs CAN BE MANIPULATED WITH EASE BY USERS",
-        "hl": "MANIPULATED WITH EASE",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "QWEN 3.8-MAX COULD CHANGE HOW WE APPROACH CODING TODAY",
+        "hl": "CHANGE HOW WE APPROACH CODING",
         "hls": [
-          "MANIPULATED",
-          "EASE"
+          "change",
+          "coding"
         ],
-        "sub": "This highlights the urgent need for improved safety protocols in AI development.",
-        "image_prompt": "A researcher demonstrating a model's response on a laptop to an audience."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A futuristic city skyline at sunset, symbolizing innovation and the future of technology."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/"
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8"
     },
-    "date": "2026-08-03"
+    "date": "2026-08-04"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 486,
-  "resolved_at": "2026-08-03T06:31:27.817779Z"
+  "control_msg_id": 493
 }
