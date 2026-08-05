@@ -143,5 +143,9 @@
   {
     "date": "2026-08-04",
     "title": "Qwen3.8-Max: A New Bar for Coding and Cowork"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation"
   }
 ]
