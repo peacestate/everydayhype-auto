@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-04T04:12:16.889865Z",
+  "status": "pending",
+  "created_at": "2026-08-05T03:57:07.075465Z",
   "deadline_min": 120,
-  "caption": "Introducing Qwen 3.8-Max, now with 2.4 trillion parameters! This model brings significant advancements in coding and complex task automation. The open-source weights are set to be released next week. 680\n\nHow do you think AI will change the landscape of coding?\n\nSources: Qwen.ai, GitHub\n\n#AI #Coding #Innovation #OpenSource #TechNews #Qwen #MachineLearning #Automation #TechBreakthroughs",
+  "caption": "Mistral AI has launched Shieldstral, a 3B open-weights multimodal safety classifier. This innovative model outperforms traditional safety models by up to 7x in text safety evaluations. With its unique approach to content moderation, Shieldstral sets a new standard for safety and efficiency.\ud83c\udf1f\n\nHow do you think multimodal moderation will evolve?  \nSources: Mistral AI, NVIDIA\n#MistralAI #AI #MachineLearning #ContentModeration #Safety #Innovation #Technology #OpenSource #NVIDIA #AIModels #TechNews",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785816728/everydayhypehq/2026-08-04/041208_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785816729/everydayhypehq/2026-08-04/041208_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785816729/everydayhypehq/2026-08-04/041208_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785816730/everydayhypehq/2026-08-04/041208_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785816732/everydayhypehq/2026-08-04/041208_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785902220/everydayhypehq/2026-08-05/035659_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785902220/everydayhypehq/2026-08-05/035659_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785902221/everydayhypehq/2026-08-05/035659_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785902222/everydayhypehq/2026-08-05/035659_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785902222/everydayhypehq/2026-08-05/035659_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "double-exposure, silhouette blended with data",
+    "palette": "cyan",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "c",
-    "caption": "Introducing Qwen 3.8-Max, now with 2.4 trillion parameters! This model brings significant advancements in coding and complex task automation. The open-source weights are set to be released next week. 680\n\nHow do you think AI will change the landscape of coding?\n\nSources: Qwen.ai, GitHub\n\n#AI #Coding #Innovation #OpenSource #TechNews #Qwen #MachineLearning #Automation #TechBreakthroughs",
+    "person": "",
+    "company": "Mistral AI",
+    "caption": "Mistral AI has launched Shieldstral, a 3B open-weights multimodal safety classifier. This innovative model outperforms traditional safety models by up to 7x in text safety evaluations. With its unique approach to content moderation, Shieldstral sets a new standard for safety and efficiency.\ud83c\udf1f\n\nHow do you think multimodal moderation will evolve?  \nSources: Mistral AI, NVIDIA\n#MistralAI #AI #MachineLearning #ContentModeration #Safety #Innovation #Technology #OpenSource #NVIDIA #AIModels #TechNews",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "QWEN JUST UNVEILED A MODEL WITH 2.4 TRILLION PARAMETERS",
-        "hl": "2.4 TRILLION PARAMETERS",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "MISTRAL AI JUST RELEASED A 3B MODEL THAT OUTPERFORMS LARGER ONES",
+        "hl": "OUTPERFORMS LARGER ONES",
         "hls": [
-          "2.4 trillion",
-          "Qwen"
+          "3B MODEL",
+          "MISTRAL AI"
         ],
-        "sub": "This new model exceeds all previous benchmarks in coding tasks.",
-        "image_prompt": "A dynamic workspace with people collaborating on coding projects, surrounded by modern tech tools, with a focus on screens displaying code."
+        "sub": "Shieldstral matches models up to 7x its size in text safety.",
+        "image_prompt": "A close-up of a diverse group of engineers collaborating in a modern tech office, examining screens with graphs and data visualizations, bright lighting, casual attire."
       },
       {
-        "pill": "WHAT HAPPENED 4a1",
-        "headline": "OPEN-SOURCE WEIGHTS OF QWEN 3.8-MAX RELEASE NEXT WEEK",
-        "hl": "OPEN-SOURCE WEIGHTS",
+        "pill": "",
+        "headline": "SHIELDSTRAL USES PLAIN-LANGUAGE POLICIES FOR MODERATION",
+        "hl": "PLAIN-LANGUAGE POLICIES",
         "hls": [
-          "open-source",
-          "release next week"
+          "MODERATION",
+          "PANEL"
         ],
-        "sub": "Developers will have access to advanced coding capabilities for free.",
-        "image_prompt": "A close-up of hands typing on a laptop, with code visible on the screen, in a bright, tech-inspired environment."
+        "sub": "The model evaluates content using binary question-answering tasks.",
+        "image_prompt": "A focused female data scientist sitting at a desk with a laptop, analyzing text and images, surrounded by modern tech gadgets, natural light coming through a window."
       },
       {
-        "pill": "WHY IT MATTERS 30d",
-        "headline": "QWEN 3.8-MAX COMPLETED A 10+ DAY CODING PROJECT AUTONOMOUSLY",
-        "hl": "10+ DAY CODING PROJECT",
+        "pill": "",
+        "headline": "IT DELIVERS CALIBRATED SAFETY SCORES ON DIVERSE BENCHMARKS",
+        "hl": "CALIBRATED SAFETY SCORES",
         "hls": [
-          "10+ days",
-          "autonomously"
+          "SAFETY SCORES",
+          "DIVERSE BENCHMARKS"
         ],
-        "sub": "It demonstrated self-evolution through feedback loops without human help.",
-        "image_prompt": "A screenshot of a GitHub repository with code snippets and project details, highlighting collaboration and coding progress."
+        "sub": "This allows for unified text and image safety evaluations.",
+        "image_prompt": "A side view of an office meeting, team members discussing strategies with charts and documents on a table, bright and vibrant workspace with a collaborative atmosphere."
       },
       {
-        "pill": "THE IMPACT 4a2",
-        "headline": "THIS MODEL OFFERS DEPENDABLE DELIVERABLES FOR COMPLEX TASKS",
-        "hl": "DEPENDABLE DELIVERABLES",
+        "pill": "",
+        "headline": "SHIELDSTRAL RUNS ON A SINGLE 16GB NVIDIA GPU",
+        "hl": "SINGLE 16GB NVIDIA GPU",
         "hls": [
-          "dependable deliverables",
-          "complex tasks"
+          "RUNS ON",
+          "NVIDIA GPU"
         ],
-        "sub": "Qwen 3.8-Max is set to enhance how coding is approached.",
-        "image_prompt": "An abstract representation of data flow and coding processes, with vibrant colors symbolizing innovation and progress."
+        "sub": "This efficiency makes it accessible for various applications.",
+        "image_prompt": "An engineer working on a high-performance computer setup with multiple monitors displaying coding and AI models, warm lighting, focused expression."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "QWEN 3.8-MAX COULD CHANGE HOW WE APPROACH CODING TODAY",
-        "hl": "CHANGE HOW WE APPROACH CODING",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "OPEN WEIGHTS UNDER APACHE 2.0 MAKE IT EASILY ACCESSIBLE",
+        "hl": "EASILY ACCESSIBLE",
         "hls": [
-          "change",
-          "coding"
+          "OPEN WEIGHTS",
+          "APACHE 2.0"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic city skyline at sunset, symbolizing innovation and the future of technology."
+        "sub": "This could accelerate innovation in content moderation.",
+        "image_prompt": "A welcoming tech community workspace with diverse individuals brainstorming ideas on a whiteboard, engaging expressions, bright and inspiring environment."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "url": "https://qwen.ai/blog?id=qwen3.8"
+      "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+      "url": "https://mistral.ai/news/shieldstral/"
     },
-    "date": "2026-08-04"
+    "date": "2026-08-05"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 493,
-  "resolved_at": "2026-08-04T06:31:04.327227Z"
+  "control_msg_id": 500
 }
