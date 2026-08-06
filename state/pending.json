@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "new_story",
   "created_at": "2026-08-06T03:56:20.943364Z",
   "deadline_min": 120,
-  "caption": "Mistral's new model, Shieldstral, boasts 3 billion parameters and achieves safety benchmarks on par with models three times its size. The innovative system allows operators to define safety criteria using simple yes or no questions, enhancing adaptability in real-time. \ud83d\ude80\n\nWhat do you think about AI-driven safety models?\n\nSources: The Decoder, Arxiv\n\n#Mistral #AI #TechInnovation #Safety #MachineLearning #ArtificialIntelligence #TextSafety #ModelTraining #DeepLearning #DataScience #AIResearch #GuillaumeLample",
+  "caption": "Mistral's new model, Shieldstral, boasts 3 billion parameters and achieves safety benchmarks on par with models three times its size. The innovative system allows operators to define safety criteria using simple yes or no questions, enhancing adaptability in real-time. 🚀\n\nWhat do you think about AI-driven safety models?\n\nSources: The Decoder, Arxiv\n\n#Mistral #AI #TechInnovation #Safety #MachineLearning #ArtificialIntelligence #TextSafety #ModelTraining #DeepLearning #DataScience #AIResearch #GuillaumeLample",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785988573/everydayhypehq/2026-08-06/035612_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785988573/everydayhypehq/2026-08-06/035612_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "a",
     "person": "Guillaume Lample",
     "company": "Mistral",
-    "caption": "Mistral's new model, Shieldstral, boasts 3 billion parameters and achieves safety benchmarks on par with models three times its size. The innovative system allows operators to define safety criteria using simple yes or no questions, enhancing adaptability in real-time. \ud83d\ude80\n\nWhat do you think about AI-driven safety models?\n\nSources: The Decoder, Arxiv\n\n#Mistral #AI #TechInnovation #Safety #MachineLearning #ArtificialIntelligence #TextSafety #ModelTraining #DeepLearning #DataScience #AIResearch #GuillaumeLample",
+    "caption": "Mistral's new model, Shieldstral, boasts 3 billion parameters and achieves safety benchmarks on par with models three times its size. The innovative system allows operators to define safety criteria using simple yes or no questions, enhancing adaptability in real-time. 🚀\n\nWhat do you think about AI-driven safety models?\n\nSources: The Decoder, Arxiv\n\n#Mistral #AI #TechInnovation #Safety #MachineLearning #ArtificialIntelligence #TextSafety #ModelTraining #DeepLearning #DataScience #AIResearch #GuillaumeLample",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "MISTRAL'S SHIELDSTRAL MATCHES LARGER MODELS WITH 3 BILLION PARAMETERS",
         "hl": "3 BILLION PARAMETERS",
         "hls": [
@@ -59,7 +59,7 @@
         "image_prompt": "An AI model interface displaying text and images together, with a visual representation of classification results."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "SHIELDSTRAL OFFERS CUSTOM SAFETY AT A FRACTION OF THE SIZE",
         "hl": "CUSTOM SAFETY",
         "hls": [
