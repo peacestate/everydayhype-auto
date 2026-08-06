@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-06T08:04:45.035202Z",
   "deadline_min": 120,
-  "caption": "A recent INTERPOL report reveals that artificial intelligence is now responsible for over half of cybercrime incidents in Africa. With scams on the rise, the report indicates that financial losses due to cybercrime in the continent skyrocketed from $192 million in 2024 to $484 million in 2025. The digital economy in Africa is booming, but so are the threats. \ud83d\udcbb\ud83d\udcb0\n\nWhat steps should be taken to combat this surge?\n\nSources: Africanews, INTERPOL\n#AI #Cybercrime #Africa #DigitalEconomy #Scams #Cybersecurity #INTERPOL #Technology #Fraud #CyberThreats #OnlineSafety",
+  "caption": "A recent INTERPOL report reveals that artificial intelligence is now responsible for over half of cybercrime incidents in Africa. With scams on the rise, the report indicates that financial losses due to cybercrime in the continent skyrocketed from $192 million in 2024 to $484 million in 2025. The digital economy in Africa is booming, but so are the threats. 💻💰\n\nWhat steps should be taken to combat this surge?\n\nSources: Africanews, INTERPOL\n#AI #Cybercrime #Africa #DigitalEconomy #Scams #Cybersecurity #INTERPOL #Technology #Fraud #CyberThreats #OnlineSafety",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003478/everydayhypehq/2026-08-06/080437_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003478/everydayhypehq/2026-08-06/080437_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "a",
     "person": "",
     "company": "INTERPOL",
-    "caption": "A recent INTERPOL report reveals that artificial intelligence is now responsible for over half of cybercrime incidents in Africa. With scams on the rise, the report indicates that financial losses due to cybercrime in the continent skyrocketed from $192 million in 2024 to $484 million in 2025. The digital economy in Africa is booming, but so are the threats. \ud83d\udcbb\ud83d\udcb0\n\nWhat steps should be taken to combat this surge?\n\nSources: Africanews, INTERPOL\n#AI #Cybercrime #Africa #DigitalEconomy #Scams #Cybersecurity #INTERPOL #Technology #Fraud #CyberThreats #OnlineSafety",
+    "caption": "A recent INTERPOL report reveals that artificial intelligence is now responsible for over half of cybercrime incidents in Africa. With scams on the rise, the report indicates that financial losses due to cybercrime in the continent skyrocketed from $192 million in 2024 to $484 million in 2025. The digital economy in Africa is booming, but so are the threats. 💻💰\n\nWhat steps should be taken to combat this surge?\n\nSources: Africanews, INTERPOL\n#AI #Cybercrime #Africa #DigitalEconomy #Scams #Cybersecurity #INTERPOL #Technology #Fraud #CyberThreats #OnlineSafety",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "AI POWERS OVER 55% OF CYBERCRIME IN AFRICA",
         "hl": "OVER 55%",
         "hls": [
@@ -30,7 +30,7 @@
         "image_prompt": "A close-up of a laptop screen displaying complex code, with a person thoughtfully analyzing the screen in a dimly lit room."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "FINANCIAL LOSSES FROM CYBERCRIME ROSE TO $484 MILLION LAST YEAR",
         "hl": "$484 MILLION",
         "hls": [
@@ -41,7 +41,7 @@
         "image_prompt": "A person holding a smartphone displaying a banking app, looking worried while sitting at a cafe."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "72% OF COUNTRIES REPORTED SCAM CENTERS OPERATING WITHIN THEIR BORDERS",
         "hl": "SCAM CENTERS",
         "hls": [
@@ -52,7 +52,7 @@
         "image_prompt": "A group of people in an office setting, discussing over a table with charts and reports spread out."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "ONLINE SCAMS REMAIN AFRICA'S BIGGEST CYBER THREAT",
         "hl": "BIGGEST CYBER THREAT",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A person using a computer in a dark room, with shadows indicating a sense of danger or secrecy."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AI IS MAKING CYBERCRIME MORE CONVINCING AND ORGANIZED",
         "hl": "MORE CONVINCING",
         "hls": [
@@ -75,11 +75,12 @@
       }
     ],
     "story": {
-      "title": "AI fuels more than half of cybercrime in Africa as scams surge \u2013 Interpol",
+      "title": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
       "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/"
     },
     "date": "2026-08-06"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 513
+  "control_msg_id": 513,
+  "resolved_at": "2026-08-06T08:05:07.938Z"
 }
