@@ -1,80 +1,85 @@
 {
   "status": "pending",
-  "created_at": "2026-08-06T03:56:20.943364Z",
+  "created_at": "2026-08-06T08:04:45.035202Z",
   "deadline_min": 120,
-  "caption": "Mistral's new model, Shieldstral, boasts 3 billion parameters and achieves safety benchmarks on par with models three times its size. The innovative system allows operators to define safety criteria using simple yes or no questions, enhancing adaptability in real-time. \ud83d\ude80\n\nWhat do you think about AI-driven safety models?\n\nSources: The Decoder, Arxiv\n\n#Mistral #AI #TechInnovation #Safety #MachineLearning #ArtificialIntelligence #TextSafety #ModelTraining #DeepLearning #DataScience #AIResearch #GuillaumeLample",
+  "caption": "A recent INTERPOL report reveals that artificial intelligence is now responsible for over half of cybercrime incidents in Africa. With scams on the rise, the report indicates that financial losses due to cybercrime in the continent skyrocketed from $192 million in 2024 to $484 million in 2025. The digital economy in Africa is booming, but so are the threats. \ud83d\udcbb\ud83d\udcb0\n\nWhat steps should be taken to combat this surge?\n\nSources: Africanews, INTERPOL\n#AI #Cybercrime #Africa #DigitalEconomy #Scams #Cybersecurity #INTERPOL #Technology #Fraud #CyberThreats #OnlineSafety",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785988573/everydayhypehq/2026-08-06/035612_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785988573/everydayhypehq/2026-08-06/035612_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785988574/everydayhypehq/2026-08-06/035612_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785988575/everydayhypehq/2026-08-06/035612_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1785988575/everydayhypehq/2026-08-06/035612_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003478/everydayhypehq/2026-08-06/080437_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003478/everydayhypehq/2026-08-06/080437_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003479/everydayhypehq/2026-08-06/080437_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003479/everydayhypehq/2026-08-06/080437_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003480/everydayhypehq/2026-08-06/080437_slide_5.png"
   ],
   "plan": {
     "palette": "cyan",
     "art_style": "sleek 3D render, octane, glossy materials",
     "layout": "a",
-    "person": "Guillaume Lample",
-    "company": "Mistral",
-    "caption": "Mistral's new model, Shieldstral, boasts 3 billion parameters and achieves safety benchmarks on par with models three times its size. The innovative system allows operators to define safety criteria using simple yes or no questions, enhancing adaptability in real-time. \ud83d\ude80\n\nWhat do you think about AI-driven safety models?\n\nSources: The Decoder, Arxiv\n\n#Mistral #AI #TechInnovation #Safety #MachineLearning #ArtificialIntelligence #TextSafety #ModelTraining #DeepLearning #DataScience #AIResearch #GuillaumeLample",
+    "person": "",
+    "company": "INTERPOL",
+    "caption": "A recent INTERPOL report reveals that artificial intelligence is now responsible for over half of cybercrime incidents in Africa. With scams on the rise, the report indicates that financial losses due to cybercrime in the continent skyrocketed from $192 million in 2024 to $484 million in 2025. The digital economy in Africa is booming, but so are the threats. \ud83d\udcbb\ud83d\udcb0\n\nWhat steps should be taken to combat this surge?\n\nSources: Africanews, INTERPOL\n#AI #Cybercrime #Africa #DigitalEconomy #Scams #Cybersecurity #INTERPOL #Technology #Fraud #CyberThreats #OnlineSafety",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "MISTRAL'S SHIELDSTRAL MATCHES LARGER MODELS WITH 3 BILLION PARAMETERS",
-        "hl": "3 BILLION PARAMETERS",
+        "headline": "AI POWERS OVER 55% OF CYBERCRIME IN AFRICA",
+        "hl": "OVER 55%",
         "hls": [
-          "MATCHES LARGER MODELS"
+          "AI",
+          "CYBERCRIME"
         ],
-        "sub": "This model competes with those three times its size.",
-        "image_prompt": "A sleek, modern laboratory with researchers examining AI models on screens, showcasing a futuristic environment."
+        "sub": "Here's what you need to know.",
+        "image_prompt": "A close-up of a laptop screen displaying complex code, with a person thoughtfully analyzing the screen in a dimly lit room."
       },
       {
-        "pill": "",
-        "headline": "SHIELDSTRAL USES YES OR NO QUESTIONS FOR SAFETY CHECKS",
-        "hl": "YES OR NO QUESTIONS",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "FINANCIAL LOSSES FROM CYBERCRIME ROSE TO $484 MILLION LAST YEAR",
+        "hl": "$484 MILLION",
         "hls": [
-          "SAFETY CHECKS"
+          "FINANCIAL LOSSES",
+          "LAST YEAR"
         ],
-        "sub": "Operators define safety criteria without needing retraining.",
-        "image_prompt": "A close-up of a researcher writing plain-language questions on a whiteboard, surrounded by AI-related visuals."
+        "sub": "In 2025, losses surged from $192 million in 2024.",
+        "image_prompt": "A person holding a smartphone displaying a banking app, looking worried while sitting at a cafe."
       },
       {
-        "pill": "",
-        "headline": "54.1 MILLION EXAMPLES TRAIN THE MODEL ON SAFETY CONTENT",
-        "hl": "54.1 MILLION EXAMPLES",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "72% OF COUNTRIES REPORTED SCAM CENTERS OPERATING WITHIN THEIR BORDERS",
+        "hl": "SCAM CENTERS",
         "hls": [
-          "TRAIN THE MODEL"
+          "72%",
+          "COUNTRIES"
         ],
-        "sub": "Data includes various safety and harmful content scenarios.",
-        "image_prompt": "A digital display showing complex data patterns and safety metrics, with a researcher analyzing the information."
+        "sub": "These scams are prevalent in West and Southern Africa.",
+        "image_prompt": "A group of people in an office setting, discussing over a table with charts and reports spread out."
       },
       {
-        "pill": "",
-        "headline": "SHIELDSTRAL SETS NEW HIGH SCORE FOR JOINT TEXT AND IMAGE CLASSIFICATION",
-        "hl": "NEW HIGH SCORE",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "ONLINE SCAMS REMAIN AFRICA'S BIGGEST CYBER THREAT",
+        "hl": "BIGGEST CYBER THREAT",
         "hls": [
-          "JOINT TEXT AND IMAGE"
+          "ONLINE SCAMS",
+          "CYBER THREAT"
         ],
-        "sub": "The model excels in multimodal safety assessments.",
-        "image_prompt": "An AI model interface displaying text and images together, with a visual representation of classification results."
+        "sub": "Criminals leverage AI to enhance their schemes significantly.",
+        "image_prompt": "A person using a computer in a dark room, with shadows indicating a sense of danger or secrecy."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "SHIELDSTRAL OFFERS CUSTOM SAFETY AT A FRACTION OF THE SIZE",
-        "hl": "CUSTOM SAFETY",
+        "headline": "AI IS MAKING CYBERCRIME MORE CONVINCING AND ORGANIZED",
+        "hl": "MORE CONVINCING",
         "hls": [
-          "FRACTION OF THE SIZE"
+          "AI",
+          "CYBERCRIME"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A group of diverse researchers celebrating a successful AI model launch, conveying teamwork and innovation."
+        "image_prompt": "An abstract representation of digital networks and connections, symbolizing the interconnectedness of cyber threats."
       }
     ],
     "story": {
-      "title": "Mistral's open model Shieldstral matches much larger safety models at a fraction of the size",
-      "url": "https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/"
+      "title": "AI fuels more than half of cybercrime in Africa as scams surge \u2013 Interpol",
+      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/"
     },
     "date": "2026-08-06"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 507
+  "control_msg_id": 513
 }
