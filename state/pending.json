@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-08-07T03:57:33.376073Z",
   "deadline_min": 120,
   "caption": "AMD has acquired AI chip startup Taalas to enhance its inference performance. This move aims to challenge Nvidia's dominance in the AI hardware space. Taalas' innovative approach etches model weights directly into silicon, potentially boosting inference performance significantly. \n\nWhat do you think about AMD's acquisition strategy? \n\nSources: The Register\n\n#AMD #Taalas #AI #ChipDesign #InferencePerformance #Nvidia #TechNews #Silicon #Semiconductors #Innovation #AIHardware #TechAcquisition",
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 520,
-  "resolved_at": "2026-08-07T05:40:16.106Z"
+  "resolved_at": "2026-08-07T06:31:37.454584Z"
 }
