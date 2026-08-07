@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-06T08:04:45.035202Z",
+  "status": "pending",
+  "created_at": "2026-08-07T03:57:33.376073Z",
   "deadline_min": 120,
-  "caption": "A recent INTERPOL report reveals that artificial intelligence is now responsible for over half of cybercrime incidents in Africa. With scams on the rise, the report indicates that financial losses due to cybercrime in the continent skyrocketed from $192 million in 2024 to $484 million in 2025. The digital economy in Africa is booming, but so are the threats. \ud83d\udcbb\ud83d\udcb0\n\nWhat steps should be taken to combat this surge?\n\nSources: Africanews, INTERPOL\n#AI #Cybercrime #Africa #DigitalEconomy #Scams #Cybersecurity #INTERPOL #Technology #Fraud #CyberThreats #OnlineSafety",
+  "caption": "AMD has acquired AI chip startup Taalas to enhance its inference performance. This move aims to challenge Nvidia's dominance in the AI hardware space. Taalas' innovative approach etches model weights directly into silicon, potentially boosting inference performance significantly. \n\nWhat do you think about AMD's acquisition strategy? \n\nSources: The Register\n\n#AMD #Taalas #AI #ChipDesign #InferencePerformance #Nvidia #TechNews #Silicon #Semiconductors #Innovation #AIHardware #TechAcquisition",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003478/everydayhypehq/2026-08-06/080437_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003478/everydayhypehq/2026-08-06/080437_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003479/everydayhypehq/2026-08-06/080437_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003479/everydayhypehq/2026-08-06/080437_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786003480/everydayhypehq/2026-08-06/080437_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786075046/everydayhypehq/2026-08-07/035725_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786075046/everydayhypehq/2026-08-07/035725_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786075047/everydayhypehq/2026-08-07/035725_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786075047/everydayhypehq/2026-08-07/035725_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786075048/everydayhypehq/2026-08-07/035725_slide_5.png"
   ],
   "plan": {
-    "palette": "cyan",
-    "art_style": "sleek 3D render, octane, glossy materials",
+    "palette": "red",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "a",
-    "person": "",
-    "company": "INTERPOL",
-    "caption": "A recent INTERPOL report reveals that artificial intelligence is now responsible for over half of cybercrime incidents in Africa. With scams on the rise, the report indicates that financial losses due to cybercrime in the continent skyrocketed from $192 million in 2024 to $484 million in 2025. The digital economy in Africa is booming, but so are the threats. \ud83d\udcbb\ud83d\udcb0\n\nWhat steps should be taken to combat this surge?\n\nSources: Africanews, INTERPOL\n#AI #Cybercrime #Africa #DigitalEconomy #Scams #Cybersecurity #INTERPOL #Technology #Fraud #CyberThreats #OnlineSafety",
+    "caption": "AMD has acquired AI chip startup Taalas to enhance its inference performance. This move aims to challenge Nvidia's dominance in the AI hardware space. Taalas' innovative approach etches model weights directly into silicon, potentially boosting inference performance significantly. \n\nWhat do you think about AMD's acquisition strategy? \n\nSources: The Register\n\n#AMD #Taalas #AI #ChipDesign #InferencePerformance #Nvidia #TechNews #Silicon #Semiconductors #Innovation #AIHardware #TechAcquisition",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "AI POWERS OVER 55% OF CYBERCRIME IN AFRICA",
-        "hl": "OVER 55%",
+        "pill": "BREAKING 534",
+        "headline": "AMD JUST ACQUIRED TAALAS TO BOOST INFERENCE PERFORMANCE BY AN ORDER OF MAGNITUDE",
+        "hl": "BOOST INFERENCE PERFORMANCE",
         "hls": [
-          "AI",
-          "CYBERCRIME"
+          "BOOST",
+          "PERFORMANCE"
         ],
-        "sub": "Here's what you need to know.",
-        "image_prompt": "A close-up of a laptop screen displaying complex code, with a person thoughtfully analyzing the screen in a dimly lit room."
+        "sub": "Here's what you need to know",
+        "image_prompt": "A close-up of a high-tech silicon chip with intricate designs and etchings, showcasing advanced technology and innovation."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "FINANCIAL LOSSES FROM CYBERCRIME ROSE TO $484 MILLION LAST YEAR",
-        "hl": "$484 MILLION",
+        "pill": "WHAT HAPPENED 6a1",
+        "headline": "TAALAS' METHOD ETCHES MODEL WEIGHTS DIRECTLY INTO SILICON FOR SPEED",
+        "hl": "ETCHES MODEL WEIGHTS",
         "hls": [
-          "FINANCIAL LOSSES",
-          "LAST YEAR"
+          "ETCHES",
+          "MODEL WEIGHTS"
         ],
-        "sub": "In 2025, losses surged from $192 million in 2024.",
-        "image_prompt": "A person holding a smartphone displaying a banking app, looking worried while sitting at a cafe."
+        "sub": "Their chips serve AI models faster than traditional GPUs.",
+        "image_prompt": "An engineer in a lab setting, working on advanced chip manufacturing, with high-tech machinery and a cleanroom environment."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "72% OF COUNTRIES REPORTED SCAM CENTERS OPERATING WITHIN THEIR BORDERS",
-        "hl": "SCAM CENTERS",
+        "pill": "WHY IT MATTERS 0f0",
+        "headline": "TAALAS' FIRST CHIP ACHIEVED 48X FASTER PERFORMANCE THAN NVIDIA'S GPUS",
+        "hl": "48X FASTER PERFORMANCE",
         "hls": [
-          "72%",
-          "COUNTRIES"
+          "48X FASTER",
+          "PERFORMANCE"
         ],
-        "sub": "These scams are prevalent in West and Southern Africa.",
-        "image_prompt": "A group of people in an office setting, discussing over a table with charts and reports spread out."
+        "sub": "This leap could enhance AI processing capabilities.",
+        "image_prompt": "A side-by-side comparison of two chips on a workbench, highlighting the advanced features of Taalas' chip versus standard GPUs."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "ONLINE SCAMS REMAIN AFRICA'S BIGGEST CYBER THREAT",
-        "hl": "BIGGEST CYBER THREAT",
+        "pill": "THE IMPACT 10",
+        "headline": "THE NEXT-GEN HC2 CHIP WILL SUPPORT 20 BILLION PARAMETERS FOR AI",
+        "hl": "20 BILLION PARAMETERS",
         "hls": [
-          "ONLINE SCAMS",
-          "CYBER THREAT"
+          "20 BILLION",
+          "PARAMETERS"
         ],
-        "sub": "Criminals leverage AI to enhance their schemes significantly.",
-        "image_prompt": "A person using a computer in a dark room, with shadows indicating a sense of danger or secrecy."
+        "sub": "This could change how large models are processed.",
+        "image_prompt": "A futuristic representation of AI data flowing through a network, with glowing nodes and connections symbolizing advanced computational power."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "AI IS MAKING CYBERCRIME MORE CONVINCING AND ORGANIZED",
-        "hl": "MORE CONVINCING",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "AMD IS AIMING TO RIVAL NVIDIA WITH INNOVATIVE SILICON TECH",
+        "hl": "RIVAL NVIDIA",
         "hls": [
-          "AI",
-          "CYBERCRIME"
+          "RIVAL",
+          "NVIDIA"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "An abstract representation of digital networks and connections, symbolizing the interconnectedness of cyber threats."
+        "image_prompt": "A dynamic shot of a bustling tech conference, with professionals discussing and showcasing cutting-edge AI technologies."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "AI fuels more than half of cybercrime in Africa as scams surge \u2013 Interpol",
-      "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/"
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
     },
-    "date": "2026-08-06"
+    "date": "2026-08-07"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 513,
-  "resolved_at": "2026-08-06T09:50:06.707118Z"
+  "control_msg_id": 520
 }
