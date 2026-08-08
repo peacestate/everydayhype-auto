@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-07T03:57:33.376073Z",
+  "status": "pending",
+  "created_at": "2026-08-08T03:57:31.164076Z",
   "deadline_min": 120,
-  "caption": "AMD has acquired AI chip startup Taalas to enhance its inference performance. This move aims to challenge Nvidia's dominance in the AI hardware space. Taalas' innovative approach etches model weights directly into silicon, potentially boosting inference performance significantly. \n\nWhat do you think about AMD's acquisition strategy? \n\nSources: The Register\n\n#AMD #Taalas #AI #ChipDesign #InferencePerformance #Nvidia #TechNews #Silicon #Semiconductors #Innovation #AIHardware #TechAcquisition",
+  "caption": "The latest Agentic Index ranks Qwen3.8 Max as the top AI model. This evaluation is based on performance metrics across various tasks, highlighting its capabilities over competitors. \ud83d\ude80\n\nIs your AI model performing at its best?\n\nSources: Artificial Analysis\n#AI #MachineLearning #TechNews #Qwen3.8Max #ArtificialIntelligence #ModelEvaluation #AgenticIndex #Innovation #DataScience",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786075046/everydayhypehq/2026-08-07/035725_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786075046/everydayhypehq/2026-08-07/035725_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786075047/everydayhypehq/2026-08-07/035725_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786075047/everydayhypehq/2026-08-07/035725_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786075048/everydayhypehq/2026-08-07/035725_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786161443/everydayhypehq/2026-08-08/035722_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786161444/everydayhypehq/2026-08-08/035722_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786161444/everydayhypehq/2026-08-08/035722_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786161445/everydayhypehq/2026-08-08/035722_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786161446/everydayhypehq/2026-08-08/035722_slide_5.png"
   ],
   "plan": {
     "palette": "red",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "art_style": "neon glow synthwave, bloom, dark background",
     "layout": "a",
-    "caption": "AMD has acquired AI chip startup Taalas to enhance its inference performance. This move aims to challenge Nvidia's dominance in the AI hardware space. Taalas' innovative approach etches model weights directly into silicon, potentially boosting inference performance significantly. \n\nWhat do you think about AMD's acquisition strategy? \n\nSources: The Register\n\n#AMD #Taalas #AI #ChipDesign #InferencePerformance #Nvidia #TechNews #Silicon #Semiconductors #Innovation #AIHardware #TechAcquisition",
+    "person": "",
+    "company": "Artificial Analysis",
+    "caption": "The latest Agentic Index ranks Qwen3.8 Max as the top AI model. This evaluation is based on performance metrics across various tasks, highlighting its capabilities over competitors. \ud83d\ude80\n\nIs your AI model performing at its best?\n\nSources: Artificial Analysis\n#AI #MachineLearning #TechNews #Qwen3.8Max #ArtificialIntelligence #ModelEvaluation #AgenticIndex #Innovation #DataScience",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "AMD JUST ACQUIRED TAALAS TO BOOST INFERENCE PERFORMANCE BY AN ORDER OF MAGNITUDE",
-        "hl": "BOOST INFERENCE PERFORMANCE",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "QWEN3.8 MAX IS NOW RANKED AS THE BEST OVERALL MODEL!",
+        "hl": "BEST OVERALL MODEL",
         "hls": [
-          "BOOST",
-          "PERFORMANCE"
+          "BEST",
+          "OVERALL MODEL"
         ],
-        "sub": "Here's what you need to know",
-        "image_prompt": "A close-up of a high-tech silicon chip with intricate designs and etchings, showcasing advanced technology and innovation."
+        "sub": "This ranking comes from the latest Agentic Index evaluation.",
+        "image_prompt": "A futuristic setting showcasing advanced AI technology, with vibrant neon lights illuminating a sleek workspace."
       },
       {
-        "pill": "WHAT HAPPENED 6a1",
-        "headline": "TAALAS' METHOD ETCHES MODEL WEIGHTS DIRECTLY INTO SILICON FOR SPEED",
-        "hl": "ETCHES MODEL WEIGHTS",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "Qwen3.8 Max outperformed competitors with a 99% accuracy rate.",
+        "hl": "99% ACCURACY RATE",
         "hls": [
-          "ETCHES",
-          "MODEL WEIGHTS"
+          "99%",
+          "ACCURACY RATE"
         ],
-        "sub": "Their chips serve AI models faster than traditional GPUs.",
-        "image_prompt": "An engineer in a lab setting, working on advanced chip manufacturing, with high-tech machinery and a cleanroom environment."
+        "sub": "It achieved this impressive score across multiple benchmarks.",
+        "image_prompt": "A close-up of a computer screen displaying complex AI algorithms, with a person analyzing the data."
       },
       {
-        "pill": "WHY IT MATTERS 0f0",
-        "headline": "TAALAS' FIRST CHIP ACHIEVED 48X FASTER PERFORMANCE THAN NVIDIA'S GPUS",
-        "hl": "48X FASTER PERFORMANCE",
+        "pill": "WHY IT MATTERS \ud83d\udef0\ufe0f",
+        "headline": "The model's deployment costs are significantly lower than its rivals.",
+        "hl": "SIGNIFICANTLY LOWER COSTS",
         "hls": [
-          "48X FASTER",
-          "PERFORMANCE"
+          "LOWER COSTS",
+          "RIVALS"
         ],
-        "sub": "This leap could enhance AI processing capabilities.",
-        "image_prompt": "A side-by-side comparison of two chips on a workbench, highlighting the advanced features of Taalas' chip versus standard GPUs."
+        "sub": "This efficiency makes it attractive for businesses looking to adopt AI.",
+        "image_prompt": "A business meeting where professionals discuss AI implementations, with charts and graphs in the background."
       },
       {
-        "pill": "THE IMPACT 10",
-        "headline": "THE NEXT-GEN HC2 CHIP WILL SUPPORT 20 BILLION PARAMETERS FOR AI",
-        "hl": "20 BILLION PARAMETERS",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "Qwen3.8 Max's capabilities can enhance productivity across industries.",
+        "hl": "ENHANCE PRODUCTIVITY",
         "hls": [
-          "20 BILLION",
-          "PARAMETERS"
+          "ENHANCE",
+          "PRODUCTIVITY"
         ],
-        "sub": "This could change how large models are processed.",
-        "image_prompt": "A futuristic representation of AI data flowing through a network, with glowing nodes and connections symbolizing advanced computational power."
+        "sub": "Its versatility supports various applications, from coding to customer service.",
+        "image_prompt": "A diverse group of people collaborating on a tech project, surrounded by AI-powered tools and devices."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "AMD IS AIMING TO RIVAL NVIDIA WITH INNOVATIVE SILICON TECH",
-        "hl": "RIVAL NVIDIA",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "AND IT'S CHANGING THE AI MODEL LANDSCAPE!",
+        "hl": "CHANGING THE LANDSCAPE",
         "hls": [
-          "RIVAL",
-          "NVIDIA"
+          "CHANGING",
+          "LANDSCAPE"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A dynamic shot of a bustling tech conference, with professionals discussing and showcasing cutting-edge AI technologies."
+        "image_prompt": "A dynamic cityscape at night, illuminated with neon lights representing the fusion of technology and urban life."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344"
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "url": "https://artificialanalysis.ai/?intelligence=agentic-index"
     },
-    "date": "2026-08-07"
+    "date": "2026-08-08"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 520,
-  "resolved_at": "2026-08-07T06:31:37.454584Z"
+  "control_msg_id": 527
 }
