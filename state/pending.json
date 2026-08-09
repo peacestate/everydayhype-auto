@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-09T03:56:29.529527Z",
   "deadline_min": 120,
-  "caption": "DeepMind's WeatherNext model has achieved a significant breakthrough in cyclone forecasting, providing an extra day of predictive accuracy. This advancement is crucial for timely warnings and disaster preparedness. \ud83c\udf2a\ufe0f\ud83d\udcc8\n\nHow will this technology change how we prepare for natural disasters?\n\nSources: DeepMind, Nature\n#AI #Weather #CycloneForecasting #DeepMind #NaturalDisasters #MachineLearning #HurricaneSeason #ClimateChange",
+  "caption": "DeepMind's WeatherNext model has achieved a significant breakthrough in cyclone forecasting, providing an extra day of predictive accuracy. This advancement is crucial for timely warnings and disaster preparedness. 🌪️📈\n\nHow will this technology change how we prepare for natural disasters?\n\nSources: DeepMind, Nature\n#AI #Weather #CycloneForecasting #DeepMind #NaturalDisasters #MachineLearning #HurricaneSeason #ClimateChange",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786247781/everydayhypehq/2026-08-09/035621_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786247782/everydayhypehq/2026-08-09/035621_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "a",
     "person": "",
     "company": "DeepMind",
-    "caption": "DeepMind's WeatherNext model has achieved a significant breakthrough in cyclone forecasting, providing an extra day of predictive accuracy. This advancement is crucial for timely warnings and disaster preparedness. \ud83c\udf2a\ufe0f\ud83d\udcc8\n\nHow will this technology change how we prepare for natural disasters?\n\nSources: DeepMind, Nature\n#AI #Weather #CycloneForecasting #DeepMind #NaturalDisasters #MachineLearning #HurricaneSeason #ClimateChange",
+    "caption": "DeepMind's WeatherNext model has achieved a significant breakthrough in cyclone forecasting, providing an extra day of predictive accuracy. This advancement is crucial for timely warnings and disaster preparedness. 🌪️📈\n\nHow will this technology change how we prepare for natural disasters?\n\nSources: DeepMind, Nature\n#AI #Weather #CycloneForecasting #DeepMind #NaturalDisasters #MachineLearning #HurricaneSeason #ClimateChange",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "DEEPMIND'S WEATHERNEXT MODEL GIVES AN EXTRA DAY OF CYCLONE WARNING",
         "hl": "EXTRA DAY OF CYCLONE WARNING",
         "hls": [
@@ -61,7 +61,7 @@
         "image_prompt": "A group of forecasters in a meeting, discussing cyclone scenarios with large maps and charts in the background."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "OPEN SOURCING WEATHERNEXT EMPOWERS COMMUNITIES GLOBALLY",
         "hl": "EMPOWERS COMMUNITIES GLOBALLY",
         "hls": [
@@ -79,5 +79,6 @@
     "date": "2026-08-09"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 534
+  "control_msg_id": 534,
+  "resolved_at": "2026-08-09T04:34:18.739Z"
 }
