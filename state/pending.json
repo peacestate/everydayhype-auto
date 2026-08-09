@@ -1,86 +1,83 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-08T03:57:31.164076Z",
+  "status": "pending",
+  "created_at": "2026-08-09T03:56:29.529527Z",
   "deadline_min": 120,
-  "caption": "The latest Agentic Index ranks Qwen3.8 Max as the top AI model. This evaluation is based on performance metrics across various tasks, highlighting its capabilities over competitors. \ud83d\ude80\n\nIs your AI model performing at its best?\n\nSources: Artificial Analysis\n#AI #MachineLearning #TechNews #Qwen3.8Max #ArtificialIntelligence #ModelEvaluation #AgenticIndex #Innovation #DataScience",
+  "caption": "DeepMind's WeatherNext model has achieved a significant breakthrough in cyclone forecasting, providing an extra day of predictive accuracy. This advancement is crucial for timely warnings and disaster preparedness. \ud83c\udf2a\ufe0f\ud83d\udcc8\n\nHow will this technology change how we prepare for natural disasters?\n\nSources: DeepMind, Nature\n#AI #Weather #CycloneForecasting #DeepMind #NaturalDisasters #MachineLearning #HurricaneSeason #ClimateChange",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786161443/everydayhypehq/2026-08-08/035722_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786161444/everydayhypehq/2026-08-08/035722_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786161444/everydayhypehq/2026-08-08/035722_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786161445/everydayhypehq/2026-08-08/035722_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786161446/everydayhypehq/2026-08-08/035722_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786247781/everydayhypehq/2026-08-09/035621_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786247782/everydayhypehq/2026-08-09/035621_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786247783/everydayhypehq/2026-08-09/035621_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786247784/everydayhypehq/2026-08-09/035621_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786247784/everydayhypehq/2026-08-09/035621_slide_5.png"
   ],
   "plan": {
-    "palette": "red",
-    "art_style": "neon glow synthwave, bloom, dark background",
+    "palette": "amber",
+    "art_style": "dramatic macro close-up, shallow depth",
     "layout": "a",
     "person": "",
-    "company": "Artificial Analysis",
-    "caption": "The latest Agentic Index ranks Qwen3.8 Max as the top AI model. This evaluation is based on performance metrics across various tasks, highlighting its capabilities over competitors. \ud83d\ude80\n\nIs your AI model performing at its best?\n\nSources: Artificial Analysis\n#AI #MachineLearning #TechNews #Qwen3.8Max #ArtificialIntelligence #ModelEvaluation #AgenticIndex #Innovation #DataScience",
+    "company": "DeepMind",
+    "caption": "DeepMind's WeatherNext model has achieved a significant breakthrough in cyclone forecasting, providing an extra day of predictive accuracy. This advancement is crucial for timely warnings and disaster preparedness. \ud83c\udf2a\ufe0f\ud83d\udcc8\n\nHow will this technology change how we prepare for natural disasters?\n\nSources: DeepMind, Nature\n#AI #Weather #CycloneForecasting #DeepMind #NaturalDisasters #MachineLearning #HurricaneSeason #ClimateChange",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "QWEN3.8 MAX IS NOW RANKED AS THE BEST OVERALL MODEL!",
-        "hl": "BEST OVERALL MODEL",
+        "headline": "DEEPMIND'S WEATHERNEXT MODEL GIVES AN EXTRA DAY OF CYCLONE WARNING",
+        "hl": "EXTRA DAY OF CYCLONE WARNING",
         "hls": [
-          "BEST",
-          "OVERALL MODEL"
+          "EXTRA DAY",
+          "CYCLONE WARNING"
         ],
-        "sub": "This ranking comes from the latest Agentic Index evaluation.",
-        "image_prompt": "A futuristic setting showcasing advanced AI technology, with vibrant neon lights illuminating a sleek workspace."
+        "sub": "This breakthrough enables more accurate cyclone forecasts.",
+        "image_prompt": "A dramatic close-up of swirling storm clouds in a cyclone, capturing the intensity and movement of the weather phenomenon."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "Qwen3.8 Max outperformed competitors with a 99% accuracy rate.",
-        "hl": "99% ACCURACY RATE",
+        "pill": "",
+        "headline": "WEATHERNEXT'S ACCURACY IS LIKE A DECADE'S METEOROLOGICAL PROGRESS",
+        "hl": "A DECADE'S METEOROLOGICAL PROGRESS",
         "hls": [
-          "99%",
-          "ACCURACY RATE"
+          "DECADE'S PROGRESS"
         ],
-        "sub": "It achieved this impressive score across multiple benchmarks.",
-        "image_prompt": "A close-up of a computer screen displaying complex AI algorithms, with a person analyzing the data."
+        "sub": "Forecasts are now as good as previous models' two-day predictions.",
+        "image_prompt": "A meteorologist analyzing data on a computer screen, focused and surrounded by weather maps and models."
       },
       {
-        "pill": "WHY IT MATTERS \ud83d\udef0\ufe0f",
-        "headline": "The model's deployment costs are significantly lower than its rivals.",
-        "hl": "SIGNIFICANTLY LOWER COSTS",
+        "pill": "",
+        "headline": "DURING 2025, WEATHERNEXT HELPED PREDICT HURRICANE MELISSA'S LANDfall",
+        "hl": "PREDICT HURRICANE MELISSA'S LANDFALL",
         "hls": [
-          "LOWER COSTS",
-          "RIVALS"
+          "HURRICANE MELISSA",
+          "LANDFALL"
         ],
-        "sub": "This efficiency makes it attractive for businesses looking to adopt AI.",
-        "image_prompt": "A business meeting where professionals discuss AI implementations, with charts and graphs in the background."
+        "sub": "This enabled timely preparations for the storm's impact in Jamaica.",
+        "image_prompt": "Emergency responders preparing supplies and equipment for a hurricane response, showcasing a sense of urgency."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "Qwen3.8 Max's capabilities can enhance productivity across industries.",
-        "hl": "ENHANCE PRODUCTIVITY",
+        "pill": "",
+        "headline": "WE NOW PREDICT 1,000 SCENARIOS FOR EACH CYCLONE",
+        "hl": "1,000 SCENARIOS FOR EACH CYCLONE",
         "hls": [
-          "ENHANCE",
-          "PRODUCTIVITY"
+          "1,000 SCENARIOS"
         ],
-        "sub": "Its versatility supports various applications, from coding to customer service.",
-        "image_prompt": "A diverse group of people collaborating on a tech project, surrounded by AI-powered tools and devices."
+        "sub": "This supports forecasters in making critical decisions.",
+        "image_prompt": "A group of forecasters in a meeting, discussing cyclone scenarios with large maps and charts in the background."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "AND IT'S CHANGING THE AI MODEL LANDSCAPE!",
-        "hl": "CHANGING THE LANDSCAPE",
+        "headline": "OPEN SOURCING WEATHERNEXT EMPOWERS COMMUNITIES GLOBALLY",
+        "hl": "EMPOWERS COMMUNITIES GLOBALLY",
         "hls": [
-          "CHANGING",
-          "LANDSCAPE"
+          "OPEN SOURCING",
+          "EMPOWERS COMMUNITIES"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A dynamic cityscape at night, illuminated with neon lights representing the fusion of technology and urban life."
+        "sub": "This technology aims to build more resilient communities worldwide.",
+        "image_prompt": "A diverse group of researchers collaborating around a computer, sharing ideas and looking engaged in the open-source project."
       }
     ],
     "story": {
-      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
-      "url": "https://artificialanalysis.ai/?intelligence=agentic-index"
+      "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
     },
-    "date": "2026-08-08"
+    "date": "2026-08-09"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 527,
-  "resolved_at": "2026-08-08T06:31:36.636804Z"
+  "control_msg_id": 534
 }
