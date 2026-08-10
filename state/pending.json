@@ -1,85 +1,85 @@
 {
   "status": "pending",
-  "created_at": "2026-08-10T03:57:01.193473Z",
+  "created_at": "2026-08-10T04:31:54.673662Z",
   "deadline_min": 120,
-  "caption": "Google Deepmind's WeatherNext has made significant strides in cyclone forecasting, allowing for simultaneous predictions of cyclone tracks and intensity. This innovative model was developed in collaboration with the National Hurricane Center and has shown promising results during live forecasts since June 2025. \ud83c\udf2a\ufe0f\n\nHow do you think AI will impact weather forecasting in the future?\n\nSources: The Decoder, Google Deepmind Blog\n\n#GoogleDeepmind #WeatherNext #CycloneForecasting #AI #WeatherTechnology #DeepLearning #HurricaneForecast #Innovation #DataScience #ClimateChange #TechForGood",
+  "caption": "Google's DiffusionGemma demonstrates a new approach to building text diffusion models. By leveraging the existing Gemma-4-26B-A4B model, the team achieved impressive results with significantly reduced training costs. 9164a1\n\nWhat do you think about this new method?\n\nSources: The Decoder, arXiv\n#Google #DiffusionGemma #AI #MachineLearning #TextModels #Innovation #Technology #DeepLearning #AIResearch #ModelTraining #ArtificialIntelligence #TechNews",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786334213/everydayhypehq/2026-08-10/035652_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786334213/everydayhypehq/2026-08-10/035652_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786334214/everydayhypehq/2026-08-10/035652_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786334215/everydayhypehq/2026-08-10/035652_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786334215/everydayhypehq/2026-08-10/035652_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786336307/everydayhypehq/2026-08-10/043147_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786336308/everydayhypehq/2026-08-10/043147_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786336309/everydayhypehq/2026-08-10/043147_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786336309/everydayhypehq/2026-08-10/043147_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786336310/everydayhypehq/2026-08-10/043147_slide_5.png"
   ],
   "plan": {
     "palette": "purple",
     "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "person": "",
-    "company": "Google Deepmind",
-    "caption": "Google Deepmind's WeatherNext has made significant strides in cyclone forecasting, allowing for simultaneous predictions of cyclone tracks and intensity. This innovative model was developed in collaboration with the National Hurricane Center and has shown promising results during live forecasts since June 2025. \ud83c\udf2a\ufe0f\n\nHow do you think AI will impact weather forecasting in the future?\n\nSources: The Decoder, Google Deepmind Blog\n\n#GoogleDeepmind #WeatherNext #CycloneForecasting #AI #WeatherTechnology #DeepLearning #HurricaneForecast #Innovation #DataScience #ClimateChange #TechForGood",
+    "layout": "a",
+    "caption": "Google's DiffusionGemma demonstrates a new approach to building text diffusion models. By leveraging the existing Gemma-4-26B-A4B model, the team achieved impressive results with significantly reduced training costs. 9164a1\n\nWhat do you think about this new method?\n\nSources: The Decoder, arXiv\n#Google #DiffusionGemma #AI #MachineLearning #TextModels #Innovation #Technology #DeepLearning #AIResearch #ModelTraining #ArtificialIntelligence #TechNews",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "GOOGLE DEEPMIND'S WEATHERNEXT PREDICTS CYCLONE TRACKS AND INTENSITY SIMULTANEOUSLY",
-        "hl": "PREDICTS CYCLONE TRACKS AND INTENSITY",
+        "pill": "BREAKING 534",
+        "headline": "GOOGLE'S DIFFUSIONGEMMA BUILT A MODEL WITH LESS THAN 10% TRAINING BUDGET",
+        "hl": "LESS THAN 10% TRAINING BUDGET",
         "hls": [
-          "PREDICTS",
-          "CYCLONE TRACKS"
+          "LESS THAN 10%",
+          "TRAINING BUDGET"
         ],
-        "sub": "Here's what you need to know.",
-        "image_prompt": "A dramatic scene of a cyclone forming over ocean waters, capturing the swirling clouds and intense weather patterns. The background shows a contrasting calm shoreline."
+        "sub": "Here's the breakthrough in text diffusion modeling.",
+        "image_prompt": "A close-up of a researcher working on a computer, focused on algorithms, with a soft light illuminating their face."
       },
       {
-        "pill": "",
-        "headline": "SINCE JUNE 2025, WEATHERNEXT HAS BEEN PROVIDING REAL-TIME FORECASTS",
-        "hl": "REAL-TIME FORECASTS",
+        "pill": "WHAT HAPPENED 6a1",
+        "headline": "DIFFUSIONGEMMA INCREASES OUTPUT SPEED WHILE MAINTAINING ACCURACY",
+        "hl": "INCREASES OUTPUT SPEED",
         "hls": [
-          "SINCE JUNE 2025",
-          "REAL-TIME"
+          "OUTPUT SPEED",
+          "MAINTAINING ACCURACY"
         ],
-        "sub": "The model has already aided in predicting Hurricane Melissa's rapid intensification.",
-        "image_prompt": "A meteorologist analyzing weather data on a large screen in a high-tech forecasting center, surrounded by weather maps and charts."
+        "sub": "It delivers several times the output speed of previous models.",
+        "image_prompt": "An overhead shot of a high-tech lab with multiple screens displaying data and algorithms in a collaborative environment."
       },
       {
-        "pill": "",
-        "headline": "WN-C ACHIEVES 230 KM AVERAGE ERROR FOR FIVE-DAY FORECASTS",
-        "hl": "230 KM AVERAGE ERROR",
+        "pill": "WHY IT MATTERS 30d",
+        "headline": "NEW TRAINING METHOD BOOSTS REASONING BENCHMARKS BY AN AVERAGE OF 10 POINTS",
+        "hl": "BOOSTS REASONING BENCHMARKS",
         "hls": [
-          "230 KM",
-          "FIVE-DAY FORECASTS"
+          "REASONING BENCHMARKS",
+          "10 POINTS"
         ],
-        "sub": "This is significantly better than the 370 km error of traditional models.",
-        "image_prompt": "A close-up of a digital weather map displaying cyclone predictions, with highlighted areas showing storm intensity and trajectory."
+        "sub": "This method enhances performance, raising benchmarks significantly across various tests.",
+        "image_prompt": "A team discussion around a whiteboard filled with complex diagrams and equations, showcasing collaborative problem-solving."
       },
       {
-        "pill": "",
-        "headline": "WN-C IS 3.75 KNOTS MORE ACCURATE ON INTENSITY THAN HAFS",
-        "hl": "3.75 KNOTS MORE ACCURATE",
+        "pill": "THE IMPACT 5a8",
+        "headline": "DIFFUSIONGEMMA RESPONDS WITH 50% SHORTER ANSWERS FOR FASTER OUTPUT",
+        "hl": "50% SHORTER ANSWERS",
         "hls": [
-          "3.75 KNOTS",
-          "MORE ACCURATE"
+          "SHORTER ANSWERS",
+          "FASTER OUTPUT"
         ],
-        "sub": "The model delivers valuable insights for storm intensity forecasting.",
-        "image_prompt": "A striking image of a hurricane from above, showcasing the eye of the storm with swirling clouds and vibrant colors."
+        "sub": "These shorter responses further optimize processing time in model outputs.",
+        "image_prompt": "A dynamic shot of a person typing rapidly on a keyboard, with a focus on their hands and the energy of the moment."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "WEATHERNEXT OFFERS A COMBINATION OF ACCURATE TRACK AND INTENSITY FORECASTS",
-        "hl": "ACCURATE TRACK AND INTENSITY",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "AND IT INCREASES EFFICIENCY IN TEXT MODELING AT GOOGLE",
+        "hl": "INCREASES EFFICIENCY IN TEXT MODELING",
         "hls": [
-          "ACCURATE",
-          "TRACK AND INTENSITY"
+          "INCREASES EFFICIENCY",
+          "TEXT MODELING"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A composite image showing a vibrant sunset after a storm, symbolizing hope and recovery, with calm waters in the foreground."
+        "image_prompt": "An inspiring image of a futuristic tech city skyline at dusk, representing innovation and advancement."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
-      "url": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/"
+      "title": "Google's DiffusionGemma proves you don't need to train from scratch to build a text diffusion model",
+      "url": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/"
     },
     "date": "2026-08-10"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 541
+  "control_msg_id": 547
 }
