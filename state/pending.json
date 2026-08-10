@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "new_story",
   "created_at": "2026-08-10T03:57:01.193473Z",
   "deadline_min": 120,
-  "caption": "Google Deepmind's WeatherNext has made significant strides in cyclone forecasting, allowing for simultaneous predictions of cyclone tracks and intensity. This innovative model was developed in collaboration with the National Hurricane Center and has shown promising results during live forecasts since June 2025. \ud83c\udf2a\ufe0f\n\nHow do you think AI will impact weather forecasting in the future?\n\nSources: The Decoder, Google Deepmind Blog\n\n#GoogleDeepmind #WeatherNext #CycloneForecasting #AI #WeatherTechnology #DeepLearning #HurricaneForecast #Innovation #DataScience #ClimateChange #TechForGood",
+  "caption": "Google Deepmind's WeatherNext has made significant strides in cyclone forecasting, allowing for simultaneous predictions of cyclone tracks and intensity. This innovative model was developed in collaboration with the National Hurricane Center and has shown promising results during live forecasts since June 2025. 🌪️\n\nHow do you think AI will impact weather forecasting in the future?\n\nSources: The Decoder, Google Deepmind Blog\n\n#GoogleDeepmind #WeatherNext #CycloneForecasting #AI #WeatherTechnology #DeepLearning #HurricaneForecast #Innovation #DataScience #ClimateChange #TechForGood",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786334213/everydayhypehq/2026-08-10/035652_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786334213/everydayhypehq/2026-08-10/035652_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "b",
     "person": "",
     "company": "Google Deepmind",
-    "caption": "Google Deepmind's WeatherNext has made significant strides in cyclone forecasting, allowing for simultaneous predictions of cyclone tracks and intensity. This innovative model was developed in collaboration with the National Hurricane Center and has shown promising results during live forecasts since June 2025. \ud83c\udf2a\ufe0f\n\nHow do you think AI will impact weather forecasting in the future?\n\nSources: The Decoder, Google Deepmind Blog\n\n#GoogleDeepmind #WeatherNext #CycloneForecasting #AI #WeatherTechnology #DeepLearning #HurricaneForecast #Innovation #DataScience #ClimateChange #TechForGood",
+    "caption": "Google Deepmind's WeatherNext has made significant strides in cyclone forecasting, allowing for simultaneous predictions of cyclone tracks and intensity. This innovative model was developed in collaboration with the National Hurricane Center and has shown promising results during live forecasts since June 2025. 🌪️\n\nHow do you think AI will impact weather forecasting in the future?\n\nSources: The Decoder, Google Deepmind Blog\n\n#GoogleDeepmind #WeatherNext #CycloneForecasting #AI #WeatherTechnology #DeepLearning #HurricaneForecast #Innovation #DataScience #ClimateChange #TechForGood",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "GOOGLE DEEPMIND'S WEATHERNEXT PREDICTS CYCLONE TRACKS AND INTENSITY SIMULTANEOUSLY",
         "hl": "PREDICTS CYCLONE TRACKS AND INTENSITY",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A striking image of a hurricane from above, showcasing the eye of the storm with swirling clouds and vibrant colors."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "WEATHERNEXT OFFERS A COMBINATION OF ACCURATE TRACK AND INTENSITY FORECASTS",
         "hl": "ACCURATE TRACK AND INTENSITY",
         "hls": [
