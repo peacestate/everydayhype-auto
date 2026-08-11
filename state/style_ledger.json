@@ -531,5 +531,18 @@
       "A dynamic shot of a person typing rapidl",
       "An inspiring image of a futuristic tech "
     ]
+  },
+  {
+    "date": "2026-08-11",
+    "palette": "green",
+    "art_style": "isometric miniature diorama, tilt-shift",
+    "layout": "b",
+    "motifs": [
+      "An isometric view of a workspace with a ",
+      "A close-up shot of hands typing on a lap",
+      "A person examining code on a screen, wit",
+      "A miniature diorama showing a comparison",
+      "A vibrant creative space with a person r"
+    ]
   }
 ]
