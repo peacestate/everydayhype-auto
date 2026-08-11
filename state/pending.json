@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-11T03:57:16.446386Z",
   "deadline_min": 120,
   "caption": "Meta has unveiled Muse Glimmer, an innovative 30-billion-parameter model that operates locally on devices. This allows users to leverage AI capabilities without requiring constant internet access. With strong performance metrics, Muse Glimmer is set to improve how we interact with AI in our everyday workflows. 31f\n\nAre you excited about local AI models? \n\nSources: Meta Research, Hugging Face\n\n#Meta #MuseGlimmer #AI #LocalAI #MachineLearning #TechInnovation #OpenSourceAI #AIWorkflows #ArtificialIntelligence",
@@ -81,5 +81,6 @@
     "date": "2026-08-11"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 554
+  "control_msg_id": 554,
+  "resolved_at": "2026-08-11T04:10:50.810Z"
 }
