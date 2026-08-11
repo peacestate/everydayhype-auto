@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-10T04:31:54.673662Z",
+  "status": "pending",
+  "created_at": "2026-08-11T03:57:16.446386Z",
   "deadline_min": 120,
-  "caption": "Google's DiffusionGemma demonstrates a new approach to building text diffusion models. By leveraging the existing Gemma-4-26B-A4B model, the team achieved impressive results with significantly reduced training costs. 9164a1\n\nWhat do you think about this new method?\n\nSources: The Decoder, arXiv\n#Google #DiffusionGemma #AI #MachineLearning #TextModels #Innovation #Technology #DeepLearning #AIResearch #ModelTraining #ArtificialIntelligence #TechNews",
+  "caption": "Meta has unveiled Muse Glimmer, an innovative 30-billion-parameter model that operates locally on devices. This allows users to leverage AI capabilities without requiring constant internet access. With strong performance metrics, Muse Glimmer is set to improve how we interact with AI in our everyday workflows. 31f\n\nAre you excited about local AI models? \n\nSources: Meta Research, Hugging Face\n\n#Meta #MuseGlimmer #AI #LocalAI #MachineLearning #TechInnovation #OpenSourceAI #AIWorkflows #ArtificialIntelligence",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786336307/everydayhypehq/2026-08-10/043147_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786336308/everydayhypehq/2026-08-10/043147_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786336309/everydayhypehq/2026-08-10/043147_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786336309/everydayhypehq/2026-08-10/043147_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786336310/everydayhypehq/2026-08-10/043147_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786420628/everydayhypehq/2026-08-11/035708_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786420629/everydayhypehq/2026-08-11/035708_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786420630/everydayhypehq/2026-08-11/035708_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786420630/everydayhypehq/2026-08-11/035708_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786420631/everydayhypehq/2026-08-11/035708_slide_5.png"
   ],
   "plan": {
-    "palette": "purple",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "caption": "Google's DiffusionGemma demonstrates a new approach to building text diffusion models. By leveraging the existing Gemma-4-26B-A4B model, the team achieved impressive results with significantly reduced training costs. 9164a1\n\nWhat do you think about this new method?\n\nSources: The Decoder, arXiv\n#Google #DiffusionGemma #AI #MachineLearning #TextModels #Innovation #Technology #DeepLearning #AIResearch #ModelTraining #ArtificialIntelligence #TechNews",
+    "palette": "green",
+    "art_style": "isometric miniature diorama, tilt-shift",
+    "layout": "b",
+    "caption": "Meta has unveiled Muse Glimmer, an innovative 30-billion-parameter model that operates locally on devices. This allows users to leverage AI capabilities without requiring constant internet access. With strong performance metrics, Muse Glimmer is set to improve how we interact with AI in our everyday workflows. 31f\n\nAre you excited about local AI models? \n\nSources: Meta Research, Hugging Face\n\n#Meta #MuseGlimmer #AI #LocalAI #MachineLearning #TechInnovation #OpenSourceAI #AIWorkflows #ArtificialIntelligence",
     "slides": [
       {
         "pill": "BREAKING 534",
-        "headline": "GOOGLE'S DIFFUSIONGEMMA BUILT A MODEL WITH LESS THAN 10% TRAINING BUDGET",
-        "hl": "LESS THAN 10% TRAINING BUDGET",
+        "headline": "META JUST LAUNCHED MUSE GLIMMER, A 30B-PARAMETER LOCAL AI MODEL",
+        "hl": "30B-PARAMETER LOCAL AI MODEL",
         "hls": [
-          "LESS THAN 10%",
-          "TRAINING BUDGET"
+          "30B-PARAMETER",
+          "LOCAL AI MODEL"
         ],
-        "sub": "Here's the breakthrough in text diffusion modeling.",
-        "image_prompt": "A close-up of a researcher working on a computer, focused on algorithms, with a soft light illuminating their face."
+        "sub": "This model runs on a single consumer GPU, like a Mac.",
+        "image_prompt": "An isometric view of a workspace with a computer running AI software, showing a creative setup with a person interacting with the device."
       },
       {
-        "pill": "WHAT HAPPENED 6a1",
-        "headline": "DIFFUSIONGEMMA INCREASES OUTPUT SPEED WHILE MAINTAINING ACCURACY",
-        "hl": "INCREASES OUTPUT SPEED",
+        "pill": "",
+        "headline": "MUSE GLIMMER ENABLES AI USE ANYTIME, ANYWHERE WITHOUT INTERNET",
+        "hl": "USE ANYTIME, ANYWHERE",
         "hls": [
-          "OUTPUT SPEED",
-          "MAINTAINING ACCURACY"
+          "AI USE",
+          "ANYTIME, ANYWHERE"
         ],
-        "sub": "It delivers several times the output speed of previous models.",
-        "image_prompt": "An overhead shot of a high-tech lab with multiple screens displaying data and algorithms in a collaborative environment."
+        "sub": "It performs well in local agent tasks like coding and scheduling.",
+        "image_prompt": "A close-up shot of hands typing on a laptop, with a serene environment indicating a flexible workspace."
       },
       {
-        "pill": "WHY IT MATTERS 30d",
-        "headline": "NEW TRAINING METHOD BOOSTS REASONING BENCHMARKS BY AN AVERAGE OF 10 POINTS",
-        "hl": "BOOSTS REASONING BENCHMARKS",
+        "pill": "",
+        "headline": "OPEN-SOURCE WEIGHTS RELEASED ON HUGGING FACE FOR DEVELOPER ACCESS",
+        "hl": "OPEN-SOURCE WEIGHTS RELEASED",
         "hls": [
-          "REASONING BENCHMARKS",
-          "10 POINTS"
+          "OPEN-SOURCE",
+          "DEVELOPER ACCESS"
         ],
-        "sub": "This method enhances performance, raising benchmarks significantly across various tests.",
-        "image_prompt": "A team discussion around a whiteboard filled with complex diagrams and equations, showcasing collaborative problem-solving."
+        "sub": "Developers can start building agents in minutes with documentation.",
+        "image_prompt": "A person examining code on a screen, with a digital interface showcasing AI functionalities in the background."
       },
       {
-        "pill": "THE IMPACT 5a8",
-        "headline": "DIFFUSIONGEMMA RESPONDS WITH 50% SHORTER ANSWERS FOR FASTER OUTPUT",
-        "hl": "50% SHORTER ANSWERS",
+        "pill": "",
+        "headline": "MUSE GLIMMER ACHIEVES STRONG PERFORMANCE ON KEY AGENTIC USE CASES",
+        "hl": "STRONG PERFORMANCE",
         "hls": [
-          "SHORTER ANSWERS",
-          "FASTER OUTPUT"
+          "STRONG PERFORMANCE",
+          "AGENTIC USE CASES"
         ],
-        "sub": "These shorter responses further optimize processing time in model outputs.",
-        "image_prompt": "A dynamic shot of a person typing rapidly on a keyboard, with a focus on their hands and the energy of the moment."
+        "sub": "It competes effectively against leading models in similar size.",
+        "image_prompt": "A miniature diorama showing a comparison of AI models, with visuals of performance metrics and features."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "AND IT INCREASES EFFICIENCY IN TEXT MODELING AT GOOGLE",
-        "hl": "INCREASES EFFICIENCY IN TEXT MODELING",
+        "pill": "THE TAKEAWAY 625",
+        "headline": "WITH MUSE GLIMMER, AI CAN NOW RUN LOCALLY ON YOUR DEVICE",
+        "hl": "RUN LOCALLY ON YOUR DEVICE",
         "hls": [
-          "INCREASES EFFICIENCY",
-          "TEXT MODELING"
+          "RUN LOCALLY",
+          "YOUR DEVICE"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "An inspiring image of a futuristic tech city skyline at dusk, representing innovation and advancement."
+        "sub": "This opens up new possibilities for personal AI interactions.",
+        "image_prompt": "A vibrant creative space with a person relaxed, using a portable device, engaging with AI tools."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Google's DiffusionGemma proves you don't need to train from scratch to build a text diffusion model",
-      "url": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/"
+      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
     },
-    "date": "2026-08-10"
+    "date": "2026-08-11"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 547,
-  "resolved_at": "2026-08-10T06:31:23.300042Z"
+  "control_msg_id": 554
 }
