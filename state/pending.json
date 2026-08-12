@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-11T03:57:16.446386Z",
+  "status": "pending",
+  "created_at": "2026-08-12T03:57:13.597093Z",
   "deadline_min": 120,
-  "caption": "Meta has unveiled Muse Glimmer, an innovative 30-billion-parameter model that operates locally on devices. This allows users to leverage AI capabilities without requiring constant internet access. With strong performance metrics, Muse Glimmer is set to improve how we interact with AI in our everyday workflows. 31f\n\nAre you excited about local AI models? \n\nSources: Meta Research, Hugging Face\n\n#Meta #MuseGlimmer #AI #LocalAI #MachineLearning #TechInnovation #OpenSourceAI #AIWorkflows #ArtificialIntelligence",
+  "caption": "Cactus Compute has launched Needle 2, a 14MB agentic LLM designed for small devices. This model boasts 45 million parameters and can perform various tasks on devices like phones and wearables.\n\nCan this lead to more affordable AI solutions?\n\nSources: Cactus Compute",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786420628/everydayhypehq/2026-08-11/035708_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786420629/everydayhypehq/2026-08-11/035708_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786420630/everydayhypehq/2026-08-11/035708_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786420630/everydayhypehq/2026-08-11/035708_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786420631/everydayhypehq/2026-08-11/035708_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786507025/everydayhypehq/2026-08-12/035705_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786507026/everydayhypehq/2026-08-12/035705_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786507026/everydayhypehq/2026-08-12/035705_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786507027/everydayhypehq/2026-08-12/035705_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786507028/everydayhypehq/2026-08-12/035705_slide_5.png"
   ],
   "plan": {
-    "palette": "green",
-    "art_style": "isometric miniature diorama, tilt-shift",
+    "palette": "blue",
+    "art_style": "double-exposure, silhouette blended with data",
     "layout": "b",
-    "caption": "Meta has unveiled Muse Glimmer, an innovative 30-billion-parameter model that operates locally on devices. This allows users to leverage AI capabilities without requiring constant internet access. With strong performance metrics, Muse Glimmer is set to improve how we interact with AI in our everyday workflows. 31f\n\nAre you excited about local AI models? \n\nSources: Meta Research, Hugging Face\n\n#Meta #MuseGlimmer #AI #LocalAI #MachineLearning #TechInnovation #OpenSourceAI #AIWorkflows #ArtificialIntelligence",
+    "person": "",
+    "company": "Cactus Compute",
+    "caption": "Cactus Compute has launched Needle 2, a 14MB agentic LLM designed for small devices. This model boasts 45 million parameters and can perform various tasks on devices like phones and wearables.\n\nCan this lead to more affordable AI solutions?\n\nSources: Cactus Compute",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "META JUST LAUNCHED MUSE GLIMMER, A 30B-PARAMETER LOCAL AI MODEL",
-        "hl": "30B-PARAMETER LOCAL AI MODEL",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "CACTUS COMPUTE JUST RELEASED A 14MB AGENTIC LLM FOR TINY DEVICES",
+        "hl": "14MB AGENTIC LLM",
         "hls": [
-          "30B-PARAMETER",
-          "LOCAL AI MODEL"
+          "14MB",
+          "AGENTIC LLM"
         ],
-        "sub": "This model runs on a single consumer GPU, like a Mac.",
-        "image_prompt": "An isometric view of a workspace with a computer running AI software, showing a creative setup with a person interacting with the device."
+        "sub": "Here's what you need to know",
+        "image_prompt": "A close-up of a smartphone displaying a futuristic user interface, with soft, ambient lighting highlighting the device."
       },
       {
         "pill": "",
-        "headline": "MUSE GLIMMER ENABLES AI USE ANYTIME, ANYWHERE WITHOUT INTERNET",
-        "hl": "USE ANYTIME, ANYWHERE",
+        "headline": "NEEDLE 2 IS A 45M-PARAMETER MODEL RUNNING IN 28MB OF RAM",
+        "hl": "45M-PARAMETER MODEL",
         "hls": [
-          "AI USE",
-          "ANYTIME, ANYWHERE"
+          "45M-PARAMETER",
+          "28MB OF RAM"
         ],
-        "sub": "It performs well in local agent tasks like coding and scheduling.",
-        "image_prompt": "A close-up shot of hands typing on a laptop, with a serene environment indicating a flexible workspace."
+        "sub": "It performs tool calling and device use efficiently.",
+        "image_prompt": "A sleek, modern Raspberry Pi setup with a glowing LED, showcasing a tech-savvy workspace."
       },
       {
         "pill": "",
-        "headline": "OPEN-SOURCE WEIGHTS RELEASED ON HUGGING FACE FOR DEVELOPER ACCESS",
-        "hl": "OPEN-SOURCE WEIGHTS RELEASED",
+        "headline": "IT ACHIEVES 500 TOKENS/SEC ON A RASPBERRY PI 5 DEVICE",
+        "hl": "500 TOKENS/SEC",
         "hls": [
-          "OPEN-SOURCE",
-          "DEVELOPER ACCESS"
+          "500 TOKENS",
+          "RASPBERRY PI 5"
         ],
-        "sub": "Developers can start building agents in minutes with documentation.",
-        "image_prompt": "A person examining code on a screen, with a digital interface showcasing AI functionalities in the background."
+        "sub": "This speed rivals larger models that are much heavier.",
+        "image_prompt": "An image of a person coding on a laptop, with multiple devices and wires in the background."
       },
       {
         "pill": "",
-        "headline": "MUSE GLIMMER ACHIEVES STRONG PERFORMANCE ON KEY AGENTIC USE CASES",
-        "hl": "STRONG PERFORMANCE",
+        "headline": "NEEDLE TARGETS DEVICES UNDER $200, FOCUSING ON EDGE AI",
+        "hl": "DEVICES UNDER $200",
         "hls": [
-          "STRONG PERFORMANCE",
-          "AGENTIC USE CASES"
+          "UNDER $200",
+          "EDGE AI"
         ],
-        "sub": "It competes effectively against leading models in similar size.",
-        "image_prompt": "A miniature diorama showing a comparison of AI models, with visuals of performance metrics and features."
+        "sub": "It aims to serve the growing IoT market effectively.",
+        "image_prompt": "A diverse array of affordable smart devices displayed in a home environment, showcasing connectivity."
       },
       {
-        "pill": "THE TAKEAWAY 625",
-        "headline": "WITH MUSE GLIMMER, AI CAN NOW RUN LOCALLY ON YOUR DEVICE",
-        "hl": "RUN LOCALLY ON YOUR DEVICE",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "NEEDLE 2 COULD BRING AI TO BILLIONS OF DEVICES WORLDWIDE",
+        "hl": "BRING AI TO BILLIONS",
         "hls": [
-          "RUN LOCALLY",
-          "YOUR DEVICE"
+          "BRING AI",
+          "BILLIONS OF DEVICES"
         ],
-        "sub": "This opens up new possibilities for personal AI interactions.",
-        "image_prompt": "A vibrant creative space with a person relaxed, using a portable device, engaging with AI tools."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A panoramic view of a bustling city, with various smart technologies in use, highlighting a connected future."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "url": "https://cactuscompute.com/needle"
     },
-    "date": "2026-08-11"
+    "date": "2026-08-12"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 554,
-  "resolved_at": "2026-08-11T06:31:43.429223Z"
+  "control_msg_id": 561
 }
