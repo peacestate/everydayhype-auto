@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-08-12T03:57:13.597093Z",
   "deadline_min": 120,
   "caption": "Cactus Compute has launched Needle 2, a 14MB agentic LLM designed for small devices. This model boasts 45 million parameters and can perform various tasks on devices like phones and wearables.\n\nCan this lead to more affordable AI solutions?\n\nSources: Cactus Compute",
@@ -19,7 +19,7 @@
     "caption": "Cactus Compute has launched Needle 2, a 14MB agentic LLM designed for small devices. This model boasts 45 million parameters and can perform various tasks on devices like phones and wearables.\n\nCan this lead to more affordable AI solutions?\n\nSources: Cactus Compute",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
+        "pill": "BREAKING \ud83d\udd34",
         "headline": "CACTUS COMPUTE JUST RELEASED A 14MB AGENTIC LLM FOR TINY DEVICES",
         "hl": "14MB AGENTIC LLM",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A diverse array of affordable smart devices displayed in a home environment, showcasing connectivity."
       },
       {
-        "pill": "THE TAKEAWAY 🔥",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
         "headline": "NEEDLE 2 COULD BRING AI TO BILLIONS OF DEVICES WORLDWIDE",
         "hl": "BRING AI TO BILLIONS",
         "hls": [
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 561,
-  "resolved_at": "2026-08-12T04:21:49.598Z"
+  "resolved_at": "2026-08-12T06:31:59.610775Z"
 }
