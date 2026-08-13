@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "rejected",
   "created_at": "2026-08-13T22:54:17.960416Z",
   "deadline_min": 120,
   "caption": "Google has launched the Gemini 3.7 Flash model, boasting significant coding improvements. This new model is priced at 50% less than its predecessor, Gemini 3.6 Flash, making it more accessible.\n\nWith benchmark scores of 43.6% on FrontierCode and 65.3% on DeepSWE, it surpasses competitors like Claude Sonnet 5 and GPT-5.6 Terra.\n\nShould companies prioritize cost-effective AI solutions like this?\n\nSources: The Decoder, Google Blog\n\n#Google #AI #Gemini37 #TechNews #Coding #Innovation #Benchmarking #AIModels #MachineLearning #DeepLearning #TechLaunch",
@@ -19,7 +19,7 @@
     "caption": "Google has launched the Gemini 3.7 Flash model, boasting significant coding improvements. This new model is priced at 50% less than its predecessor, Gemini 3.6 Flash, making it more accessible.\n\nWith benchmark scores of 43.6% on FrontierCode and 65.3% on DeepSWE, it surpasses competitors like Claude Sonnet 5 and GPT-5.6 Terra.\n\nShould companies prioritize cost-effective AI solutions like this?\n\nSources: The Decoder, Google Blog\n\n#Google #AI #Gemini37 #TechNews #Coding #Innovation #Benchmarking #AIModels #MachineLearning #DeepLearning #TechLaunch",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "GEMINI 3.7 FLASH IS 50% CHEAPER THAN ITS PREDECESSOR",
         "hl": "50% CHEAPER",
         "hls": [
@@ -62,7 +62,7 @@
         "image_prompt": "A futuristic laboratory scene with researchers working on advanced AI systems, surrounded by screens showing algorithms and data."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AND IT'S 50% CHEAPER THAN GEMINI 3.6 FLASH",
         "hl": "50% CHEAPER",
         "hls": [
@@ -79,5 +79,6 @@
     "date": "2026-08-13"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 574
+  "control_msg_id": 574,
+  "resolved_at": "2026-08-13T22:55:52.473Z"
 }
