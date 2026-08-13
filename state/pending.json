@@ -1,86 +1,83 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-12T03:57:13.597093Z",
+  "status": "pending",
+  "created_at": "2026-08-13T22:54:17.960416Z",
   "deadline_min": 120,
-  "caption": "Cactus Compute has launched Needle 2, a 14MB agentic LLM designed for small devices. This model boasts 45 million parameters and can perform various tasks on devices like phones and wearables.\n\nCan this lead to more affordable AI solutions?\n\nSources: Cactus Compute",
+  "caption": "Google has launched the Gemini 3.7 Flash model, boasting significant coding improvements. This new model is priced at 50% less than its predecessor, Gemini 3.6 Flash, making it more accessible.\n\nWith benchmark scores of 43.6% on FrontierCode and 65.3% on DeepSWE, it surpasses competitors like Claude Sonnet 5 and GPT-5.6 Terra.\n\nShould companies prioritize cost-effective AI solutions like this?\n\nSources: The Decoder, Google Blog\n\n#Google #AI #Gemini37 #TechNews #Coding #Innovation #Benchmarking #AIModels #MachineLearning #DeepLearning #TechLaunch",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786507025/everydayhypehq/2026-08-12/035705_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786507026/everydayhypehq/2026-08-12/035705_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786507026/everydayhypehq/2026-08-12/035705_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786507027/everydayhypehq/2026-08-12/035705_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786507028/everydayhypehq/2026-08-12/035705_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786661651/everydayhypehq/2026-08-13/225411_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786661651/everydayhypehq/2026-08-13/225411_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786661652/everydayhypehq/2026-08-13/225411_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786661653/everydayhypehq/2026-08-13/225411_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786661653/everydayhypehq/2026-08-13/225411_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "double-exposure, silhouette blended with data",
+    "palette": "cyan",
+    "art_style": "sleek 3D render, octane, glossy materials",
     "layout": "b",
     "person": "",
-    "company": "Cactus Compute",
-    "caption": "Cactus Compute has launched Needle 2, a 14MB agentic LLM designed for small devices. This model boasts 45 million parameters and can perform various tasks on devices like phones and wearables.\n\nCan this lead to more affordable AI solutions?\n\nSources: Cactus Compute",
+    "company": "Google",
+    "caption": "Google has launched the Gemini 3.7 Flash model, boasting significant coding improvements. This new model is priced at 50% less than its predecessor, Gemini 3.6 Flash, making it more accessible.\n\nWith benchmark scores of 43.6% on FrontierCode and 65.3% on DeepSWE, it surpasses competitors like Claude Sonnet 5 and GPT-5.6 Terra.\n\nShould companies prioritize cost-effective AI solutions like this?\n\nSources: The Decoder, Google Blog\n\n#Google #AI #Gemini37 #TechNews #Coding #Innovation #Benchmarking #AIModels #MachineLearning #DeepLearning #TechLaunch",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "CACTUS COMPUTE JUST RELEASED A 14MB AGENTIC LLM FOR TINY DEVICES",
-        "hl": "14MB AGENTIC LLM",
+        "headline": "GEMINI 3.7 FLASH IS 50% CHEAPER THAN ITS PREDECESSOR",
+        "hl": "50% CHEAPER",
         "hls": [
-          "14MB",
-          "AGENTIC LLM"
+          "50% CHEAPER",
+          "GEMINI 3.7 FLASH"
         ],
-        "sub": "Here's what you need to know",
-        "image_prompt": "A close-up of a smartphone displaying a futuristic user interface, with soft, ambient lighting highlighting the device."
+        "sub": "Google's new model launches at $0.75 per million tokens.",
+        "image_prompt": "A sleek tech workspace featuring a glowing computer screen with code running, a person typing intently, and modern tech gadgets scattered around."
       },
       {
         "pill": "",
-        "headline": "NEEDLE 2 IS A 45M-PARAMETER MODEL RUNNING IN 28MB OF RAM",
-        "hl": "45M-PARAMETER MODEL",
+        "headline": "IT SCORES 43.6% ON FRONTIERCODE, UP FROM 34.4%",
+        "hl": "SCORES 43.6%",
         "hls": [
-          "45M-PARAMETER",
-          "28MB OF RAM"
+          "SCORES 43.6%",
+          "UP FROM 34.4%"
         ],
-        "sub": "It performs tool calling and device use efficiently.",
-        "image_prompt": "A sleek, modern Raspberry Pi setup with a glowing LED, showcasing a tech-savvy workspace."
+        "sub": "This is a major improvement in coding capabilities.",
+        "image_prompt": "A close-up of a computer screen displaying coding benchmarks and an analytical dashboard, with a person analyzing the results."
       },
       {
         "pill": "",
-        "headline": "IT ACHIEVES 500 TOKENS/SEC ON A RASPBERRY PI 5 DEVICE",
-        "hl": "500 TOKENS/SEC",
+        "headline": "ON DEEPSWE, IT HITS 65.3%, JUMPING FROM 49.0%",
+        "hl": "HITS 65.3%",
         "hls": [
-          "500 TOKENS",
-          "RASPBERRY PI 5"
+          "HITS 65.3%",
+          "JUMPING FROM 49.0%"
         ],
-        "sub": "This speed rivals larger models that are much heavier.",
-        "image_prompt": "An image of a person coding on a laptop, with multiple devices and wires in the background."
+        "sub": "These gains position it ahead of Claude Sonnet 5 and GPT-5.6 Terra.",
+        "image_prompt": "A group of tech professionals discussing over a laptop, with graphs and data visualizations projected in the background."
       },
       {
         "pill": "",
-        "headline": "NEEDLE TARGETS DEVICES UNDER $200, FOCUSING ON EDGE AI",
-        "hl": "DEVICES UNDER $200",
+        "headline": "GOOGLE CREDITS IMPROVEMENTS TO ALGORITHMIC ENHANCEMENTS",
+        "hl": "ALGORITHMIC ENHANCEMENTS",
         "hls": [
-          "UNDER $200",
-          "EDGE AI"
+          "ALGORITHMIC ENHANCEMENTS"
         ],
-        "sub": "It aims to serve the growing IoT market effectively.",
-        "image_prompt": "A diverse array of affordable smart devices displayed in a home environment, showcasing connectivity."
+        "sub": "These advancements set a new standard for AI performance.",
+        "image_prompt": "A futuristic laboratory scene with researchers working on advanced AI systems, surrounded by screens showing algorithms and data."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "NEEDLE 2 COULD BRING AI TO BILLIONS OF DEVICES WORLDWIDE",
-        "hl": "BRING AI TO BILLIONS",
+        "headline": "AND IT'S 50% CHEAPER THAN GEMINI 3.6 FLASH",
+        "hl": "50% CHEAPER",
         "hls": [
-          "BRING AI",
-          "BILLIONS OF DEVICES"
+          "50% CHEAPER"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A panoramic view of a bustling city, with various smart technologies in use, highlighting a connected future."
+        "image_prompt": "A vibrant tech expo setting with people exploring AI innovations, showcasing the excitement and future of technology."
       }
     ],
     "story": {
-      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-      "url": "https://cactuscompute.com/needle"
+      "title": "Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor's price by 50%",
+      "url": "https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/"
     },
-    "date": "2026-08-12"
+    "date": "2026-08-13"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 561,
-  "resolved_at": "2026-08-12T06:31:59.610775Z"
+  "control_msg_id": 574
 }
