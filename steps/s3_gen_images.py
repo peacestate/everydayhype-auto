@@ -9,10 +9,20 @@ KDIR = C.WORK / "kernel"
 BG   = C.WORK / "bg"
 
 KERNEL_TMPL = r'''import os, sys, subprocess, numpy as np
-def pip(*a): subprocess.run([sys.executable,"-m","pip","install","-q",*a], check=False)
-pip("torch==2.4.1","torchvision==0.19.1","--index-url","https://download.pytorch.org/whl/cu121")
+def pip(*a):
+    # check=True on purpose: a SILENT pip failure is what broke 2026-08-13. The old
+    # torch==2.4.1 pin stopped resolving (nvidia-cudnn-cu12==9.1.0.70 vanished from the
+    # index), pip exited non-zero, check=False swallowed it, and the run limped on with
+    # stock torch — which no longer supports the P100. Fail loud instead.
+    subprocess.run([sys.executable,"-m","pip","install","-q",*a], check=True)
+# NO torch pin any more. We now request a T4 (sm_75, see machine_shape below) instead of
+# the P100 (sm_60), which Kaggle's stock torch dropped support for — so the stock build
+# works as-is and there is no pin left to rot.
 pip("diffusers==0.32.2","transformers==4.46.3","accelerate","sentencepiece","protobuf","bitsandbytes")
 import torch
+cap = torch.cuda.get_device_capability(0)
+print("[gpu]", torch.cuda.get_device_name(0), cap, "torch", torch.__version__, flush=True)
+assert cap >= (7,5), f"got {torch.cuda.get_device_name(0)} {cap}; need sm_75+ (T4) for bitsandbytes 4-bit"
 from huggingface_hub import login; login(token=%(hf)r)
 from diffusers import FluxPipeline, FluxTransformer2DModel, BitsAndBytesConfig as DBnb
 from transformers import T5EncoderModel, BitsAndBytesConfig as TBnb
@@ -45,7 +55,11 @@ def generate(plan):
     (KDIR/"kernel-metadata.json").write_text(json.dumps({
         "id": C.KAGGLE_KERNEL, "title": C.KAGGLE_KERNEL.split("/")[1], "code_file": "gen_flux.py",
         "language": "python", "kernel_type": "script", "is_private": True,
-        "enable_gpu": True, "enable_internet": True,
+        # machine_shape pins the accelerator. "NvidiaTeslaP100" (what plain enable_gpu gives
+        # you) is sm_60, which Kaggle's stock torch no longer builds for -> bitsandbytes dies
+        # with "Error named symbol not found ... ops.cu". T4 is sm_75, same 16GB, fully
+        # supported. Allowed values: NvidiaTeslaT4 | NvidiaTeslaP100 | Tpu1VmV38.
+        "enable_gpu": True, "machine_shape": "NvidiaTeslaT4", "enable_internet": True,
         "dataset_sources": [], "competition_sources": [], "kernel_sources": [], "model_sources": []}))
 
     print("[s3] pushing FLUX kernel...", flush=True)

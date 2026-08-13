@@ -74,6 +74,24 @@ jobs:
           AVOID_TITLE:      ${{ inputs.avoid_title }}
         run: python pipeline.py ${{ (inputs.dry_run && '--dry-run') || '' }}
 
+      # Without this, a hard crash (e.g. the 2026-08-13 Kaggle sm_60 kernel ERROR) looks
+      # EXACTLY like "nothing happened" from Telegram's side — no draft, no explanation.
+      - name: Telegram alert on failure
+        if: failure()
+        continue-on-error: true
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT:  ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_URL:  ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          MSG=$(printf '%s\n%s' \
+            "⚠️ everydayhype daily-carousel FAILED — no draft today." \
+            "Logs: ${RUN_URL}")
+          curl -sS -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "disable_web_page_preview=true" \
+            --data-urlencode "text=${MSG}"
+
       - name: Upload preview slides
         if: always()
         continue-on-error: true      # a non-essential preview must NEVER fail the run and
