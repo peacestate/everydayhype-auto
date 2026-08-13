@@ -120,3 +120,15 @@ jobs:
             git merge -X ours --no-edit origin/main || { git merge --abort || true; }
             git push && break || { echo "push race; retrying in 5s"; sleep 5; }
           done
+
+      # The repo is opened to public at step 1 so Actions minutes stay free, and publish.yml
+      # closes it again once the Instagram post lands. That handshake only covers the happy
+      # path — a crash, a dry-run or a rejected draft means NO publish is ever coming, so
+      # nothing closed the window (2026-08-13: left public 2.7h after a crash, then again
+      # after a dry-run). Close it ourselves whenever a publish is not on the way.
+      - name: Re-private if no publish is coming (crash / dry-run)
+        if: always() && (failure() || cancelled() || inputs.dry_run)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.ADMIN_PAT }}
+        run: gh api -X PATCH "repos/${{ github.repository }}" -F private=true
