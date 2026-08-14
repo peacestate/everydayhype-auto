@@ -1,14 +1,14 @@
 {
-  "status": "rejected",
-  "created_at": "2026-08-13T22:54:17.960416Z",
+  "status": "pending",
+  "created_at": "2026-08-14T03:53:19.123255Z",
   "deadline_min": 120,
-  "caption": "Google has launched the Gemini 3.7 Flash model, boasting significant coding improvements. This new model is priced at 50% less than its predecessor, Gemini 3.6 Flash, making it more accessible.\n\nWith benchmark scores of 43.6% on FrontierCode and 65.3% on DeepSWE, it surpasses competitors like Claude Sonnet 5 and GPT-5.6 Terra.\n\nShould companies prioritize cost-effective AI solutions like this?\n\nSources: The Decoder, Google Blog\n\n#Google #AI #Gemini37 #TechNews #Coding #Innovation #Benchmarking #AIModels #MachineLearning #DeepLearning #TechLaunch",
+  "caption": "Google has launched Gemini 3.7 Flash, marking significant upgrades in coding capabilities. This new model undercuts its predecessor's price by 50%, making it a competitive option in the market. \ud83d\ude80\ud83d\udcbb\n\nWhat features are you most excited about in AI models?\n\nSources: The Decoder, Google Blog\n\n#Google #Gemini #AI #TechNews #Coding #MachineLearning #Innovation #AIModels #Technology #Software #Programming #TechBreakthroughs",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786661651/everydayhypehq/2026-08-13/225411_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786661651/everydayhypehq/2026-08-13/225411_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786661652/everydayhypehq/2026-08-13/225411_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786661653/everydayhypehq/2026-08-13/225411_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786661653/everydayhypehq/2026-08-13/225411_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786679591/everydayhypehq/2026-08-14/035311_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786679592/everydayhypehq/2026-08-14/035311_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786679593/everydayhypehq/2026-08-14/035311_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786679593/everydayhypehq/2026-08-14/035311_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786679594/everydayhypehq/2026-08-14/035311_slide_5.png"
   ],
   "plan": {
     "palette": "cyan",
@@ -16,69 +16,70 @@
     "layout": "b",
     "person": "",
     "company": "Google",
-    "caption": "Google has launched the Gemini 3.7 Flash model, boasting significant coding improvements. This new model is priced at 50% less than its predecessor, Gemini 3.6 Flash, making it more accessible.\n\nWith benchmark scores of 43.6% on FrontierCode and 65.3% on DeepSWE, it surpasses competitors like Claude Sonnet 5 and GPT-5.6 Terra.\n\nShould companies prioritize cost-effective AI solutions like this?\n\nSources: The Decoder, Google Blog\n\n#Google #AI #Gemini37 #TechNews #Coding #Innovation #Benchmarking #AIModels #MachineLearning #DeepLearning #TechLaunch",
+    "caption": "Google has launched Gemini 3.7 Flash, marking significant upgrades in coding capabilities. This new model undercuts its predecessor's price by 50%, making it a competitive option in the market. \ud83d\ude80\ud83d\udcbb\n\nWhat features are you most excited about in AI models?\n\nSources: The Decoder, Google Blog\n\n#Google #Gemini #AI #TechNews #Coding #MachineLearning #Innovation #AIModels #Technology #Software #Programming #TechBreakthroughs",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
-        "headline": "GEMINI 3.7 FLASH IS 50% CHEAPER THAN ITS PREDECESSOR",
-        "hl": "50% CHEAPER",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "GOOGLE JUST LAUNCHED GEMINI 3.7 FLASH AT 50% LESS THAN 3.6",
+        "hl": "50% LESS",
         "hls": [
-          "50% CHEAPER",
-          "GEMINI 3.7 FLASH"
+          "GEMINI 3.7 FLASH",
+          "50% LESS"
         ],
-        "sub": "Google's new model launches at $0.75 per million tokens.",
-        "image_prompt": "A sleek tech workspace featuring a glowing computer screen with code running, a person typing intently, and modern tech gadgets scattered around."
+        "sub": "This new model is 50% cheaper than its three-week-old predecessor.",
+        "image_prompt": "A high-tech workspace with a modern computer setup, showcasing a sleek AI interface on the screen, bright lighting."
       },
       {
-        "pill": "",
-        "headline": "IT SCORES 43.6% ON FRONTIERCODE, UP FROM 34.4%",
-        "hl": "SCORES 43.6%",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "GEMINI 3.7 FLASH SCORES 43.6% ON FRONTIERCODE BENCHMARK",
+        "hl": "43.6%",
         "hls": [
           "SCORES 43.6%",
-          "UP FROM 34.4%"
+          "BENCHMARK"
         ],
-        "sub": "This is a major improvement in coding capabilities.",
-        "image_prompt": "A close-up of a computer screen displaying coding benchmarks and an analytical dashboard, with a person analyzing the results."
+        "sub": "It improves code quality significantly from 34.4% in the previous version.",
+        "image_prompt": "Close-up of a person coding on a laptop, with a focus on hands and the vibrant screen displaying code."
       },
       {
-        "pill": "",
-        "headline": "ON DEEPSWE, IT HITS 65.3%, JUMPING FROM 49.0%",
-        "hl": "HITS 65.3%",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "NEW MODEL OUTPERFORMS CLAUDE SONNET 5 AND GPT-5.6 TERRA",
+        "hl": "OUTPERFORMS",
         "hls": [
-          "HITS 65.3%",
-          "JUMPING FROM 49.0%"
+          "NEW MODEL",
+          "CLAUDE SONNET 5"
         ],
-        "sub": "These gains position it ahead of Claude Sonnet 5 and GPT-5.6 Terra.",
-        "image_prompt": "A group of tech professionals discussing over a laptop, with graphs and data visualizations projected in the background."
+        "sub": "Google's benchmarks show gains in web development and business automation.",
+        "image_prompt": "A diverse group of people collaborating over a digital display, brainstorming AI solutions in an open office space."
       },
       {
-        "pill": "",
-        "headline": "GOOGLE CREDITS IMPROVEMENTS TO ALGORITHMIC ENHANCEMENTS",
-        "hl": "ALGORITHMIC ENHANCEMENTS",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "LAUNCH PRICING AT $0.75 PER MILLION TOKENS FOR INPUT",
+        "hl": "$0.75 PER MILLION",
         "hls": [
-          "ALGORITHMIC ENHANCEMENTS"
+          "$0.75 PER MILLION",
+          "TOKENS"
         ],
-        "sub": "These advancements set a new standard for AI performance.",
-        "image_prompt": "A futuristic laboratory scene with researchers working on advanced AI systems, surrounded by screens showing algorithms and data."
+        "sub": "This pricing strategy sets a new standard for price-to-performance.",
+        "image_prompt": "A modern office meeting room with professionals discussing AI models, with charts and graphs on a digital board."
       },
       {
-        "pill": "THE TAKEAWAY 🔥",
-        "headline": "AND IT'S 50% CHEAPER THAN GEMINI 3.6 FLASH",
-        "hl": "50% CHEAPER",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "GEMINI 3.7 FLASH OFFERS SIGNIFICANT CODING CAPABILITIES AT A LOWER COST",
+        "hl": "LOWER COST",
         "hls": [
-          "50% CHEAPER"
+          "SIGNIFICANT CODING",
+          "LOWER COST"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A vibrant tech expo setting with people exploring AI innovations, showcasing the excitement and future of technology."
+        "image_prompt": "A futuristic city skyline at dusk with glowing lights, symbolizing innovation and technology."
       }
     ],
     "story": {
       "title": "Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor's price by 50%",
       "url": "https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/"
     },
-    "date": "2026-08-13"
+    "date": "2026-08-14"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 574,
-  "resolved_at": "2026-08-13T22:55:52.473Z"
+  "control_msg_id": 580
 }
