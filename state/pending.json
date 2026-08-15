@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-15T03:51:00.360101Z",
   "deadline_min": 120,
   "caption": "Z.ai has launched GLM-5.3, enhancing coding capabilities significantly. This new model shows a 50% improvement over GLM-5.2 in coding tasks and excels in cyber capabilities. 30f4bb\n\nWhat do you think about the advancements in AI coding?\n\nSources: Z.ai\n\n#AI #MachineLearning #CyberSecurity #Coding #Technology #Innovation #OpenSource #Zai #GLM53",
@@ -66,5 +66,6 @@
     "date": "2026-08-15"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 587
+  "control_msg_id": 587,
+  "resolved_at": "2026-08-15T05:41:58.999Z"
 }
