@@ -1,71 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-15T03:51:00.360101Z",
+  "status": "pending",
+  "created_at": "2026-08-16T03:51:11.546491Z",
   "deadline_min": 120,
-  "caption": "Z.ai has launched GLM-5.3, enhancing coding capabilities significantly. This new model shows a 50% improvement over GLM-5.2 in coding tasks and excels in cyber capabilities. 30f4bb\n\nWhat do you think about the advancements in AI coding?\n\nSources: Z.ai\n\n#AI #MachineLearning #CyberSecurity #Coding #Technology #Innovation #OpenSource #Zai #GLM53",
+  "caption": "Google is advancing private AI capabilities with the introduction of HEIR, an open-source tool that utilizes homomorphic encryption. This technology allows secure computations on encrypted data, enhancing privacy without sacrificing functionality. 4a14ab  \n\nWill this innovation reshape how industries handle sensitive data?  \n\nSources: Google Blog, Wikipedia  \n#Google #AI #Privacy #HomomorphicEncryption #DataSecurity #Innovation #TechNews #OpenSource #Computing #HEIR",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786765853/everydayhypehq/2026-08-15/035053_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786765854/everydayhypehq/2026-08-15/035053_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786765854/everydayhypehq/2026-08-15/035053_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786765855/everydayhypehq/2026-08-15/035053_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786765855/everydayhypehq/2026-08-15/035053_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786852263/everydayhypehq/2026-08-16/035103_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786852264/everydayhypehq/2026-08-16/035103_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786852264/everydayhypehq/2026-08-16/035103_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786852265/everydayhypehq/2026-08-16/035103_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786852266/everydayhypehq/2026-08-16/035103_slide_5.png"
   ],
   "plan": {
-    "palette": "cyan",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "c",
-    "caption": "Z.ai has launched GLM-5.3, enhancing coding capabilities significantly. This new model shows a 50% improvement over GLM-5.2 in coding tasks and excels in cyber capabilities. 30f4bb\n\nWhat do you think about the advancements in AI coding?\n\nSources: Z.ai\n\n#AI #MachineLearning #CyberSecurity #Coding #Technology #Innovation #OpenSource #Zai #GLM53",
+    "palette": "red",
+    "art_style": "neon glow synthwave, bloom, dark background",
+    "layout": "b",
+    "caption": "Google is advancing private AI capabilities with the introduction of HEIR, an open-source tool that utilizes homomorphic encryption. This technology allows secure computations on encrypted data, enhancing privacy without sacrificing functionality. 4a14ab  \n\nWill this innovation reshape how industries handle sensitive data?  \n\nSources: Google Blog, Wikipedia  \n#Google #AI #Privacy #HomomorphicEncryption #DataSecurity #Innovation #TechNews #OpenSource #Computing #HEIR",
     "slides": [
       {
         "pill": "BREAKING 534",
-        "headline": "GLM-5.3 SHOWCASES A 50% IMPROVEMENT IN CODING CAPABILITIES",
-        "hl": "50% IMPROVEMENT",
-        "hls": [],
-        "sub": "Here's the enhancement in AI coding capabilities through scaling post-training.",
-        "image_prompt": "A close-up of a computer screen displaying complex code being typed by a person, with a focused expression."
+        "headline": "GOOGLE JUST UNVEILED HEIR FOR PRIVATE AI USING HOMOMORPHIC ENCRYPTION",
+        "hl": "PRIVATE AI USING HOMOMORPHIC ENCRYPTION",
+        "hls": [
+          "PRIVATE AI",
+          "HOMOMORPHIC ENCRYPTION"
+        ],
+        "sub": "This tool enables cryptographically-secure AI inference for users.",
+        "image_prompt": "A person working on a laptop in a dimly lit room, with colorful neon lights reflecting off the walls, creating a tech-savvy atmosphere."
       },
       {
-        "pill": "",
-        "headline": "GLM-5.3 IS THE MOST CAPABLE OPEN-WEIGHTS MODEL FOR CODING",
-        "hl": "MOST CAPABLE OPEN-WEIGHTS MODEL",
-        "hls": [],
-        "sub": "It achieved significant performance on public benchmarks, surpassing GLM-5.2 outcomes.",
-        "image_prompt": "A person analyzing data on multiple monitors in a modern workspace, showcasing a high-tech environment."
+        "pill": "WHAT HAPPENED 6a1",
+        "headline": "HOMOMORPHIC ENCRYPTION ALLOWS COMPUTATIONS ON ENCRYPTED DATA SAFELY",
+        "hl": "COMPUTATIONS ON ENCRYPTED DATA",
+        "hls": [
+          "ENCRYPTED DATA",
+          "SAFELY"
+        ],
+        "sub": "It processes data without revealing any underlying user information.",
+        "image_prompt": "A close-up of a computer screen displaying encrypted data, with a gloved hand manipulating the keyboard, emphasizing a secure computing environment."
       },
       {
-        "pill": "",
-        "headline": "GLM-5.3 DOUBLES EXPLOITATION BENCHMARKS OF GLM-5.2",
-        "hl": "DOUBLES EXPLOITATION BENCHMARKS",
-        "hls": [],
-        "sub": "Its performance in CyberGym outstrips GLM-5.2 by over 100% on key metrics.",
-        "image_prompt": "A cybersecurity expert working diligently at a desk filled with tech gadgets, with code and security software visible on the screens."
+        "pill": "WHY IT MATTERS 30d",
+        "headline": "GOOGLE'S INNOVATION PROMISES TO ENHANCE PRIVACY IN CRITICAL SECTORS",
+        "hl": "ENHANCE PRIVACY",
+        "hls": [
+          "PRIVACY",
+          "CRITICAL SECTORS"
+        ],
+        "sub": "This includes healthcare and finance, where data security is paramount.",
+        "image_prompt": "A healthcare professional discussing data security with a patient, in a modern, well-lit office, conveying trust and professionalism."
       },
       {
-        "pill": "",
-        "headline": "OPEN SOURCE WEIGHTS SET TO RELEASE IN TWO WEEKS",
-        "hl": "TWO WEEKS",
-        "hls": [],
-        "sub": "Weights will be available after the completion of safety evaluations and hardening.",
-        "image_prompt": "A person reviewing safety protocols on a digital tablet, surrounded by team members in a collaborative setting."
+        "pill": "THE IMPACT 4e1",
+        "headline": "THE COST OF HOMOMORPHIC ENCRYPTION IS RAPIDLY DECREASING",
+        "hl": "RAPIDLY DECREASING",
+        "hls": [
+          "COST",
+          "RAPIDLY DECREASING"
+        ],
+        "sub": "This shift could make private AI solutions more accessible to businesses.",
+        "image_prompt": "A business meeting with diverse professionals discussing data solutions, with charts and notes visible, showcasing collaboration and innovation."
       },
       {
         "pill": "THE TAKEAWAY 525",
-        "headline": "GLM-5.3 IS ADVANCING AI CODING AND CYBER CAPABILITIES SIGNIFICANTLY",
-        "hl": "ADVANCING AI CODING",
-        "hls": [],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs and insights.",
-        "image_prompt": "An inspiring shot of a diverse team engaged in a lively discussion, brainstorming ideas for AI development."
+        "headline": "HEIR ENABLES SECURE AI APPLICATIONS WITHOUT REVEALING DATA",
+        "hl": "SECURE AI APPLICATIONS",
+        "hls": [
+          "SECURE AI APPLICATIONS",
+          "REVEALING DATA"
+        ],
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A futuristic digital landscape with abstract representations of data security, blending technology and modern design elements."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
-      "url": "https://z.ai/blog/glm-5.3"
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/"
     },
-    "date": "2026-08-15"
+    "date": "2026-08-16"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 587,
-  "resolved_at": "2026-08-15T06:31:00.431086Z"
+  "control_msg_id": 594
 }
