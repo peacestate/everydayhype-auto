@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-08-16T03:51:11.546491Z",
   "deadline_min": 120,
   "caption": "Google is advancing private AI capabilities with the introduction of HEIR, an open-source tool that utilizes homomorphic encryption. This technology allows secure computations on encrypted data, enhancing privacy without sacrificing functionality. 4a14ab  \n\nWill this innovation reshape how industries handle sensitive data?  \n\nSources: Google Blog, Wikipedia  \n#Google #AI #Privacy #HomomorphicEncryption #DataSecurity #Innovation #TechNews #OpenSource #Computing #HEIR",
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 594,
-  "resolved_at": "2026-08-16T05:42:23.453Z"
+  "resolved_at": "2026-08-16T06:31:07.270094Z"
 }
