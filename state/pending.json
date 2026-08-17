@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-16T03:51:11.546491Z",
+  "status": "pending",
+  "created_at": "2026-08-17T03:51:27.081117Z",
   "deadline_min": 120,
-  "caption": "Google is advancing private AI capabilities with the introduction of HEIR, an open-source tool that utilizes homomorphic encryption. This technology allows secure computations on encrypted data, enhancing privacy without sacrificing functionality. 4a14ab  \n\nWill this innovation reshape how industries handle sensitive data?  \n\nSources: Google Blog, Wikipedia  \n#Google #AI #Privacy #HomomorphicEncryption #DataSecurity #Innovation #TechNews #OpenSource #Computing #HEIR",
+  "caption": "Stripe has made headlines with its latest acquisition, purchasing AI firm OpenRouter for more than $7 billion. This move highlights the increasing importance of AI technology in the financial sector. \ud83d\udcb0\ud83e\udd16\n\nWhat do you think this means for the payments landscape?  \n\nSources: Bloomberg, TechCrunch  \n#Stripe #OpenRouter #AI #Acquisition #TechNews #Business #Finance #Innovation #Payments",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786852263/everydayhypehq/2026-08-16/035103_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786852264/everydayhypehq/2026-08-16/035103_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786852264/everydayhypehq/2026-08-16/035103_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786852265/everydayhypehq/2026-08-16/035103_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786852266/everydayhypehq/2026-08-16/035103_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786938680/everydayhypehq/2026-08-17/035120_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786938680/everydayhypehq/2026-08-17/035120_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786938681/everydayhypehq/2026-08-17/035120_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786938682/everydayhypehq/2026-08-17/035120_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786938682/everydayhypehq/2026-08-17/035120_slide_5.png"
   ],
   "plan": {
-    "palette": "red",
-    "art_style": "neon glow synthwave, bloom, dark background",
-    "layout": "b",
-    "caption": "Google is advancing private AI capabilities with the introduction of HEIR, an open-source tool that utilizes homomorphic encryption. This technology allows secure computations on encrypted data, enhancing privacy without sacrificing functionality. 4a14ab  \n\nWill this innovation reshape how industries handle sensitive data?  \n\nSources: Google Blog, Wikipedia  \n#Google #AI #Privacy #HomomorphicEncryption #DataSecurity #Innovation #TechNews #OpenSource #Computing #HEIR",
+    "palette": "amber",
+    "art_style": "dramatic macro close-up, shallow depth",
+    "layout": "a",
+    "caption": "Stripe has made headlines with its latest acquisition, purchasing AI firm OpenRouter for more than $7 billion. This move highlights the increasing importance of AI technology in the financial sector. \ud83d\udcb0\ud83e\udd16\n\nWhat do you think this means for the payments landscape?  \n\nSources: Bloomberg, TechCrunch  \n#Stripe #OpenRouter #AI #Acquisition #TechNews #Business #Finance #Innovation #Payments",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "GOOGLE JUST UNVEILED HEIR FOR PRIVATE AI USING HOMOMORPHIC ENCRYPTION",
-        "hl": "PRIVATE AI USING HOMOMORPHIC ENCRYPTION",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "STRIPE JUST ANNOUNCED A $7 BILLION DEAL TO BUY OPENROUTER",
+        "hl": "$7 BILLION DEAL",
         "hls": [
-          "PRIVATE AI",
-          "HOMOMORPHIC ENCRYPTION"
+          "$7 billion",
+          "BUY OPENROUTER"
         ],
-        "sub": "This tool enables cryptographically-secure AI inference for users.",
-        "image_prompt": "A person working on a laptop in a dimly lit room, with colorful neon lights reflecting off the walls, creating a tech-savvy atmosphere."
+        "sub": "Here's what you need to know.",
+        "image_prompt": "A close-up of a handshake between two business professionals, showcasing a sense of agreement and partnership, with a blurred city skyline in the background."
       },
       {
-        "pill": "WHAT HAPPENED 6a1",
-        "headline": "HOMOMORPHIC ENCRYPTION ALLOWS COMPUTATIONS ON ENCRYPTED DATA SAFELY",
-        "hl": "COMPUTATIONS ON ENCRYPTED DATA",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "THE DEAL COULD BE FINALIZED BY THE END OF AUGUST 2026",
+        "hl": "FINALIZED BY THE END OF AUGUST 2026",
         "hls": [
-          "ENCRYPTED DATA",
-          "SAFELY"
+          "FINALIZED",
+          "AUGUST 2026"
         ],
-        "sub": "It processes data without revealing any underlying user information.",
-        "image_prompt": "A close-up of a computer screen displaying encrypted data, with a gloved hand manipulating the keyboard, emphasizing a secure computing environment."
+        "sub": "Anticipation surrounds the completion timeline of this major acquisition.",
+        "image_prompt": "A dramatic close-up of a calendar page flipping to August 2026, with a pen poised over a marked date, symbolizing important deadlines."
       },
       {
-        "pill": "WHY IT MATTERS 30d",
-        "headline": "GOOGLE'S INNOVATION PROMISES TO ENHANCE PRIVACY IN CRITICAL SECTORS",
-        "hl": "ENHANCE PRIVACY",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "OPENROUTER SPECIALIZES IN AI TO IMPROVE FINANCIAL SERVICES",
+        "hl": "IMPROVE FINANCIAL SERVICES",
         "hls": [
-          "PRIVACY",
-          "CRITICAL SECTORS"
+          "AI",
+          "FINANCIAL SERVICES"
         ],
-        "sub": "This includes healthcare and finance, where data security is paramount.",
-        "image_prompt": "A healthcare professional discussing data security with a patient, in a modern, well-lit office, conveying trust and professionalism."
+        "sub": "This technology could enhance payment processing for Stripe's clients.",
+        "image_prompt": "A macro shot of a modern digital payment terminal in action, showing a hand using a contactless card, with a soft focus on the background."
       },
       {
-        "pill": "THE IMPACT 4e1",
-        "headline": "THE COST OF HOMOMORPHIC ENCRYPTION IS RAPIDLY DECREASING",
-        "hl": "RAPIDLY DECREASING",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "THIS MOVE SIGNALS STRIPE'S COMMITMENT TO AI IN FINANCE",
+        "hl": "COMMITMENT TO AI",
         "hls": [
-          "COST",
-          "RAPIDLY DECREASING"
+          "AI",
+          "FINANCE"
         ],
-        "sub": "This shift could make private AI solutions more accessible to businesses.",
-        "image_prompt": "A business meeting with diverse professionals discussing data solutions, with charts and notes visible, showcasing collaboration and innovation."
+        "sub": "Stripe aims to stay competitive in an evolving market landscape.",
+        "image_prompt": "A close-up of a futuristic interface displaying financial data and AI algorithms, with a person analyzing the information on a sleek device."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "HEIR ENABLES SECURE AI APPLICATIONS WITHOUT REVEALING DATA",
-        "hl": "SECURE AI APPLICATIONS",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "STRIPE IS INVESTING HEAVILY IN AI FOR GROWTH",
+        "hl": "HEAVILY IN AI",
         "hls": [
-          "SECURE AI APPLICATIONS",
-          "REVEALING DATA"
+          "INVESTING",
+          "GROWTH"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic digital landscape with abstract representations of data security, blending technology and modern design elements."
+        "image_prompt": "A captivating macro shot of a stack of coins next to a graph showing upward growth, symbolizing investment and financial success."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Google is making private AI practical with homomorphic encryption",
-      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/"
+      "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion"
     },
-    "date": "2026-08-16"
+    "date": "2026-08-17"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 594,
-  "resolved_at": "2026-08-16T06:31:07.270094Z"
+  "control_msg_id": 601
 }
