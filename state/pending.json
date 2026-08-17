@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-17T03:51:27.081117Z",
   "deadline_min": 120,
-  "caption": "Stripe has made headlines with its latest acquisition, purchasing AI firm OpenRouter for more than $7 billion. This move highlights the increasing importance of AI technology in the financial sector. \ud83d\udcb0\ud83e\udd16\n\nWhat do you think this means for the payments landscape?  \n\nSources: Bloomberg, TechCrunch  \n#Stripe #OpenRouter #AI #Acquisition #TechNews #Business #Finance #Innovation #Payments",
+  "caption": "Stripe has made headlines with its latest acquisition, purchasing AI firm OpenRouter for more than $7 billion. This move highlights the increasing importance of AI technology in the financial sector. 💰🤖\n\nWhat do you think this means for the payments landscape?  \n\nSources: Bloomberg, TechCrunch  \n#Stripe #OpenRouter #AI #Acquisition #TechNews #Business #Finance #Innovation #Payments",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786938680/everydayhypehq/2026-08-17/035120_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1786938680/everydayhypehq/2026-08-17/035120_slide_2.png",
@@ -14,10 +14,10 @@
     "palette": "amber",
     "art_style": "dramatic macro close-up, shallow depth",
     "layout": "a",
-    "caption": "Stripe has made headlines with its latest acquisition, purchasing AI firm OpenRouter for more than $7 billion. This move highlights the increasing importance of AI technology in the financial sector. \ud83d\udcb0\ud83e\udd16\n\nWhat do you think this means for the payments landscape?  \n\nSources: Bloomberg, TechCrunch  \n#Stripe #OpenRouter #AI #Acquisition #TechNews #Business #Finance #Innovation #Payments",
+    "caption": "Stripe has made headlines with its latest acquisition, purchasing AI firm OpenRouter for more than $7 billion. This move highlights the increasing importance of AI technology in the financial sector. 💰🤖\n\nWhat do you think this means for the payments landscape?  \n\nSources: Bloomberg, TechCrunch  \n#Stripe #OpenRouter #AI #Acquisition #TechNews #Business #Finance #Innovation #Payments",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "STRIPE JUST ANNOUNCED A $7 BILLION DEAL TO BUY OPENROUTER",
         "hl": "$7 BILLION DEAL",
         "hls": [
@@ -28,7 +28,7 @@
         "image_prompt": "A close-up of a handshake between two business professionals, showcasing a sense of agreement and partnership, with a blurred city skyline in the background."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "THE DEAL COULD BE FINALIZED BY THE END OF AUGUST 2026",
         "hl": "FINALIZED BY THE END OF AUGUST 2026",
         "hls": [
@@ -39,7 +39,7 @@
         "image_prompt": "A dramatic close-up of a calendar page flipping to August 2026, with a pen poised over a marked date, symbolizing important deadlines."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "OPENROUTER SPECIALIZES IN AI TO IMPROVE FINANCIAL SERVICES",
         "hl": "IMPROVE FINANCIAL SERVICES",
         "hls": [
@@ -50,7 +50,7 @@
         "image_prompt": "A macro shot of a modern digital payment terminal in action, showing a hand using a contactless card, with a soft focus on the background."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "THIS MOVE SIGNALS STRIPE'S COMMITMENT TO AI IN FINANCE",
         "hl": "COMMITMENT TO AI",
         "hls": [
@@ -61,7 +61,7 @@
         "image_prompt": "A close-up of a futuristic interface displaying financial data and AI algorithms, with a person analyzing the information on a sleek device."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "STRIPE IS INVESTING HEAVILY IN AI FOR GROWTH",
         "hl": "HEAVILY IN AI",
         "hls": [
@@ -81,5 +81,6 @@
     "date": "2026-08-17"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 601
+  "control_msg_id": 601,
+  "resolved_at": "2026-08-17T05:07:28.038Z"
 }
