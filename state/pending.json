@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "style_iso",
   "created_at": "2026-08-18T04:07:09.142107Z",
   "deadline_min": 120,
-  "caption": "Wiz Research's Red Agent uncovered a vulnerability in Snowflake's GitHub Actions workflow, allowing access to its internal Jira. This incident serves as a reminder that AI coding tools can inadvertently introduce critical flaws. \ud83d\udd0d\ud83d\udcbb\n\nHow can organizations better safeguard their systems against such vulnerabilities?\n\nSources: Wiz, GitHub\n#AI #Cybersecurity #Snowflake #OpenSource #GitHub #Vulnerability #TechNews #WizResearch #SoftwareDevelopment",
+  "caption": "Wiz Research's Red Agent uncovered a vulnerability in Snowflake's GitHub Actions workflow, allowing access to its internal Jira. This incident serves as a reminder that AI coding tools can inadvertently introduce critical flaws. 🔍💻\n\nHow can organizations better safeguard their systems against such vulnerabilities?\n\nSources: Wiz, GitHub\n#AI #Cybersecurity #Snowflake #OpenSource #GitHub #Vulnerability #TechNews #WizResearch #SoftwareDevelopment",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787026021/everydayhypehq/2026-08-18/040701_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787026022/everydayhypehq/2026-08-18/040701_slide_2.png",
@@ -16,11 +16,11 @@
     "layout": "a",
     "person": "",
     "company": "Snowflake",
-    "caption": "Wiz Research's Red Agent uncovered a vulnerability in Snowflake's GitHub Actions workflow, allowing access to its internal Jira. This incident serves as a reminder that AI coding tools can inadvertently introduce critical flaws. \ud83d\udd0d\ud83d\udcbb\n\nHow can organizations better safeguard their systems against such vulnerabilities?\n\nSources: Wiz, GitHub\n#AI #Cybersecurity #Snowflake #OpenSource #GitHub #Vulnerability #TechNews #WizResearch #SoftwareDevelopment",
+    "caption": "Wiz Research's Red Agent uncovered a vulnerability in Snowflake's GitHub Actions workflow, allowing access to its internal Jira. This incident serves as a reminder that AI coding tools can inadvertently introduce critical flaws. 🔍💻\n\nHow can organizations better safeguard their systems against such vulnerabilities?\n\nSources: Wiz, GitHub\n#AI #Cybersecurity #Snowflake #OpenSource #GitHub #Vulnerability #TechNews #WizResearch #SoftwareDevelopment",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "WIZ RESEARCH JUST IDENTIFIED A CRITICAL VULNERABILITY IN SNOWFLAKE\u2019S GITHUB",
+        "pill": "BREAKING 🔴",
+        "headline": "WIZ RESEARCH JUST IDENTIFIED A CRITICAL VULNERABILITY IN SNOWFLAKE’S GITHUB",
         "hl": "CRITICAL VULNERABILITY",
         "hls": [
           "CRITICAL VULNERABILITY",
@@ -30,7 +30,7 @@
         "image_prompt": "A researcher analyzing code on a computer screen, deep in thought, with a darkened workspace illuminated by the screen's glow."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "A SCRIPT INJECTION VULNERABILITY WAS LIVE JUST DAYS AFTER MERGING A PR",
         "hl": "LIVE JUST DAYS",
         "hls": [
@@ -41,7 +41,7 @@
         "image_prompt": "Close-up of a programmer's hands typing on a laptop, with code on the screen and a coffee cup beside it."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "COPILOT AUTOFIX ASSISTED IN MERGING THE VULNERABLE CODE",
         "hl": "COPILOT AUTOFIX",
         "hls": [
@@ -52,7 +52,7 @@
         "image_prompt": "An over-the-shoulder view of a developer reviewing code with a concerned expression, surrounded by monitors displaying error messages."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "SNOWFLAKE REMEDIATED THE VULNERABILITY ON THE SAME DAY OF DISCOVERY",
         "hl": "REMEDIATED ON THE SAME DAY",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A security team meeting in a modern office, discussing cybersecurity measures around a large screen showing security analytics."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AUTONOMOUS AI CAN DISCOVER CRITICAL FLAWS IN REAL-TIME",
         "hl": "CRITICAL FLAWS IN REAL-TIME",
         "hls": [
@@ -75,7 +75,7 @@
       }
     ],
     "story": {
-      "title": "AI-Generated GitHub Copilot \u201cAutofix\u201d Allowed Compromise of Snowflake's Jira",
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
       "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
     },
     "date": "2026-08-18"
