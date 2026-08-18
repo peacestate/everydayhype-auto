@@ -1,80 +1,85 @@
 {
   "status": "pending",
-  "created_at": "2026-08-18T03:52:19.596255Z",
+  "created_at": "2026-08-18T04:07:09.142107Z",
   "deadline_min": 120,
-  "caption": "Stripe is set to acquire OpenRouter, an AI gateway startup, for over $7 billion. This move marks a significant expansion for Stripe in the AI space, enhancing its offerings. 9164b0\n\nWhat do you think about this acquisition?\n\nSources: TechCrunch\n#Stripe #OpenRouter #AI #Startup #Acquisition #TechNews #Business #Investment #Fintech #Innovation #TechCrunch #FutureOfTech",
+  "caption": "Wiz Research's Red Agent uncovered a vulnerability in Snowflake's GitHub Actions workflow, allowing access to its internal Jira. This incident serves as a reminder that AI coding tools can inadvertently introduce critical flaws. \ud83d\udd0d\ud83d\udcbb\n\nHow can organizations better safeguard their systems against such vulnerabilities?\n\nSources: Wiz, GitHub\n#AI #Cybersecurity #Snowflake #OpenSource #GitHub #Vulnerability #TechNews #WizResearch #SoftwareDevelopment",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787025131/everydayhypehq/2026-08-18/035211_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787025132/everydayhypehq/2026-08-18/035211_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787025133/everydayhypehq/2026-08-18/035211_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787025134/everydayhypehq/2026-08-18/035211_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787025134/everydayhypehq/2026-08-18/035211_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787026021/everydayhypehq/2026-08-18/040701_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787026022/everydayhypehq/2026-08-18/040701_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787026023/everydayhypehq/2026-08-18/040701_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787026024/everydayhypehq/2026-08-18/040701_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787026024/everydayhypehq/2026-08-18/040701_slide_5.png"
   ],
   "plan": {
     "palette": "purple",
     "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "a",
-    "caption": "Stripe is set to acquire OpenRouter, an AI gateway startup, for over $7 billion. This move marks a significant expansion for Stripe in the AI space, enhancing its offerings. 9164b0\n\nWhat do you think about this acquisition?\n\nSources: TechCrunch\n#Stripe #OpenRouter #AI #Startup #Acquisition #TechNews #Business #Investment #Fintech #Innovation #TechCrunch #FutureOfTech",
+    "person": "",
+    "company": "Snowflake",
+    "caption": "Wiz Research's Red Agent uncovered a vulnerability in Snowflake's GitHub Actions workflow, allowing access to its internal Jira. This incident serves as a reminder that AI coding tools can inadvertently introduce critical flaws. \ud83d\udd0d\ud83d\udcbb\n\nHow can organizations better safeguard their systems against such vulnerabilities?\n\nSources: Wiz, GitHub\n#AI #Cybersecurity #Snowflake #OpenSource #GitHub #Vulnerability #TechNews #WizResearch #SoftwareDevelopment",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "STRIPE IS SET TO ACQUIRE OPENROUTER FOR OVER $7 BILLION",
-        "hl": "OVER $7 BILLION",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "WIZ RESEARCH JUST IDENTIFIED A CRITICAL VULNERABILITY IN SNOWFLAKE\u2019S GITHUB",
+        "hl": "CRITICAL VULNERABILITY",
         "hls": [
-          "$7 BILLION"
+          "CRITICAL VULNERABILITY",
+          "GITHUB"
         ],
-        "sub": "Here's the major acquisition announcement.",
-        "image_prompt": "A business meeting with a diverse group of professionals discussing a large financial acquisition in a modern office setting."
+        "sub": "This flaw was discovered on June 23, 2026.",
+        "image_prompt": "A researcher analyzing code on a computer screen, deep in thought, with a darkened workspace illuminated by the screen's glow."
       },
       {
-        "pill": "WHAT HAPPENED 26a1",
-        "headline": "THE DEAL WILL EXPAND STRIPE'S AI CAPABILITIES SIGNIFICANTLY",
-        "hl": "EXPAND STRIPE'S AI CAPABILITIES",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "A SCRIPT INJECTION VULNERABILITY WAS LIVE JUST DAYS AFTER MERGING A PR",
+        "hl": "LIVE JUST DAYS",
         "hls": [
-          "AI CAPABILITIES"
+          "SCRIPT INJECTION",
+          "LIVE JUST DAYS"
         ],
-        "sub": "OpenRouter specializes in AI-driven solutions for businesses.",
-        "image_prompt": "An AI technology demonstration showcasing innovative solutions in a tech lab environment."
+        "sub": "The issue became active on June 18, 2026, only five days before detection.",
+        "image_prompt": "Close-up of a programmer's hands typing on a laptop, with code on the screen and a coffee cup beside it."
       },
       {
-        "pill": "WHY IT MATTERS 1f300",
-        "headline": "THIS ACQUISITION COULD CHANGE THE LANDSCAPE OF FINTECH",
-        "hl": "CHANGE THE LANDSCAPE OF FINTECH",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "COPILOT AUTOFIX ASSISTED IN MERGING THE VULNERABLE CODE",
+        "hl": "COPILOT AUTOFIX",
         "hls": [
-          "CHANGE THE LANDSCAPE"
+          "COPILOT AUTOFIX",
+          "VULNERABLE CODE"
         ],
-        "sub": "Stripe aims to integrate advanced AI tools into its platform.",
-        "image_prompt": "A close-up of a computer screen displaying complex financial data and AI algorithms in action."
+        "sub": "GitHub's AI did not flag the vulnerability during its review.",
+        "image_prompt": "An over-the-shoulder view of a developer reviewing code with a concerned expression, surrounded by monitors displaying error messages."
       },
       {
-        "pill": "THE IMPACT 1f4b2",
-        "headline": "STRIPE IS BOLSTERING ITS POSITION IN THE COMPETITIVE TECH MARKET",
-        "hl": "BOLSTERING ITS POSITION",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "SNOWFLAKE REMEDIATED THE VULNERABILITY ON THE SAME DAY OF DISCOVERY",
+        "hl": "REMEDIATED ON THE SAME DAY",
         "hls": [
-          "BOLSTERING"
+          "REMEDIATED",
+          "SAME DAY"
         ],
-        "sub": "This move positions Stripe against major tech competitors.",
-        "image_prompt": "A competitive tech environment with various logos and products displayed, signifying the rivalry."
+        "sub": "They rotated affected credentials and verified the audit logs.",
+        "image_prompt": "A security team meeting in a modern office, discussing cybersecurity measures around a large screen showing security analytics."
       },
       {
-        "pill": "THE TAKEAWAY 1f525",
-        "headline": "AND IT COULD SIGNIFICANTLY IMPACT STRIPE'S GROWTH STRATEGY",
-        "hl": "SIGNIFICANTLY IMPACT STRIPE'S GROWTH STRATEGY",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "AUTONOMOUS AI CAN DISCOVER CRITICAL FLAWS IN REAL-TIME",
+        "hl": "CRITICAL FLAWS IN REAL-TIME",
         "hls": [
-          "SIGNIFICANTLY IMPACT"
+          "AUTONOMOUS AI",
+          "CRITICAL FLAWS"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A dynamic city skyline at dusk, symbolizing growth and innovation in the tech industry."
+        "image_prompt": "A futuristic digital landscape with abstract representations of AI and cybersecurity elements."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Stripe will reportedly acquire OpenRouter for $7B+",
-      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+      "title": "AI-Generated GitHub Copilot \u201cAutofix\u201d Allowed Compromise of Snowflake's Jira",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
     },
     "date": "2026-08-18"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 608
+  "control_msg_id": 614
 }
