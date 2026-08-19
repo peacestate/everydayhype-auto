@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-19T03:54:40.138381Z",
   "deadline_min": 120,
   "caption": "OpenRouter has slashed the pricing of its GPT-5.6 Sol API by 50%, bringing the cost down to $2.50. This significant reduction opens up new opportunities for developers and businesses looking to leverage AI without breaking the bank. 4c94a1\n\nHow will this pricing change affect your projects?\n\nSources: OpenRouter.ai, TechCrunch, VentureBeat\n\n#OpenRouter #GPT56 #AI #APIPricing #TechNews #MachineLearning #Developers #AIApplications #CostReduction #Innovation #TechTrends",
@@ -81,5 +81,6 @@
     "date": "2026-08-19"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 633
+  "control_msg_id": 633,
+  "resolved_at": "2026-08-19T04:33:25.227Z"
 }
