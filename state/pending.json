@@ -1,86 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-19T03:54:40.138381Z",
+  "status": "pending",
+  "created_at": "2026-08-20T03:52:38.317875Z",
   "deadline_min": 120,
-  "caption": "OpenRouter has slashed the pricing of its GPT-5.6 Sol API by 50%, bringing the cost down to $2.50. This significant reduction opens up new opportunities for developers and businesses looking to leverage AI without breaking the bank. 4c94a1\n\nHow will this pricing change affect your projects?\n\nSources: OpenRouter.ai, TechCrunch, VentureBeat\n\n#OpenRouter #GPT56 #AI #APIPricing #TechNews #MachineLearning #Developers #AIApplications #CostReduction #Innovation #TechTrends",
+  "caption": "U.S. agencies have issued a warning about attackers utilizing AI to develop exploits for industrial control systems, particularly targeting Siemens S7 programmable logic controllers. This shift drastically reduces the skill level and time required to launch attacks. \u26a0\ufe0f  \n\nHow can organizations better protect their industrial control systems?  \n\nSources: CISA, NSA, FBI, AI Safety Institute  \n\n#Cybersecurity #AI #IndustrialControlSystems #Siemens #CISA #NSA #FBI #CyberThreats #Technology #DataSecurity #Hackers #Exploits",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787111671/everydayhypehq/2026-08-19/035431_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787111672/everydayhypehq/2026-08-19/035431_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787111673/everydayhypehq/2026-08-19/035431_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787111673/everydayhypehq/2026-08-19/035431_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787111674/everydayhypehq/2026-08-19/035431_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787197937/everydayhypehq/2026-08-20/035216_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787197938/everydayhypehq/2026-08-20/035216_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787197939/everydayhypehq/2026-08-20/035216_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787197940/everydayhypehq/2026-08-20/035216_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787197940/everydayhypehq/2026-08-20/035216_slide_5.png"
   ],
   "plan": {
-    "palette": "green",
-    "art_style": "isometric miniature diorama, tilt-shift",
+    "palette": "blue",
+    "art_style": "double-exposure, silhouette blended with data",
     "layout": "a",
-    "caption": "OpenRouter has slashed the pricing of its GPT-5.6 Sol API by 50%, bringing the cost down to $2.50. This significant reduction opens up new opportunities for developers and businesses looking to leverage AI without breaking the bank. 4c94a1\n\nHow will this pricing change affect your projects?\n\nSources: OpenRouter.ai, TechCrunch, VentureBeat\n\n#OpenRouter #GPT56 #AI #APIPricing #TechNews #MachineLearning #Developers #AIApplications #CostReduction #Innovation #TechTrends",
+    "person": "",
+    "company": "Siemens",
+    "caption": "U.S. agencies have issued a warning about attackers utilizing AI to develop exploits for industrial control systems, particularly targeting Siemens S7 programmable logic controllers. This shift drastically reduces the skill level and time required to launch attacks. \u26a0\ufe0f  \n\nHow can organizations better protect their industrial control systems?  \n\nSources: CISA, NSA, FBI, AI Safety Institute  \n\n#Cybersecurity #AI #IndustrialControlSystems #Siemens #CISA #NSA #FBI #CyberThreats #Technology #DataSecurity #Hackers #Exploits",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "OPENROUTER JUST CUT GPT-5.6 SOL PRICING BY 50%",
-        "hl": "50%",
-        "hls": [
-          "50%",
-          "CUT PRICING"
-        ],
-        "sub": "The new price drops to just $2.50 per request.",
-        "image_prompt": "A close-up of a hand holding a smartphone displaying an AI application, with a vibrant green background."
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "ATTACKERS ARE USING AI TO BUILD EXPLOITS FOR SIEMENS PLCs",
+        "hl": "EXPLOITS FOR SIEMENS PLCs",
+        "hls": [],
+        "sub": "Here's what you need to know",
+        "image_prompt": "A dramatic view of a modern industrial facility with programmable logic controllers (PLCs) visible, dim lighting emphasizing the seriousness of cybersecurity."
       },
       {
-        "pill": "WHAT HAPPENED 6a1",
-        "headline": "GPT-5.6 Sol now offers unmatched value for developers.",
-        "hl": "UNMATCHED VALUE",
-        "hls": [
-          "UNMATCHED",
-          "VALUE"
-        ],
-        "sub": "Previously priced at $5.00, the new cost boosts accessibility.",
-        "image_prompt": "A bustling office environment with multiple developers collaborating over laptops, showcasing energy and innovation."
+        "pill": "",
+        "headline": "AI IS CUTTING THE TIME NEEDED TO DEVELOP EXPLOIT SCRIPTS BY SIGNIFICANT MARGINS",
+        "hl": "SIGNIFICANT MARGINS",
+        "hls": [],
+        "sub": "This evolution reduces the expertise required for attacks.",
+        "image_prompt": "Close-up of a computer screen displaying code and algorithms, with a person working intently, showcasing the tech-savvy environment."
       },
       {
-        "pill": "WHY IT MATTERS 30d",
-        "headline": "This pricing is designed to stimulate AI development.",
-        "hl": "STIMULATE AI DEVELOPMENT",
-        "hls": [
-          "STIMULATE",
-          "DEVELOPMENT"
-        ],
-        "sub": "Lower costs encourage more experimentation and creativity.",
-        "image_prompt": "A creative workspace with colorful sticky notes and brainstorming tools, emphasizing innovation."
+        "pill": "",
+        "headline": "ENERGY, WATER, CHEMICAL, AND MANUFACTURING SECTORS ARE AT RISK",
+        "hl": "AT RISK",
+        "hls": [],
+        "sub": "These sectors are classified as actively threatened by these exploits.",
+        "image_prompt": "An industrial worker in a control room, surrounded by screens and monitors, looking concerned as they monitor systems."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "GPT-5.6 Sol offers high performance at a fraction of the cost.",
-        "hl": "FRACTION OF THE COST",
-        "hls": [
-          "FRACTION",
-          "COST"
-        ],
-        "sub": "Expect increased adoption and use cases across industries.",
-        "image_prompt": "A futuristic tech conference with attendees engaging with AI demos, showcasing excitement and interest."
+        "pill": "",
+        "headline": "EXPOSED PLCs ON THE INTERNET FACE HIGH RISK OF EXPLOITATION",
+        "hl": "HIGH RISK OF EXPLOITATION",
+        "hls": [],
+        "sub": "Threat actors can leverage public information to exploit vulnerabilities.",
+        "image_prompt": "An aerial view of an industrial complex with visible internet connections, highlighting vulnerabilities from above."
       },
       {
-        "pill": "THE IMPACT 4c8",
-        "headline": "Developers can now access powerful AI tools affordably.",
-        "hl": "POWERFUL AI TOOLS",
-        "hls": [
-          "POWERFUL",
-          "AFFORDABLY"
-        ],
-        "sub": "This move may lead to innovative solutions in various sectors.",
-        "image_prompt": "A diverse group of young professionals brainstorming over a digital tablet, filled with ideas and creativity."
+        "pill": "THE TAKEAWAY \ud83d\udd15",
+        "headline": "THIS REPRESENTS A NEW ERA IN CYBER THREATS TO INDUSTRIAL SYSTEMS",
+        "hl": "NEW ERA IN CYBER THREATS",
+        "hls": [],
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A collage of various industrial settings juxtaposed with digital threat imagery, symbolizing the merging of physical and digital threats."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "GPT-5.6 Sol Pricing Cut by 50% on OpenRouter",
-      "url": "https://openrouter.ai/openai/gpt-5.6-sol"
+      "title": "Attackers are using AI to build exploits for industrial control systems, U.S. agencies warn",
+      "url": "https://the-decoder.com/attackers-are-using-ai-to-build-exploits-for-industrial-control-systems-u-s-agencies-warn/"
     },
-    "date": "2026-08-19"
+    "date": "2026-08-20"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 633,
-  "resolved_at": "2026-08-19T06:31:52.667693Z"
+  "control_msg_id": 640
 }
