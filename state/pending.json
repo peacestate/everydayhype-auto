@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-21T03:54:06.626376Z",
   "deadline_min": 120,
   "caption": "OpenAI has developed a new safety system called 'Private Safety Processing' that protects enterprise customers without retaining their data. This system detects misuse patterns while ensuring zero data retention. OpenAI only receives minimal safety signals pertaining to activity types and severity, but never actual inputs or outputs. \n\nWhat do you think about this approach to data privacy? \n\nSources: The Decoder\n\n#OpenAI #AISafety #DataPrivacy #TechNews #Innovations #MachineLearning #ArtificialIntelligence #EnterpriseSolutions #ZeroDataRetention",
@@ -19,7 +19,7 @@
     "caption": "OpenAI has developed a new safety system called 'Private Safety Processing' that protects enterprise customers without retaining their data. This system detects misuse patterns while ensuring zero data retention. OpenAI only receives minimal safety signals pertaining to activity types and severity, but never actual inputs or outputs. \n\nWhat do you think about this approach to data privacy? \n\nSources: The Decoder\n\n#OpenAI #AISafety #DataPrivacy #TechNews #Innovations #MachineLearning #ArtificialIntelligence #EnterpriseSolutions #ZeroDataRetention",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "OPENAI JUST BUILT A SAFETY SYSTEM WITH ZERO DATA RETENTION",
         "hl": "ZERO DATA RETENTION",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A split-screen image showing two contrasting workspaces: one modern and open, another traditional and cluttered with paperwork."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "OPENAI OFFERS SAFETY WITHOUT COMPROMISING PRIVACY",
         "hl": "WITHOUT COMPROMISING PRIVACY",
         "hls": [
@@ -81,5 +81,6 @@
     "date": "2026-08-21"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 647
+  "control_msg_id": 647,
+  "resolved_at": "2026-08-21T03:54:45.895Z"
 }
