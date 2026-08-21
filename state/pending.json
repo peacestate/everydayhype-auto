@@ -1,71 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-20T03:52:38.317875Z",
+  "status": "pending",
+  "created_at": "2026-08-21T03:54:06.626376Z",
   "deadline_min": 120,
-  "caption": "U.S. agencies have issued a warning about attackers utilizing AI to develop exploits for industrial control systems, particularly targeting Siemens S7 programmable logic controllers. This shift drastically reduces the skill level and time required to launch attacks. \u26a0\ufe0f  \n\nHow can organizations better protect their industrial control systems?  \n\nSources: CISA, NSA, FBI, AI Safety Institute  \n\n#Cybersecurity #AI #IndustrialControlSystems #Siemens #CISA #NSA #FBI #CyberThreats #Technology #DataSecurity #Hackers #Exploits",
+  "caption": "OpenAI has developed a new safety system called 'Private Safety Processing' that protects enterprise customers without retaining their data. This system detects misuse patterns while ensuring zero data retention. OpenAI only receives minimal safety signals pertaining to activity types and severity, but never actual inputs or outputs. \n\nWhat do you think about this approach to data privacy? \n\nSources: The Decoder\n\n#OpenAI #AISafety #DataPrivacy #TechNews #Innovations #MachineLearning #ArtificialIntelligence #EnterpriseSolutions #ZeroDataRetention",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787197937/everydayhypehq/2026-08-20/035216_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787197938/everydayhypehq/2026-08-20/035216_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787197939/everydayhypehq/2026-08-20/035216_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787197940/everydayhypehq/2026-08-20/035216_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787197940/everydayhypehq/2026-08-20/035216_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787284439/everydayhypehq/2026-08-21/035358_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787284439/everydayhypehq/2026-08-21/035358_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787284440/everydayhypehq/2026-08-21/035358_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787284441/everydayhypehq/2026-08-21/035358_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787284441/everydayhypehq/2026-08-21/035358_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "double-exposure, silhouette blended with data",
-    "layout": "a",
+    "palette": "magenta",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "b",
     "person": "",
-    "company": "Siemens",
-    "caption": "U.S. agencies have issued a warning about attackers utilizing AI to develop exploits for industrial control systems, particularly targeting Siemens S7 programmable logic controllers. This shift drastically reduces the skill level and time required to launch attacks. \u26a0\ufe0f  \n\nHow can organizations better protect their industrial control systems?  \n\nSources: CISA, NSA, FBI, AI Safety Institute  \n\n#Cybersecurity #AI #IndustrialControlSystems #Siemens #CISA #NSA #FBI #CyberThreats #Technology #DataSecurity #Hackers #Exploits",
+    "company": "OpenAI",
+    "caption": "OpenAI has developed a new safety system called 'Private Safety Processing' that protects enterprise customers without retaining their data. This system detects misuse patterns while ensuring zero data retention. OpenAI only receives minimal safety signals pertaining to activity types and severity, but never actual inputs or outputs. \n\nWhat do you think about this approach to data privacy? \n\nSources: The Decoder\n\n#OpenAI #AISafety #DataPrivacy #TechNews #Innovations #MachineLearning #ArtificialIntelligence #EnterpriseSolutions #ZeroDataRetention",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "ATTACKERS ARE USING AI TO BUILD EXPLOITS FOR SIEMENS PLCs",
-        "hl": "EXPLOITS FOR SIEMENS PLCs",
-        "hls": [],
-        "sub": "Here's what you need to know",
-        "image_prompt": "A dramatic view of a modern industrial facility with programmable logic controllers (PLCs) visible, dim lighting emphasizing the seriousness of cybersecurity."
+        "headline": "OPENAI JUST BUILT A SAFETY SYSTEM WITH ZERO DATA RETENTION",
+        "hl": "ZERO DATA RETENTION",
+        "hls": [
+          "ZERO DATA",
+          "SAFETY SYSTEM"
+        ],
+        "sub": "Introducing 'Private Safety Processing' to catch misuse effectively.",
+        "image_prompt": "A sleek modern office environment with a team of diverse professionals discussing AI safety solutions around a large table."
       },
       {
         "pill": "",
-        "headline": "AI IS CUTTING THE TIME NEEDED TO DEVELOP EXPLOIT SCRIPTS BY SIGNIFICANT MARGINS",
-        "hl": "SIGNIFICANT MARGINS",
-        "hls": [],
-        "sub": "This evolution reduces the expertise required for attacks.",
-        "image_prompt": "Close-up of a computer screen displaying code and algorithms, with a person working intently, showcasing the tech-savvy environment."
+        "headline": "THIS SYSTEM DETECTS ABUSE PATTERNS IN REAL TIME",
+        "hl": "DETECTS ABUSE PATTERNS",
+        "hls": [
+          "ABUSE PATTERNS",
+          "REAL TIME"
+        ],
+        "sub": "It analyzes multiple interactions while ensuring data privacy.",
+        "image_prompt": "Close-up of a computer screen displaying visualizations of data flows and safety signals in a high-tech office."
       },
       {
         "pill": "",
-        "headline": "ENERGY, WATER, CHEMICAL, AND MANUFACTURING SECTORS ARE AT RISK",
-        "hl": "AT RISK",
-        "hls": [],
-        "sub": "These sectors are classified as actively threatened by these exploits.",
-        "image_prompt": "An industrial worker in a control room, surrounded by screens and monitors, looking concerned as they monitor systems."
+        "headline": "CUSTOMERS RETAIN COMPLETE CONTROL OF THEIR DATA",
+        "hl": "RETAIN COMPLETE CONTROL",
+        "hls": [
+          "CONTROL OF THEIR DATA",
+          "CUSTOMERS RETAIN"
+        ],
+        "sub": "All data remains on customer infrastructure, encrypted and secure.",
+        "image_prompt": "A person securely accessing data on a laptop, with a focus on cybersecurity elements in the background."
       },
       {
         "pill": "",
-        "headline": "EXPOSED PLCs ON THE INTERNET FACE HIGH RISK OF EXPLOITATION",
-        "hl": "HIGH RISK OF EXPLOITATION",
-        "hls": [],
-        "sub": "Threat actors can leverage public information to exploit vulnerabilities.",
-        "image_prompt": "An aerial view of an industrial complex with visible internet connections, highlighting vulnerabilities from above."
+        "headline": "COMPETITOR ANTHROPIC REQUIRES 30 DAYS OF DATA RETENTION",
+        "hl": "30 DAYS OF DATA RETENTION",
+        "hls": [
+          "30 DAYS",
+          "DATA RETENTION"
+        ],
+        "sub": "OpenAI's approach contrasts sharply with industry norms.",
+        "image_prompt": "A split-screen image showing two contrasting workspaces: one modern and open, another traditional and cluttered with paperwork."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd15",
-        "headline": "THIS REPRESENTS A NEW ERA IN CYBER THREATS TO INDUSTRIAL SYSTEMS",
-        "hl": "NEW ERA IN CYBER THREATS",
-        "hls": [],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A collage of various industrial settings juxtaposed with digital threat imagery, symbolizing the merging of physical and digital threats."
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "OPENAI OFFERS SAFETY WITHOUT COMPROMISING PRIVACY",
+        "hl": "WITHOUT COMPROMISING PRIVACY",
+        "hls": [
+          "SAFETY WITHOUT",
+          "COMPROMISING PRIVACY"
+        ],
+        "sub": "This could set a new standard in AI data handling. Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A futuristic view of a city skyline at dusk, symbolizing the future of technology and data privacy."
       }
     ],
     "story": {
-      "title": "Attackers are using AI to build exploits for industrial control systems, U.S. agencies warn",
-      "url": "https://the-decoder.com/attackers-are-using-ai-to-build-exploits-for-industrial-control-systems-u-s-agencies-warn/"
+      "title": "OpenAI builds safety system that catches misuse without storing customer data",
+      "url": "https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/"
     },
-    "date": "2026-08-20"
+    "date": "2026-08-21"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 640,
-  "resolved_at": "2026-08-20T06:32:04.824184Z"
+  "control_msg_id": 647
 }
