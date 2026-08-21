@@ -203,5 +203,9 @@
   {
     "date": "2026-08-20",
     "title": "Attackers are using AI to build exploits for industrial control systems, U.S. agencies warn"
+  },
+  {
+    "date": "2026-08-21",
+    "title": "OpenAI builds safety system that catches misuse without storing customer data"
   }
 ]

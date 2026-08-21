@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-08-21T03:54:06.626376Z",
   "deadline_min": 120,
   "caption": "OpenAI has developed a new safety system called 'Private Safety Processing' that protects enterprise customers without retaining their data. This system detects misuse patterns while ensuring zero data retention. OpenAI only receives minimal safety signals pertaining to activity types and severity, but never actual inputs or outputs. \n\nWhat do you think about this approach to data privacy? \n\nSources: The Decoder\n\n#OpenAI #AISafety #DataPrivacy #TechNews #Innovations #MachineLearning #ArtificialIntelligence #EnterpriseSolutions #ZeroDataRetention",
@@ -19,7 +19,7 @@
     "caption": "OpenAI has developed a new safety system called 'Private Safety Processing' that protects enterprise customers without retaining their data. This system detects misuse patterns while ensuring zero data retention. OpenAI only receives minimal safety signals pertaining to activity types and severity, but never actual inputs or outputs. \n\nWhat do you think about this approach to data privacy? \n\nSources: The Decoder\n\n#OpenAI #AISafety #DataPrivacy #TechNews #Innovations #MachineLearning #ArtificialIntelligence #EnterpriseSolutions #ZeroDataRetention",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
+        "pill": "BREAKING \ud83d\udd34",
         "headline": "OPENAI JUST BUILT A SAFETY SYSTEM WITH ZERO DATA RETENTION",
         "hl": "ZERO DATA RETENTION",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A split-screen image showing two contrasting workspaces: one modern and open, another traditional and cluttered with paperwork."
       },
       {
-        "pill": "THE TAKEAWAY 🔥",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
         "headline": "OPENAI OFFERS SAFETY WITHOUT COMPROMISING PRIVACY",
         "hl": "WITHOUT COMPROMISING PRIVACY",
         "hls": [
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 647,
-  "resolved_at": "2026-08-21T03:54:45.895Z"
+  "resolved_at": "2026-08-21T06:31:09.941799Z"
 }
