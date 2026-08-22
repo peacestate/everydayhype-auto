@@ -1,86 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-21T03:54:06.626376Z",
+  "status": "pending",
+  "created_at": "2026-08-22T03:51:37.597396Z",
   "deadline_min": 120,
-  "caption": "OpenAI has developed a new safety system called 'Private Safety Processing' that protects enterprise customers without retaining their data. This system detects misuse patterns while ensuring zero data retention. OpenAI only receives minimal safety signals pertaining to activity types and severity, but never actual inputs or outputs. \n\nWhat do you think about this approach to data privacy? \n\nSources: The Decoder\n\n#OpenAI #AISafety #DataPrivacy #TechNews #Innovations #MachineLearning #ArtificialIntelligence #EnterpriseSolutions #ZeroDataRetention",
+  "caption": "Anthropic is leveraging its model Claude Mythos 5 to enhance cyber defense capabilities. The Claude Security tool actively scans for vulnerabilities and suggests patches for enterprise customers. With this rollout, they aim to empower defenders in the cybersecurity landscape. \ud83d\udd12\ud83d\udcbb  \n\nWill AI tools like Claude Security become standard in cybersecurity?  \n\nSources: The Decoder, Anthropic",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787284439/everydayhypehq/2026-08-21/035358_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787284439/everydayhypehq/2026-08-21/035358_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787284440/everydayhypehq/2026-08-21/035358_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787284441/everydayhypehq/2026-08-21/035358_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787284441/everydayhypehq/2026-08-21/035358_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787370688/everydayhypehq/2026-08-22/035127_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787370689/everydayhypehq/2026-08-22/035127_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787370690/everydayhypehq/2026-08-22/035127_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787370691/everydayhypehq/2026-08-22/035127_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787370692/everydayhypehq/2026-08-22/035127_slide_5.png"
   ],
   "plan": {
-    "palette": "magenta",
-    "art_style": "sleek 3D render, octane, glossy materials",
-    "layout": "b",
+    "palette": "cyan",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "c",
     "person": "",
-    "company": "OpenAI",
-    "caption": "OpenAI has developed a new safety system called 'Private Safety Processing' that protects enterprise customers without retaining their data. This system detects misuse patterns while ensuring zero data retention. OpenAI only receives minimal safety signals pertaining to activity types and severity, but never actual inputs or outputs. \n\nWhat do you think about this approach to data privacy? \n\nSources: The Decoder\n\n#OpenAI #AISafety #DataPrivacy #TechNews #Innovations #MachineLearning #ArtificialIntelligence #EnterpriseSolutions #ZeroDataRetention",
+    "company": "Anthropic",
+    "caption": "Anthropic is leveraging its model Claude Mythos 5 to enhance cyber defense capabilities. The Claude Security tool actively scans for vulnerabilities and suggests patches for enterprise customers. With this rollout, they aim to empower defenders in the cybersecurity landscape. \ud83d\udd12\ud83d\udcbb  \n\nWill AI tools like Claude Security become standard in cybersecurity?  \n\nSources: The Decoder, Anthropic",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "OPENAI JUST BUILT A SAFETY SYSTEM WITH ZERO DATA RETENTION",
-        "hl": "ZERO DATA RETENTION",
-        "hls": [
-          "ZERO DATA",
-          "SAFETY SYSTEM"
-        ],
-        "sub": "Introducing 'Private Safety Processing' to catch misuse effectively.",
-        "image_prompt": "A sleek modern office environment with a team of diverse professionals discussing AI safety solutions around a large table."
+        "headline": "ANTHROPIC JUST DEPLOYED CLAUDE MYTHOS 5 FOR CYBER DEFENSE",
+        "hl": "CLAUDE MYTHOS 5",
+        "hls": [],
+        "sub": "Here's the latest on cyber security tools.",
+        "image_prompt": "A close-up of a person analyzing code on a laptop in a dimly lit room, with a focused expression."
       },
       {
-        "pill": "",
-        "headline": "THIS SYSTEM DETECTS ABUSE PATTERNS IN REAL TIME",
-        "hl": "DETECTS ABUSE PATTERNS",
-        "hls": [
-          "ABUSE PATTERNS",
-          "REAL TIME"
-        ],
-        "sub": "It analyzes multiple interactions while ensuring data privacy.",
-        "image_prompt": "Close-up of a computer screen displaying visualizations of data flows and safety signals in a high-tech office."
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "CLAUDE SECURITY SCANS CODEBASES AND SUGGESTS PATCHES EFFECTIVELY",
+        "hl": "SCANS CODEBASES AND SUGGESTS PATCHES",
+        "hls": [],
+        "sub": "The tool is now in public beta for Enterprise customers.",
+        "image_prompt": "A detailed view of a computer screen displaying lines of code, with a hand pointing at a highlighted section."
       },
       {
-        "pill": "",
-        "headline": "CUSTOMERS RETAIN COMPLETE CONTROL OF THEIR DATA",
-        "hl": "RETAIN COMPLETE CONTROL",
-        "hls": [
-          "CONTROL OF THEIR DATA",
-          "CUSTOMERS RETAIN"
-        ],
-        "sub": "All data remains on customer infrastructure, encrypted and secure.",
-        "image_prompt": "A person securely accessing data on a laptop, with a focus on cybersecurity elements in the background."
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "CLAUDE MYTHOS 5 IS ANTHROPIC'S MOST CAPABLE MODEL FOR SECURITY TASKS",
+        "hl": "MOST CAPABLE MODEL",
+        "hls": [],
+        "sub": "It's designed to enhance cyber defense without empowering attackers.",
+        "image_prompt": "A group of diverse cybersecurity professionals collaborating over a table filled with tech gadgets and monitors."
       },
       {
-        "pill": "",
-        "headline": "COMPETITOR ANTHROPIC REQUIRES 30 DAYS OF DATA RETENTION",
-        "hl": "30 DAYS OF DATA RETENTION",
-        "hls": [
-          "30 DAYS",
-          "DATA RETENTION"
-        ],
-        "sub": "OpenAI's approach contrasts sharply with industry norms.",
-        "image_prompt": "A split-screen image showing two contrasting workspaces: one modern and open, another traditional and cluttered with paperwork."
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "HOSPITALS, UTILITIES, AND BANKS ARE AMONG THE FIRST USERS",
+        "hl": "FIRST USERS",
+        "hls": [],
+        "sub": "These sectors are integrating the new security capabilities now.",
+        "image_prompt": "An urban scene showing a modern hospital building with digital security elements in the foreground."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "OPENAI OFFERS SAFETY WITHOUT COMPROMISING PRIVACY",
-        "hl": "WITHOUT COMPROMISING PRIVACY",
-        "hls": [
-          "SAFETY WITHOUT",
-          "COMPROMISING PRIVACY"
-        ],
-        "sub": "This could set a new standard in AI data handling. Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic view of a city skyline at dusk, symbolizing the future of technology and data privacy."
+        "headline": "THIS ROLLOUT COULD TRANSFORM CYBER DEFENSE STRATEGIES INDUSTRY-WIDE",
+        "hl": "TRANSFORM CYBER DEFENSE STRATEGIES",
+        "hls": [],
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A futuristic city skyline at dusk, with digital screens displaying cybersecurity alerts."
       }
     ],
     "story": {
-      "title": "OpenAI builds safety system that catches misuse without storing customer data",
-      "url": "https://the-decoder.com/openai-builds-safety-system-that-catches-misuse-without-storing-customer-data/"
+      "title": "Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense",
+      "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/"
     },
-    "date": "2026-08-21"
+    "date": "2026-08-22"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 647,
-  "resolved_at": "2026-08-21T06:31:09.941799Z"
+  "control_msg_id": 654
 }
