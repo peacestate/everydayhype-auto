@@ -1,70 +1,70 @@
 {
   "status": "pending",
-  "created_at": "2026-08-22T03:51:37.597396Z",
+  "created_at": "2026-08-23T03:51:48.145060Z",
   "deadline_min": 120,
-  "caption": "Anthropic is leveraging its model Claude Mythos 5 to enhance cyber defense capabilities. The Claude Security tool actively scans for vulnerabilities and suggests patches for enterprise customers. With this rollout, they aim to empower defenders in the cybersecurity landscape. \ud83d\udd12\ud83d\udcbb  \n\nWill AI tools like Claude Security become standard in cybersecurity?  \n\nSources: The Decoder, Anthropic",
+  "caption": "Waymo has developed a custom chip for its robotaxis, now delivering over 1,000 TOPS. This marks a significant shift as the company moves away from reliance on Nvidia and AMD chips. The new chip is already integrated into Waymo's latest vehicles. 6974a1\n\nHow will this impact autonomous vehicle production?\n\nSources: Bloomberg, The Decoder\n\n#Waymo #Robotaxi #AutonomousVehicles #AI #TechNews #Innovation #ChipDesign #Nvidia #AMD #TSMC #Transportation #SelfDrivingCars",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787370688/everydayhypehq/2026-08-22/035127_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787370689/everydayhypehq/2026-08-22/035127_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787370690/everydayhypehq/2026-08-22/035127_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787370691/everydayhypehq/2026-08-22/035127_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787370692/everydayhypehq/2026-08-22/035127_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787457099/everydayhypehq/2026-08-23/035138_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787457100/everydayhypehq/2026-08-23/035138_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787457100/everydayhypehq/2026-08-23/035138_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787457101/everydayhypehq/2026-08-23/035138_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787457102/everydayhypehq/2026-08-23/035138_slide_5.png"
   ],
   "plan": {
     "palette": "cyan",
     "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "c",
-    "person": "",
-    "company": "Anthropic",
-    "caption": "Anthropic is leveraging its model Claude Mythos 5 to enhance cyber defense capabilities. The Claude Security tool actively scans for vulnerabilities and suggests patches for enterprise customers. With this rollout, they aim to empower defenders in the cybersecurity landscape. \ud83d\udd12\ud83d\udcbb  \n\nWill AI tools like Claude Security become standard in cybersecurity?  \n\nSources: The Decoder, Anthropic",
+    "layout": "a",
+    "caption": "Waymo has developed a custom chip for its robotaxis, now delivering over 1,000 TOPS. This marks a significant shift as the company moves away from reliance on Nvidia and AMD chips. The new chip is already integrated into Waymo's latest vehicles. 6974a1\n\nHow will this impact autonomous vehicle production?\n\nSources: Bloomberg, The Decoder\n\n#Waymo #Robotaxi #AutonomousVehicles #AI #TechNews #Innovation #ChipDesign #Nvidia #AMD #TSMC #Transportation #SelfDrivingCars",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "ANTHROPIC JUST DEPLOYED CLAUDE MYTHOS 5 FOR CYBER DEFENSE",
-        "hl": "CLAUDE MYTHOS 5",
+        "pill": "BREAKING 534",
+        "headline": "WAYMO'S NEW CHIP PROCESSES DATA AT OVER 1,000 TOPS",
+        "hl": "OVER 1,000 TOPS",
         "hls": [],
-        "sub": "Here's the latest on cyber security tools.",
-        "image_prompt": "A close-up of a person analyzing code on a laptop in a dimly lit room, with a focused expression."
+        "sub": "Here's the major technological advancement.",
+        "image_prompt": "A close-up of a Waymo robotaxi in a city environment, showcasing its sleek design and sensors, with a focus on the vehicle's details and urban background."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "CLAUDE SECURITY SCANS CODEBASES AND SUGGESTS PATCHES EFFECTIVELY",
-        "hl": "SCANS CODEBASES AND SUGGESTS PATCHES",
+        "pill": "",
+        "headline": "THE CUSTOM CHIP IS MANUFACTURED ON A 5-NANOMETER PROCESS",
+        "hl": "5-NANOMETER PROCESS",
         "hls": [],
-        "sub": "The tool is now in public beta for Enterprise customers.",
-        "image_prompt": "A detailed view of a computer screen displaying lines of code, with a hand pointing at a highlighted section."
+        "sub": "This positions it alongside Nvidia's top systems.",
+        "image_prompt": "A detailed view of a semiconductor manufacturing facility, with engineers in lab coats inspecting chips under sterile conditions, machines working in the background."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "CLAUDE MYTHOS 5 IS ANTHROPIC'S MOST CAPABLE MODEL FOR SECURITY TASKS",
-        "hl": "MOST CAPABLE MODEL",
+        "pill": "",
+        "headline": "WAYMO IS BUILDING NEW ROBOTAXIS WITH ZEEKR",
+        "hl": "NEW ROBOTAXIS WITH ZEEKR",
         "hls": [],
-        "sub": "It's designed to enhance cyber defense without empowering attackers.",
-        "image_prompt": "A group of diverse cybersecurity professionals collaborating over a table filled with tech gadgets and monitors."
+        "sub": "This partnership aims to enhance production and innovation.",
+        "image_prompt": "An assembly line showing Waymo robotaxis being constructed, with workers collaborating and high-tech equipment in the background."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "HOSPITALS, UTILITIES, AND BANKS ARE AMONG THE FIRST USERS",
-        "hl": "FIRST USERS",
+        "pill": "",
+        "headline": "THIS MOVE CUTS RELIANCE ON NVIDIA AND AMD CHIPS",
+        "hl": "CUTS RELIANCE ON NVIDIA",
         "hls": [],
-        "sub": "These sectors are integrating the new security capabilities now.",
-        "image_prompt": "An urban scene showing a modern hospital building with digital security elements in the foreground."
+        "sub": "Waymo aims to reduce costs and increase efficiency.",
+        "image_prompt": "A futuristic image of a tech conference with industry leaders discussing AI and chip technologies, with a focus on innovation and collaboration."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "THIS ROLLOUT COULD TRANSFORM CYBER DEFENSE STRATEGIES INDUSTRY-WIDE",
-        "hl": "TRANSFORM CYBER DEFENSE STRATEGIES",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "WAYMO'S INNOVATION COULD CHANGE THE ROBOTAXI LANDSCAPE",
+        "hl": "CHANGE THE ROBOTAXI LANDSCAPE",
         "hls": [],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic city skyline at dusk, with digital screens displaying cybersecurity alerts."
+        "image_prompt": "A panoramic view of a futuristic city skyline, with autonomous vehicles operating seamlessly in the streets, showcasing a vision of modern transportation."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "Anthropic puts its most powerful model Claude Mythos 5 to work for cyber defense",
-      "url": "https://the-decoder.com/anthropic-puts-its-most-powerful-model-claude-mythos-5-to-work-for-cyber-defense/"
+      "title": "Waymo builds its own chip for its robotaxis, cutting its reliance on Nvidia",
+      "url": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/"
     },
-    "date": "2026-08-22"
+    "date": "2026-08-23"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 654
+  "control_msg_id": 660
 }
