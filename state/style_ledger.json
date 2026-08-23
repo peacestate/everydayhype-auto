@@ -661,5 +661,18 @@
       "A split-screen image showing two contras",
       "A futuristic view of a city skyline at d"
     ]
+  },
+  {
+    "date": "2026-08-23",
+    "palette": "cyan",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A close-up of a Waymo robotaxi in a city",
+      "A detailed view of a semiconductor manuf",
+      "An assembly line showing Waymo robotaxis",
+      "A futuristic image of a tech conference ",
+      "A panoramic view of a futuristic city sk"
+    ]
   }
 ]

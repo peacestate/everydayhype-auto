@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-08-23T03:51:48.145060Z",
   "deadline_min": 120,
   "caption": "Waymo has developed a custom chip for its robotaxis, now delivering over 1,000 TOPS. This marks a significant shift as the company moves away from reliance on Nvidia and AMD chips. The new chip is already integrated into Waymo's latest vehicles. 6974a1\n\nHow will this impact autonomous vehicle production?\n\nSources: Bloomberg, The Decoder\n\n#Waymo #Robotaxi #AutonomousVehicles #AI #TechNews #Innovation #ChipDesign #Nvidia #AMD #TSMC #Transportation #SelfDrivingCars",
@@ -67,5 +67,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 660,
-  "resolved_at": "2026-08-23T03:53:28.876Z"
+  "resolved_at": "2026-08-23T06:31:11.998749Z"
 }
