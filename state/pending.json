@@ -1,71 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-23T03:51:48.145060Z",
+  "status": "pending",
+  "created_at": "2026-08-24T03:51:04.272295Z",
   "deadline_min": 120,
-  "caption": "Waymo has developed a custom chip for its robotaxis, now delivering over 1,000 TOPS. This marks a significant shift as the company moves away from reliance on Nvidia and AMD chips. The new chip is already integrated into Waymo's latest vehicles. 6974a1\n\nHow will this impact autonomous vehicle production?\n\nSources: Bloomberg, The Decoder\n\n#Waymo #Robotaxi #AutonomousVehicles #AI #TechNews #Innovation #ChipDesign #Nvidia #AMD #TSMC #Transportation #SelfDrivingCars",
+  "caption": "Inherent, a London-based AI lab founded by Google DeepMind alumni, announced that its AI agent, Faraday, has outperformed models from Anthropic and OpenAI. Faraday can independently replicate scientific findings, challenging the capabilities of larger models while using significantly fewer parameters.\n\nCould this shift the landscape for AI research?\n\nSources: TechCrunch\n\n#AI #DeepMind #Inherent #Faraday #Research #Anthropic #OpenAI #Innovation #Science #Technology #AIResearch #TechNews",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787457099/everydayhypehq/2026-08-23/035138_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787457100/everydayhypehq/2026-08-23/035138_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787457100/everydayhypehq/2026-08-23/035138_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787457101/everydayhypehq/2026-08-23/035138_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787457102/everydayhypehq/2026-08-23/035138_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787543457/everydayhypehq/2026-08-24/035057_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787543458/everydayhypehq/2026-08-24/035057_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787543458/everydayhypehq/2026-08-24/035057_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787543459/everydayhypehq/2026-08-24/035057_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787543459/everydayhypehq/2026-08-24/035057_slide_5.png"
   ],
   "plan": {
-    "palette": "cyan",
+    "palette": "red",
     "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "caption": "Waymo has developed a custom chip for its robotaxis, now delivering over 1,000 TOPS. This marks a significant shift as the company moves away from reliance on Nvidia and AMD chips. The new chip is already integrated into Waymo's latest vehicles. 6974a1\n\nHow will this impact autonomous vehicle production?\n\nSources: Bloomberg, The Decoder\n\n#Waymo #Robotaxi #AutonomousVehicles #AI #TechNews #Innovation #ChipDesign #Nvidia #AMD #TSMC #Transportation #SelfDrivingCars",
+    "layout": "b",
+    "person": "Edward Hughes",
+    "company": "Inherent",
+    "caption": "Inherent, a London-based AI lab founded by Google DeepMind alumni, announced that its AI agent, Faraday, has outperformed models from Anthropic and OpenAI. Faraday can independently replicate scientific findings, challenging the capabilities of larger models while using significantly fewer parameters.\n\nCould this shift the landscape for AI research?\n\nSources: TechCrunch\n\n#AI #DeepMind #Inherent #Faraday #Research #Anthropic #OpenAI #Innovation #Science #Technology #AIResearch #TechNews",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "WAYMO'S NEW CHIP PROCESSES DATA AT OVER 1,000 TOPS",
-        "hl": "OVER 1,000 TOPS",
-        "hls": [],
-        "sub": "Here's the major technological advancement.",
-        "image_prompt": "A close-up of a Waymo robotaxi in a city environment, showcasing its sleek design and sensors, with a focus on the vehicle's details and urban background."
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "INHERENT\u2019S AI JUST OUTPERFORMED ANTHROPIC AND OPENAI IN RESEARCH REPLICATION",
+        "hl": "OUTPERFORMED ANTHROPIC AND OPENAI",
+        "hls": [
+          "OUTPERFORMED",
+          "RESEARCH REPLICATION"
+        ],
+        "sub": "Here's the impressive achievement.",
+        "image_prompt": "A group of diverse scientists collaborating in a modern laboratory, focused on research and analysis, with advanced computing equipment in the background."
       },
       {
-        "pill": "",
-        "headline": "THE CUSTOM CHIP IS MANUFACTURED ON A 5-NANOMETER PROCESS",
-        "hl": "5-NANOMETER PROCESS",
-        "hls": [],
-        "sub": "This positions it alongside Nvidia's top systems.",
-        "image_prompt": "A detailed view of a semiconductor manufacturing facility, with engineers in lab coats inspecting chips under sterile conditions, machines working in the background."
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "FARADAY, RUNNING ON JUST 27 BILLION PARAMETERS, OUTSHINED LARGER MODELS",
+        "hl": "27 BILLION PARAMETERS",
+        "hls": [
+          "FARADAY",
+          "LARGER MODELS"
+        ],
+        "sub": "It runs on a tiny model compared to its competitors.",
+        "image_prompt": "A close-up of a computer screen displaying complex code and data visualizations, with a focused researcher analyzing the results."
       },
       {
-        "pill": "",
-        "headline": "WAYMO IS BUILDING NEW ROBOTAXIS WITH ZEEKR",
-        "hl": "NEW ROBOTAXIS WITH ZEEKR",
-        "hls": [],
-        "sub": "This partnership aims to enhance production and innovation.",
-        "image_prompt": "An assembly line showing Waymo robotaxis being constructed, with workers collaborating and high-tech equipment in the background."
+        "pill": "WHY IT MATTERS \ud83d\uddfa\ufe0f",
+        "headline": "INHERENT AIMS TO TEACH AI \u2018RESEARCH TASTE\u2019 BEYOND JUST ACCURACY",
+        "hl": "RESEARCH TASTE",
+        "hls": [
+          "RESEARCH TASTE",
+          "BEYOND ACCURACY"
+        ],
+        "sub": "They focus on what experiments are worth running.",
+        "image_prompt": "An abstract representation of innovative ideas, with visual elements suggesting creativity and intelligence, such as light bulbs and gears."
       },
       {
-        "pill": "",
-        "headline": "THIS MOVE CUTS RELIANCE ON NVIDIA AND AMD CHIPS",
-        "hl": "CUTS RELIANCE ON NVIDIA",
-        "hls": [],
-        "sub": "Waymo aims to reduce costs and increase efficiency.",
-        "image_prompt": "A futuristic image of a tech conference with industry leaders discussing AI and chip technologies, with a focus on innovation and collaboration."
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "INHERENT RAISED $50 MILLION TO FURTHER DEVELOP ITS AI TECHNOLOGIES",
+        "hl": "RAISED $50 MILLION",
+        "hls": [
+          "$50 MILLION",
+          "AI TECHNOLOGIES"
+        ],
+        "sub": "This funding supports their ambitious research goals.",
+        "image_prompt": "A dynamic shot of a team meeting in a modern office, discussing strategy and innovation, with a whiteboard filled with ideas."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "WAYMO'S INNOVATION COULD CHANGE THE ROBOTAXI LANDSCAPE",
-        "hl": "CHANGE THE ROBOTAXI LANDSCAPE",
-        "hls": [],
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "INHERENT\u2019S SUCCESS COULD CHANGE THE AI RESEARCH LANDSCAPE FOREVER",
+        "hl": "CHANGE THE AI RESEARCH LANDSCAPE",
+        "hls": [
+          "SUCCESS",
+          "AI RESEARCH LANDSCAPE"
+        ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A panoramic view of a futuristic city skyline, with autonomous vehicles operating seamlessly in the streets, showcasing a vision of modern transportation."
+        "image_prompt": "A futuristic view of a city skyline at sunset, symbolizing innovation and progress, with silhouettes of people exploring technology."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Waymo builds its own chip for its robotaxis, cutting its reliance on Nvidia",
-      "url": "https://the-decoder.com/waymo-builds-its-own-chip-for-its-robotaxis-cutting-its-reliance-on-nvidia/"
+      "title": "Inherent, founded by DeepMind alumni, says its AI \u2018teammate\u2019 just outperformed Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
     },
-    "date": "2026-08-23"
+    "date": "2026-08-24"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 660,
-  "resolved_at": "2026-08-23T06:31:11.998749Z"
+  "control_msg_id": 667
 }
