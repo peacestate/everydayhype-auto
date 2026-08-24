@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-08-24T03:51:04.272295Z",
   "deadline_min": 120,
   "caption": "Inherent, a London-based AI lab founded by Google DeepMind alumni, announced that its AI agent, Faraday, has outperformed models from Anthropic and OpenAI. Faraday can independently replicate scientific findings, challenging the capabilities of larger models while using significantly fewer parameters.\n\nCould this shift the landscape for AI research?\n\nSources: TechCrunch\n\n#AI #DeepMind #Inherent #Faraday #Research #Anthropic #OpenAI #Innovation #Science #Technology #AIResearch #TechNews",
@@ -19,8 +19,8 @@
     "caption": "Inherent, a London-based AI lab founded by Google DeepMind alumni, announced that its AI agent, Faraday, has outperformed models from Anthropic and OpenAI. Faraday can independently replicate scientific findings, challenging the capabilities of larger models while using significantly fewer parameters.\n\nCould this shift the landscape for AI research?\n\nSources: TechCrunch\n\n#AI #DeepMind #Inherent #Faraday #Research #Anthropic #OpenAI #Innovation #Science #Technology #AIResearch #TechNews",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
-        "headline": "INHERENT’S AI JUST OUTPERFORMED ANTHROPIC AND OPENAI IN RESEARCH REPLICATION",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "INHERENT\u2019S AI JUST OUTPERFORMED ANTHROPIC AND OPENAI IN RESEARCH REPLICATION",
         "hl": "OUTPERFORMED ANTHROPIC AND OPENAI",
         "hls": [
           "OUTPERFORMED",
@@ -30,7 +30,7 @@
         "image_prompt": "A group of diverse scientists collaborating in a modern laboratory, focused on research and analysis, with advanced computing equipment in the background."
       },
       {
-        "pill": "WHAT HAPPENED ⚡",
+        "pill": "WHAT HAPPENED \u26a1",
         "headline": "FARADAY, RUNNING ON JUST 27 BILLION PARAMETERS, OUTSHINED LARGER MODELS",
         "hl": "27 BILLION PARAMETERS",
         "hls": [
@@ -41,8 +41,8 @@
         "image_prompt": "A close-up of a computer screen displaying complex code and data visualizations, with a focused researcher analyzing the results."
       },
       {
-        "pill": "WHY IT MATTERS 🗺️",
-        "headline": "INHERENT AIMS TO TEACH AI ‘RESEARCH TASTE’ BEYOND JUST ACCURACY",
+        "pill": "WHY IT MATTERS \ud83d\uddfa\ufe0f",
+        "headline": "INHERENT AIMS TO TEACH AI \u2018RESEARCH TASTE\u2019 BEYOND JUST ACCURACY",
         "hl": "RESEARCH TASTE",
         "hls": [
           "RESEARCH TASTE",
@@ -52,7 +52,7 @@
         "image_prompt": "An abstract representation of innovative ideas, with visual elements suggesting creativity and intelligence, such as light bulbs and gears."
       },
       {
-        "pill": "THE IMPACT 🔐",
+        "pill": "THE IMPACT \ud83d\udd10",
         "headline": "INHERENT RAISED $50 MILLION TO FURTHER DEVELOP ITS AI TECHNOLOGIES",
         "hl": "RAISED $50 MILLION",
         "hls": [
@@ -63,8 +63,8 @@
         "image_prompt": "A dynamic shot of a team meeting in a modern office, discussing strategy and innovation, with a whiteboard filled with ideas."
       },
       {
-        "pill": "THE TAKEAWAY 🔥",
-        "headline": "INHERENT’S SUCCESS COULD CHANGE THE AI RESEARCH LANDSCAPE FOREVER",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "INHERENT\u2019S SUCCESS COULD CHANGE THE AI RESEARCH LANDSCAPE FOREVER",
         "hl": "CHANGE THE AI RESEARCH LANDSCAPE",
         "hls": [
           "SUCCESS",
@@ -75,12 +75,12 @@
       }
     ],
     "story": {
-      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "title": "Inherent, founded by DeepMind alumni, says its AI \u2018teammate\u2019 just outperformed Anthropic and OpenAI at replicating research",
       "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
     },
     "date": "2026-08-24"
   },
   "chat_id": 8692339206,
   "control_msg_id": 667,
-  "resolved_at": "2026-08-24T19:42:29.703Z"
+  "resolved_at": "2026-08-24T19:51:00.076097Z"
 }
