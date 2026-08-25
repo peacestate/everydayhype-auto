@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-25T03:51:24.698063Z",
   "deadline_min": 120,
-  "caption": "Cerebras has launched the CS-4 AI accelerator, claiming it to be the fastest in the industry. This new system runs on the same 5nm chip as its predecessor but doubles the performance through enhanced clock speed and cooling. \ud83d\ude80\ud83d\udca1\n\nWill this innovation reshape data center efficiency?\n\nSources: The Decoder, SemiAnalysis\n\n#Cerebras #AI #TechInnovation #DataCenters #Performance #CS4 #AndrewFeldman #AIAccelerator #Nvidia #MachineLearning #TechTrends",
+  "caption": "Cerebras has launched the CS-4 AI accelerator, claiming it to be the fastest in the industry. This new system runs on the same 5nm chip as its predecessor but doubles the performance through enhanced clock speed and cooling. 🚀💡\n\nWill this innovation reshape data center efficiency?\n\nSources: The Decoder, SemiAnalysis\n\n#Cerebras #AI #TechInnovation #DataCenters #Performance #CS4 #AndrewFeldman #AIAccelerator #Nvidia #MachineLearning #TechTrends",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787629876/everydayhypehq/2026-08-25/035116_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787629877/everydayhypehq/2026-08-25/035116_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "c",
     "person": "Andrew Feldman",
     "company": "Cerebras",
-    "caption": "Cerebras has launched the CS-4 AI accelerator, claiming it to be the fastest in the industry. This new system runs on the same 5nm chip as its predecessor but doubles the performance through enhanced clock speed and cooling. \ud83d\ude80\ud83d\udca1\n\nWill this innovation reshape data center efficiency?\n\nSources: The Decoder, SemiAnalysis\n\n#Cerebras #AI #TechInnovation #DataCenters #Performance #CS4 #AndrewFeldman #AIAccelerator #Nvidia #MachineLearning #TechTrends",
+    "caption": "Cerebras has launched the CS-4 AI accelerator, claiming it to be the fastest in the industry. This new system runs on the same 5nm chip as its predecessor but doubles the performance through enhanced clock speed and cooling. 🚀💡\n\nWill this innovation reshape data center efficiency?\n\nSources: The Decoder, SemiAnalysis\n\n#Cerebras #AI #TechInnovation #DataCenters #Performance #CS4 #AndrewFeldman #AIAccelerator #Nvidia #MachineLearning #TechTrends",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "CEREBRAS JUST UNVEILED THE CS-4 WITH DOUBLE THE PERFORMANCE",
         "hl": "DOUBLE THE PERFORMANCE",
         "hls": [],
@@ -51,7 +51,7 @@
         "image_prompt": "A technician assembling the Cerebras CS-4 using the modular 'Backpack' design, surrounded by tools and components in a bright workshop."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "CEREBRAS'S CS-4 RAISES THE BAR FOR AI ACCELERATORS IN DATA CENTERS",
         "hl": "RAISES THE BAR",
         "hls": [],
@@ -66,5 +66,6 @@
     "date": "2026-08-25"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 674
+  "control_msg_id": 674,
+  "resolved_at": "2026-08-25T19:29:19.765Z"
 }
