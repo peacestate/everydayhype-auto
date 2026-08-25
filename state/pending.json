@@ -1,86 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-24T03:51:04.272295Z",
+  "status": "pending",
+  "created_at": "2026-08-25T03:51:24.698063Z",
   "deadline_min": 120,
-  "caption": "Inherent, a London-based AI lab founded by Google DeepMind alumni, announced that its AI agent, Faraday, has outperformed models from Anthropic and OpenAI. Faraday can independently replicate scientific findings, challenging the capabilities of larger models while using significantly fewer parameters.\n\nCould this shift the landscape for AI research?\n\nSources: TechCrunch\n\n#AI #DeepMind #Inherent #Faraday #Research #Anthropic #OpenAI #Innovation #Science #Technology #AIResearch #TechNews",
+  "caption": "Cerebras has launched the CS-4 AI accelerator, claiming it to be the fastest in the industry. This new system runs on the same 5nm chip as its predecessor but doubles the performance through enhanced clock speed and cooling. \ud83d\ude80\ud83d\udca1\n\nWill this innovation reshape data center efficiency?\n\nSources: The Decoder, SemiAnalysis\n\n#Cerebras #AI #TechInnovation #DataCenters #Performance #CS4 #AndrewFeldman #AIAccelerator #Nvidia #MachineLearning #TechTrends",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787543457/everydayhypehq/2026-08-24/035057_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787543458/everydayhypehq/2026-08-24/035057_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787543458/everydayhypehq/2026-08-24/035057_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787543459/everydayhypehq/2026-08-24/035057_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787543459/everydayhypehq/2026-08-24/035057_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787629876/everydayhypehq/2026-08-25/035116_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787629877/everydayhypehq/2026-08-25/035116_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787629877/everydayhypehq/2026-08-25/035116_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787629878/everydayhypehq/2026-08-25/035116_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787629879/everydayhypehq/2026-08-25/035116_slide_5.png"
   ],
   "plan": {
-    "palette": "red",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "person": "Edward Hughes",
-    "company": "Inherent",
-    "caption": "Inherent, a London-based AI lab founded by Google DeepMind alumni, announced that its AI agent, Faraday, has outperformed models from Anthropic and OpenAI. Faraday can independently replicate scientific findings, challenging the capabilities of larger models while using significantly fewer parameters.\n\nCould this shift the landscape for AI research?\n\nSources: TechCrunch\n\n#AI #DeepMind #Inherent #Faraday #Research #Anthropic #OpenAI #Innovation #Science #Technology #AIResearch #TechNews",
+    "palette": "amber",
+    "art_style": "dramatic macro close-up, shallow depth",
+    "layout": "c",
+    "person": "Andrew Feldman",
+    "company": "Cerebras",
+    "caption": "Cerebras has launched the CS-4 AI accelerator, claiming it to be the fastest in the industry. This new system runs on the same 5nm chip as its predecessor but doubles the performance through enhanced clock speed and cooling. \ud83d\ude80\ud83d\udca1\n\nWill this innovation reshape data center efficiency?\n\nSources: The Decoder, SemiAnalysis\n\n#Cerebras #AI #TechInnovation #DataCenters #Performance #CS4 #AndrewFeldman #AIAccelerator #Nvidia #MachineLearning #TechTrends",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "INHERENT\u2019S AI JUST OUTPERFORMED ANTHROPIC AND OPENAI IN RESEARCH REPLICATION",
-        "hl": "OUTPERFORMED ANTHROPIC AND OPENAI",
-        "hls": [
-          "OUTPERFORMED",
-          "RESEARCH REPLICATION"
-        ],
-        "sub": "Here's the impressive achievement.",
-        "image_prompt": "A group of diverse scientists collaborating in a modern laboratory, focused on research and analysis, with advanced computing equipment in the background."
+        "headline": "CEREBRAS JUST UNVEILED THE CS-4 WITH DOUBLE THE PERFORMANCE",
+        "hl": "DOUBLE THE PERFORMANCE",
+        "hls": [],
+        "sub": "Here's what you need to know.",
+        "image_prompt": "A close-up of the Cerebras CS-4 AI accelerator in a data center, showcasing its sleek design and impressive hardware, with engineers working on it in the background."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "FARADAY, RUNNING ON JUST 27 BILLION PARAMETERS, OUTSHINED LARGER MODELS",
-        "hl": "27 BILLION PARAMETERS",
-        "hls": [
-          "FARADAY",
-          "LARGER MODELS"
-        ],
-        "sub": "It runs on a tiny model compared to its competitors.",
-        "image_prompt": "A close-up of a computer screen displaying complex code and data visualizations, with a focused researcher analyzing the results."
+        "pill": "",
+        "headline": "THE CS-4 DOUBLES PERFORMANCE BY BOOSTING CLOCK SPEED AND COOLING",
+        "hl": "BOOSTING CLOCK SPEED",
+        "hls": [],
+        "sub": "It runs on the same 5nm chip as the CS-3.",
+        "image_prompt": "An engineer adjusting the cooling system of the Cerebras CS-4 in a high-tech data center, with glowing lights and high-end equipment around."
       },
       {
-        "pill": "WHY IT MATTERS \ud83d\uddfa\ufe0f",
-        "headline": "INHERENT AIMS TO TEACH AI \u2018RESEARCH TASTE\u2019 BEYOND JUST ACCURACY",
-        "hl": "RESEARCH TASTE",
-        "hls": [
-          "RESEARCH TASTE",
-          "BEYOND ACCURACY"
-        ],
-        "sub": "They focus on what experiments are worth running.",
-        "image_prompt": "An abstract representation of innovative ideas, with visual elements suggesting creativity and intelligence, such as light bulbs and gears."
+        "pill": "",
+        "headline": "NEW RACK CAN HOLD THREE WAFERS, DELIVERING 4,400 TOKENS PER SECOND",
+        "hl": "4,400 TOKENS PER SECOND",
+        "hls": [],
+        "sub": "That's up to 30 times faster than Nvidia GPU setups.",
+        "image_prompt": "A dynamic shot of multiple Cerebras CS-4 units installed in a server rack, highlighting the modular design and advanced cooling features."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "INHERENT RAISED $50 MILLION TO FURTHER DEVELOP ITS AI TECHNOLOGIES",
-        "hl": "RAISED $50 MILLION",
-        "hls": [
-          "$50 MILLION",
-          "AI TECHNOLOGIES"
-        ],
-        "sub": "This funding supports their ambitious research goals.",
-        "image_prompt": "A dynamic shot of a team meeting in a modern office, discussing strategy and innovation, with a whiteboard filled with ideas."
+        "pill": "",
+        "headline": "CEREBRAS PARTNERS WITH AMD AND AWS FOR DISAGGREGATED INFERENCE",
+        "hl": "DISAGGREGATED INFERENCE",
+        "hls": [],
+        "sub": "Their new 'Backpack' design speeds up assembly.",
+        "image_prompt": "A technician assembling the Cerebras CS-4 using the modular 'Backpack' design, surrounded by tools and components in a bright workshop."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "INHERENT\u2019S SUCCESS COULD CHANGE THE AI RESEARCH LANDSCAPE FOREVER",
-        "hl": "CHANGE THE AI RESEARCH LANDSCAPE",
-        "hls": [
-          "SUCCESS",
-          "AI RESEARCH LANDSCAPE"
-        ],
+        "headline": "CEREBRAS'S CS-4 RAISES THE BAR FOR AI ACCELERATORS IN DATA CENTERS",
+        "hl": "RAISES THE BAR",
+        "hls": [],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic view of a city skyline at sunset, symbolizing innovation and progress, with silhouettes of people exploring technology."
+        "image_prompt": "A wide shot of a bustling data center filled with Cerebras CS-4 units, highlighting the scale and advanced technology in action."
       }
     ],
     "story": {
-      "title": "Inherent, founded by DeepMind alumni, says its AI \u2018teammate\u2019 just outperformed Anthropic and OpenAI at replicating research",
-      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
+      "title": "Cerebras unveils CS-4 with double the performance on the same chip",
+      "url": "https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip/"
     },
-    "date": "2026-08-24"
+    "date": "2026-08-25"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 667,
-  "resolved_at": "2026-08-24T19:51:00.076097Z"
+  "control_msg_id": 674
 }
