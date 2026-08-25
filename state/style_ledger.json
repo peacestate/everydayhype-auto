@@ -687,5 +687,18 @@
       "A dynamic shot of a team meeting in a mo",
       "A futuristic view of a city skyline at s"
     ]
+  },
+  {
+    "date": "2026-08-25",
+    "palette": "amber",
+    "art_style": "dramatic macro close-up, shallow depth",
+    "layout": "c",
+    "motifs": [
+      "A close-up of the Cerebras CS-4 AI accel",
+      "An engineer adjusting the cooling system",
+      "A dynamic shot of multiple Cerebras CS-4",
+      "A technician assembling the Cerebras CS-",
+      "A wide shot of a bustling data center fi"
+    ]
   }
 ]
