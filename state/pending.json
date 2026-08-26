@@ -1,8 +1,8 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-08-26T03:51:17.615416Z",
   "deadline_min": 120,
-  "caption": "OpenAI has revealed its custom chip, Jalapeño, which surpasses Nvidia's top models in key performance metrics. At the Hot Chips conference, benchmarks showed Jalapeño delivers 1.5x to 1.9x more AI work per watt compared to Nvidia's Blackwell and Rubin. This chip is designed specifically for inference, indicating a significant step forward for AI hardware. 💡\n\nIs this the end of Nvidia's dominance in AI chips?\n\nSources: The Decoder, SemiAnalysis\n#OpenAI #Jalapeño #Nvidia #AI #ChipTechnology #Inference #TechNews #Innovation #Hardware",
+  "caption": "OpenAI has revealed its custom chip, Jalape\u00f1o, which surpasses Nvidia's top models in key performance metrics. At the Hot Chips conference, benchmarks showed Jalape\u00f1o delivers 1.5x to 1.9x more AI work per watt compared to Nvidia's Blackwell and Rubin. This chip is designed specifically for inference, indicating a significant step forward for AI hardware. \ud83d\udca1\n\nIs this the end of Nvidia's dominance in AI chips?\n\nSources: The Decoder, SemiAnalysis\n#OpenAI #Jalape\u00f1o #Nvidia #AI #ChipTechnology #Inference #TechNews #Innovation #Hardware",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787716267/everydayhypehq/2026-08-26/035106_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787716268/everydayhypehq/2026-08-26/035106_slide_2.png",
@@ -16,22 +16,22 @@
     "layout": "c",
     "person": "",
     "company": "OpenAI",
-    "caption": "OpenAI has revealed its custom chip, Jalapeño, which surpasses Nvidia's top models in key performance metrics. At the Hot Chips conference, benchmarks showed Jalapeño delivers 1.5x to 1.9x more AI work per watt compared to Nvidia's Blackwell and Rubin. This chip is designed specifically for inference, indicating a significant step forward for AI hardware. 💡\n\nIs this the end of Nvidia's dominance in AI chips?\n\nSources: The Decoder, SemiAnalysis\n#OpenAI #Jalapeño #Nvidia #AI #ChipTechnology #Inference #TechNews #Innovation #Hardware",
+    "caption": "OpenAI has revealed its custom chip, Jalape\u00f1o, which surpasses Nvidia's top models in key performance metrics. At the Hot Chips conference, benchmarks showed Jalape\u00f1o delivers 1.5x to 1.9x more AI work per watt compared to Nvidia's Blackwell and Rubin. This chip is designed specifically for inference, indicating a significant step forward for AI hardware. \ud83d\udca1\n\nIs this the end of Nvidia's dominance in AI chips?\n\nSources: The Decoder, SemiAnalysis\n#OpenAI #Jalape\u00f1o #Nvidia #AI #ChipTechnology #Inference #TechNews #Innovation #Hardware",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
-        "headline": "OPENAI'S JALAPEÑO CHIP BEATS NVIDIA'S BLACKWELL IN INFERENCE BENCHMARKS",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "OPENAI'S JALAPE\u00d1O CHIP BEATS NVIDIA'S BLACKWELL IN INFERENCE BENCHMARKS",
         "hl": "BEATS NVIDIA'S BLACKWELL",
         "hls": [
           "BEATS",
           "BLACKWELL"
         ],
-        "sub": "Here's what you need to know about Jalapeño's performance.",
+        "sub": "Here's what you need to know about Jalape\u00f1o's performance.",
         "image_prompt": "A high-tech conference scene with people discussing AI hardware, showcasing glowing displays and futuristic designs."
       },
       {
         "pill": "",
-        "headline": "JALAPEÑO DELIVERS 1.5X TO 1.9X MORE WORK PER WATT THAN BLACKWELL",
+        "headline": "JALAPE\u00d1O DELIVERS 1.5X TO 1.9X MORE WORK PER WATT THAN BLACKWELL",
         "hl": "1.5X TO 1.9X MORE WORK",
         "hls": [
           "1.5X",
@@ -53,7 +53,7 @@
       },
       {
         "pill": "",
-        "headline": "JALAPEÑO HITS 1,400 TOKENS PER SECOND WITH GPT-OSS MODEL",
+        "headline": "JALAPE\u00d1O HITS 1,400 TOKENS PER SECOND WITH GPT-OSS MODEL",
         "hl": "1,400 TOKENS PER SECOND",
         "hls": [
           "1,400",
@@ -63,8 +63,8 @@
         "image_prompt": "A display screen showing token processing speeds with a busy tech team analyzing data."
       },
       {
-        "pill": "WHY IT MATTERS 🌍",
-        "headline": "JALAPEÑO COULD SHIFT THE AI CHIP LANDSCAPE SIGNIFICANTLY",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "JALAPE\u00d1O COULD SHIFT THE AI CHIP LANDSCAPE SIGNIFICANTLY",
         "hl": "SHIFT THE AI CHIP LANDSCAPE",
         "hls": [
           "SHIFT",
@@ -75,12 +75,12 @@
       }
     ],
     "story": {
-      "title": "OpenAI's first custom chip \"Jalapeño\" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks",
+      "title": "OpenAI's first custom chip \"Jalape\u00f1o\" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks",
       "url": "https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/"
     },
     "date": "2026-08-26"
   },
   "chat_id": 8692339206,
   "control_msg_id": 681,
-  "resolved_at": "2026-08-26T04:58:12.417Z"
+  "resolved_at": "2026-08-26T06:31:07.645144Z"
 }
