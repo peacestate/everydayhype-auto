@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-08-27T03:51:10.174418Z",
   "deadline_min": 120,
   "caption": "Z.ai has confirmed the release of its new GLM-series model, Ox Alpha, which aims to compete with established players like DeepSeek. Scheduled for weight release, this model marks a significant advancement in the AI landscape, further showcasing China's growing prowess in artificial intelligence development. 9164a1\n\nWhat are your thoughts on this new model?\n\nSources: Bloomberg\n\n#ZAI #AI #DeepLearning #MachineLearning #Innovation #TechNews #ArtificialIntelligence #GLMModel #OxAlpha",
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 688,
-  "resolved_at": "2026-08-27T04:52:40.811Z"
+  "resolved_at": "2026-08-27T06:31:07.323515Z"
 }
