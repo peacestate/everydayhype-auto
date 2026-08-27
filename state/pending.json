@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-26T03:51:17.615416Z",
+  "status": "pending",
+  "created_at": "2026-08-27T03:51:10.174418Z",
   "deadline_min": 120,
-  "caption": "OpenAI has revealed its custom chip, Jalape\u00f1o, which surpasses Nvidia's top models in key performance metrics. At the Hot Chips conference, benchmarks showed Jalape\u00f1o delivers 1.5x to 1.9x more AI work per watt compared to Nvidia's Blackwell and Rubin. This chip is designed specifically for inference, indicating a significant step forward for AI hardware. \ud83d\udca1\n\nIs this the end of Nvidia's dominance in AI chips?\n\nSources: The Decoder, SemiAnalysis\n#OpenAI #Jalape\u00f1o #Nvidia #AI #ChipTechnology #Inference #TechNews #Innovation #Hardware",
+  "caption": "Z.ai has confirmed the release of its new GLM-series model, Ox Alpha, which aims to compete with established players like DeepSeek. Scheduled for weight release, this model marks a significant advancement in the AI landscape, further showcasing China's growing prowess in artificial intelligence development. 9164a1\n\nWhat are your thoughts on this new model?\n\nSources: Bloomberg\n\n#ZAI #AI #DeepLearning #MachineLearning #Innovation #TechNews #ArtificialIntelligence #GLMModel #OxAlpha",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787716267/everydayhypehq/2026-08-26/035106_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787716268/everydayhypehq/2026-08-26/035106_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787716269/everydayhypehq/2026-08-26/035106_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787716269/everydayhypehq/2026-08-26/035106_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787716270/everydayhypehq/2026-08-26/035106_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787802663/everydayhypehq/2026-08-27/035102_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787802663/everydayhypehq/2026-08-27/035102_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787802664/everydayhypehq/2026-08-27/035102_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787802665/everydayhypehq/2026-08-27/035102_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787802665/everydayhypehq/2026-08-27/035102_slide_5.png"
   ],
   "plan": {
-    "palette": "purple",
-    "art_style": "neon glow synthwave, bloom, dark background",
-    "layout": "c",
-    "person": "",
-    "company": "OpenAI",
-    "caption": "OpenAI has revealed its custom chip, Jalape\u00f1o, which surpasses Nvidia's top models in key performance metrics. At the Hot Chips conference, benchmarks showed Jalape\u00f1o delivers 1.5x to 1.9x more AI work per watt compared to Nvidia's Blackwell and Rubin. This chip is designed specifically for inference, indicating a significant step forward for AI hardware. \ud83d\udca1\n\nIs this the end of Nvidia's dominance in AI chips?\n\nSources: The Decoder, SemiAnalysis\n#OpenAI #Jalape\u00f1o #Nvidia #AI #ChipTechnology #Inference #TechNews #Innovation #Hardware",
+    "palette": "green",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "caption": "Z.ai has confirmed the release of its new GLM-series model, Ox Alpha, which aims to compete with established players like DeepSeek. Scheduled for weight release, this model marks a significant advancement in the AI landscape, further showcasing China's growing prowess in artificial intelligence development. 9164a1\n\nWhat are your thoughts on this new model?\n\nSources: Bloomberg\n\n#ZAI #AI #DeepLearning #MachineLearning #Innovation #TechNews #ArtificialIntelligence #GLMModel #OxAlpha",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "OPENAI'S JALAPE\u00d1O CHIP BEATS NVIDIA'S BLACKWELL IN INFERENCE BENCHMARKS",
-        "hl": "BEATS NVIDIA'S BLACKWELL",
+        "pill": "BREAKING 534",
+        "headline": "Z.AI CONFIRMS OX ALPHA RIVALS DEEPSEEK IN AI MARKET",
+        "hl": "OX ALPHA RIVALS DEEPSEEK",
         "hls": [
-          "BEATS",
-          "BLACKWELL"
+          "OX ALPHA",
+          "RIVALS DEEPSEEK"
         ],
-        "sub": "Here's what you need to know about Jalape\u00f1o's performance.",
-        "image_prompt": "A high-tech conference scene with people discussing AI hardware, showcasing glowing displays and futuristic designs."
+        "sub": "This new model from Z.ai is set to make waves.",
+        "image_prompt": "A high-tech laboratory setting with researchers working on AI models, showcasing advanced computing hardware and a collaborative atmosphere."
       },
       {
         "pill": "",
-        "headline": "JALAPE\u00d1O DELIVERS 1.5X TO 1.9X MORE WORK PER WATT THAN BLACKWELL",
-        "hl": "1.5X TO 1.9X MORE WORK",
+        "headline": "OX ALPHA IS PART OF Z.AI'S NEW GLM-SERIES LINEUP",
+        "hl": "NEW GLM-SERIES LINEUP",
         "hls": [
-          "1.5X",
-          "1.9X"
+          "OX ALPHA",
+          "GLM-SERIES"
         ],
-        "sub": "This represents a significant efficiency gain in AI inference.",
-        "image_prompt": "Close-up of a custom chip with intricate circuits illuminated in neon lights."
+        "sub": "The GLM-series aims to enhance AI capabilities significantly.",
+        "image_prompt": "Close-up of a researcher analyzing AI data on a screen, with notes and high-tech devices in the background."
       },
       {
         "pill": "",
-        "headline": "IT ACHIEVES 2.1X TO 4.1X HIGHER PERFORMANCE FOR INTERACTIVE WORKLOADS",
-        "hl": "2.1X TO 4.1X HIGHER PERFORMANCE",
+        "headline": "RELEASE DATE FOR OX ALPHA WEIGHTS SET FOR LATER THIS YEAR",
+        "hl": "RELEASE DATE SET",
         "hls": [
-          "2.1X",
-          "4.1X"
+          "OX ALPHA",
+          "WEIGHTS SET"
         ],
-        "sub": "This performance is crucial for real-time AI applications.",
-        "image_prompt": "An engineer testing the custom chip in a lab environment, with high-tech equipment surrounding them."
+        "sub": "Anticipation builds as developers await the launch.",
+        "image_prompt": "A countdown timer in a tech environment, with excitement palpable among engineers and developers preparing for a product launch."
       },
       {
         "pill": "",
-        "headline": "JALAPE\u00d1O HITS 1,400 TOKENS PER SECOND WITH GPT-OSS MODEL",
-        "hl": "1,400 TOKENS PER SECOND",
+        "headline": "Z.AI CONTINUES TO PUSH BOUNDARIES IN AI TECHNOLOGY",
+        "hl": "PUSH BOUNDARIES",
         "hls": [
-          "1,400",
-          "TOKENS"
+          "PUSH BOUNDARIES",
+          "AI TECHNOLOGY"
         ],
-        "sub": "This speed showcases its capability in handling large language models.",
-        "image_prompt": "A display screen showing token processing speeds with a busy tech team analyzing data."
+        "sub": "The company's innovations are advancing AI development.",
+        "image_prompt": "An inspiring view of a modern city skyline, symbolizing technological advancement and innovation in AI."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "JALAPE\u00d1O COULD SHIFT THE AI CHIP LANDSCAPE SIGNIFICANTLY",
-        "hl": "SHIFT THE AI CHIP LANDSCAPE",
+        "pill": "",
+        "headline": "AND IT'S POSITIONING ITSELF AS A KEY PLAYER IN THE MARKET",
+        "hl": "KEY PLAYER IN THE MARKET",
         "hls": [
-          "SHIFT",
-          "AI CHIP"
+          "KEY PLAYER",
+          "MARKET"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "An abstract representation of AI technology, with colorful light trails symbolizing data flow and innovation."
+        "sub": "This model will enhance competition among AI developers.",
+        "image_prompt": "A competitive tech conference scene with various AI companies showcasing their innovations, highlighting a vibrant atmosphere of competition."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "OpenAI's first custom chip \"Jalape\u00f1o\" reportedly beats Nvidia's Blackwell and Rubin in inference benchmarks",
-      "url": "https://the-decoder.com/openais-first-custom-chip-jalapeno-reportedly-beats-nvidias-blackwell-and-rubin-in-inference-benchmarks/"
+      "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek"
     },
-    "date": "2026-08-26"
+    "date": "2026-08-27"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 681,
-  "resolved_at": "2026-08-26T06:31:07.645144Z"
+  "control_msg_id": 688
 }
