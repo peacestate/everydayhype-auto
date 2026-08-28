@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-27T03:51:10.174418Z",
+  "status": "pending",
+  "created_at": "2026-08-28T03:52:25.694591Z",
   "deadline_min": 120,
-  "caption": "Z.ai has confirmed the release of its new GLM-series model, Ox Alpha, which aims to compete with established players like DeepSeek. Scheduled for weight release, this model marks a significant advancement in the AI landscape, further showcasing China's growing prowess in artificial intelligence development. 9164a1\n\nWhat are your thoughts on this new model?\n\nSources: Bloomberg\n\n#ZAI #AI #DeepLearning #MachineLearning #Innovation #TechNews #ArtificialIntelligence #GLMModel #OxAlpha",
+  "caption": "Google DeepMind has unveiled Gemini Omni 1.1 Flash, introducing advanced creative controls for generative video production. With capabilities like scene extension and keyframe specification, this tool is designed for professional developers looking to enhance video workflows. \n\nAre you excited about video creation?\n\nSources: Google Blog, TechCrunch\n#Google #DeepMind #GeminiOmni #AI #VideoProduction #GenerativeAI #Technology #Innovation #Developers #VideoEditing",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787802663/everydayhypehq/2026-08-27/035102_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787802663/everydayhypehq/2026-08-27/035102_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787802664/everydayhypehq/2026-08-27/035102_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787802665/everydayhypehq/2026-08-27/035102_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787802665/everydayhypehq/2026-08-27/035102_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787889137/everydayhypehq/2026-08-28/035216_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787889138/everydayhypehq/2026-08-28/035216_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787889139/everydayhypehq/2026-08-28/035216_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787889139/everydayhypehq/2026-08-28/035216_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787889140/everydayhypehq/2026-08-28/035216_slide_5.png"
   ],
   "plan": {
-    "palette": "green",
+    "palette": "blue",
     "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "a",
-    "caption": "Z.ai has confirmed the release of its new GLM-series model, Ox Alpha, which aims to compete with established players like DeepSeek. Scheduled for weight release, this model marks a significant advancement in the AI landscape, further showcasing China's growing prowess in artificial intelligence development. 9164a1\n\nWhat are your thoughts on this new model?\n\nSources: Bloomberg\n\n#ZAI #AI #DeepLearning #MachineLearning #Innovation #TechNews #ArtificialIntelligence #GLMModel #OxAlpha",
+    "caption": "Google DeepMind has unveiled Gemini Omni 1.1 Flash, introducing advanced creative controls for generative video production. With capabilities like scene extension and keyframe specification, this tool is designed for professional developers looking to enhance video workflows. \n\nAre you excited about video creation?\n\nSources: Google Blog, TechCrunch\n#Google #DeepMind #GeminiOmni #AI #VideoProduction #GenerativeAI #Technology #Innovation #Developers #VideoEditing",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "Z.AI CONFIRMS OX ALPHA RIVALS DEEPSEEK IN AI MARKET",
-        "hl": "OX ALPHA RIVALS DEEPSEEK",
+        "pill": "BREAKING",
+        "headline": "GEMINI OMNI 1.1 FLASH NOW ENABLES 40 SECONDS OF VIDEO EXTENSION",
+        "hl": "40 SECONDS OF VIDEO EXTENSION",
         "hls": [
-          "OX ALPHA",
-          "RIVALS DEEPSEEK"
+          "40 SECONDS",
+          "VIDEO EXTENSION"
         ],
-        "sub": "This new model from Z.ai is set to make waves.",
-        "image_prompt": "A high-tech laboratory setting with researchers working on AI models, showcasing advanced computing hardware and a collaborative atmosphere."
+        "sub": "This update allows longer storytelling with better visual consistency.",
+        "image_prompt": "A person interacting with a high-tech video editing interface, focused and engaged."
       },
       {
         "pill": "",
-        "headline": "OX ALPHA IS PART OF Z.AI'S NEW GLM-SERIES LINEUP",
-        "hl": "NEW GLM-SERIES LINEUP",
+        "headline": "DEVELOPERS CAN ANALYZE UP TO 10 SECONDS OF CONTEXT WITH OMNI 1.1",
+        "hl": "10 SECONDS OF CONTEXT",
         "hls": [
-          "OX ALPHA",
-          "GLM-SERIES"
+          "10 SECONDS",
+          "OMNI 1.1"
         ],
-        "sub": "The GLM-series aims to enhance AI capabilities significantly.",
-        "image_prompt": "Close-up of a researcher analyzing AI data on a screen, with notes and high-tech devices in the background."
+        "sub": "Improved narrative adherence supports complex video creation.",
+        "image_prompt": "A close-up of a digital screen showing a video editing timeline with multiple clips."
       },
       {
         "pill": "",
-        "headline": "RELEASE DATE FOR OX ALPHA WEIGHTS SET FOR LATER THIS YEAR",
-        "hl": "RELEASE DATE SET",
+        "headline": "OMNI 1.1 GENERATES SMOOTH TRANSITIONS BETWEEN KEYFRAMES",
+        "hl": "SMOOTH TRANSITIONS",
         "hls": [
-          "OX ALPHA",
-          "WEIGHTS SET"
+          "SMOOTH",
+          "TRANSITIONS"
         ],
-        "sub": "Anticipation builds as developers await the launch.",
-        "image_prompt": "A countdown timer in a tech environment, with excitement palpable among engineers and developers preparing for a product launch."
+        "sub": "Specify start and end frames for continuous video generation.",
+        "image_prompt": "A dynamic camera angle focusing on a vibrant stage performance with smooth action."
       },
       {
         "pill": "",
-        "headline": "Z.AI CONTINUES TO PUSH BOUNDARIES IN AI TECHNOLOGY",
-        "hl": "PUSH BOUNDARIES",
+        "headline": "FASTER PROTOTYPING ENABLED FOR MEDIA EDITING SOFTWARE",
+        "hl": "FASTER PROTOTYPING",
         "hls": [
-          "PUSH BOUNDARIES",
-          "AI TECHNOLOGY"
+          "FASTER",
+          "PROTOTYPING"
         ],
-        "sub": "The company's innovations are advancing AI development.",
-        "image_prompt": "An inspiring view of a modern city skyline, symbolizing technological advancement and innovation in AI."
+        "sub": "Generative video capabilities are now production-ready for developers.",
+        "image_prompt": "A team of developers brainstorming around a table with laptops open, collaborative atmosphere."
       },
       {
-        "pill": "",
-        "headline": "AND IT'S POSITIONING ITSELF AS A KEY PLAYER IN THE MARKET",
-        "hl": "KEY PLAYER IN THE MARKET",
+        "pill": "THE TAKEAWAY",
+        "headline": "GEMINI OMNI 1.1 FLASH OFFERS CONTROL FOR PROFESSIONAL VIDEO WORKFLOWS",
+        "hl": "CONTROL FOR PROFESSIONAL VIDEO WORKFLOWS",
         "hls": [
-          "KEY PLAYER",
-          "MARKET"
+          "CONTROL",
+          "PROFESSIONAL"
         ],
-        "sub": "This model will enhance competition among AI developers.",
-        "image_prompt": "A competitive tech conference scene with various AI companies showcasing their innovations, highlighting a vibrant atmosphere of competition."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A professional video production set with cameras and lighting equipment, bustling with activity."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek"
+      "title": "Gemini Omni 1.1 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
     },
-    "date": "2026-08-27"
+    "date": "2026-08-28"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 688,
-  "resolved_at": "2026-08-27T06:31:07.323515Z"
+  "control_msg_id": 695
 }
