@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-28T03:52:25.694591Z",
   "deadline_min": 120,
   "caption": "Google DeepMind has unveiled Gemini Omni 1.1 Flash, introducing advanced creative controls for generative video production. With capabilities like scene extension and keyframe specification, this tool is designed for professional developers looking to enhance video workflows. \n\nAre you excited about video creation?\n\nSources: Google Blog, TechCrunch\n#Google #DeepMind #GeminiOmni #AI #VideoProduction #GenerativeAI #Technology #Innovation #Developers #VideoEditing",
@@ -81,5 +81,6 @@
     "date": "2026-08-28"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 695
+  "control_msg_id": 695,
+  "resolved_at": "2026-08-28T04:18:23.608Z"
 }
