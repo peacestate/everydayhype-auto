@@ -1,86 +1,80 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-28T03:52:25.694591Z",
+  "status": "pending",
+  "created_at": "2026-08-29T03:51:19.371398Z",
   "deadline_min": 120,
-  "caption": "Google DeepMind has unveiled Gemini Omni 1.1 Flash, introducing advanced creative controls for generative video production. With capabilities like scene extension and keyframe specification, this tool is designed for professional developers looking to enhance video workflows. \n\nAre you excited about video creation?\n\nSources: Google Blog, TechCrunch\n#Google #DeepMind #GeminiOmni #AI #VideoProduction #GenerativeAI #Technology #Innovation #Developers #VideoEditing",
+  "caption": "The newly released GLM-5.3 model boasts significant improvements over its predecessor. With a 50% boost in coding capabilities, it sets a new standard in open-weight models. \ud83c\udf1f\ud83d\udcbb \n\nHow will this impact the coding community?",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787889137/everydayhypehq/2026-08-28/035216_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787889138/everydayhypehq/2026-08-28/035216_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787889139/everydayhypehq/2026-08-28/035216_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787889139/everydayhypehq/2026-08-28/035216_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787889140/everydayhypehq/2026-08-28/035216_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975471/everydayhypehq/2026-08-29/035111_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975471/everydayhypehq/2026-08-29/035111_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975472/everydayhypehq/2026-08-29/035111_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975473/everydayhypehq/2026-08-29/035111_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975473/everydayhypehq/2026-08-29/035111_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "palette": "magenta",
+    "art_style": "sleek 3D render, octane, glossy materials",
     "layout": "a",
-    "caption": "Google DeepMind has unveiled Gemini Omni 1.1 Flash, introducing advanced creative controls for generative video production. With capabilities like scene extension and keyframe specification, this tool is designed for professional developers looking to enhance video workflows. \n\nAre you excited about video creation?\n\nSources: Google Blog, TechCrunch\n#Google #DeepMind #GeminiOmni #AI #VideoProduction #GenerativeAI #Technology #Innovation #Developers #VideoEditing",
+    "person": "",
+    "company": "zai-org",
+    "caption": "The newly released GLM-5.3 model boasts significant improvements over its predecessor. With a 50% boost in coding capabilities, it sets a new standard in open-weight models. \ud83c\udf1f\ud83d\udcbb \n\nHow will this impact the coding community?",
     "slides": [
       {
-        "pill": "BREAKING",
-        "headline": "GEMINI OMNI 1.1 FLASH NOW ENABLES 40 SECONDS OF VIDEO EXTENSION",
-        "hl": "40 SECONDS OF VIDEO EXTENSION",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "GLM-5.3 DELIVERS A 50% BOOST IN CODING CAPABILITIES",
+        "hl": "50% BOOST",
         "hls": [
-          "40 SECONDS",
-          "VIDEO EXTENSION"
+          "50% BOOST"
         ],
-        "sub": "This update allows longer storytelling with better visual consistency.",
-        "image_prompt": "A person interacting with a high-tech video editing interface, focused and engaged."
+        "sub": "This model outperforms GLM-5.2 in complex coding tasks.",
+        "image_prompt": "A close-up shot of a programmer working intently on a laptop in a modern office setting."
       },
       {
-        "pill": "",
-        "headline": "DEVELOPERS CAN ANALYZE UP TO 10 SECONDS OF CONTEXT WITH OMNI 1.1",
-        "hl": "10 SECONDS OF CONTEXT",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "GLM-5.3 ACHIEVES STATE-OF-THE-ART PERFORMANCE ON TERMINAL BENCHMARKS",
+        "hl": "STATE-OF-THE-ART PERFORMANCE",
         "hls": [
-          "10 SECONDS",
-          "OMNI 1.1"
+          "STATE-OF-THE-ART"
         ],
-        "sub": "Improved narrative adherence supports complex video creation.",
-        "image_prompt": "A close-up of a digital screen showing a video editing timeline with multiple clips."
+        "sub": "It sets new records on public benchmarks including Terminal Bench 3.0.",
+        "image_prompt": "A digital display showing coding benchmarks, with a focus on performance metrics and a tech-savvy environment."
       },
       {
-        "pill": "",
-        "headline": "OMNI 1.1 GENERATES SMOOTH TRANSITIONS BETWEEN KEYFRAMES",
-        "hl": "SMOOTH TRANSITIONS",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "EMERGENT CYBER CAPABILITIES MAKE GLM-5.3 A POWERHOUSE",
+        "hl": "EMERGENT CYBER CAPABILITIES",
         "hls": [
-          "SMOOTH",
-          "TRANSITIONS"
+          "EMERGENT CYBER"
         ],
-        "sub": "Specify start and end frames for continuous video generation.",
-        "image_prompt": "A dynamic camera angle focusing on a vibrant stage performance with smooth action."
+        "sub": "It significantly improves vulnerability discovery on CyberGym.",
+        "image_prompt": "A cybersecurity expert analyzing data on multiple screens in a dimly lit room."
       },
       {
-        "pill": "",
-        "headline": "FASTER PROTOTYPING ENABLED FOR MEDIA EDITING SOFTWARE",
-        "hl": "FASTER PROTOTYPING",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "GLM-5.3 DOUBLES PERFORMANCE ON EXPLOITATION BENCHMARKS",
+        "hl": "DOUBLES PERFORMANCE",
         "hls": [
-          "FASTER",
-          "PROTOTYPING"
+          "DOUBLES PERFORMANCE"
         ],
-        "sub": "Generative video capabilities are now production-ready for developers.",
-        "image_prompt": "A team of developers brainstorming around a table with laptops open, collaborative atmosphere."
+        "sub": "This advancement could reshape strategies in cybersecurity.",
+        "image_prompt": "A close-up of hands typing rapidly on a keyboard, conveying urgency and focus on cybersecurity."
       },
       {
-        "pill": "THE TAKEAWAY",
-        "headline": "GEMINI OMNI 1.1 FLASH OFFERS CONTROL FOR PROFESSIONAL VIDEO WORKFLOWS",
-        "hl": "CONTROL FOR PROFESSIONAL VIDEO WORKFLOWS",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "GLM-5.3 SETS A NEW STANDARD FOR OPEN-WEIGHT MODELS",
+        "hl": "NEW STANDARD",
         "hls": [
-          "CONTROL",
-          "PROFESSIONAL"
+          "NEW STANDARD"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A professional video production set with cameras and lighting equipment, bustling with activity."
+        "sub": "Its capabilities impact both coding and cybersecurity fields.",
+        "image_prompt": "A futuristic tech workspace featuring glowing devices and screens, symbolizing innovation and progress."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Gemini Omni 1.1 Flash",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
+      "title": "GLM-5.3 is now open-weight",
+      "url": "https://huggingface.co/zai-org/GLM-5.3"
     },
-    "date": "2026-08-28"
+    "date": "2026-08-29"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 695,
-  "resolved_at": "2026-08-28T06:31:05.450899Z"
+  "control_msg_id": 702
 }
