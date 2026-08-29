@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-29T03:51:19.371398Z",
   "deadline_min": 120,
-  "caption": "The newly released GLM-5.3 model boasts significant improvements over its predecessor. With a 50% boost in coding capabilities, it sets a new standard in open-weight models. \ud83c\udf1f\ud83d\udcbb \n\nHow will this impact the coding community?",
+  "caption": "The newly released GLM-5.3 model boasts significant improvements over its predecessor. With a 50% boost in coding capabilities, it sets a new standard in open-weight models. 🌟💻 \n\nHow will this impact the coding community?",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975471/everydayhypehq/2026-08-29/035111_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975471/everydayhypehq/2026-08-29/035111_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "a",
     "person": "",
     "company": "zai-org",
-    "caption": "The newly released GLM-5.3 model boasts significant improvements over its predecessor. With a 50% boost in coding capabilities, it sets a new standard in open-weight models. \ud83c\udf1f\ud83d\udcbb \n\nHow will this impact the coding community?",
+    "caption": "The newly released GLM-5.3 model boasts significant improvements over its predecessor. With a 50% boost in coding capabilities, it sets a new standard in open-weight models. 🌟💻 \n\nHow will this impact the coding community?",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "GLM-5.3 DELIVERS A 50% BOOST IN CODING CAPABILITIES",
         "hl": "50% BOOST",
         "hls": [
@@ -29,7 +29,7 @@
         "image_prompt": "A close-up shot of a programmer working intently on a laptop in a modern office setting."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "GLM-5.3 ACHIEVES STATE-OF-THE-ART PERFORMANCE ON TERMINAL BENCHMARKS",
         "hl": "STATE-OF-THE-ART PERFORMANCE",
         "hls": [
@@ -39,7 +39,7 @@
         "image_prompt": "A digital display showing coding benchmarks, with a focus on performance metrics and a tech-savvy environment."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "EMERGENT CYBER CAPABILITIES MAKE GLM-5.3 A POWERHOUSE",
         "hl": "EMERGENT CYBER CAPABILITIES",
         "hls": [
@@ -49,7 +49,7 @@
         "image_prompt": "A cybersecurity expert analyzing data on multiple screens in a dimly lit room."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "GLM-5.3 DOUBLES PERFORMANCE ON EXPLOITATION BENCHMARKS",
         "hl": "DOUBLES PERFORMANCE",
         "hls": [
@@ -59,7 +59,7 @@
         "image_prompt": "A close-up of hands typing rapidly on a keyboard, conveying urgency and focus on cybersecurity."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "GLM-5.3 SETS A NEW STANDARD FOR OPEN-WEIGHT MODELS",
         "hl": "NEW STANDARD",
         "hls": [
@@ -76,5 +76,6 @@
     "date": "2026-08-29"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 702
+  "control_msg_id": 702,
+  "resolved_at": "2026-08-29T06:48:28.286Z"
 }
