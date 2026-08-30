@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-08-30T03:51:51.546125Z",
   "deadline_min": 120,
   "caption": "Google Deepmind's Co-Scientist is now transforming lab research workflows. This AI system not only generates hypotheses but also plans experiments, operates lab equipment, and writes scientific papers. With validated results across three disciplines, Co-Scientist showcases its capabilities in automated research. 9164e6\n\nWill AI replace traditional researchers? \n\nSources: The Decoder\n\n#GoogleDeepmind #AI #Research #Automation #Science #Innovation #Technology #DeepLearning #Gemini #CoScientist #LabResearch #ScientificPapers",
@@ -77,5 +77,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 709,
-  "resolved_at": "2026-08-30T05:57:03.784Z"
+  "resolved_at": "2026-08-30T06:31:36.534528Z"
 }
