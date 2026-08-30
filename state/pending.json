@@ -1,81 +1,80 @@
 {
-  "status": "posted",
-  "created_at": "2026-08-29T03:51:19.371398Z",
+  "status": "pending",
+  "created_at": "2026-08-30T03:51:51.546125Z",
   "deadline_min": 120,
-  "caption": "The newly released GLM-5.3 model boasts significant improvements over its predecessor. With a 50% boost in coding capabilities, it sets a new standard in open-weight models. \ud83c\udf1f\ud83d\udcbb \n\nHow will this impact the coding community?",
+  "caption": "Google Deepmind's Co-Scientist is now transforming lab research workflows. This AI system not only generates hypotheses but also plans experiments, operates lab equipment, and writes scientific papers. With validated results across three disciplines, Co-Scientist showcases its capabilities in automated research. 9164e6\n\nWill AI replace traditional researchers? \n\nSources: The Decoder\n\n#GoogleDeepmind #AI #Research #Automation #Science #Innovation #Technology #DeepLearning #Gemini #CoScientist #LabResearch #ScientificPapers",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975471/everydayhypehq/2026-08-29/035111_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975471/everydayhypehq/2026-08-29/035111_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975472/everydayhypehq/2026-08-29/035111_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975473/everydayhypehq/2026-08-29/035111_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1787975473/everydayhypehq/2026-08-29/035111_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788061902/everydayhypehq/2026-08-30/035142_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788061903/everydayhypehq/2026-08-30/035142_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788061903/everydayhypehq/2026-08-30/035142_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788061904/everydayhypehq/2026-08-30/035142_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788061905/everydayhypehq/2026-08-30/035142_slide_5.png"
   ],
   "plan": {
-    "palette": "magenta",
-    "art_style": "sleek 3D render, octane, glossy materials",
+    "palette": "cyan",
+    "art_style": "isometric miniature diorama, tilt-shift",
     "layout": "a",
-    "person": "",
-    "company": "zai-org",
-    "caption": "The newly released GLM-5.3 model boasts significant improvements over its predecessor. With a 50% boost in coding capabilities, it sets a new standard in open-weight models. \ud83c\udf1f\ud83d\udcbb \n\nHow will this impact the coding community?",
+    "caption": "Google Deepmind's Co-Scientist is now transforming lab research workflows. This AI system not only generates hypotheses but also plans experiments, operates lab equipment, and writes scientific papers. With validated results across three disciplines, Co-Scientist showcases its capabilities in automated research. 9164e6\n\nWill AI replace traditional researchers? \n\nSources: The Decoder\n\n#GoogleDeepmind #AI #Research #Automation #Science #Innovation #Technology #DeepLearning #Gemini #CoScientist #LabResearch #ScientificPapers",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "GLM-5.3 DELIVERS A 50% BOOST IN CODING CAPABILITIES",
-        "hl": "50% BOOST",
+        "pill": "BREAKING 534",
+        "headline": "GOOGLE DEEPMIND'S CO-SCIENTIST NOW PLANS EXPERIMENTS AND WRITES PAPERS",
+        "hl": "NOW PLANS EXPERIMENTS",
         "hls": [
-          "50% BOOST"
+          "WRITES PAPERS"
         ],
-        "sub": "This model outperforms GLM-5.2 in complex coding tasks.",
-        "image_prompt": "A close-up shot of a programmer working intently on a laptop in a modern office setting."
+        "sub": "Here's what you need to know about this AI advancement.",
+        "image_prompt": "A detailed view of a modern laboratory with advanced lab equipment, showcasing a scientist interacting with automated machinery, in a vibrant and dynamic working environment."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "GLM-5.3 ACHIEVES STATE-OF-THE-ART PERFORMANCE ON TERMINAL BENCHMARKS",
-        "hl": "STATE-OF-THE-ART PERFORMANCE",
+        "pill": "WHAT HAPPENED 26a1",
+        "headline": "CO-SCIENTIST HAS VALIDATED RESULTS IN THREE DISCIPLINES SINCE 2025",
+        "hl": "VALIDATED RESULTS",
         "hls": [
-          "STATE-OF-THE-ART"
+          "THREE DISCIPLINES"
         ],
-        "sub": "It sets new records on public benchmarks including Terminal Bench 3.0.",
-        "image_prompt": "A digital display showing coding benchmarks, with a focus on performance metrics and a tech-savvy environment."
+        "sub": "It operates effectively in materials science, biology, and computer science.",
+        "image_prompt": "A close-up image of a researcher analyzing data on a screen, with lab equipment in the background, creating a sense of collaboration and innovation."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "EMERGENT CYBER CAPABILITIES MAKE GLM-5.3 A POWERHOUSE",
-        "hl": "EMERGENT CYBER CAPABILITIES",
+        "pill": "WHY IT MATTERS 1f0d",
+        "headline": "AI NOW CONTROLS LAB EQUIPMENT, CUTTING EXPERIMENT TIME FROM DAYS TO MINUTES",
+        "hl": "CUTTING EXPERIMENT TIME",
         "hls": [
-          "EMERGENT CYBER"
+          "FROM DAYS TO MINUTES"
         ],
-        "sub": "It significantly improves vulnerability discovery on CyberGym.",
-        "image_prompt": "A cybersecurity expert analyzing data on multiple screens in a dimly lit room."
+        "sub": "This efficiency allows researchers to focus on more complex problems.",
+        "image_prompt": "An overhead shot of a busy lab with multiple workstations, focusing on a computer screen displaying experimental data and automated processes."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "GLM-5.3 DOUBLES PERFORMANCE ON EXPLOITATION BENCHMARKS",
-        "hl": "DOUBLES PERFORMANCE",
+        "pill": "THE IMPACT 1f11",
+        "headline": "CO-SCIENTIST DESIGNED SAFER SYNTHESIS RECIPES FOR HAZARDOUS MATERIALS",
+        "hl": "SAFER SYNTHESIS RECIPES",
         "hls": [
-          "DOUBLES PERFORMANCE"
+          "HAZARDOUS MATERIALS"
         ],
-        "sub": "This advancement could reshape strategies in cybersecurity.",
-        "image_prompt": "A close-up of hands typing rapidly on a keyboard, conveying urgency and focus on cybersecurity."
+        "sub": "This innovation significantly enhances safety in material production workflows.",
+        "image_prompt": "A vibrant image of a high-temperature furnace at work in a research lab, emphasizing the advanced technology in use."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "GLM-5.3 SETS A NEW STANDARD FOR OPEN-WEIGHT MODELS",
-        "hl": "NEW STANDARD",
+        "pill": "THE TAKEAWAY 1f25",
+        "headline": "AI IS SET TO TRANSFORM LAB RESEARCH AS WE KNOW IT",
+        "hl": "TRANSFORM LAB RESEARCH",
         "hls": [
-          "NEW STANDARD"
+          "AS WE KNOW IT"
         ],
-        "sub": "Its capabilities impact both coding and cybersecurity fields.",
-        "image_prompt": "A futuristic tech workspace featuring glowing devices and screens, symbolizing innovation and progress."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs and updates.",
+        "image_prompt": "A panoramic view of a futuristic research lab with scientists collaborating and advanced technology all around, showcasing a glimpse into the future of research."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "GLM-5.3 is now open-weight",
-      "url": "https://huggingface.co/zai-org/GLM-5.3"
+      "title": "Google Deepmind's AI Co-Scientist now plans experiments, runs lab equipment, and writes scientific papers",
+      "url": "https://the-decoder.com/google-deepminds-ai-co-scientist-now-plans-experiments-runs-lab-equipment-and-writes-scientific-papers/"
     },
-    "date": "2026-08-29"
+    "date": "2026-08-30"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 702,
-  "resolved_at": "2026-08-29T10:32:16.522237Z"
+  "control_msg_id": 709
 }
