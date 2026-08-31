@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-08-31T03:51:54.234664Z",
   "deadline_min": 120,
   "caption": "Anthropic has introduced a hardware standard that enables AI agents to interact with the physical world more effectively. This development is set to enhance how AI functions in various industries. 3c1916  \n\nCould this change automation practices?  \n\nSources: Ars Technica, TechCrunch, Wired  \n#AI #Anthropic #Technology #Innovation #Automation #Hardware #ArtificialIntelligence #TechNews",
@@ -77,5 +77,6 @@
     "date": "2026-08-31"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 716
+  "control_msg_id": 716,
+  "resolved_at": "2026-08-31T05:11:28.011Z"
 }
