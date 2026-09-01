@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-06-18",
-    "palette": "cyan",
-    "art_style": "sleek 3D render, octane, glossy materials",
-    "layout": "b",
-    "motifs": [
-      "an AI agent interacting with a digital s",
-      "a dramatic macro close-up of a computer ",
-      "an abstract representation of AI algorit",
-      "a group of cybersecurity experts monitor",
-      "a futuristic cityscape with digital secu"
-    ]
-  },
-  {
     "date": "2026-06-19",
     "palette": "red",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "A team of engineers analyzing data on a ",
       "A busy manufacturing floor with robots a",
       "A visionary cityscape representing a fut"
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "palette": "amber",
+    "art_style": "dramatic macro close-up, shallow depth",
+    "layout": "b",
+    "motifs": [
+      "A close-up of a Mac Mini on a desk, with",
+      "A close-up of a Mac Studio being used in",
+      "A macro shot of a person typing on a Mac",
+      "An abstract close-up of AI-related hardw",
+      "A dynamic close-up of Apple's logo refle"
     ]
   }
 ]
