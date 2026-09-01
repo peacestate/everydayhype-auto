@@ -2,7 +2,7 @@
   "status": "approved",
   "created_at": "2026-09-01T03:52:13.414579Z",
   "deadline_min": 120,
-  "caption": "Apple has been caught off guard by a surge in demand for its Mac Mini and Mac Studio systems, primarily driven by the rise of AI projects. This unexpected trend has led to increased sales, surprising analysts and the company itself. 📈💻\n\nWhat do you think about Apple's response to this AI demand?\n\nSources: MacRumors\n\n#Apple #MacMini #MacStudio #AI #TechNews #ProductLaunch #DemandSurge #Innovation #Technology #Business",
+  "caption": "Apple has been caught off guard by a surge in demand for its Mac Mini and Mac Studio systems, primarily driven by the rise of AI projects. This unexpected trend has led to increased sales, surprising analysts and the company itself. \ud83d\udcc8\ud83d\udcbb\n\nWhat do you think about Apple's response to this AI demand?\n\nSources: MacRumors\n\n#Apple #MacMini #MacStudio #AI #TechNews #ProductLaunch #DemandSurge #Innovation #Technology #Business",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788234724/everydayhypehq/2026-09-01/035204_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788234725/everydayhypehq/2026-09-01/035204_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "b",
     "person": "",
     "company": "Apple",
-    "caption": "Apple has been caught off guard by a surge in demand for its Mac Mini and Mac Studio systems, primarily driven by the rise of AI projects. This unexpected trend has led to increased sales, surprising analysts and the company itself. 📈💻\n\nWhat do you think about Apple's response to this AI demand?\n\nSources: MacRumors\n\n#Apple #MacMini #MacStudio #AI #TechNews #ProductLaunch #DemandSurge #Innovation #Technology #Business",
+    "caption": "Apple has been caught off guard by a surge in demand for its Mac Mini and Mac Studio systems, primarily driven by the rise of AI projects. This unexpected trend has led to increased sales, surprising analysts and the company itself. \ud83d\udcc8\ud83d\udcbb\n\nWhat do you think about Apple's response to this AI demand?\n\nSources: MacRumors\n\n#Apple #MacMini #MacStudio #AI #TechNews #ProductLaunch #DemandSurge #Innovation #Technology #Business",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
+        "pill": "BREAKING \ud83d\udd34",
         "headline": "APPLE JUST REPORTED A 50% INCREASE IN MAC MINI SALES",
         "hl": "50% INCREASE",
         "hls": [
@@ -29,7 +29,7 @@
         "image_prompt": "A close-up of a Mac Mini on a desk, with a warm ambient light, showcasing its sleek design."
       },
       {
-        "pill": "WHAT HAPPENED ⚡",
+        "pill": "WHAT HAPPENED \u26a1",
         "headline": "AI PROJECTS ARE CREATING UNPRECEDENTED DEMAND FOR APPLE PRODUCTS",
         "hl": "UNPRECEDENTED DEMAND",
         "hls": [
@@ -39,7 +39,7 @@
         "image_prompt": "A close-up of a Mac Studio being used in a creative workspace, with an artist in the background."
       },
       {
-        "pill": "WHY IT MATTERS 🌍",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
         "headline": "THIS DEMAND SHIFT IS CHANGING APPLE'S BUSINESS STRATEGY",
         "hl": "CHANGING APPLE'S BUSINESS STRATEGY",
         "hls": [
@@ -49,7 +49,7 @@
         "image_prompt": "A macro shot of a person typing on a MacBook, with code visible on the screen."
       },
       {
-        "pill": "THE IMPACT 🔐",
+        "pill": "THE IMPACT \ud83d\udd10",
         "headline": "ANALYSTS PREDICT FURTHER GROWTH IN THE AI SECTOR",
         "hl": "FURTHER GROWTH",
         "hls": [
@@ -59,7 +59,7 @@
         "image_prompt": "An abstract close-up of AI-related hardware components, emphasizing technology."
       },
       {
-        "pill": "THE TAKEAWAY 🔥",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
         "headline": "AND APPLE IS PREPARING FOR MORE AI-DRIVEN INNOVATIONS",
         "hl": "MORE AI-DRIVEN INNOVATIONS",
         "hls": [
@@ -77,5 +77,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 723,
-  "resolved_at": "2026-09-01T08:29:22.040Z"
+  "resolved_at": "2026-09-01T12:11:22.457484Z"
 }
