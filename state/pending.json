@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-09-02T03:51:47.774225Z",
   "deadline_min": 120,
   "caption": "ChangXin Memory Technologies (CXMT) has begun producing HBM3E chips, marking a significant step in AI memory technology. This new high-bandwidth memory is crucial for AI processors, where speed and efficiency matter. However, CXMT still faces challenges in catching up with competitors.\n\nShould CXMT's advancements change the landscape for AI memory? \n\nSources: The Information, SemiAnalysis, Tom's Hardware\n\n#AI #MemoryChips #CXMT #HBM3E #TechNews #Innovation #China #ArtificialIntelligence #MemoryTechnology #ChipIndustry #HighBandwidthMemory #TechBreakthroughs",
@@ -19,7 +19,7 @@
     "caption": "ChangXin Memory Technologies (CXMT) has begun producing HBM3E chips, marking a significant step in AI memory technology. This new high-bandwidth memory is crucial for AI processors, where speed and efficiency matter. However, CXMT still faces challenges in catching up with competitors.\n\nShould CXMT's advancements change the landscape for AI memory? \n\nSources: The Information, SemiAnalysis, Tom's Hardware\n\n#AI #MemoryChips #CXMT #HBM3E #TechNews #Innovation #China #ArtificialIntelligence #MemoryTechnology #ChipIndustry #HighBandwidthMemory #TechBreakthroughs",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "CXMT JUST BEGAN PRODUCING HBM3E CHIPS FOR AI PROCESSORS",
         "hl": "HBM3E CHIPS",
         "hls": [],
@@ -27,7 +27,7 @@
         "image_prompt": "A close-up of high-tech memory chips, showcasing intricate details and a glowing effect, with a dark background."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "CXMT IS THREE TO FIVE YEARS BEHIND SAMSUNG AND SK HYNIX",
         "hl": "THREE TO FIVE YEARS BEHIND",
         "hls": [],
@@ -35,7 +35,7 @@
         "image_prompt": "A side-by-side comparison of modern memory chip production facilities, with one technologically advanced and the other less so."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "ALIBABA'S T-HEAD PLANS TO USE CXMT'S MEMORY BY 2027",
         "hl": "USE CXMT'S MEMORY",
         "hls": [],
@@ -43,7 +43,7 @@
         "image_prompt": "An office scene with engineers collaborating on AI chip designs, surrounded by technology and prototypes."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "CXMT RAISED $8.6 BILLION BUT NONE IS FOR HBM",
         "hl": "$8.6 BILLION",
         "hls": [],
@@ -51,7 +51,7 @@
         "image_prompt": "A financial setting with people discussing investment opportunities, with visual elements suggesting technology investments."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "CXMT'S HBM3E CHIPS COULD CLOSE THE AI MEMORY GAP",
         "hl": "CLOSE THE AI MEMORY GAP",
         "hls": [],
@@ -66,5 +66,6 @@
     "date": "2026-09-02"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 731
+  "control_msg_id": 731,
+  "resolved_at": "2026-09-02T05:39:02.172Z"
 }
