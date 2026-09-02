@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-06-19",
-    "palette": "red",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "motifs": [
-      "A close-up of a futuristic AI chip with ",
-      "A business meeting with stakeholders dis",
-      "A production facility with workers assem",
-      "An infographic comparing Amazon and Nvid",
-      "A bold visual of a chessboard with Amazo"
-    ]
-  },
-  {
     "date": "2026-06-20",
     "palette": "purple",
     "art_style": "dramatic macro close-up, shallow depth",
@@ -777,6 +764,19 @@
       "A macro shot of a person typing on a Mac",
       "An abstract close-up of AI-related hardw",
       "A dynamic close-up of Apple's logo refle"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "palette": "purple",
+    "art_style": "neon glow synthwave, bloom, dark background",
+    "layout": "c",
+    "motifs": [
+      "A close-up of high-tech memory chips, sh",
+      "A side-by-side comparison of modern memo",
+      "An office scene with engineers collabora",
+      "A financial setting with people discussi",
+      "A futuristic setting showing a digital i"
     ]
   }
 ]
