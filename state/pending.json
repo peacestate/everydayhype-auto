@@ -1,81 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-01T03:52:13.414579Z",
+  "status": "pending",
+  "created_at": "2026-09-02T03:51:47.774225Z",
   "deadline_min": 120,
-  "caption": "Apple has been caught off guard by a surge in demand for its Mac Mini and Mac Studio systems, primarily driven by the rise of AI projects. This unexpected trend has led to increased sales, surprising analysts and the company itself. \ud83d\udcc8\ud83d\udcbb\n\nWhat do you think about Apple's response to this AI demand?\n\nSources: MacRumors\n\n#Apple #MacMini #MacStudio #AI #TechNews #ProductLaunch #DemandSurge #Innovation #Technology #Business",
+  "caption": "ChangXin Memory Technologies (CXMT) has begun producing HBM3E chips, marking a significant step in AI memory technology. This new high-bandwidth memory is crucial for AI processors, where speed and efficiency matter. However, CXMT still faces challenges in catching up with competitors.\n\nShould CXMT's advancements change the landscape for AI memory? \n\nSources: The Information, SemiAnalysis, Tom's Hardware\n\n#AI #MemoryChips #CXMT #HBM3E #TechNews #Innovation #China #ArtificialIntelligence #MemoryTechnology #ChipIndustry #HighBandwidthMemory #TechBreakthroughs",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788234724/everydayhypehq/2026-09-01/035204_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788234725/everydayhypehq/2026-09-01/035204_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788234726/everydayhypehq/2026-09-01/035204_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788234727/everydayhypehq/2026-09-01/035204_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788234728/everydayhypehq/2026-09-01/035204_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788321100/everydayhypehq/2026-09-02/035140_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788321101/everydayhypehq/2026-09-02/035140_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788321101/everydayhypehq/2026-09-02/035140_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788321102/everydayhypehq/2026-09-02/035140_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788321103/everydayhypehq/2026-09-02/035140_slide_5.png"
   ],
   "plan": {
-    "palette": "amber",
-    "art_style": "dramatic macro close-up, shallow depth",
-    "layout": "b",
+    "palette": "purple",
+    "art_style": "neon glow synthwave, bloom, dark background",
+    "layout": "c",
     "person": "",
-    "company": "Apple",
-    "caption": "Apple has been caught off guard by a surge in demand for its Mac Mini and Mac Studio systems, primarily driven by the rise of AI projects. This unexpected trend has led to increased sales, surprising analysts and the company itself. \ud83d\udcc8\ud83d\udcbb\n\nWhat do you think about Apple's response to this AI demand?\n\nSources: MacRumors\n\n#Apple #MacMini #MacStudio #AI #TechNews #ProductLaunch #DemandSurge #Innovation #Technology #Business",
+    "company": "ChangXin Memory Technologies",
+    "caption": "ChangXin Memory Technologies (CXMT) has begun producing HBM3E chips, marking a significant step in AI memory technology. This new high-bandwidth memory is crucial for AI processors, where speed and efficiency matter. However, CXMT still faces challenges in catching up with competitors.\n\nShould CXMT's advancements change the landscape for AI memory? \n\nSources: The Information, SemiAnalysis, Tom's Hardware\n\n#AI #MemoryChips #CXMT #HBM3E #TechNews #Innovation #China #ArtificialIntelligence #MemoryTechnology #ChipIndustry #HighBandwidthMemory #TechBreakthroughs",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "APPLE JUST REPORTED A 50% INCREASE IN MAC MINI SALES",
-        "hl": "50% INCREASE",
-        "hls": [
-          "50%"
-        ],
-        "sub": "Driven by unexpected demand from AI developers.",
-        "image_prompt": "A close-up of a Mac Mini on a desk, with a warm ambient light, showcasing its sleek design."
+        "headline": "CXMT JUST BEGAN PRODUCING HBM3E CHIPS FOR AI PROCESSORS",
+        "hl": "HBM3E CHIPS",
+        "hls": [],
+        "sub": "Here's the breakthrough for AI memory technology.",
+        "image_prompt": "A close-up of high-tech memory chips, showcasing intricate details and a glowing effect, with a dark background."
       },
       {
         "pill": "WHAT HAPPENED \u26a1",
-        "headline": "AI PROJECTS ARE CREATING UNPRECEDENTED DEMAND FOR APPLE PRODUCTS",
-        "hl": "UNPRECEDENTED DEMAND",
-        "hls": [
-          "UNPRECEDENTED"
-        ],
-        "sub": "Mac Studio sales have also surged, surprising analysts.",
-        "image_prompt": "A close-up of a Mac Studio being used in a creative workspace, with an artist in the background."
+        "headline": "CXMT IS THREE TO FIVE YEARS BEHIND SAMSUNG AND SK HYNIX",
+        "hl": "THREE TO FIVE YEARS BEHIND",
+        "hls": [],
+        "sub": "Competitors are mass-producing HBM4, leaving CXMT at a disadvantage.",
+        "image_prompt": "A side-by-side comparison of modern memory chip production facilities, with one technologically advanced and the other less so."
       },
       {
         "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "THIS DEMAND SHIFT IS CHANGING APPLE'S BUSINESS STRATEGY",
-        "hl": "CHANGING APPLE'S BUSINESS STRATEGY",
-        "hls": [
-          "CHANGING"
-        ],
-        "sub": "Apple is now focusing on catering to AI developers.",
-        "image_prompt": "A macro shot of a person typing on a MacBook, with code visible on the screen."
+        "headline": "ALIBABA'S T-HEAD PLANS TO USE CXMT'S MEMORY BY 2027",
+        "hl": "USE CXMT'S MEMORY",
+        "hls": [],
+        "sub": "This could lower barriers for Chinese AI chip development.",
+        "image_prompt": "An office scene with engineers collaborating on AI chip designs, surrounded by technology and prototypes."
       },
       {
         "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "ANALYSTS PREDICT FURTHER GROWTH IN THE AI SECTOR",
-        "hl": "FURTHER GROWTH",
-        "hls": [
-          "FURTHER"
-        ],
-        "sub": "This could lead to more innovative products from Apple.",
-        "image_prompt": "An abstract close-up of AI-related hardware components, emphasizing technology."
+        "headline": "CXMT RAISED $8.6 BILLION BUT NONE IS FOR HBM",
+        "hl": "$8.6 BILLION",
+        "hls": [],
+        "sub": "This highlights the company's focus despite memory production challenges.",
+        "image_prompt": "A financial setting with people discussing investment opportunities, with visual elements suggesting technology investments."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "AND APPLE IS PREPARING FOR MORE AI-DRIVEN INNOVATIONS",
-        "hl": "MORE AI-DRIVEN INNOVATIONS",
-        "hls": [
-          "MORE"
-        ],
+        "headline": "CXMT'S HBM3E CHIPS COULD CLOSE THE AI MEMORY GAP",
+        "hl": "CLOSE THE AI MEMORY GAP",
+        "hls": [],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A dynamic close-up of Apple's logo reflected on a modern tech device."
+        "image_prompt": "A futuristic setting showing a digital interface displaying AI technology advancements, with dynamic visuals emphasizing innovation."
       }
     ],
     "story": {
-      "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
-      "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/"
+      "title": "China's CXMT makes its first HBM3E chips, closing the AI memory gap",
+      "url": "https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap/"
     },
-    "date": "2026-09-01"
+    "date": "2026-09-02"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 723,
-  "resolved_at": "2026-09-01T16:36:03.554752Z"
+  "control_msg_id": 731
 }
