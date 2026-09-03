@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-09-03T03:52:20.504838Z",
   "deadline_min": 120,
   "caption": "Google DeepMind has just released Gemini 3.8 Flash and Flash Cyber, enhancing intelligence for various applications. Gemini 3.8 Flash outperforms many larger models at a fraction of the cost. \n\nWhat do you think about the advancements in AI security? \n\nSources: Google Blog, TechCrunch, AI News\n#Gemini3.8 #GoogleDeepMind #AI #Cybersecurity #MachineLearning #TechInnovation #SoftwareEngineering #AIModels #DeepLearning #VulnerabilityDetection",
@@ -80,5 +80,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 738,
-  "resolved_at": "2026-09-03T09:53:20.849205Z"
+  "resolved_at": "2026-09-03T09:56:19.387631Z"
 }

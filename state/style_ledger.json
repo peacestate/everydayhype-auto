@@ -1,19 +1,6 @@
 [
   {
     "date": "2026-06-20",
-    "palette": "purple",
-    "art_style": "dramatic macro close-up, shallow depth",
-    "layout": "c",
-    "motifs": [
-      "A close-up of an ancient artifact with i",
-      "A thoughtful man in a cozy library, surr",
-      "A serene outdoor scene in Hudson Valley,",
-      "A dramatic landscape of Crete, with the ",
-      "A close-up of a historical map showing a"
-    ]
-  },
-  {
-    "date": "2026-06-20",
     "palette": "green",
     "art_style": "neon glow synthwave, bloom, dark background",
     "layout": "a",
@@ -777,6 +764,19 @@
       "An office scene with engineers collabora",
       "A financial setting with people discussi",
       "A futuristic setting showing a digital i"
+    ]
+  },
+  {
+    "date": "2026-09-03",
+    "palette": "green",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "b",
+    "motifs": [
+      "A close-up of a diverse group of enginee",
+      "A cybersecurity analyst monitoring multi",
+      "An overhead view of a modern workspace w",
+      "A silhouette of a person deep in thought",
+      "A futuristic city skyline at dusk, with "
     ]
   }
 ]
