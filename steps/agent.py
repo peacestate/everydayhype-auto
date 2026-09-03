@@ -24,15 +24,21 @@ def _utc_minutes_now():
     n = datetime.datetime.utcnow()
     return n.hour * 60 + n.minute
 
-def _publish(p, reason):
-    """Publish a pending/approved post to Instagram, record the ledger, report back."""
+def _publish(p, reason, raise_on_fail=False):
+    """Publish a pending/approved post to Instagram, record the ledger, report back.
+
+    raise_on_fail: re-raise after reporting, so the calling workflow goes RED. publish.yml
+    used to exit 0 on a failed post, which made a lost day look like a successful run."""
     pending.mark("posting")
     try:
         media_id = s6_publish.publish(p["image_urls"], p["caption"])
     except Exception as e:
         pending.mark("approved")  # leave it so a retry can pick it up
         tg.send_text(f"❌ Instagram post FAILED ({reason}): {e}", chat_id=p.get("chat_id"))
-        print(f"[agent] publish failed: {e}"); return
+        print(f"[agent] publish failed: {e}")
+        if raise_on_fail:
+            raise
+        return
     s2_brain.commit_ledger(p["plan"])
     pending.mark("posted")
     if p.get("control_msg_id"):
@@ -46,7 +52,7 @@ def publish_approved():
     p = pending.load()
     if not p or p.get("status") != "approved":
         print(f"[agent] nothing to publish (status={p and p.get('status')})"); return
-    _publish(p, "you approved")
+    _publish(p, "you approved", raise_on_fail=True)
 
 def _drain_queue():
     """Process training messages the Worker stashed (images/files/ideas) into examples.md."""

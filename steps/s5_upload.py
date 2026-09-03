@@ -15,8 +15,11 @@ def upload(slide_paths):
     run_id = datetime.datetime.utcnow().strftime("%H%M%S")
     urls = []
     for i, p in enumerate(slide_paths, 1):
+        # format="jpg": Instagram's Graph API accepts JPEG only. Delivering .png made IG
+        # refuse individual slides with error 9004/2207052 and killed the whole carousel.
         res = cloudinary.uploader.upload(str(p), folder=f"everydayhypehq/{day}",
-                                         public_id=f"{run_id}_slide_{i}", overwrite=False)
+                                         public_id=f"{run_id}_slide_{i}", overwrite=False,
+                                         format="jpg", quality=90)
         urls.append(res["secure_url"])
     print(f"[s5] uploaded {len(urls)} slides to Cloudinary (run {run_id})")
     return urls

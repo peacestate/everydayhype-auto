@@ -39,7 +39,10 @@ jobs:
             sleep 5
           done
           python -c "import sys; sys.path.insert(0,'.'); from steps import agent; agent.publish_approved()"
+      # always(): the publish step now FAILS the run on a refused post (it used to exit 0
+      # and hide a lost day). State and repo visibility must still be settled either way.
       - name: Persist ledger / cleared pending
+        if: always()
         run: |
           git config user.name  "peacestate"
           git config user.email "229365184+peacestate@users.noreply.github.com"
@@ -47,11 +50,11 @@ jobs:
           git add state/ && git commit -m "publish: $(date -u +%F-%H%M)" || echo "no changes"
           git push || echo "push skipped"
 
-      # Post is live -> close the repo back to private. Runs only if the publish
-      # step above succeeded (a failed/aborted post leaves the repo public so you
-      # can inspect/retry).
-      - name: Make repo private (post is live)
-        if: success()
+      # Close the repo back to private whether or not the post landed — a failed publish
+      # used to be invisible, so "leave it public to inspect" meant leaving it public
+      # indefinitely. daily.yml reopens it to public at the start of the next run.
+      - name: Make repo private
+        if: always()
         env:
           GH_TOKEN: ${{ secrets.ADMIN_PAT }}
         run: gh api -X PATCH "repos/${{ github.repository }}" -F private=true
