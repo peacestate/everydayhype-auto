@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Deps
-        run: pip install -q openai requests
+        run: pip install -q openai requests cloudinary
       - name: Publish the approved carousel to Instagram
         env:
           OPENAI_API_KEY:     ${{ secrets.OPENAI_API_KEY }}
@@ -26,6 +26,7 @@ jobs:
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
           IG_ACCESS_TOKEN:    ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID:         ${{ secrets.IG_USER_ID }}
+          CLOUDINARY_URL:     ${{ secrets.CLOUDINARY_URL }}
         run: |
           # Re-sync to the latest commit before publishing. The Cloudflare Worker commits
           # status='approved' then dispatches this run, but the approve commit can land on
