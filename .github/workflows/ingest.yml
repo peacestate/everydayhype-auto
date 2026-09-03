@@ -41,3 +41,29 @@ jobs:
           git add examples.md state/ 2>/dev/null || true
           git commit -m "maintain: telegram state $(date -u +%F-%H%M)" || echo "no changes"
           git push || echo "push skipped"
+
+      # Close the approval window if it is over.
+      #
+      # daily.yml opens the repo to PUBLIC for the draft/approval window (free Actions minutes)
+      # and publish.yml closes it once the post lands. A ❌ Reject never reaches either: it is
+      # handled entirely inside the Cloudflare Worker, long after both workflows have finished,
+      # so a rejected draft left the repo PUBLIC until the next successful publish (~24h+).
+      # This is the backstop for every path that never reaches publish.yml.
+      #
+      # Guard: only act when no draft is awaiting your decision AND no draft/publish run is in
+      # flight, so this can never yank the repo private underneath a running daily build.
+      - name: Re-private when no draft is awaiting a decision
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.ADMIN_PAT }}
+        run: |
+          status=$(python -c "import json;print(json.load(open('state/pending.json')).get('status',''))" 2>/dev/null || echo "")
+          busy=$(gh run list -R "$GITHUB_REPOSITORY" -L 40 --json status,workflowName \
+                   --jq '[.[]|select((.status=="in_progress" or .status=="queued") and (.workflowName=="daily-carousel" or .workflowName=="publish-approved"))]|length' \
+                 2>/dev/null || echo "")
+          echo "pending status='$status', draft/publish runs in flight='$busy'"
+          if [ "$status" != "pending" ] && [ "$busy" = "0" ]; then
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY" -F private=true --silent && echo "repo closed to private"
+          else
+            echo "leaving visibility alone"
+          fi

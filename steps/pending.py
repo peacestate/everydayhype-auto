@@ -2,8 +2,16 @@
 
 A real (non-dry-run) pipeline run no longer posts immediately — it renders, uploads the
 slides to Cloudinary, and parks the post here as status='pending' with the Telegram control
-message id. The agent (steps/agent.py, on a short cron) then watches Telegram for your
-Approve / Reject / edit, and AUTO-POSTS once `deadline_min` minutes pass with no response.
+message id. The Cloudflare Worker (worker/worker.js) owns the Telegram webhook and flips the
+status on your Approve / Reject / edit; publish.yml then posts it.
+
+Posting is APPROVAL-GATED: nothing is auto-posted on a timer. `deadline_min` and the
+expired()/touch_deadline() helpers below are leftovers from the pre-2026-06-23 design, when an
+untouched draft self-posted after 120 minutes. That behaviour was removed from agent.maintain()
+— an approved post goes out at noon IST, and an unapproved one never goes out at all.
+
+status: pending -> approved -> posting -> posted, or -> rejected. A failed post is reset to
+'approved' so a later run can retry it.
 """
 import json, datetime
 import config as C

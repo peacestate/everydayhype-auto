@@ -13,18 +13,27 @@ def _bust(url, n):
 def _post(path, **params):
     params["access_token"] = C.IG_TOKEN
     r = requests.post(f"{GRAPH}/{path}", data=params, timeout=60)
-    j = r.json()
+    try:
+        j = r.json()
+    except ValueError:   # a gateway/HTML error page, not JSON — say so instead of dying opaquely
+        raise RuntimeError(f"IG API returned HTTP {r.status_code}, non-JSON body: {r.text[:300]!r}")
     if "error" in j: raise RuntimeError(f"IG API error: {j['error']}")
     return j
 
 def _wait_ready(container_id, tries=20):
+    # Ask for `status` too: status_code is just "ERROR", while status carries the actual reason.
+    # A bare "container processing ERROR" tells you nothing at 4am.
+    last = {}
     for _ in range(tries):
-        r = requests.get(f"{GRAPH}/{container_id}",
-                         params={"fields": "status_code", "access_token": C.IG_TOKEN}, timeout=30).json()
-        if r.get("status_code") == "FINISHED": return
-        if r.get("status_code") == "ERROR": raise RuntimeError("container processing ERROR")
+        last = requests.get(f"{GRAPH}/{container_id}",
+                            params={"fields": "status_code,status", "access_token": C.IG_TOKEN},
+                            timeout=30).json()
+        if last.get("status_code") == "FINISHED": return
+        if last.get("status_code") == "ERROR":
+            raise RuntimeError(f"container {container_id} processing ERROR: {last.get('status') or last}")
         time.sleep(5)
-    raise TimeoutError("container not ready")
+    raise TimeoutError(f"container {container_id} not ready after {tries} polls "
+                       f"(last status_code={last.get('status_code')!r})")
 
 def _child(url, tries=4):
     """Create one carousel child container, working around IG's poisoned URL cache.
