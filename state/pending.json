@@ -1,71 +1,83 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-02T03:51:47.774225Z",
+  "status": "pending",
+  "created_at": "2026-09-03T03:52:20.504838Z",
   "deadline_min": 120,
-  "caption": "ChangXin Memory Technologies (CXMT) has begun producing HBM3E chips, marking a significant step in AI memory technology. This new high-bandwidth memory is crucial for AI processors, where speed and efficiency matter. However, CXMT still faces challenges in catching up with competitors.\n\nShould CXMT's advancements change the landscape for AI memory? \n\nSources: The Information, SemiAnalysis, Tom's Hardware\n\n#AI #MemoryChips #CXMT #HBM3E #TechNews #Innovation #China #ArtificialIntelligence #MemoryTechnology #ChipIndustry #HighBandwidthMemory #TechBreakthroughs",
+  "caption": "Google DeepMind has just released Gemini 3.8 Flash and Flash Cyber, enhancing intelligence for various applications. Gemini 3.8 Flash outperforms many larger models at a fraction of the cost. \n\nWhat do you think about the advancements in AI security? \n\nSources: Google Blog, TechCrunch, AI News\n#Gemini3.8 #GoogleDeepMind #AI #Cybersecurity #MachineLearning #TechInnovation #SoftwareEngineering #AIModels #DeepLearning #VulnerabilityDetection",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788321100/everydayhypehq/2026-09-02/035140_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788321101/everydayhypehq/2026-09-02/035140_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788321101/everydayhypehq/2026-09-02/035140_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788321102/everydayhypehq/2026-09-02/035140_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788321103/everydayhypehq/2026-09-02/035140_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788407532/everydayhypehq/2026-09-03/035211_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788407533/everydayhypehq/2026-09-03/035211_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788407533/everydayhypehq/2026-09-03/035211_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788407534/everydayhypehq/2026-09-03/035211_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788407535/everydayhypehq/2026-09-03/035211_slide_5.png"
   ],
   "plan": {
-    "palette": "purple",
-    "art_style": "neon glow synthwave, bloom, dark background",
-    "layout": "c",
+    "palette": "green",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "b",
     "person": "",
-    "company": "ChangXin Memory Technologies",
-    "caption": "ChangXin Memory Technologies (CXMT) has begun producing HBM3E chips, marking a significant step in AI memory technology. This new high-bandwidth memory is crucial for AI processors, where speed and efficiency matter. However, CXMT still faces challenges in catching up with competitors.\n\nShould CXMT's advancements change the landscape for AI memory? \n\nSources: The Information, SemiAnalysis, Tom's Hardware\n\n#AI #MemoryChips #CXMT #HBM3E #TechNews #Innovation #China #ArtificialIntelligence #MemoryTechnology #ChipIndustry #HighBandwidthMemory #TechBreakthroughs",
+    "company": "Google DeepMind",
+    "caption": "Google DeepMind has just released Gemini 3.8 Flash and Flash Cyber, enhancing intelligence for various applications. Gemini 3.8 Flash outperforms many larger models at a fraction of the cost. \n\nWhat do you think about the advancements in AI security? \n\nSources: Google Blog, TechCrunch, AI News\n#Gemini3.8 #GoogleDeepMind #AI #Cybersecurity #MachineLearning #TechInnovation #SoftwareEngineering #AIModels #DeepLearning #VulnerabilityDetection",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "CXMT JUST BEGAN PRODUCING HBM3E CHIPS FOR AI PROCESSORS",
-        "hl": "HBM3E CHIPS",
-        "hls": [],
-        "sub": "Here's the breakthrough for AI memory technology.",
-        "image_prompt": "A close-up of high-tech memory chips, showcasing intricate details and a glowing effect, with a dark background."
-      },
-      {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "CXMT IS THREE TO FIVE YEARS BEHIND SAMSUNG AND SK HYNIX",
-        "hl": "THREE TO FIVE YEARS BEHIND",
-        "hls": [],
-        "sub": "Competitors are mass-producing HBM4, leaving CXMT at a disadvantage.",
-        "image_prompt": "A side-by-side comparison of modern memory chip production facilities, with one technologically advanced and the other less so."
+        "headline": "GEMINI 3.8 FLASH OUTPERFORMS MANY LARGER MODELS AT LOWER COST",
+        "hl": "OUTPERFORMS MANY LARGER MODELS",
+        "hls": [
+          "OUTPERFORMS",
+          "LOWER COST"
+        ],
+        "sub": "Gemini 3.8 Flash excels in solving complex engineering tasks.",
+        "image_prompt": "A close-up of a diverse group of engineers collaborating around a digital interface, deep in discussion, with a backdrop of computer code and data visualizations."
       },
       {
         "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "ALIBABA'S T-HEAD PLANS TO USE CXMT'S MEMORY BY 2027",
-        "hl": "USE CXMT'S MEMORY",
-        "hls": [],
-        "sub": "This could lower barriers for Chinese AI chip development.",
-        "image_prompt": "An office scene with engineers collaborating on AI chip designs, surrounded by technology and prototypes."
+        "headline": "GEMINI 3.8 FLASH CYBER OFFERS FRONTIER PERFORMANCE IN CYBERSECURITY",
+        "hl": "FRONTIER PERFORMANCE IN CYBERSECURITY",
+        "hls": [
+          "FRONTIER PERFORMANCE"
+        ],
+        "sub": "This model enhances vulnerability detection and automated patching capabilities.",
+        "image_prompt": "A cybersecurity analyst monitoring multiple screens filled with dynamic security alerts and data feeds, showcasing a high-tech office environment."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "CXMT RAISED $8.6 BILLION BUT NONE IS FOR HBM",
-        "hl": "$8.6 BILLION",
-        "hls": [],
-        "sub": "This highlights the company's focus despite memory production challenges.",
-        "image_prompt": "A financial setting with people discussing investment opportunities, with visual elements suggesting technology investments."
+        "pill": "THE IMPACT \ud83d\udd11",
+        "headline": "BOTH MODELS LAUNCHED AT $0.75 PER MILLION INPUT TOKENS",
+        "hl": "LAUNCHED AT $0.75",
+        "hls": [
+          "$0.75",
+          "MILLION INPUT TOKENS"
+        ],
+        "sub": "They maintain the same introductory price as their predecessor, 3.7 Flash.",
+        "image_prompt": "An overhead view of a modern workspace with advanced computers and tech equipment, highlighting a productive atmosphere."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "CXMT'S HBM3E CHIPS COULD CLOSE THE AI MEMORY GAP",
-        "hl": "CLOSE THE AI MEMORY GAP",
-        "hls": [],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic setting showing a digital interface displaying AI technology advancements, with dynamic visuals emphasizing innovation."
+        "headline": "GEMINI 3.8 MODELS USE LONG-RUNNING AGENTIC LOOPS FOR IMPROVEMENT",
+        "hl": "LONG-RUNNING AGENTIC LOOPS",
+        "hls": [
+          "LONG-RUNNING",
+          "AGENTIC LOOPS"
+        ],
+        "sub": "These loops recursively evaluate and refine the foundational intelligence.",
+        "image_prompt": "A silhouette of a person deep in thought, overlaid with flowing data streams and network visuals, symbolizing innovation in AI."
+      },
+      {
+        "pill": "",
+        "headline": "GEMINI 3.8 MODELS ARE A SIGNIFICANT STEP FORWARD IN AI CAPABILITIES",
+        "hl": "SIGNIFICANT STEP FORWARD",
+        "hls": [
+          "SIGNIFICANT STEP"
+        ],
+        "sub": "This advancement promises to enhance software engineering and cybersecurity.",
+        "image_prompt": "A futuristic city skyline at dusk, with digital elements and AI motifs subtly integrated into the architecture."
       }
     ],
     "story": {
-      "title": "China's CXMT makes its first HBM3E chips, closing the AI memory gap",
-      "url": "https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap/"
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
     },
-    "date": "2026-09-02"
+    "date": "2026-09-03"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 731,
-  "resolved_at": "2026-09-02T06:31:49.399396Z"
+  "control_msg_id": 738
 }
