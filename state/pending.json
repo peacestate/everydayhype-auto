@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-09-03T03:52:20.504838Z",
   "deadline_min": 120,
   "caption": "Google DeepMind has just released Gemini 3.8 Flash and Flash Cyber, enhancing intelligence for various applications. Gemini 3.8 Flash outperforms many larger models at a fraction of the cost. \n\nWhat do you think about the advancements in AI security? \n\nSources: Google Blog, TechCrunch, AI News\n#Gemini3.8 #GoogleDeepMind #AI #Cybersecurity #MachineLearning #TechInnovation #SoftwareEngineering #AIModels #DeepLearning #VulnerabilityDetection",
@@ -19,7 +19,7 @@
     "caption": "Google DeepMind has just released Gemini 3.8 Flash and Flash Cyber, enhancing intelligence for various applications. Gemini 3.8 Flash outperforms many larger models at a fraction of the cost. \n\nWhat do you think about the advancements in AI security? \n\nSources: Google Blog, TechCrunch, AI News\n#Gemini3.8 #GoogleDeepMind #AI #Cybersecurity #MachineLearning #TechInnovation #SoftwareEngineering #AIModels #DeepLearning #VulnerabilityDetection",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "GEMINI 3.8 FLASH OUTPERFORMS MANY LARGER MODELS AT LOWER COST",
         "hl": "OUTPERFORMS MANY LARGER MODELS",
         "hls": [
@@ -30,7 +30,7 @@
         "image_prompt": "A close-up of a diverse group of engineers collaborating around a digital interface, deep in discussion, with a backdrop of computer code and data visualizations."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "GEMINI 3.8 FLASH CYBER OFFERS FRONTIER PERFORMANCE IN CYBERSECURITY",
         "hl": "FRONTIER PERFORMANCE IN CYBERSECURITY",
         "hls": [
@@ -40,7 +40,7 @@
         "image_prompt": "A cybersecurity analyst monitoring multiple screens filled with dynamic security alerts and data feeds, showcasing a high-tech office environment."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd11",
+        "pill": "THE IMPACT 🔑",
         "headline": "BOTH MODELS LAUNCHED AT $0.75 PER MILLION INPUT TOKENS",
         "hl": "LAUNCHED AT $0.75",
         "hls": [
@@ -51,7 +51,7 @@
         "image_prompt": "An overhead view of a modern workspace with advanced computers and tech equipment, highlighting a productive atmosphere."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "GEMINI 3.8 MODELS USE LONG-RUNNING AGENTIC LOOPS FOR IMPROVEMENT",
         "hl": "LONG-RUNNING AGENTIC LOOPS",
         "hls": [
@@ -79,5 +79,6 @@
     "date": "2026-09-03"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 738
+  "control_msg_id": 738,
+  "resolved_at": "2026-09-03T04:44:56.124Z"
 }
