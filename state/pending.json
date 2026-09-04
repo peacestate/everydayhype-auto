@@ -1,84 +1,80 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-03T03:52:20.504838Z",
+  "status": "pending",
+  "created_at": "2026-09-04T03:52:51.568514Z",
   "deadline_min": 120,
-  "caption": "Google DeepMind has just released Gemini 3.8 Flash and Flash Cyber, enhancing intelligence for various applications. Gemini 3.8 Flash outperforms many larger models at a fraction of the cost. \n\nWhat do you think about the advancements in AI security? \n\nSources: Google Blog, TechCrunch, AI News\n#Gemini3.8 #GoogleDeepMind #AI #Cybersecurity #MachineLearning #TechInnovation #SoftwareEngineering #AIModels #DeepLearning #VulnerabilityDetection",
+  "caption": "OpenAI has officially begun rolling out its latest AI model, Astra, which is designed with advanced cyber capabilities. This development marks a significant step in AI technology and its applications in cybersecurity. 4a1680 \n\nWhat do you think about the implications of such powerful AI models? \n\nSources: CNBC",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788407532/everydayhypehq/2026-09-03/035211_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788407533/everydayhypehq/2026-09-03/035211_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788429289/everydayhypehq/2026-09-03/retry3_slide_3.jpg",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788407534/everydayhypehq/2026-09-03/035211_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788407535/everydayhypehq/2026-09-03/035211_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788493964/everydayhypehq/2026-09-04/035244_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788493965/everydayhypehq/2026-09-04/035244_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788493965/everydayhypehq/2026-09-04/035244_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788493966/everydayhypehq/2026-09-04/035244_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788493966/everydayhypehq/2026-09-04/035244_slide_5.png"
   ],
   "plan": {
-    "palette": "green",
-    "art_style": "double-exposure, silhouette blended with data",
+    "palette": "blue",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "b",
-    "person": "",
-    "company": "Google DeepMind",
-    "caption": "Google DeepMind has just released Gemini 3.8 Flash and Flash Cyber, enhancing intelligence for various applications. Gemini 3.8 Flash outperforms many larger models at a fraction of the cost. \n\nWhat do you think about the advancements in AI security? \n\nSources: Google Blog, TechCrunch, AI News\n#Gemini3.8 #GoogleDeepMind #AI #Cybersecurity #MachineLearning #TechInnovation #SoftwareEngineering #AIModels #DeepLearning #VulnerabilityDetection",
+    "caption": "OpenAI has officially begun rolling out its latest AI model, Astra, which is designed with advanced cyber capabilities. This development marks a significant step in AI technology and its applications in cybersecurity. 4a1680 \n\nWhat do you think about the implications of such powerful AI models? \n\nSources: CNBC",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "GEMINI 3.8 FLASH OUTPERFORMS MANY LARGER MODELS AT LOWER COST",
-        "hl": "OUTPERFORMS MANY LARGER MODELS",
+        "pill": "BREAKING 534",
+        "headline": "OPENAI JUST LAUNCHED THE ASTRA MODEL TRAINED ON 1 TRILLION PARAMETERS",
+        "hl": "TRAINED ON 1 TRILLION PARAMETERS",
         "hls": [
-          "OUTPERFORMS",
-          "LOWER COST"
+          "1 TRILLION PARAMETERS"
         ],
-        "sub": "Gemini 3.8 Flash excels in solving complex engineering tasks.",
-        "image_prompt": "A close-up of a diverse group of engineers collaborating around a digital interface, deep in discussion, with a backdrop of computer code and data visualizations."
-      },
-      {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "GEMINI 3.8 FLASH CYBER OFFERS FRONTIER PERFORMANCE IN CYBERSECURITY",
-        "hl": "FRONTIER PERFORMANCE IN CYBERSECURITY",
-        "hls": [
-          "FRONTIER PERFORMANCE"
-        ],
-        "sub": "This model enhances vulnerability detection and automated patching capabilities.",
-        "image_prompt": "A cybersecurity analyst monitoring multiple screens filled with dynamic security alerts and data feeds, showcasing a high-tech office environment."
-      },
-      {
-        "pill": "THE IMPACT \ud83d\udd11",
-        "headline": "BOTH MODELS LAUNCHED AT $0.75 PER MILLION INPUT TOKENS",
-        "hl": "LAUNCHED AT $0.75",
-        "hls": [
-          "$0.75",
-          "MILLION INPUT TOKENS"
-        ],
-        "sub": "They maintain the same introductory price as their predecessor, 3.7 Flash.",
-        "image_prompt": "An overhead view of a modern workspace with advanced computers and tech equipment, highlighting a productive atmosphere."
-      },
-      {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "GEMINI 3.8 MODELS USE LONG-RUNNING AGENTIC LOOPS FOR IMPROVEMENT",
-        "hl": "LONG-RUNNING AGENTIC LOOPS",
-        "hls": [
-          "LONG-RUNNING",
-          "AGENTIC LOOPS"
-        ],
-        "sub": "These loops recursively evaluate and refine the foundational intelligence.",
-        "image_prompt": "A silhouette of a person deep in thought, overlaid with flowing data streams and network visuals, symbolizing innovation in AI."
+        "sub": "This new model is set to enhance cybersecurity measures significantly.",
+        "image_prompt": "A futuristic server room filled with advanced AI computing systems, illuminated by soft blue lights, showing a diverse group of engineers collaborating on a computer."
       },
       {
         "pill": "",
-        "headline": "GEMINI 3.8 MODELS ARE A SIGNIFICANT STEP FORWARD IN AI CAPABILITIES",
-        "hl": "SIGNIFICANT STEP FORWARD",
+        "headline": "ASTRA IS DESIGNED TO IDENTIFY AND MITIGATE CYBER THREATS IN REAL TIME",
+        "hl": "IDENTIFY AND MITIGATE CYBER THREATS",
         "hls": [
-          "SIGNIFICANT STEP"
+          "CYBER THREATS"
         ],
-        "sub": "This advancement promises to enhance software engineering and cybersecurity.",
-        "image_prompt": "A futuristic city skyline at dusk, with digital elements and AI motifs subtly integrated into the architecture."
+        "sub": "This capability aims to protect businesses from potential cyber attacks.",
+        "image_prompt": "A close-up of a computer screen displaying cybersecurity analytics, with a focused cybersecurity analyst reviewing data."
+      },
+      {
+        "pill": "",
+        "headline": "INITIAL TESTING SHOWED A 95% SUCCESS RATE IN THREAT DETECTION",
+        "hl": "95% SUCCESS RATE",
+        "hls": [
+          "SUCCESS RATE"
+        ],
+        "sub": "Such accuracy could significantly improve threat management for organizations.",
+        "image_prompt": "An intense cybersecurity operation featuring a team of analysts monitoring threats on multiple screens."
+      },
+      {
+        "pill": "",
+        "headline": "OPENAI RECOMMENDS CAUTION DUE TO ITS ADVANCED CAPABILITIES",
+        "hl": "RECOMMENDS CAUTION",
+        "hls": [
+          "ADVANCED CAPABILITIES"
+        ],
+        "sub": "They emphasize responsible deployment to prevent misuse of the technology.",
+        "image_prompt": "A thoughtful cybersecurity expert pondering over a laptop, with digital threat maps displayed around."
+      },
+      {
+        "pill": "THE TAKEAWAY 525",
+        "headline": "ASTRA COULD BE A SIGNIFICANT TOOL FOR CYBERSECURITY AT SCALE",
+        "hl": "SIGNIFICANT TOOL",
+        "hls": [
+          "CYBERSECURITY AT SCALE"
+        ],
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A wide shot of a modern office space with teams discussing cybersecurity strategies, infused with high-tech elements."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+      "title": "OpenAI begins rolling out GPT-6 Astra",
+      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html"
     },
-    "date": "2026-09-03"
+    "date": "2026-09-04"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 738,
-  "resolved_at": "2026-09-03T09:56:19.387631Z"
+  "control_msg_id": 748
 }
