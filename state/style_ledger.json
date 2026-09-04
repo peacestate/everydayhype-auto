@@ -1,19 +1,6 @@
 [
   {
     "date": "2026-06-20",
-    "palette": "green",
-    "art_style": "neon glow synthwave, bloom, dark background",
-    "layout": "a",
-    "motifs": [
-      "A group of diverse researchers discussin",
-      "Close-up of a computer screen displaying",
-      "A vibrant classroom scene with students ",
-      "An outdoor setting where people are coll",
-      "A futuristic cityscape at night, illumin"
-    ]
-  },
-  {
-    "date": "2026-06-20",
     "palette": "amber",
     "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "b",
@@ -777,6 +764,19 @@
       "An overhead view of a modern workspace w",
       "A silhouette of a person deep in thought",
       "A futuristic city skyline at dusk, with "
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "palette": "blue",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "motifs": [
+      "A futuristic server room filled with adv",
+      "A close-up of a computer screen displayi",
+      "An intense cybersecurity operation featu",
+      "A thoughtful cybersecurity expert ponder",
+      "A wide shot of a modern office space wit"
     ]
   }
 ]
