@@ -1,81 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-04T03:52:51.568514Z",
+  "status": "pending",
+  "created_at": "2026-09-05T03:52:08.145733Z",
   "deadline_min": 120,
-  "caption": "OpenAI has officially begun rolling out its latest AI model, Astra, which is designed with advanced cyber capabilities. This development marks a significant step in AI technology and its applications in cybersecurity. 4a1680 \n\nWhat do you think about the implications of such powerful AI models? \n\nSources: CNBC",
+  "caption": "Nvidia has officially agreed to acquire Hugging Face for $12.9 billion, a significant move in AI expansion. The deal was facilitated after Hugging Face's CEO approached Nvidia weeks before the agreement. This acquisition aims to bolster Nvidia's capabilities in the AI sector. 9164b0\n\nShould more tech companies pursue acquisitions like this?\n\nSources: CNBC\n\n#Nvidia #HuggingFace #AI #TechNews #Acquisition #JensenHuang #Innovation #BusinessNews #ArtificialIntelligence #Investment #TechIndustry #Growth",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788493964/everydayhypehq/2026-09-04/035244_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788493965/everydayhypehq/2026-09-04/035244_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788493965/everydayhypehq/2026-09-04/035244_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788493966/everydayhypehq/2026-09-04/035244_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788493966/everydayhypehq/2026-09-04/035244_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788580319/everydayhypehq/2026-09-05/035158_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788580320/everydayhypehq/2026-09-05/035158_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788580321/everydayhypehq/2026-09-05/035158_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788580321/everydayhypehq/2026-09-05/035158_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788580322/everydayhypehq/2026-09-05/035158_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "caption": "OpenAI has officially begun rolling out its latest AI model, Astra, which is designed with advanced cyber capabilities. This development marks a significant step in AI technology and its applications in cybersecurity. 4a1680 \n\nWhat do you think about the implications of such powerful AI models? \n\nSources: CNBC",
+    "palette": "magenta",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "c",
+    "caption": "Nvidia has officially agreed to acquire Hugging Face for $12.9 billion, a significant move in AI expansion. The deal was facilitated after Hugging Face's CEO approached Nvidia weeks before the agreement. This acquisition aims to bolster Nvidia's capabilities in the AI sector. 9164b0\n\nShould more tech companies pursue acquisitions like this?\n\nSources: CNBC\n\n#Nvidia #HuggingFace #AI #TechNews #Acquisition #JensenHuang #Innovation #BusinessNews #ArtificialIntelligence #Investment #TechIndustry #Growth",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "OPENAI JUST LAUNCHED THE ASTRA MODEL TRAINED ON 1 TRILLION PARAMETERS",
-        "hl": "TRAINED ON 1 TRILLION PARAMETERS",
-        "hls": [
-          "1 TRILLION PARAMETERS"
-        ],
-        "sub": "This new model is set to enhance cybersecurity measures significantly.",
-        "image_prompt": "A futuristic server room filled with advanced AI computing systems, illuminated by soft blue lights, showing a diverse group of engineers collaborating on a computer."
+        "pill": "BREAKING f534",
+        "headline": "NVIDIA JUST AGREED TO ACQUIRE HUGGING FACE FOR $12.9 BILLION",
+        "hl": "ACQUIRE HUGGING FACE",
+        "hls": [],
+        "sub": "This acquisition marks a major investment in AI.",
+        "image_prompt": "A close-up of Jensen Huang smiling confidently in a modern office setting, surrounded by AI technology displays."
       },
       {
-        "pill": "",
-        "headline": "ASTRA IS DESIGNED TO IDENTIFY AND MITIGATE CYBER THREATS IN REAL TIME",
-        "hl": "IDENTIFY AND MITIGATE CYBER THREATS",
-        "hls": [
-          "CYBER THREATS"
-        ],
-        "sub": "This capability aims to protect businesses from potential cyber attacks.",
-        "image_prompt": "A close-up of a computer screen displaying cybersecurity analytics, with a focused cybersecurity analyst reviewing data."
+        "pill": "WHAT HAPPENED 1f6a1",
+        "headline": "Hugging Face's CEO APPROACHED NVIDIA WEEKS BEFORE THE DEAL",
+        "hl": "APPROACHED NVIDIA",
+        "hls": [],
+        "sub": "This initiative led to a swift negotiation process.",
+        "image_prompt": "A professional-looking office environment with a handshake between business executives, representing a successful negotiation."
       },
       {
-        "pill": "",
-        "headline": "INITIAL TESTING SHOWED A 95% SUCCESS RATE IN THREAT DETECTION",
-        "hl": "95% SUCCESS RATE",
-        "hls": [
-          "SUCCESS RATE"
-        ],
-        "sub": "Such accuracy could significantly improve threat management for organizations.",
-        "image_prompt": "An intense cybersecurity operation featuring a team of analysts monitoring threats on multiple screens."
+        "pill": "WHY IT MATTERS 1f01f7",
+        "headline": "THE ACQUISITION WILL STRENGTHEN NVIDIA'S AI CAPABILITIES",
+        "hl": "STRENGTHEN NVIDIA'S AI",
+        "hls": [],
+        "sub": "Nvidia is focused on enhancing its position in the AI market.",
+        "image_prompt": "An artistic representation of advanced AI technology, featuring neural networks and data processing imagery."
       },
       {
-        "pill": "",
-        "headline": "OPENAI RECOMMENDS CAUTION DUE TO ITS ADVANCED CAPABILITIES",
-        "hl": "RECOMMENDS CAUTION",
-        "hls": [
-          "ADVANCED CAPABILITIES"
-        ],
-        "sub": "They emphasize responsible deployment to prevent misuse of the technology.",
-        "image_prompt": "A thoughtful cybersecurity expert pondering over a laptop, with digital threat maps displayed around."
+        "pill": "THE TAKEAWAY 1f525",
+        "headline": "THIS DEAL COULD CHANGE THE LANDSCAPE OF AI DEVELOPMENT",
+        "hl": "CHANGE THE LANDSCAPE",
+        "hls": [],
+        "sub": "Nvidia's strategic move signals major shifts in the AI sector.",
+        "image_prompt": "A futuristic city skyline at dusk, symbolizing innovation and growth in technology."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "ASTRA COULD BE A SIGNIFICANT TOOL FOR CYBERSECURITY AT SCALE",
-        "hl": "SIGNIFICANT TOOL",
-        "hls": [
-          "CYBERSECURITY AT SCALE"
-        ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A wide shot of a modern office space with teams discussing cybersecurity strategies, infused with high-tech elements."
+        "pill": "THE IMPACT 1f10a",
+        "headline": "HUGGING FACE IS VALUED AT $12.9 BILLION AFTER THE DEAL",
+        "hl": "VALUED AT $12.9 BILLION",
+        "hls": [],
+        "sub": "This valuation reflects Hugging Face's significant market impact.",
+        "image_prompt": "An overhead view of a bustling tech conference, highlighting innovation and collaboration in AI."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "OpenAI begins rolling out GPT-6 Astra",
-      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html"
+      "title": "Nvidia to acquire Hugging Face",
+      "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
     },
-    "date": "2026-09-04"
+    "date": "2026-09-05"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 748,
-  "resolved_at": "2026-09-04T06:31:46.565459Z"
+  "control_msg_id": 755
 }
