@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-06-20",
-    "palette": "amber",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "motifs": [
-      "A close-up of a hand playing a video gam",
-      "A side-by-side shot of two gaming setups",
-      "An intense gaming scene showing a player",
-      "A person analyzing game statistics on a ",
-      "A group of diverse gamers discussing str"
-    ]
-  },
-  {
     "date": "2026-06-22",
     "palette": "blue",
     "art_style": "isometric miniature diorama, tilt-shift",
@@ -777,6 +764,19 @@
       "An intense cybersecurity operation featu",
       "A thoughtful cybersecurity expert ponder",
       "A wide shot of a modern office space wit"
+    ]
+  },
+  {
+    "date": "2026-09-05",
+    "palette": "magenta",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "c",
+    "motifs": [
+      "A close-up of Jensen Huang smiling confi",
+      "A professional-looking office environmen",
+      "An artistic representation of advanced A",
+      "A futuristic city skyline at dusk, symbo",
+      "An overhead view of a bustling tech conf"
     ]
   }
 ]
