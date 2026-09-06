@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-06-22",
-    "palette": "blue",
-    "art_style": "isometric miniature diorama, tilt-shift",
-    "layout": "a",
-    "motifs": [
-      "A vibrant, collaborative workspace with ",
-      "A close-up of a group of researchers fro",
-      "An illustration of a secure digital lock",
-      "An animated globe surrounded by diverse ",
-      "A futuristic city skyline with digital e"
-    ]
-  },
-  {
     "date": "2026-06-23",
     "palette": "magenta",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "An artistic representation of advanced A",
       "A futuristic city skyline at dusk, symbo",
       "An overhead view of a bustling tech conf"
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "palette": "cyan",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A high-tech data center with racks of se",
+      "A close-up of a computer screen displayi",
+      "A diverse group of people engaged in a b",
+      "A scientist in a lab coat examining a hi",
+      "An abstract representation of technology"
     ]
   }
 ]
