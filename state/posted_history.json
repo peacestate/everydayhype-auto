@@ -267,5 +267,9 @@
   {
     "date": "2026-09-06",
     "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s"
+  },
+  {
+    "date": "2026-09-07",
+    "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout"
   }
 ]

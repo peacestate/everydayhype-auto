@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-06-23",
-    "palette": "magenta",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "motifs": [
-      "A close-up of two engineers discussing p",
-      "An array of memory chips displayed on a ",
-      "A technician programming a machine in a ",
-      "A concerned group of analysts discussing",
-      "A bustling tech office environment with "
-    ]
-  },
-  {
     "date": "2026-06-24",
     "palette": "cyan",
     "art_style": "sleek 3D render, octane, glossy materials",
@@ -777,6 +764,19 @@
       "A diverse group of people engaged in a b",
       "A scientist in a lab coat examining a hi",
       "An abstract representation of technology"
+    ]
+  },
+  {
+    "date": "2026-09-07",
+    "palette": "red",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A close-up of a computer screen displayi",
+      "A group of cybersecurity experts discuss",
+      "A government meeting in progress, with o",
+      "An abstract representation of a futurist",
+      "A person reviewing AI security protocols"
     ]
   }
 ]
