@@ -1,77 +1,62 @@
 {
   "status": "pending",
-  "created_at": "2026-09-08T03:42:59.313058Z",
+  "created_at": "2026-09-08T03:45:54.239090Z",
   "deadline_min": 120,
-  "caption": "Insilico Medicine has made significant strides with its AI-designed drug, rentosertib, which shows potential in reversing biological aging. In a trial, patients demonstrated improved lung function and reduced biological age by up to six years according to six independent aging clocks. \ud83c\udf0d\ud83d\udc8a \n\nWhat could this mean for future treatments?  \n\nSources: The Decoder, Nature Biotechnology  \n#AI #healthtech #biotechnology #aging #pharmaceuticals #InsilicoMedicine #innovation #research #healthcare #drugdevelopment #biologicalclock",
+  "caption": "Insilico Medicine has reported promising results from a trial of their AI-designed drug, rentosertib, which shows potential to reverse biological aging. The drug was initially developed for idiopathic pulmonary fibrosis and demonstrated significant effects on lung function in earlier trials. This new research indicates that treated patients exhibited biological age reductions as predicted by six independent aging clocks.\n\nShould we be excited about AI\u2019s role in drug design?\n\nSources: Nature Biotechnology, Insilico Medicine, The Decoder\n\n#AI #Biotechnology #DrugDesign #HealthTech #InsilicoMedicine #Aging #MedicalResearch #Pharmaceuticals #Innovation #ClinicalTrials #Health",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788838964/everydayhypehq/2026-09-08/034243_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788838964/everydayhypehq/2026-09-08/034243_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788838965/everydayhypehq/2026-09-08/034243_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788838965/everydayhypehq/2026-09-08/034243_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788838966/everydayhypehq/2026-09-08/034243_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839148/everydayhypehq/2026-09-08/034548_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839149/everydayhypehq/2026-09-08/034548_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839149/everydayhypehq/2026-09-08/034548_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839150/everydayhypehq/2026-09-08/034548_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839150/everydayhypehq/2026-09-08/034548_slide_5.png"
   ],
   "plan": {
     "palette": "amber",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "art_style": "isometric miniature diorama, tilt-shift",
     "layout": "a",
     "person": "",
     "company": "Insilico Medicine",
-    "caption": "Insilico Medicine has made significant strides with its AI-designed drug, rentosertib, which shows potential in reversing biological aging. In a trial, patients demonstrated improved lung function and reduced biological age by up to six years according to six independent aging clocks. \ud83c\udf0d\ud83d\udc8a \n\nWhat could this mean for future treatments?  \n\nSources: The Decoder, Nature Biotechnology  \n#AI #healthtech #biotechnology #aging #pharmaceuticals #InsilicoMedicine #innovation #research #healthcare #drugdevelopment #biologicalclock",
+    "caption": "Insilico Medicine has reported promising results from a trial of their AI-designed drug, rentosertib, which shows potential to reverse biological aging. The drug was initially developed for idiopathic pulmonary fibrosis and demonstrated significant effects on lung function in earlier trials. This new research indicates that treated patients exhibited biological age reductions as predicted by six independent aging clocks.\n\nShould we be excited about AI\u2019s role in drug design?\n\nSources: Nature Biotechnology, Insilico Medicine, The Decoder\n\n#AI #Biotechnology #DrugDesign #HealthTech #InsilicoMedicine #Aging #MedicalResearch #Pharmaceuticals #Innovation #ClinicalTrials #Health",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "INSILICO MEDICINE'S AI-DRUG REVERSES BIOLOGICAL AGE BY UP TO 6 YEARS",
-        "hl": "REVERSES BIOLOGICAL AGE",
-        "hls": [
-          "REVERSES",
-          "BIOLOGICAL AGE"
-        ],
-        "sub": "Here's the breakthrough in biological aging research.",
-        "image_prompt": "A laboratory setting with scientists analyzing blood samples, showcasing a modern research environment with advanced technology and equipment."
+        "headline": "AI DESIGNED A DRUG THAT MAY REVERSE BIOLOGICAL AGING",
+        "hl": "REVERSE BIOLOGICAL AGING",
+        "hls": [],
+        "sub": "Here's the breakthrough in aging research.",
+        "image_prompt": "A close-up of a laboratory scene with scientists working on drug formulation, using advanced equipment."
       },
       {
         "pill": "",
-        "headline": "42 PATIENTS IN A TRIAL SHOWED IMPROVED LUNG FUNCTION WITH RENTOSERTIB",
+        "headline": "RESEARCHERS REPORTED A DROP OF UP TO 6 YEARS IN BIOLOGICAL AGE",
+        "hl": "DROP OF UP TO 6 YEARS",
+        "hls": [],
+        "sub": "Six aging clocks showed consistent results in treated patients.",
+        "image_prompt": "A dramatic macro shot of a blood sample being analyzed under a microscope with vibrant colors."
+      },
+      {
+        "pill": "",
+        "headline": "TRIAL INVOLVED 42 PATIENTS WITH IMPROVED LUNG FUNCTION",
         "hl": "IMPROVED LUNG FUNCTION",
-        "hls": [
-          "IMPROVED",
-          "LUNG FUNCTION"
-        ],
-        "sub": "The initial trial indicated promising respiratory benefits for patients.",
-        "image_prompt": "An elderly patient in a clinical setting interacting with a doctor, displaying hope and engagement while undergoing treatment."
+        "hls": [],
+        "sub": "These results were significant in early-stage testing.",
+        "image_prompt": "A focused image of a patient receiving treatment in a clinical setting, showing care and attention from medical staff."
       },
       {
         "pill": "",
-        "headline": "SIX INDEPENDENT AGING CLOCKS CONFIRMED LOWER BIOLOGICAL AGE IN PATIENTS",
-        "hl": "LOWER BIOLOGICAL AGE",
-        "hls": [
-          "LOWER",
-          "BIOLOGICAL AGE"
-        ],
-        "sub": "All models indicated a younger biological age for treated patients.",
-        "image_prompt": "A close-up of a researcher analyzing data on a computer screen, with graphs and protein analysis visible in a bright lab."
-      },
-      {
-        "pill": "",
-        "headline": "DATA SHOWS RENTOSERTIB REVERSED AGE-RELATED PROTEIN CHANGES",
-        "hl": "REVERSED AGE-RELATED CHANGES",
-        "hls": [
-          "REVERSED",
-          "AGE-RELATED"
-        ],
-        "sub": "The drug aligns with changes seen in over 55,000 profiles.",
-        "image_prompt": "A vibrant image of blood samples lined up in test tubes, with a focus on the scientific process of analysis in a laboratory."
+        "headline": "COMPARISONS MADE TO OVER 55,000 PROFILES FROM UK BIOBANK",
+        "hl": "OVER 55,000 PROFILES",
+        "hls": [],
+        "sub": "This analysis tracked protein changes associated with aging.",
+        "image_prompt": "An abstract close-up of protein analysis data being examined on a computer screen in a lab."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "THIS COULD SIGNAL A NEW FRONTIER IN AGE-RELATED TREATMENTS",
-        "hl": "NEW FRONTIER",
-        "hls": [
-          "NEW",
-          "FRONTIER"
-        ],
+        "headline": "THIS DRUG COULD CHANGE HOW WE UNDERSTAND AGING",
+        "hl": "CHANGE HOW WE UNDERSTAND AGING",
+        "hls": [],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A thoughtful scientist looking out of a laboratory window, pondering the implications of their research, with a backdrop of a city skyline."
+        "image_prompt": "A hopeful, inspiring shot of a diverse group of researchers celebrating a breakthrough in a lab."
       }
     ],
     "story": {
@@ -81,5 +66,5 @@
     "date": "2026-09-08"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 775
+  "control_msg_id": 781
 }
