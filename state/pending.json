@@ -1,64 +1,64 @@
 {
   "status": "pending",
-  "created_at": "2026-09-08T03:45:54.239090Z",
+  "created_at": "2026-09-08T03:49:09.641839Z",
   "deadline_min": 120,
-  "caption": "Insilico Medicine has reported promising results from a trial of their AI-designed drug, rentosertib, which shows potential to reverse biological aging. The drug was initially developed for idiopathic pulmonary fibrosis and demonstrated significant effects on lung function in earlier trials. This new research indicates that treated patients exhibited biological age reductions as predicted by six independent aging clocks.\n\nShould we be excited about AI\u2019s role in drug design?\n\nSources: Nature Biotechnology, Insilico Medicine, The Decoder\n\n#AI #Biotechnology #DrugDesign #HealthTech #InsilicoMedicine #Aging #MedicalResearch #Pharmaceuticals #Innovation #ClinicalTrials #Health",
+  "caption": "Insilico Medicine has reported promising results from their AI-designed drug, rentosertib, which shows potential in reversing biological aging. In a trial involving 42 patients, six independent aging clocks indicated that treated patients appeared biologically younger. This development could pave the way for further research in age-related diseases. 9e99ec50\n\nShould we be excited about these findings?\n\nSources: The Decoder, Nature Biotechnology\n#AI #Health #Biotechnology #InsilicoMedicine #Aging #DrugResearch #Innovation #BiologicalClock #MedicalResearch #HealthTech #Rentosertib #FutureOfMedicine",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839148/everydayhypehq/2026-09-08/034548_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839149/everydayhypehq/2026-09-08/034548_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839149/everydayhypehq/2026-09-08/034548_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839150/everydayhypehq/2026-09-08/034548_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839150/everydayhypehq/2026-09-08/034548_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839342/everydayhypehq/2026-09-08/034902_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839343/everydayhypehq/2026-09-08/034902_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839344/everydayhypehq/2026-09-08/034902_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839344/everydayhypehq/2026-09-08/034902_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788839345/everydayhypehq/2026-09-08/034902_slide_5.png"
   ],
   "plan": {
     "palette": "amber",
-    "art_style": "isometric miniature diorama, tilt-shift",
+    "art_style": "dramatic macro close-up, shallow depth",
     "layout": "a",
-    "person": "",
-    "company": "Insilico Medicine",
-    "caption": "Insilico Medicine has reported promising results from a trial of their AI-designed drug, rentosertib, which shows potential to reverse biological aging. The drug was initially developed for idiopathic pulmonary fibrosis and demonstrated significant effects on lung function in earlier trials. This new research indicates that treated patients exhibited biological age reductions as predicted by six independent aging clocks.\n\nShould we be excited about AI\u2019s role in drug design?\n\nSources: Nature Biotechnology, Insilico Medicine, The Decoder\n\n#AI #Biotechnology #DrugDesign #HealthTech #InsilicoMedicine #Aging #MedicalResearch #Pharmaceuticals #Innovation #ClinicalTrials #Health",
+    "caption": "Insilico Medicine has reported promising results from their AI-designed drug, rentosertib, which shows potential in reversing biological aging. In a trial involving 42 patients, six independent aging clocks indicated that treated patients appeared biologically younger. This development could pave the way for further research in age-related diseases. 9e99ec50\n\nShould we be excited about these findings?\n\nSources: The Decoder, Nature Biotechnology\n#AI #Health #Biotechnology #InsilicoMedicine #Aging #DrugResearch #Innovation #BiologicalClock #MedicalResearch #HealthTech #Rentosertib #FutureOfMedicine",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "AI DESIGNED A DRUG THAT MAY REVERSE BIOLOGICAL AGING",
-        "hl": "REVERSE BIOLOGICAL AGING",
+        "pill": "BREAKING 534",
+        "headline": "RESEARCHERS AT INSILICO MEDICINE JUST SHOWED A DRUG THAT REVERSES BIOLOGICAL AGING",
+        "hl": "REVERSES BIOLOGICAL AGING",
         "hls": [],
-        "sub": "Here's the breakthrough in aging research.",
-        "image_prompt": "A close-up of a laboratory scene with scientists working on drug formulation, using advanced equipment."
+        "sub": "Here's the breakthrough in age-related research.",
+        "image_prompt": "A close-up of a laboratory setting with scientists analyzing blood samples, focused expressions, and high-tech equipment in the background."
       },
       {
         "pill": "",
-        "headline": "RESEARCHERS REPORTED A DROP OF UP TO 6 YEARS IN BIOLOGICAL AGE",
-        "hl": "DROP OF UP TO 6 YEARS",
+        "headline": "42 PATIENTS IN A TRIAL SHOWED A DROP IN BIOLOGICAL AGE BY UP TO 6 YEARS",
+        "hl": "DROP IN BIOLOGICAL AGE",
         "hls": [],
-        "sub": "Six aging clocks showed consistent results in treated patients.",
-        "image_prompt": "A dramatic macro shot of a blood sample being analyzed under a microscope with vibrant colors."
+        "sub": "The strongest effect was seen after just four weeks.",
+        "image_prompt": "An image of a diverse group of patients in a clinical trial, receiving treatment in a calm, well-lit medical facility."
       },
       {
         "pill": "",
-        "headline": "TRIAL INVOLVED 42 PATIENTS WITH IMPROVED LUNG FUNCTION",
-        "hl": "IMPROVED LUNG FUNCTION",
+        "headline": "SIX INDEPENDENT AGING CLOCKS CONFIRMED THE RESULTS FROM DIFFERENT RESEARCH TEAMS",
+        "hl": "SIX INDEPENDENT AGING CLOCKS",
         "hls": [],
-        "sub": "These results were significant in early-stage testing.",
-        "image_prompt": "A focused image of a patient receiving treatment in a clinical setting, showing care and attention from medical staff."
+        "sub": "These models were developed at Harvard, Oxford, and Insilico.",
+        "image_prompt": "A macro shot of a complex data analysis screen, showing graphs and biological data, with a researcher reviewing the information."
       },
       {
         "pill": "",
-        "headline": "COMPARISONS MADE TO OVER 55,000 PROFILES FROM UK BIOBANK",
-        "hl": "OVER 55,000 PROFILES",
+        "headline": "THE DRUG TARGETS BLOOD PROTEINS, REVERSING AGE-RELATED CHANGES",
+        "hl": "REVERSING AGE-RELATED CHANGES",
         "hls": [],
-        "sub": "This analysis tracked protein changes associated with aging.",
-        "image_prompt": "An abstract close-up of protein analysis data being examined on a computer screen in a lab."
+        "sub": "This suggests a mechanism independent of lung function.",
+        "image_prompt": "A dramatic close-up of a blood sample being analyzed under a microscope, with vibrant colors highlighting the biological structures."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "THIS DRUG COULD CHANGE HOW WE UNDERSTAND AGING",
-        "hl": "CHANGE HOW WE UNDERSTAND AGING",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "RESEARCH SHOWS THIS DRUG MAY OFFER NEW INSIGHTS INTO AGING",
+        "hl": "NEW INSIGHTS INTO AGING",
         "hls": [],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A hopeful, inspiring shot of a diverse group of researchers celebrating a breakthrough in a lab."
+        "image_prompt": "An inspiring image of a sunrise over a city skyline, symbolizing hope and new beginnings in medical science."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
       "title": "AI-designed drug appears to turn back the body's biological clock in early trial",
       "url": "https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/"
@@ -66,5 +66,5 @@
     "date": "2026-09-08"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 781
+  "control_msg_id": 787
 }
