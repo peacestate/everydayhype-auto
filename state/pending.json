@@ -1,70 +1,82 @@
 {
   "status": "pending",
-  "created_at": "2026-09-09T03:42:44.666798Z",
+  "created_at": "2026-09-10T03:43:32.430275Z",
   "deadline_min": 120,
-  "caption": "Mistral AI has secured a record-breaking 3 billion euros in its Series D funding round, marking the largest tech funding in Europe. The financing led by Samsung Electronics has propelled Mistral's valuation to over 21 billion euros just three years post-launch. Despite this success, Mistral's AI models lag behind competitors. \ud83e\udd16\ud83d\udcb0\n\nCan Mistral AI catch up with its rivals?\n\nSources: The Decoder, Mistral AI, EQT\n\n#MistralAI #Funding #TechNews #Innovation #AI #Startups #EuropeanTech #Investment #FundingRound",
+  "caption": "Meta has launched Muse, a personal AI agent designed to assist users in various tasks. Muse operates on a secure virtual machine, utilizing advanced features to enhance productivity and ensure privacy. With capabilities like booking appointments and filling out forms, it aims to streamline everyday activities. \n\nWhat tasks would you want a personal AI to handle for you? \n\nSources: Meta",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788925356/everydayhypehq/2026-09-09/034236_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788925357/everydayhypehq/2026-09-09/034236_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788925358/everydayhypehq/2026-09-09/034236_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788925358/everydayhypehq/2026-09-09/034236_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1788925359/everydayhypehq/2026-09-09/034236_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789011805/everydayhypehq/2026-09-10/034325_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789011806/everydayhypehq/2026-09-10/034325_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789011806/everydayhypehq/2026-09-10/034325_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789011807/everydayhypehq/2026-09-10/034325_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789011807/everydayhypehq/2026-09-10/034325_slide_5.png"
   ],
   "plan": {
     "palette": "amber",
-    "art_style": "dramatic macro close-up, shallow depth",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "a",
-    "person": "",
-    "company": "Mistral AI",
-    "caption": "Mistral AI has secured a record-breaking 3 billion euros in its Series D funding round, marking the largest tech funding in Europe. The financing led by Samsung Electronics has propelled Mistral's valuation to over 21 billion euros just three years post-launch. Despite this success, Mistral's AI models lag behind competitors. \ud83e\udd16\ud83d\udcb0\n\nCan Mistral AI catch up with its rivals?\n\nSources: The Decoder, Mistral AI, EQT\n\n#MistralAI #Funding #TechNews #Innovation #AI #Startups #EuropeanTech #Investment #FundingRound",
+    "caption": "Meta has launched Muse, a personal AI agent designed to assist users in various tasks. Muse operates on a secure virtual machine, utilizing advanced features to enhance productivity and ensure privacy. With capabilities like booking appointments and filling out forms, it aims to streamline everyday activities. \n\nWhat tasks would you want a personal AI to handle for you? \n\nSources: Meta",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "MISTRAL AI RAISES 3 BILLION EUROS IN EUROPE'S LARGEST TECH FUNDING ROUND",
-        "hl": "EUROPE'S LARGEST TECH FUNDING ROUND",
-        "hls": [],
-        "sub": "Here's the record-breaking funding news.",
-        "image_prompt": "A macro close-up of a business meeting with people discussing over a table filled with documents and a laptop, showcasing a sense of urgency and excitement."
+        "pill": "BREAKING 534",
+        "headline": "META JUST LAUNCHED MUSE 4bb YOUR PERSONAL AI AGENT",
+        "hl": "YOUR PERSONAL AI AGENT",
+        "hls": [
+          "YOUR PERSONAL AI"
+        ],
+        "sub": "Muse is designed to take the busywork off your plate.",
+        "image_prompt": "A close-up of a person interacting with a smartphone, showing focused facial expressions, in a cozy, well-lit living room setting."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "SAMGSUNG ELECTRONICS LEADS THE 3 BILLION EURO FUNDING ROUND FOR MISTRAL AI",
-        "hl": "LEADS THE 3 BILLION EURO FUNDING ROUND",
-        "hls": [],
-        "sub": "This funding pushes Mistral's valuation past 21 billion euros.",
-        "image_prompt": "A close-up of a Samsung logo on a device, with blurred business professionals in the background, indicating a corporate partnership."
+        "pill": "",
+        "headline": "MUSE OPERATES ON A DEDICATED VIRTUAL MACHINE",
+        "hl": "DEDICATED VIRTUAL MACHINE",
+        "hls": [
+          "DEDICATED VIRTUAL MACHINE"
+        ],
+        "sub": "It runs on a secure environment, prioritizing your privacy and control.",
+        "image_prompt": "A dramatic shot of a sleek computer setup with glowing elements, showcasing a virtual interface in use."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "MISTRAL AI NOW VALUED AT OVER 21 BILLION EUROS JUST THREE YEARS AFTER LAUNCH",
-        "hl": "VALUED AT OVER 21 BILLION EUROS",
-        "hls": [],
-        "sub": "The valuation has roughly doubled since last year.",
-        "image_prompt": "A dramatic macro shot of a financial document showing growth charts and figures, with a hand pointing at a rising statistic."
+        "pill": "",
+        "headline": "BOOK APPOINTMENTS AND FILL OUT FORMS EASILY",
+        "hl": "FILL OUT FORMS EASILY",
+        "hls": [
+          "BOOK APPOINTMENTS",
+          "FILL OUT FORMS"
+        ],
+        "sub": "Muse can handle customer service tasks efficiently.",
+        "image_prompt": "A person smiling while using a laptop at a caf, with a coffee cup and notepad on the table."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "MISTRAL AI OPERATES IN 20 COUNTRIES, SERVING OVER 125 COMPANIES",
-        "hl": "SERVING OVER 125 COMPANIES",
-        "hls": [],
-        "sub": "Notable clients include Airbus, ASML, and HSBC.",
-        "image_prompt": "A close-up of diverse employees from different cultures collaborating in an office environment, symbolizing global reach."
+        "pill": "",
+        "headline": "STRONG PRIVACY AND SECURITY BUILT IN",
+        "hl": "PRIVACY AND SECURITY BUILT IN",
+        "hls": [
+          "PRIVACY",
+          "SECURITY"
+        ],
+        "sub": "Muse ensures that you remain in control of your data.",
+        "image_prompt": "A close-up of a person's hands typing on a laptop keyboard, with a secure lock symbol digitally overlayed."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "MISTRAL AI'S FUNDING COMES DESPITE LAGGING BEHIND RIVALS IN AI PERFORMANCE",
-        "hl": "LAGGING BEHIND RIVALS",
-        "hls": [],
+        "pill": "THE TAKEAWAY 525",
+        "headline": "MUSE AIMS TO SIMPLIFY YOUR LIFE WITH AI",
+        "hl": "SIMPLIFY YOUR LIFE",
+        "hls": [
+          "SIMPLIFY YOUR LIFE"
+        ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A close-up of a person contemplating in an office setting, looking out a window, suggesting reflection on competition and strategy."
+        "image_prompt": "An engaging scene of a person relaxed and enjoying leisure time, with technology subtly integrated into their environment."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
-      "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/"
+      "title": "Muse \u2013 Meta\u2019s personal AI agent",
+      "url": "https://ai.meta.com/muse/"
     },
-    "date": "2026-09-09"
+    "date": "2026-09-10"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 793
+  "control_msg_id": 799
 }
