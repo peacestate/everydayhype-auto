@@ -1,77 +1,77 @@
 {
   "status": "pending",
-  "created_at": "2026-09-12T03:52:03.435491Z",
+  "created_at": "2026-09-12T05:31:39.788777Z",
   "deadline_min": 120,
-  "caption": "OpenAI has launched its new Agents API in public beta, designed to empower developers with advanced capabilities. This infrastructure will leverage the technology behind Codex and ChatGPT, enabling the creation of versatile cloud-based agents. \ud83d\ude80\ud83d\udcbb\n\nWhat features are you most excited about?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #AgentsAPI #Codex #ChatGPT #AI #TechNews #Developers #Innovation #CloudComputing #PublicBeta #AIInfrastructure",
+  "caption": "OpenAI has launched the Agents API in public beta, enabling developers to create powerful cloud-based agents that can run for hours and execute tasks effectively. This new infrastructure supports tools that enhance coding and automation capabilities. \ud83c\udf10\ud83d\udcbb\n\nWhat do you think this means for developers?\n\nSources: The Decoder, OpenAI\n#OpenAI #AgentsAPI #AI #TechNews #Development #CloudComputing #Automation #Codex #ChatGPT #Innovation #PublicBeta #TechBreakthroughs",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789185117/everydayhypehq/2026-09-12/035156_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789185117/everydayhypehq/2026-09-12/035156_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789185118/everydayhypehq/2026-09-12/035156_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789185118/everydayhypehq/2026-09-12/035156_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789185119/everydayhypehq/2026-09-12/035156_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789191091/everydayhypehq/2026-09-12/053130_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789191091/everydayhypehq/2026-09-12/053130_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789191092/everydayhypehq/2026-09-12/053130_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789191093/everydayhypehq/2026-09-12/053130_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789191094/everydayhypehq/2026-09-12/053130_slide_5.png"
   ],
   "plan": {
     "palette": "amber",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "art_style": "isometric miniature diorama, tilt-shift",
     "layout": "a",
     "person": "",
     "company": "OpenAI",
-    "caption": "OpenAI has launched its new Agents API in public beta, designed to empower developers with advanced capabilities. This infrastructure will leverage the technology behind Codex and ChatGPT, enabling the creation of versatile cloud-based agents. \ud83d\ude80\ud83d\udcbb\n\nWhat features are you most excited about?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #AgentsAPI #Codex #ChatGPT #AI #TechNews #Developers #Innovation #CloudComputing #PublicBeta #AIInfrastructure",
+    "caption": "OpenAI has launched the Agents API in public beta, enabling developers to create powerful cloud-based agents that can run for hours and execute tasks effectively. This new infrastructure supports tools that enhance coding and automation capabilities. \ud83c\udf10\ud83d\udcbb\n\nWhat do you think this means for developers?\n\nSources: The Decoder, OpenAI\n#OpenAI #AgentsAPI #AI #TechNews #Development #CloudComputing #Automation #Codex #ChatGPT #Innovation #PublicBeta #TechBreakthroughs",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "OPENAI JUST RELEASED A PUBLIC BETA FOR ITS AGENTS API",
-        "hl": "PUBLIC BETA",
+        "headline": "OPENAI JUST RELEASED THE AGENTS API FOR DEVELOPERS TO BUILD POWERFUL TOOLS",
+        "hl": "AGENTS API",
         "hls": [
           "AGENTS API",
-          "OPENAI JUST RELEASED"
+          "POWERFUL TOOLS"
         ],
-        "sub": "This API lets developers build cloud-based agents that run for hours.",
-        "image_prompt": "A developer working on a laptop in a modern office, focused and engaged with code on the screen, with ambient lighting."
+        "sub": "This new API enables developers to create cloud-based agents.",
+        "image_prompt": "A close-up of a developer's hands typing on a laptop, with a focus on the keyboard and screen, suggesting coding and innovation."
       },
       {
         "pill": "WHAT HAPPENED \u26a1",
-        "headline": "THE AGENTS API RUNS ON THE SAME INFRASTRUCTURE AS CODEX AND CHATGPT",
-        "hl": "SAME INFRASTRUCTURE",
+        "headline": "DEVELOPERS CAN RUN AGENTS FOR HOURS, EXECUTE CODE, AND PROCESS FILES",
+        "hl": "RUN AGENTS FOR HOURS",
         "hls": [
-          "AGENTS API",
-          "CODEX AND CHATGPT"
+          "RUN AGENTS",
+          "EXECUTE CODE"
         ],
-        "sub": "It includes features like automatic context management and parallel tool use.",
-        "image_prompt": "Close-up of a computer code on a screen, with a hand typing on a keyboard, conveying a sense of coding and technology."
+        "sub": "The API runs on the same infrastructure that powers Codex and ChatGPT.",
+        "image_prompt": "An overhead shot of a coding environment, showcasing multiple screens with code and digital interfaces."
       },
       {
         "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "DEVELOPERS CAN CHOOSE BETWEEN OPENAI-HOSTED OR PARTNER PLATFORMS",
-        "hl": "OPENAI-HOSTED OR PARTNER PLATFORMS",
+        "headline": "OPENAI PROVIDES OPTIONS WITH HOSTED SANDBOXES AND PARTNER PLATFORMS",
+        "hl": "HOSTED SANDBOXES",
         "hls": [
-          "DEVELOPERS CAN CHOOSE",
-          "OPENAI-HOSTED"
+          "HOSTED SANDBOXES",
+          "PARTNER PLATFORMS"
         ],
-        "sub": "Partners include Cloudflare, Vercel, and Oracle, with no extra fees.",
-        "image_prompt": "A team of diverse developers collaborating around a table with laptops, discussing and pointing at code on a screen."
+        "sub": "No extra fees; billing is based solely on token usage.",
+        "image_prompt": "A collaborative workspace with developers discussing and pointing at a digital whiteboard filled with ideas."
       },
       {
         "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "BILLING FOR THE API IS BASED SOLELY ON TOKEN USAGE",
-        "hl": "BASED SOLELY ON TOKEN USAGE",
+        "headline": "THE API INCLUDES AUTOMATIC CONTEXT MANAGEMENT AND TASK DELEGATION",
+        "hl": "AUTOMATIC CONTEXT MANAGEMENT",
         "hls": [
-          "BILLING FOR THE API",
-          "TOKEN USAGE"
+          "AUTOMATIC CONTEXT",
+          "TASK DELEGATION"
         ],
-        "sub": "This makes it accessible for a range of projects and budgets.",
-        "image_prompt": "A person analyzing data on a laptop with charts in the background, indicating financial analysis in tech."
+        "sub": "It builds on the open-source Codex harness for enhanced capabilities.",
+        "image_prompt": "A close-up of a computer screen displaying code being executed, with a focus on the results and data flow."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "AND IT OFFERS CAPABILITIES FOR DELEGATING TASKS TO SUB-AGENTS",
-        "hl": "DELEGATING TASKS TO SUB-AGENTS",
+        "headline": "THIS API COULD SIGNIFICANTLY BOOST DEVELOPMENT EFFICIENCY FOR CODERS",
+        "hl": "BOOST DEVELOPMENT EFFICIENCY",
         "hls": [
-          "CAPABILITIES FOR DELEGATING",
-          "SUB-AGENTS"
+          "BOOST EFFICIENCY",
+          "CODERS"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "An abstract representation of interconnected agents and tasks, symbolizing automation and AI delegation."
+        "image_prompt": "A team of diverse developers celebrating a successful project launch with laptops and coffee in a modern office setting."
       }
     ],
     "story": {
@@ -81,5 +81,5 @@
     "date": "2026-09-12"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 817
+  "control_msg_id": 823
 }
