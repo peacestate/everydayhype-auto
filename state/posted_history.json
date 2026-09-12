@@ -271,5 +271,9 @@
   {
     "date": "2026-09-07",
     "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout"
+  },
+  {
+    "date": "2026-09-12",
+    "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT"
   }
 ]

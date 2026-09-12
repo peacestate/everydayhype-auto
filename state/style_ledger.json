@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-06-24",
-    "palette": "cyan",
-    "art_style": "sleek 3D render, octane, glossy materials",
-    "layout": "b",
-    "motifs": [
-      "A sleek, modern office environment with ",
-      "A close-up shot of a computer screen wit",
-      "A group of diverse cybersecurity experts",
-      "An abstract representation of cybersecur",
-      "A futuristic portrayal of AI technology "
-    ]
-  },
-  {
     "date": "2026-06-25",
     "palette": "red",
     "art_style": "isometric miniature diorama, tilt-shift",
@@ -777,6 +764,19 @@
       "A government meeting in progress, with o",
       "An abstract representation of a futurist",
       "A person reviewing AI security protocols"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "palette": "amber",
+    "art_style": "isometric miniature diorama, tilt-shift",
+    "layout": "a",
+    "motifs": [
+      "A close-up of a developer's hands typing",
+      "An overhead shot of a coding environment",
+      "A collaborative workspace with developer",
+      "A close-up of a computer screen displayi",
+      "A team of diverse developers celebrating"
     ]
   }
 ]
