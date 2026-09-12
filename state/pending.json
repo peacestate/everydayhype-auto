@@ -1,85 +1,85 @@
 {
   "status": "pending",
-  "created_at": "2026-09-11T03:43:54.666161Z",
+  "created_at": "2026-09-12T03:52:03.435491Z",
   "deadline_min": 120,
-  "caption": "OpenAI has introduced the GPT-Live-1 API, enabling developers to create applications that can simultaneously talk and listen. This new speech model can enhance user interactions, as seen with Yelp's improved call handling. With full-duplex capabilities, GPT-Live-1 outperforms its predecessors significantly in various benchmarks. \n\nAre you excited about the potential of live interaction with AI?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #GPTLive1 #AI #Technology #SpeechRecognition #Developers #Innovation #Yelp #TechNews #VoiceAI #APIs #FullDuplex",
+  "caption": "OpenAI has launched its new Agents API in public beta, designed to empower developers with advanced capabilities. This infrastructure will leverage the technology behind Codex and ChatGPT, enabling the creation of versatile cloud-based agents. \ud83d\ude80\ud83d\udcbb\n\nWhat features are you most excited about?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #AgentsAPI #Codex #ChatGPT #AI #TechNews #Developers #Innovation #CloudComputing #PublicBeta #AIInfrastructure",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789098226/everydayhypehq/2026-09-11/034345_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789098227/everydayhypehq/2026-09-11/034345_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789098228/everydayhypehq/2026-09-11/034345_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789098228/everydayhypehq/2026-09-11/034345_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789098229/everydayhypehq/2026-09-11/034345_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789185117/everydayhypehq/2026-09-12/035156_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789185117/everydayhypehq/2026-09-12/035156_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789185118/everydayhypehq/2026-09-12/035156_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789185118/everydayhypehq/2026-09-12/035156_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789185119/everydayhypehq/2026-09-12/035156_slide_5.png"
   ],
   "plan": {
     "palette": "amber",
-    "art_style": "dramatic macro close-up, shallow depth",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "a",
-    "caption": "OpenAI has introduced the GPT-Live-1 API, enabling developers to create applications that can simultaneously talk and listen. This new speech model can enhance user interactions, as seen with Yelp's improved call handling. With full-duplex capabilities, GPT-Live-1 outperforms its predecessors significantly in various benchmarks. \n\nAre you excited about the potential of live interaction with AI?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #GPTLive1 #AI #Technology #SpeechRecognition #Developers #Innovation #Yelp #TechNews #VoiceAI #APIs #FullDuplex",
+    "person": "",
+    "company": "OpenAI",
+    "caption": "OpenAI has launched its new Agents API in public beta, designed to empower developers with advanced capabilities. This infrastructure will leverage the technology behind Codex and ChatGPT, enabling the creation of versatile cloud-based agents. \ud83d\ude80\ud83d\udcbb\n\nWhat features are you most excited about?\n\nSources: The Decoder, OpenAI\n\n#OpenAI #AgentsAPI #Codex #ChatGPT #AI #TechNews #Developers #Innovation #CloudComputing #PublicBeta #AIInfrastructure",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "OPENAI JUST LAUNCHED GPT-LIVE-1 API FOR SIMULTANEOUS TALKING AND LISTENING",
-        "hl": "SIMULTANEOUS TALKING AND LISTENING",
+        "headline": "OPENAI JUST RELEASED A PUBLIC BETA FOR ITS AGENTS API",
+        "hl": "PUBLIC BETA",
         "hls": [
-          "GPT-LIVE-1 API",
-          "OPENAI JUST LAUNCHED"
+          "AGENTS API",
+          "OPENAI JUST RELEASED"
         ],
-        "sub": "Here's what you need to know about this new technology.",
-        "image_prompt": "A close-up of a developer's hands typing on a laptop, with code visible on the screen, in a modern workspace."
+        "sub": "This API lets developers build cloud-based agents that run for hours.",
+        "image_prompt": "A developer working on a laptop in a modern office, focused and engaged with code on the screen, with ambient lighting."
       },
       {
-        "pill": "",
-        "headline": "Yelp IS USING GPT-LIVE-1 FOR IMPROVED PHONE-BASED RESERVATIONS",
-        "hl": "IMPROVED PHONE-BASED RESERVATIONS",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "THE AGENTS API RUNS ON THE SAME INFRASTRUCTURE AS CODEX AND CHATGPT",
+        "hl": "SAME INFRASTRUCTURE",
         "hls": [
-          "Yelp IS USING",
-          "PHONE-BASED RESERVATIONS"
+          "AGENTS API",
+          "CODEX AND CHATGPT"
         ],
-        "sub": "CTO Alex Levy reports better call handling results with the model.",
-        "image_prompt": "A customer service representative speaking on a phone in a busy restaurant environment, with a warm ambiance."
+        "sub": "It includes features like automatic context management and parallel tool use.",
+        "image_prompt": "Close-up of a computer code on a screen, with a hand typing on a keyboard, conveying a sense of coding and technology."
       },
       {
-        "pill": "",
-        "headline": "GPT-LIVE-1 SCORES 80.1% IN FULL-DUPLEX INTERACTIVITY TESTS",
-        "hl": "FULL-DUPLEX INTERACTIVITY TESTS",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "DEVELOPERS CAN CHOOSE BETWEEN OPENAI-HOSTED OR PARTNER PLATFORMS",
+        "hl": "OPENAI-HOSTED OR PARTNER PLATFORMS",
         "hls": [
-          "SCORES 80.1%",
-          "INTERACTIVITY TESTS"
+          "DEVELOPERS CAN CHOOSE",
+          "OPENAI-HOSTED"
         ],
-        "sub": "This is a significant improvement over the previous model's 45.4% score.",
-        "image_prompt": "A close-up of a digital display showcasing a performance metric, with a focused and dynamic atmosphere."
+        "sub": "Partners include Cloudflare, Vercel, and Oracle, with no extra fees.",
+        "image_prompt": "A team of diverse developers collaborating around a table with laptops, discussing and pointing at code on a screen."
       },
       {
-        "pill": "",
-        "headline": "TOOL-CALLING ACCURACY JUMPS TO 87% WITH GPT-LIVE-1",
-        "hl": "TOOL-CALLING ACCURACY",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "BILLING FOR THE API IS BASED SOLELY ON TOKEN USAGE",
+        "hl": "BASED SOLELY ON TOKEN USAGE",
         "hls": [
-          "JUMPS TO 87%",
-          "WITH GPT-LIVE-1"
+          "BILLING FOR THE API",
+          "TOKEN USAGE"
         ],
-        "sub": "This is a rise from just 60% in earlier versions.",
-        "image_prompt": "An AI assistant interface on a smartphone screen, displaying various voice options and features."
+        "sub": "This makes it accessible for a range of projects and budgets.",
+        "image_prompt": "A person analyzing data on a laptop with charts in the background, indicating financial analysis in tech."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "GPT-LIVE-1 OFFERS 12 NEW VOICES AND REDUCED LATENCY TO 0.8 SECONDS",
-        "hl": "12 NEW VOICES",
+        "headline": "AND IT OFFERS CAPABILITIES FOR DELEGATING TASKS TO SUB-AGENTS",
+        "hl": "DELEGATING TASKS TO SUB-AGENTS",
         "hls": [
-          "REDUCED LATENCY",
-          "0.8 SECONDS"
+          "CAPABILITIES FOR DELEGATING",
+          "SUB-AGENTS"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A wide shot of a diverse group of people engaging in a discussion, showcasing various accents and languages."
+        "image_prompt": "An abstract representation of interconnected agents and tasks, symbolizing automation and AI delegation."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time",
-      "url": "https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time/"
+      "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
+      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/"
     },
-    "date": "2026-09-11"
+    "date": "2026-09-12"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 805
+  "control_msg_id": 817
 }
