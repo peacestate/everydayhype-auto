@@ -1,19 +1,6 @@
 [
   {
     "date": "2026-06-25",
-    "palette": "red",
-    "art_style": "isometric miniature diorama, tilt-shift",
-    "layout": "a",
-    "motifs": [
-      "A close-up of a futuristic semiconductor",
-      "An engineer analyzing a computer motherb",
-      "A group of researchers discussing data i",
-      "A high-tech manufacturing facility with ",
-      "A visionary shot of a city skyline at du"
-    ]
-  },
-  {
-    "date": "2026-06-25",
     "palette": "purple",
     "art_style": "dramatic macro close-up, shallow depth",
     "layout": "c",
@@ -777,6 +764,19 @@
       "A collaborative workspace with developer",
       "A close-up of a computer screen displayi",
       "A team of diverse developers celebrating"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "palette": "purple",
+    "art_style": "dramatic macro close-up, shallow depth",
+    "layout": "a",
+    "motifs": [
+      "A close-up shot of a robot arm manipulat",
+      "A dramatic close-up of a robotic hand re",
+      "An overhead view of a robotics testing s",
+      "A thoughtful researcher in a lab, observ",
+      "A futuristic lab scene with robots and 3"
     ]
   }
 ]
