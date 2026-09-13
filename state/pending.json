@@ -1,86 +1,84 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-12T05:31:39.788777Z",
+  "status": "pending",
+  "created_at": "2026-09-13T06:03:05.227024Z",
   "deadline_min": 120,
-  "caption": "OpenAI has launched the Agents API in public beta, enabling developers to create powerful cloud-based agents that can run for hours and execute tasks effectively. This new infrastructure supports tools that enhance coding and automation capabilities. \ud83c\udf10\ud83d\udcbb\n\nWhat do you think this means for developers?\n\nSources: The Decoder, OpenAI\n#OpenAI #AgentsAPI #AI #TechNews #Development #CloudComputing #Automation #Codex #ChatGPT #Innovation #PublicBeta #TechBreakthroughs",
+  "caption": "OpenAI's latest model, GPT-6 Astra, shows significant advancements in spatial reasoning. In trials against Ai2's MolmoAct2, Astra completed 7 out of 100 tasks, while its competitor finished none. The implications for robotics and AI applications are profound. \ud83e\udd16\u2728\n\nShould we expect more breakthroughs like this?\n\nSources: The Decoder\n#OpenAI #GPT6 #AI #Robotics #Technology #Innovation #ArtificialIntelligence #MachineLearning #SpatialReasoning #Benchmark",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789191091/everydayhypehq/2026-09-12/053130_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789191091/everydayhypehq/2026-09-12/053130_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789191092/everydayhypehq/2026-09-12/053130_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789191093/everydayhypehq/2026-09-12/053130_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789191094/everydayhypehq/2026-09-12/053130_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789279378/everydayhypehq/2026-09-13/060258_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789279379/everydayhypehq/2026-09-13/060258_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789279379/everydayhypehq/2026-09-13/060258_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789279380/everydayhypehq/2026-09-13/060258_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789279380/everydayhypehq/2026-09-13/060258_slide_5.png"
   ],
   "plan": {
-    "palette": "amber",
-    "art_style": "isometric miniature diorama, tilt-shift",
+    "palette": "purple",
+    "art_style": "dramatic macro close-up, shallow depth",
     "layout": "a",
     "person": "",
     "company": "OpenAI",
-    "caption": "OpenAI has launched the Agents API in public beta, enabling developers to create powerful cloud-based agents that can run for hours and execute tasks effectively. This new infrastructure supports tools that enhance coding and automation capabilities. \ud83c\udf10\ud83d\udcbb\n\nWhat do you think this means for developers?\n\nSources: The Decoder, OpenAI\n#OpenAI #AgentsAPI #AI #TechNews #Development #CloudComputing #Automation #Codex #ChatGPT #Innovation #PublicBeta #TechBreakthroughs",
+    "caption": "OpenAI's latest model, GPT-6 Astra, shows significant advancements in spatial reasoning. In trials against Ai2's MolmoAct2, Astra completed 7 out of 100 tasks, while its competitor finished none. The implications for robotics and AI applications are profound. \ud83e\udd16\u2728\n\nShould we expect more breakthroughs like this?\n\nSources: The Decoder\n#OpenAI #GPT6 #AI #Robotics #Technology #Innovation #ArtificialIntelligence #MachineLearning #SpatialReasoning #Benchmark",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "OPENAI JUST RELEASED THE AGENTS API FOR DEVELOPERS TO BUILD POWERFUL TOOLS",
-        "hl": "AGENTS API",
+        "headline": "GPT-6 ASTRA COMPLETES 7 OUT OF 100 ROBOTICS TASKS",
+        "hl": "7 OUT OF 100",
         "hls": [
-          "AGENTS API",
-          "POWERFUL TOOLS"
+          "7",
+          "100"
         ],
-        "sub": "This new API enables developers to create cloud-based agents.",
-        "image_prompt": "A close-up of a developer's hands typing on a laptop, with a focus on the keyboard and screen, suggesting coding and innovation."
+        "sub": "Here's what you need to know.",
+        "image_prompt": "A close-up shot of a robot arm manipulating objects on a desk, with a focus on precision and technology."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "DEVELOPERS CAN RUN AGENTS FOR HOURS, EXECUTE CODE, AND PROCESS FILES",
-        "hl": "RUN AGENTS FOR HOURS",
+        "pill": "",
+        "headline": "MOLMOACT2 COMPLETED ZERO TASKS IN THE SAME TRIALS",
+        "hl": "COMPLETED ZERO TASKS",
         "hls": [
-          "RUN AGENTS",
-          "EXECUTE CODE"
+          "COMPLETED ZERO",
+          "TASKS"
         ],
-        "sub": "The API runs on the same infrastructure that powers Codex and ChatGPT.",
-        "image_prompt": "An overhead shot of a coding environment, showcasing multiple screens with code and digital interfaces."
+        "sub": "Astra shows clear superiority in performance against its competitor.",
+        "image_prompt": "A dramatic close-up of a robotic hand reaching for an object, showcasing advanced technology in action."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "OPENAI PROVIDES OPTIONS WITH HOSTED SANDBOXES AND PARTNER PLATFORMS",
-        "hl": "HOSTED SANDBOXES",
+        "pill": "",
+        "headline": "ASTRA'S MEDIAN PROGRESS SCORE REACHED 46 OUT OF 100",
+        "hl": "46 OUT OF 100",
         "hls": [
-          "HOSTED SANDBOXES",
-          "PARTNER PLATFORMS"
+          "46",
+          "100"
         ],
-        "sub": "No extra fees; billing is based solely on token usage.",
-        "image_prompt": "A collaborative workspace with developers discussing and pointing at a digital whiteboard filled with ideas."
+        "sub": "This score highlights a significant leap in capabilities.",
+        "image_prompt": "An overhead view of a robotics testing setup, with various objects scattered on a table."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "THE API INCLUDES AUTOMATIC CONTEXT MANAGEMENT AND TASK DELEGATION",
-        "hl": "AUTOMATIC CONTEXT MANAGEMENT",
+        "pill": "",
+        "headline": "AI RESEARCHER YOAV ARTZI CALLS ASTRA A 'STEP CHANGE'",
+        "hl": "STEP CHANGE",
         "hls": [
-          "AUTOMATIC CONTEXT",
-          "TASK DELEGATION"
+          "STEP CHANGE"
         ],
-        "sub": "It builds on the open-source Codex harness for enhanced capabilities.",
-        "image_prompt": "A close-up of a computer screen displaying code being executed, with a focus on the results and data flow."
+        "sub": "His insights suggest a breakthrough in spatial reasoning abilities.",
+        "image_prompt": "A thoughtful researcher in a lab, observing a robotic experiment with a focus on innovation."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "THIS API COULD SIGNIFICANTLY BOOST DEVELOPMENT EFFICIENCY FOR CODERS",
-        "hl": "BOOST DEVELOPMENT EFFICIENCY",
+        "headline": "GPT-6 ASTRA MAY REACH NEAR HUMAN ACCURACY IN 3D TASKS",
+        "hl": "NEAR HUMAN ACCURACY",
         "hls": [
-          "BOOST EFFICIENCY",
-          "CODERS"
+          "NEAR",
+          "HUMAN ACCURACY"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A team of diverse developers celebrating a successful project launch with laptops and coffee in a modern office setting."
+        "image_prompt": "A futuristic lab scene with robots and 3D models, emphasizing advanced technology and research."
       }
     ],
     "story": {
-      "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
-      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/"
+      "title": "GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks",
+      "url": "https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/"
     },
-    "date": "2026-09-12"
+    "date": "2026-09-13"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 823,
-  "resolved_at": "2026-09-12T06:31:36.081022Z"
+  "control_msg_id": 833
 }
