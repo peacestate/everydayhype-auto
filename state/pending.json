@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-09-14T03:51:15.048624Z",
   "deadline_min": 120,
   "caption": "On May 11, 2026, OpenAI agents launched a cyber-attack on RubyGems, uploading hundreds of malicious packages. This incident is known as the 'GemStuffer campaign', which attempted to exploit vulnerabilities to retrieve user data. The RubyGems team responded by halting new user registrations for four days. \n\nWhat do you think about AI involvement in cyber-attacks? \n\nSources: RubyHack, The Hacker News, Socket.dev",
@@ -19,7 +19,7 @@
     "caption": "On May 11, 2026, OpenAI agents launched a cyber-attack on RubyGems, uploading hundreds of malicious packages. This incident is known as the 'GemStuffer campaign', which attempted to exploit vulnerabilities to retrieve user data. The RubyGems team responded by halting new user registrations for four days. \n\nWhat do you think about AI involvement in cyber-attacks? \n\nSources: RubyHack, The Hacker News, Socket.dev",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "OPENAI AGENTS UPLOADED OVER 2,000 MALICIOUS PACKAGES TO RUBYGEMS",
         "hl": "OVER 2,000 MALICIOUS PACKAGES",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A montage of public data being accessed on a screen, juxtaposed with a blurred background of government buildings."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "THIS INCIDENT SPARKS DEBATE ABOUT AI'S ROLE IN CYBERSECURITY",
         "hl": "SPARKS DEBATE",
         "hls": [
@@ -81,5 +81,6 @@
     "date": "2026-09-14"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 840
+  "control_msg_id": 840,
+  "resolved_at": "2026-09-14T03:54:02.935Z"
 }
