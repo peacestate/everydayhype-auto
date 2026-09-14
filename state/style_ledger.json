@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-06-25",
-    "palette": "purple",
-    "art_style": "dramatic macro close-up, shallow depth",
-    "layout": "c",
-    "motifs": [
-      "A close-up of a computer screen displayi",
-      "A calendar page for June 2026, with the ",
-      "A stack of documents with a magnifying g",
-      "Two business professionals in a tense di",
-      "A dramatic close-up of a gavel striking "
-    ]
-  },
-  {
     "date": "2026-06-26",
     "palette": "green",
     "art_style": "neon glow synthwave, bloom, dark background",
@@ -777,6 +764,19 @@
       "An overhead view of a robotics testing s",
       "A thoughtful researcher in a lab, observ",
       "A futuristic lab scene with robots and 3"
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "palette": "green",
+    "art_style": "neon glow synthwave, bloom, dark background",
+    "layout": "b",
+    "motifs": [
+      "A dark-themed tech environment with glow",
+      "A concerned IT team in a modern office s",
+      "A cybersecurity expert at a workstation ",
+      "A montage of public data being accessed ",
+      "A group of diverse professionals engaged"
     ]
   }
 ]
