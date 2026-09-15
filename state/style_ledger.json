@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-06-26",
-    "palette": "green",
-    "art_style": "neon glow synthwave, bloom, dark background",
-    "layout": "c",
-    "motifs": [
-      "A close-up of a person's hand holding a ",
-      "A group of diverse individuals engaged i",
-      "An instructor in a modern classroom sett",
-      "A futuristic cityscape at night, illumin",
-      "A thoughtful person looking at a digital"
-    ]
-  },
-  {
     "date": "2026-06-28",
     "palette": "amber",
     "art_style": "isometric miniature diorama, tilt-shift",
@@ -777,6 +764,19 @@
       "A cybersecurity expert at a workstation ",
       "A montage of public data being accessed ",
       "A group of diverse professionals engaged"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "palette": "blue",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "motifs": [
+      "A close-up of a smartphone displaying Si",
+      "A person interacting with a smartphone, ",
+      "A futuristic living room with smart devi",
+      "A tech conference stage with speakers di",
+      "A collage of various AI applications in "
     ]
   }
 ]
