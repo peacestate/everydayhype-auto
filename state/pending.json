@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-09-16T03:51:53.745960Z",
   "deadline_min": 120,
   "caption": "Google DeepMind has launched Gemini 3.8 Live, an audio model available to developers. This new model supports over 97 languages and allows voice agents to process visual input while speaking. Notably, Gemini 3.8 Live is significantly more affordable than OpenAI's GPT-Live-1. \n\nHow will this impact developer choices?\n\nSources: The Decoder\n#GoogleDeepMind #Gemini38Live #OpenAI #AI #Technology #VoiceAgents #MachineLearning #Innovation #AIModels #DeveloperTools #CostEfficiency",
@@ -66,5 +66,6 @@
     "date": "2026-09-16"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 854
+  "control_msg_id": 854,
+  "resolved_at": "2026-09-16T06:40:44.362Z"
 }
