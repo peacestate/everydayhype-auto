@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-06-28",
-    "palette": "amber",
-    "art_style": "isometric miniature diorama, tilt-shift",
-    "layout": "b",
-    "motifs": [
-      "A close-up of a diverse group of profess",
-      "An aerial view of a high-tech cityscape ",
-      "An office environment with individuals e",
-      "A futuristic workspace with advanced AI ",
-      "A thoughtful individual analyzing data o"
-    ]
-  },
-  {
     "date": "2026-06-30",
     "palette": "blue",
     "art_style": "double-exposure, silhouette blended with data",
@@ -777,6 +764,19 @@
       "A futuristic living room with smart devi",
       "A tech conference stage with speakers di",
       "A collage of various AI applications in "
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "palette": "magenta",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "c",
+    "motifs": [
+      "A sleek tech workspace with a person int",
+      "A diverse group of people communicating ",
+      "A close-up of a digital leaderboard disp",
+      "A calculator next to a notepad with budg",
+      "A futuristic cityscape representing inno"
     ]
   }
 ]
