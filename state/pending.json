@@ -1,86 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-15T03:51:20.816984Z",
+  "status": "pending",
+  "created_at": "2026-09-16T03:51:53.745960Z",
   "deadline_min": 120,
-  "caption": "Apple's latest updates reveal that Siri's AI can now be replaced with Claude or ChatGPT, showcasing a significant shift in voice assistant technology. This flexibility allows for enhanced user experiences and opens the door to more advanced conversational capabilities. \ud83d\ude80\ud83e\udd16\n\nShould Siri integrate more AI options like this? \n\nSources: MacRumors, TechCrunch\n\n#Apple #Siri #AI #ChatGPT #Claude #VoiceAssistant #Technology #Innovation #MacRumors",
+  "caption": "Google DeepMind has launched Gemini 3.8 Live, an audio model available to developers. This new model supports over 97 languages and allows voice agents to process visual input while speaking. Notably, Gemini 3.8 Live is significantly more affordable than OpenAI's GPT-Live-1. \n\nHow will this impact developer choices?\n\nSources: The Decoder\n#GoogleDeepMind #Gemini38Live #OpenAI #AI #Technology #VoiceAgents #MachineLearning #Innovation #AIModels #DeveloperTools #CostEfficiency",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789444273/everydayhypehq/2026-09-15/035112_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789444274/everydayhypehq/2026-09-15/035112_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789444274/everydayhypehq/2026-09-15/035112_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789444275/everydayhypehq/2026-09-15/035112_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789444276/everydayhypehq/2026-09-15/035112_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789530705/everydayhypehq/2026-09-16/035144_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789530706/everydayhypehq/2026-09-16/035144_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789530706/everydayhypehq/2026-09-16/035144_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789530707/everydayhypehq/2026-09-16/035144_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789530708/everydayhypehq/2026-09-16/035144_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "person": "",
-    "company": "Apple",
-    "caption": "Apple's latest updates reveal that Siri's AI can now be replaced with Claude or ChatGPT, showcasing a significant shift in voice assistant technology. This flexibility allows for enhanced user experiences and opens the door to more advanced conversational capabilities. \ud83d\ude80\ud83e\udd16\n\nShould Siri integrate more AI options like this? \n\nSources: MacRumors, TechCrunch\n\n#Apple #Siri #AI #ChatGPT #Claude #VoiceAssistant #Technology #Innovation #MacRumors",
+    "palette": "magenta",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "c",
+    "caption": "Google DeepMind has launched Gemini 3.8 Live, an audio model available to developers. This new model supports over 97 languages and allows voice agents to process visual input while speaking. Notably, Gemini 3.8 Live is significantly more affordable than OpenAI's GPT-Live-1. \n\nHow will this impact developer choices?\n\nSources: The Decoder\n#GoogleDeepMind #Gemini38Live #OpenAI #AI #Technology #VoiceAgents #MachineLearning #Innovation #AIModels #DeveloperTools #CostEfficiency",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "APPLE JUST ENABLED SIRI TO BE REPLACED WITH CHATGPT OR CLAUDE",
-        "hl": "REPLACED WITH CHATGPT OR CLAUDE",
-        "hls": [
-          "REPLACED WITH",
-          "CHATGPT OR CLAUDE"
-        ],
-        "sub": "This change was revealed in code on September 14, 2026.",
-        "image_prompt": "A close-up of a smartphone displaying Siri's interface with a futuristic background"
+        "pill": "BREAKING",
+        "headline": "GOOGLE LAUNCHED GEMINI 3.8 LIVE AT $0.005 PER MINUTE",
+        "hl": "GEMINI 3.8 LIVE",
+        "hls": [],
+        "sub": "Here's what you need to know about this launch.",
+        "image_prompt": "A sleek tech workspace with a person interacting with a voice assistant device, modern gadgets scattered around, soft lighting."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "THE NEW CODE SHOWS FLEXIBILITY IN AI VOICE ASSISTANT TECHNOLOGY",
-        "hl": "FLEXIBILITY IN AI",
-        "hls": [
-          "FLEXIBILITY",
-          "AI VOICE ASSISTANT"
-        ],
-        "sub": "Users can choose between different AI models for interactions.",
-        "image_prompt": "A person interacting with a smartphone, looking surprised and engaged"
+        "pill": "",
+        "headline": "GEMINI 3.8 LIVE SUPPORTS OVER 97 LANGUAGES",
+        "hl": "SUPPORTS OVER 97 LANGUAGES",
+        "hls": [],
+        "sub": "This feature enhances its usability for a global audience.",
+        "image_prompt": "A diverse group of people communicating in different languages, with digital devices in hand, conveying a sense of global interaction."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "THIS MOVE COULD ENHANCE USER EXPERIENCE AND INTERACTION",
-        "hl": "ENHANCE USER EXPERIENCE",
-        "hls": [
-          "ENHANCE",
-          "USER EXPERIENCE"
-        ],
-        "sub": "Integrating more advanced AI can lead to smarter responses.",
-        "image_prompt": "A futuristic living room with smart devices and a family using technology"
+        "pill": "",
+        "headline": "IT RANKS FIRST WITH 82.6% ON SPEECH-TO-SPEECH LEADERBOARD",
+        "hl": "FIRST WITH 82.6%",
+        "hls": [],
+        "sub": "Gemini 3.8 Live outperforms OpenAI's models in speech recognition accuracy.",
+        "image_prompt": "A close-up of a digital leaderboard displaying AI performance metrics, with an abstract tech background."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "APPLE'S STRATEGY MAY SET A NEW STANDARD FOR AI IN TECH",
-        "hl": "NEW STANDARD FOR AI",
-        "hls": [
-          "NEW STANDARD",
-          "FOR AI"
-        ],
-        "sub": "This could influence competitors in the voice assistant space.",
-        "image_prompt": "A tech conference stage with speakers discussing AI advancements"
+        "pill": "",
+        "headline": "COSTS $1.38 PER HOUR, CHEAPER THAN OPENAI'S $3.00",
+        "hl": "COSTS $1.38 PER HOUR",
+        "hls": [],
+        "sub": "This pricing makes it a competitive option for developers in the market.",
+        "image_prompt": "A calculator next to a notepad with budget calculations, emphasizing cost efficiency in technology."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "AND IT OPENS DOORS FOR MORE AI IN DAILY USE",
-        "hl": "MORE AI IN DAILY USE",
-        "hls": [
-          "MORE AI",
-          "DAILY USE"
-        ],
+        "pill": "THE TAKEAWAY",
+        "headline": "GEMINI 3.8 LIVE OFFERS COST EFFECTIVENESS AND PERFORMANCE",
+        "hl": "COST EFFECTIVENESS AND PERFORMANCE",
+        "hls": [],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A collage of various AI applications in everyday life"
+        "image_prompt": "A futuristic cityscape representing innovation and technology, with vibrant colors and dynamic lighting."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
-      "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/"
+      "title": "Google launches Gemini 3.8 Live to take on OpenAI's GPT-Live-1 at a fraction of the cost",
+      "url": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost/"
     },
-    "date": "2026-09-15"
+    "date": "2026-09-16"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 847,
-  "resolved_at": "2026-09-15T06:31:32.235107Z"
+  "control_msg_id": 854
 }
