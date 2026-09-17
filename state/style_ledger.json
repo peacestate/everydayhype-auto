@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-06-30",
-    "palette": "blue",
-    "art_style": "double-exposure, silhouette blended with data",
-    "layout": "c",
-    "motifs": [
-      "A bustling tech hub in South Korea with ",
-      "Large semiconductor manufacturing facili",
-      "A humanoid robot performing tasks in an ",
-      "President Lee Jae Myung giving a speech ",
-      "A panoramic view of a futuristic city sk"
-    ]
-  },
-  {
     "date": "2026-07-01",
     "palette": "magenta",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "A close-up of a digital leaderboard disp",
       "A calculator next to a notepad with budg",
       "A futuristic cityscape representing inno"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "palette": "cyan",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "a",
+    "motifs": [
+      "A close-up of a person's hands interacti",
+      "A diverse group of people in a modern ca",
+      "A vibrant community scene with individua",
+      "A calm, serene workspace with a person t",
+      "An inspiring shot of a person looking co"
     ]
   }
 ]
