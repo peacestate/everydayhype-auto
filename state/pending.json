@@ -1,71 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-16T03:51:53.745960Z",
+  "status": "pending",
+  "created_at": "2026-09-17T03:52:31.337916Z",
   "deadline_min": 120,
-  "caption": "Google DeepMind has launched Gemini 3.8 Live, an audio model available to developers. This new model supports over 97 languages and allows voice agents to process visual input while speaking. Notably, Gemini 3.8 Live is significantly more affordable than OpenAI's GPT-Live-1. \n\nHow will this impact developer choices?\n\nSources: The Decoder\n#GoogleDeepMind #Gemini38Live #OpenAI #AI #Technology #VoiceAgents #MachineLearning #Innovation #AIModels #DeveloperTools #CostEfficiency",
+  "caption": "Mistral has partnered with Mozilla to enhance online privacy and AI capabilities. Their new Firefox Smart Window, powered by Mistral\u2019s models, aims to make browsing more intuitive and locally relevant. 5a54f1\n\nCould this be the next step for AI browsing?\n\nSources: Mistral, Mozilla\n#AI #Mozilla #Mistral #Privacy #Firefox #OpenSource #Technology #Innovation #AIModels #MultilingualAI #WebBrowsing #DigitalPrivacy",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789530705/everydayhypehq/2026-09-16/035144_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789530706/everydayhypehq/2026-09-16/035144_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789530706/everydayhypehq/2026-09-16/035144_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789530707/everydayhypehq/2026-09-16/035144_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789530708/everydayhypehq/2026-09-16/035144_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789617142/everydayhypehq/2026-09-17/035221_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789617143/everydayhypehq/2026-09-17/035221_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789617144/everydayhypehq/2026-09-17/035221_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789617145/everydayhypehq/2026-09-17/035221_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789617146/everydayhypehq/2026-09-17/035221_slide_5.png"
   ],
   "plan": {
-    "palette": "magenta",
-    "art_style": "sleek 3D render, octane, glossy materials",
-    "layout": "c",
-    "caption": "Google DeepMind has launched Gemini 3.8 Live, an audio model available to developers. This new model supports over 97 languages and allows voice agents to process visual input while speaking. Notably, Gemini 3.8 Live is significantly more affordable than OpenAI's GPT-Live-1. \n\nHow will this impact developer choices?\n\nSources: The Decoder\n#GoogleDeepMind #Gemini38Live #OpenAI #AI #Technology #VoiceAgents #MachineLearning #Innovation #AIModels #DeveloperTools #CostEfficiency",
+    "palette": "cyan",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "a",
+    "caption": "Mistral has partnered with Mozilla to enhance online privacy and AI capabilities. Their new Firefox Smart Window, powered by Mistral\u2019s models, aims to make browsing more intuitive and locally relevant. 5a54f1\n\nCould this be the next step for AI browsing?\n\nSources: Mistral, Mozilla\n#AI #Mozilla #Mistral #Privacy #Firefox #OpenSource #Technology #Innovation #AIModels #MultilingualAI #WebBrowsing #DigitalPrivacy",
     "slides": [
       {
-        "pill": "BREAKING",
-        "headline": "GOOGLE LAUNCHED GEMINI 3.8 LIVE AT $0.005 PER MINUTE",
-        "hl": "GEMINI 3.8 LIVE",
-        "hls": [],
-        "sub": "Here's what you need to know about this launch.",
-        "image_prompt": "A sleek tech workspace with a person interacting with a voice assistant device, modern gadgets scattered around, soft lighting."
+        "pill": "BREAKING 534",
+        "headline": "MISTRAL PARTNERS WITH MOZILLA TO BRING AI POWER TO BROWSING",
+        "hl": "AI POWER TO BROWSING",
+        "hls": [
+          "AI POWER",
+          "TO BROWSING"
+        ],
+        "sub": "This collaboration enhances Firefox's Smart Window AI capabilities.",
+        "image_prompt": "A close-up of a person's hands interacting with a laptop displaying a web browser interface, showcasing a futuristic AI feature."
       },
       {
-        "pill": "",
-        "headline": "GEMINI 3.8 LIVE SUPPORTS OVER 97 LANGUAGES",
-        "hl": "SUPPORTS OVER 97 LANGUAGES",
-        "hls": [],
-        "sub": "This feature enhances its usability for a global audience.",
-        "image_prompt": "A diverse group of people communicating in different languages, with digital devices in hand, conveying a sense of global interaction."
+        "pill": "WHAT HAPPENED 6a1",
+        "headline": "SMART WINDOW WILL LAUNCH IN FRANCE AND NORTH AMERICA BY YEAR-END",
+        "hl": "FRANCE AND NORTH AMERICA",
+        "hls": [
+          "FRANCE",
+          "NORTH AMERICA"
+        ],
+        "sub": "The rollout will expand to the UK and Germany later this year.",
+        "image_prompt": "A diverse group of people in a modern cafe, using laptops and discussing AI technology, with a warm and inviting atmosphere."
       },
       {
-        "pill": "",
-        "headline": "IT RANKS FIRST WITH 82.6% ON SPEECH-TO-SPEECH LEADERBOARD",
-        "hl": "FIRST WITH 82.6%",
-        "hls": [],
-        "sub": "Gemini 3.8 Live outperforms OpenAI's models in speech recognition accuracy.",
-        "image_prompt": "A close-up of a digital leaderboard displaying AI performance metrics, with an abstract tech background."
+        "pill": "WHY IT MATTERS 30d",
+        "headline": "MISTRAL FINE-TUNES AI FOR LOCAL LANGUAGES AND CULTURES",
+        "hl": "LOCAL LANGUAGES AND CULTURES",
+        "hls": [
+          "LOCAL LANGUAGES",
+          "CULTURES"
+        ],
+        "sub": "This ensures AI understands users' local nuances and dialects.",
+        "image_prompt": "A vibrant community scene with individuals from various backgrounds engaging in conversation, emphasizing cultural diversity."
       },
       {
-        "pill": "",
-        "headline": "COSTS $1.38 PER HOUR, CHEAPER THAN OPENAI'S $3.00",
-        "hl": "COSTS $1.38 PER HOUR",
-        "hls": [],
-        "sub": "This pricing makes it a competitive option for developers in the market.",
-        "image_prompt": "A calculator next to a notepad with budget calculations, emphasizing cost efficiency in technology."
+        "pill": "THE IMPACT 4e6",
+        "headline": "FIREFOX SMART WINDOW OFFERS ZERO DATA RETENTION BY DEFAULT",
+        "hl": "ZERO DATA RETENTION",
+        "hls": [
+          "ZERO DATA",
+          "RETENTION"
+        ],
+        "sub": "This protects user privacy while enhancing the browsing experience.",
+        "image_prompt": "A calm, serene workspace with a person thoughtfully browsing on a laptop, surrounded by plants and natural light."
       },
       {
-        "pill": "THE TAKEAWAY",
-        "headline": "GEMINI 3.8 LIVE OFFERS COST EFFECTIVENESS AND PERFORMANCE",
-        "hl": "COST EFFECTIVENESS AND PERFORMANCE",
-        "hls": [],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic cityscape representing innovation and technology, with vibrant colors and dynamic lighting."
+        "pill": "THE TAKEAWAY 525",
+        "headline": "MISTRAL AND MOZILLA AIM TO EMPOWER USERS WITH SOVEREIGN AI",
+        "hl": "EMPOWER USERS",
+        "hls": [
+          "EMPOWER",
+          "USERS"
+        ],
+        "sub": "This partnership puts user control at the forefront of AI interactions.",
+        "image_prompt": "An inspiring shot of a person looking confidently at a digital display, symbolizing empowerment through technology."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Google launches Gemini 3.8 Live to take on OpenAI's GPT-Live-1 at a fraction of the cost",
-      "url": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost/"
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "url": "https://mistral.ai/news/mistral-x-mozilla/"
     },
-    "date": "2026-09-16"
+    "date": "2026-09-17"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 854,
-  "resolved_at": "2026-09-16T12:04:32.001336Z"
+  "control_msg_id": 861
 }
