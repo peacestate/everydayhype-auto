@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-01",
-    "palette": "magenta",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "motifs": [
-      "A group of scientists at a conference, e",
-      "Close-up of a researcher using a laptop ",
-      "A pharmaceutical lab with researchers co",
-      "A portrait of Eric Kauderer-Abrams speak",
-      "A wide shot of a vibrant city skyline at"
-    ]
-  },
-  {
     "date": "2026-07-02",
     "palette": "cyan",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "A vibrant community scene with individua",
       "A calm, serene workspace with a person t",
       "An inspiring shot of a person looking co"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "palette": "red",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "a",
+    "motifs": [
+      "A close-up of a person typing on a lapto",
+      "An overhead shot of a workspace with mul",
+      "A team of engineers collaborating over a",
+      "A focused individual looking at a monito",
+      "An engaging scene of a modern tech confe"
     ]
   }
 ]
