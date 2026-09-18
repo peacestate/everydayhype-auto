@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-17T03:52:31.337916Z",
+  "status": "pending",
+  "created_at": "2026-09-18T03:55:21.476568Z",
   "deadline_min": 120,
-  "caption": "Mistral has partnered with Mozilla to enhance online privacy and AI capabilities. Their new Firefox Smart Window, powered by Mistral\u2019s models, aims to make browsing more intuitive and locally relevant. 5a54f1\n\nCould this be the next step for AI browsing?\n\nSources: Mistral, Mozilla\n#AI #Mozilla #Mistral #Privacy #Firefox #OpenSource #Technology #Innovation #AIModels #MultilingualAI #WebBrowsing #DigitalPrivacy",
+  "caption": "TypeSafe AI has introduced a new model called Jev. Designed for automation, Jev can make structured decisions up to 100 times faster than existing models. With no hallucinations, Jev represents a significant shift in AI capabilities.\n\nHow will this impact AI applications?\n\nSources: TypeSafe AI Blog, TechCrunch, VentureBeat\n\n#TypeSafeAI #AI #Automation #MachineLearning #TechNews #Innovation #Jev #AIModels #ReinforcementLearning #TechBreakthroughs #AIResearch",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789617142/everydayhypehq/2026-09-17/035221_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789617143/everydayhypehq/2026-09-17/035221_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789617144/everydayhypehq/2026-09-17/035221_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789617145/everydayhypehq/2026-09-17/035221_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789617146/everydayhypehq/2026-09-17/035221_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789703712/everydayhypehq/2026-09-18/035512_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789703713/everydayhypehq/2026-09-18/035512_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789703714/everydayhypehq/2026-09-18/035512_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789703715/everydayhypehq/2026-09-18/035512_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789703715/everydayhypehq/2026-09-18/035512_slide_5.png"
   ],
   "plan": {
-    "palette": "cyan",
-    "art_style": "double-exposure, silhouette blended with data",
-    "layout": "a",
-    "caption": "Mistral has partnered with Mozilla to enhance online privacy and AI capabilities. Their new Firefox Smart Window, powered by Mistral\u2019s models, aims to make browsing more intuitive and locally relevant. 5a54f1\n\nCould this be the next step for AI browsing?\n\nSources: Mistral, Mozilla\n#AI #Mozilla #Mistral #Privacy #Firefox #OpenSource #Technology #Innovation #AIModels #MultilingualAI #WebBrowsing #DigitalPrivacy",
+    "palette": "red",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "caption": "TypeSafe AI has introduced a new model called Jev. Designed for automation, Jev can make structured decisions up to 100 times faster than existing models. With no hallucinations, Jev represents a significant shift in AI capabilities.\n\nHow will this impact AI applications?\n\nSources: TypeSafe AI Blog, TechCrunch, VentureBeat\n\n#TypeSafeAI #AI #Automation #MachineLearning #TechNews #Innovation #Jev #AIModels #ReinforcementLearning #TechBreakthroughs #AIResearch",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "MISTRAL PARTNERS WITH MOZILLA TO BRING AI POWER TO BROWSING",
-        "hl": "AI POWER TO BROWSING",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "TYPESAFE AI JUST LAUNCHED JEV, A MODEL 100X FASTER THAN OTHERS",
+        "hl": "100X FASTER",
         "hls": [
-          "AI POWER",
-          "TO BROWSING"
+          "100X",
+          "FASTER"
         ],
-        "sub": "This collaboration enhances Firefox's Smart Window AI capabilities.",
-        "image_prompt": "A close-up of a person's hands interacting with a laptop displaying a web browser interface, showcasing a futuristic AI feature."
+        "sub": "Here's what you need to know about Jev's capabilities.",
+        "image_prompt": "A close-up of a computer screen displaying code, with a focused programmer working in a modern tech office environment, soft ambient lighting."
       },
       {
-        "pill": "WHAT HAPPENED 6a1",
-        "headline": "SMART WINDOW WILL LAUNCH IN FRANCE AND NORTH AMERICA BY YEAR-END",
-        "hl": "FRANCE AND NORTH AMERICA",
+        "pill": "",
+        "headline": "JEV OPTIMIZES FOR STRUCTURED OUTPUTS WITH NO HALLUCINATIONS",
+        "hl": "STRUCTURED OUTPUTS",
         "hls": [
-          "FRANCE",
-          "NORTH AMERICA"
+          "STRUCTURED",
+          "OUTPUTS"
         ],
-        "sub": "The rollout will expand to the UK and Germany later this year.",
-        "image_prompt": "A diverse group of people in a modern cafe, using laptops and discussing AI technology, with a warm and inviting atmosphere."
+        "sub": "TypeSafe AI's model outputs type-safe values, avoiding common AI errors.",
+        "image_prompt": "A diverse team of engineers brainstorming around a table with laptops and notes, in a bright, collaborative workspace."
       },
       {
-        "pill": "WHY IT MATTERS 30d",
-        "headline": "MISTRAL FINE-TUNES AI FOR LOCAL LANGUAGES AND CULTURES",
-        "hl": "LOCAL LANGUAGES AND CULTURES",
+        "pill": "",
+        "headline": "SYSTEM ONE MODELS CAN MAKE FAST, CALIBRATED DECISIONS DIRECTLY",
+        "hl": "FAST, CALIBRATED DECISIONS",
         "hls": [
-          "LOCAL LANGUAGES",
-          "CULTURES"
+          "FAST",
+          "CALIBRATED"
         ],
-        "sub": "This ensures AI understands users' local nuances and dialects.",
-        "image_prompt": "A vibrant community scene with individuals from various backgrounds engaging in conversation, emphasizing cultural diversity."
+        "sub": "This new approach enhances decision-making efficiency in software applications.",
+        "image_prompt": "An abstract representation of decision-making processes, featuring interconnected gears and data streams, illuminated by a soft glow."
       },
       {
-        "pill": "THE IMPACT 4e6",
-        "headline": "FIREFOX SMART WINDOW OFFERS ZERO DATA RETENTION BY DEFAULT",
-        "hl": "ZERO DATA RETENTION",
+        "pill": "",
+        "headline": "JEW IS NOW AVAILABLE IN EARLY ACCESS FOR USERS",
+        "hl": "AVAILABLE IN EARLY ACCESS",
         "hls": [
-          "ZERO DATA",
-          "RETENTION"
+          "AVAILABLE",
+          "EARLY ACCESS"
         ],
-        "sub": "This protects user privacy while enhancing the browsing experience.",
-        "image_prompt": "A calm, serene workspace with a person thoughtfully browsing on a laptop, surrounded by plants and natural light."
+        "sub": "TypeSafe AI invites developers to test Jev's innovative features.",
+        "image_prompt": "A user interacting with a futuristic interface on a tablet, showing data visualizations and analytics in a sleek, modern setting."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "MISTRAL AND MOZILLA AIM TO EMPOWER USERS WITH SOVEREIGN AI",
-        "hl": "EMPOWER USERS",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "JEV COULD TRANSFORM HOW SOFTWARE HANDLES DECISION-MAKING",
+        "hl": "TRANSFORM HOW SOFTWARE HANDLES",
         "hls": [
-          "EMPOWER",
-          "USERS"
+          "TRANSFORM",
+          "SOFTWARE HANDLES"
         ],
-        "sub": "This partnership puts user control at the forefront of AI interactions.",
-        "image_prompt": "An inspiring shot of a person looking confidently at a digital display, symbolizing empowerment through technology."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A panoramic view of a high-tech office with teams collaborating, surrounded by screens displaying analytics and AI models."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
-      "url": "https://mistral.ai/news/mistral-x-mozilla/"
+      "title": "Introducing System One Models and Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
     },
-    "date": "2026-09-17"
+    "date": "2026-09-18"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 861,
-  "resolved_at": "2026-09-17T06:32:18.745300Z"
+  "control_msg_id": 868
 }
