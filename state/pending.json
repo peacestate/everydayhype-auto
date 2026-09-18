@@ -1,79 +1,79 @@
 {
   "status": "pending",
-  "created_at": "2026-09-18T03:55:21.476568Z",
+  "created_at": "2026-09-18T04:18:20.104084Z",
   "deadline_min": 120,
-  "caption": "TypeSafe AI has introduced a new model called Jev. Designed for automation, Jev can make structured decisions up to 100 times faster than existing models. With no hallucinations, Jev represents a significant shift in AI capabilities.\n\nHow will this impact AI applications?\n\nSources: TypeSafe AI Blog, TechCrunch, VentureBeat\n\n#TypeSafeAI #AI #Automation #MachineLearning #TechNews #Innovation #Jev #AIModels #ReinforcementLearning #TechBreakthroughs #AIResearch",
+  "caption": "TypeSafe AI has just unveiled their first System One Model, Jev, designed to make fast, structured decisions. Jev is not just another AI; it's engineered for efficiency, achieving results two orders of magnitude faster than existing models. \ud83d\ude80\n\nWhat do you think about this new approach to AI decision-making?\n\nSources: TypeSafe AI Blog\n#TypeSafeAI #AI #MachineLearning #Automation #TechNews #Innovation #Jev #SystemOneModel #AIModels",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789703712/everydayhypehq/2026-09-18/035512_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789703713/everydayhypehq/2026-09-18/035512_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789703714/everydayhypehq/2026-09-18/035512_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789703715/everydayhypehq/2026-09-18/035512_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789703715/everydayhypehq/2026-09-18/035512_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789705092/everydayhypehq/2026-09-18/041811_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789705092/everydayhypehq/2026-09-18/041811_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789705093/everydayhypehq/2026-09-18/041811_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789705094/everydayhypehq/2026-09-18/041811_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789705095/everydayhypehq/2026-09-18/041811_slide_5.png"
   ],
   "plan": {
     "palette": "red",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "caption": "TypeSafe AI has introduced a new model called Jev. Designed for automation, Jev can make structured decisions up to 100 times faster than existing models. With no hallucinations, Jev represents a significant shift in AI capabilities.\n\nHow will this impact AI applications?\n\nSources: TypeSafe AI Blog, TechCrunch, VentureBeat\n\n#TypeSafeAI #AI #Automation #MachineLearning #TechNews #Innovation #Jev #AIModels #ReinforcementLearning #TechBreakthroughs #AIResearch",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "a",
+    "person": "Diogo Almeida",
+    "company": "TypeSafe AI",
+    "caption": "TypeSafe AI has just unveiled their first System One Model, Jev, designed to make fast, structured decisions. Jev is not just another AI; it's engineered for efficiency, achieving results two orders of magnitude faster than existing models. \ud83d\ude80\n\nWhat do you think about this new approach to AI decision-making?\n\nSources: TypeSafe AI Blog\n#TypeSafeAI #AI #MachineLearning #Automation #TechNews #Innovation #Jev #SystemOneModel #AIModels",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "TYPESAFE AI JUST LAUNCHED JEV, A MODEL 100X FASTER THAN OTHERS",
-        "hl": "100X FASTER",
+        "headline": "TYPESAFE AI JUST UNVEILED JEV, A NEW CLASS OF AI MODEL",
+        "hl": "A NEW CLASS OF AI MODEL",
         "hls": [
-          "100X",
-          "FASTER"
+          "UNVEILED JEV",
+          "A NEW CLASS"
         ],
-        "sub": "Here's what you need to know about Jev's capabilities.",
-        "image_prompt": "A close-up of a computer screen displaying code, with a focused programmer working in a modern tech office environment, soft ambient lighting."
+        "sub": "This model is engineered for speed and efficiency.",
+        "image_prompt": "A close-up of a person typing on a laptop, looking focused, with a futuristic interface displayed on the screen in a well-lit modern office."
       },
       {
         "pill": "",
-        "headline": "JEV OPTIMIZES FOR STRUCTURED OUTPUTS WITH NO HALLUCINATIONS",
-        "hl": "STRUCTURED OUTPUTS",
+        "headline": "JEV IS TWO ORDERS OF MAGNITUDE FASTER THAN EXISTING LLMs",
+        "hl": "TWO ORDERS OF MAGNITUDE FASTER",
         "hls": [
-          "STRUCTURED",
-          "OUTPUTS"
+          "TWO ORDERS",
+          "MAGNITUDE FASTER"
         ],
-        "sub": "TypeSafe AI's model outputs type-safe values, avoiding common AI errors.",
-        "image_prompt": "A diverse team of engineers brainstorming around a table with laptops and notes, in a bright, collaborative workspace."
+        "sub": "It processes structured outputs without hallucinating or errors.",
+        "image_prompt": "An overhead shot of a workspace with multiple screens displaying code and AI models, showcasing a dynamic and tech-savvy environment."
       },
       {
         "pill": "",
-        "headline": "SYSTEM ONE MODELS CAN MAKE FAST, CALIBRATED DECISIONS DIRECTLY",
-        "hl": "FAST, CALIBRATED DECISIONS",
+        "headline": "TYPESAFE AI'S JEV USES REINFORCEMENT LEARNING FOR CALIBRATED DECISIONS",
+        "hl": "REINFORCEMENT LEARNING FOR CALIBRATED DECISIONS",
         "hls": [
-          "FAST",
-          "CALIBRATED"
+          "CALIBRATED DECISIONS",
+          "REINFORCEMENT LEARNING"
         ],
-        "sub": "This new approach enhances decision-making efficiency in software applications.",
-        "image_prompt": "An abstract representation of decision-making processes, featuring interconnected gears and data streams, illuminated by a soft glow."
+        "sub": "This method enhances decision-making on System One tasks.",
+        "image_prompt": "A team of engineers collaborating over a whiteboard filled with diagrams and notes, highlighting teamwork and innovative thinking."
       },
       {
         "pill": "",
-        "headline": "JEW IS NOW AVAILABLE IN EARLY ACCESS FOR USERS",
-        "hl": "AVAILABLE IN EARLY ACCESS",
+        "headline": "JEV DELIVERS TYPE-SAFE STRUCTURED VALUES WITHOUT TYPE ERRORS",
+        "hl": "TYPE-SAFE STRUCTURED VALUES",
         "hls": [
-          "AVAILABLE",
-          "EARLY ACCESS"
+          "TYPE-SAFE",
+          "STRUCTURED VALUES"
         ],
-        "sub": "TypeSafe AI invites developers to test Jev's innovative features.",
-        "image_prompt": "A user interacting with a futuristic interface on a tablet, showing data visualizations and analytics in a sleek, modern setting."
+        "sub": "Each decision comes with calibrated probabilities and confidence scores.",
+        "image_prompt": "A focused individual looking at a monitor displaying complex data visualizations and AI outputs, with a sense of determination."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "JEV COULD TRANSFORM HOW SOFTWARE HANDLES DECISION-MAKING",
-        "hl": "TRANSFORM HOW SOFTWARE HANDLES",
+        "headline": "JEV COULD CHANGE HOW SOFTWARE MAKES DECISIONS EFFICIENTLY",
+        "hl": "CHANGE HOW SOFTWARE MAKES DECISIONS",
         "hls": [
-          "TRANSFORM",
-          "SOFTWARE HANDLES"
+          "CHANGE HOW",
+          "MAKES DECISIONS"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A panoramic view of a high-tech office with teams collaborating, surrounded by screens displaying analytics and AI models."
+        "image_prompt": "An engaging scene of a modern tech conference with attendees discussing AI innovations, capturing the excitement of technology."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
       "title": "Introducing System One Models and Jev",
       "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
@@ -81,5 +81,5 @@
     "date": "2026-09-18"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 868
+  "control_msg_id": 874
 }
