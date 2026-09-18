@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "style_glossy",
   "created_at": "2026-09-18T03:55:21.476568Z",
   "deadline_min": 120,
   "caption": "TypeSafe AI has introduced a new model called Jev. Designed for automation, Jev can make structured decisions up to 100 times faster than existing models. With no hallucinations, Jev represents a significant shift in AI capabilities.\n\nHow will this impact AI applications?\n\nSources: TypeSafe AI Blog, TechCrunch, VentureBeat\n\n#TypeSafeAI #AI #Automation #MachineLearning #TechNews #Innovation #Jev #AIModels #ReinforcementLearning #TechBreakthroughs #AIResearch",
@@ -17,7 +17,7 @@
     "caption": "TypeSafe AI has introduced a new model called Jev. Designed for automation, Jev can make structured decisions up to 100 times faster than existing models. With no hallucinations, Jev represents a significant shift in AI capabilities.\n\nHow will this impact AI applications?\n\nSources: TypeSafe AI Blog, TechCrunch, VentureBeat\n\n#TypeSafeAI #AI #Automation #MachineLearning #TechNews #Innovation #Jev #AIModels #ReinforcementLearning #TechBreakthroughs #AIResearch",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "TYPESAFE AI JUST LAUNCHED JEV, A MODEL 100X FASTER THAN OTHERS",
         "hl": "100X FASTER",
         "hls": [
@@ -61,7 +61,7 @@
         "image_prompt": "A user interacting with a futuristic interface on a tablet, showing data visualizations and analytics in a sleek, modern setting."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "JEV COULD TRANSFORM HOW SOFTWARE HANDLES DECISION-MAKING",
         "hl": "TRANSFORM HOW SOFTWARE HANDLES",
         "hls": [
