@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-02",
-    "palette": "cyan",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "motifs": [
-      "A close-up of a researcher analyzing bra",
-      "A group of volunteers participating in a",
-      "A digital representation of brain signal",
-      "A researcher smiling, looking at a compu",
-      "An imaginative scene depicting a future "
-    ]
-  },
-  {
     "date": "2026-07-03",
     "palette": "red",
     "art_style": "sleek 3D render, octane, glossy materials",
@@ -777,6 +764,19 @@
       "A team of engineers collaborating over a",
       "A focused individual looking at a monito",
       "An engaging scene of a modern tech confe"
+    ]
+  },
+  {
+    "date": "2026-09-19",
+    "palette": "amber",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A tense military command center with per",
+      "Military aircraft in readiness on a runw",
+      "A close-up of military analysts reviewin",
+      "A military officer in deep thought, over",
+      "An aerial view of a military base, with "
     ]
   }
 ]
