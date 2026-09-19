@@ -1,86 +1,80 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-18T04:18:20.104084Z",
+  "status": "pending",
+  "created_at": "2026-09-19T03:51:52.756587Z",
   "deadline_min": 120,
-  "caption": "TypeSafe AI has just unveiled their first System One Model, Jev, designed to make fast, structured decisions. Jev is not just another AI; it's engineered for efficiency, achieving results two orders of magnitude faster than existing models. \ud83d\ude80\n\nWhat do you think about this new approach to AI decision-making?\n\nSources: TypeSafe AI Blog\n#TypeSafeAI #AI #MachineLearning #Automation #TechNews #Innovation #Jev #SystemOneModel #AIModels",
+  "caption": "This past spring, the US military faced a critical situation when a false intelligence report indicated a Chinese ship was transporting nuclear weapon components. The report, generated with AI assistance, was later found to be entirely inaccurate and nearly led to armed conflict. The incident highlights the dangers of relying on AI for military intelligence. \ud83d\udea8\ud83e\udd16\n\nShould AI be used in military operations?\n\nSources: CNN\n#USMilitary #AI #Intelligence #China #NuclearWeapons #MilitaryOperations #ArtificialIntelligence #RiskManagement",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789705092/everydayhypehq/2026-09-18/041811_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789705092/everydayhypehq/2026-09-18/041811_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789705093/everydayhypehq/2026-09-18/041811_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789705094/everydayhypehq/2026-09-18/041811_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789705095/everydayhypehq/2026-09-18/041811_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789789904/everydayhypehq/2026-09-19/035143_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789789905/everydayhypehq/2026-09-19/035143_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789789905/everydayhypehq/2026-09-19/035143_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789789906/everydayhypehq/2026-09-19/035143_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789789907/everydayhypehq/2026-09-19/035143_slide_5.png"
   ],
   "plan": {
-    "palette": "red",
-    "art_style": "sleek 3D render, octane, glossy materials",
+    "palette": "amber",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "a",
-    "person": "Diogo Almeida",
-    "company": "TypeSafe AI",
-    "caption": "TypeSafe AI has just unveiled their first System One Model, Jev, designed to make fast, structured decisions. Jev is not just another AI; it's engineered for efficiency, achieving results two orders of magnitude faster than existing models. \ud83d\ude80\n\nWhat do you think about this new approach to AI decision-making?\n\nSources: TypeSafe AI Blog\n#TypeSafeAI #AI #MachineLearning #Automation #TechNews #Innovation #Jev #SystemOneModel #AIModels",
+    "person": "",
+    "company": "US Military",
+    "caption": "This past spring, the US military faced a critical situation when a false intelligence report indicated a Chinese ship was transporting nuclear weapon components. The report, generated with AI assistance, was later found to be entirely inaccurate and nearly led to armed conflict. The incident highlights the dangers of relying on AI for military intelligence. \ud83d\udea8\ud83e\udd16\n\nShould AI be used in military operations?\n\nSources: CNN\n#USMilitary #AI #Intelligence #China #NuclearWeapons #MilitaryOperations #ArtificialIntelligence #RiskManagement",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "TYPESAFE AI JUST UNVEILED JEV, A NEW CLASS OF AI MODEL",
-        "hl": "A NEW CLASS OF AI MODEL",
+        "headline": "US MILITARY ALMOST INTERCEPTED A CHINESE SHIP DUE TO AI ERROR",
+        "hl": "AI ERROR",
         "hls": [
-          "UNVEILED JEV",
-          "A NEW CLASS"
+          "AI ERROR"
         ],
-        "sub": "This model is engineered for speed and efficiency.",
-        "image_prompt": "A close-up of a person typing on a laptop, looking focused, with a futuristic interface displayed on the screen in a well-lit modern office."
+        "sub": "A false report nearly sparked armed conflict.",
+        "image_prompt": "A tense military command center with personnel discussing intelligence over maps and screens, serious expressions on their faces."
       },
       {
-        "pill": "",
-        "headline": "JEV IS TWO ORDERS OF MAGNITUDE FASTER THAN EXISTING LLMs",
-        "hl": "TWO ORDERS OF MAGNITUDE FASTER",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "AN AI-GENERATED REPORT CLAIMED A CHINESE SHIP WAS ARMED WITH NUCLEAR COMPONENTS",
+        "hl": "NUCLEAR COMPONENTS",
         "hls": [
-          "TWO ORDERS",
-          "MAGNITUDE FASTER"
+          "NUCLEAR COMPONENTS"
         ],
-        "sub": "It processes structured outputs without hallucinating or errors.",
-        "image_prompt": "An overhead shot of a workspace with multiple screens displaying code and AI models, showcasing a dynamic and tech-savvy environment."
+        "sub": "This alert led to military planes being prepared for an operation.",
+        "image_prompt": "Military aircraft in readiness on a runway, with crew members checking equipment and discussing plans."
       },
       {
-        "pill": "",
-        "headline": "TYPESAFE AI'S JEV USES REINFORCEMENT LEARNING FOR CALIBRATED DECISIONS",
-        "hl": "REINFORCEMENT LEARNING FOR CALIBRATED DECISIONS",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "THE REPORT WAS LATER FOUND TO BE ENTIRELY FALSE AND MISIDENTIFIED CARGO",
+        "hl": "ENTIRELY FALSE",
         "hls": [
-          "CALIBRATED DECISIONS",
-          "REINFORCEMENT LEARNING"
+          "ENTIRELY FALSE"
         ],
-        "sub": "This method enhances decision-making on System One tasks.",
-        "image_prompt": "A team of engineers collaborating over a whiteboard filled with diagrams and notes, highlighting teamwork and innovative thinking."
+        "sub": "The misidentification could have escalated tensions between nations.",
+        "image_prompt": "A close-up of military analysts reviewing documents and laptops, looking concerned as they discuss the incident."
       },
       {
-        "pill": "",
-        "headline": "JEV DELIVERS TYPE-SAFE STRUCTURED VALUES WITHOUT TYPE ERRORS",
-        "hl": "TYPE-SAFE STRUCTURED VALUES",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "AI IN MILITARY OPERATIONS POSES SIGNIFICANT RISKS OF ERROR AND MISCALCULATION",
+        "hl": "SIGNIFICANT RISKS",
         "hls": [
-          "TYPE-SAFE",
-          "STRUCTURED VALUES"
+          "SIGNIFICANT RISKS"
         ],
-        "sub": "Each decision comes with calibrated probabilities and confidence scores.",
-        "image_prompt": "A focused individual looking at a monitor displaying complex data visualizations and AI outputs, with a sense of determination."
+        "sub": "This incident underscores the need for cautious integration of AI.",
+        "image_prompt": "A military officer in deep thought, overlooking a map of the region, with a backdrop of military planning."
       },
       {
         "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "JEV COULD CHANGE HOW SOFTWARE MAKES DECISIONS EFFICIENTLY",
-        "hl": "CHANGE HOW SOFTWARE MAKES DECISIONS",
+        "headline": "AI CAN ALMOST START A WAR IF NOT CHECKED PROPERLY",
+        "hl": "START A WAR",
         "hls": [
-          "CHANGE HOW",
-          "MAKES DECISIONS"
+          "START A WAR"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "An engaging scene of a modern tech conference with attendees discussing AI innovations, capturing the excitement of technology."
+        "image_prompt": "An aerial view of a military base, with various military vehicles and personnel engaged in activities."
       }
     ],
     "story": {
-      "title": "Introducing System One Models and Jev",
-      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+      "title": "US Military had close call after using AI for hallucinated intelligence report",
+      "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship"
     },
-    "date": "2026-09-18"
+    "date": "2026-09-19"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 874,
-  "resolved_at": "2026-09-18T06:31:31.878227Z"
+  "control_msg_id": 881
 }
