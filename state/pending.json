@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-09-19T03:51:52.756587Z",
   "deadline_min": 120,
-  "caption": "This past spring, the US military faced a critical situation when a false intelligence report indicated a Chinese ship was transporting nuclear weapon components. The report, generated with AI assistance, was later found to be entirely inaccurate and nearly led to armed conflict. The incident highlights the dangers of relying on AI for military intelligence. \ud83d\udea8\ud83e\udd16\n\nShould AI be used in military operations?\n\nSources: CNN\n#USMilitary #AI #Intelligence #China #NuclearWeapons #MilitaryOperations #ArtificialIntelligence #RiskManagement",
+  "caption": "This past spring, the US military faced a critical situation when a false intelligence report indicated a Chinese ship was transporting nuclear weapon components. The report, generated with AI assistance, was later found to be entirely inaccurate and nearly led to armed conflict. The incident highlights the dangers of relying on AI for military intelligence. 🚨🤖\n\nShould AI be used in military operations?\n\nSources: CNN\n#USMilitary #AI #Intelligence #China #NuclearWeapons #MilitaryOperations #ArtificialIntelligence #RiskManagement",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789789904/everydayhypehq/2026-09-19/035143_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1789789905/everydayhypehq/2026-09-19/035143_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "a",
     "person": "",
     "company": "US Military",
-    "caption": "This past spring, the US military faced a critical situation when a false intelligence report indicated a Chinese ship was transporting nuclear weapon components. The report, generated with AI assistance, was later found to be entirely inaccurate and nearly led to armed conflict. The incident highlights the dangers of relying on AI for military intelligence. \ud83d\udea8\ud83e\udd16\n\nShould AI be used in military operations?\n\nSources: CNN\n#USMilitary #AI #Intelligence #China #NuclearWeapons #MilitaryOperations #ArtificialIntelligence #RiskManagement",
+    "caption": "This past spring, the US military faced a critical situation when a false intelligence report indicated a Chinese ship was transporting nuclear weapon components. The report, generated with AI assistance, was later found to be entirely inaccurate and nearly led to armed conflict. The incident highlights the dangers of relying on AI for military intelligence. 🚨🤖\n\nShould AI be used in military operations?\n\nSources: CNN\n#USMilitary #AI #Intelligence #China #NuclearWeapons #MilitaryOperations #ArtificialIntelligence #RiskManagement",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "US MILITARY ALMOST INTERCEPTED A CHINESE SHIP DUE TO AI ERROR",
         "hl": "AI ERROR",
         "hls": [
@@ -29,7 +29,7 @@
         "image_prompt": "A tense military command center with personnel discussing intelligence over maps and screens, serious expressions on their faces."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "AN AI-GENERATED REPORT CLAIMED A CHINESE SHIP WAS ARMED WITH NUCLEAR COMPONENTS",
         "hl": "NUCLEAR COMPONENTS",
         "hls": [
@@ -39,7 +39,7 @@
         "image_prompt": "Military aircraft in readiness on a runway, with crew members checking equipment and discussing plans."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "THE REPORT WAS LATER FOUND TO BE ENTIRELY FALSE AND MISIDENTIFIED CARGO",
         "hl": "ENTIRELY FALSE",
         "hls": [
@@ -49,7 +49,7 @@
         "image_prompt": "A close-up of military analysts reviewing documents and laptops, looking concerned as they discuss the incident."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "AI IN MILITARY OPERATIONS POSES SIGNIFICANT RISKS OF ERROR AND MISCALCULATION",
         "hl": "SIGNIFICANT RISKS",
         "hls": [
@@ -59,7 +59,7 @@
         "image_prompt": "A military officer in deep thought, overlooking a map of the region, with a backdrop of military planning."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AI CAN ALMOST START A WAR IF NOT CHECKED PROPERLY",
         "hl": "START A WAR",
         "hls": [
@@ -76,5 +76,6 @@
     "date": "2026-09-19"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 881
+  "control_msg_id": 881,
+  "resolved_at": "2026-09-19T03:55:25.196Z"
 }
