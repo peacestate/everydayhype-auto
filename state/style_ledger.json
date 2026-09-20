@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-03",
-    "palette": "red",
-    "art_style": "sleek 3D render, octane, glossy materials",
-    "layout": "a",
-    "motifs": [
-      "A close-up of a modern tech workspace wi",
-      "A group of engineers brainstorming aroun",
-      "An engineer working at a workstation, fo",
-      "A futuristic server room filled with adv",
-      "A visionary shot of a skyline with techn"
-    ]
-  },
-  {
     "date": "2026-07-04",
     "palette": "purple",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "A close-up of military analysts reviewin",
       "A military officer in deep thought, over",
       "An aerial view of a military base, with "
+    ]
+  },
+  {
+    "date": "2026-09-20",
+    "palette": "purple",
+    "art_style": "dramatic macro close-up, shallow depth",
+    "layout": "a",
+    "motifs": [
+      "A close-up of a computer circuit board w",
+      "A macro shot of a person typing on a lap",
+      "A dramatic close-up of a security camera",
+      "A macro view of a digital lock icon on a",
+      "A close-up of a thoughtful person lookin"
     ]
   }
 ]
