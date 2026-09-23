@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-09-23T03:51:55.386631Z",
   "deadline_min": 120,
   "caption": "A recent Pentagon investigation revealed that an overreliance on AI systems led to a missile strike on an Iranian school, resulting in the tragic deaths of 123 children. This incident highlights serious flaws in military decision-making processes and the consequences of outdated intelligence.\n\nWhat steps should be taken to prevent similar tragedies in the future?\n\nSources: Bloomberg, UN Investigators\n#Pentagon #AI #Military #Iran #MissileStrike #WarCrimes #ChildCasualties #IntelligenceFailures #USMilitary #TechEthics #Accountability #InternationalLaw",
@@ -19,7 +19,7 @@
     "caption": "A recent Pentagon investigation revealed that an overreliance on AI systems led to a missile strike on an Iranian school, resulting in the tragic deaths of 123 children. This incident highlights serious flaws in military decision-making processes and the consequences of outdated intelligence.\n\nWhat steps should be taken to prevent similar tragedies in the future?\n\nSources: Bloomberg, UN Investigators\n#Pentagon #AI #Military #Iran #MissileStrike #WarCrimes #ChildCasualties #IntelligenceFailures #USMilitary #TechEthics #Accountability #InternationalLaw",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "PENTAGON REVEALS AI CONTRIBUTED TO DEADLY IRAN SCHOOL STRIKE",
         "hl": "AI CONTRIBUTED TO DEADLY",
         "hls": [
@@ -30,7 +30,7 @@
         "image_prompt": "A dark and dramatic view of a military command center, with officers discussing strategy, illuminated by screens and dim lights, showcasing tension and urgency."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "123 CHILDREN DIED IN A STRIKE CAUSED BY FLAWS IN AI SYSTEMS",
         "hl": "123 CHILDREN DIED",
         "hls": [
@@ -41,7 +41,7 @@
         "image_prompt": "A somber scene outside a school in Minab, Iran, with flowers laid down, mourners paying their respects, and a peaceful atmosphere contrasting the tragedy."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "OVER 150 PEOPLE KILLED DUE TO FAILURES IN TARGETING PROCEDURES",
         "hl": "OVER 150 PEOPLE KILLED",
         "hls": [
@@ -52,7 +52,7 @@
         "image_prompt": "An aerial view of the devastated school building, showing destruction and debris, with a focus on the impact area surrounded by emergency response teams."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "UN INVESTIGATORS CONCLUDE STRIKE MAY AMOUNT TO WAR CRIMES",
         "hl": "WAR CRIMES",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "A tense meeting between United Nations officials, discussing reports and maps, with a backdrop of somber expressions and serious discussions."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "AI'S ROLE IN MILITARY DECISIONS RAISES ETHICAL QUESTIONS",
         "hl": "ETHICAL QUESTIONS",
         "hls": [
@@ -81,5 +81,6 @@
     "date": "2026-09-23"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 895
+  "control_msg_id": 895,
+  "resolved_at": "2026-09-23T05:29:17.909Z"
 }
