@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-04",
-    "palette": "purple",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "motifs": [
-      "A close-up of a person working on a lapt",
-      "A team meeting in a modern office, discu",
-      "A person interacting with a digital assi",
-      "An overhead shot of a workspace with mul",
-      "A futuristic workspace with people colla"
-    ]
-  },
-  {
     "date": "2026-07-05",
     "palette": "green",
     "art_style": "dramatic macro close-up, shallow depth",
@@ -777,6 +764,19 @@
       "A dramatic close-up of a security camera",
       "A macro view of a digital lock icon on a",
       "A close-up of a thoughtful person lookin"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "palette": "green",
+    "art_style": "neon glow synthwave, bloom, dark background",
+    "layout": "a",
+    "motifs": [
+      "A dark and dramatic view of a military c",
+      "A somber scene outside a school in Minab",
+      "An aerial view of the devastated school ",
+      "A tense meeting between United Nations o",
+      "A close-up of a military officer's hand "
     ]
   }
 ]
