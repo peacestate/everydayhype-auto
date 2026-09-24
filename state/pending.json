@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-23T03:51:55.386631Z",
+  "status": "pending",
+  "created_at": "2026-09-24T11:40:38.408329Z",
   "deadline_min": 120,
-  "caption": "A recent Pentagon investigation revealed that an overreliance on AI systems led to a missile strike on an Iranian school, resulting in the tragic deaths of 123 children. This incident highlights serious flaws in military decision-making processes and the consequences of outdated intelligence.\n\nWhat steps should be taken to prevent similar tragedies in the future?\n\nSources: Bloomberg, UN Investigators\n#Pentagon #AI #Military #Iran #MissileStrike #WarCrimes #ChildCasualties #IntelligenceFailures #USMilitary #TechEthics #Accountability #InternationalLaw",
+  "caption": "Google has unveiled Gemini 3.8, its latest text-to-speech model, on September 23, 2026. This technology allows for custom character voices and dynamic scene dialogue, enhancing user experiences across multiple platforms. 3a4f4a1\n\nAre you excited about voice generation?\n\nSources: Google Blog, Tech Crunch, The Verge\n\n#Google #Gemini #TextToSpeech #VoiceGeneration #AI #Innovation #TechNews #VoiceAI #AudioTech #CreativeTech #Gemini3.8 #AIModels",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790135506/everydayhypehq/2026-09-23/035145_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790135507/everydayhypehq/2026-09-23/035145_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790135508/everydayhypehq/2026-09-23/035145_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790135508/everydayhypehq/2026-09-23/035145_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790135509/everydayhypehq/2026-09-23/035145_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790250028/everydayhypehq/2026-09-24/114028_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790250029/everydayhypehq/2026-09-24/114028_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790250030/everydayhypehq/2026-09-24/114028_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790250031/everydayhypehq/2026-09-24/114028_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790250032/everydayhypehq/2026-09-24/114028_slide_5.png"
   ],
   "plan": {
-    "palette": "green",
-    "art_style": "neon glow synthwave, bloom, dark background",
-    "layout": "a",
-    "person": "",
-    "company": "Pentagon",
-    "caption": "A recent Pentagon investigation revealed that an overreliance on AI systems led to a missile strike on an Iranian school, resulting in the tragic deaths of 123 children. This incident highlights serious flaws in military decision-making processes and the consequences of outdated intelligence.\n\nWhat steps should be taken to prevent similar tragedies in the future?\n\nSources: Bloomberg, UN Investigators\n#Pentagon #AI #Military #Iran #MissileStrike #WarCrimes #ChildCasualties #IntelligenceFailures #USMilitary #TechEthics #Accountability #InternationalLaw",
+    "palette": "blue",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "caption": "Google has unveiled Gemini 3.8, its latest text-to-speech model, on September 23, 2026. This technology allows for custom character voices and dynamic scene dialogue, enhancing user experiences across multiple platforms. 3a4f4a1\n\nAre you excited about voice generation?\n\nSources: Google Blog, Tech Crunch, The Verge\n\n#Google #Gemini #TextToSpeech #VoiceGeneration #AI #Innovation #TechNews #VoiceAI #AudioTech #CreativeTech #Gemini3.8 #AIModels",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "PENTAGON REVEALS AI CONTRIBUTED TO DEADLY IRAN SCHOOL STRIKE",
-        "hl": "AI CONTRIBUTED TO DEADLY",
+        "pill": "BREAKING 534",
+        "headline": "GOOGLE JUST LAUNCHED GEMINI 3.8 TEXT-TO-SPEECH MODELS",
+        "hl": "TEXT-TO-SPEECH MODELS",
         "hls": [
-          "AI",
-          "DEADLY"
+          "GEMINI 3.8",
+          "TEXT-TO-SPEECH"
         ],
-        "sub": "Here's what you need to know.",
-        "image_prompt": "A dark and dramatic view of a military command center, with officers discussing strategy, illuminated by screens and dim lights, showcasing tension and urgency."
+        "sub": "This includes Gemini 3.8 Flash TTS and Flash-Lite TTS.",
+        "image_prompt": "A group of diverse developers collaborating around a table, brainstorming ideas, with laptops open and notes scattered, in a bright, modern office space."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "123 CHILDREN DIED IN A STRIKE CAUSED BY FLAWS IN AI SYSTEMS",
-        "hl": "123 CHILDREN DIED",
+        "pill": "",
+        "headline": "THESE MODELS OFFER CUSTOM CHARACTER VOICES FOR CREATORS",
+        "hl": "CUSTOM CHARACTER VOICES",
         "hls": [
-          "CHILDREN",
-          "DIED"
+          "FOR CREATORS",
+          "CUSTOM CHARACTER"
         ],
-        "sub": "The missile attack on February 28, 2026, was catastrophic.",
-        "image_prompt": "A somber scene outside a school in Minab, Iran, with flowers laid down, mourners paying their respects, and a peaceful atmosphere contrasting the tragedy."
+        "sub": "Generate voices for gaming, audiobooks, podcasts, and media.",
+        "image_prompt": "A close-up shot of a voice actor recording in a sound studio, surrounded by microphones and soundproofing, with focused expression."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "OVER 150 PEOPLE KILLED DUE TO FAILURES IN TARGETING PROCEDURES",
-        "hl": "OVER 150 PEOPLE KILLED",
+        "pill": "",
+        "headline": "GEMINI 3.8 FLASH TTS ENABLES CREATIVE CONTROL OVER VOICE ACTING",
+        "hl": "CREATIVE CONTROL",
         "hls": [
-          "KILLED",
-          "FAILURES"
+          "FLASH TTS",
+          "VOICE ACTING"
         ],
-        "sub": "The incident is the deadliest targeting error of the 21st century.",
-        "image_prompt": "An aerial view of the devastated school building, showing destruction and debris, with a focus on the impact area surrounded by emergency response teams."
+        "sub": "Direct performances with cues, pacing, and dialect shifts.",
+        "image_prompt": "A creative director interacting with a digital interface, adjusting audio settings, with an artist working in the background."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "UN INVESTIGATORS CONCLUDE STRIKE MAY AMOUNT TO WAR CRIMES",
-        "hl": "WAR CRIMES",
+        "pill": "",
+        "headline": "GEMINI 3.8 FLASH-LITE TTS IS OPTIMIZED FOR HIGH-VOLUME USE",
+        "hl": "HIGH-VOLUME USE",
         "hls": [
-          "WAR",
-          "CRIMES"
+          "FLASH-LITE TTS",
+          "OPTIMIZED"
         ],
-        "sub": "The US has not publicly accepted responsibility for the incident.",
-        "image_prompt": "A tense meeting between United Nations officials, discussing reports and maps, with a backdrop of somber expressions and serious discussions."
+        "sub": "Perfect for dubbing and audio content creation at scale.",
+        "image_prompt": "A busy editing room with multiple screens displaying audio waveforms, editors focused on their work, and sound equipment."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "AI'S ROLE IN MILITARY DECISIONS RAISES ETHICAL QUESTIONS",
-        "hl": "ETHICAL QUESTIONS",
+        "pill": "WHY IT MATTERS 3c0d",
+        "headline": "GEMINI 3.8 CAN CREATE AN INFINITE LIBRARY OF VOICES",
+        "hl": "INFINITE LIBRARY",
         "hls": [
-          "AI'S ROLE",
-          "ETHICAL"
+          "INFINITE LIBRARY",
+          "GEMINI 3.8"
         ],
-        "sub": "What changes are needed to prevent future tragedies?",
-        "image_prompt": "A close-up of a military officer's hand on a control panel, highlighting the human element in technology-driven decision-making, with a focus on ethical implications."
+        "sub": "This expands possibilities for personalized audio experiences.",
+        "image_prompt": "An abstract visualization of sound waves emanating from a central point, symbolizing creativity and innovation in audio technology."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/"
+      "title": "Gemini 3.8 text-to-speech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
     },
-    "date": "2026-09-23"
+    "date": "2026-09-24"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 895,
-  "resolved_at": "2026-09-23T06:31:35.349785Z"
+  "control_msg_id": 902
 }
