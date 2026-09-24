@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-09-24T11:40:38.408329Z",
   "deadline_min": 120,
   "caption": "Google has unveiled Gemini 3.8, its latest text-to-speech model, on September 23, 2026. This technology allows for custom character voices and dynamic scene dialogue, enhancing user experiences across multiple platforms. 3a4f4a1\n\nAre you excited about voice generation?\n\nSources: Google Blog, Tech Crunch, The Verge\n\n#Google #Gemini #TextToSpeech #VoiceGeneration #AI #Innovation #TechNews #VoiceAI #AudioTech #CreativeTech #Gemini3.8 #AIModels",
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 902,
-  "resolved_at": "2026-09-24T11:59:14.255Z"
+  "resolved_at": "2026-09-24T12:00:37.427540Z"
 }

@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-05",
-    "palette": "green",
-    "art_style": "dramatic macro close-up, shallow depth",
-    "layout": "a",
-    "motifs": [
-      "A close-up shot of a computer screen dis",
-      "A macro image of mathematical equations ",
-      "A close-up of a developer's desk clutter",
-      "A detailed shot of a person using a lapt",
-      "A focus shot of a diverse group of devel"
-    ]
-  },
-  {
     "date": "2026-07-06",
     "palette": "amber",
     "art_style": "isometric miniature diorama, tilt-shift",
@@ -777,6 +764,19 @@
       "An aerial view of the devastated school ",
       "A tense meeting between United Nations o",
       "A close-up of a military officer's hand "
+    ]
+  },
+  {
+    "date": "2026-09-24",
+    "palette": "blue",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "motifs": [
+      "A group of diverse developers collaborat",
+      "A close-up shot of a voice actor recordi",
+      "A creative director interacting with a d",
+      "A busy editing room with multiple screen",
+      "An abstract visualization of sound waves"
     ]
   }
 ]
