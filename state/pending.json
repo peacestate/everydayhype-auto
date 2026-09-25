@@ -1,86 +1,80 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-24T11:40:38.408329Z",
+  "status": "pending",
+  "created_at": "2026-09-25T03:43:46.761998Z",
   "deadline_min": 120,
-  "caption": "Google has unveiled Gemini 3.8, its latest text-to-speech model, on September 23, 2026. This technology allows for custom character voices and dynamic scene dialogue, enhancing user experiences across multiple platforms. 3a4f4a1\n\nAre you excited about voice generation?\n\nSources: Google Blog, Tech Crunch, The Verge\n\n#Google #Gemini #TextToSpeech #VoiceGeneration #AI #Innovation #TechNews #VoiceAI #AudioTech #CreativeTech #Gemini3.8 #AIModels",
+  "caption": "Google's Project Suncatcher aims to test AI compute in space. \ud83d\ude80 The initiative will launch a prototype satellite to evaluate the performance of Tensor Processing Units (TPUs) beyond Earth. With the potential for scalable machine learning infrastructure, the project could reshape tech development for various industries.\n\nShould we be excited about AI in space? \n\nSources: Google Blog, TechCrunch, Space.com \n\n#Google #AI #SpaceTech #MachineLearning #ProjectSuncatcher #TPU #Innovation #SpaceX #Satellite #FutureTech #Research",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790250028/everydayhypehq/2026-09-24/114028_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790250029/everydayhypehq/2026-09-24/114028_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790250030/everydayhypehq/2026-09-24/114028_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790250031/everydayhypehq/2026-09-24/114028_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790250032/everydayhypehq/2026-09-24/114028_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790307819/everydayhypehq/2026-09-25/034338_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790307819/everydayhypehq/2026-09-25/034338_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790307820/everydayhypehq/2026-09-25/034338_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790307821/everydayhypehq/2026-09-25/034338_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790307821/everydayhypehq/2026-09-25/034338_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
+    "palette": "magenta",
     "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "b",
-    "caption": "Google has unveiled Gemini 3.8, its latest text-to-speech model, on September 23, 2026. This technology allows for custom character voices and dynamic scene dialogue, enhancing user experiences across multiple platforms. 3a4f4a1\n\nAre you excited about voice generation?\n\nSources: Google Blog, Tech Crunch, The Verge\n\n#Google #Gemini #TextToSpeech #VoiceGeneration #AI #Innovation #TechNews #VoiceAI #AudioTech #CreativeTech #Gemini3.8 #AIModels",
+    "person": "Travis Beals",
+    "company": "Google",
+    "caption": "Google's Project Suncatcher aims to test AI compute in space. \ud83d\ude80 The initiative will launch a prototype satellite to evaluate the performance of Tensor Processing Units (TPUs) beyond Earth. With the potential for scalable machine learning infrastructure, the project could reshape tech development for various industries.\n\nShould we be excited about AI in space? \n\nSources: Google Blog, TechCrunch, Space.com \n\n#Google #AI #SpaceTech #MachineLearning #ProjectSuncatcher #TPU #Innovation #SpaceX #Satellite #FutureTech #Research",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "GOOGLE JUST LAUNCHED GEMINI 3.8 TEXT-TO-SPEECH MODELS",
-        "hl": "TEXT-TO-SPEECH MODELS",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "GOOGLE'S PROJECT SUNCATCHER WILL TEST AI IN SPACE SOON",
+        "hl": "TEST AI IN SPACE",
         "hls": [
-          "GEMINI 3.8",
-          "TEXT-TO-SPEECH"
+          "AI IN SPACE"
         ],
-        "sub": "This includes Gemini 3.8 Flash TTS and Flash-Lite TTS.",
-        "image_prompt": "A group of diverse developers collaborating around a table, brainstorming ideas, with laptops open and notes scattered, in a bright, modern office space."
+        "sub": "The first satellite test is scheduled for Transporter-18 in 2027.",
+        "image_prompt": "A close-up shot of a sleek satellite prototype being prepared for launch, with engineers in the background."
       },
       {
         "pill": "",
-        "headline": "THESE MODELS OFFER CUSTOM CHARACTER VOICES FOR CREATORS",
-        "hl": "CUSTOM CHARACTER VOICES",
+        "headline": "SATELLITES COULD GENERATE UP TO EIGHT TIMES MORE SOLAR POWER",
+        "hl": "EIGHT TIMES MORE SOLAR POWER",
         "hls": [
-          "FOR CREATORS",
-          "CUSTOM CHARACTER"
+          "SOLAR POWER"
         ],
-        "sub": "Generate voices for gaming, audiobooks, podcasts, and media.",
-        "image_prompt": "A close-up shot of a voice actor recording in a sound studio, surrounded by microphones and soundproofing, with focused expression."
+        "sub": "Low Earth orbit offers consistent sunlight for enhanced energy generation.",
+        "image_prompt": "A breathtaking view of Earth from space with sunlight reflecting off the satellite's solar panels."
       },
       {
         "pill": "",
-        "headline": "GEMINI 3.8 FLASH TTS ENABLES CREATIVE CONTROL OVER VOICE ACTING",
-        "hl": "CREATIVE CONTROL",
+        "headline": "TPUs MUST WITHSTAND UP TO 100 G-FORCE DURING LAUNCH",
+        "hl": "100 G-FORCE",
         "hls": [
-          "FLASH TTS",
-          "VOICE ACTING"
+          "UP TO 100"
         ],
-        "sub": "Direct performances with cues, pacing, and dialect shifts.",
-        "image_prompt": "A creative director interacting with a digital interface, adjusting audio settings, with an artist working in the background."
+        "sub": "The hardware will face extreme physical stresses during the flight.",
+        "image_prompt": "A team of engineers conducting rigorous testing on TPU chips in a lab setting."
       },
       {
         "pill": "",
-        "headline": "GEMINI 3.8 FLASH-LITE TTS IS OPTIMIZED FOR HIGH-VOLUME USE",
-        "hl": "HIGH-VOLUME USE",
+        "headline": "PROJECT SUNCATCHER COULD ENABLE FUTURE AI BREAKTHROUGHS",
+        "hl": "FUTURE AI BREAKTHROUGHS",
         "hls": [
-          "FLASH-LITE TTS",
-          "OPTIMIZED"
+          "AI BREAKTHROUGHS"
         ],
-        "sub": "Perfect for dubbing and audio content creation at scale.",
-        "image_prompt": "A busy editing room with multiple screens displaying audio waveforms, editors focused on their work, and sound equipment."
+        "sub": "This research could have profound benefits for healthcare and science.",
+        "image_prompt": "A group of scientists collaborating around a futuristic workspace filled with advanced technology."
       },
       {
-        "pill": "WHY IT MATTERS 3c0d",
-        "headline": "GEMINI 3.8 CAN CREATE AN INFINITE LIBRARY OF VOICES",
-        "hl": "INFINITE LIBRARY",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "SUNCATCHER COULD TRANSFORM AI INFRASTRUCTURE IN SPACE",
+        "hl": "TRANSFORM AI INFRASTRUCTURE",
         "hls": [
-          "INFINITE LIBRARY",
-          "GEMINI 3.8"
+          "AI INFRASTRUCTURE"
         ],
-        "sub": "This expands possibilities for personalized audio experiences.",
-        "image_prompt": "An abstract visualization of sound waves emanating from a central point, symbolizing creativity and innovation in audio technology."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A conceptual image of a satellite constellation in space, linking multiple satellites together."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Gemini 3.8 text-to-speech",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+      "title": "Google\u2019s Project Suncatcher to put ML infrastructure in space",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
     },
-    "date": "2026-09-24"
+    "date": "2026-09-25"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 902,
-  "resolved_at": "2026-09-24T12:00:37.427540Z"
+  "control_msg_id": 909
 }
