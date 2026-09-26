@@ -1,80 +1,85 @@
 {
   "status": "pending",
-  "created_at": "2026-09-25T03:43:46.761998Z",
+  "created_at": "2026-09-26T03:51:55.660039Z",
   "deadline_min": 120,
-  "caption": "Google's Project Suncatcher aims to test AI compute in space. \ud83d\ude80 The initiative will launch a prototype satellite to evaluate the performance of Tensor Processing Units (TPUs) beyond Earth. With the potential for scalable machine learning infrastructure, the project could reshape tech development for various industries.\n\nShould we be excited about AI in space? \n\nSources: Google Blog, TechCrunch, Space.com \n\n#Google #AI #SpaceTech #MachineLearning #ProjectSuncatcher #TPU #Innovation #SpaceX #Satellite #FutureTech #Research",
+  "caption": "Google's Project Suncatcher is set to launch its first satellite prototype to test AI hardware in space. This mission aims to gather crucial data on how Tensor Processing Units (TPUs) perform under the unique conditions of low Earth orbit.  Is this the next step for machine learning infrastructure? \n\nSources: Google Blog, SpaceX, Planet\n\n#Google #ProjectSuncatcher #AI #Space #MachineLearning #Innovation #Technology #TPUs",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790307819/everydayhypehq/2026-09-25/034338_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790307819/everydayhypehq/2026-09-25/034338_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790307820/everydayhypehq/2026-09-25/034338_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790307821/everydayhypehq/2026-09-25/034338_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790307821/everydayhypehq/2026-09-25/034338_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790394708/everydayhypehq/2026-09-26/035148_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790394709/everydayhypehq/2026-09-26/035148_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790394709/everydayhypehq/2026-09-26/035148_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790394710/everydayhypehq/2026-09-26/035148_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790394710/everydayhypehq/2026-09-26/035148_slide_5.png"
   ],
   "plan": {
     "palette": "magenta",
     "art_style": "photoreal cinematic, volumetric light, 8k",
     "layout": "b",
-    "person": "Travis Beals",
-    "company": "Google",
-    "caption": "Google's Project Suncatcher aims to test AI compute in space. \ud83d\ude80 The initiative will launch a prototype satellite to evaluate the performance of Tensor Processing Units (TPUs) beyond Earth. With the potential for scalable machine learning infrastructure, the project could reshape tech development for various industries.\n\nShould we be excited about AI in space? \n\nSources: Google Blog, TechCrunch, Space.com \n\n#Google #AI #SpaceTech #MachineLearning #ProjectSuncatcher #TPU #Innovation #SpaceX #Satellite #FutureTech #Research",
+    "caption": "Google's Project Suncatcher is set to launch its first satellite prototype to test AI hardware in space. This mission aims to gather crucial data on how Tensor Processing Units (TPUs) perform under the unique conditions of low Earth orbit.  Is this the next step for machine learning infrastructure? \n\nSources: Google Blog, SpaceX, Planet\n\n#Google #ProjectSuncatcher #AI #Space #MachineLearning #Innovation #Technology #TPUs",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "GOOGLE'S PROJECT SUNCATCHER WILL TEST AI IN SPACE SOON",
-        "hl": "TEST AI IN SPACE",
+        "pill": "BREAKING",
+        "headline": "PROJECT SUNCATCHER WILL TEST AI HARDWARE IN SPACE FOR THE FIRST TIME",
+        "hl": "AI HARDWARE IN SPACE",
         "hls": [
-          "AI IN SPACE"
+          "AI HARDWARE",
+          "IN SPACE"
         ],
-        "sub": "The first satellite test is scheduled for Transporter-18 in 2027.",
-        "image_prompt": "A close-up shot of a sleek satellite prototype being prepared for launch, with engineers in the background."
+        "sub": "The test satellite is launching in early 2027.",
+        "image_prompt": "A sleek, futuristic satellite being prepared for launch in a high-tech setting, with engineers inspecting it, focusing on the intricate details of the satellite's design."
       },
       {
-        "pill": "",
-        "headline": "SATELLITES COULD GENERATE UP TO EIGHT TIMES MORE SOLAR POWER",
-        "hl": "EIGHT TIMES MORE SOLAR POWER",
+        "pill": "WHAT HAPPENED",
+        "headline": "GOOGLE'S TPUs COULD HARNESS 8X MORE SOLAR POWER IN ORBIT",
+        "hl": "8X MORE SOLAR POWER",
         "hls": [
-          "SOLAR POWER"
+          "SOLAR POWER",
+          "IN ORBIT"
         ],
-        "sub": "Low Earth orbit offers consistent sunlight for enhanced energy generation.",
-        "image_prompt": "A breathtaking view of Earth from space with sunlight reflecting off the satellite's solar panels."
+        "sub": "Satellites in low Earth orbit can utilize near-constant sunlight.",
+        "image_prompt": "A picturesque view of Earth from space, with the sun shining brightly on a satellite, highlighting solar panels glistening."
       },
       {
-        "pill": "",
-        "headline": "TPUs MUST WITHSTAND UP TO 100 G-FORCE DURING LAUNCH",
-        "hl": "100 G-FORCE",
+        "pill": "WHY IT MATTERS",
+        "headline": "LAUNCHING ON SPACEX'S TRANSPORTER-18 MISSION THIS YEAR",
+        "hl": "TRANSPORTER-18 MISSION",
         "hls": [
-          "UP TO 100"
+          "SPACEX",
+          "MISSION"
         ],
-        "sub": "The hardware will face extreme physical stresses during the flight.",
-        "image_prompt": "A team of engineers conducting rigorous testing on TPU chips in a lab setting."
+        "sub": "This mission will gather data on TPU performance during launch.",
+        "image_prompt": "An intense scene of a SpaceX rocket launch at sunset, capturing the moment of ignition and liftoff, with a focus on the rocket."
       },
       {
-        "pill": "",
-        "headline": "PROJECT SUNCATCHER COULD ENABLE FUTURE AI BREAKTHROUGHS",
-        "hl": "FUTURE AI BREAKTHROUGHS",
+        "pill": "THE IMPACT",
+        "headline": "FIRST TEST TO GATHER DATA ON PHYSICAL STRESS IN SPACEFLIGHT",
+        "hl": "PHYSICAL STRESS",
         "hls": [
-          "AI BREAKTHROUGHS"
+          "DATA",
+          "STRESS"
         ],
-        "sub": "This research could have profound benefits for healthcare and science.",
-        "image_prompt": "A group of scientists collaborating around a futuristic workspace filled with advanced technology."
+        "sub": "The mission will help understand how TPUs withstand space conditions.",
+        "image_prompt": "Engineers observing data on screens in a control room, with visuals of the satellite mission displayed, showcasing a blend of technology and teamwork."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "SUNCATCHER COULD TRANSFORM AI INFRASTRUCTURE IN SPACE",
-        "hl": "TRANSFORM AI INFRASTRUCTURE",
+        "pill": "THE TAKEAWAY",
+        "headline": "AND THIS COULD LEAD TO SCALABLE ML INFRASTRUCTURE IN SPACE",
+        "hl": "SCALABLE ML INFRASTRUCTURE",
         "hls": [
-          "AI INFRASTRUCTURE"
+          "SCALABLE",
+          "ML INFRASTRUCTURE"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A conceptual image of a satellite constellation in space, linking multiple satellites together."
+        "image_prompt": "A visionary scene of multiple satellites in orbit around Earth, connected by beams of light, symbolizing the potential of AI in space."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
       "title": "Google\u2019s Project Suncatcher to put ML infrastructure in space",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
     },
-    "date": "2026-09-25"
+    "date": "2026-09-26"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 909
+  "control_msg_id": 915
 }
