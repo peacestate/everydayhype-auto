@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-09-26T03:51:55.660039Z",
   "deadline_min": 120,
   "caption": "Google's Project Suncatcher is set to launch its first satellite prototype to test AI hardware in space. This mission aims to gather crucial data on how Tensor Processing Units (TPUs) perform under the unique conditions of low Earth orbit.  Is this the next step for machine learning infrastructure? \n\nSources: Google Blog, SpaceX, Planet\n\n#Google #ProjectSuncatcher #AI #Space #MachineLearning #Innovation #Technology #TPUs",
@@ -75,12 +75,12 @@
     "person": "",
     "company": "",
     "story": {
-      "title": "Google’s Project Suncatcher to put ML infrastructure in space",
+      "title": "Google\u2019s Project Suncatcher to put ML infrastructure in space",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
     },
     "date": "2026-09-26"
   },
   "chat_id": 8692339206,
   "control_msg_id": 915,
-  "resolved_at": "2026-09-26T05:55:28.977Z"
+  "resolved_at": "2026-09-26T06:31:16.027618Z"
 }

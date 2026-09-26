@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-06",
-    "palette": "amber",
-    "art_style": "isometric miniature diorama, tilt-shift",
-    "layout": "c",
-    "motifs": [
-      "A close-up of a computer screen displayi",
-      "An office environment with various tech ",
-      "A serious meeting in a conference room w",
-      "A futuristic workspace showcasing advanc",
-      "A person looking at a digital security d"
-    ]
-  },
-  {
     "date": "2026-07-07",
     "palette": "blue",
     "art_style": "isometric miniature diorama, tilt-shift",
@@ -777,6 +764,19 @@
       "A creative director interacting with a d",
       "A busy editing room with multiple screen",
       "An abstract visualization of sound waves"
+    ]
+  },
+  {
+    "date": "2026-09-26",
+    "palette": "magenta",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "motifs": [
+      "A sleek, futuristic satellite being prep",
+      "A picturesque view of Earth from space, ",
+      "An intense scene of a SpaceX rocket laun",
+      "Engineers observing data on screens in a",
+      "A visionary scene of multiple satellites"
     ]
   }
 ]
