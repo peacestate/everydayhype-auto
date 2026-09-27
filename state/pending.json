@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-09-27T03:51:53.695231Z",
   "deadline_min": 120,
-  "caption": "The NSA is reportedly investing billions in testing AI models to enhance its intelligence capabilities. These classified estimates reveal the significant financial commitment made by the agency to stay ahead in the rapidly evolving AI landscape. \ud83d\udcb0\ud83e\udd16\n\nWhat do you think about government spending on AI? \n\nSources: The Washington Sun\n#NSA #AI #Technology #GovernmentSpending #Intelligence #Innovation #ArtificialIntelligence #Cybersecurity #FutureTech",
+  "caption": "The NSA is reportedly investing billions in testing AI models to enhance its intelligence capabilities. These classified estimates reveal the significant financial commitment made by the agency to stay ahead in the rapidly evolving AI landscape. 💰🤖\n\nWhat do you think about government spending on AI? \n\nSources: The Washington Sun\n#NSA #AI #Technology #GovernmentSpending #Intelligence #Innovation #ArtificialIntelligence #Cybersecurity #FutureTech",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481106/everydayhypehq/2026-09-27/035146_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481107/everydayhypehq/2026-09-27/035146_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "c",
     "person": "",
     "company": "NSA",
-    "caption": "The NSA is reportedly investing billions in testing AI models to enhance its intelligence capabilities. These classified estimates reveal the significant financial commitment made by the agency to stay ahead in the rapidly evolving AI landscape. \ud83d\udcb0\ud83e\udd16\n\nWhat do you think about government spending on AI? \n\nSources: The Washington Sun\n#NSA #AI #Technology #GovernmentSpending #Intelligence #Innovation #ArtificialIntelligence #Cybersecurity #FutureTech",
+    "caption": "The NSA is reportedly investing billions in testing AI models to enhance its intelligence capabilities. These classified estimates reveal the significant financial commitment made by the agency to stay ahead in the rapidly evolving AI landscape. 💰🤖\n\nWhat do you think about government spending on AI? \n\nSources: The Washington Sun\n#NSA #AI #Technology #GovernmentSpending #Intelligence #Innovation #ArtificialIntelligence #Cybersecurity #FutureTech",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "NSA IS SPENDING BILLIONS ON AI MODEL TESTING",
         "hl": "BILLIONS ON AI MODEL TESTING",
         "hls": [
@@ -60,7 +60,7 @@
         "image_prompt": "A dramatic view of a city skyline at night with digital overlays representing data and AI."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "NSA'S BILLIONS SPENT REFLECTS AI'S IMPORTANCE IN GOVERNMENT",
         "hl": "IMPORTANCE IN GOVERNMENT",
         "hls": [
@@ -77,5 +77,6 @@
     "date": "2026-09-27"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 922
+  "control_msg_id": 922,
+  "resolved_at": "2026-09-27T04:02:38.426Z"
 }
