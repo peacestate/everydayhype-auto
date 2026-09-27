@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-07",
-    "palette": "blue",
-    "art_style": "isometric miniature diorama, tilt-shift",
-    "layout": "c",
-    "motifs": [
-      "A sleek mini-PC setup on a modern desk, ",
-      "A focused developer working at a compute",
-      "An overhead shot of a workspace with var",
-      "A close-up of the AMD Ryzen AI Halo's in",
-      "A futuristic tech environment with diver"
-    ]
-  },
-  {
     "date": "2026-07-08",
     "palette": "magenta",
     "art_style": "neon glow synthwave, bloom, dark background",
@@ -777,6 +764,19 @@
       "An intense scene of a SpaceX rocket laun",
       "Engineers observing data on screens in a",
       "A visionary scene of multiple satellites"
+    ]
+  },
+  {
+    "date": "2026-09-27",
+    "palette": "cyan",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "c",
+    "motifs": [
+      "A silhouette of a modern government buil",
+      "A close-up of a hand using a laptop, wit",
+      "An office space filled with diverse prof",
+      "A dramatic view of a city skyline at nig",
+      "A futuristic city scene with digital ele"
     ]
   }
 ]
