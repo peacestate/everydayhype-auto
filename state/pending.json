@@ -1,86 +1,81 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-26T03:51:55.660039Z",
+  "status": "pending",
+  "created_at": "2026-09-27T03:51:53.695231Z",
   "deadline_min": 120,
-  "caption": "Google's Project Suncatcher is set to launch its first satellite prototype to test AI hardware in space. This mission aims to gather crucial data on how Tensor Processing Units (TPUs) perform under the unique conditions of low Earth orbit.  Is this the next step for machine learning infrastructure? \n\nSources: Google Blog, SpaceX, Planet\n\n#Google #ProjectSuncatcher #AI #Space #MachineLearning #Innovation #Technology #TPUs",
+  "caption": "The NSA is reportedly investing billions in testing AI models to enhance its intelligence capabilities. These classified estimates reveal the significant financial commitment made by the agency to stay ahead in the rapidly evolving AI landscape. \ud83d\udcb0\ud83e\udd16\n\nWhat do you think about government spending on AI? \n\nSources: The Washington Sun\n#NSA #AI #Technology #GovernmentSpending #Intelligence #Innovation #ArtificialIntelligence #Cybersecurity #FutureTech",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790394708/everydayhypehq/2026-09-26/035148_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790394709/everydayhypehq/2026-09-26/035148_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790394709/everydayhypehq/2026-09-26/035148_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790394710/everydayhypehq/2026-09-26/035148_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790394710/everydayhypehq/2026-09-26/035148_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481106/everydayhypehq/2026-09-27/035146_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481107/everydayhypehq/2026-09-27/035146_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481108/everydayhypehq/2026-09-27/035146_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481108/everydayhypehq/2026-09-27/035146_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481108/everydayhypehq/2026-09-27/035146_slide_5.png"
   ],
   "plan": {
-    "palette": "magenta",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "caption": "Google's Project Suncatcher is set to launch its first satellite prototype to test AI hardware in space. This mission aims to gather crucial data on how Tensor Processing Units (TPUs) perform under the unique conditions of low Earth orbit.  Is this the next step for machine learning infrastructure? \n\nSources: Google Blog, SpaceX, Planet\n\n#Google #ProjectSuncatcher #AI #Space #MachineLearning #Innovation #Technology #TPUs",
+    "palette": "cyan",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "c",
+    "person": "",
+    "company": "NSA",
+    "caption": "The NSA is reportedly investing billions in testing AI models to enhance its intelligence capabilities. These classified estimates reveal the significant financial commitment made by the agency to stay ahead in the rapidly evolving AI landscape. \ud83d\udcb0\ud83e\udd16\n\nWhat do you think about government spending on AI? \n\nSources: The Washington Sun\n#NSA #AI #Technology #GovernmentSpending #Intelligence #Innovation #ArtificialIntelligence #Cybersecurity #FutureTech",
     "slides": [
       {
-        "pill": "BREAKING",
-        "headline": "PROJECT SUNCATCHER WILL TEST AI HARDWARE IN SPACE FOR THE FIRST TIME",
-        "hl": "AI HARDWARE IN SPACE",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "NSA IS SPENDING BILLIONS ON AI MODEL TESTING",
+        "hl": "BILLIONS ON AI MODEL TESTING",
         "hls": [
-          "AI HARDWARE",
-          "IN SPACE"
+          "BILLIONS",
+          "AI MODEL"
         ],
-        "sub": "The test satellite is launching in early 2027.",
-        "image_prompt": "A sleek, futuristic satellite being prepared for launch in a high-tech setting, with engineers inspecting it, focusing on the intricate details of the satellite's design."
+        "sub": "Classified estimates reveal the NSA's staggering investment.",
+        "image_prompt": "A silhouette of a modern government building against a sunset, symbolizing intelligence and technology."
       },
       {
-        "pill": "WHAT HAPPENED",
-        "headline": "GOOGLE'S TPUs COULD HARNESS 8X MORE SOLAR POWER IN ORBIT",
-        "hl": "8X MORE SOLAR POWER",
+        "pill": "",
+        "headline": "THE AGENCY IS ALLOCATING OVER $10 BILLION ANNUALLY",
+        "hl": "OVER $10 BILLION ANNUALLY",
         "hls": [
-          "SOLAR POWER",
-          "IN ORBIT"
+          "$10 BILLION"
         ],
-        "sub": "Satellites in low Earth orbit can utilize near-constant sunlight.",
-        "image_prompt": "A picturesque view of Earth from space, with the sun shining brightly on a satellite, highlighting solar panels glistening."
+        "sub": "To bolster its capabilities in artificial intelligence and data analysis.",
+        "image_prompt": "A close-up of a hand using a laptop, with glowing data streams reflected on the screen."
       },
       {
-        "pill": "WHY IT MATTERS",
-        "headline": "LAUNCHING ON SPACEX'S TRANSPORTER-18 MISSION THIS YEAR",
-        "hl": "TRANSPORTER-18 MISSION",
+        "pill": "",
+        "headline": "THE SPENDING INCREASED BY 30% IN THE LAST YEAR",
+        "hl": "INCREASED BY 30%",
         "hls": [
-          "SPACEX",
-          "MISSION"
+          "30%"
         ],
-        "sub": "This mission will gather data on TPU performance during launch.",
-        "image_prompt": "An intense scene of a SpaceX rocket launch at sunset, capturing the moment of ignition and liftoff, with a focus on the rocket."
+        "sub": "Amid growing competition in AI advancements globally.",
+        "image_prompt": "An office space filled with diverse professionals collaborating over AI projects."
       },
       {
-        "pill": "THE IMPACT",
-        "headline": "FIRST TEST TO GATHER DATA ON PHYSICAL STRESS IN SPACEFLIGHT",
-        "hl": "PHYSICAL STRESS",
+        "pill": "",
+        "headline": "THIS INVESTMENT IS CRUCIAL FOR NATIONAL SECURITY",
+        "hl": "CRUCIAL FOR NATIONAL SECURITY",
         "hls": [
-          "DATA",
-          "STRESS"
+          "NATIONAL SECURITY"
         ],
-        "sub": "The mission will help understand how TPUs withstand space conditions.",
-        "image_prompt": "Engineers observing data on screens in a control room, with visuals of the satellite mission displayed, showcasing a blend of technology and teamwork."
+        "sub": "AI technology is becoming vital for intelligence operations.",
+        "image_prompt": "A dramatic view of a city skyline at night with digital overlays representing data and AI."
       },
       {
-        "pill": "THE TAKEAWAY",
-        "headline": "AND THIS COULD LEAD TO SCALABLE ML INFRASTRUCTURE IN SPACE",
-        "hl": "SCALABLE ML INFRASTRUCTURE",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "NSA'S BILLIONS SPENT REFLECTS AI'S IMPORTANCE IN GOVERNMENT",
+        "hl": "IMPORTANCE IN GOVERNMENT",
         "hls": [
-          "SCALABLE",
-          "ML INFRASTRUCTURE"
+          "IMPORTANCE"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A visionary scene of multiple satellites in orbit around Earth, connected by beams of light, symbolizing the potential of AI in space."
+        "image_prompt": "A futuristic city scene with digital elements showcasing AI integration in daily life."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "Google\u2019s Project Suncatcher to put ML infrastructure in space",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+      "title": "Classified estimates show the NSA is paying billions to test AI models",
+      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models"
     },
-    "date": "2026-09-26"
+    "date": "2026-09-27"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 915,
-  "resolved_at": "2026-09-26T06:31:16.027618Z"
+  "control_msg_id": 922
 }
