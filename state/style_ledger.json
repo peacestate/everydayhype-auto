@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-08",
-    "palette": "magenta",
-    "art_style": "neon glow synthwave, bloom, dark background",
-    "layout": "a",
-    "motifs": [
-      "A robot navigating a complex environment",
-      "Close-up of an RGB camera mounted on a r",
-      "A side view of a robot successfully navi",
-      "An outdoor scene where a robot is naviga",
-      "A futuristic setting showcasing various "
-    ]
-  },
-  {
     "date": "2026-07-21",
     "palette": "cyan",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "An office space filled with diverse prof",
       "A dramatic view of a city skyline at nig",
       "A futuristic city scene with digital ele"
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "palette": "red",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "a",
+    "motifs": [
+      "A sleek, modern office environment with ",
+      "A close-up of a computer screen showing ",
+      "A team of researchers analyzing data on ",
+      "A diverse group of people in a meeting, ",
+      "A visually striking audio waveform graph"
     ]
   }
 ]
