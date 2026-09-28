@@ -1,82 +1,80 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-27T03:51:53.695231Z",
+  "status": "pending",
+  "created_at": "2026-09-28T03:52:13.732083Z",
   "deadline_min": 120,
-  "caption": "The NSA is reportedly investing billions in testing AI models to enhance its intelligence capabilities. These classified estimates reveal the significant financial commitment made by the agency to stay ahead in the rapidly evolving AI landscape. \ud83d\udcb0\ud83e\udd16\n\nWhat do you think about government spending on AI? \n\nSources: The Washington Sun\n#NSA #AI #Technology #GovernmentSpending #Intelligence #Innovation #ArtificialIntelligence #Cybersecurity #FutureTech",
+  "caption": "Nvidia has released Nemotron 3 Diarization, a free AI model that can identify up to eight speakers in real time. With around 100 million parameters, it excels in distinguishing speakers during conversations, even amid background noise.\n\nThe model leads the VoiceArena Diarization Benchmark with a 14.7% error rate, outperforming its predecessor by 41%. This advancement could significantly enhance audio transcription and communication clarity.\n\nShould more companies make their models open-source?\n\nSources: The Decoder, VoiceArena\n#Nvidia #AI #MachineLearning #AudioProcessing #OpenSource #SpeechRecognition #TechNews #Innovation",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481106/everydayhypehq/2026-09-27/035146_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481107/everydayhypehq/2026-09-27/035146_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481108/everydayhypehq/2026-09-27/035146_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481108/everydayhypehq/2026-09-27/035146_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790481108/everydayhypehq/2026-09-27/035146_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790567527/everydayhypehq/2026-09-28/035206_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790567527/everydayhypehq/2026-09-28/035206_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790567528/everydayhypehq/2026-09-28/035206_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790567528/everydayhypehq/2026-09-28/035206_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790567529/everydayhypehq/2026-09-28/035206_slide_5.png"
   ],
   "plan": {
-    "palette": "cyan",
-    "art_style": "double-exposure, silhouette blended with data",
-    "layout": "c",
-    "person": "",
-    "company": "NSA",
-    "caption": "The NSA is reportedly investing billions in testing AI models to enhance its intelligence capabilities. These classified estimates reveal the significant financial commitment made by the agency to stay ahead in the rapidly evolving AI landscape. \ud83d\udcb0\ud83e\udd16\n\nWhat do you think about government spending on AI? \n\nSources: The Washington Sun\n#NSA #AI #Technology #GovernmentSpending #Intelligence #Innovation #ArtificialIntelligence #Cybersecurity #FutureTech",
+    "palette": "red",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "a",
+    "caption": "Nvidia has released Nemotron 3 Diarization, a free AI model that can identify up to eight speakers in real time. With around 100 million parameters, it excels in distinguishing speakers during conversations, even amid background noise.\n\nThe model leads the VoiceArena Diarization Benchmark with a 14.7% error rate, outperforming its predecessor by 41%. This advancement could significantly enhance audio transcription and communication clarity.\n\nShould more companies make their models open-source?\n\nSources: The Decoder, VoiceArena\n#Nvidia #AI #MachineLearning #AudioProcessing #OpenSource #SpeechRecognition #TechNews #Innovation",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "NSA IS SPENDING BILLIONS ON AI MODEL TESTING",
-        "hl": "BILLIONS ON AI MODEL TESTING",
+        "headline": "NVIDIA JUST RELEASED A FREE AI MODEL WITH 100 MILLION PARAMETERS",
+        "hl": "100 MILLION PARAMETERS",
         "hls": [
-          "BILLIONS",
-          "AI MODEL"
+          "FREE AI MODEL"
         ],
-        "sub": "Classified estimates reveal the NSA's staggering investment.",
-        "image_prompt": "A silhouette of a modern government building against a sunset, symbolizing intelligence and technology."
+        "sub": "This model is designed for accurate speaker identification in conversations.",
+        "image_prompt": "A sleek, modern office environment with a team of diverse engineers discussing AI models, with focus on a computer displaying audio waveforms."
       },
       {
         "pill": "",
-        "headline": "THE AGENCY IS ALLOCATING OVER $10 BILLION ANNUALLY",
-        "hl": "OVER $10 BILLION ANNUALLY",
+        "headline": "NEMOTRON 3 CAN IDENTIFY UP TO EIGHT SPEAKERS AT ONCE",
+        "hl": "UP TO EIGHT SPEAKERS",
         "hls": [
-          "$10 BILLION"
+          "IDENTIFY SPEAKERS"
         ],
-        "sub": "To bolster its capabilities in artificial intelligence and data analysis.",
-        "image_prompt": "A close-up of a hand using a laptop, with glowing data streams reflected on the screen."
+        "sub": "It can even detect overlapping speech when multiple people talk together.",
+        "image_prompt": "A close-up of a computer screen showing a speech recognition interface with audio analysis, surrounded by coffee cups and notes."
       },
       {
         "pill": "",
-        "headline": "THE SPENDING INCREASED BY 30% IN THE LAST YEAR",
-        "hl": "INCREASED BY 30%",
+        "headline": "IT ACHIEVED A 14.7% ERROR RATE IN THE LATEST BENCHMARK",
+        "hl": "14.7% ERROR RATE",
         "hls": [
-          "30%"
+          "LATEST BENCHMARK"
         ],
-        "sub": "Amid growing competition in AI advancements globally.",
-        "image_prompt": "An office space filled with diverse professionals collaborating over AI projects."
+        "sub": "This performance is a significant improvement over its predecessor by 41%.",
+        "image_prompt": "A team of researchers analyzing data on a large screen, with charts and graphs of performance metrics in the background."
       },
       {
         "pill": "",
-        "headline": "THIS INVESTMENT IS CRUCIAL FOR NATIONAL SECURITY",
-        "hl": "CRUCIAL FOR NATIONAL SECURITY",
+        "headline": "NEMOTRON 3 IS SET TO ENHANCE TRANSCRIPTION ACCURACY",
+        "hl": "ENHANCE TRANSCRIPTION ACCURACY",
         "hls": [
-          "NATIONAL SECURITY"
+          "TRANSCRIPTION ACCURACY"
         ],
-        "sub": "AI technology is becoming vital for intelligence operations.",
-        "image_prompt": "A dramatic view of a city skyline at night with digital overlays representing data and AI."
+        "sub": "Its capabilities could lead to clearer transcripts in various applications.",
+        "image_prompt": "A diverse group of people in a meeting, with one person speaking, and others listening intently, showcasing real-time interaction."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "NSA'S BILLIONS SPENT REFLECTS AI'S IMPORTANCE IN GOVERNMENT",
-        "hl": "IMPORTANCE IN GOVERNMENT",
+        "pill": "",
+        "headline": "THIS MODEL COULD IMPROVE AUDIO CLARITY SIGNIFICANTLY",
+        "hl": "IMPROVE AUDIO CLARITY",
         "hls": [
-          "IMPORTANCE"
+          "AUDIO CLARITY"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic city scene with digital elements showcasing AI integration in daily life."
+        "image_prompt": "A visually striking audio waveform graphic overlaid on a blurred image of a conference room, suggesting dynamic sound analysis."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "Classified estimates show the NSA is paying billions to test AI models",
-      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models"
+      "title": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
+      "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/"
     },
-    "date": "2026-09-27"
+    "date": "2026-09-28"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 922,
-  "resolved_at": "2026-09-27T06:31:09.839022Z"
+  "control_msg_id": 929
 }
