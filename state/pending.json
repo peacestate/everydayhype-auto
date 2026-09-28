@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-09-28T03:52:13.732083Z",
   "deadline_min": 120,
   "caption": "Nvidia has released Nemotron 3 Diarization, a free AI model that can identify up to eight speakers in real time. With around 100 million parameters, it excels in distinguishing speakers during conversations, even amid background noise.\n\nThe model leads the VoiceArena Diarization Benchmark with a 14.7% error rate, outperforming its predecessor by 41%. This advancement could significantly enhance audio transcription and communication clarity.\n\nShould more companies make their models open-source?\n\nSources: The Decoder, VoiceArena\n#Nvidia #AI #MachineLearning #AudioProcessing #OpenSource #SpeechRecognition #TechNews #Innovation",
@@ -17,7 +17,7 @@
     "caption": "Nvidia has released Nemotron 3 Diarization, a free AI model that can identify up to eight speakers in real time. With around 100 million parameters, it excels in distinguishing speakers during conversations, even amid background noise.\n\nThe model leads the VoiceArena Diarization Benchmark with a 14.7% error rate, outperforming its predecessor by 41%. This advancement could significantly enhance audio transcription and communication clarity.\n\nShould more companies make their models open-source?\n\nSources: The Decoder, VoiceArena\n#Nvidia #AI #MachineLearning #AudioProcessing #OpenSource #SpeechRecognition #TechNews #Innovation",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "NVIDIA JUST RELEASED A FREE AI MODEL WITH 100 MILLION PARAMETERS",
         "hl": "100 MILLION PARAMETERS",
         "hls": [
@@ -76,5 +76,6 @@
     "date": "2026-09-28"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 929
+  "control_msg_id": 929,
+  "resolved_at": "2026-09-28T03:55:00.254Z"
 }
