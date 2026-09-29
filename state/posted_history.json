@@ -327,5 +327,9 @@
   {
     "date": "2026-09-28",
     "title": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time"
+  },
+  {
+    "date": "2026-09-29",
+    "title": "Nvidia wants to put a watchdog chip next to every AI agent"
   }
 ]

@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-21",
-    "palette": "cyan",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "motifs": [
-      "Frozen v2 chip macro, Gemini architectur",
-      "data center TPU racks, cyan volumetric l",
-      "wafer with AI circuit motifs, double exp",
-      "engineer inspecting custom AI accelerato",
-      "Google logo over glowing silicon die"
-    ]
-  },
-  {
     "date": "2026-07-23",
     "palette": "red",
     "art_style": "sleek 3D render, octane, glossy materials",
@@ -777,6 +764,19 @@
       "A team of researchers analyzing data on ",
       "A diverse group of people in a meeting, ",
       "A visually striking audio waveform graph"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "palette": "amber",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A close-up of Jensen Huang speaking at a",
+      "A dynamic shot of a bustling tech office",
+      "An artistic view of a futuristic digital",
+      "A thoughtful shot of Jensen Huang analyz",
+      "A striking image of the Nvidia logo illu"
     ]
   }
 ]
