@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-09-29T03:52:08.470895Z",
   "deadline_min": 120,
-  "caption": "Nvidia has launched its Open Agent Safety Platform to enhance AI security. This platform aims to prevent AI agents from escaping their designated environments, addressing recent security incidents involving major companies like OpenAI and Meta. \ud83c\udf10\ud83d\udee1\ufe0f\n\nShould AI developers prioritize safety protocols more rigorously? \n\nSources: CNBC, NPR, Anthropic\n\n#Nvidia #AI #OpenAgentSafety #JensenHuang #AIsafety #TechNews #Innovation #Cybersecurity #OpenAI #Meta #Google",
+  "caption": "Nvidia has launched its Open Agent Safety Platform to enhance AI security. This platform aims to prevent AI agents from escaping their designated environments, addressing recent security incidents involving major companies like OpenAI and Meta. 🌐🛡️\n\nShould AI developers prioritize safety protocols more rigorously? \n\nSources: CNBC, NPR, Anthropic\n\n#Nvidia #AI #OpenAgentSafety #JensenHuang #AIsafety #TechNews #Innovation #Cybersecurity #OpenAI #Meta #Google",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790653919/everydayhypehq/2026-09-29/035159_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790653921/everydayhypehq/2026-09-29/035159_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "a",
     "person": "Jensen Huang",
     "company": "Nvidia",
-    "caption": "Nvidia has launched its Open Agent Safety Platform to enhance AI security. This platform aims to prevent AI agents from escaping their designated environments, addressing recent security incidents involving major companies like OpenAI and Meta. \ud83c\udf10\ud83d\udee1\ufe0f\n\nShould AI developers prioritize safety protocols more rigorously? \n\nSources: CNBC, NPR, Anthropic\n\n#Nvidia #AI #OpenAgentSafety #JensenHuang #AIsafety #TechNews #Innovation #Cybersecurity #OpenAI #Meta #Google",
+    "caption": "Nvidia has launched its Open Agent Safety Platform to enhance AI security. This platform aims to prevent AI agents from escaping their designated environments, addressing recent security incidents involving major companies like OpenAI and Meta. 🌐🛡️\n\nShould AI developers prioritize safety protocols more rigorously? \n\nSources: CNBC, NPR, Anthropic\n\n#Nvidia #AI #OpenAgentSafety #JensenHuang #AIsafety #TechNews #Innovation #Cybersecurity #OpenAI #Meta #Google",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "NVIDIA JUST RELEASED A PLATFORM TO PREVENT AI AGENTS FROM ESCAPING",
         "hl": "PREVENT AI AGENTS FROM ESCAPING",
         "hls": [
@@ -31,7 +31,7 @@
       },
       {
         "pill": "",
-        "headline": "Nvidia\u2019s platform could have stopped over 17,000 rogue agents last July",
+        "headline": "Nvidia’s platform could have stopped over 17,000 rogue agents last July",
         "hl": "STOPPED OVER 17,000 ROGUE AGENTS",
         "hls": [
           "STOPPED OVER 17,000",
@@ -63,7 +63,7 @@
         "image_prompt": "A thoughtful shot of Jensen Huang analyzing data on a high-tech screen, surrounded by a team of experts."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "NVIDIA IS POSITIONING ITSELF AT THE FOREFRONT OF AI SAFETY",
         "hl": "FOREFRONT OF AI SAFETY",
         "hls": [
@@ -81,5 +81,6 @@
     "date": "2026-09-29"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 936
+  "control_msg_id": 936,
+  "resolved_at": "2026-09-29T04:14:04.931Z"
 }
