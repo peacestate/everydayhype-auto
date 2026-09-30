@@ -2,7 +2,7 @@
   "status": "approved",
   "created_at": "2026-09-30T03:52:21.405542Z",
   "deadline_min": 120,
-  "caption": "AMD is acquiring World Labs, a startup specializing in spatial intelligence, for $8.2 billion. Fei-Fei Li, a prominent AI pioneer, will join AMD as Executive Vice President and Chief Scientist. This acquisition aims to enhance AMD's capabilities in AI and hardware integration. 🤖💡\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Newsroom\n\n#AMD #WorldLabs #AI #FeiFeiLi #Acquisition #TechNews #SpatialIntelligence #ArtificialIntelligence #Innovation #Leadership #TechAcquisition #FutureOfAI",
+  "caption": "AMD is acquiring World Labs, a startup specializing in spatial intelligence, for $8.2 billion. Fei-Fei Li, a prominent AI pioneer, will join AMD as Executive Vice President and Chief Scientist. This acquisition aims to enhance AMD's capabilities in AI and hardware integration. \ud83e\udd16\ud83d\udca1\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Newsroom\n\n#AMD #WorldLabs #AI #FeiFeiLi #Acquisition #TechNews #SpatialIntelligence #ArtificialIntelligence #Innovation #Leadership #TechAcquisition #FutureOfAI",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740333/everydayhypehq/2026-09-30/035212_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740333/everydayhypehq/2026-09-30/035212_slide_2.png",
@@ -16,14 +16,14 @@
     "layout": "b",
     "person": "Fei-Fei Li",
     "company": "AMD",
-    "caption": "AMD is acquiring World Labs, a startup specializing in spatial intelligence, for $8.2 billion. Fei-Fei Li, a prominent AI pioneer, will join AMD as Executive Vice President and Chief Scientist. This acquisition aims to enhance AMD's capabilities in AI and hardware integration. 🤖💡\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Newsroom\n\n#AMD #WorldLabs #AI #FeiFeiLi #Acquisition #TechNews #SpatialIntelligence #ArtificialIntelligence #Innovation #Leadership #TechAcquisition #FutureOfAI",
+    "caption": "AMD is acquiring World Labs, a startup specializing in spatial intelligence, for $8.2 billion. Fei-Fei Li, a prominent AI pioneer, will join AMD as Executive Vice President and Chief Scientist. This acquisition aims to enhance AMD's capabilities in AI and hardware integration. \ud83e\udd16\ud83d\udca1\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Newsroom\n\n#AMD #WorldLabs #AI #FeiFeiLi #Acquisition #TechNews #SpatialIntelligence #ArtificialIntelligence #Innovation #Leadership #TechAcquisition #FutureOfAI",
     "slides": [
       {
-        "pill": "BREAKING 🔴",
+        "pill": "BREAKING \ud83d\udd34",
         "headline": "AMD IS ACQUIRING WORLD LABS FOR $8.2 BILLION",
         "hl": "WORLD LABS FOR $8.2 BILLION",
         "hls": [],
-        "sub": "Here’s what you need to know",
+        "sub": "Here\u2019s what you need to know",
         "image_prompt": "A close-up of a diverse group of tech professionals discussing in a modern office space, with a focus on collaboration and innovation."
       },
       {
@@ -51,7 +51,7 @@
         "image_prompt": "An artistic representation of a 3D environment being simulated on a computer screen, with vibrant colors and depth."
       },
       {
-        "pill": "WHY IT MATTERS 🌍",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
         "headline": "THIS ACQUISITION COULD LEAD TO ADVANCEMENTS IN AI",
         "hl": "ADVANCEMENTS IN AI",
         "hls": [],
@@ -67,5 +67,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 943,
-  "resolved_at": "2026-09-30T04:58:56.326Z"
+  "resolved_at": "2026-09-30T06:31:05.115706Z"
 }
