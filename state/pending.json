@@ -1,86 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-29T03:52:08.470895Z",
+  "status": "pending",
+  "created_at": "2026-09-30T03:52:21.405542Z",
   "deadline_min": 120,
-  "caption": "Nvidia has launched its Open Agent Safety Platform to enhance AI security. This platform aims to prevent AI agents from escaping their designated environments, addressing recent security incidents involving major companies like OpenAI and Meta. \ud83c\udf10\ud83d\udee1\ufe0f\n\nShould AI developers prioritize safety protocols more rigorously? \n\nSources: CNBC, NPR, Anthropic\n\n#Nvidia #AI #OpenAgentSafety #JensenHuang #AIsafety #TechNews #Innovation #Cybersecurity #OpenAI #Meta #Google",
+  "caption": "AMD is acquiring World Labs, a startup specializing in spatial intelligence, for $8.2 billion. Fei-Fei Li, a prominent AI pioneer, will join AMD as Executive Vice President and Chief Scientist. This acquisition aims to enhance AMD's capabilities in AI and hardware integration. \ud83e\udd16\ud83d\udca1\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Newsroom\n\n#AMD #WorldLabs #AI #FeiFeiLi #Acquisition #TechNews #SpatialIntelligence #ArtificialIntelligence #Innovation #Leadership #TechAcquisition #FutureOfAI",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790653919/everydayhypehq/2026-09-29/035159_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790653921/everydayhypehq/2026-09-29/035159_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790653921/everydayhypehq/2026-09-29/035159_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790653922/everydayhypehq/2026-09-29/035159_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790653923/everydayhypehq/2026-09-29/035159_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740333/everydayhypehq/2026-09-30/035212_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740333/everydayhypehq/2026-09-30/035212_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740334/everydayhypehq/2026-09-30/035212_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740335/everydayhypehq/2026-09-30/035212_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740335/everydayhypehq/2026-09-30/035212_slide_5.png"
   ],
   "plan": {
-    "palette": "amber",
+    "palette": "purple",
     "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "person": "Jensen Huang",
-    "company": "Nvidia",
-    "caption": "Nvidia has launched its Open Agent Safety Platform to enhance AI security. This platform aims to prevent AI agents from escaping their designated environments, addressing recent security incidents involving major companies like OpenAI and Meta. \ud83c\udf10\ud83d\udee1\ufe0f\n\nShould AI developers prioritize safety protocols more rigorously? \n\nSources: CNBC, NPR, Anthropic\n\n#Nvidia #AI #OpenAgentSafety #JensenHuang #AIsafety #TechNews #Innovation #Cybersecurity #OpenAI #Meta #Google",
+    "layout": "b",
+    "person": "Fei-Fei Li",
+    "company": "AMD",
+    "caption": "AMD is acquiring World Labs, a startup specializing in spatial intelligence, for $8.2 billion. Fei-Fei Li, a prominent AI pioneer, will join AMD as Executive Vice President and Chief Scientist. This acquisition aims to enhance AMD's capabilities in AI and hardware integration. \ud83e\udd16\ud83d\udca1\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Newsroom\n\n#AMD #WorldLabs #AI #FeiFeiLi #Acquisition #TechNews #SpatialIntelligence #ArtificialIntelligence #Innovation #Leadership #TechAcquisition #FutureOfAI",
     "slides": [
       {
         "pill": "BREAKING \ud83d\udd34",
-        "headline": "NVIDIA JUST RELEASED A PLATFORM TO PREVENT AI AGENTS FROM ESCAPING",
-        "hl": "PREVENT AI AGENTS FROM ESCAPING",
-        "hls": [
-          "PREVENT AI AGENTS",
-          "JUST RELEASED A PLATFORM"
-        ],
-        "sub": "Here's what you need to know about the new safeguards.",
-        "image_prompt": "A close-up of Jensen Huang speaking at a tech conference, engaging with the audience, with a backdrop of Nvidia branding."
+        "headline": "AMD IS ACQUIRING WORLD LABS FOR $8.2 BILLION",
+        "hl": "WORLD LABS FOR $8.2 BILLION",
+        "hls": [],
+        "sub": "Here\u2019s what you need to know",
+        "image_prompt": "A close-up of a diverse group of tech professionals discussing in a modern office space, with a focus on collaboration and innovation."
       },
       {
         "pill": "",
-        "headline": "Nvidia\u2019s platform could have stopped over 17,000 rogue agents last July",
-        "hl": "STOPPED OVER 17,000 ROGUE AGENTS",
-        "hls": [
-          "STOPPED OVER 17,000",
-          "ROGUE AGENTS"
-        ],
-        "sub": "OpenAI's Hugging Face incident highlighted the need for containment.",
-        "image_prompt": "A dynamic shot of a bustling tech office, showcasing engineers collaborating over computers, with screens showing AI models."
+        "headline": "FEI-FEI LI JOINS AMD AS EXECUTIVE VICE PRESIDENT",
+        "hl": "EXECUTIVE VICE PRESIDENT",
+        "hls": [],
+        "sub": "Li will lead frontier research efforts at AMD.",
+        "image_prompt": "A portrait of Fei-Fei Li in a professional setting, showcasing her leadership role and charisma."
       },
       {
         "pill": "",
-        "headline": "The Open Agent Safety Platform acts as a containment 'browser' for AI",
-        "hl": "CONTAINMENT 'BROWSER' FOR AI",
-        "hls": [
-          "CONTAINMENT 'BROWSER'",
-          "FOR AI"
-        ],
-        "sub": "It restricts agents to necessary tasks to prevent mishaps.",
-        "image_prompt": "An artistic view of a futuristic digital interface, with abstract representations of AI agents being contained."
+        "headline": "WORLD LABS WAS FOUNDED IN EARLY 2024 BY FEI-FEI LI",
+        "hl": "FOUNDED IN EARLY 2024",
+        "hls": [],
+        "sub": "The startup focuses on generating 3D environments from various inputs.",
+        "image_prompt": "A futuristic workspace with high-tech equipment and a team working on advanced AI models, surrounded by screens displaying 3D simulations."
       },
       {
         "pill": "",
-        "headline": "Nvidia CEO Jensen Huang emphasizes safety as a key engineering issue",
-        "hl": "SAFETY AS A KEY ENGINEERING ISSUE",
-        "hls": [
-          "SAFETY",
-          "KEY ENGINEERING ISSUE"
-        ],
-        "sub": "He argues engineering solutions can resolve AI security concerns.",
-        "image_prompt": "A thoughtful shot of Jensen Huang analyzing data on a high-tech screen, surrounded by a team of experts."
+        "headline": "ATLAS, THE FIRST WORLD MODEL, WAS UNVEILED IN SEPTEMBER 2026",
+        "hl": "UNVEILED IN SEPTEMBER 2026",
+        "hls": [],
+        "sub": "It simulates complete spatial scenes from just a few images.",
+        "image_prompt": "An artistic representation of a 3D environment being simulated on a computer screen, with vibrant colors and depth."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "NVIDIA IS POSITIONING ITSELF AT THE FOREFRONT OF AI SAFETY",
-        "hl": "FOREFRONT OF AI SAFETY",
-        "hls": [
-          "FOREFRONT",
-          "AI SAFETY"
-        ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A striking image of the Nvidia logo illuminated in a tech-themed environment, symbolizing innovation and leadership."
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "THIS ACQUISITION COULD LEAD TO ADVANCEMENTS IN AI",
+        "hl": "ADVANCEMENTS IN AI",
+        "hls": [],
+        "sub": "AMD aims to enhance AI efficiency through hardware integration.",
+        "image_prompt": "A dynamic image of a futuristic cityscape, symbolizing progress and innovation in AI technology."
       }
     ],
     "story": {
-      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
-      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html"
+      "title": "AMD buys AI world model startup World Labs for $8.2 billion",
+      "url": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/"
     },
-    "date": "2026-09-29"
+    "date": "2026-09-30"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 936,
-  "resolved_at": "2026-09-29T06:31:27.684883Z"
+  "control_msg_id": 943
 }
