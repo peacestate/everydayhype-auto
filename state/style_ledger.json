@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-23",
-    "palette": "red",
-    "art_style": "sleek 3D render, octane, glossy materials",
-    "layout": "b",
-    "motifs": [
-      "A vibrant, sleek 3D render of AMD GPUs s",
-      "A close-up of a person working on a high",
-      "A wide shot of a busy tech office, with ",
-      "An abstract representation of data flowi",
-      "A futuristic city skyline, representing "
-    ]
-  },
-  {
     "date": "2026-07-24",
     "palette": "red",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "An artistic view of a futuristic digital",
       "A thoughtful shot of Jensen Huang analyz",
       "A striking image of the Nvidia logo illu"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "palette": "purple",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "motifs": [
+      "A close-up of a diverse group of tech pr",
+      "A portrait of Fei-Fei Li in a profession",
+      "A futuristic workspace with high-tech eq",
+      "An artistic representation of a 3D envir",
+      "A dynamic image of a futuristic cityscap"
     ]
   }
 ]
