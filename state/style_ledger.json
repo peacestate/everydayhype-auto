@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-24",
-    "palette": "red",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "motifs": [
-      "A striking image of an F-16 fighter jet ",
-      "Close-up of the F-16 cockpit with high-t",
-      "A pilot in a flight suit, observing flig",
-      "An engineer working on the F-16, demonst",
-      "A panoramic view of the Eglin Air Force "
-    ]
-  },
-  {
     "date": "2026-07-25",
     "palette": "green",
     "art_style": "dramatic macro close-up, shallow depth",
@@ -777,6 +764,19 @@
       "A futuristic workspace with high-tech eq",
       "An artistic representation of a 3D envir",
       "A dynamic image of a futuristic cityscap"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "palette": "green",
+    "art_style": "isometric miniature diorama, tilt-shift",
+    "layout": "a",
+    "motifs": [
+      "A close-up of a computer screen displayi",
+      "An intense cybersecurity team in action,",
+      "A developer at a workstation, deeply eng",
+      "A close-up of a ranking table on a digit",
+      "A futuristic city skyline at dusk, symbo"
     ]
   }
 ]
