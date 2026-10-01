@@ -1,64 +1,64 @@
 {
   "status": "pending",
-  "created_at": "2026-10-01T03:53:02.404577Z",
+  "created_at": "2026-10-01T04:06:35.640690Z",
   "deadline_min": 120,
-  "caption": "Google has unveiled Gemini 4 Argon, its most powerful AI model yet, specifically designed for cybersecurity tasks. With the ability to autonomously find and patch software vulnerabilities, Argon is already being utilized by Google's staff for daily coding tasks. This new model is set to reshape the landscape of AI in cybersecurity and beyond! 4e14bb\n\nShould companies prioritize cybersecurity AI models like Argon?\n\nSources: TechCrunch, Google Blog\n\n#Google #AI #Cybersecurity #Gemini4 #TechNews #Innovation #ArtificialIntelligence #Vulnerabilities #Coding #TechTrends",
+  "caption": "Google has unveiled Gemini 4 Argon, its most powerful AI model to date, designed for multiple tasks, including cybersecurity. This model is touted to autonomously identify and patch critical software vulnerabilities. \ud83d\udcca\n\nWith Argon already in use by Google staff, it demonstrates significant advancements in coding and engineering capabilities. Should we expect more breakthroughs from Google in AI?\n\nSources: TechCrunch, Google Blog\n#Google #Gemini4Argon #AI #ArtificialIntelligence #TechNews #Cybersecurity #Innovation #MachineLearning #Benchmarking #OpenAI #Technology #Research",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790826772/everydayhypehq/2026-10-01/035251_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790826774/everydayhypehq/2026-10-01/035251_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790826775/everydayhypehq/2026-10-01/035251_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790826776/everydayhypehq/2026-10-01/035251_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790826777/everydayhypehq/2026-10-01/035251_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790827588/everydayhypehq/2026-10-01/040627_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790827588/everydayhypehq/2026-10-01/040627_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790827589/everydayhypehq/2026-10-01/040627_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790827590/everydayhypehq/2026-10-01/040627_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790827590/everydayhypehq/2026-10-01/040627_slide_5.png"
   ],
   "plan": {
     "palette": "green",
-    "art_style": "dramatic macro close-up, shallow depth",
-    "layout": "c",
-    "caption": "Google has unveiled Gemini 4 Argon, its most powerful AI model yet, specifically designed for cybersecurity tasks. With the ability to autonomously find and patch software vulnerabilities, Argon is already being utilized by Google's staff for daily coding tasks. This new model is set to reshape the landscape of AI in cybersecurity and beyond! 4e14bb\n\nShould companies prioritize cybersecurity AI models like Argon?\n\nSources: TechCrunch, Google Blog\n\n#Google #AI #Cybersecurity #Gemini4 #TechNews #Innovation #ArtificialIntelligence #Vulnerabilities #Coding #TechTrends",
+    "art_style": "isometric miniature diorama, tilt-shift",
+    "layout": "a",
+    "person": "",
+    "company": "Google",
+    "caption": "Google has unveiled Gemini 4 Argon, its most powerful AI model to date, designed for multiple tasks, including cybersecurity. This model is touted to autonomously identify and patch critical software vulnerabilities. \ud83d\udcca\n\nWith Argon already in use by Google staff, it demonstrates significant advancements in coding and engineering capabilities. Should we expect more breakthroughs from Google in AI?\n\nSources: TechCrunch, Google Blog\n#Google #Gemini4Argon #AI #ArtificialIntelligence #TechNews #Cybersecurity #Innovation #MachineLearning #Benchmarking #OpenAI #Technology #Research",
     "slides": [
       {
-        "pill": "BREAKING 534",
+        "pill": "BREAKING \ud83d\udd34",
         "headline": "GOOGLE JUST RELEASED GEMINI 4 ARGON, ITS MOST POWERFUL MODEL YET",
         "hl": "ITS MOST POWERFUL MODEL YET",
         "hls": [],
-        "sub": "Here's the announcement from Google.",
-        "image_prompt": "A dramatic close-up of a modern computer setup with AI-related elements, showcasing a person working intently on coding."
+        "sub": "Here's what you need to know",
+        "image_prompt": "A close-up of a computer screen displaying lines of code, with a person analyzing the screen intently, reflecting the theme of AI and technology."
       },
       {
         "pill": "",
-        "headline": "ARGON CAN AUTONOMOUSLY FIND AND PATCH CRITICAL SOFTWARE VULNERABILITIES",
-        "hl": "PATCH CRITICAL SOFTWARE VULNERABILITIES",
+        "headline": "ARGON CAN AUTONOMOUSLY FIND AND PATCH SOFTWARE VULNERABILITIES",
+        "hl": "PATCH SOFTWARE VULNERABILITIES",
         "hls": [],
-        "sub": "This model is focused on cybersecurity solutions.",
-        "image_prompt": "A close-up of hands typing on a laptop with cybersecurity graphics and code displayed on the screen."
+        "sub": "This feature makes it crucial for defensive cyber work.",
+        "image_prompt": "An intense cybersecurity team in action, focused on monitors displaying security threats and vulnerabilities, with a sense of urgency."
       },
       {
         "pill": "",
-        "headline": "GEMINI 4 ARGON SCORED SIGNIFICANTLY HIGHER THAN OPENAI'S GPT-6 ASTRA",
-        "hl": "HIGHER THAN OPENAI'S GPT-6 ASTRA",
+        "headline": "GEMINI 4 ARGON HAS ALREADY BEEN USED BY GOOGLE STAFF FOR CODING TASKS",
+        "hl": "USED BY GOOGLE STAFF",
         "hls": [],
-        "sub": "Google claims Argon leads in AI benchmarks.",
-        "image_prompt": "A close-up of a benchmarking report with visual elements, highlighting performance metrics and results."
+        "sub": "This includes debugging and complex codebase migrations.",
+        "image_prompt": "A developer at a workstation, deeply engaged in coding, surrounded by advanced technology and multiple screens."
       },
       {
         "pill": "",
-        "headline": "OVER A BILLION USERS PER MONTH ARE NOW USING GEMINI'S APP",
-        "hl": "BILLION USERS PER MONTH",
+        "headline": "ARGON SCORED SIGNIFICANTLY HIGHER THAN OPENAI'S GPT-6 ASTRA",
+        "hl": "HIGHER THAN OPENAI'S GPT-6",
         "hls": [],
-        "sub": "Gemini is becoming a major player in the AI space.",
-        "image_prompt": "A vibrant close-up of a smartphone displaying the Gemini app, with a diverse group of people engaging with the device."
+        "sub": "It ranks as the leading model on Vals' AI index.",
+        "image_prompt": "A close-up of a ranking table on a digital interface, highlighting AI models, with a person pointing at the top-ranked model."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "GEMINI 4 ARGON COULD CHANGE CYBERSECURITY FOREVER",
-        "hl": "CHANGE CYBERSECURITY FOREVER",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "ARGON'S SUCCESS MAKES GOOGLE A STRONG CONTENDER IN AI RACE",
+        "hl": "STRONG CONTENDER IN AI RACE",
         "hls": [],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A scenic view of a modern office environment with people collaborating on technology projects, emphasizing innovation."
+        "sub": "Will this shift the balance in AI development?",
+        "image_prompt": "A futuristic city skyline at dusk, symbolizing innovation and technology advancement, with lights representing growth and competition."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
       "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
       "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
@@ -66,5 +66,5 @@
     "date": "2026-10-01"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 952
+  "control_msg_id": 958
 }
