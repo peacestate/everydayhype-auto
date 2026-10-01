@@ -1,71 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-09-30T03:52:21.405542Z",
+  "status": "pending",
+  "created_at": "2026-10-01T03:53:02.404577Z",
   "deadline_min": 120,
-  "caption": "AMD is acquiring World Labs, a startup specializing in spatial intelligence, for $8.2 billion. Fei-Fei Li, a prominent AI pioneer, will join AMD as Executive Vice President and Chief Scientist. This acquisition aims to enhance AMD's capabilities in AI and hardware integration. \ud83e\udd16\ud83d\udca1\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Newsroom\n\n#AMD #WorldLabs #AI #FeiFeiLi #Acquisition #TechNews #SpatialIntelligence #ArtificialIntelligence #Innovation #Leadership #TechAcquisition #FutureOfAI",
+  "caption": "Google has unveiled Gemini 4 Argon, its most powerful AI model yet, specifically designed for cybersecurity tasks. With the ability to autonomously find and patch software vulnerabilities, Argon is already being utilized by Google's staff for daily coding tasks. This new model is set to reshape the landscape of AI in cybersecurity and beyond! 4e14bb\n\nShould companies prioritize cybersecurity AI models like Argon?\n\nSources: TechCrunch, Google Blog\n\n#Google #AI #Cybersecurity #Gemini4 #TechNews #Innovation #ArtificialIntelligence #Vulnerabilities #Coding #TechTrends",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740333/everydayhypehq/2026-09-30/035212_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740333/everydayhypehq/2026-09-30/035212_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740334/everydayhypehq/2026-09-30/035212_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740335/everydayhypehq/2026-09-30/035212_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790740335/everydayhypehq/2026-09-30/035212_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790826772/everydayhypehq/2026-10-01/035251_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790826774/everydayhypehq/2026-10-01/035251_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790826775/everydayhypehq/2026-10-01/035251_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790826776/everydayhypehq/2026-10-01/035251_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790826777/everydayhypehq/2026-10-01/035251_slide_5.png"
   ],
   "plan": {
-    "palette": "purple",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "person": "Fei-Fei Li",
-    "company": "AMD",
-    "caption": "AMD is acquiring World Labs, a startup specializing in spatial intelligence, for $8.2 billion. Fei-Fei Li, a prominent AI pioneer, will join AMD as Executive Vice President and Chief Scientist. This acquisition aims to enhance AMD's capabilities in AI and hardware integration. \ud83e\udd16\ud83d\udca1\n\nWhat impact will this have on the AI landscape?\n\nSources: The Decoder, AMD Newsroom\n\n#AMD #WorldLabs #AI #FeiFeiLi #Acquisition #TechNews #SpatialIntelligence #ArtificialIntelligence #Innovation #Leadership #TechAcquisition #FutureOfAI",
+    "palette": "green",
+    "art_style": "dramatic macro close-up, shallow depth",
+    "layout": "c",
+    "caption": "Google has unveiled Gemini 4 Argon, its most powerful AI model yet, specifically designed for cybersecurity tasks. With the ability to autonomously find and patch software vulnerabilities, Argon is already being utilized by Google's staff for daily coding tasks. This new model is set to reshape the landscape of AI in cybersecurity and beyond! 4e14bb\n\nShould companies prioritize cybersecurity AI models like Argon?\n\nSources: TechCrunch, Google Blog\n\n#Google #AI #Cybersecurity #Gemini4 #TechNews #Innovation #ArtificialIntelligence #Vulnerabilities #Coding #TechTrends",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "AMD IS ACQUIRING WORLD LABS FOR $8.2 BILLION",
-        "hl": "WORLD LABS FOR $8.2 BILLION",
+        "pill": "BREAKING 534",
+        "headline": "GOOGLE JUST RELEASED GEMINI 4 ARGON, ITS MOST POWERFUL MODEL YET",
+        "hl": "ITS MOST POWERFUL MODEL YET",
         "hls": [],
-        "sub": "Here\u2019s what you need to know",
-        "image_prompt": "A close-up of a diverse group of tech professionals discussing in a modern office space, with a focus on collaboration and innovation."
+        "sub": "Here's the announcement from Google.",
+        "image_prompt": "A dramatic close-up of a modern computer setup with AI-related elements, showcasing a person working intently on coding."
       },
       {
         "pill": "",
-        "headline": "FEI-FEI LI JOINS AMD AS EXECUTIVE VICE PRESIDENT",
-        "hl": "EXECUTIVE VICE PRESIDENT",
+        "headline": "ARGON CAN AUTONOMOUSLY FIND AND PATCH CRITICAL SOFTWARE VULNERABILITIES",
+        "hl": "PATCH CRITICAL SOFTWARE VULNERABILITIES",
         "hls": [],
-        "sub": "Li will lead frontier research efforts at AMD.",
-        "image_prompt": "A portrait of Fei-Fei Li in a professional setting, showcasing her leadership role and charisma."
+        "sub": "This model is focused on cybersecurity solutions.",
+        "image_prompt": "A close-up of hands typing on a laptop with cybersecurity graphics and code displayed on the screen."
       },
       {
         "pill": "",
-        "headline": "WORLD LABS WAS FOUNDED IN EARLY 2024 BY FEI-FEI LI",
-        "hl": "FOUNDED IN EARLY 2024",
+        "headline": "GEMINI 4 ARGON SCORED SIGNIFICANTLY HIGHER THAN OPENAI'S GPT-6 ASTRA",
+        "hl": "HIGHER THAN OPENAI'S GPT-6 ASTRA",
         "hls": [],
-        "sub": "The startup focuses on generating 3D environments from various inputs.",
-        "image_prompt": "A futuristic workspace with high-tech equipment and a team working on advanced AI models, surrounded by screens displaying 3D simulations."
+        "sub": "Google claims Argon leads in AI benchmarks.",
+        "image_prompt": "A close-up of a benchmarking report with visual elements, highlighting performance metrics and results."
       },
       {
         "pill": "",
-        "headline": "ATLAS, THE FIRST WORLD MODEL, WAS UNVEILED IN SEPTEMBER 2026",
-        "hl": "UNVEILED IN SEPTEMBER 2026",
+        "headline": "OVER A BILLION USERS PER MONTH ARE NOW USING GEMINI'S APP",
+        "hl": "BILLION USERS PER MONTH",
         "hls": [],
-        "sub": "It simulates complete spatial scenes from just a few images.",
-        "image_prompt": "An artistic representation of a 3D environment being simulated on a computer screen, with vibrant colors and depth."
+        "sub": "Gemini is becoming a major player in the AI space.",
+        "image_prompt": "A vibrant close-up of a smartphone displaying the Gemini app, with a diverse group of people engaging with the device."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "THIS ACQUISITION COULD LEAD TO ADVANCEMENTS IN AI",
-        "hl": "ADVANCEMENTS IN AI",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "GEMINI 4 ARGON COULD CHANGE CYBERSECURITY FOREVER",
+        "hl": "CHANGE CYBERSECURITY FOREVER",
         "hls": [],
-        "sub": "AMD aims to enhance AI efficiency through hardware integration.",
-        "image_prompt": "A dynamic image of a futuristic cityscape, symbolizing progress and innovation in AI technology."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A scenic view of a modern office environment with people collaborating on technology projects, emphasizing innovation."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "AMD buys AI world model startup World Labs for $8.2 billion",
-      "url": "https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/"
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/"
     },
-    "date": "2026-09-30"
+    "date": "2026-10-01"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 943,
-  "resolved_at": "2026-09-30T11:18:18.806028Z"
+  "control_msg_id": 952
 }
