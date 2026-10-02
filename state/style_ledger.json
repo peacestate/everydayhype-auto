@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-25",
-    "palette": "green",
-    "art_style": "dramatic macro close-up, shallow depth",
-    "layout": "a",
-    "motifs": [
-      "A dramatic close-up of an AI system inte",
-      "A close-up of a technician examining adv",
-      "A focused shot of a person using a high-",
-      "An up-close image of an engineer program",
-      "A macro shot of an AI model's visual rep"
-    ]
-  },
-  {
     "date": "2026-07-26",
     "palette": "amber",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "A developer at a workstation, deeply eng",
       "A close-up of a ranking table on a digit",
       "A futuristic city skyline at dusk, symbo"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "palette": "blue",
+    "art_style": "neon glow synthwave, bloom, dark background",
+    "layout": "a",
+    "motifs": [
+      "A close-up of engineers discussing chip ",
+      "A focused engineer at a workstation, ana",
+      "A group of engineers in a meeting room, ",
+      "A digital padlock icon with binary code ",
+      "A futuristic city skyline at night, illu"
     ]
   }
 ]
