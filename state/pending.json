@@ -1,76 +1,75 @@
 {
   "status": "pending",
-  "created_at": "2026-10-03T04:07:14.742648Z",
+  "created_at": "2026-10-03T04:19:26.757439Z",
   "deadline_min": 120,
-  "caption": "The FTC is launching an investigation into OpenAI, Anthropic, and other AI companies regarding potential product risks. This probe aims to assess how these companies manage safety concerns amid rapid AI development. \nd\nWhat do you think about government oversight in AI?\n\nSources: CNBC, The Verge, TechCrunch\n\n#AI #OpenAI #Anthropic #FTC #Technology #Regulation #Safety #Innovation #ArtificialIntelligence #TechNews #Government #Investigation",
+  "caption": "The FTC is now investigating OpenAI, Anthropic, and other AI companies over product risks. This inquiry aims to assess the potential dangers posed by AI technologies to consumers and society. 4a1\n\nShould there be stricter regulations on AI? \n\nSources: CNBC, The Verge, TechCrunch\n\n#AI #OpenAI #FTC #Anthropic #Technology #Regulation #Safety #Innovation #ConsumerProtection #ArtificialIntelligence #TechNews #Policy",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791000426/everydayhypehq/2026-10-03/040706_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791000427/everydayhypehq/2026-10-03/040706_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791000428/everydayhypehq/2026-10-03/040706_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791000429/everydayhypehq/2026-10-03/040706_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791000429/everydayhypehq/2026-10-03/040706_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791001159/everydayhypehq/2026-10-03/041918_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791001159/everydayhypehq/2026-10-03/041918_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791001160/everydayhypehq/2026-10-03/041918_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791001161/everydayhypehq/2026-10-03/041918_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791001161/everydayhypehq/2026-10-03/041918_slide_5.png"
   ],
   "plan": {
     "palette": "magenta",
-    "art_style": "isometric miniature diorama, tilt-shift",
+    "art_style": "sleek 3D render, octane, glossy materials",
     "layout": "b",
-    "caption": "The FTC is launching an investigation into OpenAI, Anthropic, and other AI companies regarding potential product risks. This probe aims to assess how these companies manage safety concerns amid rapid AI development. \nd\nWhat do you think about government oversight in AI?\n\nSources: CNBC, The Verge, TechCrunch\n\n#AI #OpenAI #Anthropic #FTC #Technology #Regulation #Safety #Innovation #ArtificialIntelligence #TechNews #Government #Investigation",
+    "caption": "The FTC is now investigating OpenAI, Anthropic, and other AI companies over product risks. This inquiry aims to assess the potential dangers posed by AI technologies to consumers and society. 4a1\n\nShould there be stricter regulations on AI? \n\nSources: CNBC, The Verge, TechCrunch\n\n#AI #OpenAI #FTC #Anthropic #Technology #Regulation #Safety #Innovation #ConsumerProtection #ArtificialIntelligence #TechNews #Policy",
     "slides": [
       {
-        "pill": "BREAKING",
-        "headline": "FTC IS INVESTIGATING OPENAI AND ANTHROPIC OVER PRODUCT RISKS",
-        "hl": "PRODUCT RISKS",
-        "hls": [
-          "FTC",
-          "OPENAI",
-          "ANTHROPIC"
-        ],
-        "sub": "Here's what you need to know about this investigation.",
-        "image_prompt": "A dramatic close-up of a gavel being banged on a desk in a courtroom setting, with a blurred background showing legal documents and a tense atmosphere."
-      },
-      {
-        "pill": "",
-        "headline": "THE FTC INITIATED THIS PROBE ON SEPTEMBER 30, 2026",
-        "hl": "SEPTEMBER 30, 2026",
-        "hls": [
-          "FTC",
-          "PROBE"
-        ],
-        "sub": "This marks a significant step in regulating AI technology.",
-        "image_prompt": "A close-up shot of a calendar page turned to September 30, 2026, with a pen resting on it, conveying the importance of the date."
-      },
-      {
-        "pill": "",
-        "headline": "REGULATORS ARE FOCUSING ON SAFETY CONCERNS IN AI PRODUCTS",
-        "hl": "SAFETY CONCERNS",
-        "hls": [
-          "REGULATORS",
-          "SAFETY"
-        ],
-        "sub": "The investigation will scrutinize how companies ensure their products are safe.",
-        "image_prompt": "An intense close-up of a person looking thoughtfully at a computer screen displaying code, with reflections of safety icons subtly in the background."
-      },
-      {
-        "pill": "",
-        "headline": "OPENAI AND ANTHROPIC ARE AMONG SEVERAL COMPANIES UNDER SCRUTINY",
-        "hl": "UNDER SCRUTINY",
+        "pill": "BREAKING 534",
+        "headline": "FTC IS INVESTIGATING OPENAI AND ANTHROPIC OVER AI PRODUCT RISKS",
+        "hl": "OPENAI AND ANTHROPIC",
         "hls": [
           "OPENAI",
           "ANTHROPIC"
         ],
-        "sub": "Other AI companies may also face similar investigations.",
-        "image_prompt": "A macro shot of a group of diverse professionals discussing around a conference table, with AI-related materials spread out before them."
+        "sub": "Here's the latest on the FTC's actions.",
+        "image_prompt": "A close-up shot of a gavel on a desk in a legal setting, with a soft focus on the background showing blurred legal documents."
       },
       {
-        "pill": "THE TAKEAWAY",
-        "headline": "THIS INVESTIGATION COULD IMPACT AI PRODUCT DEVELOPMENT",
-        "hl": "IMPACT AI PRODUCT DEVELOPMENT",
+        "pill": "WHAT HAPPENED 26a1",
+        "headline": "THE FTC'S PROBE TARGETS SEVERAL AI COMPANIES FOR POTENTIAL HARM",
+        "hl": "SEVERAL AI COMPANIES",
         "hls": [
-          "INVESTIGATION",
-          "PRODUCT DEVELOPMENT"
+          "FTC'S PROBE",
+          "AI COMPANIES"
+        ],
+        "sub": "The inquiry includes multiple leading AI firms besides OpenAI.",
+        "image_prompt": "An office environment with legal experts discussing around a conference table, with a blurred focus on legal books on the shelf."
+      },
+      {
+        "pill": "WHY IT MATTERS 1f0d",
+        "headline": "REGULATORS ARE CONCERNED ABOUT AI'S IMPACT ON CONSUMERS",
+        "hl": "IMPACT ON CONSUMERS",
+        "hls": [
+          "REGULATORS ARE CONCERNED",
+          "IMPACT ON CONSUMERS"
+        ],
+        "sub": "The investigation aims to protect consumer rights amid rapid AI advancements.",
+        "image_prompt": "A concerned person looking at a computer screen filled with AI-related news, with a focus on their thoughtful expression."
+      },
+      {
+        "pill": "THE IMPACT 1f10",
+        "headline": "THIS PROBE COULD LEAD TO SIGNIFICANT POLICY CHANGES IN AI",
+        "hl": "SIGNIFICANT POLICY CHANGES",
+        "hls": [
+          "THIS PROBE",
+          "POLICY CHANGES"
+        ],
+        "sub": "A shift in regulations may affect how AI companies operate.",
+        "image_prompt": "A dramatic close-up of a policy document being signed, with a pen poised above the paper."
+      },
+      {
+        "pill": "THE TAKEAWAY 1f25",
+        "headline": "AND IT COULD AFFECT AI REGULATIONS IN THE MARKET",
+        "hl": "AFFECT AI REGULATIONS",
+        "hls": [
+          "AFFECT AI",
+          "REGULATIONS IN THE MARKET"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A dramatic close-up of a light bulb glowing, symbolizing ideas and innovation, with a soft focus on a futuristic city skyline in the background."
+        "image_prompt": "An urban setting showcasing AI technology in action, with people interacting with smart devices in the foreground."
       }
     ],
     "person": "",
@@ -82,5 +81,5 @@
     "date": "2026-10-03"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 978
+  "control_msg_id": 984
 }
