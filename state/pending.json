@@ -1,86 +1,78 @@
 {
-  "status": "posted",
-  "created_at": "2026-10-02T03:53:39.611662Z",
+  "status": "pending",
+  "created_at": "2026-10-03T03:52:04.918357Z",
   "deadline_min": 120,
-  "caption": "OpenAI and Synopsys have formed a strategic partnership to create GPT-Synopsys, an AI model designed to enhance chip design. This new collaboration aims to streamline the chip design process using advanced AI technology. 4a1916\n\nWhat are your thoughts on AI in chip design?\n\nSources: The Decoder\n\n#OpenAI #Synopsys #ChipDesign #AI #Technology #Innovation #Partnership #Semiconductors #EDA #MachineLearning",
+  "caption": "The FTC is probing OpenAI, Anthropic, and other AI firms over potential product risks. This investigation highlights the growing scrutiny of AI technologies by regulatory bodies. 6a8\n\nAre these companies prepared for the challenges ahead?\n\nSources: CNBC\n#OpenAI #AI #FTC #Anthropic #Technology #Regulation #Innovation #ProductSafety #ArtificialIntelligence",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790913212/everydayhypehq/2026-10-02/035332_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790913213/everydayhypehq/2026-10-02/035332_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790913214/everydayhypehq/2026-10-02/035332_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790913214/everydayhypehq/2026-10-02/035332_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790913215/everydayhypehq/2026-10-02/035332_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790999517/everydayhypehq/2026-10-03/035156_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790999517/everydayhypehq/2026-10-03/035156_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790999519/everydayhypehq/2026-10-03/035156_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790999519/everydayhypehq/2026-10-03/035156_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1790999520/everydayhypehq/2026-10-03/035156_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "neon glow synthwave, bloom, dark background",
-    "layout": "a",
-    "caption": "OpenAI and Synopsys have formed a strategic partnership to create GPT-Synopsys, an AI model designed to enhance chip design. This new collaboration aims to streamline the chip design process using advanced AI technology. 4a1916\n\nWhat are your thoughts on AI in chip design?\n\nSources: The Decoder\n\n#OpenAI #Synopsys #ChipDesign #AI #Technology #Innovation #Partnership #Semiconductors #EDA #MachineLearning",
+    "palette": "magenta",
+    "art_style": "dramatic macro close-up, shallow depth",
+    "layout": "b",
+    "caption": "The FTC is probing OpenAI, Anthropic, and other AI firms over potential product risks. This investigation highlights the growing scrutiny of AI technologies by regulatory bodies. 6a8\n\nAre these companies prepared for the challenges ahead?\n\nSources: CNBC\n#OpenAI #AI #FTC #Anthropic #Technology #Regulation #Innovation #ProductSafety #ArtificialIntelligence",
     "slides": [
       {
         "pill": "BREAKING 534",
-        "headline": "OPENAI AND SYNOPSYS JUST LAUNCHED GPT-SYNOPSYS FOR CHIP DESIGN",
-        "hl": "GPT-SYNOPSYS FOR CHIP DESIGN",
-        "hls": [
-          "AI MODEL",
-          "CHIP DESIGN"
-        ],
-        "sub": "This specialized AI model aims to enhance the chip design process.",
-        "image_prompt": "A close-up of engineers discussing chip design plans, with a high-tech atmosphere, dim lighting, and glowing electronic components."
+        "headline": "FTC IS INVESTIGATING OPENAI AND ANTHROPIC OVER PRODUCT RISKS",
+        "hl": "OVER PRODUCT RISKS",
+        "hls": [],
+        "sub": "Here's what you need to know.",
+        "image_prompt": "A close-up of a government building exterior, showing architectural details and a flag."
       },
       {
         "pill": "",
-        "headline": "THIS MULTI-YEAR PARTNERSHIP AIMS TO SPEED UP DESIGN BY 30%",
-        "hl": "SPEED UP DESIGN BY 30%",
+        "headline": "THE INVESTIGATION TARGETS SEVERAL AI COMPANIES IN THE INDUSTRY",
+        "hl": "TARGETS SEVERAL AI COMPANIES",
         "hls": [
-          "MULTI-YEAR PARTNERSHIP",
-          "SPEED UP"
+          "TARGETS SEVERAL AI COMPANIES"
         ],
-        "sub": "Synopsys CEO Sassine Ghazi believes AI can significantly accelerate processes.",
-        "image_prompt": "A focused engineer at a workstation, analyzing chip design software on a computer screen, with glowing design elements around."
+        "sub": "OpenAI and Anthropic are among the most notable firms under scrutiny.",
+        "image_prompt": "A dramatic close-up of a hand holding a smartphone displaying AI technology."
       },
       {
         "pill": "",
-        "headline": "EARLY TESTS WITH SEMICONDUCTOR CUSTOMERS ARE ALREADY UNDERWAY",
-        "hl": "SEMINCONDUCTOR CUSTOMERS",
+        "headline": "REGULATORS AIM TO ADDRESS POTENTIAL RISKS OF AI PRODUCTS",
+        "hl": "ADDRESS POTENTIAL RISKS",
         "hls": [
-          "EARLY TESTS",
-          "UNDERWAY"
+          "ADDRESS POTENTIAL RISKS"
         ],
-        "sub": "Both companies are collaborating to refine the AI model with real-world feedback.",
-        "image_prompt": "A group of engineers in a meeting room, reviewing designs on a large screen, with a futuristic ambiance and digital interfaces."
+        "sub": "The FTC's focus is on how these products impact safety and society.",
+        "image_prompt": "A close-up of a regulatory document with a pen and a coffee cup on a desk."
       },
       {
         "pill": "",
-        "headline": "CUSTOMER DATA WILL BE ENCRYPTED AND NOT USED FOR TRAINING",
-        "hl": "ENCRYPTED AND NOT USED",
+        "headline": "THIS INVESTIGATION COULD INFLUENCE HOW AI IS GOVERNED",
+        "hl": "INFLUENCE HOW AI IS GOVERNED",
         "hls": [
-          "CUSTOMER DATA",
-          "NOT USED"
+          "INFLUENCE HOW AI IS GOVERNED"
         ],
-        "sub": "OpenAI and Synopsys prioritize data security in their collaboration.",
-        "image_prompt": "A digital padlock icon with binary code in the background, symbolizing data security and encryption."
+        "sub": "Outcomes may shape future regulations for AI technologies.",
+        "image_prompt": "A close-up of a diverse group of professionals discussing in a boardroom."
       },
       {
         "pill": "THE TAKEAWAY 525",
-        "headline": "THIS PARTNERSHIP COULD SIGNIFICANTLY IMPACT CHIP DESIGN",
-        "hl": "SIGNIFICANTLY IMPACT CHIP DESIGN",
+        "headline": "REGULATORY SCRUTINY ON AI IS INCREASING AT AN ALARMING RATE",
+        "hl": "INCREASING AT AN ALARMING RATE",
         "hls": [
-          "PARTNERSHIP",
-          "IMPACT"
+          "INCREASING AT AN ALARMING RATE"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic city skyline at night, illuminated with neon lights, symbolizing innovation and technology."
+        "image_prompt": "A close-up of an anxious professional looking at a computer screen with data."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
-      "url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/"
+      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html"
     },
-    "date": "2026-10-02"
+    "date": "2026-10-03"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 965,
-  "resolved_at": "2026-10-02T06:32:11.875886Z"
+  "control_msg_id": 972
 }
