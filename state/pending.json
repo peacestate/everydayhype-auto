@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "posted",
   "created_at": "2026-10-03T04:19:26.757439Z",
   "deadline_min": 120,
   "caption": "The FTC is now investigating OpenAI, Anthropic, and other AI companies over product risks. This inquiry aims to assess the potential dangers posed by AI technologies to consumers and society. 4a1\n\nShould there be stricter regulations on AI? \n\nSources: CNBC, The Verge, TechCrunch\n\n#AI #OpenAI #FTC #Anthropic #Technology #Regulation #Safety #Innovation #ConsumerProtection #ArtificialIntelligence #TechNews #Policy",
@@ -82,5 +82,5 @@
   },
   "chat_id": 8692339206,
   "control_msg_id": 984,
-  "resolved_at": "2026-10-03T20:44:13.405Z"
+  "resolved_at": "2026-10-03T21:31:22.948374Z"
 }

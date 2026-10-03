@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-26",
-    "palette": "amber",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "motifs": [
-      "A futuristic robot in an industrial sett",
-      "Two engineers in a lab, discussing over ",
-      "A close-up of a robotic hand manipulatin",
-      "A visualization of data processing, with",
-      "A dynamic scene of robots in an urban en"
-    ]
-  },
-  {
     "date": "2026-07-27",
     "palette": "purple",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "A group of engineers in a meeting room, ",
       "A digital padlock icon with binary code ",
       "A futuristic city skyline at night, illu"
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "palette": "magenta",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "b",
+    "motifs": [
+      "A close-up shot of a gavel on a desk in ",
+      "An office environment with legal experts",
+      "A concerned person looking at a computer",
+      "A dramatic close-up of a policy document",
+      "An urban setting showcasing AI technolog"
     ]
   }
 ]
