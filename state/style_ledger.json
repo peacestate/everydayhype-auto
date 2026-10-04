@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-27",
-    "palette": "purple",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "c",
-    "motifs": [
-      "A close-up of a researcher analyzing AI ",
-      "A vibrant scene of engineers collaborati",
-      "An AI model visual representation intera",
-      "An abstract visual of AI translating com",
-      "A stunning view of a futuristic city sky"
-    ]
-  },
-  {
     "date": "2026-07-28",
     "palette": "blue",
     "art_style": "double-exposure, silhouette blended with data",
@@ -777,6 +764,19 @@
       "A concerned person looking at a computer",
       "A dramatic close-up of a policy document",
       "An urban setting showcasing AI technolog"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "palette": "cyan",
+    "art_style": "dramatic macro close-up, shallow depth",
+    "layout": "b",
+    "motifs": [
+      "A close-up of a concerned professional i",
+      "A group of diverse professionals in a me",
+      "A thoughtful individual looking out of a",
+      "A close-up of hands typing on a laptop, ",
+      "A dynamic shot of a brainstorming sessio"
     ]
   }
 ]
