@@ -1,86 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-10-03T04:19:26.757439Z",
+  "status": "pending",
+  "created_at": "2026-10-04T03:53:06.023071Z",
   "deadline_min": 120,
-  "caption": "The FTC is now investigating OpenAI, Anthropic, and other AI companies over product risks. This inquiry aims to assess the potential dangers posed by AI technologies to consumers and society. 4a1\n\nShould there be stricter regulations on AI? \n\nSources: CNBC, The Verge, TechCrunch\n\n#AI #OpenAI #FTC #Anthropic #Technology #Regulation #Safety #Innovation #ConsumerProtection #ArtificialIntelligence #TechNews #Policy",
+  "caption": "OpenAI's safety leader has resigned, citing a 'broken' culture within the company. This resignation raises serious questions about the internal dynamics at one of the most influential AI organizations today. \ud83e\udd16\ud83d\udcbc\n\nWhat does this say about corporate culture in tech companies?\n\nSources: The Guardian\n#OpenAI #AIculture #technews #corporateethics #leadership #AI #technology #innovation #workplaceculture #resignation #safety",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791001159/everydayhypehq/2026-10-03/041918_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791001159/everydayhypehq/2026-10-03/041918_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791001160/everydayhypehq/2026-10-03/041918_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791001161/everydayhypehq/2026-10-03/041918_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791001161/everydayhypehq/2026-10-03/041918_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791085978/everydayhypehq/2026-10-04/035258_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791085979/everydayhypehq/2026-10-04/035258_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791085980/everydayhypehq/2026-10-04/035258_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791085980/everydayhypehq/2026-10-04/035258_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791085981/everydayhypehq/2026-10-04/035258_slide_5.png"
   ],
   "plan": {
-    "palette": "magenta",
-    "art_style": "sleek 3D render, octane, glossy materials",
+    "palette": "cyan",
+    "art_style": "dramatic macro close-up, shallow depth",
     "layout": "b",
-    "caption": "The FTC is now investigating OpenAI, Anthropic, and other AI companies over product risks. This inquiry aims to assess the potential dangers posed by AI technologies to consumers and society. 4a1\n\nShould there be stricter regulations on AI? \n\nSources: CNBC, The Verge, TechCrunch\n\n#AI #OpenAI #FTC #Anthropic #Technology #Regulation #Safety #Innovation #ConsumerProtection #ArtificialIntelligence #TechNews #Policy",
+    "person": "",
+    "company": "OpenAI",
+    "caption": "OpenAI's safety leader has resigned, citing a 'broken' culture within the company. This resignation raises serious questions about the internal dynamics at one of the most influential AI organizations today. \ud83e\udd16\ud83d\udcbc\n\nWhat does this say about corporate culture in tech companies?\n\nSources: The Guardian\n#OpenAI #AIculture #technews #corporateethics #leadership #AI #technology #innovation #workplaceculture #resignation #safety",
     "slides": [
       {
-        "pill": "BREAKING 534",
-        "headline": "FTC IS INVESTIGATING OPENAI AND ANTHROPIC OVER AI PRODUCT RISKS",
-        "hl": "OPENAI AND ANTHROPIC",
+        "pill": "BREAKING \ud83d\udd34",
+        "headline": "OPENAI'S SAFETY LEADER RESIGNS, CALLING CULTURE 'BROKEN'",
+        "hl": "CULTURE 'BROKEN'",
         "hls": [
-          "OPENAI",
-          "ANTHROPIC"
+          "SAFETY LEADER RESIGNS",
+          "CALLING CULTURE"
         ],
-        "sub": "Here's the latest on the FTC's actions.",
-        "image_prompt": "A close-up shot of a gavel on a desk in a legal setting, with a soft focus on the background showing blurred legal documents."
+        "sub": "Here's the warning from OpenAI's former safety leader.",
+        "image_prompt": "A close-up of a concerned professional in an office setting, looking distressed while reviewing documents, with a blurred background of a modern office."
       },
       {
-        "pill": "WHAT HAPPENED 26a1",
-        "headline": "THE FTC'S PROBE TARGETS SEVERAL AI COMPANIES FOR POTENTIAL HARM",
-        "hl": "SEVERAL AI COMPANIES",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "THE RESIGNATION COMES AMID GROWING CONCERNS ABOUT SAFETY",
+        "hl": "GROWING CONCERNS",
         "hls": [
-          "FTC'S PROBE",
-          "AI COMPANIES"
+          "RESIGNATION COMES",
+          "ABOUT SAFETY"
         ],
-        "sub": "The inquiry includes multiple leading AI firms besides OpenAI.",
-        "image_prompt": "An office environment with legal experts discussing around a conference table, with a blurred focus on legal books on the shelf."
+        "sub": "Safety issues have been highlighted as priorities within OpenAI.",
+        "image_prompt": "A group of diverse professionals in a meeting room, engaged in a serious discussion, with papers and digital devices scattered on the table."
       },
       {
-        "pill": "WHY IT MATTERS 1f0d",
-        "headline": "REGULATORS ARE CONCERNED ABOUT AI'S IMPACT ON CONSUMERS",
-        "hl": "IMPACT ON CONSUMERS",
+        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "headline": "THIS MOVE SPARKS DEBATE ON AI ETHICS AND WORKPLACE CULTURE",
+        "hl": "DEBATE ON AI ETHICS",
         "hls": [
-          "REGULATORS ARE CONCERNED",
-          "IMPACT ON CONSUMERS"
+          "SPARKS DEBATE",
+          "WORKPLACE CULTURE"
         ],
-        "sub": "The investigation aims to protect consumer rights amid rapid AI advancements.",
-        "image_prompt": "A concerned person looking at a computer screen filled with AI-related news, with a focus on their thoughtful expression."
+        "sub": "Concerns over ethics are increasingly relevant in tech environments.",
+        "image_prompt": "A thoughtful individual looking out of a window, contemplating the future, with city skyline in the background, symbolizing innovation and uncertainty."
       },
       {
-        "pill": "THE IMPACT 1f10",
-        "headline": "THIS PROBE COULD LEAD TO SIGNIFICANT POLICY CHANGES IN AI",
-        "hl": "SIGNIFICANT POLICY CHANGES",
+        "pill": "THE IMPACT \ud83d\udd10",
+        "headline": "OPENAI FACES PRESSURE TO ADDRESS INTERNAL ISSUES IMMEDIATELY",
+        "hl": "ADDRESS INTERNAL ISSUES",
         "hls": [
-          "THIS PROBE",
-          "POLICY CHANGES"
+          "FACES PRESSURE",
+          "IMMEDIATELY"
         ],
-        "sub": "A shift in regulations may affect how AI companies operate.",
-        "image_prompt": "A dramatic close-up of a policy document being signed, with a pen poised above the paper."
+        "sub": "Immediate action is needed to restore trust and safety.",
+        "image_prompt": "A close-up of hands typing on a laptop, with a notebook and coffee cup beside it, illustrating a busy work environment."
       },
       {
-        "pill": "THE TAKEAWAY 1f25",
-        "headline": "AND IT COULD AFFECT AI REGULATIONS IN THE MARKET",
-        "hl": "AFFECT AI REGULATIONS",
+        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "headline": "A BROKEN CULTURE CAN IMPACT AI SAFETY AND INNOVATION",
+        "hl": "A BROKEN CULTURE",
         "hls": [
-          "AFFECT AI",
-          "REGULATIONS IN THE MARKET"
+          "IMPACT AI SAFETY",
+          "AND INNOVATION"
         ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "An urban setting showcasing AI technology in action, with people interacting with smart devices in the foreground."
+        "image_prompt": "A dynamic shot of a brainstorming session with sticky notes on a wall, showing a creative and collaborative atmosphere."
       }
     ],
-    "person": "",
-    "company": "",
     "story": {
-      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
-      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html"
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken"
     },
-    "date": "2026-10-03"
+    "date": "2026-10-04"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 984,
-  "resolved_at": "2026-10-03T21:31:22.948374Z"
+  "control_msg_id": 991
 }
