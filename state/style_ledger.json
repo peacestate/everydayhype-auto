@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-28",
-    "palette": "blue",
-    "art_style": "double-exposure, silhouette blended with data",
-    "layout": "a",
-    "motifs": [
-      "A busy airport parking lot with a roboti",
-      "A traveler interacting with a robotic as",
-      "A close-up of a digital display at an ai",
-      "An aerial view of Gatwick Airport showin",
-      "A futuristic vision of an airport with r"
-    ]
-  },
-  {
     "date": "2026-07-29",
     "palette": "cyan",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "A thoughtful individual looking out of a",
       "A close-up of hands typing on a laptop, ",
       "A dynamic shot of a brainstorming sessio"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "palette": "red",
+    "art_style": "double-exposure, silhouette blended with data",
+    "layout": "c",
+    "motifs": [
+      "A researcher in a lab, analyzing data on",
+      "An AI agent represented as a digital ent",
+      "Close-up of hands adjusting a complex ma",
+      "A data analyst reviewing performance gra",
+      "An inspiring view of a futuristic city s"
     ]
   }
 ]
