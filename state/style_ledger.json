@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-29",
-    "palette": "cyan",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "a",
-    "motifs": [
-      "A close-up of a computer screen displayi",
-      "A researcher in a lab setting, studying ",
-      "An overhead view of a research team brai",
-      "A close-up of a hand operating a digital",
-      "A futuristic cityscape representing digi"
-    ]
-  },
-  {
     "date": "2026-07-30",
     "palette": "magenta",
     "art_style": "sleek 3D render, octane, glossy materials",
@@ -777,6 +764,19 @@
       "Close-up of hands adjusting a complex ma",
       "A data analyst reviewing performance gra",
       "An inspiring view of a futuristic city s"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "palette": "amber",
+    "art_style": "sleek 3D render, octane, glossy materials",
+    "layout": "a",
+    "motifs": [
+      "A futuristic laboratory filled with adva",
+      "A close-up of a digital display showing ",
+      "Rows of NVIDIA GPUs in a data center, wi",
+      "A side-by-side comparison of two AI syst",
+      "A thoughtful scientist pondering over da"
     ]
   }
 ]
