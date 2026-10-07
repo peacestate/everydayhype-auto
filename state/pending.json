@@ -1,71 +1,70 @@
 {
-  "status": "posted",
-  "created_at": "2026-10-06T03:53:10.816133Z",
+  "status": "pending",
+  "created_at": "2026-10-07T03:52:52.563886Z",
   "deadline_min": 120,
-  "caption": "Reflection has just unveiled Beam, their first open-weight model with 501 billion parameters. This model boasts 23 billion active parameters and has been trained on 23.8 trillion tokens, enhancing its capabilities for coding and reasoning tasks. \ud83d\ude80\n\nWhat do you think of open-weight models like Beam?\n\nSources: Reflection AI, TechCrunch\n#AI #MachineLearning #TechNews #OpenWeightModels #Innovation #Coding #ArtificialIntelligence #AIResearch #Reflection",
+  "caption": "Mistral just launched the public preview of their largest AI model, Mistral Large 4, also known as 'le Chonk'. With a staggering 1 trillion parameters, it's designed for elite performance across various sectors. 30d4bb\n\nAre you ready to explore advanced AI models?\n\nSources: Mistral.ai, TechCrunch\n#Mistral #AI #MachineLearning #TechNews #Innovation #Cybersecurity #OpenSource #AIModels #AIResearch #MachineLearningModels #TechUpdates #DataScience",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791258781/everydayhypehq/2026-10-06/035301_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791258782/everydayhypehq/2026-10-06/035301_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791258783/everydayhypehq/2026-10-06/035301_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791258784/everydayhypehq/2026-10-06/035301_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791258785/everydayhypehq/2026-10-06/035301_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791345165/everydayhypehq/2026-10-07/035245_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791345166/everydayhypehq/2026-10-07/035245_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791345166/everydayhypehq/2026-10-07/035245_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791345167/everydayhypehq/2026-10-07/035245_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791345167/everydayhypehq/2026-10-07/035245_slide_5.png"
   ],
   "plan": {
-    "palette": "amber",
-    "art_style": "sleek 3D render, octane, glossy materials",
-    "layout": "a",
-    "person": "",
-    "company": "Reflection",
-    "caption": "Reflection has just unveiled Beam, their first open-weight model with 501 billion parameters. This model boasts 23 billion active parameters and has been trained on 23.8 trillion tokens, enhancing its capabilities for coding and reasoning tasks. \ud83d\ude80\n\nWhat do you think of open-weight models like Beam?\n\nSources: Reflection AI, TechCrunch\n#AI #MachineLearning #TechNews #OpenWeightModels #Innovation #Coding #ArtificialIntelligence #AIResearch #Reflection",
+    "palette": "purple",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "caption": "Mistral just launched the public preview of their largest AI model, Mistral Large 4, also known as 'le Chonk'. With a staggering 1 trillion parameters, it's designed for elite performance across various sectors. 30d4bb\n\nAre you ready to explore advanced AI models?\n\nSources: Mistral.ai, TechCrunch\n#Mistral #AI #MachineLearning #TechNews #Innovation #Cybersecurity #OpenSource #AIModels #AIResearch #MachineLearningModels #TechUpdates #DataScience",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "REFLECTION JUST LAUNCHED BEAM, A 501B OPEN-WEIGHT MODEL",
-        "hl": "501B OPEN-WEIGHT MODEL",
+        "pill": "BREAKING 534",
+        "headline": "MISTRAL JUST LAUNCHED AI MODEL WITH 1 TRILLION PARAMETERS",
+        "hl": "1 TRILLION PARAMETERS",
         "hls": [],
-        "sub": "Here's what you need to know",
-        "image_prompt": "A futuristic laboratory filled with advanced AI research equipment, scientists discussing around a computer screen, bright and high-tech environment."
+        "sub": "Meet Mistral Large 4, also known as 'le Chonk'.",
+        "image_prompt": "A high-tech AI lab with advanced computers and GPUs, showcasing engineers working collaboratively. The atmosphere is bright and futuristic."
       },
       {
-        "pill": "",
-        "headline": "BEAM IS BUILT WITH 23.8 TRILLION TOKENS FROM DIVERSE SOURCES",
-        "hl": "23.8 TRILLION TOKENS",
+        "pill": "WHAT HAPPENED \u26a1",
+        "headline": "ML4 SURPASSES ALL OTHER OPEN-WEIGHT MODELS IN PERFORMANCE",
+        "hl": "SURPASSES ALL OTHER OPEN-WEIGHT MODELS",
         "hls": [],
-        "sub": "It matches or outperforms similar-sized open models.",
-        "image_prompt": "A close-up of a digital display showing complex data patterns, with researchers analyzing results in the background."
+        "sub": "It shows exceptional capabilities in coding and cybersecurity tasks.",
+        "image_prompt": "A close-up of a computer screen displaying complex code, with an engineer analyzing the data, deep in thought."
       },
       {
-        "pill": "",
-        "headline": "OVER 100 MILLION ROLLOUTS GENERATED ON 10.5K NVIDIA GPUs",
-        "hl": "100 MILLION ROLLOUTS",
+        "pill": "WHY IT MATTERS 30d",
+        "headline": "BUILT ON 3,800 NVIDIA GPUS IN EUROPEAN DATACENTERS",
+        "hl": "3,800 NVIDIA GPUS",
         "hls": [],
-        "sub": "This training took place over four weeks of high-compute RL.",
-        "image_prompt": "Rows of NVIDIA GPUs in a data center, with blinking lights and cables, showcasing a powerful computing environment."
+        "sub": "This infrastructure supports advanced AI sovereignty and autonomy.",
+        "image_prompt": "An expansive data center filled with rows of powerful GPUs, illuminated with blue and green lights, emphasizing a high-tech environment."
       },
       {
-        "pill": "",
-        "headline": "BEAM RIVALS GLM 5.2 AND QWEN 3.8-MAX IN PERFORMANCE",
-        "hl": "RIVALS GLM 5.2",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "ML4 WILL BE AVAILABLE ACROSS MULTIPLE REGIONS WORLDWIDE",
+        "hl": "AVAILABLE ACROSS MULTIPLE REGIONS",
         "hls": [],
-        "sub": "It achieves efficiency at inference time compared to larger models.",
-        "image_prompt": "A side-by-side comparison of two AI systems in action, with vibrant displays of their coding capabilities."
+        "sub": "Open weights will enhance control and security for organizations.",
+        "image_prompt": "A diverse group of professionals from different industries discussing AI applications in a modern meeting room."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "BEAM DELIVERS STRONG CAPABILITIES AT LOWER COSTS",
-        "hl": "LOWER COSTS",
+        "pill": "THE IMPACT 10",
+        "headline": "MISTRAL'S ML4 COULD ENHANCE CYBERSECURITY STRATEGIES",
+        "hl": "ENHANCE CYBERSECURITY STRATEGIES",
         "hls": [],
-        "sub": "This may change the landscape of open-weight models.",
-        "image_prompt": "A thoughtful scientist pondering over data charts, with a backdrop of futuristic AI concepts displayed on screens."
+        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
+        "image_prompt": "A professional cybersecurity analyst monitoring network traffic on multiple screens, analyzing data for potential threats."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "Beam: Reflection's 501B open-weight model",
-      "url": "https://reflection.ai/blog/introducing-beam"
+      "title": "Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/\\"
     },
-    "date": "2026-10-06"
+    "date": "2026-10-07"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 1005,
-  "resolved_at": "2026-10-06T06:31:55.196318Z"
+  "control_msg_id": 1012
 }
