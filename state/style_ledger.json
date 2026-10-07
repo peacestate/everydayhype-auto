@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-30",
-    "palette": "magenta",
-    "art_style": "sleek 3D render, octane, glossy materials",
-    "layout": "a",
-    "motifs": [
-      "A close-up shot of a person working on a",
-      "An over-the-shoulder view of a person sh",
-      "A digital representation of interconnect",
-      "An image of a Microsoft office with empl",
-      "A dramatic shot of a digital security lo"
-    ]
-  },
-  {
     "date": "2026-07-31",
     "palette": "red",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "Rows of NVIDIA GPUs in a data center, wi",
       "A side-by-side comparison of two AI syst",
       "A thoughtful scientist pondering over da"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "palette": "purple",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "b",
+    "motifs": [
+      "A high-tech AI lab with advanced compute",
+      "A close-up of a computer screen displayi",
+      "An expansive data center filled with row",
+      "A diverse group of professionals from di",
+      "A professional cybersecurity analyst mon"
     ]
   }
 ]
