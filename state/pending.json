@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-10-07T03:52:52.563886Z",
   "deadline_min": 120,
   "caption": "Mistral just launched the public preview of their largest AI model, Mistral Large 4, also known as 'le Chonk'. With a staggering 1 trillion parameters, it's designed for elite performance across various sectors. 30d4bb\n\nAre you ready to explore advanced AI models?\n\nSources: Mistral.ai, TechCrunch\n#Mistral #AI #MachineLearning #TechNews #Innovation #Cybersecurity #OpenSource #AIModels #AIResearch #MachineLearningModels #TechUpdates #DataScience",
@@ -25,7 +25,7 @@
         "image_prompt": "A high-tech AI lab with advanced computers and GPUs, showcasing engineers working collaboratively. The atmosphere is bright and futuristic."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "ML4 SURPASSES ALL OTHER OPEN-WEIGHT MODELS IN PERFORMANCE",
         "hl": "SURPASSES ALL OTHER OPEN-WEIGHT MODELS",
         "hls": [],
@@ -66,5 +66,6 @@
     "date": "2026-10-07"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 1012
+  "control_msg_id": 1012,
+  "resolved_at": "2026-10-07T03:53:09.755Z"
 }
