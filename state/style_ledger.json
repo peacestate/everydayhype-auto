@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-07-31",
-    "palette": "red",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "motifs": [
-      "A humanoid robot with articulated limbs,",
-      "A close-up of a humanoid robot's hands m",
-      "Two humanoid robots working together to ",
-      "A setting showing multiple types of robo",
-      "A futuristic environment with various ro"
-    ]
-  },
-  {
     "date": "2026-08-01",
     "palette": "green",
     "art_style": "neon glow synthwave, bloom, dark background",
@@ -777,6 +764,19 @@
       "An expansive data center filled with row",
       "A diverse group of professionals from di",
       "A professional cybersecurity analyst mon"
+    ]
+  },
+  {
+    "date": "2026-10-08",
+    "palette": "green",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A high-tech AI lab with engineers workin",
+      "Close-up of a computer screen displaying",
+      "A diverse group of people engaged in dis",
+      "Security professionals monitoring cyber ",
+      "A confident business leader presenting A"
     ]
   }
 ]
