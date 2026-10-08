@@ -1,71 +1,85 @@
 {
-  "status": "posted",
-  "created_at": "2026-10-07T03:52:52.563886Z",
+  "status": "pending",
+  "created_at": "2026-10-08T03:53:16.418164Z",
   "deadline_min": 120,
-  "caption": "Mistral just launched the public preview of their largest AI model, Mistral Large 4, also known as 'le Chonk'. With a staggering 1 trillion parameters, it's designed for elite performance across various sectors. 30d4bb\n\nAre you ready to explore advanced AI models?\n\nSources: Mistral.ai, TechCrunch\n#Mistral #AI #MachineLearning #TechNews #Innovation #Cybersecurity #OpenSource #AIModels #AIResearch #MachineLearningModels #TechUpdates #DataScience",
+  "caption": "Mistral has just launched its latest model, Mistral Large 4, also known as 'Le Chonk'. With a total of 1 trillion parameters, it sets a new standard in open-weight performance. The model is currently in public preview and aims to enhance performance across enterprise workloads.\n\nThe model will be available globally, focusing on sectors like cybersecurity, finance, and law. 680\n\nShould more companies invest in open-weight AI models?\n\nSources: Mistral.ai, TechCrunch\n\n#Mistral #AI #MachineLearning #OpenSource #Cybersecurity #Finance #Innovation #ArtificialIntelligence #TechNews #TechBreakthroughs #DataScience #ModelLaunch",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791345165/everydayhypehq/2026-10-07/035245_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791345166/everydayhypehq/2026-10-07/035245_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791345166/everydayhypehq/2026-10-07/035245_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791345167/everydayhypehq/2026-10-07/035245_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791345167/everydayhypehq/2026-10-07/035245_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791431589/everydayhypehq/2026-10-08/035309_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791431590/everydayhypehq/2026-10-08/035309_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791431591/everydayhypehq/2026-10-08/035309_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791431591/everydayhypehq/2026-10-08/035309_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791431592/everydayhypehq/2026-10-08/035309_slide_5.png"
   ],
   "plan": {
-    "palette": "purple",
+    "palette": "green",
     "art_style": "photoreal cinematic, volumetric light, 8k",
-    "layout": "b",
-    "caption": "Mistral just launched the public preview of their largest AI model, Mistral Large 4, also known as 'le Chonk'. With a staggering 1 trillion parameters, it's designed for elite performance across various sectors. 30d4bb\n\nAre you ready to explore advanced AI models?\n\nSources: Mistral.ai, TechCrunch\n#Mistral #AI #MachineLearning #TechNews #Innovation #Cybersecurity #OpenSource #AIModels #AIResearch #MachineLearningModels #TechUpdates #DataScience",
+    "layout": "a",
+    "caption": "Mistral has just launched its latest model, Mistral Large 4, also known as 'Le Chonk'. With a total of 1 trillion parameters, it sets a new standard in open-weight performance. The model is currently in public preview and aims to enhance performance across enterprise workloads.\n\nThe model will be available globally, focusing on sectors like cybersecurity, finance, and law. 680\n\nShould more companies invest in open-weight AI models?\n\nSources: Mistral.ai, TechCrunch\n\n#Mistral #AI #MachineLearning #OpenSource #Cybersecurity #Finance #Innovation #ArtificialIntelligence #TechNews #TechBreakthroughs #DataScience #ModelLaunch",
     "slides": [
       {
         "pill": "BREAKING 534",
-        "headline": "MISTRAL JUST LAUNCHED AI MODEL WITH 1 TRILLION PARAMETERS",
-        "hl": "1 TRILLION PARAMETERS",
-        "hls": [],
-        "sub": "Meet Mistral Large 4, also known as 'le Chonk'.",
-        "image_prompt": "A high-tech AI lab with advanced computers and GPUs, showcasing engineers working collaboratively. The atmosphere is bright and futuristic."
+        "headline": "MISTRAL JUST LAUNCHED A TRILLION-PARAMETER MODEL CALLED 'LE CHONK'",
+        "hl": "TRILLION-PARAMETER MODEL",
+        "hls": [
+          "TRILLION-PARAMETER",
+          "LE CHONK"
+        ],
+        "sub": "This model pushes the frontier of open-weight performance.",
+        "image_prompt": "A high-tech AI lab with engineers working on computers, showcasing advanced hardware, bright lighting, and a futuristic atmosphere."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "ML4 SURPASSES ALL OTHER OPEN-WEIGHT MODELS IN PERFORMANCE",
-        "hl": "SURPASSES ALL OTHER OPEN-WEIGHT MODELS",
-        "hls": [],
-        "sub": "It shows exceptional capabilities in coding and cybersecurity tasks.",
-        "image_prompt": "A close-up of a computer screen displaying complex code, with an engineer analyzing the data, deep in thought."
+        "pill": "",
+        "headline": "ML4 HAS 52 BILLION ACTIVE PARAMETERS FOR MULTIMODAL PERFORMANCE",
+        "hl": "52 BILLION ACTIVE PARAMETERS",
+        "hls": [
+          "52 BILLION",
+          "MULTIMODAL PERFORMANCE"
+        ],
+        "sub": "This model excels in coding and agentic workflows.",
+        "image_prompt": "Close-up of a computer screen displaying complex code and algorithms, with a focused engineer analyzing the data."
       },
       {
-        "pill": "WHY IT MATTERS 30d",
-        "headline": "BUILT ON 3,800 NVIDIA GPUS IN EUROPEAN DATACENTERS",
-        "hl": "3,800 NVIDIA GPUS",
-        "hls": [],
-        "sub": "This infrastructure supports advanced AI sovereignty and autonomy.",
-        "image_prompt": "An expansive data center filled with rows of powerful GPUs, illuminated with blue and green lights, emphasizing a high-tech environment."
+        "pill": "",
+        "headline": "OVER 160 LANGUAGES WERE USED IN TRAINING DATA FOR ML4",
+        "hl": "OVER 160 LANGUAGES",
+        "hls": [
+          "160 LANGUAGES",
+          "TRAINING DATA"
+        ],
+        "sub": "The model is designed for global usability and understanding.",
+        "image_prompt": "A diverse group of people engaged in discussions, symbolizing multilingual collaboration in a modern workspace."
       },
       {
-        "pill": "THE TAKEAWAY 525",
-        "headline": "ML4 WILL BE AVAILABLE ACROSS MULTIPLE REGIONS WORLDWIDE",
-        "hl": "AVAILABLE ACROSS MULTIPLE REGIONS",
-        "hls": [],
-        "sub": "Open weights will enhance control and security for organizations.",
-        "image_prompt": "A diverse group of professionals from different industries discussing AI applications in a modern meeting room."
+        "pill": "",
+        "headline": "MISTRAL'S MODEL IS DEEMED STATE-OF-THE-ART IN CYBERSECURITY",
+        "hl": "STATE-OF-THE-ART",
+        "hls": [
+          "STATE-OF-THE-ART",
+          "CYBERSECURITY"
+        ],
+        "sub": "It outperforms other open-weight models in critical enterprise sectors.",
+        "image_prompt": "Security professionals monitoring cyber threats in a modern command center, with screens showing live data and alerts."
       },
       {
-        "pill": "THE IMPACT 10",
-        "headline": "MISTRAL'S ML4 COULD ENHANCE CYBERSECURITY STRATEGIES",
-        "hl": "ENHANCE CYBERSECURITY STRATEGIES",
-        "hls": [],
+        "pill": "THE TAKEAWAY 625",
+        "headline": "ML4 OFFERS OPEN WEIGHTS FOR MAXIMUM CONTROL IN AI DEPLOYMENT",
+        "hl": "OPEN WEIGHTS FOR MAXIMUM CONTROL",
+        "hls": [
+          "OPEN WEIGHTS",
+          "MAXIMUM CONTROL"
+        ],
         "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A professional cybersecurity analyst monitoring network traffic on multiple screens, analyzing data for potential threats."
+        "image_prompt": "A confident business leader presenting AI technology to a boardroom, with graphs and models displayed in the background."
       }
     ],
     "person": "",
     "company": "",
     "story": {
-      "title": "Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4/\\"
+      "title": "Mistral Large 4: \"Le Chonk\"",
+      "url": "https://mistral.ai/news/mistral-large-4/"
     },
-    "date": "2026-10-07"
+    "date": "2026-10-08"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 1012,
-  "resolved_at": "2026-10-07T06:32:07.377870Z"
+  "control_msg_id": 1019
 }
