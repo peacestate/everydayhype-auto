@@ -1,8 +1,8 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-10-09T03:53:12.108158Z",
   "deadline_min": 120,
-  "caption": "South Korea has announced that artificial intelligence agents were likely involved in recent bank hacks, raising serious concerns about cybersecurity. The implications of this development could reshape security protocols across the financial sector. \ud83c\udfe6\ud83d\udd12\n\nWhat should banks do to enhance their cybersecurity?\n\nSources: Reuters\n\n#AI #Cybersecurity #Banking #SouthKorea #Technology #Hacking #FinancialSecurity #ArtificialIntelligence #DataProtection #Innovation #TechNews",
+  "caption": "South Korea has announced that artificial intelligence agents were likely involved in recent bank hacks, raising serious concerns about cybersecurity. The implications of this development could reshape security protocols across the financial sector. 🏦🔒\n\nWhat should banks do to enhance their cybersecurity?\n\nSources: Reuters\n\n#AI #Cybersecurity #Banking #SouthKorea #Technology #Hacking #FinancialSecurity #ArtificialIntelligence #DataProtection #Innovation #TechNews",
   "image_urls": [
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791517985/everydayhypehq/2026-10-09/035305_slide_1.png",
     "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791517986/everydayhypehq/2026-10-09/035305_slide_2.png",
@@ -16,10 +16,10 @@
     "layout": "a",
     "person": "",
     "company": "South Korea",
-    "caption": "South Korea has announced that artificial intelligence agents were likely involved in recent bank hacks, raising serious concerns about cybersecurity. The implications of this development could reshape security protocols across the financial sector. \ud83c\udfe6\ud83d\udd12\n\nWhat should banks do to enhance their cybersecurity?\n\nSources: Reuters\n\n#AI #Cybersecurity #Banking #SouthKorea #Technology #Hacking #FinancialSecurity #ArtificialIntelligence #DataProtection #Innovation #TechNews",
+    "caption": "South Korea has announced that artificial intelligence agents were likely involved in recent bank hacks, raising serious concerns about cybersecurity. The implications of this development could reshape security protocols across the financial sector. 🏦🔒\n\nWhat should banks do to enhance their cybersecurity?\n\nSources: Reuters\n\n#AI #Cybersecurity #Banking #SouthKorea #Technology #Hacking #FinancialSecurity #ArtificialIntelligence #DataProtection #Innovation #TechNews",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
+        "pill": "BREAKING 🔴",
         "headline": "SOUTH KOREA SAYS AI AGENTS WERE USED IN BANK HACKS",
         "hl": "AI AGENTS WERE USED",
         "hls": [
@@ -30,7 +30,7 @@
         "image_prompt": "A South Korean bank building with a digital overlay, suggesting cyber activity, nighttime, neon lights reflecting on glass."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
+        "pill": "WHAT HAPPENED ⚡",
         "headline": "THE HACKS TARGETED MULTIPLE BANKS ACROSS THE COUNTRY",
         "hl": "MULTIPLE BANKS",
         "hls": [
@@ -41,7 +41,7 @@
         "image_prompt": "An office interior of a bank with worried employees discussing around a conference table, papers and laptops scattered."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
+        "pill": "WHY IT MATTERS 🌍",
         "headline": "CYBERSECURITY EXPERTS WARN OF INCREASED AI-RELATED THREATS",
         "hl": "INCREASED AI-RELATED THREATS",
         "hls": [
@@ -52,7 +52,7 @@
         "image_prompt": "A cybersecurity analyst working at a computer, looking concerned, with multiple screens showing security analytics."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
+        "pill": "THE IMPACT 🔐",
         "headline": "BANKS MAY NEED TO REASSESS THEIR SECURITY MEASURES",
         "hl": "REASSESS THEIR SECURITY MEASURES",
         "hls": [
@@ -63,7 +63,7 @@
         "image_prompt": "Bank security team meeting with charts and plans on a whiteboard, intense discussion and focus."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
+        "pill": "THE TAKEAWAY 🔥",
         "headline": "THIS COULD CHANGE HOW BANKS APPROACH SECURITY",
         "hl": "CHANGE HOW BANKS APPROACH",
         "hls": [
@@ -81,5 +81,6 @@
     "date": "2026-10-09"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 1026
+  "control_msg_id": 1026,
+  "resolved_at": "2026-10-09T04:03:01.005Z"
 }
