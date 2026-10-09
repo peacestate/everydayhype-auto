@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-08-01",
-    "palette": "green",
-    "art_style": "neon glow synthwave, bloom, dark background",
-    "layout": "b",
-    "motifs": [
-      "A dramatic scene showing a cybersecurity",
-      "Close-up of a computer screen displaying",
-      "A tense atmosphere in a server room, sho",
-      "An abstract representation of malware be",
-      "A group of diverse professionals in a st"
-    ]
-  },
-  {
     "date": "2026-08-02",
     "palette": "amber",
     "art_style": "dramatic macro close-up, shallow depth",
@@ -777,6 +764,19 @@
       "A diverse group of people engaged in dis",
       "Security professionals monitoring cyber ",
       "A confident business leader presenting A"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "palette": "blue",
+    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "layout": "a",
+    "motifs": [
+      "A South Korean bank building with a digi",
+      "An office interior of a bank with worrie",
+      "A cybersecurity analyst working at a com",
+      "Bank security team meeting with charts a",
+      "A futuristic bank security control room "
     ]
   }
 ]
