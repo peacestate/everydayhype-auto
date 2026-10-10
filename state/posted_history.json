@@ -371,5 +371,9 @@
   {
     "date": "2026-10-09",
     "title": "South Korea says AI agents appear to have been used to hack the country's banks"
+  },
+  {
+    "date": "2026-10-10",
+    "title": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows"
   }
 ]

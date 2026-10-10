@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-08-02",
-    "palette": "amber",
-    "art_style": "dramatic macro close-up, shallow depth",
-    "layout": "a",
-    "motifs": [
-      "A close-up of a mathematician's hands wo",
-      "A dramatic macro shot of an old, dusty m",
-      "A close-up of a calculator displaying a ",
-      "An image of a researcher collaborating w",
-      "A visually stunning close-up of a mathem"
-    ]
-  },
-  {
     "date": "2026-08-03",
     "palette": "purple",
     "art_style": "photoreal cinematic, volumetric light, 8k",
@@ -777,6 +764,19 @@
       "A cybersecurity analyst working at a com",
       "Bank security team meeting with charts a",
       "A futuristic bank security control room "
+    ]
+  },
+  {
+    "date": "2026-10-10",
+    "palette": "magenta",
+    "art_style": "neon glow synthwave, bloom, dark background",
+    "layout": "a",
+    "motifs": [
+      "A futuristic control room filled with gl",
+      "Close-up of a tech expert working with a",
+      "A focused software engineer examining co",
+      "An office scene with a diverse team of p",
+      "A vibrant cityscape at night, symbolizin"
     ]
   }
 ]
