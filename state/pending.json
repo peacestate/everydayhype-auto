@@ -1,86 +1,80 @@
 {
-  "status": "posted",
-  "created_at": "2026-10-09T03:53:12.108158Z",
+  "status": "pending",
+  "created_at": "2026-10-10T03:53:10.721512Z",
   "deadline_min": 120,
-  "caption": "South Korea has announced that artificial intelligence agents were likely involved in recent bank hacks, raising serious concerns about cybersecurity. The implications of this development could reshape security protocols across the financial sector. \ud83c\udfe6\ud83d\udd12\n\nWhat should banks do to enhance their cybersecurity?\n\nSources: Reuters\n\n#AI #Cybersecurity #Banking #SouthKorea #Technology #Hacking #FinancialSecurity #ArtificialIntelligence #DataProtection #Innovation #TechNews",
+  "caption": "Anthropic has introduced dynamic workflows that allow Claude to orchestrate up to 1,000 AI agents simultaneously. This new feature enhances task distribution and result merging, significantly boosting efficiency. \n\nCould this shift in multi-agent orchestration improve AI capabilities?\n\nSources: The Decoder, TechCrunch, AI News\n#AI #Anthropic #Claude #MultiAgent #DynamicWorkflows #TechInnovation #ArtificialIntelligence #Efficiency #AIOrchestration #AgentSystems #FutureOfWork",
   "image_urls": [
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791517985/everydayhypehq/2026-10-09/035305_slide_1.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791517986/everydayhypehq/2026-10-09/035305_slide_2.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791517986/everydayhypehq/2026-10-09/035305_slide_3.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791517987/everydayhypehq/2026-10-09/035305_slide_4.png",
-    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791517987/everydayhypehq/2026-10-09/035305_slide_5.png"
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791604384/everydayhypehq/2026-10-10/035304_slide_1.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791604384/everydayhypehq/2026-10-10/035304_slide_2.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791604385/everydayhypehq/2026-10-10/035304_slide_3.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791604385/everydayhypehq/2026-10-10/035304_slide_4.png",
+    "https://res.cloudinary.com/dov3mi4ro/image/upload/v1791604386/everydayhypehq/2026-10-10/035304_slide_5.png"
   ],
   "plan": {
-    "palette": "blue",
-    "art_style": "photoreal cinematic, volumetric light, 8k",
+    "palette": "magenta",
+    "art_style": "neon glow synthwave, bloom, dark background",
     "layout": "a",
-    "person": "",
-    "company": "South Korea",
-    "caption": "South Korea has announced that artificial intelligence agents were likely involved in recent bank hacks, raising serious concerns about cybersecurity. The implications of this development could reshape security protocols across the financial sector. \ud83c\udfe6\ud83d\udd12\n\nWhat should banks do to enhance their cybersecurity?\n\nSources: Reuters\n\n#AI #Cybersecurity #Banking #SouthKorea #Technology #Hacking #FinancialSecurity #ArtificialIntelligence #DataProtection #Innovation #TechNews",
+    "caption": "Anthropic has introduced dynamic workflows that allow Claude to orchestrate up to 1,000 AI agents simultaneously. This new feature enhances task distribution and result merging, significantly boosting efficiency. \n\nCould this shift in multi-agent orchestration improve AI capabilities?\n\nSources: The Decoder, TechCrunch, AI News\n#AI #Anthropic #Claude #MultiAgent #DynamicWorkflows #TechInnovation #ArtificialIntelligence #Efficiency #AIOrchestration #AgentSystems #FutureOfWork",
     "slides": [
       {
-        "pill": "BREAKING \ud83d\udd34",
-        "headline": "SOUTH KOREA SAYS AI AGENTS WERE USED IN BANK HACKS",
-        "hl": "AI AGENTS WERE USED",
+        "pill": "BREAKING 534",
+        "headline": "ANTHROPIC'S CLAUDE NOW CONTROLS UP TO 1,000 AI AGENTS IN PARALLEL",
+        "hl": "UP TO 1,000 AI AGENTS",
         "hls": [
-          "AI AGENTS",
-          "BANK HACKS"
+          "1,000 AI AGENTS"
         ],
-        "sub": "Here's what you need to know",
-        "image_prompt": "A South Korean bank building with a digital overlay, suggesting cyber activity, nighttime, neon lights reflecting on glass."
+        "sub": "This allows for enhanced task management and efficiency.",
+        "image_prompt": "A futuristic control room filled with glowing screens and AI interfaces, showing multiple AI agents in action, with a tech-savvy human overseeing the operations."
       },
       {
-        "pill": "WHAT HAPPENED \u26a1",
-        "headline": "THE HACKS TARGETED MULTIPLE BANKS ACROSS THE COUNTRY",
-        "hl": "MULTIPLE BANKS",
+        "pill": "WHAT HAPPENED 6a1",
+        "headline": "DYNAMIC WORKFLOWS ENABLE TASK DISTRIBUTION AMONG AGENTS",
+        "hl": "TASK DISTRIBUTION",
         "hls": [
-          "TARGETED",
-          "MULTIPLE BANKS"
+          "DYNAMIC WORKFLOWS"
         ],
-        "sub": "At least three major banks reported unauthorized access.",
-        "image_prompt": "An office interior of a bank with worried employees discussing around a conference table, papers and laptops scattered."
+        "sub": "A lead agent creates plans and distributes tasks to sub-agents.",
+        "image_prompt": "Close-up of a tech expert working with a sleek computer, displaying a dynamic workflow interface with visual representations of AI tasks being assigned."
       },
       {
-        "pill": "WHY IT MATTERS \ud83c\udf0d",
-        "headline": "CYBERSECURITY EXPERTS WARN OF INCREASED AI-RELATED THREATS",
-        "hl": "INCREASED AI-RELATED THREATS",
+        "pill": "THE IMPACT 4c8",
+        "headline": "CLAUDE'S WORKFLOWS CONSISTENTLY HIT 66 BUGS FOUND IN TESTING",
+        "hl": "66 BUGS FOUND",
         "hls": [
-          "CYBERSECURITY",
-          "AI-RELATED THREATS"
+          "66 BUGS"
         ],
-        "sub": "Experts believe this could become a growing trend in financial crimes.",
-        "image_prompt": "A cybersecurity analyst working at a computer, looking concerned, with multiple screens showing security analytics."
+        "sub": "Testing showed a significant increase in bug detection compared to single agents.",
+        "image_prompt": "A focused software engineer examining code on multiple monitors, with graphs and bug reports illuminated on the screens, showcasing analysis and problem solving."
       },
       {
-        "pill": "THE IMPACT \ud83d\udd10",
-        "headline": "BANKS MAY NEED TO REASSESS THEIR SECURITY MEASURES",
-        "hl": "REASSESS THEIR SECURITY MEASURES",
+        "pill": "WHY IT MATTERS 30d",
+        "headline": "START SMALL: DYNAMIC WORKFLOWS CAN BURN THROUGH TOKENS",
+        "hl": "BURN THROUGH TOKENS",
         "hls": [
-          "NEED TO REASSESS",
-          "SECURITY MEASURES"
+          "DYNAMIC WORKFLOWS"
         ],
-        "sub": "Stronger protocols are essential to counter AI-driven threats.",
-        "image_prompt": "Bank security team meeting with charts and plans on a whiteboard, intense discussion and focus."
+        "sub": "Anthropic recommends cautious initial use to manage costs effectively.",
+        "image_prompt": "An office scene with a diverse team of professionals brainstorming around a table, with laptops and AI models displayed, illustrating collaboration and strategic planning."
       },
       {
-        "pill": "THE TAKEAWAY \ud83d\udd25",
-        "headline": "THIS COULD CHANGE HOW BANKS APPROACH SECURITY",
-        "hl": "CHANGE HOW BANKS APPROACH",
+        "pill": "THE TAKEAWAY 525",
+        "headline": "COULD THIS CHANGE HOW AI AGENTS WORK TOGETHER?",
+        "hl": "AI AGENTS WORK TOGETHER",
         "hls": [
-          "CHANGE HOW",
-          "BANKS APPROACH"
+          "AI AGENTS"
         ],
-        "sub": "Follow @everydayhypehq for daily AI + Tech breakthroughs.",
-        "image_prompt": "A futuristic bank security control room with advanced technology and screens displaying threat analysis."
+        "sub": "The implications for efficiency and collaboration in AI are substantial.",
+        "image_prompt": "A vibrant cityscape at night, symbolizing innovation and technology, with illuminated skyscrapers and digital overlays of AI networks connecting the buildings."
       }
     ],
+    "person": "",
+    "company": "",
     "story": {
-      "title": "South Korea says AI agents appear to have been used to hack the country's banks",
-      "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/"
+      "title": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
+      "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/"
     },
-    "date": "2026-10-09"
+    "date": "2026-10-10"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 1026,
-  "resolved_at": "2026-10-09T06:32:27.052405Z"
+  "control_msg_id": 1033
 }
