@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "approved",
   "created_at": "2026-10-11T03:52:52.875866Z",
   "deadline_min": 120,
   "caption": "TypeSafe AI has just raised an impressive $870 million in a Series A funding round, bringing its valuation to $7.5 billion. Led by Andreessen Horowitz, this funding will significantly enhance their capabilities in AI development and infrastructure. \n\nWhat features are you most excited to see from TypeSafe AI?\n\nSources: TypeSafe AI Blog, TechCrunch\n\n#TypeSafeAI #Funding #SeriesA #AI #Investment #TechNews #Startup #AndreessenHorowitz #SequoiaCapital #Innovation #TechInvestment",
@@ -81,5 +81,6 @@
     "date": "2026-10-11"
   },
   "chat_id": 8692339206,
-  "control_msg_id": 1040
+  "control_msg_id": 1040,
+  "resolved_at": "2026-10-11T04:01:12.113Z"
 }
